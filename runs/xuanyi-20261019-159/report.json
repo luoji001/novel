@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-159",
+  "profile": "悬疑推理",
+  "title": "铜印",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13210,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12654,
+    "chapter_chars_mean": 2531,
+    "chapter_chars_median": 3003,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 47.8,
+    "dialogue_chars_pct": 31.4,
+    "dialogue_para_pct": 70.8,
+    "interiority_para_pct": 14.4,
+    "narration_para_pct": 14.8,
+    "turn_under20_pct": 79.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.4,
+    "attr_adv_pct": 4.3,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 3.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲汇款单边缘",
+      "chars": 1466,
+      "score": 83.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "铜印映照旧报纸",
+      "chars": 3358,
+      "score": 86.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲汇款单边缘",
+      "chars": 3538,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "摩挲信纸边缘",
+      "chars": 3137,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "抚摸木牌边缘",
+      "chars": 1706,
+      "score": 92.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 29.6 高于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林秀兰的」×4",
+      "dialogue_chars_pct 18.5 低于目标 20.0",
+      "interiority_para_pct 23.3 高于目标 20.0",
+      "narration_para_pct 18.6 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林秀兰的」×7、「陈海山的」×5",
+      "narration_para_pct 10.7 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「1982年3月15日…」）",
+      "[observe] 标题重复：「摩挲汇款单边缘」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「林秀兰的」×10、「陈海山的」×4",
+      "narration_para_pct 13.3 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「你说得没错，我不该回来…」）",
+      "[observe] 标题与《摩挲汇款单边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「林秀兰的」×5",
+      "narration_para_pct 11.8 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「1982年3月15日…」）",
+      "[observe] 与历史章节逐字重复 3 句（如「我发现了些奇怪的东西…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 225.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T15:20:29"
+}

@@ -1,0 +1,152 @@
+开始：xuanyi-20261019-164（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-164
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 账本上的数字（short，1942字）李建国发现账目亏空，怀疑账本有误
+     2. 铜珠的痕迹（normal，3238字）李建国发现算盘珠上有不寻常的划痕
+     3. 钥匙的用途（normal，3238字）李建国找到老式钥匙并尝试打开储物柜
+     4. 举报信的来源（normal，3238字）李建国在储物柜中发现未寄出的举报信
+     5. 面粉的重量（short，1942字）李建国发现未拆封的面粉重量与账目不符
+
+  继续：novel-agent approve xuanyi-20261019-164 --accept
+  打回：novel-agent approve xuanyi-20261019-164 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-164
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-164
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第2章第5场「揭示算盘珠的划痕与账目亏空有关，但仍扣住亏空原因未明」与第2章第6场「揭示算盘珠的划痕与储物柜内的物品有关，但仍扣住物品性质不明」信息重合 0.62（同一章内）
+    - 第2章第5场「揭示算盘珠的划痕与账目亏空有关，但仍扣住亏空原因未明」与第4章第6场「揭示举报信的内容涉及账目亏空，但仍扣住亏空的真正原因」信息重合 0.62
+    - 第4章第1场「揭示举报信的存在，但仍扣住举报信的内容」与第4章第2场「揭示举报信的格式与粮站日常记录一致，但仍扣住举报信的具体内容」信息重合 0.69（同一章内）
+    - 第4章第1场「揭示举报信的存在，但仍扣住举报信的内容」与第4章第3场「揭示举报信的落款人是粮站内部人员，但仍扣住举报信的真正来源」信息重合 0.62（同一章内）
+    第1章 3 场：揭示账本上的数字与实际库存不符， | 揭示账本记录的某笔支出与实际账目 | 揭示账本最后一页的数字与李建国工
+    第2章 6 场：揭示算盘珠表面有细微划痕，但仍扣 | 揭示算盘珠被长期放置于储物柜内， | 揭示算盘珠曾被他人触碰，但仍扣住 | 揭示算盘珠与仓库内的面粉有关，但 | 揭示算盘珠的划痕与账目亏空有关， | 揭示算盘珠的划痕与储物柜内的物品
+    第3章 6 场：揭示李建国发现账目亏空与工资相符 | 揭示老式钥匙存在储物柜，但仍扣住 | 揭示陈志强知晓钥匙的存在，但仍扣 | 揭示钥匙能打开储物柜，但仍扣住储 | 揭示储物柜内有未拆封的面粉，但仍 | 揭示面粉与账目亏空存在直接联系，
+    第4章 6 场：揭示举报信的存在，但仍扣住举报信 | 揭示举报信的格式与粮站日常记录一 | 揭示举报信的落款人是粮站内部人员 | 揭示举报信的日期是1972年，但 | 揭示举报信的署名者是赵美兰，但仍 | 揭示举报信的内容涉及账目亏空，但
+    第5章 3 场：揭示面粉袋的重量比账目记录少，但 | 揭示面粉袋的包装完好无损，但仍扣 | 揭示面粉袋的重量与账目记录存在固
+
+  继续：novel-agent approve xuanyi-20261019-164 --accept
+  打回：novel-agent approve xuanyi-20261019-164 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-164
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-164
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-164/report.md
+
+  继续：novel-agent approve xuanyi-20261019-164 --accept
+  打回：novel-agent approve xuanyi-20261019-164 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-164
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-164
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-164
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-164

@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-125",
+  "profile": "悬疑推理",
+  "title": "暗格",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15474,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14715,
+    "chapter_chars_mean": 2943,
+    "chapter_chars_median": 3670,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 61.8,
+    "dialogue_chars_pct": 35.7,
+    "dialogue_para_pct": 70.1,
+    "interiority_para_pct": 9.1,
+    "narration_para_pct": 20.8,
+    "turn_under20_pct": 75.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.4,
+    "attr_adv_pct": 11.6,
+    "scenes_per_chapter": 5.2,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "黑衣人消失",
+      "chars": 1918,
+      "score": 99.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙失踪",
+      "chars": 3818,
+      "score": 81.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "收据背面字迹",
+      "chars": 3961,
+      "score": 87.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "打卡记录疑云",
+      "chars": 4099,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "冷藏柜门缝光亮",
+      "chars": 1673,
+      "score": 93.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈文远的」×4",
+      "narration_para_pct 12.2 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林子安的」×5、「带着一丝」×3",
+      "dialogue_chars_pct 16.4 低于目标 20.0",
+      "interiority_para_pct 20.6 高于目标 20.0",
+      "[observe] 章内自我复读 20 句（如「他站起身走到桌子前面，伸手去够那个盒子，指尖刚碰…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×5、「林子安的」×5、「陈文远的」×3",
+      "[observe] 章内自我复读 14 句（如「他知道，这次的任务不仅仅是找到缺失的药品那么简单…」）",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈文远的」×9、「林子安的」×6、「“我不知道」×4",
+      "narration_para_pct 8.5 低于目标 20.0",
+      "[observe] 章内自我复读 20 句（如「陈文远抬起头，眼神透着一种沉思，“但我总觉得这事…」）"
+    ],
+    "5": [
+      "narration_para_pct 16.7 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:56:42"
+}

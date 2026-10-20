@@ -1,0 +1,115 @@
+{
+  "consistency": "1. 第一章和第五章均提到“注销卡的最后使用记录”，但未明确说明这两章是否为同一章节，存在标题重复导致的混淆。  \n2. 第二章提到“未寄出的快递单地址与失踪同事的家一致”，但未明确指出该快递单与哪位同事相关，导致信息不完整。  \n3. 第三章提到“已注销的员工王凯门禁卡竟在系统中重新出现”，但未说明王凯是否为失踪同事，导致人物身份关联不清晰。  \n4. 第四章提到“王凯未完成的离职申请表”，但未说明该申请表是否与失踪事件有关，导致线索断裂。  \n5. 第五章提到“王凯死亡时间与监控记录不符”，但未说明监控记录具体为何不符，导致矛盾缺乏依据。",
+  "slug": "xuanyi-20261019-100",
+  "profile": "悬疑推理",
+  "title": "注销卡",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15845,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15099,
+    "chapter_chars_mean": 3020,
+    "chapter_chars_median": 3217,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 65.8,
+    "dialogue_chars_pct": 39.6,
+    "dialogue_para_pct": 77.6,
+    "interiority_para_pct": 9.4,
+    "narration_para_pct": 12.9,
+    "turn_under20_pct": 77.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.3,
+    "attr_adv_pct": 7.8,
+    "scenes_per_chapter": 4.8,
+    "dialogue_run_mean": 7.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "注销卡的最后使用记录",
+      "chars": 1992,
+      "score": 97.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "注销卡的最后使用记录",
+      "chars": 4236,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "敲击键盘的手指",
+      "chars": 4010,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "签名字迹未干",
+      "chars": 3365,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "注销卡的最后使用记录",
+      "chars": 2237,
+      "score": 92.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈雪梅的」×8、「林振华的」×5",
+      "narration_para_pct 9.3 低于目标 20.0",
+      "dialogue_run_mean 13 高于目标 10.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "[observe] 标题重复：「注销卡的最后使用记录」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「陈雪梅点」×3",
+      "narration_para_pct 4.3 低于目标 20.0",
+      "dialogue_run_mean 14 高于目标 10.0",
+      "[observe] 章内自我复读 2 句（如「他是我们这里的老员工，去年不幸去世了…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈雪梅的」×7、「”陈雪梅轻」×3",
+      "narration_para_pct 10.4 低于目标 20.0",
+      "attr_adv_pct 10.5 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈雪梅的」×4、「林振华的」×4",
+      "narration_para_pct 17.8 低于目标 20.0",
+      "[observe] 标题重复：「注销卡的最后使用记录」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 250.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:54:40"
+}

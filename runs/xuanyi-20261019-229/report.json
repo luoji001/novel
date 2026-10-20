@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-229",
+  "profile": "悬疑推理",
+  "title": "签名瓶",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15026,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14376,
+    "chapter_chars_mean": 2875,
+    "chapter_chars_median": 3304,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 56.6,
+    "dialogue_chars_pct": 29.6,
+    "dialogue_para_pct": 69.2,
+    "interiority_para_pct": 12.9,
+    "narration_para_pct": 17.9,
+    "turn_under20_pct": 80.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.0,
+    "attr_adv_pct": 13.6,
+    "scenes_per_chapter": 4.8,
+    "dialogue_run_mean": 3.8,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "玻璃瓶里的二十粒药",
+      "chars": 1870,
+      "score": 97.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "登记簿的消失痕迹",
+      "chars": 3840,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "处方单上的陌生名字",
+      "chars": 3509,
+      "score": 86.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "钢笔的磨损处",
+      "chars": 3486,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "怀表与处方单相遇",
+      "chars": 2316,
+      "score": 80.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林素云的」×3",
+      "narration_para_pct 5.6 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周启明的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「林素云的」×4",
+      "narration_para_pct 19.0 低于目标 20.0",
+      "[observe] 章内自我复读 21 句（如「她记得那天，整个医院都在忙，好像是某个重要的会议…」）",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「周启明的」×9、「林素云的」×8、「“我不知道」×3",
+      "narration_para_pct 9.5 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「林素云的心跳加快了几分…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 15.9 低于目标 20.0",
+      "interiority_para_pct 22.5 高于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「虽然她知道这样做可能会引起某些人的不满，但对于真…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 239.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:11:05"
+}

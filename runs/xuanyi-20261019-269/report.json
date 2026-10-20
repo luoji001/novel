@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-269",
+  "profile": "悬疑推理",
+  "title": "药房登记簿",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13726,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13121,
+    "chapter_chars_mean": 2624,
+    "chapter_chars_median": 3253,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 52,
+    "dialogue_chars_pct": 36.9,
+    "dialogue_para_pct": 80.9,
+    "interiority_para_pct": 8.8,
+    "narration_para_pct": 10.3,
+    "turn_under20_pct": 68.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.7,
+    "attr_adv_pct": 4.7,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 6.7,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记簿上的指纹",
+      "chars": 1318,
+      "score": 97.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "抚摸旧处方单的指痕",
+      "chars": 3567,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "墨迹与签名对峙",
+      "chars": 3452,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "触摸处方单的指尖",
+      "chars": 3407,
+      "score": 87.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "登记簿上的日期不符",
+      "chars": 1977,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 13.0 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周玉兰的」×6、「沈文远站在」×3、「沈文远的」×3",
+      "narration_para_pct 7.5 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈文远的」×8、「周玉兰的」×7",
+      "narration_para_pct 7.3 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周玉兰的」×10、「沈文远的」×3、「为什么会」×3",
+      "narration_para_pct 8.7 低于目标 20.0",
+      "dialogue_run_mean 10.3 高于目标 10.0",
+      "[observe] 标题与《抚摸旧处方单的指痕》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈文远站在」×3",
+      "[observe] 标题与《登记簿上的指纹》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 217.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:50:28"
+}

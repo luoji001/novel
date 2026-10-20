@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "监控存储卡",
+    "beat": "林子安发现监控存储卡中的记录与实际情况不符",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控存储卡",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "值班日志",
+    "beat": "林子安核对值班日志时发现时间错位",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "值班日志",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "病历本",
+    "beat": "林子安在药房内发现一本写有患者姓名和病历信息的纸质病历本",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "病历本",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "员工考勤记录",
+    "beat": "周文远发现员工考勤记录中存在异常",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "员工考勤记录",
+    "speakers": [
+      "周文远"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "后台管理系统",
+    "beat": "周文远尝试通过后台管理系统查看监控记录时发现系统被篡改",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "后台管理系统",
+    "speakers": [
+      "周文远"
+    ]
+  }
+]

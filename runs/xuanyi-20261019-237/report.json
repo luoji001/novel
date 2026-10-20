@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-237",
+  "profile": "悬疑推理",
+  "title": "重叠的红光",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15247,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14477,
+    "chapter_chars_mean": 2895,
+    "chapter_chars_median": 3520,
+    "chapter_chars_cv": 0.4,
+    "paragraphs_mean": 69.2,
+    "dialogue_chars_pct": 49.6,
+    "dialogue_para_pct": 81.8,
+    "interiority_para_pct": 5.7,
+    "narration_para_pct": 12.6,
+    "turn_under20_pct": 74.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.3,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 6.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫描仪的双影",
+      "chars": 1856,
+      "score": 97.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "工牌的特殊标记",
+      "chars": 4165,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "工牌的阴影倾斜",
+      "chars": 3873,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "工牌的阴影倾斜",
+      "chars": 3731,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "包裹的微妙触碰",
+      "chars": 1617,
+      "score": 92.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈思远的」×6",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「林婉如的」×4",
+      "narration_para_pct 12.6 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「但我在他的身上看到了一些熟悉的迹象，就好像……他…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「为什么会」×4、「南方速递集团」×4、「陈思远的」×3",
+      "dialogue_chars_pct 60.1 高于目标 58.0",
+      "narration_para_pct 5.5 低于目标 20.0",
+      "attr_adv_pct 17.9 高于目标 10.0",
+      "dialogue_run_mean 11.9 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林婉如的」×7、「他知道自己」×3",
+      "narration_para_pct 13.3 低于目标 20.0",
+      "[observe] 标题重复：「工牌的阴影倾斜」已存在"
+    ],
+    "5": [
+      "narration_para_pct 8.3 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 230.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:30:23"
+}

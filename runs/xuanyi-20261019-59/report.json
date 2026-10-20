@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-59",
+  "profile": "悬疑推理",
+  "title": "旧信",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14087,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13537,
+    "chapter_chars_mean": 2707,
+    "chapter_chars_median": 3198,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 47.2,
+    "dialogue_chars_pct": 22.8,
+    "dialogue_para_pct": 61.2,
+    "interiority_para_pct": 16.0,
+    "narration_para_pct": 22.8,
+    "turn_under20_pct": 81.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.1,
+    "attr_adv_pct": 9.3,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 4.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "凝视泛黄账本",
+      "chars": 1874,
+      "score": 84.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "触摸锈蚀信箱锁孔",
+      "chars": 3311,
+      "score": 45.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "触摸泛黄信笺",
+      "chars": 3404,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲裂痕算盘珠",
+      "chars": 3519,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "触摸褪色统计图",
+      "chars": 1974,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 12.5 低于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林永年站在」×3、「他知道这」×3",
+      "dialogue_chars_pct 16.7 低于目标 20.0",
+      "interiority_para_pct 26.5 高于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林永年的」×5、「“我不知道」×3、「”陈素梅轻」×3",
+      "[observe] attr_adv_pct 28.6 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「林永年的」×4、「陈素梅的」×3"
+    ],
+    "5": [
+      "narration_para_pct 2.3 低于目标 20.0",
+      "dialogue_run_mean 13 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 229.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:13:13"
+}

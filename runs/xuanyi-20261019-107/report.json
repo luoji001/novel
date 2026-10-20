@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-107",
+  "profile": "悬疑推理",
+  "title": "端砚",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13586,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12980,
+    "chapter_chars_mean": 2596,
+    "chapter_chars_median": 3232,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 53,
+    "dialogue_chars_pct": 34.0,
+    "dialogue_para_pct": 70.2,
+    "interiority_para_pct": 13.2,
+    "narration_para_pct": 16.7,
+    "turn_under20_pct": 69.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.0,
+    "attr_adv_pct": 10.3,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 4.4,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲砚台纹路",
+      "chars": 1679,
+      "score": 98.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摩挲伤疤思索",
+      "chars": 3446,
+      "score": 86.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲旧收据纹路",
+      "chars": 3375,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲铜牌铭文",
+      "chars": 3411,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲书页残标",
+      "chars": 1670,
+      "score": 93.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 7.5 低于目标 20.0"
+    ],
+    "2": [
+      "interiority_para_pct 20.4 高于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5",
+      "[observe] 章内自我复读 23 句（如「雨声渐渐变小，天色渐暗，他依旧坐在那里，手中的《…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈砚生的」×5",
+      "[observe] 标题与《摩挲砚台纹路》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周怀远的」×4、「”周怀远轻」×3、「微微一笑」×3",
+      "narration_para_pct 5.2 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ],
+    "5": [
+      "narration_para_pct 16.7 低于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 232.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:12:10"
+}

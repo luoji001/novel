@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-116",
+  "profile": "悬疑推理",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13862,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13238,
+    "chapter_chars_mean": 2648,
+    "chapter_chars_median": 3103,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 53.2,
+    "dialogue_chars_pct": 33.6,
+    "dialogue_para_pct": 70.7,
+    "interiority_para_pct": 13.5,
+    "narration_para_pct": 15.7,
+    "turn_under20_pct": 77.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.5,
+    "attr_adv_pct": 5.7,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 4.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钥匙的刻痕",
+      "chars": 1882,
+      "score": 89.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "铁皮盒的凹凸纹路",
+      "chars": 3647,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "纸页上的模糊地址",
+      "chars": 3249,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "泥土中的粮袋痕迹",
+      "chars": 3449,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铜钥匙的刻痕",
+      "chars": 1630,
+      "score": 92.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 19.3 低于目标 20.0",
+      "interiority_para_pct 24.2 高于目标 20.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「沈怀瑾的」×13、「他知道这」×3",
+      "narration_para_pct 18.2 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「周婉如的声音在他身后响起，“这是一种特殊的标记，…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈怀瑾的」×7、「沈怀瑾站在」×3、「他知道这」×3",
+      "narration_para_pct 13.8 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周婉如的」×6、「沈怀瑾的」×6",
+      "narration_para_pct 14.5 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周婉如的」×4、「沈怀瑾的」×3",
+      "narration_para_pct 6.9 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）",
+      "[observe] 标题重复：「铜钥匙的刻痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 219.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:34:25"
+}

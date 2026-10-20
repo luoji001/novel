@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-188",
+  "profile": "悬疑推理",
+  "title": "水表转动",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14132,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13485,
+    "chapter_chars_mean": 2697,
+    "chapter_chars_median": 3239,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 57.6,
+    "dialogue_chars_pct": 23.9,
+    "dialogue_para_pct": 57.9,
+    "interiority_para_pct": 14.2,
+    "narration_para_pct": 27.8,
+    "turn_under20_pct": 87.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.5,
+    "attr_adv_pct": 2.5,
+    "scenes_per_chapter": 4,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "水表指针转动",
+      "chars": 1981,
+      "score": 97.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "电费单",
+      "chars": 3400,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "水表仍在转动",
+      "chars": 3574,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "钥匙转动声",
+      "chars": 3384,
+      "score": 0.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "纸币静静躺着",
+      "chars": 1788,
+      "score": 91.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏婉清的」×3、「林振东的」×3",
+      "narration_para_pct 17.1 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「”苏婉清轻」×3、「林振东的」×3、「为什么会」×3",
+      "narration_para_pct 18.7 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林振东的」×7、「苏婉清的」×4、「他知道自己」×3",
+      "narration_para_pct 17.8 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「苏婉清回答道，“你怎么知道我会在这里…」）",
+      "[observe] 标题与《水表指针转动》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「林振东站在」×5",
+      "interiority_para_pct 25.5 高于目标 20.0",
+      "dialogue_run_mean 1.1 低于目标 1.5",
+      "[observe] dialogue_chars_pct 4.7 < 6.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「林振东的」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 219.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:29:47"
+}

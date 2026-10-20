@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-241",
+  "profile": "悬疑推理",
+  "title": "显影液",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14487,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13916,
+    "chapter_chars_mean": 2783,
+    "chapter_chars_median": 3460,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 49.6,
+    "dialogue_chars_pct": 17.8,
+    "dialogue_para_pct": 48.1,
+    "interiority_para_pct": 17.8,
+    "narration_para_pct": 34.1,
+    "turn_under20_pct": 88.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.4,
+    "attr_adv_pct": 9.0,
+    "scenes_per_chapter": 4.4,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "显影机的异响",
+      "chars": 1789,
+      "score": 73.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "登记簿的折痕",
+      "chars": 3612,
+      "score": 84.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "显影机的纸屑",
+      "chars": 3672,
+      "score": 17.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 4,
+      "title": "档案袋的指纹",
+      "chars": 3694,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "显影机的裂痕",
+      "chars": 1715,
+      "score": 66.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 4.0 低于目标 20.0",
+      "dialogue_run_mean 1.3 低于目标 1.5"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈国强的」×5、「带着一丝」×3",
+      "dialogue_chars_pct 15.7 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「之后，他抬头看了看窗外，仿佛在等待什么人或者事情…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈国强的」×9",
+      "dialogue_chars_pct 8.4 低于目标 20.0",
+      "interiority_para_pct 29.2 高于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 章内自我复读 2 句（如「今天下午，有人来找我要了一张照片…」）",
+      "[observe] 标题与《显影机的异响》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「周雪梅的」×3、「为什么会」×3",
+      "narration_para_pct 12.0 低于目标 20.0",
+      "attr_adv_pct 15.2 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈国强的」×3",
+      "dialogue_chars_pct 7.1 低于目标 20.0",
+      "interiority_para_pct 28.0 高于目标 20.0",
+      "[observe] 标题与《显影机的异响》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 221.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:40:30"
+}

@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-64",
+  "profile": "悬疑推理",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 16225,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15398,
+    "chapter_chars_mean": 3080,
+    "chapter_chars_median": 3376,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 74.8,
+    "dialogue_chars_pct": 41.3,
+    "dialogue_para_pct": 84.0,
+    "interiority_para_pct": 6.7,
+    "narration_para_pct": 9.3,
+    "turn_under20_pct": 82.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.6,
+    "attr_adv_pct": 20.4,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 8.5,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "掀开铁皮箱盖",
+      "chars": 2025,
+      "score": 97.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "摩挲钥匙的指尖",
+      "chars": 4566,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲粮票的指尖",
+      "chars": 3848,
+      "score": 85.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "摩挲账本的指尖",
+      "chars": 3547,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "摩挲口袋的指尖",
+      "chars": 2234,
+      "score": 91.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周淑芬的」×6、「陈志远的」×5",
+      "narration_para_pct 13.2 低于目标 20.0",
+      "[observe] attr_adv_pct 57.1 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周淑芬的」×8、「“我不知道」×5、「陈志远的」×4",
+      "narration_para_pct 10.5 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「有些事，知道了也无济于事…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈志远的」×8、「”周淑芬低」×4、「周淑芬的」×4",
+      "narration_para_pct 1.1 低于目标 20.0",
+      "dialogue_run_mean 20.8 高于目标 10.0",
+      "[observe] 标题与《摩挲钥匙的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「周淑芬的」×8、「陈志远的」×6、「他知道这」×4",
+      "narration_para_pct 10.3 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「陈志远抬起头，直视着她的眼睛…」）",
+      "[observe] attr_adv_pct 30.8 > 20.0（结构塌缩）",
+      "[observe] 标题与《摩挲粮票的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「周淑芬的」×10、「“我不知道」×3、「陈志远的」×3",
+      "narration_para_pct 16.1 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 标题与《摩挲粮票的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 247.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:25:46"
+}

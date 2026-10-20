@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-169",
+  "profile": "悬疑推理",
+  "title": "空页",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14643,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13916,
+    "chapter_chars_mean": 2783,
+    "chapter_chars_median": 3206,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 64.6,
+    "dialogue_chars_pct": 36.7,
+    "dialogue_para_pct": 70.6,
+    "interiority_para_pct": 10.5,
+    "narration_para_pct": 18.9,
+    "turn_under20_pct": 76.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.4,
+    "attr_adv_pct": 26.3,
+    "scenes_per_chapter": 5.4,
+    "dialogue_run_mean": 4.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "空白纸页的低语",
+      "chars": 1780,
+      "score": 94.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "算盘与登记本的错位",
+      "chars": 3934,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钢笔的双重印记",
+      "chars": 3600,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "指纹的微光",
+      "chars": 3357,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "钥匙上的陌生指纹",
+      "chars": 1967,
+      "score": 81.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 17.2 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×4、「林素华的」×4、「陈国栋点」×3",
+      "narration_para_pct 15.6 低于目标 20.0",
+      "[observe] attr_adv_pct 40.0 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「林素华的」×4",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「为什么会」×4",
+      "narration_para_pct 11.6 低于目标 20.0",
+      "[observe] attr_adv_pct 44.4 > 20.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈国栋的」×5",
+      "interiority_para_pct 28.1 高于目标 20.0",
+      "narration_para_pct 15.6 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 232.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T15:45:00"
+}

@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-260",
+  "profile": "悬疑推理",
+  "title": "注销卡",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14913,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14299,
+    "chapter_chars_mean": 2860,
+    "chapter_chars_median": 3044,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 53,
+    "dialogue_chars_pct": 32.1,
+    "dialogue_para_pct": 64.3,
+    "interiority_para_pct": 14.3,
+    "narration_para_pct": 21.3,
+    "turn_under20_pct": 67.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.3,
+    "attr_adv_pct": 15.0,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "异常刷卡时间点",
+      "chars": 1784,
+      "score": 98.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "撕裂的门锁记录表",
+      "chars": 4126,
+      "score": 81.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "系统漏洞被发现",
+      "chars": 3181,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "电话响起时的凝滞空气",
+      "chars": 3879,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "绿萝叶片的触感",
+      "chars": 1938,
+      "score": 93.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×4、「不仅仅是」×3、「沈婉如的」×3",
+      "dialogue_chars_pct 14.9 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「突然，他注意到一个微小的细节——在那个身影进入办…」）",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈婉如的」×4、「”沈婉如轻」×3、「带着一丝」×3",
+      "narration_para_pct 9.8 低于目标 20.0",
+      "[observe] 章内自我复读 5 句（如「她转身走向工作台，“如果你真想知道答案，或许应该…」）",
+      "[observe] attr_adv_pct 21.4 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「林振东的」×6",
+      "narration_para_pct 19.7 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 9.5 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 240.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:27:52"
+}

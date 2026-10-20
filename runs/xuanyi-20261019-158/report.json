@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-158",
+  "profile": "悬疑推理",
+  "title": "绣花绷",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13303,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12644,
+    "chapter_chars_mean": 2529,
+    "chapter_chars_median": 3021,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 57.6,
+    "dialogue_chars_pct": 40.1,
+    "dialogue_para_pct": 75.3,
+    "interiority_para_pct": 10.8,
+    "narration_para_pct": 13.8,
+    "turn_under20_pct": 78.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 13.7,
+    "attr_adv_pct": 6.7,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 4.6,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "绣花绷上的丝线痕迹",
+      "chars": 1928,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "绣花绷上的针脚痕迹",
+      "chars": 3307,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 3,
+      "title": "指尖拂过绢面",
+      "chars": 3373,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "指尖拂过绣花针",
+      "chars": 3176,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "指尖拂过绣花针",
+      "chars": 1514,
+      "score": 72.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「顾青梧的」×3",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「顾青梧的」×6",
+      "narration_para_pct 7.1 低于目标 20.0",
+      "[observe] 章内自我复读 19 句（如「他顿了顿，从抽屉取出一本陈旧账册，在摊开的页面翻…」）",
+      "[observe] 标题与《绣花绷上的丝线痕迹》近似 0.78 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈怀瑾的」×7、「他知道这」×3",
+      "narration_para_pct 14.3 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×3、「微微一笑」×3",
+      "narration_para_pct 2.9 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 标题与《指尖拂过绢面》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "dialogue_chars_pct 12.7 低于目标 20.0",
+      "interiority_para_pct 22.2 高于目标 20.0",
+      "dialogue_run_mean 1.1 低于目标 1.5",
+      "[observe] 标题重复：「指尖拂过绣花针」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T15:18:00"
+}

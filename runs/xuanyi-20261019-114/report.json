@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-114",
+  "profile": "悬疑推理",
+  "title": "蓝布",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14629,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13932,
+    "chapter_chars_mean": 2786,
+    "chapter_chars_median": 3193,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 61.6,
+    "dialogue_chars_pct": 43.1,
+    "dialogue_para_pct": 79.6,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 14.4,
+    "turn_under20_pct": 71.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.8,
+    "attr_adv_pct": 12.6,
+    "scenes_per_chapter": 4.2,
+    "dialogue_run_mean": 5.5,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "算盘拨动的瞬间",
+      "chars": 1808,
+      "score": 94.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜尺丈量的秘密",
+      "chars": 4001,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "木牌与账簿对照",
+      "chars": 3623,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "布料被移走的夜晚",
+      "chars": 3367,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "布料消失的账页",
+      "chars": 1825,
+      "score": 91.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 16.0 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈德昌的」×4、「陈德昌点了点头」×3",
+      "narration_para_pct 16.2 低于目标 20.0",
+      "[observe] 章内自我复读 23 句（如「他回头看向周玉兰，语气低沉：“你知道这件布料是从…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「为什么会」×3、「老城区仓库」×3",
+      "narration_para_pct 13.4 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「老城区仓库」×3",
+      "narration_para_pct 15.2 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「这确实是蓝色棉布没错…」）"
+    ],
+    "5": [
+      "narration_para_pct 9.5 低于目标 20.0",
+      "[observe] attr_adv_pct 23.5 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 237.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:29:34"
+}

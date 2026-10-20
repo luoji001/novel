@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-193",
+  "profile": "悬疑推理",
+  "title": "铜钱",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13418,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12749,
+    "chapter_chars_mean": 2550,
+    "chapter_chars_median": 2960,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 58.6,
+    "dialogue_chars_pct": 37.3,
+    "dialogue_para_pct": 75.1,
+    "interiority_para_pct": 8.3,
+    "narration_para_pct": 16.7,
+    "turn_under20_pct": 76.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.8,
+    "attr_adv_pct": 16.5,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 4.5,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "掀开账本的一角",
+      "chars": 1518,
+      "score": 97.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜钱与陶罐对谈",
+      "chars": 3340,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "墨水瓶里的玉碎痕迹",
+      "chars": 3107,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "镇纸边缘的裂痕",
+      "chars": 3426,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铜印上的凹痕",
+      "chars": 2022,
+      "score": 90.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 30.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周怀瑾点」×3、「说道“我」×3",
+      "narration_para_pct 8.7 低于目标 20.0",
+      "[observe] attr_adv_pct 28.6 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈文渊的」×4、「他知道这」×3",
+      "narration_para_pct 18.5 低于目标 20.0",
+      "[observe] 章内自我复读 19 句（如「陆秋实接过铜印仔细端详了一会儿，然后抬起头看向沈…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「绍兴当铺」×27、「“我不知道」×5",
+      "narration_para_pct 11.0 低于目标 20.0",
+      "attr_adv_pct 10.3 高于目标 10.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 18.0 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:42:16"
+}

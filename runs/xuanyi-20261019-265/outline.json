@@ -1,0 +1,58 @@
+[
+  {
+    "no": 1,
+    "title": "夜班值班室的监控画面",
+    "beat": "林修远发现监控画面中有人进入药房但未离开",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控摄像头",
+    "speakers": [
+      "林修远"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "药品库存清单的异常",
+    "beat": "林修远核对药品库存清单时发现数量减少",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "药品库存清单",
+    "speakers": [
+      "林修远"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "夜班值班日志的缺失",
+    "beat": "林修远查阅夜班值班日志时发现记录缺失",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "夜班值班日志",
+    "speakers": [
+      "林修远"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "周婉如的工牌信息",
+    "beat": "林修远向周婉如询问工牌信息时发现异常",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "员工工牌",
+    "speakers": [
+      "林修远",
+      "周婉如"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "天诚药业有限公司的考勤记录",
+    "beat": "林修远调取天诚药业有限公司的考勤记录时发现异常",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "考勤记录",
+    "speakers": [
+      "林修远"
+    ]
+  }
+]

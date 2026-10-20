@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-160",
+  "profile": "悬疑推理",
+  "title": "刷卡重现",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14481,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13790,
+    "chapter_chars_mean": 2758,
+    "chapter_chars_median": 3218,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 60.4,
+    "dialogue_chars_pct": 37.3,
+    "dialogue_para_pct": 69.1,
+    "interiority_para_pct": 9.2,
+    "narration_para_pct": 21.7,
+    "turn_under20_pct": 81.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.1,
+    "attr_adv_pct": 15.7,
+    "scenes_per_chapter": 4.4,
+    "dialogue_run_mean": 7.6,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "刷卡记录消失的瞬间",
+      "chars": 1998,
+      "score": 79.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "屏幕上的模糊身影",
+      "chars": 3392,
+      "score": 42.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "报销单上的死亡时间",
+      "chars": 3612,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "屏幕上的模糊身影",
+      "chars": 3699,
+      "score": 84.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 5,
+      "title": "敲击空格键的夜晚",
+      "chars": 1775,
+      "score": 74.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林修远的」×3",
+      "dialogue_chars_pct 9.8 低于目标 20.0",
+      "dialogue_run_mean 1.3 低于目标 1.5"
+    ],
+    "2": [
+      "dialogue_chars_pct 18.1 低于目标 20.0",
+      "dialogue_run_mean 1.1 低于目标 1.5"
+    ],
+    "3": [
+      "单条套路句式超限：「林修远的」×7、「”沈婉清轻」×4、「沈婉清的」×4",
+      "narration_para_pct 4.0 低于目标 20.0",
+      "dialogue_run_mean 13.8 高于目标 10.0",
+      "[observe] attr_adv_pct 30.0 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「林修远的」×8、「林修远站在」×3、「为什么会」×3",
+      "dialogue_chars_pct 63.6 高于目标 58.0",
+      "narration_para_pct 3.8 低于目标 20.0",
+      "dialogue_run_mean 19.2 高于目标 10.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）",
+      "[observe] 标题重复：「屏幕上的模糊身影」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 8.3 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「走到电梯口时，他回头看了一眼刚才那块显示屏，里面…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 222.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T15:22:56"
+}

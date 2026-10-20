@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-156",
+  "profile": "悬疑推理",
+  "title": "纸条上的字迹",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15050,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14323,
+    "chapter_chars_mean": 2865,
+    "chapter_chars_median": 3410,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 64.4,
+    "dialogue_chars_pct": 33.3,
+    "dialogue_para_pct": 72.4,
+    "interiority_para_pct": 15.1,
+    "narration_para_pct": 12.5,
+    "turn_under20_pct": 85.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.9,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 4.1,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钥匙的刻痕",
+      "chars": 1950,
+      "score": 92.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 2,
+      "title": "木板上的刻痕",
+      "chars": 3612,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "水面泛起涟漪",
+      "chars": 3851,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "木板上的刻痕",
+      "chars": 3585,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "纸条上的字迹",
+      "chars": 2047,
+      "score": 79.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈怀远的」×7、「林素云的」×3",
+      "dialogue_chars_pct 16.1 低于目标 20.0",
+      "interiority_para_pct 21.1 高于目标 20.0",
+      "narration_para_pct 18.4 低于目标 20.0",
+      "[observe] attr_adv_pct 40.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「林素云的」×7、「“我不知道」×3、「”沈怀远轻」×3",
+      "narration_para_pct 7.4 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「那你为什么要这样做？…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林素云的」×9",
+      "narration_para_pct 13.5 低于目标 20.0",
+      "attr_adv_pct 13.3 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林素云的」×9、「沈怀远的」×8、「”沈怀远轻」×3",
+      "narration_para_pct 10.4 低于目标 20.0",
+      "[observe] 与历史章节逐字重复 3 句（如「林素云的心跳加快了几分…」）",
+      "[observe] 标题重复：「木板上的刻痕」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「沈怀远的」×3",
+      "dialogue_chars_pct 14.2 低于目标 20.0",
+      "interiority_para_pct 25.6 高于目标 20.0",
+      "narration_para_pct 17.9 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 246.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T15:13:04"
+}

@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-109",
+  "profile": "悬疑推理",
+  "title": "钢笔的痕迹",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13422,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12821,
+    "chapter_chars_mean": 2564,
+    "chapter_chars_median": 3063,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 51.8,
+    "dialogue_chars_pct": 35.7,
+    "dialogue_para_pct": 74.3,
+    "interiority_para_pct": 12.9,
+    "narration_para_pct": 12.8,
+    "turn_under20_pct": 75.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 7.6,
+    "attr_adv_pct": 10.0,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 5.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "抚摸纸页边缘",
+      "chars": 1648,
+      "score": 97.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "钢笔对签名的质疑",
+      "chars": 3436,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "数着药盒的缺口",
+      "chars": 3190,
+      "score": 84.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "抚摸印章的裂痕",
+      "chars": 3602,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "签名与账本的错位",
+      "chars": 1541,
+      "score": 86.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林素云的」×3",
+      "narration_para_pct 12.1 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈启明的」×4",
+      "narration_para_pct 4.9 低于目标 20.0",
+      "[observe] attr_adv_pct 26.7 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 章内自我复读 13 句（如「如果他知道这份签名背后还有更深的秘密，也许他会像…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「不仅仅是」×3",
+      "narration_para_pct 5.8 低于目标 20.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 16 句（如「她想起陈启明前几天说过的话：“那些记录都是过去的…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 224.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:17:08"
+}

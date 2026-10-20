@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-62",
+  "profile": "悬疑推理",
+  "title": "当票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14123,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13474,
+    "chapter_chars_mean": 2695,
+    "chapter_chars_median": 2996,
+    "chapter_chars_cv": 0.4,
+    "paragraphs_mean": 56.6,
+    "dialogue_chars_pct": 34.3,
+    "dialogue_para_pct": 75.6,
+    "interiority_para_pct": 10.7,
+    "narration_para_pct": 13.7,
+    "turn_under20_pct": 77.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.6,
+    "attr_adv_pct": 6.8,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "当票与怀表的对峙",
+      "chars": 1470,
+      "score": 96.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "铜钥匙的重量",
+      "chars": 3940,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "怀表与当票对峙",
+      "chars": 3775,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铜钥匙的低语",
+      "chars": 3138,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "当票与怀表的对峙",
+      "chars": 1795,
+      "score": 91.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈知远的」×3",
+      "narration_para_pct 12.0 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周慕云的」×4、「“我不知道」×3、「”周慕云轻」×3",
+      "narration_para_pct 17.0 低于目标 20.0",
+      "[observe] 章内自我复读 19 句（如「他开门一看，竟是个衣衫褴褛的男子抱着一个雕花木匣…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周慕云的」×4",
+      "narration_para_pct 12.0 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周慕云的」×9、「他知道这」×5、「沈知远的」×4",
+      "narration_para_pct 10.9 低于目标 20.0",
+      "[observe] 标题与《铜钥匙的重量》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈知远的」×7",
+      "情节与已写章节重复 0.63 ≥ 0.62（撞上「周慕云发现怀表时间与账本不符，调查沈知远当铺异常账目，揭…」）",
+      "narration_para_pct 16.1 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 标题重复：「当票与怀表的对峙」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 228.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:20:31"
+}

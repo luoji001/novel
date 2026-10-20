@@ -1,0 +1,61 @@
+[
+  {
+    "no": 1,
+    "title": "监控屏幕闪烁",
+    "beat": "值班员发现监控异常",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控录像的存储卡",
+    "speakers": [
+      "林修远"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "处方笺上的签名",
+    "beat": "值班员发现处方笺上的签名与登记本不符",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "药房的登记本",
+    "speakers": [
+      "林修远",
+      "沈婉清"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "库存清单的缺失",
+    "beat": "主管发现药品库存清单丢失",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "过期降压药",
+    "speakers": [
+      "沈婉清",
+      "天泽药业有限公司"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "未使用的处方笺",
+    "beat": "值班员找到一张未使用的处方笺",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "未使用的处方笺",
+    "speakers": [
+      "林修远",
+      "沈婉清"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "监控录像的存储卡",
+    "beat": "值班员发现监控录像存储卡被替换",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控录像的存储卡",
+    "speakers": [
+      "林修远",
+      "天泽药业有限公司"
+    ]
+  }
+]

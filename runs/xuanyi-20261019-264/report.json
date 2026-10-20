@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-264",
+  "profile": "悬疑推理",
+  "title": "算珠",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15354,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14702,
+    "chapter_chars_mean": 2940,
+    "chapter_chars_median": 3838,
+    "chapter_chars_cv": 0.44,
+    "paragraphs_mean": 55.6,
+    "dialogue_chars_pct": 21.9,
+    "dialogue_para_pct": 60.3,
+    "interiority_para_pct": 15.0,
+    "narration_para_pct": 24.7,
+    "turn_under20_pct": 76.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.9,
+    "attr_adv_pct": 10.0,
+    "scenes_per_chapter": 7.2,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "算盘上的指纹",
+      "chars": 1524,
+      "score": 52.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "算盘上的圈圈",
+      "chars": 4082,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "纸条上的指纹",
+      "chars": 4032,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "皮箱里的旧账本",
+      "chars": 4018,
+      "score": 85.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "翻动账本的手指",
+      "chars": 1693,
+      "score": 83.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 16.1 低于目标 20.0",
+      "interiority_para_pct 20.8 高于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5"
+    ],
+    "2": [
+      "单条套路句式超限：「点了点头」×3",
+      "情节与已写章节重复 0.75 ≥ 0.62（撞上「李建国发现妻子失踪前留下的数字竟出现在粮站账本中，引发他…」）",
+      "dialogue_chars_pct 19.6 低于目标 20.0",
+      "[observe] 标题与《算盘上的指纹》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道自己」×3、「点了点头」×3、「他知道这」×3",
+      "[observe] 标题与《算盘上的指纹》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「周慧兰的」×5、「他知道这」×5、「点了点头」×3",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] 章内自我复读 16 句（如「老赵今年已经五十多岁，经常独自一人待在这栋老房子…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「周慧兰的」×3",
+      "interiority_para_pct 24.2 高于目标 20.0",
+      "narration_para_pct 12.1 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 224.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:38:06"
+}

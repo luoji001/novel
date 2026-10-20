@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-27",
+  "profile": "悬疑推理",
+  "title": "铜章",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13875,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13224,
+    "chapter_chars_mean": 2645,
+    "chapter_chars_median": 3329,
+    "chapter_chars_cv": 0.43,
+    "paragraphs_mean": 57.2,
+    "dialogue_chars_pct": 36.1,
+    "dialogue_para_pct": 74.0,
+    "interiority_para_pct": 11.1,
+    "narration_para_pct": 14.9,
+    "turn_under20_pct": 78.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.4,
+    "attr_adv_pct": 6.8,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜壶与端砚对照",
+      "chars": 1326,
+      "score": 80.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "账本边缘的指纹",
+      "chars": 3593,
+      "score": 97.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "旧照片的背面",
+      "chars": 3802,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铜章与端砚对话",
+      "chars": 3480,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "木牌与砚台对视",
+      "chars": 1669,
+      "score": 93.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_run_mean 1.1 低于目标 1.5",
+      "[observe] 章内自我复读 15 句（如「他决定去找陆文渊，看看这位文物局的鉴定员能否帮助…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道自己」×3、「沈怀瑾的」×3",
+      "attr_adv_pct 11.8 高于目标 10.0"
+    ],
+    "3": [
+      "narration_para_pct 10.5 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「那你为什么现在才告诉我？…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陆文渊的」×7、「沈怀瑾的」×5",
+      "narration_para_pct 5.9 低于目标 20.0",
+      "[observe] 标题与《铜壶与端砚对照》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈怀瑾的」×3",
+      "narration_para_pct 0.0 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 234.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:54:10"
+}

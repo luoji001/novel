@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-143",
+  "profile": "悬疑推理",
+  "title": "指纹印",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14362,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13553,
+    "chapter_chars_mean": 2711,
+    "chapter_chars_median": 3122,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 73,
+    "dialogue_chars_pct": 47.0,
+    "dialogue_para_pct": 81.9,
+    "interiority_para_pct": 5.6,
+    "narration_para_pct": 12.5,
+    "turn_under20_pct": 79.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.8,
+    "attr_adv_pct": 5.3,
+    "scenes_per_chapter": 4.4,
+    "dialogue_run_mean": 8.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "陌生指纹印",
+      "chars": 1702,
+      "score": 97.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "指纹印的秘密",
+      "chars": 3841,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "晾衣绳被拉弯的瞬间",
+      "chars": 3481,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "行李箱的去向",
+      "chars": 3292,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "行李箱消失的时刻",
+      "chars": 2041,
+      "score": 91.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「“我不知道」×3、「苏婉秋的」×3",
+      "narration_para_pct 4.3 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "dialogue_run_mean 13.7 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×4、「林永年站在」×3",
+      "narration_para_pct 16.8 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「苏婉秋的」×7、「”苏婉秋低」×3、「带着一丝」×3",
+      "narration_para_pct 10.3 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「苏婉秋的」×5、「“我不知道」×4、「林永年的」×4",
+      "narration_para_pct 12.8 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×4",
+      "narration_para_pct 14.8 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 234.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:41:07"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "药瓶上的日期",
+    "beat": "林振邦在核对药房账本时，发现复方甘草片的日期是1972年，而张医生已经去世多年",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "复方甘草片",
+    "speakers": [
+      "林振邦"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "账本上的记录",
+    "beat": "陈素云在核对医院账本时，发现复方甘草片的记录与实际不符，且日期与张医生的死亡时间不一致",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "医院账本",
+    "speakers": [
+      "陈素云"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "药房钥匙的归属",
+    "beat": "林振邦在检查药房钥匙时，发现钥匙的使用记录存在异常，暗示有人曾擅自进入药房",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "药房钥匙",
+    "speakers": [
+      "林振邦"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "病历卡上的名字",
+    "beat": "陈素云在查看病历卡时，发现一张空白病历卡上写着张医生的名字，且日期与药瓶上的日期吻合",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "病历卡",
+    "speakers": [
+      "陈素云"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "签字笔的痕迹",
+    "beat": "林振邦在检查签字笔时，发现笔迹与张医生的签名一致，但笔的使用时间与药瓶上的日期不符",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "签字笔",
+    "speakers": [
+      "林振邦"
+    ]
+  }
+]

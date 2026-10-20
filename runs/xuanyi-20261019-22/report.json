@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-22",
+  "profile": "悬疑推理",
+  "title": "当票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14308,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13593,
+    "chapter_chars_mean": 2719,
+    "chapter_chars_median": 3196,
+    "chapter_chars_cv": 0.4,
+    "paragraphs_mean": 64.6,
+    "dialogue_chars_pct": 37.0,
+    "dialogue_para_pct": 71.9,
+    "interiority_para_pct": 8.2,
+    "narration_para_pct": 19.9,
+    "turn_under20_pct": 78.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.5,
+    "attr_adv_pct": 7.2,
+    "scenes_per_chapter": 3.6,
+    "dialogue_run_mean": 5.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "玉佩暗格",
+      "chars": 1698,
+      "score": 84.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "账簿夹层",
+      "chars": 3717,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "怀表背面日期",
+      "chars": 3378,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "暗格藏书",
+      "chars": 3922,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "当票撕裂",
+      "chars": 1588,
+      "score": 92.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 13.3 低于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「沈砚秋的」×5"
+    ],
+    "3": [
+      "narration_para_pct 10.7 低于目标 20.0",
+      "attr_adv_pct 13.2 高于目标 10.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「沈砚秋的」×5、「陆文渊的」×3",
+      "narration_para_pct 18.0 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「沈砚秋的」×6",
+      "narration_para_pct 10.9 低于目标 20.0",
+      "dialogue_run_mean 10.2 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:42:05"
+}

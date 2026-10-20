@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-07",
+  "profile": "悬疑推理",
+  "title": "铜秤",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 12178,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 11616,
+    "chapter_chars_mean": 2323,
+    "chapter_chars_median": 2342,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 49.4,
+    "dialogue_chars_pct": 48.1,
+    "dialogue_para_pct": 86.8,
+    "interiority_para_pct": 4.6,
+    "narration_para_pct": 8.6,
+    "turn_under20_pct": 65.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.4,
+    "attr_adv_pct": 9.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 11.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "砚台轻拂",
+      "chars": 1551,
+      "score": 97.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "砚台轻拂",
+      "chars": 3167,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "砚台轻拂",
+      "chars": 3474,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "铜牌摩挲",
+      "chars": 2458,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "纸条揭起",
+      "chars": 1523,
+      "score": 92.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 14.7 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陆知远的」×6、「微微一笑」×3",
+      "narration_para_pct 9.9 低于目标 20.0",
+      "dialogue_run_mean 10.5 高于目标 10.0",
+      "[observe] 标题重复：「砚台轻拂」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「沈怀瑾的」×4、「瑞玉斋」×3",
+      "narration_para_pct 12.9 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）",
+      "[observe] 标题重复：「砚台轻拂」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「瑞玉斋」×3",
+      "narration_para_pct 0.0 低于目标 20.0",
+      "dialogue_run_mean 25 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「这份资料是不是……有问题？…」）"
+    ],
+    "5": [
+      "narration_para_pct 3.6 低于目标 20.0",
+      "dialogue_run_mean 12.5 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 216.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:04:28"
+}

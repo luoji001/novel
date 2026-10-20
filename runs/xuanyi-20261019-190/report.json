@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-190",
+  "profile": "悬疑推理",
+  "title": "空白时光",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15083,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14355,
+    "chapter_chars_mean": 2871,
+    "chapter_chars_median": 3430,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 64.2,
+    "dialogue_chars_pct": 25.3,
+    "dialogue_para_pct": 58.2,
+    "interiority_para_pct": 16.2,
+    "narration_para_pct": 25.6,
+    "turn_under20_pct": 82.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.5,
+    "attr_adv_pct": 13.3,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "触摸屏幕的颤抖手指",
+      "chars": 1769,
+      "score": 98.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "触摸屏幕的颤抖手指",
+      "chars": 3947,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "触碰车票的指尖",
+      "chars": 3961,
+      "score": 58.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "触摸车票的指尖",
+      "chars": 3631,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "触摸刹车痕迹的手指",
+      "chars": 1770,
+      "score": 92.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 20.0 高于目标 10.0"
+    ],
+    "2": [
+      "attr_adv_pct 11.8 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「他深吸一口气，努力让自己冷静下来…」）",
+      "[observe] 标题重复：「触摸屏幕的颤抖手指」已存在"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「为什么会」×6、「他知道这」×4、「深吸一口气」×3",
+      "interiority_para_pct 25.0 高于目标 20.0",
+      "attr_adv_pct 15.0 高于目标 10.0",
+      "[observe] 章内自我复读 3 句（如「我不知道你在说什么，但我希望你能告诉我，为什么我…」）"
+    ],
+    "4": [
+      "[observe] 标题与《触碰车票的指尖》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 8.1 低于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）",
+      "[observe] 标题与《触摸车票的指尖》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 224.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:34:36"
+}

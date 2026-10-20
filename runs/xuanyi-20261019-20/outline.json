@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "门禁卡的异常记录",
+    "beat": "物业经理林修远在检查门禁系统时发现一张注销的卡",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "门禁卡",
+    "speakers": [
+      "林修远"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "监控录像的疑点",
+    "beat": "林修远查看监控录像，发现注销卡出现在深夜的电梯里",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "监控录像机",
+    "speakers": [
+      "林修远"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "出入记录表的矛盾",
+    "beat": "林修远核对出入记录表，发现卡的注销时间与员工行踪不符",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "出入记录表",
+    "speakers": [
+      "林修远"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "工牌的隐藏信息",
+    "beat": "林修远查看员工工牌，发现工牌上的信息与卡注销原因有关联",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "工牌",
+    "speakers": [
+      "林修远"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "便签纸的提示",
+    "beat": "林修远在办公室找到写有日期的便签纸，暗示卡注销的真正原因",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "便签纸",
+    "speakers": [
+      "林修远"
+    ]
+  }
+]

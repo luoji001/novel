@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-222",
+  "profile": "悬疑推理",
+  "title": "当票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13334,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12710,
+    "chapter_chars_mean": 2542,
+    "chapter_chars_median": 3151,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 54.4,
+    "dialogue_chars_pct": 37.3,
+    "dialogue_para_pct": 74.8,
+    "interiority_para_pct": 11.9,
+    "narration_para_pct": 13.3,
+    "turn_under20_pct": 70.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.7,
+    "attr_adv_pct": 10.0,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 4.3,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "当票边缘的焦痕",
+      "chars": 1429,
+      "score": 98.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "账簿与木牌的对峙",
+      "chars": 3447,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "怀表背面的刻痕",
+      "chars": 3298,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "当票上的折痕",
+      "chars": 3400,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "当票背面的指纹",
+      "chars": 1755,
+      "score": 89.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周慕云的」×3",
+      "narration_para_pct 19.5 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周慕云的」×10",
+      "narration_para_pct 17.6 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈文远的」×9、「周慕云的」×6、「他知道这」×3",
+      "narration_para_pct 16.7 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周慕云的」×5、「沈文远的」×3",
+      "narration_para_pct 8.1 低于目标 20.0",
+      "attr_adv_pct 17.6 高于目标 10.0",
+      "[observe] 标题与《当票边缘的焦痕》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「周慕云的」×4",
+      "narration_para_pct 3.4 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 231.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T17:53:47"
+}

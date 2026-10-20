@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-77",
+  "profile": "悬疑推理",
+  "title": "红单",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14305,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13709,
+    "chapter_chars_mean": 2742,
+    "chapter_chars_median": 3053,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 51.4,
+    "dialogue_chars_pct": 33.5,
+    "dialogue_para_pct": 70.1,
+    "interiority_para_pct": 10.5,
+    "narration_para_pct": 19.4,
+    "turn_under20_pct": 68.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.4,
+    "attr_adv_pct": 11.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 4.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫码枪的红色标签",
+      "chars": 1729,
+      "score": 76.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "扫描记录的重影",
+      "chars": 3891,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "扫码枪的红色标签",
+      "chars": 3658,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "苍蝇停落的位置",
+      "chars": 3174,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "重复扫描的面单",
+      "chars": 1848,
+      "score": 89.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 7.4 低于目标 20.0",
+      "interiority_para_pct 22.2 高于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×3、「陈志强的」×3、「为什么会」×3",
+      "narration_para_pct 11.3 低于目标 20.0",
+      "[observe] attr_adv_pct 21.7 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周晓芸的」×4",
+      "narration_para_pct 12.2 低于目标 20.0",
+      "[observe] 标题重复：「扫码枪的红色标签」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「南方速递集团」×4"
+    ],
+    "5": [
+      "dialogue_chars_pct 19.8 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 213.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:57:28"
+}

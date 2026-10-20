@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-60",
+  "profile": "悬疑推理",
+  "title": "注销卡",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14999,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14378,
+    "chapter_chars_mean": 2876,
+    "chapter_chars_median": 3207,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 54.2,
+    "dialogue_chars_pct": 32.1,
+    "dialogue_para_pct": 69.5,
+    "interiority_para_pct": 8.9,
+    "narration_para_pct": 21.5,
+    "turn_under20_pct": 70.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.1,
+    "attr_adv_pct": 4.4,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 4.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "发现注销卡异常",
+      "chars": 2112,
+      "score": 97.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲考勤表边缘",
+      "chars": 3780,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲便签纸边缘",
+      "chars": 3336,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲登记簿边缘",
+      "chars": 3778,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲工牌边缘",
+      "chars": 1988,
+      "score": 91.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周晓芸的」×3、「他知道这」×3",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周晓芸的」×6"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3",
+      "dialogue_chars_pct 19.7 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「点了点头」×3、「带着一丝」×3、「林振华的」×3",
+      "narration_para_pct 8.7 低于目标 20.0",
+      "dialogue_run_mean 10.3 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周晓芸的」×4、「林振华站在」×3",
+      "narration_para_pct 18.4 低于目标 20.0",
+      "[observe] 标题与《摩挲便签纸边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 236.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:15:41"
+}

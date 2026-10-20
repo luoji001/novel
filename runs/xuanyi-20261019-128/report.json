@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-128",
+  "profile": "悬疑推理",
+  "title": "水表",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15070,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14457,
+    "chapter_chars_mean": 2891,
+    "chapter_chars_median": 3422,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 53.6,
+    "dialogue_chars_pct": 31.5,
+    "dialogue_para_pct": 67.4,
+    "interiority_para_pct": 19.0,
+    "narration_para_pct": 13.6,
+    "turn_under20_pct": 68.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.6,
+    "attr_adv_pct": 5.7,
+    "scenes_per_chapter": 4.4,
+    "dialogue_run_mean": 4.3,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "水表停滞不动",
+      "chars": 1957,
+      "score": 49.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "擦拭桌角油渍",
+      "chars": 3801,
+      "score": 51.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "电表数字反常",
+      "chars": 3542,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "螺丝刀与齿轮秘密",
+      "chars": 4010,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "手机充电器疑云",
+      "chars": 1755,
+      "score": 88.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 5.9 低于目标 20.0",
+      "interiority_para_pct 46.4 高于目标 20.0",
+      "dialogue_run_mean 1 低于目标 1.5"
+    ],
+    "2": [
+      "单条套路句式超限：「王建国的」×5、「他知道自己」×3",
+      "interiority_para_pct 25.8 高于目标 20.0",
+      "narration_para_pct 15.2 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「王建国的」×6、「说道“你」×4、「他知道这」×3",
+      "narration_para_pct 11.3 低于目标 20.0",
+      "attr_adv_pct 10.5 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「每个月15号，电费单都会送到这里…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「王建国的」×7、「点了点头」×3",
+      "narration_para_pct 9.0 低于目标 20.0",
+      "attr_adv_pct 12.1 高于目标 10.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "narration_para_pct 12.5 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 238.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:04:02"
+}

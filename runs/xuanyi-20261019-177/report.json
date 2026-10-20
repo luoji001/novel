@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-177",
+  "profile": "悬疑推理",
+  "title": "双扫",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14124,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13430,
+    "chapter_chars_mean": 2686,
+    "chapter_chars_median": 3272,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 61,
+    "dialogue_chars_pct": 49.2,
+    "dialogue_para_pct": 84.3,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 9.7,
+    "turn_under20_pct": 71.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.6,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 9.4,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫描枪重复读数",
+      "chars": 1675,
+      "score": 86.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "扫描枪误读编号牌",
+      "chars": 3740,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "扫描枪误读编号牌",
+      "chars": 3446,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "扫描枪误读编号牌",
+      "chars": 3526,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "扫描枪误读编号牌",
+      "chars": 1732,
+      "score": 92.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 11.5 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周雪梅的」×5、「为什么会」×3",
+      "narration_para_pct 8.6 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「那你为什么不告诉别人？…」）",
+      "[observe] attr_adv_pct 26.1 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈启明的」×5、「为什么会」×3",
+      "narration_para_pct 6.3 低于目标 20.0",
+      "dialogue_run_mean 14.2 高于目标 10.0",
+      "[observe] 与历史章节逐字重复 3 句（如「他知道，这件事远比表面看起来复杂得多…」）",
+      "[observe] 标题重复：「扫描枪误读编号牌」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「周雪梅的」×4、「“我不知道」×3",
+      "dialogue_chars_pct 62.0 高于目标 58.0",
+      "narration_para_pct 1.4 低于目标 20.0",
+      "dialogue_run_mean 16 高于目标 10.0",
+      "[observe] 标题重复：「扫描枪误读编号牌」已存在"
+    ],
+    "5": [
+      "narration_para_pct 9.5 低于目标 20.0",
+      "[observe] 标题重复：「扫描枪误读编号牌」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:04:55"
+}

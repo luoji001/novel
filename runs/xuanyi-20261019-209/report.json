@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-209",
+  "profile": "悬疑推理",
+  "title": "签字笔的痕迹",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14172,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13454,
+    "chapter_chars_mean": 2691,
+    "chapter_chars_median": 2948,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 63.4,
+    "dialogue_chars_pct": 44.8,
+    "dialogue_para_pct": 79.9,
+    "interiority_para_pct": 8.4,
+    "narration_para_pct": 11.8,
+    "turn_under20_pct": 76.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.4,
+    "attr_adv_pct": 3.3,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 7.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "算盘珠子不动了",
+      "chars": 1753,
+      "score": 95.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "药瓶上的陌生签名",
+      "chars": 3879,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "翻看病历本的指尖",
+      "chars": 3078,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "签字笔的指纹纹路",
+      "chars": 3414,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "药瓶上的陌生签名",
+      "chars": 2043,
+      "score": 92.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 10.0 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×5、「陈志远点了点头」×3、「为什么会」×3",
+      "dialogue_chars_pct 59.2 高于目标 58.0",
+      "narration_para_pct 7.7 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「你是不是发现了什么？…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈志远的」×3",
+      "[observe] 章内自我复读 2 句（如「正当他沉浸在思绪之中时，一个念头突然闪过脑海：“…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈志远的」×6、「”林素梅轻」×3",
+      "narration_para_pct 5.7 低于目标 20.0",
+      "dialogue_run_mean 14.2 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈志远的」×4",
+      "narration_para_pct 14.3 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] 标题重复：「药瓶上的陌生签名」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 229.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T17:21:26"
+}

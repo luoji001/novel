@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-115",
+  "profile": "悬疑推理",
+  "title": "表里藏信",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14638,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13929,
+    "chapter_chars_mean": 2786,
+    "chapter_chars_median": 3380,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 62.4,
+    "dialogue_chars_pct": 34.2,
+    "dialogue_para_pct": 69.3,
+    "interiority_para_pct": 11.5,
+    "narration_para_pct": 19.3,
+    "turn_under20_pct": 76.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.8,
+    "attr_adv_pct": 7.1,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 4.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手表指针不停转动",
+      "chars": 1734,
+      "score": 98.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "手表指针不停转动",
+      "chars": 3544,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "手表指针不停转动",
+      "chars": 3640,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "香烟纸筒藏密信",
+      "chars": 3762,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "手表指针不停转动",
+      "chars": 1953,
+      "score": 91.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "narration_para_pct 5.7 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×3、「他知道这」×3、「周振邦的」×3",
+      "[observe] 标题重复：「手表指针不停转动」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「就在这时」×3、「沈文澜的」×3、「他知道这」×3",
+      "[observe] 标题重复：「手表指针不停转动」已存在"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×4、「周振邦的」×3、「变得更加」×3",
+      "[observe] 章内自我复读 18 句（如「哥，我刚刚听说了一个可怕的消息，”他妹妹的声音听…」）"
+    ],
+    "5": [
+      "narration_para_pct 8.3 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 标题重复：「手表指针不停转动」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 233.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:32:00"
+}

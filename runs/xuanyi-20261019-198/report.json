@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-198",
+  "profile": "悬疑推理",
+  "title": "绣针裂痕",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14695,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14005,
+    "chapter_chars_mean": 2801,
+    "chapter_chars_median": 3254,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 59.8,
+    "dialogue_chars_pct": 42.0,
+    "dialogue_para_pct": 80.0,
+    "interiority_para_pct": 13.6,
+    "narration_para_pct": 6.4,
+    "turn_under20_pct": 71.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.7,
+    "attr_adv_pct": 5.8,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 5.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "绣面的针脚",
+      "chars": 1703,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "绣线拂过账本",
+      "chars": 3678,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "绣针落入掌心",
+      "chars": 3434,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "绣线比对账本",
+      "chars": 3734,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "绣线拂过账本",
+      "chars": 2141,
+      "score": 91.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「顾怀远的」×5、「沈佩兰的」×4",
+      "narration_para_pct 12.1 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「顾怀远的」×8、「沈佩兰的」×8",
+      "情节与已写章节重复 0.64 ≥ 0.62（撞上「沈佩兰发现一幅绣品的针法与顾怀远的手艺不符，并质疑其去向…」）",
+      "interiority_para_pct 21.5 高于目标 20.0",
+      "narration_para_pct 3.1 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈佩兰的」×6、「顾怀远的」×3",
+      "narration_para_pct 4.8 低于目标 20.0",
+      "[observe] attr_adv_pct 20.6 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「顾怀远的」×11、「沈佩兰的」×6、「苏城绣艺行会」×3",
+      "narration_para_pct 9.6 低于目标 20.0",
+      "[observe] 标题与《绣线拂过账本》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「顾怀远的」×9、「沈佩兰的」×4",
+      "narration_para_pct 4.4 低于目标 20.0",
+      "[observe] 标题重复：「绣线拂过账本」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 242.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:55:00"
+}

@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-146",
+  "profile": "悬疑推理",
+  "title": "车票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13069,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12463,
+    "chapter_chars_mean": 2493,
+    "chapter_chars_median": 3011,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 53.2,
+    "dialogue_chars_pct": 24.0,
+    "dialogue_para_pct": 63.6,
+    "interiority_para_pct": 13.8,
+    "narration_para_pct": 22.6,
+    "turn_under20_pct": 88.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.7,
+    "attr_adv_pct": 10.8,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 3.9,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙牌的移动",
+      "chars": 1871,
+      "score": 97.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "灯罩的暗纹",
+      "chars": 3203,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "地毯上的密码",
+      "chars": 3149,
+      "score": 84.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "登记簿的缺失",
+      "chars": 3241,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "钥匙牌的位移",
+      "chars": 1600,
+      "score": 75.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 17.1 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈志远的」×5"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周雪梅的」×3",
+      "dialogue_chars_pct 17.2 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「周雪梅的眼神微微一闪，随即恢复平静：“那你还是先…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈志远的」×5、「周雪梅的」×3",
+      "narration_para_pct 13.0 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 11.3 低于目标 20.0",
+      "interiority_para_pct 24.1 高于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）",
+      "[observe] 标题与《钥匙牌的移动》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 217.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:48:24"
+}

@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-119",
+  "profile": "悬疑推理",
+  "title": "账本上的名字",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14498,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13839,
+    "chapter_chars_mean": 2768,
+    "chapter_chars_median": 3257,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 56,
+    "dialogue_chars_pct": 42.0,
+    "dialogue_para_pct": 79.4,
+    "interiority_para_pct": 7.4,
+    "narration_para_pct": 13.1,
+    "turn_under20_pct": 72.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.3,
+    "attr_adv_pct": 11.6,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 5.3,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜铃惊起麻雀",
+      "chars": 1814,
+      "score": 91.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "铜铃摇晃的手势",
+      "chars": 3491,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "照片背面的指纹",
+      "chars": 3846,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "算盘上的光斑",
+      "chars": 3438,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲账本边缘",
+      "chars": 1904,
+      "score": 90.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「”陈秀兰轻」×3、「陈秀兰的」×3",
+      "attr_adv_pct 20.0 高于目标 10.0",
+      "[observe] 章内自我复读 19 句（如「他说这话的时候声音有些发抖，“汇款单上写的收款人…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「陈秀兰的」×6、「林永年的」×6、「”陈秀兰轻」×4",
+      "narration_para_pct 6.9 低于目标 20.0",
+      "attr_adv_pct 13.6 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×6、「林永年的」×4、「林永年点点」×3",
+      "narration_para_pct 10.3 低于目标 20.0",
+      "attr_adv_pct 12.8 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「陈秀兰的」×9、「林永年的」×8、「林永年站在」×4",
+      "narration_para_pct 19.2 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林永年的」×3",
+      "narration_para_pct 9.1 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 238.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:41:57"
+}

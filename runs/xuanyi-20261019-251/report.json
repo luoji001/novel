@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-251",
+  "profile": "悬疑推理",
+  "title": "铜锁",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13880,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13217,
+    "chapter_chars_mean": 2643,
+    "chapter_chars_median": 3009,
+    "chapter_chars_cv": 0.41,
+    "paragraphs_mean": 56.2,
+    "dialogue_chars_pct": 40.9,
+    "dialogue_para_pct": 77.8,
+    "interiority_para_pct": 7.4,
+    "narration_para_pct": 14.8,
+    "turn_under20_pct": 76.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.5,
+    "attr_adv_pct": 9.9,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 5.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撬棍触锁未开",
+      "chars": 1334,
+      "score": 37.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "登记簿的隐藏标记",
+      "chars": 3949,
+      "score": 95.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙的秘密",
+      "chars": 3166,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "文件夹的异常触感",
+      "chars": 3576,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与墨迹交织",
+      "chars": 1850,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_run_mean 1.3 低于目标 1.5",
+      "[observe] 章内自我复读 21 句（如「就在他准备检查另一道锁的时候，余光瞥见角落里的登…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「沈慕云的」×4、「”周怀瑾轻」×3、「周怀瑾的」×3",
+      "narration_para_pct 6.0 低于目标 20.0",
+      "attr_adv_pct 12.2 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「为什么会」×3",
+      "narration_para_pct 4.2 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「沈慕云的」×5、「沈慕云站在」×4、「“我不知道」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「周怀瑾的」×3、「沈慕云的」×3",
+      "narration_para_pct 6.5 低于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 230.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:05:09"
+}

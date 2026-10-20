@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-246",
+  "profile": "悬疑推理",
+  "title": "钥牌",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13920,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13271,
+    "chapter_chars_mean": 2654,
+    "chapter_chars_median": 3194,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 56.8,
+    "dialogue_chars_pct": 26.6,
+    "dialogue_para_pct": 61.9,
+    "interiority_para_pct": 15.4,
+    "narration_para_pct": 22.8,
+    "turn_under20_pct": 81.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.4,
+    "attr_adv_pct": 17.3,
+    "scenes_per_chapter": 4.8,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "擦拭门把手的疑云",
+      "chars": 1570,
+      "score": 87.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "翻阅旧日志本",
+      "chars": 3771,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "攥紧火车票的夜晚",
+      "chars": 3487,
+      "score": 80.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "揭开铁盒的秘密",
+      "chars": 3369,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲钥匙牌刻痕",
+      "chars": 1718,
+      "score": 90.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 18.2 低于目标 20.0",
+      "interiority_para_pct 24.1 高于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周文彬的」×7、「陈志远的」×6",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3、「为什么会」×3",
+      "dialogue_chars_pct 16.9 低于目标 20.0",
+      "[observe] 章内自我复读 37 句（如「突然，他的目光落在一张旧报纸上，上面登载着一则新…」）",
+      "[observe] attr_adv_pct 23.5 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈志远的」×4、「陈志远站在」×3",
+      "narration_para_pct 13.8 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「说完，他就离开了房间…」）",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「周文彬的」×4、「陈志远的」×4",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 215.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:52:44"
+}

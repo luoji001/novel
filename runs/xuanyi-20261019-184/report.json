@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-184",
+  "profile": "悬疑推理",
+  "title": "火柴盒",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13716,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13091,
+    "chapter_chars_mean": 2618,
+    "chapter_chars_median": 3076,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 54.6,
+    "dialogue_chars_pct": 28.3,
+    "dialogue_para_pct": 66.1,
+    "interiority_para_pct": 13.6,
+    "narration_para_pct": 20.3,
+    "turn_under20_pct": 79.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.7,
+    "attr_adv_pct": 5.6,
+    "scenes_per_chapter": 4.4,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本上的数字",
+      "chars": 1433,
+      "score": 98.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "账本上的四毛钱",
+      "chars": 3223,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "触摸结婚证边缘",
+      "chars": 3606,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "抚摸火柴盒边缘",
+      "chars": 3453,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "掀开铁皮盒瞬间",
+      "chars": 1996,
+      "score": 87.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 12.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×4、「陈国忠的」×4、「为什么会」×3",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] 标题与《账本上的数字》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3、「陈国忠的」×3",
+      "narration_para_pct 15.3 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道自己」×5、「点了点头」×4、「赵素梅的」×3",
+      "[observe] 章内自我复读 2 句（如「他知道，自己正站在一个重要的十字路口，而前方等待…」）"
+    ],
+    "5": [
+      "attr_adv_pct 15.4 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 230.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:22:28"
+}

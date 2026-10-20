@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "检查行程记录",
+    "beat": "李明发现行程记录中存在十四分钟的异常时间",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "车载GPS记录仪",
+    "speakers": [
+      "李明"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "核对手机截图",
+    "beat": "李明通过手机行程截图确认异常时间的存在",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "手机行程截图",
+    "speakers": [
+      "李明"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "查看支付凭证",
+    "beat": "李明发现支付凭证与行程记录不匹配",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "乘客支付凭证",
+    "speakers": [
+      "李明"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "调取监控录像",
+    "beat": "李明调取车内监控录像，发现十四分钟内无乘客活动",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "车内监控录像",
+    "speakers": [
+      "李明"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "翻阅记账本",
+    "beat": "李明在记账本中发现与行程记录不符的费用记录",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "司机的记账本",
+    "speakers": [
+      "李明"
+    ]
+  }
+]

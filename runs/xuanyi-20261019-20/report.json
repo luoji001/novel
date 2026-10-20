@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-20",
+  "profile": "悬疑推理",
+  "title": "卡影",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14347,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13727,
+    "chapter_chars_mean": 2745,
+    "chapter_chars_median": 3345,
+    "chapter_chars_cv": 0.47,
+    "paragraphs_mean": 54.4,
+    "dialogue_chars_pct": 24.4,
+    "dialogue_para_pct": 61.9,
+    "interiority_para_pct": 13.5,
+    "narration_para_pct": 24.7,
+    "turn_under20_pct": 72.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.0,
+    "attr_adv_pct": 13.9,
+    "scenes_per_chapter": 3.6,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "指纹解锁的疑惑",
+      "chars": 1185,
+      "score": 98.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "监控屏幕的蓝光",
+      "chars": 3472,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "卡注销时间的矛盾",
+      "chars": 3698,
+      "score": 87.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲工牌边缘",
+      "chars": 4262,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "便签纸上的日期",
+      "chars": 1725,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「林修远的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「周婉清的」×4",
+      "dialogue_chars_pct 19.6 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周婉清的」×6、「林修远的」×4、「他知道这」×3",
+      "attr_adv_pct 18.2 高于目标 10.0",
+      "[observe] 章内自我复读 14 句（如「李明的卡是在昨天下午三点注销的，可他最后一次进出…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「周婉清的」×5、「林修远的」×3",
+      "narration_para_pct 17.5 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:37:14"
+}

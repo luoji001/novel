@@ -1,0 +1,108 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-74",
+  "profile": "悬疑推理",
+  "title": "空单",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14545,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13834,
+    "chapter_chars_mean": 2767,
+    "chapter_chars_median": 3308,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 63.6,
+    "dialogue_chars_pct": 39.9,
+    "dialogue_para_pct": 78.6,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 15.4,
+    "turn_under20_pct": 77.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.8,
+    "attr_adv_pct": 10.8,
+    "scenes_per_chapter": 3.8,
+    "dialogue_run_mean": 5.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本上的五米差",
+      "chars": 1913,
+      "score": 99.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "蓝布的缺口",
+      "chars": 3766,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "蓝布的缺口",
+      "chars": 3520,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "铜印章的裂痕",
+      "chars": 3466,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "纸上的空白栏位",
+      "chars": 1875,
+      "score": 92.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「陈国栋的」×4、「陈国栋点」×3、「周素云的」×3",
+      "attr_adv_pct 12.1 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周素云的」×4、「陈国栋的」×3",
+      "narration_para_pct 14.5 低于目标 20.0",
+      "attr_adv_pct 15.8 高于目标 10.0",
+      "[observe] 标题重复：「蓝布的缺口」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「周素云的」×7、「陈国栋的」×3",
+      "narration_para_pct 11.1 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "5": [
+      "narration_para_pct 2.5 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 234.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:50:21"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "no": 1,
+    "title": "水表读数",
+    "beat": "房东发现水表读数异常，开始怀疑租客是否仍在屋内",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "水表",
+    "speakers": [
+      "陈志远"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "电费单上的名字",
+    "beat": "房东对比电费单与租客身份信息，发现不一致",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "电费单",
+    "speakers": [
+      "陈志远"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "钥匙的去向",
+    "beat": "房东寻找租客留下的钥匙，却发现钥匙未归还",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "钥匙",
+    "speakers": [
+      "陈志远"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "林晓梅的警告",
+    "beat": "房东向物业管理员询问，得知租客已离开",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "钥匙",
+    "speakers": [
+      "陈志远",
+      "林晓梅"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "身份证复印件的真相",
+    "beat": "房东查看租客留下的身份证复印件，发现信息不符",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "身份证复印件",
+    "speakers": [
+      "陈志远"
+    ]
+  }
+]

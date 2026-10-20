@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-137",
+  "profile": "悬疑推理",
+  "title": "重扫",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13154,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12571,
+    "chapter_chars_mean": 2514,
+    "chapter_chars_median": 2807,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 50.4,
+    "dialogue_chars_pct": 36.5,
+    "dialogue_para_pct": 73.9,
+    "interiority_para_pct": 10.0,
+    "narration_para_pct": 16.1,
+    "turn_under20_pct": 68.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.2,
+    "attr_adv_pct": 5.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 4.5,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫描枪的红光",
+      "chars": 1704,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "重复扫码的包裹",
+      "chars": 3698,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "重复扫描的包裹",
+      "chars": 2932,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "文件夹边缘的指纹",
+      "chars": 3219,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "扫描枪的红光",
+      "chars": 1596,
+      "score": 90.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 18.9 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周晓芸的」×3",
+      "narration_para_pct 15.8 低于目标 20.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题与《重复扫码的包裹》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「周晓芸的」×5、「“我不知道」×3、「不仅仅是」×3",
+      "narration_para_pct 8.9 低于目标 20.0",
+      "[observe] 章内自我复读 6 句（如「如果你需要帮助的话，我可以帮你联系一些人…」）"
+    ],
+    "5": [
+      "[observe] 标题重复：「扫描枪的红光」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 213.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:26:15"
+}

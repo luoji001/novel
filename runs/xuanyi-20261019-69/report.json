@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-69",
+  "profile": "悬疑推理",
+  "title": "药瓶上的签名",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14112,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13513,
+    "chapter_chars_mean": 2703,
+    "chapter_chars_median": 3165,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 50.6,
+    "dialogue_chars_pct": 46.7,
+    "dialogue_para_pct": 86.4,
+    "interiority_para_pct": 4.8,
+    "narration_para_pct": 8.9,
+    "turn_under20_pct": 64.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.1,
+    "attr_adv_pct": 8.5,
+    "scenes_per_chapter": 3.6,
+    "dialogue_run_mean": 8.3,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "印章的归属",
+      "chars": 1537,
+      "score": 97.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "摩挲账本的指尖",
+      "chars": 3511,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "摩挲处方单的指尖",
+      "chars": 3301,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 4,
+      "title": "摩挲印章的指尖",
+      "chars": 3794,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "涂改的交接清单",
+      "chars": 1964,
+      "score": 91.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈文远的」×4",
+      "narration_para_pct 12.9 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周素云的」×6、「沈文远的」×6",
+      "narration_para_pct 13.5 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈文远的」×12、「周素云的」×7、「”周素云低」×5",
+      "dialogue_chars_pct 62.5 高于目标 58.0",
+      "narration_para_pct 5.0 低于目标 20.0",
+      "attr_adv_pct 18.2 高于目标 10.0",
+      "dialogue_run_mean 14 高于目标 10.0",
+      "[observe] 标题与《摩挲账本的指尖》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「沈文远的」×13、「周素云的」×7、「”周素云低」×5",
+      "narration_para_pct 7.9 低于目标 20.0",
+      "[observe] 标题与《摩挲账本的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「周素云的」×4、「沈文远的」×4",
+      "narration_para_pct 5.9 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 219.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:38:14"
+}

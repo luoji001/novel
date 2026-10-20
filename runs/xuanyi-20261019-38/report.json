@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-38",
+  "profile": "悬疑推理",
+  "title": "银顶针",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14201,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13601,
+    "chapter_chars_mean": 2720,
+    "chapter_chars_median": 3091,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 53,
+    "dialogue_chars_pct": 25.1,
+    "dialogue_para_pct": 58.1,
+    "interiority_para_pct": 19.0,
+    "narration_para_pct": 22.9,
+    "turn_under20_pct": 76.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.5,
+    "attr_adv_pct": 5.8,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "银顶针的回响",
+      "chars": 1653,
+      "score": 95.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "捻线寻踪",
+      "chars": 4103,
+      "score": 85.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "银顶针的刻痕",
+      "chars": 3221,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "账本上的暗纹",
+      "chars": 3235,
+      "score": 86.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "指尖摩挲绣稿",
+      "chars": 1984,
+      "score": 83.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈砚秋的」×3",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×3",
+      "interiority_para_pct 22.6 高于目标 20.0",
+      "[observe] 章内自我复读 15 句（如「正当他对这件事感到更加疑惑之际，一个念头悄然浮现…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陆怀瑾的」×6、「沈砚秋的」×3",
+      "narration_para_pct 17.2 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「有些东西，有时候比人更诚实…」）",
+      "[observe] 标题与《银顶针的回响》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「沈砚秋的」×4",
+      "dialogue_chars_pct 16.7 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陆怀瑾的」×3",
+      "interiority_para_pct 27.3 高于目标 20.0",
+      "narration_para_pct 3.0 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 245.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:21:30"
+}

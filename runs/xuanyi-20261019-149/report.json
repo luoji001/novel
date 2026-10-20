@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-149",
+  "profile": "悬疑推理",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13923,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13142,
+    "chapter_chars_mean": 2628,
+    "chapter_chars_median": 2782,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 62.8,
+    "dialogue_chars_pct": 35.7,
+    "dialogue_para_pct": 69.8,
+    "interiority_para_pct": 11.4,
+    "narration_para_pct": 18.8,
+    "turn_under20_pct": 82.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.1,
+    "attr_adv_pct": 15.7,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 3.7,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶上的签名",
+      "chars": 1408,
+      "score": 99.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "药瓶上的签名",
+      "chars": 3705,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 3,
+      "title": "账簿上的模糊签名",
+      "chars": 3756,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "签字笔的低语",
+      "chars": 2954,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "药瓶上的签名",
+      "chars": 2095,
+      "score": 90.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈素云点」×4",
+      "narration_para_pct 10.0 低于目标 20.0",
+      "attr_adv_pct 17.9 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「但我总觉得事情没那么简单…」）",
+      "[observe] 标题重复：「药瓶上的签名」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「陈素云的」×7、「林文远的」×7、「陈素云点了点头」×3",
+      "narration_para_pct 19.7 低于目标 20.0",
+      "[observe] 章内自我复读 6 句（如「在这间小小的药房里，两人默默地工作着，彼此之间虽…」）",
+      "[observe] attr_adv_pct 26.3 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「林文远的」×4、「陈素云的」×3",
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "[observe] 标题重复：「药瓶上的签名」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 226.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:55:39"
+}

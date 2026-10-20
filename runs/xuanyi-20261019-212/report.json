@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-212",
+  "profile": "悬疑推理",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14845,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14083,
+    "chapter_chars_mean": 2817,
+    "chapter_chars_median": 3525,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 69.4,
+    "dialogue_chars_pct": 41.7,
+    "dialogue_para_pct": 75.8,
+    "interiority_para_pct": 6.3,
+    "narration_para_pct": 17.9,
+    "turn_under20_pct": 77.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.6,
+    "attr_adv_pct": 9.4,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 6.4,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲纸边",
+      "chars": 1751,
+      "score": 97.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲纸边",
+      "chars": 3879,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲纸边",
+      "chars": 3840,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "摩挲U盘边缘",
+      "chars": 3725,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲金属接口",
+      "chars": 1645,
+      "score": 93.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈文远的」×4",
+      "narration_para_pct 15.6 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「市网监大队」×7、「陈文远的」×5、「他知道这」×4",
+      "attr_adv_pct 13.8 高于目标 10.0",
+      "[observe] 章内自我复读 18 句（如「他的目光再次落在桌面上那一排硬币上，仿佛想要从中…」）",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「林振邦的」×4、「“我不知道」×3、「陈文远点」×3",
+      "narration_para_pct 6.5 低于目标 20.0",
+      "attr_adv_pct 11.5 高于目标 10.0",
+      "dialogue_run_mean 11.9 高于目标 10.0",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「陈文远点」×5、「陈文远的」×3",
+      "narration_para_pct 8.6 低于目标 20.0",
+      "attr_adv_pct 11.4 高于目标 10.0",
+      "[observe] 标题与《摩挲纸边》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈文远的」×3、「林振邦的」×3",
+      "narration_para_pct 10.3 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 225.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T17:28:47"
+}

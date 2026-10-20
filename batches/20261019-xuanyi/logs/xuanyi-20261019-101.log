@@ -1,0 +1,160 @@
+开始：xuanyi-20261019-101（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-101
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 泛黄的结婚照（short，1942字）照相馆老板娘在整理暗房时发现一张不寻常的照片
+     2. 老式海鸥相机（normal，3238字）警察怀疑照片异常并开始调查
+     3. 一叠空白的底片（normal，3238字）照相馆老板娘回忆起十年前的往事
+     4. 一张十年前就已曝光的底片（normal，3238字）警察发现照片与底片不符，怀疑造假
+     5. 一张显影出的不合时宜的合影（short，1942字）真相浮现，照片揭示了照相馆老板失踪儿子的存在
+
+  继续：novel-agent approve xuanyi-20261019-101 --accept
+  打回：novel-agent approve xuanyi-20261019-101 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-101
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-101
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第1场「揭示周玉兰在整理暗房时发现一张泛黄的结婚照，但仍扣住照片与现实的关联性」与第3章第3场「揭示周玉兰十年前曾处理过一张特殊的底片，但仍扣住底片与现实的关联」信息重合 0.63
+    - 第1章第3场「揭示结婚照与照片中孩子的年龄不符，但仍扣住照片可能隐藏的真相」与第5章第1场「揭示照片中孩子年龄与现实不符，但仍扣住照片来源的异常」信息重合 0.68
+    - 第2章第1场「揭示沈国强对照片异常的怀疑，但仍扣住周玉兰对照片的熟悉程度」与第2章第3场「揭示沈国强对照片来源的追问，但仍扣住周玉兰对底片的掌控」信息重合 0.71（同一章内）
+    - 第2章第1场「揭示沈国强对照片异常的怀疑，但仍扣住周玉兰对照片的熟悉程度」与第2章第5场「揭示沈国强对照片的怀疑加深，但仍扣住周玉兰对底片的隐藏」信息重合 0.79（同一章内）
+    - 第2章第2场「揭示周玉兰对暗房工作的熟悉，但仍扣住沈国强对照片的误解」与第2章第4场「揭示周玉兰对照片的特殊情感，但仍扣住沈国强对真相的执着」信息重合 0.63（同一章内）
+    - 第2章第2场「揭示周玉兰对暗房工作的熟悉，但仍扣住沈国强对照片的误解」与第2章第6场「揭示周玉兰对照片的隐瞒，但仍扣住沈国强对真相的接近」信息重合 0.65（同一章内）
+    - 第2章第2场「揭示周玉兰对暗房工作的熟悉，但仍扣住沈国强对照片的误解」与第3章第1场「揭示周玉兰在暗房工作的日常，但仍扣住空白底片的异常」信息重合 0.65
+    - 第2章第3场「揭示沈国强对照片来源的追问，但仍扣住周玉兰对底片的掌控」与第2章第5场「揭示沈国强对照片的怀疑加深，但仍扣住周玉兰对底片的隐藏」信息重合 0.78（同一章内）
+    - 第2章第4场「揭示周玉兰对照片的特殊情感，但仍扣住沈国强对真相的执着」与第2章第6场「揭示周玉兰对照片的隐瞒，但仍扣住沈国强对真相的接近」信息重合 0.81（同一章内）
+    - 第4章第1场「揭示底片已曝光十年，但仍扣住照片中孩子的身份」与第4章第2场「揭示底片曾被藏匿，但仍扣住照片中孩子的年龄差异」信息重合 0.67（同一章内）
+    - 第4章第1场「揭示底片已曝光十年，但仍扣住照片中孩子的身份」与第4章第3场「揭示底片曾被遗忘，但仍扣住照片中孩子的失踪线索」信息重合 0.67（同一章内）
+    - 第4章第1场「揭示底片已曝光十年，但仍扣住照片中孩子的身份」与第4章第4场「揭示底片曾被故意隐藏，但仍扣住照片中孩子的身份秘密」信息重合 0.72（同一章内）
+    第1章 3 场：揭示周玉兰在整理暗房时发现一张泛 | 揭示结婚照背面有模糊的日期，但仍 | 揭示结婚照与照片中孩子的年龄不符
+    第2章 6 场：揭示沈国强对照片异常的怀疑，但仍 | 揭示周玉兰对暗房工作的熟悉，但仍 | 揭示沈国强对照片来源的追问，但仍 | 揭示周玉兰对照片的特殊情感，但仍 | 揭示沈国强对照片的怀疑加深，但仍 | 揭示周玉兰对照片的隐瞒，但仍扣住
+    第3章 6 场：揭示周玉兰在暗房工作的日常，但仍 | 揭示周玉兰对空白底片的疑惑，但仍 | 揭示周玉兰十年前曾处理过一张特殊 | 揭示周玉兰曾试图联系警方，但仍扣 | 揭示周玉兰曾将底片藏入暗房角落， | 揭示周玉兰终于决定面对真相，但仍
+    第4章 6 场：揭示底片已曝光十年，但仍扣住照片 | 揭示底片曾被藏匿，但仍扣住照片中 | 揭示底片曾被遗忘，但仍扣住照片中 | 揭示底片曾被故意隐藏，但仍扣住照 | 揭示底片曾被多次冲洗，但仍扣住照 | 揭示底片曾被刻意保留，但仍扣住照
+    第5章 3 场：揭示照片中孩子年龄与现实不符，但 | 揭示照片中孩子与失踪儿子容貌相似 | 揭示照片中孩子与失踪儿子身份相同
+
+  继续：novel-agent approve xuanyi-20261019-101 --accept
+  打回：novel-agent approve xuanyi-20261019-101 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-101
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-101
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-101/report.md
+
+  继续：novel-agent approve xuanyi-20261019-101 --accept
+  打回：novel-agent approve xuanyi-20261019-101 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-101
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-101
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-101
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-101

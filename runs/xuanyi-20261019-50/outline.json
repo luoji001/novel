@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "凌晨两点的订单",
+    "beat": "李明接到一个前往浦东机场的订单，但系统显示该订单在凌晨两点后消失",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "手机里的行程记录",
+    "speakers": [
+      "李明"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "GPS定位器的异常",
+    "beat": "李明检查车内安装的GPS定位器，发现它记录的时间比实际行驶时间多出十四分钟",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "车内安装的GPS定位器",
+    "speakers": [
+      "李明"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "手提包的痕迹",
+    "beat": "李明在车内发现一个黑色皮质手提包，怀疑是乘客遗留下的物品",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "乘客遗留下的黑色皮质手提包",
+    "speakers": [
+      "李明"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "沈婉如的监控录像",
+    "beat": "沈婉如向李明提供事故现场的监控录像，但录像中并未显示任何车辆",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "事故现场的监控录像",
+    "speakers": [
+      "沈婉如"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "沪江科技的回应",
+    "beat": "沪江科技有限公司拒绝提供完整的行程数据，并声称这是技术故障",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "行程数据",
+    "speakers": [
+      "沪江科技有限公司"
+    ]
+  }
+]

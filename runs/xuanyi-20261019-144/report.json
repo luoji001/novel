@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-144",
+  "profile": "悬疑推理",
+  "title": "铜印",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15548,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14761,
+    "chapter_chars_mean": 2952,
+    "chapter_chars_median": 3308,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 71,
+    "dialogue_chars_pct": 48.5,
+    "dialogue_para_pct": 83.5,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 10.5,
+    "turn_under20_pct": 77.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.3,
+    "attr_adv_pct": 19.5,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 8.5,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红墨水圈出的数字",
+      "chars": 1915,
+      "score": 98.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "转私户的手势",
+      "chars": 4158,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "按压印章",
+      "chars": 4025,
+      "score": 83.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "纸条上的日期",
+      "chars": 3480,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "指纹触碰公章",
+      "chars": 1965,
+      "score": 91.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈国栋的」×6",
+      "narration_para_pct 19.6 低于目标 20.0",
+      "[observe] attr_adv_pct 28.6 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "套路句式密度 17.3/千字 > 16.0（「县粮食局」×41、「点了点头」×4、「陈国栋的」×4）",
+      "单条套路句式超限：「县粮食局」×41、「点了点头」×4、「陈国栋的」×4",
+      "narration_para_pct 10.3 低于目标 20.0",
+      "attr_adv_pct 17.9 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「为什么会」×4、「“我不知道」×3、「”周美兰轻」×3",
+      "dialogue_chars_pct 62.9 高于目标 58.0",
+      "narration_para_pct 2.1 低于目标 20.0",
+      "dialogue_run_mean 23 高于目标 10.0",
+      "[observe] attr_adv_pct 20.8 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈国栋的」×7、「他知道这」×5",
+      "narration_para_pct 14.1 低于目标 20.0",
+      "attr_adv_pct 10.7 高于目标 10.0",
+      "[observe] 章内自我复读 3 句（如「你怎么会知道这个日期？…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈国栋的」×5",
+      "narration_para_pct 13.2 低于目标 20.0",
+      "[observe] attr_adv_pct 27.3 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 233.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:43:40"
+}

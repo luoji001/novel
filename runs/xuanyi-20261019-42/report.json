@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-42",
+  "profile": "悬疑推理",
+  "title": "铜尺",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13295,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12693,
+    "chapter_chars_mean": 2539,
+    "chapter_chars_median": 3096,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 52.4,
+    "dialogue_chars_pct": 32.5,
+    "dialogue_para_pct": 72.0,
+    "interiority_para_pct": 10.0,
+    "narration_para_pct": 18.0,
+    "turn_under20_pct": 78.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.0,
+    "attr_adv_pct": 9.1,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜铃响了三次",
+      "chars": 1766,
+      "score": 98.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "报纸上的日期",
+      "chars": 3582,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "铜尺比对玉佩纹路",
+      "chars": 3288,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铜牌划痕映铜锁",
+      "chars": 3279,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铜锁与旧账册",
+      "chars": 1375,
+      "score": 59.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 12.5 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈文远的」×5",
+      "情节与已写章节重复 0.63 ≥ 0.62（撞上「沈文远发现一张当票日期与当物不符，引发他对一件神秘物品和…」）",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「欲购者请至霞飞路123号当铺详谈…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈文远的」×7、「不仅仅是」×3",
+      "narration_para_pct 13.1 低于目标 20.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「沈文远的」×7",
+      "narration_para_pct 11.9 低于目标 20.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 15.3 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「沈文远伸手抽出最上面那本，翻开封面，看到“民国二…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 223.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:31:10"
+}

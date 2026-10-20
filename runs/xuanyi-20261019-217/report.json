@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-217",
+  "profile": "悬疑推理",
+  "title": "红光误扫",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15808,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15013,
+    "chapter_chars_mean": 3003,
+    "chapter_chars_median": 3729,
+    "chapter_chars_cv": 0.44,
+    "paragraphs_mean": 71.6,
+    "dialogue_chars_pct": 32.7,
+    "dialogue_para_pct": 68.5,
+    "interiority_para_pct": 9.5,
+    "narration_para_pct": 22.0,
+    "turn_under20_pct": 78.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.5,
+    "attr_adv_pct": 16.5,
+    "scenes_per_chapter": 4,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫描枪的红点",
+      "chars": 1625,
+      "score": 98.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "扫描枪的红点",
+      "chars": 4526,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "扫描枪的异常光斑",
+      "chars": 3903,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签名栏的空白",
+      "chars": 4012,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "扫描枪的异常光斑",
+      "chars": 1737,
+      "score": 91.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道自己」×4、「知道自己」×3",
+      "attr_adv_pct 17.2 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「双重扫描情况尚未明确说明…」）",
+      "[observe] 标题重复：「扫描枪的红点」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「林振东点点」×5、「林振东的」×4、「他知道这」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×3、「陈雪梅点」×3",
+      "narration_para_pct 16.0 低于目标 20.0",
+      "[observe] attr_adv_pct 23.3 > 20.0（结构塌缩）"
+    ],
+    "5": [
+      "narration_para_pct 17.1 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）",
+      "[observe] 标题重复：「扫描枪的异常光斑」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 236.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T17:41:17"
+}

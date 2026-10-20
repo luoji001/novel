@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-82",
+  "profile": "悬疑推理",
+  "title": "当票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14054,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13400,
+    "chapter_chars_mean": 2680,
+    "chapter_chars_median": 3066,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 58.2,
+    "dialogue_chars_pct": 31.9,
+    "dialogue_para_pct": 67.6,
+    "interiority_para_pct": 11.6,
+    "narration_para_pct": 20.8,
+    "turn_under20_pct": 80.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.4,
+    "attr_adv_pct": 12.0,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "镯子的低语",
+      "chars": 1637,
+      "score": 94.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "铜镯的低语",
+      "chars": 4177,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "当票的倒置",
+      "chars": 3265,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "铜镯的重量",
+      "chars": 3264,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "信纸的摩挲",
+      "chars": 1706,
+      "score": 90.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 17.7 低于目标 20.0",
+      "interiority_para_pct 21.4 高于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈文渊的」×5、「周慕云的」×4",
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "[observe] 标题与《镯子的低语》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「沈文渊的」×7、「“我不知道」×3、「周慕云的」×3",
+      "narration_para_pct 17.4 低于目标 20.0",
+      "[observe] 标题与《铜镯的低语》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3、「沈文渊的」×3",
+      "narration_para_pct 18.2 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 234.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:09:55"
+}

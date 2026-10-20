@@ -1,0 +1,14 @@
+# 本地运行状态：LangGraph checkpoint 数据库，体积巨大且是机器本地状态
+state/*.sqlite
+state/*.sqlite-shm
+state/*.sqlite-wal
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 环境变量 / 密钥
+.env
+.env.*

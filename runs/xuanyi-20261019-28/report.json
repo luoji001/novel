@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-28",
+  "profile": "悬疑推理",
+  "title": "水表",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14996,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14264,
+    "chapter_chars_mean": 2853,
+    "chapter_chars_median": 3285,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 64.6,
+    "dialogue_chars_pct": 43.6,
+    "dialogue_para_pct": 85.0,
+    "interiority_para_pct": 5.7,
+    "narration_para_pct": 9.3,
+    "turn_under20_pct": 80.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.7,
+    "attr_adv_pct": 12.0,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 6.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "水表指针的异常转动",
+      "chars": 1734,
+      "score": 99.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "洗衣粉的日期争议",
+      "chars": 3953,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "便签纸的潮湿痕迹",
+      "chars": 3816,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "水表仍在转动",
+      "chars": 3453,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "水表仍在转动",
+      "chars": 2035,
+      "score": 91.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周慧兰的」×3",
+      "narration_para_pct 9.7 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周慧兰的」×10、「“我不知道」×5、「陈志远的」×4",
+      "narration_para_pct 8.3 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周慧兰的」×10、「陈志远的」×5、「“我不知道」×4",
+      "narration_para_pct 8.4 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周慧兰的」×11、「陈志远站在」×3、「陈志远的」×3",
+      "narration_para_pct 10.4 低于目标 20.0",
+      "attr_adv_pct 10.5 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周慧兰的」×3",
+      "narration_para_pct 10.4 低于目标 20.0",
+      "attr_adv_pct 13.3 高于目标 10.0",
+      "[observe] 标题重复：「水表仍在转动」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 237.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:56:40"
+}

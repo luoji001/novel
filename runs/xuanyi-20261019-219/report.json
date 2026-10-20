@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-219",
+  "profile": "悬疑推理",
+  "title": "铜钥匙",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14050,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13429,
+    "chapter_chars_mean": 2686,
+    "chapter_chars_median": 3184,
+    "chapter_chars_cv": 0.42,
+    "paragraphs_mean": 54.6,
+    "dialogue_chars_pct": 37.9,
+    "dialogue_para_pct": 74.6,
+    "interiority_para_pct": 10.4,
+    "narration_para_pct": 15.0,
+    "turn_under20_pct": 77.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.2,
+    "attr_adv_pct": 8.5,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 4.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲汇款单",
+      "chars": 1420,
+      "score": 92.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲汇款单",
+      "chars": 3792,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲账本边缘",
+      "chars": 3816,
+      "score": 86.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "摩挲算盘木壳",
+      "chars": 3352,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲信纸折痕",
+      "chars": 1665,
+      "score": 92.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「信用社」×5、「他知道这」×3",
+      "dialogue_chars_pct 16.6 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林秋实的」×6、「信用社」×3",
+      "narration_para_pct 11.8 低于目标 20.0",
+      "[observe] 标题重复：「摩挲汇款单」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「陈大勇的」×7、「带着一丝」×4、「林秋实的」×4",
+      "narration_para_pct 13.4 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 章内自我复读 18 句（如「这本账本似乎比记忆中还要古老一些，纸页泛黄得仿佛…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈大勇的」×7、「林秋实的」×6、「“我不知道」×3",
+      "narration_para_pct 13.0 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「信用社」×5",
+      "narration_para_pct 16.7 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 243.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T17:46:22"
+}

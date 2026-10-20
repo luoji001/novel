@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-226",
+  "profile": "悬疑推理",
+  "title": "铁皮盒",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13607,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13043,
+    "chapter_chars_mean": 2609,
+    "chapter_chars_median": 3119,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 48.2,
+    "dialogue_chars_pct": 28.3,
+    "dialogue_para_pct": 71.0,
+    "interiority_para_pct": 12.4,
+    "narration_para_pct": 16.7,
+    "turn_under20_pct": 76.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.6,
+    "attr_adv_pct": 11.1,
+    "scenes_per_chapter": 5,
+    "dialogue_run_mean": 4.6,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "窥探木门的钥匙声",
+      "chars": 1644,
+      "score": 97.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "值班表上的日期",
+      "chars": 3402,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "掀开铁皮盒的瞬间",
+      "chars": 3403,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲铁皮盒边缘",
+      "chars": 3254,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲笔记本封面",
+      "chars": 1899,
+      "score": 90.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 13.3 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈素芬的」×4、「周正阳站在」×3、「”陈素芬轻」×3",
+      "narration_para_pct 9.8 低于目标 20.0",
+      "[observe] attr_adv_pct 36.4 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈素芬的」×6、「周正阳的」×6",
+      "narration_para_pct 16.9 低于目标 20.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周正阳站在」×3、「陈素芬的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「陈素芬的」×4",
+      "narration_para_pct 14.3 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 218.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:03:19"
+}

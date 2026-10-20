@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-01",
+  "profile": "悬疑推理",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15984,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15126,
+    "chapter_chars_mean": 3025,
+    "chapter_chars_median": 3622,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 77.8,
+    "dialogue_chars_pct": 46.6,
+    "dialogue_para_pct": 83.4,
+    "interiority_para_pct": 5.5,
+    "narration_para_pct": 11.1,
+    "turn_under20_pct": 76.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.2,
+    "attr_adv_pct": 7.8,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 7.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "照片上的学生证",
+      "chars": 1770,
+      "score": 95.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "文件夹上的指纹",
+      "chars": 3885,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "学生证的磨损处",
+      "chars": 4256,
+      "score": 83.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "照片背面的指纹",
+      "chars": 3857,
+      "score": 85.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "照片边缘的指纹",
+      "chars": 2211,
+      "score": 89.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈素英的」×3",
+      "narration_para_pct 9.5 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈素英的」×6",
+      "narration_para_pct 4.7 低于目标 20.0",
+      "attr_adv_pct 11.8 高于目标 10.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林永年站在」×4、「陈素英的」×4、「林永年点了点头」×3",
+      "narration_para_pct 18.2 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「就在最近几个月的记录里，有一笔特别注明是‘李明远…」）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「“我不知道」×5、「他知道自己」×4、「陈素英点」×4",
+      "narration_para_pct 13.6 低于目标 20.0",
+      "[observe] 章内自我复读 21 句（如「你看，这张照片里的孩子，穿的是1987年的校服，…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈素英的」×3",
+      "narration_para_pct 5.8 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 标题与《照片背面的指纹》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 67,
+    "calls_counted": 67,
+    "llm_seconds": 245.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T08:43:47"
+}

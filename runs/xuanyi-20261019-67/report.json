@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-67",
+  "profile": "悬疑推理",
+  "title": "铜钱",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13260,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12636,
+    "chapter_chars_mean": 2527,
+    "chapter_chars_median": 2805,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 54.4,
+    "dialogue_chars_pct": 46.6,
+    "dialogue_para_pct": 84.2,
+    "interiority_para_pct": 6.8,
+    "narration_para_pct": 8.9,
+    "turn_under20_pct": 76.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.0,
+    "attr_adv_pct": 3.3,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 6.3,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "端砚上的旧报纸",
+      "chars": 1601,
+      "score": 97.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摩挲纸边的手指",
+      "chars": 3749,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "端砚上的旧报纸",
+      "chars": 3305,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲铜钱的指尖",
+      "chars": 2938,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲铜钱的指尖",
+      "chars": 1662,
+      "score": 91.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 10.7 低于目标 20.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「北平警察局」×6、「陆文渊的」×4、「”陆文渊低」×3",
+      "narration_para_pct 9.6 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「陆文渊站在黄花梨木桌旁，目光落在那张盖着北平警察…」）"
+    ],
+    "3": [
+      "narration_para_pct 5.7 低于目标 20.0",
+      "[observe] 标题重复：「端砚上的旧报纸」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「北平警察局」×7、「“我不知道」×3、「陆文渊点」×3",
+      "narration_para_pct 5.1 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陆文渊的」×4",
+      "narration_para_pct 18.8 低于目标 20.0",
+      "[observe] 标题重复：「摩挲铜钱的指尖」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 232.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:33:23"
+}

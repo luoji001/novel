@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "刷卡记录异常",
+    "beat": "物业经理发现注销卡在凌晨三点零七分出现在三楼会议室门口",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控录像带",
+    "speakers": [
+      "周启明"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "指纹打卡机数据",
+    "beat": "保安员承认在凌晨三点零七分没有在岗，但伪造了刷卡记录",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "指纹打卡机",
+    "speakers": [
+      "陈志远"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "会议记录本内容",
+    "beat": "行政主管透露某次会议的安排与注销卡出现的时间吻合",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "会议记录本",
+    "speakers": [
+      "沈婉如"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "员工工牌丢失",
+    "beat": "员工工牌失踪导致无法核实某位员工是否在场",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "员工工牌",
+    "speakers": [
+      "周启明"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "系统日志缺失",
+    "beat": "物业管理处承认无法追溯门禁系统的具体操作记录",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "系统日志",
+    "speakers": [
+      "陆家嘴国际大厦物业管理处"
+    ]
+  }
+]

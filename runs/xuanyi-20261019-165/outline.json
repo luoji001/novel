@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "监控屏幕闪烁",
+    "beat": "药师发现监控画面异常，怀疑有人进入药房却无人离开",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控摄像头",
+    "speakers": [
+      "沈知远"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "账册空白页",
+    "beat": "药师在核对账册时发现空白页，开始怀疑账册被篡改",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "药品库存账册",
+    "speakers": [
+      "沈知远"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "咖啡杯倒影",
+    "beat": "药师注意到咖啡杯倒影中出现陌生身影，怀疑有人伪装成顾客",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "咖啡杯",
+    "speakers": [
+      "沈知远"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "门禁卡遗落",
+    "beat": "药师在检查门禁卡时发现一张被篡改的卡片，怀疑内部人员伪造身份",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "药房门禁卡",
+    "speakers": [
+      "沈知远"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "处方单缺失",
+    "beat": "药师发现未处理的处方单中缺少几份，怀疑有人故意隐藏信息",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "未处理的处方单",
+    "speakers": [
+      "沈知远"
+    ]
+  }
+]

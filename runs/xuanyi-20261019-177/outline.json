@@ -1,0 +1,61 @@
+[
+  {
+    "no": 1,
+    "title": "扫描枪的读数",
+    "beat": "小林发现面单被扫描两次却只有一个包裹",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "扫描枪",
+    "speakers": [
+      "小林"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "3号分拣区编号牌",
+    "beat": "小林找到3号分拣区并确认编号牌信息",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "分拣区编号牌",
+    "speakers": [
+      "小林",
+      "周雪梅"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "系统日志的记录",
+    "beat": "小林查看系统日志发现异常记录",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "系统日志",
+    "speakers": [
+      "小林",
+      "陈启明"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "未上报的异常记录",
+    "beat": "周雪梅承认她隐藏了系统异常记录",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "系统日志",
+    "speakers": [
+      "周雪梅",
+      "陈启明"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "包裹的去向",
+    "beat": "小林追踪包裹发现其被错误分拣至其他区域",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "包裹",
+    "speakers": [
+      "小林",
+      "上海速递物流有限公司"
+    ]
+  }
+]

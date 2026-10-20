@@ -1,0 +1,62 @@
+[
+  {
+    "no": 1,
+    "title": "监控屏幕的异常",
+    "beat": "药师注意到监控画面中有人进入药房却没有人离开，引发他对异常情况的怀疑",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控屏幕",
+    "speakers": [
+      "沈墨",
+      "林婉如"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "未登记的降压药",
+    "beat": "药师发现手中多出一盒未登记的降压药，开始质疑自己的行为是否正确",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "降压药",
+    "speakers": [
+      "沈墨",
+      "林婉如"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "值班表的缺失",
+    "beat": "药师检查值班表时发现缺少记录，意识到可能有他人参与其中",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "值班表",
+    "speakers": [
+      "沈墨",
+      "林婉如"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "药品登记本的痕迹",
+    "beat": "药师在药品登记本上发现异常痕迹，怀疑有人故意掩盖真相",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "药品登记本",
+    "speakers": [
+      "沈墨",
+      "晨曦药业有限公司"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "夜班钥匙的归属",
+    "beat": "药师通过夜班钥匙确认自己是唯一持有者，进一步确认了异常行为的来源",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "夜班钥匙",
+    "speakers": [
+      "沈墨",
+      "星海药房"
+    ]
+  }
+]

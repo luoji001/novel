@@ -1,0 +1,160 @@
+开始：xuanyi-20261019-21（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-21
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 暗房的红绸布（short，1942字）沈秋实在档案馆发现一张1985年的黑白合影，照片上的孩子与现实中相差十年
+     2. 登记簿的空白页（normal，3238字）陈玉兰在照相馆整理旧物时发现1990年登记簿中缺失了失踪儿童的记录
+     3. 铜钥匙的锈迹（normal，3238字）县民政局调查户籍变更时发现一枚刻有‘李家’字样的铜钥匙，暗示孩子被转移了户籍
+     4. 未冲洗的胶卷（normal，3238字）沈秋实从暗房中找到一卷未冲洗的胶卷，上面印着1992年的火车票信息
+     5. 红绸布上的指纹（short，1942字）陈玉兰在照相馆的暗房中发现墙上褪色的红绸布上有孩子的指纹，揭示孩子并未真正死去
+
+  继续：novel-agent approve xuanyi-20261019-21 --accept
+  打回：novel-agent approve xuanyi-20261019-21 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-21
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-21
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第2场「揭示照片中孩子的名字与档案记录不符，但仍扣住照片与现实的关联性」与第1章第3场「揭示照片中孩子的失踪时间与档案记录的空白期吻合，但仍扣住照片背后隐藏的真相」信息重合 0.62（同一章内）
+    - 第2章第3场「揭示登记簿中某页的姓名栏为空白，但仍扣住空白页可能对应失踪儿童」与第2章第5场「揭示登记簿中某页的地址栏被划掉，但仍扣住划掉地址可能关联失踪儿童的去向」信息重合 0.64（同一章内）
+    - 第2章第4场「揭示登记簿中某页的出生日期被涂改，但仍扣住涂改痕迹可能暗示户籍变更」与第2章第6场「揭示登记簿中某页的备注栏有模糊字迹，但仍扣住模糊字迹可能指向户籍变更记录」信息重合 0.61（同一章内）
+    - 第3章第1场「揭示火车票上的目的地与户籍变更记录的关联，但仍扣住铜钥匙与户籍转移的联系」与第3章第2场「揭示火车票的购买时间与户籍变更记录的日期吻合，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.81（同一章内）
+    - 第3章第1场「揭示火车票上的目的地与户籍变更记录的关联，但仍扣住铜钥匙与户籍转移的联系」与第3章第3场「揭示铜钥匙的形状与户籍变更记录中的印章相似，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.74（同一章内）
+    - 第3章第1场「揭示火车票上的目的地与户籍变更记录的关联，但仍扣住铜钥匙与户籍转移的联系」与第3章第4场「揭示铜钥匙的锈迹与户籍变更记录的日期相符，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.75（同一章内）
+    - 第3章第1场「揭示火车票上的目的地与户籍变更记录的关联，但仍扣住铜钥匙与户籍转移的联系」与第3章第5场「揭示铜钥匙的刻字与户籍变更记录中的某个名字相符，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.72（同一章内）
+    - 第3章第1场「揭示火车票上的目的地与户籍变更记录的关联，但仍扣住铜钥匙与户籍转移的联系」与第3章第6场「揭示铜钥匙的来源与户籍变更记录中的某个细节吻合，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.72（同一章内）
+    - 第3章第2场「揭示火车票的购买时间与户籍变更记录的日期吻合，但仍扣住铜钥匙与户籍转移的联系」与第3章第3场「揭示铜钥匙的形状与户籍变更记录中的印章相似，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.72（同一章内）
+    - 第3章第2场「揭示火车票的购买时间与户籍变更记录的日期吻合，但仍扣住铜钥匙与户籍转移的联系」与第3章第4场「揭示铜钥匙的锈迹与户籍变更记录的日期相符，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.78（同一章内）
+    - 第3章第2场「揭示火车票的购买时间与户籍变更记录的日期吻合，但仍扣住铜钥匙与户籍转移的联系」与第3章第5场「揭示铜钥匙的刻字与户籍变更记录中的某个名字相符，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.70（同一章内）
+    - 第3章第2场「揭示火车票的购买时间与户籍变更记录的日期吻合，但仍扣住铜钥匙与户籍转移的联系」与第3章第6场「揭示铜钥匙的来源与户籍变更记录中的某个细节吻合，但仍扣住铜钥匙与户籍转移的联系」信息重合 0.75（同一章内）
+    第1章 3 场：揭示1985年的黑白合影的存在， | 揭示照片中孩子的名字与档案记录不 | 揭示照片中孩子的失踪时间与档案记
+    第2章 6 场：揭示登记簿的封面日期为1990年 | 揭示登记簿内页有部分页面被撕毁， | 揭示登记簿中某页的姓名栏为空白， | 揭示登记簿中某页的出生日期被涂改 | 揭示登记簿中某页的地址栏被划掉， | 揭示登记簿中某页的备注栏有模糊字
+    第3章 6 场：揭示火车票上的目的地与户籍变更记 | 揭示火车票的购买时间与户籍变更记 | 揭示铜钥匙的形状与户籍变更记录中 | 揭示铜钥匙的锈迹与户籍变更记录的 | 揭示铜钥匙的刻字与户籍变更记录中 | 揭示铜钥匙的来源与户籍变更记录中
+    第4章 6 场：揭示胶卷存在，但仍扣住其未冲洗的 | 揭示胶卷印有火车票信息，但仍扣住 | 揭示火车票信息与1992年档案记 | 揭示胶卷可能与失踪儿童有关，但仍 | 揭示陈玉兰知晓失踪儿童的真相，但 | 揭示胶卷可能成为关键证据，但仍扣
+    第5章 3 场：揭示红绸布上的指纹与孩子有关，但 | 揭示指纹与十年前的某个仪式相关， | 揭示指纹与孩子被藏匿的时间吻合，
+
+  继续：novel-agent approve xuanyi-20261019-21 --accept
+  打回：novel-agent approve xuanyi-20261019-21 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-21
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-21
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-21/report.md
+
+  继续：novel-agent approve xuanyi-20261019-21 --accept
+  打回：novel-agent approve xuanyi-20261019-21 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-21
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-21
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-21
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-21

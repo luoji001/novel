@@ -1,0 +1,59 @@
+[
+  {
+    "no": 1,
+    "title": "门禁记录异常",
+    "beat": "物业经理发现注销卡的刷卡记录，引发对监控录像的质疑",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "门禁刷卡记录表",
+    "speakers": [
+      "陈思远"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "监控录像验证",
+    "beat": "物业经理调取监控录像，确认注销卡持有者出现在案发时段",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "监控录像",
+    "speakers": [
+      "陈思远"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "注销卡时间矛盾",
+    "beat": "物业经理发现注销卡的注销时间与案发时间存在矛盾",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "注销卡",
+    "speakers": [
+      "陈思远"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "人事主管介入",
+    "beat": "物业经理向人事主管询问注销卡的用途，引发新的线索",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "员工工牌",
+    "speakers": [
+      "陈思远",
+      "周晓琳"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "指纹识别器检查",
+    "beat": "物业经理通过指纹识别器确认注销卡持有者身份，揭开真相",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "指纹识别器",
+    "speakers": [
+      "陈思远",
+      "周晓琳"
+    ]
+  }
+]

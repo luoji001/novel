@@ -1,0 +1,104 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-75",
+  "profile": "悬疑推理",
+  "title": "表停时",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14065,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13410,
+    "chapter_chars_mean": 2682,
+    "chapter_chars_median": 3096,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 56.8,
+    "dialogue_chars_pct": 34.5,
+    "dialogue_para_pct": 71.6,
+    "interiority_para_pct": 13.0,
+    "narration_para_pct": 15.3,
+    "turn_under20_pct": 73.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.6,
+    "attr_adv_pct": 7.4,
+    "scenes_per_chapter": 4.6,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "微波炉里的液体痕迹",
+      "chars": 1848,
+      "score": 93.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "撕掉的登记簿页",
+      "chars": 3371,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "病历卡边缘的褶皱",
+      "chars": 3224,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "手表与登记簿的秘密",
+      "chars": 3651,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "手表与病历卡的谜题",
+      "chars": 1966,
+      "score": 90.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 18.6 低于目标 20.0"
+    ],
+    "2": [
+      "narration_para_pct 11.8 低于目标 20.0",
+      "attr_adv_pct 19.0 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林婉如的」×6、「“我不知道」×3",
+      "narration_para_pct 10.7 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 8.3 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 222.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:52:41"
+}

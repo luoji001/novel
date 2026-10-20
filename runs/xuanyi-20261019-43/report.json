@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-43",
+  "profile": "悬疑推理",
+  "title": "行李箱",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14264,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13510,
+    "chapter_chars_mean": 2702,
+    "chapter_chars_median": 3123,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 68.2,
+    "dialogue_chars_pct": 54.5,
+    "dialogue_para_pct": 89.6,
+    "interiority_para_pct": 3.7,
+    "narration_para_pct": 6.6,
+    "turn_under20_pct": 77.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.5,
+    "attr_adv_pct": 6.7,
+    "scenes_per_chapter": 5.8,
+    "dialogue_run_mean": 12.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "照片的浮现",
+      "chars": 1762,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "指纹的痕迹",
+      "chars": 3272,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "口香糖的出现",
+      "chars": 3791,
+      "score": 84.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "行李箱的秘密",
+      "chars": 3539,
+      "score": 86.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "木牌的裂痕",
+      "chars": 1895,
+      "score": 92.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「周慧玲的」×4、「陈思远的」×4、「“我不知道」×3",
+      "narration_para_pct 5.9 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×5、「”周慧玲低」×3",
+      "narration_para_pct 3.8 低于目标 20.0",
+      "attr_adv_pct 10.9 高于目标 10.0",
+      "dialogue_run_mean 24.5 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「陈思远的」×7、「”周慧玲轻」×4、「陈思远站在」×3",
+      "dialogue_chars_pct 62.1 高于目标 58.0",
+      "narration_para_pct 3.6 低于目标 20.0",
+      "dialogue_run_mean 16 高于目标 10.0"
+    ],
+    "5": [
+      "narration_para_pct 5.1 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 243.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:33:46"
+}

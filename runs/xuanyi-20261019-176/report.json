@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-176",
+  "profile": "悬疑推理",
+  "title": "面粉",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15154,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14369,
+    "chapter_chars_mean": 2874,
+    "chapter_chars_median": 3375,
+    "chapter_chars_cv": 0.4,
+    "paragraphs_mean": 67.6,
+    "dialogue_chars_pct": 35.7,
+    "dialogue_para_pct": 76.3,
+    "interiority_para_pct": 9.5,
+    "narration_para_pct": 14.2,
+    "turn_under20_pct": 83.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.4,
+    "attr_adv_pct": 7.4,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 5.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁锹移位痕迹",
+      "chars": 1721,
+      "score": 97.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "旧钥匙攥紧的手",
+      "chars": 3619,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "纸条上的数字排列",
+      "chars": 3531,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "文件上的编号痕迹",
+      "chars": 4455,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "面粉上的生产日期",
+      "chars": 1823,
+      "score": 91.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周素云的」×3",
+      "narration_para_pct 16.7 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「除非……他不想被人找到…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「周素云的」×11、「陈文远的」×10、「“我不知道」×4",
+      "narration_para_pct 4.8 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「一个叫‘防空洞’的地方…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周素云的」×7、「陈文远的」×6、「“我不知道」×3",
+      "narration_para_pct 17.1 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周素云的」×10、「“我不知道」×4、「点了点头“」×4",
+      "narration_para_pct 15.6 低于目标 20.0",
+      "attr_adv_pct 10.5 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周素云的」×5、「为什么会」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 239.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:02:23"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "门禁系统故障",
+    "beat": "物业经理发现门禁系统中一张注销卡的刷卡记录",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "注销卡",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "监控录像缺失",
+    "beat": "保安主管否认员工失踪并提供监控录像",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "监控录像",
+    "speakers": [
+      "周启明"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "打卡记录打印件",
+    "beat": "物业经理找到员工失踪前的打卡记录打印件",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "打卡记录打印件",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "员工个人物品",
+    "beat": "物业经理发现失踪员工的个人物品",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "员工个人物品",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "门禁系统重启",
+    "beat": "物业经理重启门禁系统并发现更多异常",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "门禁系统",
+    "speakers": [
+      "林子安"
+    ]
+  }
+]

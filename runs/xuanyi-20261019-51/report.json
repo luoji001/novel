@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-51",
+  "profile": "悬疑推理",
+  "title": "铜锁",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13556,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12875,
+    "chapter_chars_mean": 2575,
+    "chapter_chars_median": 3087,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 59.8,
+    "dialogue_chars_pct": 38.1,
+    "dialogue_para_pct": 71.1,
+    "interiority_para_pct": 11.9,
+    "narration_para_pct": 17.0,
+    "turn_under20_pct": 75.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.1,
+    "attr_adv_pct": 8.7,
+    "scenes_per_chapter": 3.6,
+    "dialogue_run_mean": 5.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅泛黄账本",
+      "chars": 1479,
+      "score": 99.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钥匙与雨夜的对话",
+      "chars": 3532,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "钥匙与地图的对峙",
+      "chars": 3221,
+      "score": 85.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "地图上的神秘标记",
+      "chars": 3458,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "钥匙开启第一道锁",
+      "chars": 1861,
+      "score": 90.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「周怀远的」×4",
+      "dialogue_chars_pct 58.4 高于目标 58.0",
+      "narration_para_pct 3.4 低于目标 20.0",
+      "[observe] attr_adv_pct 23.3 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈墨感到」×3",
+      "dialogue_chars_pct 16.7 低于目标 20.0",
+      "interiority_para_pct 20.3 高于目标 20.0",
+      "[observe] 标题与《钥匙与雨夜的对话》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「沈墨站在」×3",
+      "attr_adv_pct 10.5 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周怀远的」×3",
+      "narration_para_pct 6.4 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 220.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:53:17"
+}

@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-108",
+  "profile": "悬疑推理",
+  "title": "水表走动",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15489,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14818,
+    "chapter_chars_mean": 2964,
+    "chapter_chars_median": 3399,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 60,
+    "dialogue_chars_pct": 28.7,
+    "dialogue_para_pct": 56.0,
+    "interiority_para_pct": 15.6,
+    "narration_para_pct": 28.4,
+    "turn_under20_pct": 70.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.4,
+    "attr_adv_pct": 6.2,
+    "scenes_per_chapter": 5.2,
+    "dialogue_run_mean": 3.7,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "水表转动",
+      "chars": 2020,
+      "score": 97.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "查看电费单",
+      "chars": 4073,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "电饭煲余温",
+      "chars": 3520,
+      "score": 55.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "水表仍在转动",
+      "chars": 3863,
+      "score": 79.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "电饭锅余温",
+      "chars": 2008,
+      "score": 83.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周美兰的」×3",
+      "narration_para_pct 8.9 低于目标 20.0",
+      "[observe] attr_adv_pct 26.7 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周美兰的」×4",
+      "attr_adv_pct 10.5 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「中带着一丝」×4",
+      "dialogue_chars_pct 13.7 低于目标 20.0",
+      "interiority_para_pct 24.1 高于目标 20.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 41 句（如「水表还在走，电费单上的数字还在变，就像那串始终不…」）",
+      "[observe] 标题与《水表转动》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 17 句（如「桌面上那个旧电饭锅正在发出咕嘟咕嘟的声音，看起来…」）",
+      "[observe] 标题与《电饭煲余温》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 239.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:14:44"
+}

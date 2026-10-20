@@ -1,0 +1,160 @@
+开始：xuanyi-20261019-60（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-60
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 核查门禁记录（short，1942字）物业经理林振华开始核对门禁刷卡记录，发现一张注销卡的记录与失踪员工的最后行程吻合
+     2. 检查考勤表（normal，3238字）林振华翻阅未完成的考勤表，发现失踪员工的记录缺失，怀疑有人故意隐瞒
+     3. 寻找便签纸（normal，3238字）林振华在办公室找到一张被撕毁的便签纸，上面写着失踪员工的名字和日期
+     4. 查看保安记录（normal，3238字）林振华向保安员陈志强询问注销卡的持有者，得知该卡曾被一位早已离职的员工使用
+     5. 调查人事主管（short，1942字）林振华找到人事主管周晓芸，发现她掌握失踪员工的离职文件，并怀疑她隐瞒了某些信息
+
+  继续：novel-agent approve xuanyi-20261019-60 --accept
+  打回：novel-agent approve xuanyi-20261019-60 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-60
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-60
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第1场「揭示注销卡的门禁记录存在，但仍扣住该卡与失踪员工的关联性」与第3章第4场「揭示林振华在查看便签纸时发现日期与注销卡的记录吻合，但仍扣住便签纸与失踪员工的行踪关联性」信息重合 0.61
+    - 第1章第1场「揭示注销卡的门禁记录存在，但仍扣住该卡与失踪员工的关联性」与第3章第6场「揭示林振华在整理便签纸时发现其与注销卡的记录存在矛盾，但仍扣住便签纸与失踪员工的行踪关联性」信息重合 0.66
+    - 第1章第2场「揭示注销卡的持有者非失踪员工，但仍扣住该卡进入的区域异常」与第1章第3场「揭示注销卡进入的区域与失踪员工的权限不符，但仍扣住该卡记录的时间点异常」信息重合 0.63（同一章内）
+    - 第1章第3场「揭示注销卡进入的区域与失踪员工的权限不符，但仍扣住该卡记录的时间点异常」与第4章第4场「揭示注销卡的使用频率与失踪员工的日常行为模式不符，但仍扣住注销卡记录的异常性」信息重合 0.68
+    - 第2章第1场「揭示考勤表的格式和缺失部分，但仍扣住失踪员工的行踪异常」与第2章第3场「揭示考勤表中其他员工的记录完整，但仍扣住失踪员工的异常行为」信息重合 0.64（同一章内）
+    - 第2章第2场「揭示考勤表中失踪员工的记录被人为删除，但仍扣住删除者的身份」与第2章第4场「揭示考勤表中失踪员工的记录时间与门禁记录不符，但仍扣住时间差的含义」信息重合 0.61（同一章内）
+    - 第2章第2场「揭示考勤表中失踪员工的记录被人为删除，但仍扣住删除者的身份」与第2章第5场「揭示考勤表中失踪员工的记录被涂改，但仍扣住涂改者的意图」信息重合 0.75（同一章内）
+    - 第2章第2场「揭示考勤表中失踪员工的记录被人为删除，但仍扣住删除者的身份」与第2章第6场「揭示考勤表中失踪员工的记录被替换，但仍扣住替换者的动机」信息重合 0.75（同一章内）
+    - 第2章第3场「揭示考勤表中其他员工的记录完整，但仍扣住失踪员工的异常行为」与第2章第5场「揭示考勤表中失踪员工的记录被涂改，但仍扣住涂改者的意图」信息重合 0.61（同一章内）
+    - 第2章第3场「揭示考勤表中其他员工的记录完整，但仍扣住失踪员工的异常行为」与第2章第6场「揭示考勤表中失踪员工的记录被替换，但仍扣住替换者的动机」信息重合 0.61（同一章内）
+    - 第2章第4场「揭示考勤表中失踪员工的记录时间与门禁记录不符，但仍扣住时间差的含义」与第2章第5场「揭示考勤表中失踪员工的记录被涂改，但仍扣住涂改者的意图」信息重合 0.63（同一章内）
+    - 第2章第4场「揭示考勤表中失踪员工的记录时间与门禁记录不符，但仍扣住时间差的含义」与第2章第6场「揭示考勤表中失踪员工的记录被替换，但仍扣住替换者的动机」信息重合 0.63（同一章内）
+    第1章 3 场：揭示注销卡的门禁记录存在，但仍扣 | 揭示注销卡的持有者非失踪员工，但 | 揭示注销卡进入的区域与失踪员工的
+    第2章 6 场：揭示考勤表的格式和缺失部分，但仍 | 揭示考勤表中失踪员工的记录被人为 | 揭示考勤表中其他员工的记录完整， | 揭示考勤表中失踪员工的记录时间与 | 揭示考勤表中失踪员工的记录被涂改 | 揭示考勤表中失踪员工的记录被替换
+    第3章 6 场：揭示林振华在核对考勤表时发现异常 | 揭示林振华在整理文件时发现一张被 | 揭示林振华试图拼凑便签纸碎片时发 | 揭示林振华在查看便签纸时发现日期 | 揭示林振华在翻找文件时发现便签纸 | 揭示林振华在整理便签纸时发现其与
+    第4章 6 场：揭示注销卡的持有者是早已离职的员 | 揭示注销卡的使用时间与失踪员工最 | 揭示注销卡的使用地点与失踪员工最 | 揭示注销卡的使用频率与失踪员工的 | 揭示注销卡的使用时段与失踪员工的 | 揭示注销卡的使用记录与失踪员工的
+    第5章 3 场：揭示周晓芸掌握失踪员工的离职文件 | 揭示周晓芸签有失踪员工的离职文件 | 揭示周晓芸对失踪员工的行踪有所了
+
+  继续：novel-agent approve xuanyi-20261019-60 --accept
+  打回：novel-agent approve xuanyi-20261019-60 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-60
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-60
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-60/report.md
+
+  继续：novel-agent approve xuanyi-20261019-60 --accept
+  打回：novel-agent approve xuanyi-20261019-60 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-60
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-60
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-60
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-60

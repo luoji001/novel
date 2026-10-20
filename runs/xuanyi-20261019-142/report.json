@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-142",
+  "profile": "悬疑推理",
+  "title": "怀表",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13920,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13307,
+    "chapter_chars_mean": 2661,
+    "chapter_chars_median": 2923,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 53.2,
+    "dialogue_chars_pct": 31.1,
+    "dialogue_para_pct": 70.7,
+    "interiority_para_pct": 11.4,
+    "narration_para_pct": 17.9,
+    "turn_under20_pct": 77.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.4,
+    "attr_adv_pct": 14.8,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "当票上的日期差",
+      "chars": 1848,
+      "score": 96.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "账簿里的陌生名字",
+      "chars": 3600,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "暗格里的信件",
+      "chars": 3041,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "怀表与当票的关联",
+      "chars": 3553,
+      "score": 85.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "地图边缘的墨渍",
+      "chars": 1873,
+      "score": 91.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈文远的」×4"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「“我不知道」×3、「点了点头」×3、「不仅仅是」×3",
+      "narration_para_pct 18.8 低于目标 20.0",
+      "[observe] attr_adv_pct 28.6 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「陆秋实的」×5、「沈文远的」×5",
+      "narration_para_pct 15.4 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「沈文远的」×4、「陆秋实的」×3",
+      "attr_adv_pct 19.2 高于目标 10.0",
+      "[observe] 章内自我复读 20 句（如「他只是说：“我知道你一直在寻找答案，但也许你应该…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈文远的」×3",
+      "narration_para_pct 10.8 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 228.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:38:39"
+}

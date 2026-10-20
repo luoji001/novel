@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "扫描设备故障",
+    "beat": "周子安在例行检查中发现扫描设备异常，导致一张快递面单被扫描了两次",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "一台老旧的扫描设备",
+    "speakers": [
+      "周子安"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "分拣记录异常",
+    "beat": "周子安查看分拣日志，发现一个包裹编号缺失，与面单重复扫描现象有关",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "一份错误的分拣记录表",
+    "speakers": [
+      "周子安"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "监控录像缺失",
+    "beat": "周子安调取监控录像，发现某时段录像缺失，怀疑有人故意掩盖真相",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "墙上挂着的监控摄像头",
+    "speakers": [
+      "周子安"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "异常报告销毁",
+    "beat": "林雪梅承认曾收到异常报告，但称已销毁，引发对系统漏洞的质疑",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "一份被销毁的异常报告",
+    "speakers": [
+      "林雪梅"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "系统漏洞暴露",
+    "beat": "杭州余杭快递分拣中心承认存在系统漏洞，导致数据篡改和责任归属不明",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "一份未公开的系统漏洞报告",
+    "speakers": [
+      "杭州余杭快递分拣中心"
+    ]
+  }
+]

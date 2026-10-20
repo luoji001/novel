@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-03",
+  "profile": "悬疑推理",
+  "title": "行李箱",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14454,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13669,
+    "chapter_chars_mean": 2734,
+    "chapter_chars_median": 3208,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 71,
+    "dialogue_chars_pct": 49.5,
+    "dialogue_para_pct": 88.8,
+    "interiority_para_pct": 3.7,
+    "narration_para_pct": 7.5,
+    "turn_under20_pct": 84.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.6,
+    "attr_adv_pct": 12.2,
+    "scenes_per_chapter": 5.4,
+    "dialogue_run_mean": 8.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙的齿痕",
+      "chars": 1485,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "箱子消失的秘密",
+      "chars": 3509,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "箱子的踪迹",
+      "chars": 3886,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "钥匙的齿痕",
+      "chars": 3385,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "火车票的终点",
+      "chars": 2184,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林志远站在」×3、「陈美玲的」×3",
+      "narration_para_pct 5.3 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈美玲的」×7、「林志远的」×4、「林志远站在」×3",
+      "narration_para_pct 5.9 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×6、「陈美玲的」×5、「林志远站在」×4",
+      "narration_para_pct 10.5 低于目标 20.0",
+      "attr_adv_pct 10.2 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「陈美玲的」×6、「”陈美玲轻」×4、「林志远站在」×3",
+      "narration_para_pct 7.4 低于目标 20.0",
+      "attr_adv_pct 15.6 高于目标 10.0",
+      "[observe] 标题重复：「钥匙的齿痕」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「“我不知道」×5、「林志远的」×3",
+      "narration_para_pct 6.5 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 263.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T08:54:10"
+}

@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-46",
+  "profile": "悬疑推理",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14174,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13565,
+    "chapter_chars_mean": 2713,
+    "chapter_chars_median": 3124,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 53.4,
+    "dialogue_chars_pct": 33.9,
+    "dialogue_para_pct": 68.3,
+    "interiority_para_pct": 15.9,
+    "narration_para_pct": 15.9,
+    "turn_under20_pct": 76.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.2,
+    "attr_adv_pct": 6.6,
+    "scenes_per_chapter": 4,
+    "dialogue_run_mean": 3.7,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙牌移位",
+      "chars": 1585,
+      "score": 98.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "翻开日期的瞬间",
+      "chars": 3812,
+      "score": 48.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "箱子上的红标签",
+      "chars": 3273,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "钟摆上的倒影",
+      "chars": 3713,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "钥匙牌移位",
+      "chars": 1786,
+      "score": 84.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林雪梅的」×5、「”林雪梅低」×3",
+      "narration_para_pct 6.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周正国的」×7",
+      "interiority_para_pct 26.2 高于目标 20.0",
+      "narration_para_pct 19.7 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周正国的」×5",
+      "narration_para_pct 10.4 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周正国的」×11、「林雪梅的」×6、「周正国感到」×3",
+      "narration_para_pct 13.8 低于目标 20.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 14.9 低于目标 20.0",
+      "[observe] 标题重复：「钥匙牌移位」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 218.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:41:06"
+}

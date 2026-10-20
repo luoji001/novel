@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-192",
+  "profile": "悬疑推理",
+  "title": "纸条上的时间",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 16087,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15265,
+    "chapter_chars_mean": 3053,
+    "chapter_chars_median": 3659,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 74.4,
+    "dialogue_chars_pct": 48.2,
+    "dialogue_para_pct": 82.9,
+    "interiority_para_pct": 6.8,
+    "narration_para_pct": 10.3,
+    "turn_under20_pct": 71.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.0,
+    "attr_adv_pct": 7.8,
+    "scenes_per_chapter": 3.6,
+    "dialogue_run_mean": 6.8,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "屏幕亮起的瞬间",
+      "chars": 1809,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "快递单上的地址",
+      "chars": 4055,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "纸条上的时间",
+      "chars": 3850,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "时间提前的电脑",
+      "chars": 3913,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "广告牌下的日期",
+      "chars": 2455,
+      "score": 91.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「“我不知道」×3、「陈玉兰的」×3",
+      "narration_para_pct 12.5 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×4、「陈玉兰的」×4、「”陈玉兰轻」×3",
+      "narration_para_pct 12.5 低于目标 20.0",
+      "[observe] 章内自我复读 9 句（如「但我觉得这件事并不简单。你知道吗？我爸曾经说过，…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×3、「他知道这」×3",
+      "narration_para_pct 4.5 低于目标 20.0",
+      "attr_adv_pct 18.8 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林志远的」×4、「“我不知道」×3",
+      "narration_para_pct 17.0 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林志远站在」×3、「陈玉兰的」×3、「为什么会」×3",
+      "情节与已写章节重复 0.64 ≥ 0.62（撞上「林志远发现网吧07号电脑存在异常登录记录，并逐渐揭开其背…」）",
+      "narration_para_pct 3.3 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 246.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:39:48"
+}

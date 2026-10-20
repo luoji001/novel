@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-89",
+  "profile": "悬疑推理",
+  "title": "旧钟的指针",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13734,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13095,
+    "chapter_chars_mean": 2619,
+    "chapter_chars_median": 3040,
+    "chapter_chars_cv": 0.44,
+    "paragraphs_mean": 56,
+    "dialogue_chars_pct": 34.6,
+    "dialogue_para_pct": 73.1,
+    "interiority_para_pct": 10.9,
+    "narration_para_pct": 15.9,
+    "turn_under20_pct": 75.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.2,
+    "attr_adv_pct": 10.4,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记簿的指纹",
+      "chars": 1363,
+      "score": 97.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "挂钟的停滞时光",
+      "chars": 3947,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 3,
+      "title": "摩挲钢笔的木纹",
+      "chars": 3189,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "掀开海报的暗格",
+      "chars": 3640,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "翻阅褪色登记簿",
+      "chars": 1590,
+      "score": 90.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「婉秋，我需要你帮我查一下登记簿的内容…」）"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「“我不知道」×4、「苏婉秋点」×3、「带着一丝」×3",
+      "narration_para_pct 13.5 低于目标 20.0",
+      "attr_adv_pct 13.3 高于目标 10.0",
+      "[observe] 章内自我复读 14 句（如「她皱起眉头，仔细核对了一遍签字簿里的内容，又对着…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「苏婉秋的」×6、「林振邦的」×6、「“我不知道」×4",
+      "narration_para_pct 13.4 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「苏婉秋走进来，手里还拎着什么东西，“我前几天看到…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林振邦的」×5、「”苏婉秋低」×4、「这是什么？」×4",
+      "narration_para_pct 10.7 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林振邦的」×4",
+      "narration_para_pct 17.9 低于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:27:10"
+}

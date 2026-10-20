@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-34",
+  "profile": "悬疑推理",
+  "title": "红墨水",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14047,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13444,
+    "chapter_chars_mean": 2689,
+    "chapter_chars_median": 3163,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 52.4,
+    "dialogue_chars_pct": 41.7,
+    "dialogue_para_pct": 84.4,
+    "interiority_para_pct": 9.2,
+    "narration_para_pct": 6.4,
+    "turn_under20_pct": 68.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.2,
+    "attr_adv_pct": 12.8,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 6.6,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红墨水圈出的数字",
+      "chars": 1855,
+      "score": 96.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "量布尺的裂痕",
+      "chars": 3399,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "火车票与布料标签",
+      "chars": 3295,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "揭开铁皮盒的秘密",
+      "chars": 3710,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "抚摸布料标签的指尖",
+      "chars": 1783,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈德昌的」×4",
+      "narration_para_pct 9.4 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「微微一笑」×3",
+      "narration_para_pct 9.0 低于目标 20.0",
+      "[observe] attr_adv_pct 23.5 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈德昌的」×10",
+      "narration_para_pct 1.7 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周玉兰的」×7、「为什么会」×5、「”周玉兰轻」×4",
+      "narration_para_pct 6.8 低于目标 20.0",
+      "attr_adv_pct 15.8 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「那我们现在该怎么办？…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「周玉兰的」×5",
+      "narration_para_pct 6.2 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:11:46"
+}

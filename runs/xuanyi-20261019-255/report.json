@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-255",
+  "profile": "悬疑推理",
+  "title": "手表密码",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14341,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13725,
+    "chapter_chars_mean": 2745,
+    "chapter_chars_median": 3434,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 53.2,
+    "dialogue_chars_pct": 26.4,
+    "dialogue_para_pct": 63.3,
+    "interiority_para_pct": 12.9,
+    "narration_para_pct": 23.8,
+    "turn_under20_pct": 71.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.6,
+    "attr_adv_pct": 9.1,
+    "scenes_per_chapter": 5,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "表盘映出冰柜阴影",
+      "chars": 1657,
+      "score": 97.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "登记簿上的模糊字迹",
+      "chars": 3735,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "触摸冰柜的手表",
+      "chars": 3601,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "触摸手册的边缘",
+      "chars": 3605,
+      "score": 85.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "登记簿边缘的指纹",
+      "chars": 1738,
+      "score": 89.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 18.8 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×3",
+      "dialogue_chars_pct 11.0 低于目标 20.0",
+      "interiority_para_pct 23.1 高于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「沈婉如的」×3",
+      "[observe] attr_adv_pct 21.4 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「沈婉如的」×6、「“我不知道」×3",
+      "narration_para_pct 9.0 低于目标 20.0",
+      "[observe] 章内自我复读 31 句（如「那么，你能不能告诉我，在你的技术手册里有没有提到…」）"
+    ],
+    "5": [
+      "narration_para_pct 18.2 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 220.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:15:06"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "水表读数异常",
+    "beat": "房东发现水表读数比预期高，怀疑租客仍未搬走",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "水表",
+    "speakers": [
+      "陈文远"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "物业检查记录",
+    "beat": "物业管理员核对水表读数，确认租客仍居住在房屋内",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "租金收据",
+    "speakers": [
+      "周晓芸"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "伪造水电账单",
+    "beat": "租客伪造水电费账单，试图掩盖水表被篡改的事实",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "水电费账单",
+    "speakers": [
+      "林志浩"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "房东手机记录",
+    "beat": "房东查看手机记录，发现租客曾多次联系他索要租金",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "房东的手机",
+    "speakers": [
+      "陈文远"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "身份证复印件消失",
+    "beat": "房东发现租客的身份证复印件不翼而飞，意识到租客可能仍在居住",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "租客的身份证复印件",
+    "speakers": [
+      "陈文远"
+    ]
+  }
+]

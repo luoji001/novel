@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-23",
+  "profile": "悬疑推理",
+  "title": "行李箱",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14017,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13271,
+    "chapter_chars_mean": 2654,
+    "chapter_chars_median": 3067,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 66.2,
+    "dialogue_chars_pct": 41.5,
+    "dialogue_para_pct": 82.8,
+    "interiority_para_pct": 5.9,
+    "narration_para_pct": 11.3,
+    "turn_under20_pct": 82.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.9,
+    "attr_adv_pct": 3.6,
+    "scenes_per_chapter": 5.6,
+    "dialogue_run_mean": 7.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "箱子的秘密",
+      "chars": 1811,
+      "score": 98.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "窗帘掀开",
+      "chars": 3513,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "汇款单被摩挲",
+      "chars": 3221,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙的低语",
+      "chars": 3915,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "箱子的秘密",
+      "chars": 1552,
+      "score": 93.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「“我不知道」×3",
+      "narration_para_pct 18.2 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×6、「”苏婉儿轻」×4、「苏婉儿的」×3",
+      "narration_para_pct 9.0 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 11.4 低于目标 20.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「“我不知道」×8、「苏婉儿点」×5、「林志远的」×4",
+      "narration_para_pct 8.6 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×4",
+      "narration_para_pct 14.7 低于目标 20.0",
+      "[observe] 标题重复：「箱子的秘密」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:44:28"
+}

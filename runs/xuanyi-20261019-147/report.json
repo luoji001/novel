@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-147",
+  "profile": "悬疑推理",
+  "title": "砚台",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14195,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13513,
+    "chapter_chars_mean": 2703,
+    "chapter_chars_median": 3356,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 59.8,
+    "dialogue_chars_pct": 46.4,
+    "dialogue_para_pct": 85.2,
+    "interiority_para_pct": 7.2,
+    "narration_para_pct": 7.6,
+    "turn_under20_pct": 66.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.8,
+    "attr_adv_pct": 10.3,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 8.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "砚台轻如羽",
+      "chars": 1694,
+      "score": 92.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "触纸生凉",
+      "chars": 3756,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "铜印照光",
+      "chars": 3537,
+      "score": 86.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "木尺对砚",
+      "chars": 3542,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "拂数寻砚",
+      "chars": 1661,
+      "score": 91.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 12.5 低于目标 20.0",
+      "[observe] 章内自我复读 19 句（如「老周缓缓将砚台托起，转向光线，“像这样细腻入微的…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「沈墨生的」×13",
+      "narration_para_pct 4.2 低于目标 20.0",
+      "[observe] 章内自我复读 5 句（如「那你有没有想过，那个地方到底是什么地方？…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×3",
+      "narration_para_pct 1.6 低于目标 20.0",
+      "dialogue_run_mean 20.3 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「陆怀远的」×10",
+      "narration_para_pct 14.9 低于目标 20.0",
+      "attr_adv_pct 19.0 高于目标 10.0"
+    ],
+    "5": [
+      "narration_para_pct 8.1 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 231.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:50:50"
+}

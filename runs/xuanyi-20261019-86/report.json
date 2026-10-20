@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-86",
+  "profile": "悬疑推理",
+  "title": "铁钉",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13842,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13218,
+    "chapter_chars_mean": 2644,
+    "chapter_chars_median": 3064,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 54.2,
+    "dialogue_chars_pct": 38.1,
+    "dialogue_para_pct": 76.7,
+    "interiority_para_pct": 9.6,
+    "narration_para_pct": 13.8,
+    "turn_under20_pct": 74.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.3,
+    "attr_adv_pct": 11.0,
+    "scenes_per_chapter": 5.4,
+    "dialogue_run_mean": 5.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙牌悄然移位",
+      "chars": 1767,
+      "score": 98.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "划痕下的密语",
+      "chars": 3397,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "停摆的挂钟指针",
+      "chars": 3230,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "锈钉上的刻痕密码",
+      "chars": 3664,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "指针凝固在14点",
+      "chars": 1779,
+      "score": 90.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈素云的」×5",
+      "[observe] attr_adv_pct 40.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道自己」×4、「林振邦站在」×3、「为什么会」×3",
+      "narration_para_pct 14.1 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林振邦的」×8、「陈素云的」×6、「陈素云点」×3",
+      "narration_para_pct 12.0 低于目标 20.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林振邦站在」×4、「林振邦的」×4、「他知道自己」×3",
+      "narration_para_pct 13.5 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林振邦的」×3",
+      "narration_para_pct 10.7 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 231.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:19:46"
+}

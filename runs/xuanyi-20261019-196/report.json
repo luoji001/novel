@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-196",
+  "profile": "悬疑推理",
+  "title": "纸条的真相",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14748,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14070,
+    "chapter_chars_mean": 2814,
+    "chapter_chars_median": 3196,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 59.6,
+    "dialogue_chars_pct": 39.5,
+    "dialogue_para_pct": 78.9,
+    "interiority_para_pct": 7.8,
+    "narration_para_pct": 13.4,
+    "turn_under20_pct": 72.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 13.1,
+    "attr_adv_pct": 12.7,
+    "scenes_per_chapter": 3.8,
+    "dialogue_run_mean": 6.6,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记簿的末页",
+      "chars": 1757,
+      "score": 95.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "登记簿的空白处",
+      "chars": 3339,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "怀表的错位时光",
+      "chars": 3794,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "木牌上的日期",
+      "chars": 4032,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 5,
+      "title": "纸条的灰烬",
+      "chars": 1821,
+      "score": 90.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈文远的」×5、「为什么会」×4",
+      "narration_para_pct 8.3 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 章内自我复读 9 句（如「周婉秋站在原地，看着他的背影消失在黑暗之中，心中…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「沈文远的」×4、「沈文远站在」×3",
+      "narration_para_pct 12.5 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 标题与《登记簿的末页》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「周婉秋的」×3、「为什么会」×3",
+      "narration_para_pct 16.1 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「1943年5月20日…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「点了点头“」×4、「重庆防空洞管理处」×4、「“我不知道」×3",
+      "dialogue_chars_pct 59.1 高于目标 58.0",
+      "narration_para_pct 7.5 低于目标 20.0",
+      "attr_adv_pct 18.4 高于目标 10.0",
+      "dialogue_run_mean 11.8 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「1943年5月20日…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「1943年5月20日…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 241.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:49:58"
+}

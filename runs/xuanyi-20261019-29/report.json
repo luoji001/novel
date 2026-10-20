@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-29",
+  "profile": "悬疑推理",
+  "title": "药瓶指纹",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14327,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13697,
+    "chapter_chars_mean": 2739,
+    "chapter_chars_median": 3315,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 55.2,
+    "dialogue_chars_pct": 25.2,
+    "dialogue_para_pct": 61.1,
+    "interiority_para_pct": 10.7,
+    "narration_para_pct": 28.2,
+    "turn_under20_pct": 85.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.7,
+    "attr_adv_pct": 8.4,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶上的名字",
+      "chars": 1583,
+      "score": 98.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "药瓶上的名字",
+      "chars": 3931,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "墨水与药瓶的相遇",
+      "chars": 3489,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "钥匙转动的瞬间",
+      "chars": 3575,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "指纹揭开的纸片",
+      "chars": 1744,
+      "score": 65.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈文远的」×3",
+      "[observe] attr_adv_pct 66.7 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林素云的」×5、「他知道这」×3",
+      "[observe] 章内自我复读 27 句（如「每颗算珠都对应一种药物的存量，比如阿司匹林、黄连…」）",
+      "[observe] 标题重复：「药瓶上的名字」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「林素云的」×4、「陈文远站在」×3",
+      "narration_para_pct 19.0 低于目标 20.0",
+      "[observe] 章内自我复读 12 句（如「那是三天前被陈文远从药品架上取下来的，当时他正在…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈文远的」×4",
+      "[observe] 章内自我复读 18 句（如「这把钥匙能打开这里的所有柜子，但唯独打不开那本登…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 3.8 低于目标 20.0",
+      "interiority_para_pct 22.7 高于目标 20.0",
+      "dialogue_run_mean 1 低于目标 1.5"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:59:11"
+}

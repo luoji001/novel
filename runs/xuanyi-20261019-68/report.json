@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-68",
+  "profile": "悬疑推理",
+  "title": "水表停滞",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15550,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14820,
+    "chapter_chars_mean": 2964,
+    "chapter_chars_median": 3543,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 63,
+    "dialogue_chars_pct": 29.3,
+    "dialogue_para_pct": 64.7,
+    "interiority_para_pct": 16.7,
+    "narration_para_pct": 18.5,
+    "turn_under20_pct": 75.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.6,
+    "attr_adv_pct": 6.0,
+    "scenes_per_chapter": 4.6,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "水表指针在转动",
+      "chars": 2084,
+      "score": 73.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "水表指针在转动",
+      "chars": 3883,
+      "score": 85.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "水表指针在转动",
+      "chars": 3913,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "手表指针停在三点",
+      "chars": 3729,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "投诉单上的指纹",
+      "chars": 1936,
+      "score": 93.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 13.2 低于目标 20.0",
+      "interiority_para_pct 31.0 高于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周美兰的」×3",
+      "dialogue_chars_pct 16.1 低于目标 20.0",
+      "interiority_para_pct 21.4 高于目标 20.0",
+      "[observe] 标题重复：「水表指针在转动」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「周美兰的」×5、「为什么会」×4",
+      "narration_para_pct 10.6 低于目标 20.0",
+      "attr_adv_pct 17.4 高于目标 10.0",
+      "[observe] 标题重复：「水表指针在转动」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「陈国强的」×3、「为什么会」×3",
+      "narration_para_pct 11.8 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 18.9 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 241.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:35:56"
+}

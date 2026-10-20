@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-233",
+  "profile": "悬疑推理",
+  "title": "布鞋",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13741,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13143,
+    "chapter_chars_mean": 2629,
+    "chapter_chars_median": 3178,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 51.8,
+    "dialogue_chars_pct": 29.2,
+    "dialogue_para_pct": 65.2,
+    "interiority_para_pct": 17.5,
+    "narration_para_pct": 17.2,
+    "turn_under20_pct": 73.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.2,
+    "attr_adv_pct": 6.0,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲木纹的指尖",
+      "chars": 1725,
+      "score": 85.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "铜锁轻触旧布鞋",
+      "chars": 3341,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲银元的指尖",
+      "chars": 3559,
+      "score": 82.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "摩挲银元的指尖",
+      "chars": 3419,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲账本的指尖",
+      "chars": 1692,
+      "score": 90.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 17.5 低于目标 20.0",
+      "interiority_para_pct 26.9 高于目标 20.0",
+      "narration_para_pct 19.2 低于目标 20.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周怀瑾的」×5、「沈知远的」×4",
+      "narration_para_pct 16.2 低于目标 20.0",
+      "[observe] 章内自我复读 4 句（如「沈知远试着将它们连起来思考——如果这个铜锁真是某…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周怀瑾的」×6、「沈知远的」×6、「微微一笑」×3",
+      "dialogue_chars_pct 19.0 低于目标 20.0",
+      "interiority_para_pct 23.3 高于目标 20.0",
+      "[observe] 章内自我复读 11 句（如「沈知远抬头望去，只见外面的世界渐渐变得模糊不清，…」）",
+      "[observe] 标题与《摩挲木纹的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「沈知远的」×10、「周怀瑾的」×6",
+      "narration_para_pct 16.1 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 标题重复：「摩挲银元的指尖」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「周怀瑾的」×4",
+      "narration_para_pct 13.5 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 标题与《摩挲银元的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 228.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:20:46"
+}

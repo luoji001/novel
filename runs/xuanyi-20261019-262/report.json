@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-262",
+  "profile": "悬疑推理",
+  "title": "当票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14699,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13964,
+    "chapter_chars_mean": 2793,
+    "chapter_chars_median": 3152,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 66,
+    "dialogue_chars_pct": 40.1,
+    "dialogue_para_pct": 77.8,
+    "interiority_para_pct": 8.8,
+    "narration_para_pct": 13.4,
+    "turn_under20_pct": 74.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.5,
+    "attr_adv_pct": 12.5,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 5.3,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钟的低鸣",
+      "chars": 1961,
+      "score": 99.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "当票的折痕",
+      "chars": 3308,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲银戒的指尖",
+      "chars": 3476,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲怀表的刻痕",
+      "chars": 3904,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铜钟停摆的时刻",
+      "chars": 2045,
+      "score": 92.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 19.1 低于目标 20.0",
+      "[observe] attr_adv_pct 30.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×5、「为什么会」×3",
+      "narration_para_pct 13.9 低于目标 20.0",
+      "attr_adv_pct 15.6 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周怀瑾的」×5",
+      "narration_para_pct 16.9 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「带着一丝」×4、「微微一笑」×3、「沈慕云的」×3",
+      "narration_para_pct 10.5 低于目标 20.0",
+      "attr_adv_pct 11.8 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「为什么会」×4、「“我不知道」×3",
+      "narration_para_pct 6.7 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:32:57"
+}

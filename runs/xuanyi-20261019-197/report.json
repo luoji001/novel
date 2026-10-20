@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-197",
+  "profile": "悬疑推理",
+  "title": "红光",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14829,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14176,
+    "chapter_chars_mean": 2835,
+    "chapter_chars_median": 3296,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 57,
+    "dialogue_chars_pct": 42.0,
+    "dialogue_para_pct": 80.0,
+    "interiority_para_pct": 5.9,
+    "narration_para_pct": 14.1,
+    "turn_under20_pct": 69.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.7,
+    "attr_adv_pct": 3.0,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 6.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫描仪的双倍记录",
+      "chars": 1914,
+      "score": 99.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "扫描仪的计时器",
+      "chars": 3417,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "扫描仪的双倍记录",
+      "chars": 3657,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "扫描仪的异常脉冲",
+      "chars": 3772,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "撕开的包裹封口",
+      "chars": 2064,
+      "score": 88.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈雨桐的」×4",
+      "narration_para_pct 12.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周启明的」×5、「沈雨桐点」×3、「不仅仅是」×3",
+      "narration_para_pct 13.2 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈雨桐的」×5、「说道“我」×3、「周启明的」×3",
+      "narration_para_pct 18.7 低于目标 20.0",
+      "[observe] 标题重复：「扫描仪的双倍记录」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「沈雨桐点」×3、「沈雨桐的」×3、「周启明的」×3",
+      "narration_para_pct 15.8 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「“这是什么」×3、「周启明点点」×3、「这是什么？」×3",
+      "narration_para_pct 5.9 低于目标 20.0",
+      "[observe] 章内自我复读 20 句（如「我早上检查过扫描仪的时间参数，发现有些微差异。如…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 234.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:52:25"
+}

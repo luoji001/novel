@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-103",
+  "profile": "悬疑推理",
+  "title": "行李箱",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15107,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14281,
+    "chapter_chars_mean": 2856,
+    "chapter_chars_median": 3034,
+    "chapter_chars_cv": 0.42,
+    "paragraphs_mean": 69.4,
+    "dialogue_chars_pct": 39.9,
+    "dialogue_para_pct": 79.9,
+    "interiority_para_pct": 8.5,
+    "narration_para_pct": 11.5,
+    "turn_under20_pct": 80.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.3,
+    "attr_adv_pct": 7.8,
+    "scenes_per_chapter": 6,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "行李箱的踪迹",
+      "chars": 1888,
+      "score": 97.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "登记簿的折痕",
+      "chars": 4748,
+      "score": 86.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲工牌裂痕",
+      "chars": 3194,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲工资单边缘",
+      "chars": 3608,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲指纹痕迹",
+      "chars": 1664,
+      "score": 93.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林志远的」×3",
+      "narration_para_pct 16.2 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×9、「陈美玲的」×9、「林志远的」×4",
+      "narration_para_pct 8.1 低于目标 20.0",
+      "attr_adv_pct 13.0 高于目标 10.0",
+      "[observe] 章内自我复读 31 句（如「可是在第二天早上，所有人都发现了那只沉重的行李箱…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林志远站在」×4、「林志远的」×3",
+      "narration_para_pct 11.0 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×5、「林志远站在」×4、「林志远点点」×4",
+      "narration_para_pct 13.7 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 12.2 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 245.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:02:15"
+}

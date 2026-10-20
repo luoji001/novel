@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-132",
+  "profile": "悬疑推理",
+  "title": "登录记录",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15566,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14817,
+    "chapter_chars_mean": 2963,
+    "chapter_chars_median": 3467,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 67,
+    "dialogue_chars_pct": 39.4,
+    "dialogue_para_pct": 74.7,
+    "interiority_para_pct": 12.7,
+    "narration_para_pct": 12.6,
+    "turn_under20_pct": 78.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.5,
+    "attr_adv_pct": 12.0,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 5.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账单上的名字",
+      "chars": 2053,
+      "score": 99.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "07号电脑的登录记录",
+      "chars": 3793,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲纸条边缘",
+      "chars": 3623,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲账单边缘",
+      "chars": 3893,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲电脑屏幕",
+      "chars": 2199,
+      "score": 88.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林振东的」×5",
+      "narration_para_pct 8.2 低于目标 20.0",
+      "[observe] attr_adv_pct 30.8 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「苏婉如的」×6、「点了点头」×5、「”苏婉如轻」×4",
+      "narration_para_pct 3.7 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「”苏婉如轻」×3、「带着一丝」×3",
+      "[observe] 章内自我复读 21 句（如「你看，”她说，“在这段时间内，每一次‘异地登录’…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林振东的」×7、「他知道这」×4、「”苏婉如轻」×3",
+      "narration_para_pct 14.1 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 标题与《摩挲纸条边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「”苏婉如轻」×3",
+      "dialogue_chars_pct 64.3 高于目标 58.0",
+      "narration_para_pct 3.6 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "dialogue_run_mean 13 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 242.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:14:10"
+}

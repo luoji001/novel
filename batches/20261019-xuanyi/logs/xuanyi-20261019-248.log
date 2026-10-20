@@ -1,0 +1,160 @@
+开始：xuanyi-20261019-248（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-248
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 水表读数异常（short，1942字）房东发现水表读数比预期高，怀疑租客仍未搬走
+     2. 物业检查记录（normal，3238字）物业管理员核对水表读数，确认租客仍居住在房屋内
+     3. 伪造水电账单（normal，3238字）租客伪造水电费账单，试图掩盖水表被篡改的事实
+     4. 房东手机记录（normal，3238字）房东查看手机记录，发现租客曾多次联系他索要租金
+     5. 身份证复印件消失（short，1942字）房东发现租客的身份证复印件不翼而飞，意识到租客可能仍在居住
+
+  继续：novel-agent approve xuanyi-20261019-248 --accept
+  打回：novel-agent approve xuanyi-20261019-248 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-248
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-248
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第1场「揭示水表读数异常，但仍扣住租客可能篡改水表」与第1章第2场「揭示水表位置被移动，但仍扣住租客可能伪造数据」信息重合 0.60（同一章内）
+    - 第1章第1场「揭示水表读数异常，但仍扣住租客可能篡改水表」与第1章第3场「揭示水表外壳被撬开，但仍扣住租客可能伪造账单」信息重合 0.60（同一章内）
+    - 第1章第1场「揭示水表读数异常，但仍扣住租客可能篡改水表」与第2章第3场「揭示水表读数的最新记录，但仍扣住租客的行踪」信息重合 0.62
+    - 第1章第1场「揭示水表读数异常，但仍扣住租客可能篡改水表」与第2章第5场「揭示水表读数的异常，但仍扣住租客的动机」信息重合 0.75
+    - 第1章第1场「揭示水表读数异常，但仍扣住租客可能篡改水表」与第4章第2场「揭示租客在微信中提到水表读数异常，但仍扣住租客可能篡改了水表」信息重合 0.82
+    - 第1章第1场「揭示水表读数异常，但仍扣住租客可能篡改水表」与第4章第4场「揭示租客在微信中提到水表读数与实际使用不符，但仍扣住租客可能篡改了水表读数」信息重合 0.66
+    - 第1章第1场「揭示水表读数异常，但仍扣住租客可能篡改水表」与第4章第6场「揭示租客在微信中提到水表读数与实际使用不符，但仍扣住租客可能篡改了水表读数」信息重合 0.66
+    - 第1章第2场「揭示水表位置被移动，但仍扣住租客可能伪造数据」与第1章第3场「揭示水表外壳被撬开，但仍扣住租客可能伪造账单」信息重合 0.73（同一章内）
+    - 第2章第1场「揭示租金收据的日期，但仍扣住其真实性」与第2章第2场「揭示租金收据的金额，但仍扣住其来源」信息重合 0.74（同一章内）
+    - 第2章第1场「揭示租金收据的日期，但仍扣住其真实性」与第2章第4场「揭示租金收据的签名，但仍扣住签名的真实性」信息重合 0.79（同一章内）
+    - 第2章第1场「揭示租金收据的日期，但仍扣住其真实性」与第2章第6场「揭示租金收据的存档记录，但仍扣住租客的去向」信息重合 0.62（同一章内）
+    - 第2章第2场「揭示租金收据的金额，但仍扣住其来源」与第2章第4场「揭示租金收据的签名，但仍扣住签名的真实性」信息重合 0.65（同一章内）
+    第1章 3 场：揭示水表读数异常，但仍扣住租客可 | 揭示水表位置被移动，但仍扣住租客 | 揭示水表外壳被撬开，但仍扣住租客
+    第2章 6 场：揭示租金收据的日期，但仍扣住其真 | 揭示租金收据的金额，但仍扣住其来 | 揭示水表读数的最新记录，但仍扣住 | 揭示租金收据的签名，但仍扣住签名 | 揭示水表读数的异常，但仍扣住租客 | 揭示租金收据的存档记录，但仍扣住
+    第3章 6 场：揭示他伪造水电费账单，但仍扣住水 | 揭示他将伪造的账单藏入抽屉，但仍 | 揭示他用伪造账单欺骗房东，但仍扣 | 揭示他检查水表读数，但仍扣住账单 | 揭示他将账单藏入其他地方，但仍扣 | 揭示他准备再次伪造账单，但仍扣住
+    第4章 6 场：揭示租客曾多次通过微信联系他索要 | 揭示租客在微信中提到水表读数异常 | 揭示租客在微信中提到自己仍住在出 | 揭示租客在微信中提到水表读数与实 | 揭示租客在微信中提到自己仍住在出 | 揭示租客在微信中提到水表读数与实
+    第5章 3 场：揭示身份证复印件丢失，但仍扣住租 | 揭示租客可能伪造了水电费账单，但 | 揭示租客可能篡改了水表读数，但仍
+
+  继续：novel-agent approve xuanyi-20261019-248 --accept
+  打回：novel-agent approve xuanyi-20261019-248 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-248
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-248
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-248/report.md
+
+  继续：novel-agent approve xuanyi-20261019-248 --accept
+  打回：novel-agent approve xuanyi-20261019-248 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-248
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-248
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-248
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-248

@@ -1,0 +1,160 @@
+开始：xuanyi-20261019-51（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-51
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 煤油灯下的账本（short，1942字）沈墨发现账本上的日期与实际不符
+     2. 黄铜保险柜的密码（normal，3238字）周怀远透露第二道锁的密码
+     3. 生锈钥匙的用途（normal，3238字）沈墨发现钥匙只能打开第一道锁
+     4. 1928年的地图（normal，3238字）沈墨发现地图与账本日期不匹配
+     5. 第三道锁的秘密（short，1942字）沈墨最终找到打开第三道锁的方法
+
+  继续：novel-agent approve xuanyi-20261019-51 --accept
+  打回：novel-agent approve xuanyi-20261019-51 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-51
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-51
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第1场「揭示账本上的日期与实际不符，但仍扣住煤油灯的照明作用」与第1章第3场「揭示账本的异常日期，但仍扣住煤油灯的照明作用」信息重合 0.83（同一章内）
+    - 第1章第1场「揭示账本上的日期与实际不符，但仍扣住煤油灯的照明作用」与第2章第2场「揭示周怀远知道账本日期与实际不符，但仍扣住他隐瞒真相的动机」信息重合 0.62
+    - 第2章第2场「揭示周怀远知道账本日期与实际不符，但仍扣住他隐瞒真相的动机」与第2章第6场「揭示周怀远知道账本日期错误与保险柜第三道锁有关，但仍扣住他为何隐瞒的最终动机」信息重合 0.69（同一章内）
+    - 第2章第3场「揭示周怀远知道保险柜第三道锁的密码，但仍扣住他为何隐瞒的线索」与第2章第5场「揭示周怀远知道保险柜第三道锁的密码与账本日期有关，但仍扣住他为何修改账本的真相」信息重合 0.75（同一章内）
+    - 第2章第3场「揭示周怀远知道保险柜第三道锁的密码，但仍扣住他为何隐瞒的线索」与第2章第6场「揭示周怀远知道账本日期错误与保险柜第三道锁有关，但仍扣住他为何隐瞒的最终动机」信息重合 0.74（同一章内）
+    - 第2章第5场「揭示周怀远知道保险柜第三道锁的密码与账本日期有关，但仍扣住他为何修改账本的真相」与第2章第6场「揭示周怀远知道账本日期错误与保险柜第三道锁有关，但仍扣住他为何隐瞒的最终动机」信息重合 0.65（同一章内）
+    - 第3章第1场「揭示钥匙能打开第一道锁，但仍扣住第二道锁的密码」与第3章第5场「揭示钥匙无法打开第二道锁，但仍扣住钥匙的隐藏功能」信息重合 0.64（同一章内）
+    - 第3章第1场「揭示钥匙能打开第一道锁，但仍扣住第二道锁的密码」与第5章第2场「揭示保险柜第一道锁可被生锈钥匙打开，但仍扣住第二道锁密码的缺失」信息重合 0.63
+    - 第3章第2场「揭示周怀远持有钥匙，但仍扣住钥匙的真正用途」与第3章第4场「揭示周怀远知道钥匙的用途，但仍扣住钥匙的真正功能」信息重合 0.76（同一章内）
+    - 第4章第1场「揭示地图上的边界与账本日期不符，但仍扣住地图未标注1932年交易地点」与第4章第2场「揭示地图标注的区域与账本交易地点重合，但仍扣住地图未显示1932年交易细节」信息重合 0.65（同一章内）
+    - 第4章第1场「揭示地图上的边界与账本日期不符，但仍扣住地图未标注1932年交易地点」与第4章第3场「揭示地图边缘的磨损与账本日期不符，但仍扣住地图未显示1932年交易时间」信息重合 0.78（同一章内）
+    - 第4章第1场「揭示地图上的边界与账本日期不符，但仍扣住地图未标注1932年交易地点」与第4章第4场「揭示地图上的标记与账本交易地点一致，但仍扣住地图未显示1932年交易时间」信息重合 0.69（同一章内）
+    第1章 3 场：揭示账本上的日期与实际不符，但仍 | 揭示煤油灯的照明作用，但仍扣住账 | 揭示账本的异常日期，但仍扣住煤油
+    第2章 6 场：揭示周怀远掌握第二道锁的密码，但 | 揭示周怀远知道账本日期与实际不符 | 揭示周怀远知道保险柜第三道锁的密 | 揭示周怀远知道那天下雨时有交易发 | 揭示周怀远知道保险柜第三道锁的密 | 揭示周怀远知道账本日期错误与保险
+    第3章 6 场：揭示钥匙能打开第一道锁，但仍扣住 | 揭示周怀远持有钥匙，但仍扣住钥匙 | 揭示钥匙的锈迹与保险柜的年代相符 | 揭示周怀远知道钥匙的用途，但仍扣 | 揭示钥匙无法打开第二道锁，但仍扣 | 揭示钥匙与账本的标记有关，但仍扣
+    第4章 6 场：揭示地图上的边界与账本日期不符， | 揭示地图标注的区域与账本交易地点 | 揭示地图边缘的磨损与账本日期不符 | 揭示地图上的标记与账本交易地点一 | 揭示地图上的比例尺与账本日期不符 | 揭示地图上的注释与账本日期不符，
+    第5章 3 场：揭示保险柜第三道锁从未被打开，但 | 揭示保险柜第一道锁可被生锈钥匙打 | 揭示保险柜内部结构与账本位置关联
+
+  继续：novel-agent approve xuanyi-20261019-51 --accept
+  打回：novel-agent approve xuanyi-20261019-51 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-51
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-51
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-51/report.md
+
+  继续：novel-agent approve xuanyi-20261019-51 --accept
+  打回：novel-agent approve xuanyi-20261019-51 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-51
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-51
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-51
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-51

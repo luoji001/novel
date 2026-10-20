@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-13",
+  "profile": "悬疑推理",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 12933,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12350,
+    "chapter_chars_mean": 2470,
+    "chapter_chars_median": 3032,
+    "chapter_chars_cv": 0.4,
+    "paragraphs_mean": 50.6,
+    "dialogue_chars_pct": 37.0,
+    "dialogue_para_pct": 77.2,
+    "interiority_para_pct": 10.4,
+    "narration_para_pct": 12.4,
+    "turn_under20_pct": 66.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.1,
+    "attr_adv_pct": 10.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 4.3,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钥匙与老地图",
+      "chars": 1591,
+      "score": 96.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "钥匙触碰凹槽",
+      "chars": 3286,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "玉镯与账本对望",
+      "chars": 3495,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "算盘与账本对话",
+      "chars": 3173,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "钥匙触碰凹槽",
+      "chars": 1383,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周文渊的」×3",
+      "narration_para_pct 5.3 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈怀瑾的」×5",
+      "narration_para_pct 10.9 低于目标 20.0",
+      "attr_adv_pct 17.6 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周文渊的」×5、「周文渊点」×4、「沈怀瑾的」×3",
+      "narration_para_pct 14.1 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「沈怀瑾没有立刻回答，而是转头看向墙上的那幅地图，…」）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周文渊的」×4、「他知道这」×4、「沈怀瑾的」×4",
+      "narration_para_pct 15.9 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「他知道自己的时间不多了，而且他也越来越清楚一件事…」）"
+    ],
+    "5": [
+      "narration_para_pct 11.5 低于目标 20.0",
+      "[observe] 标题重复：「钥匙触碰凹槽」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 225.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:19:18"
+}

@@ -1,0 +1,108 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-172",
+  "profile": "悬疑推理",
+  "title": "小红的登录记录",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15195,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14386,
+    "chapter_chars_mean": 2877,
+    "chapter_chars_median": 3317,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 64,
+    "dialogue_chars_pct": 41.3,
+    "dialogue_para_pct": 76.7,
+    "interiority_para_pct": 7.0,
+    "narration_para_pct": 16.2,
+    "turn_under20_pct": 67.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.3,
+    "attr_adv_pct": 8.5,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 4.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "小红的登录时间",
+      "chars": 2158,
+      "score": 97.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "账单边缘的标记",
+      "chars": 4030,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "照片背面的文字",
+      "chars": 3516,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "U盘插入口的温度",
+      "chars": 3632,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "路由器连接未知节点",
+      "chars": 1854,
+      "score": 93.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「陈志远的」×12、「为什么会」×4、「林海点了点头」×3",
+      "[observe] 章内自我复读 18 句（如「陈老板，”他转过身，直视着对方的眼睛，“你说说，…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈志远的」×7、「“这是什么」×3",
+      "narration_para_pct 9.8 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「陈志远的」×5、「他知道这」×4",
+      "narration_para_pct 13.0 低于目标 20.0",
+      "attr_adv_pct 19.2 高于目标 10.0",
+      "[observe] 章内自我复读 19 句（如「林海缓缓说道，语气中透着一种不容忽视的冷静，“就…」）"
+    ],
+    "5": [
+      "narration_para_pct 6.9 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 230.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T15:52:11"
+}

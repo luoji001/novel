@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-240",
+  "profile": "悬疑推理",
+  "title": "刷卡密码",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15767,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15028,
+    "chapter_chars_mean": 3006,
+    "chapter_chars_median": 3713,
+    "chapter_chars_cv": 0.42,
+    "paragraphs_mean": 65,
+    "dialogue_chars_pct": 35.5,
+    "dialogue_para_pct": 73.0,
+    "interiority_para_pct": 10.3,
+    "narration_para_pct": 16.7,
+    "turn_under20_pct": 74.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.9,
+    "attr_adv_pct": 12.4,
+    "scenes_per_chapter": 4.2,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "刷卡机闪烁的绿光",
+      "chars": 1525,
+      "score": 97.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "指纹识别器的异常提示",
+      "chars": 3879,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "打印新表时的指尖颤抖",
+      "chars": 3890,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "刷卡机闪烁的绿光",
+      "chars": 4480,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "刷卡机闪烁的绿光",
+      "chars": 1988,
+      "score": 90.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「沈嘉文的」×9、「周若雪的」×5",
+      "narration_para_pct 14.9 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「可系统显示他在周三还进了大楼…」）",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周若雪的」×3、「他知道这」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×6、「他知道这」×5、「沈嘉文的」×3",
+      "narration_para_pct 15.0 低于目标 20.0",
+      "[observe] 标题重复：「刷卡机闪烁的绿光」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「周若雪的」×5、「沈嘉文的」×5",
+      "narration_para_pct 4.4 低于目标 20.0",
+      "[observe] 标题重复：「刷卡机闪烁的绿光」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 238.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:38:11"
+}

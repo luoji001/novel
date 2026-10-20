@@ -1,0 +1,117 @@
+{
+  "consistency": "1. 第三章提到“王德昌从未离开”，但第四章又说“王德昌可能因发现秘密而离开”，前后矛盾。\n\n2. 第五章提到“登记簿上竟无其名”，但第三章提到“王德昌从未真正来过”，与“登记簿上无其名”重复，缺乏逻辑递进。\n\n3. 第二章提到“演习通知日期异常”，但未明确说明该通知与王德昌失踪之间的直接关联，导致线索断裂。\n\n4. 第五章提到“王德昌自愿留下”，但前文多次暗示王德昌失踪或被隐瞒，人物立场无理由翻转。",
+  "slug": "xuanyi-20261019-76",
+  "profile": "悬疑推理",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14121,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13539,
+    "chapter_chars_mean": 2708,
+    "chapter_chars_median": 3090,
+    "chapter_chars_cv": 0.41,
+    "paragraphs_mean": 50.6,
+    "dialogue_chars_pct": 27.8,
+    "dialogue_para_pct": 68.4,
+    "interiority_para_pct": 13.6,
+    "narration_para_pct": 18.0,
+    "turn_under20_pct": 80.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.8,
+    "attr_adv_pct": 13.6,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 4.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "抚摸木牌裂痕",
+      "chars": 1479,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "抚摸木牌裂痕",
+      "chars": 3942,
+      "score": 51.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 3,
+      "title": "抚摸怀表铜锈",
+      "chars": 3747,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "抚摸登记簿裂痕",
+      "chars": 3235,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "钥匙与烟灰缸",
+      "chars": 1713,
+      "score": 89.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「带着一丝」×3、「沈文远的」×3",
+      "narration_para_pct 6.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈文远的」×3",
+      "dialogue_chars_pct 13.2 低于目标 20.0",
+      "interiority_para_pct 23.1 高于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] 章内自我复读 18 句（如「他曾多次提醒她不要再来这里，但李素芬始终不肯放弃…」）",
+      "[observe] 标题重复：「抚摸木牌裂痕」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「沈文远的」×7",
+      "attr_adv_pct 19.0 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「沈文远的」×5、「“我不知道」×4",
+      "narration_para_pct 9.2 低于目标 20.0",
+      "attr_adv_pct 10.5 高于目标 10.0",
+      "[observe] 标题与《抚摸木牌裂痕》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈文远的」×3",
+      "narration_para_pct 16.1 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 233.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:55:11"
+}

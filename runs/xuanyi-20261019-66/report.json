@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-66",
+  "profile": "悬疑推理",
+  "title": "钥匙牌",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14951,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14315,
+    "chapter_chars_mean": 2863,
+    "chapter_chars_median": 3130,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 55.4,
+    "dialogue_chars_pct": 35.6,
+    "dialogue_para_pct": 72.6,
+    "interiority_para_pct": 13.5,
+    "narration_para_pct": 13.9,
+    "turn_under20_pct": 75.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.2,
+    "attr_adv_pct": 8.5,
+    "scenes_per_chapter": 4.4,
+    "dialogue_run_mean": 4.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙牌的刻痕",
+      "chars": 1932,
+      "score": 99.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "账本上的神秘数字",
+      "chars": 3779,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "钥匙牌的异常日期",
+      "chars": 4131,
+      "score": 85.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "铁盒中的陌生车票",
+      "chars": 3284,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "抚摸钥匙牌的凹凸",
+      "chars": 1820,
+      "score": 92.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周振邦的」×4",
+      "narration_para_pct 12.1 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周振邦的」×9、「陈素云的」×4、「点了点头」×3",
+      "narration_para_pct 15.2 低于目标 20.0",
+      "attr_adv_pct 13.3 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「周振邦走近几步，目光落在账本上…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周振邦的」×4、「周振邦站在」×3、「陈素云的」×3",
+      "interiority_para_pct 21.6 高于目标 20.0",
+      "narration_para_pct 10.8 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「储物室不大，里面堆满了各种旧物，有些是行李箱、床…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「你是谁？」×3",
+      "narration_para_pct 18.8 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「你怎么知道我会在这里？…」）"
+    ],
+    "5": [
+      "narration_para_pct 11.4 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 232.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:30:51"
+}

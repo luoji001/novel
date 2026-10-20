@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "监控异常",
+    "beat": "值班员发现监控显示有人进入却无人离开",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控录像",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "冷藏柜钥匙",
+    "beat": "值班员找到冷藏柜钥匙并检查冷藏柜",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "冷藏柜钥匙",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "收据丢失",
+    "beat": "值班员发现收据丢失并开始调查",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "收据",
+    "speakers": [
+      "林子安"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "员工考勤表",
+    "beat": "经理查看员工考勤表并怀疑某个员工",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "员工考勤表",
+    "speakers": [
+      "陈文远"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "药品流向记录",
+    "beat": "公司提供药品流向记录并揭示真相",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "药品流向记录",
+    "speakers": [
+      "天虹药业有限公司"
+    ]
+  }
+]

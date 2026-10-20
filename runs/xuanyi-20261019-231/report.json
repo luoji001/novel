@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-231",
+  "profile": "悬疑推理",
+  "title": "钥匙的真相",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14223,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13560,
+    "chapter_chars_mean": 2712,
+    "chapter_chars_median": 3164,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 58.6,
+    "dialogue_chars_pct": 35.3,
+    "dialogue_para_pct": 71.1,
+    "interiority_para_pct": 11.0,
+    "narration_para_pct": 17.9,
+    "turn_under20_pct": 68.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 13.6,
+    "attr_adv_pct": 11.1,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 5.3,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "锁舌上的锈迹",
+      "chars": 1756,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙的回声",
+      "chars": 3726,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙的失踪时刻",
+      "chars": 3317,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "登记簿的锯齿痕迹",
+      "chars": 3565,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "钥匙与空口袋",
+      "chars": 1854,
+      "score": 92.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈慕云的」×4",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈慕云的」×5、「他知道这」×4、「沈慕云点了点头」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「沈慕云的」×5、「他知道这」×3",
+      "narration_para_pct 18.8 低于目标 20.0",
+      "attr_adv_pct 15.4 高于目标 10.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「沈慕云的」×9、「他知道这」×6、「周启明的」×3",
+      "narration_para_pct 16.7 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「走出登记室，他抬头望向外面的街道，阳光照在他的脸…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「周启明的」×10",
+      "narration_para_pct 5.9 低于目标 20.0",
+      "dialogue_run_mean 10.3 高于目标 10.0",
+      "[observe] attr_adv_pct 40.0 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 219.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:15:53"
+}

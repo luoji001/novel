@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-104",
+  "profile": "悬疑推理",
+  "title": "钢笔墨迹",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14936,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14250,
+    "chapter_chars_mean": 2850,
+    "chapter_chars_median": 3391,
+    "chapter_chars_cv": 0.43,
+    "paragraphs_mean": 61.2,
+    "dialogue_chars_pct": 38.2,
+    "dialogue_para_pct": 74.9,
+    "interiority_para_pct": 11.3,
+    "narration_para_pct": 13.8,
+    "turn_under20_pct": 75.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.9,
+    "attr_adv_pct": 10.5,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.8,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲账本",
+      "chars": 1402,
+      "score": 92.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "窥视账本秘密",
+      "chars": 4290,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "粮票与颤抖手指",
+      "chars": 3550,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲纸页边缘",
+      "chars": 3892,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲钢笔外壳",
+      "chars": 1797,
+      "score": 93.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈志远的」×3",
+      "interiority_para_pct 21.4 高于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈志远的」×10、「“我不知道」×5、「周美兰的」×5",
+      "narration_para_pct 17.8 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「陈志远站在会计室门口，手里握着一把生锈的钥匙…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周美兰的」×10、「陈志远的」×9、「“我不知道」×3",
+      "narration_para_pct 8.3 低于目标 20.0",
+      "[observe] attr_adv_pct 23.5 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周美兰的」×7、「陈志远的」×6、「“我不知道」×3",
+      "narration_para_pct 15.2 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈志远的」×4",
+      "narration_para_pct 3.8 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 244.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:04:51"
+}

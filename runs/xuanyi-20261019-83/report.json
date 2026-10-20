@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-83",
+  "profile": "悬疑推理",
+  "title": "火车票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14720,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13944,
+    "chapter_chars_mean": 2789,
+    "chapter_chars_median": 3005,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 70.2,
+    "dialogue_chars_pct": 37.1,
+    "dialogue_para_pct": 79.7,
+    "interiority_para_pct": 6.7,
+    "narration_para_pct": 13.6,
+    "turn_under20_pct": 86.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.2,
+    "attr_adv_pct": 4.0,
+    "scenes_per_chapter": 5.6,
+    "dialogue_run_mean": 5.2,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "箱子的秘密",
+      "chars": 1948,
+      "score": 97.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "纸条的遗失",
+      "chars": 3758,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙的低语",
+      "chars": 3801,
+      "score": 85.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "火车票的褶痕",
+      "chars": 3181,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "凹陷木板的低语",
+      "chars": 2027,
+      "score": 89.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林志远的」×4"
+    ],
+    "2": [
+      "单条套路句式超限：「林志远的」×7、「陈雪梅的」×5、「林志远站在」×3",
+      "narration_para_pct 16.0 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「陈雪梅的」×9、「“我不知道」×5、「点了点头」×3",
+      "narration_para_pct 11.8 低于目标 20.0",
+      "[observe] 章内自我复读 39 句（如「陈雪梅轻声说道，目光落在账本的最后一页，那里有一…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×6、「林志远的」×4",
+      "narration_para_pct 8.6 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 12.2 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「他蹲下来仔细查看，灰尘下面隐约能看到一些细小的刮…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 232.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:12:22"
+}

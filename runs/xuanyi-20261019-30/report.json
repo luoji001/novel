@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-30",
+  "profile": "悬疑推理",
+  "title": "充电器",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14700,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14051,
+    "chapter_chars_mean": 2810,
+    "chapter_chars_median": 3329,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 56.6,
+    "dialogue_chars_pct": 34.3,
+    "dialogue_para_pct": 67.9,
+    "interiority_para_pct": 9.7,
+    "narration_para_pct": 22.4,
+    "turn_under20_pct": 76.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.7,
+    "attr_adv_pct": 8.2,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 5.6,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "蓝色数字的疑惑",
+      "chars": 1680,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "后备箱里的红色纸袋",
+      "chars": 3730,
+      "score": 84.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "行程记录的矛盾",
+      "chars": 3506,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "充电器的陌生品牌",
+      "chars": 3706,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "寻找备用充电器",
+      "chars": 2073,
+      "score": 92.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 16.6 低于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「深吸一口气」×3、「城郊公路317号路段」×3",
+      "dialogue_chars_pct 19.8 低于目标 20.0",
+      "[observe] 章内自我复读 31 句（如「更奇怪的是，当他查看车载GPS的历史记录时，那段…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周振华的」×7、「周振华点了点头」×3、「“我不知道」×3",
+      "dialogue_chars_pct 59.8 高于目标 58.0",
+      "narration_para_pct 6.2 低于目标 20.0",
+      "dialogue_run_mean 12.5 高于目标 10.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×5"
+    ],
+    "5": [
+      "narration_para_pct 10.0 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 226.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:01:34"
+}

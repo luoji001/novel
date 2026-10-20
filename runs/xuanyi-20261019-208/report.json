@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-208",
+  "profile": "悬疑推理",
+  "title": "水表",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13878,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13201,
+    "chapter_chars_mean": 2640,
+    "chapter_chars_median": 2978,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 60.6,
+    "dialogue_chars_pct": 39.7,
+    "dialogue_para_pct": 75.5,
+    "interiority_para_pct": 8.4,
+    "narration_para_pct": 16.2,
+    "turn_under20_pct": 76.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.9,
+    "attr_adv_pct": 8.0,
+    "scenes_per_chapter": 4,
+    "dialogue_run_mean": 7.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "开门见镜",
+      "chars": 1797,
+      "score": 97.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "玻璃杯倒影",
+      "chars": 3479,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "神秘男子的身影",
+      "chars": 3123,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "鞋子的秘密",
+      "chars": 3613,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "指纹迷雾",
+      "chars": 1861,
+      "score": 92.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「苏婉清的」×6、「”苏婉清轻」×4",
+      "narration_para_pct 5.5 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "dialogue_run_mean 17 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×5、「林修远的」×4、「苏婉清的」×3",
+      "narration_para_pct 13.8 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林修远站在」×3、「不仅仅是」×3、「他知道这」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「林修远的」×3",
+      "narration_para_pct 4.7 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 215.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T17:19:01"
+}

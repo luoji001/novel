@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-05",
+  "profile": "悬疑推理",
+  "title": "药本残页",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15751,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15097,
+    "chapter_chars_mean": 3019,
+    "chapter_chars_median": 3423,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 57.2,
+    "dialogue_chars_pct": 25.4,
+    "dialogue_para_pct": 58.7,
+    "interiority_para_pct": 12.4,
+    "narration_para_pct": 28.8,
+    "turn_under20_pct": 79.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.9,
+    "attr_adv_pct": 7.3,
+    "scenes_per_chapter": 5,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "监控画面中的身影",
+      "chars": 1844,
+      "score": 82.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "账本上的新记录",
+      "chars": 3566,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "屏幕上的剪影对话",
+      "chars": 4024,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "药箱里的秘密",
+      "chars": 4332,
+      "score": 80.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "卡片上的特殊符号",
+      "chars": 1980,
+      "score": 83.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林子安的」×4",
+      "dialogue_chars_pct 10.7 低于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5"
+    ],
+    "2": [
+      "单条套路句式超限：「就在这时」×3",
+      "attr_adv_pct 15.4 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「他猛地睁开眼睛，盯着那行记录看了许久，终于开口说…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈文远的」×4、「林子安的」×4、「为什么会」×3",
+      "narration_para_pct 11.6 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林子安点了点头」×3、「他知道自己」×3、「他知道这」×3",
+      "dialogue_chars_pct 15.5 低于目标 20.0",
+      "interiority_para_pct 20.9 高于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「电话另一端传来一阵沉默，然后才有人回答道：“抱歉…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 13.4 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 255.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T08:59:27"
+}

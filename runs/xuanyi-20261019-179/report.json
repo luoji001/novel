@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-179",
+  "profile": "悬疑推理",
+  "title": "旧信封",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13961,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13291,
+    "chapter_chars_mean": 2658,
+    "chapter_chars_median": 3051,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 59.2,
+    "dialogue_chars_pct": 35.7,
+    "dialogue_para_pct": 74.4,
+    "interiority_para_pct": 8.7,
+    "narration_para_pct": 16.9,
+    "turn_under20_pct": 80.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.3,
+    "attr_adv_pct": 6.2,
+    "scenes_per_chapter": 4.2,
+    "dialogue_run_mean": 7.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铅笔轻叩桌面",
+      "chars": 1757,
+      "score": 91.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "指纹与铜印",
+      "chars": 3274,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "钥匙藏入旧箱中",
+      "chars": 3210,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "铅笔轻叩桌面",
+      "chars": 3901,
+      "score": 86.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铜印边缘的磨损痕迹",
+      "chars": 1814,
+      "score": 91.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 17.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈海山的」×6、「林素云的」×3",
+      "dialogue_chars_pct 59.2 高于目标 58.0",
+      "narration_para_pct 2.7 低于目标 20.0",
+      "dialogue_run_mean 18 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林素云的」×6、「陈海山的」×4",
+      "narration_para_pct 13.9 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "[observe] 章内自我复读 2 句（如「林素云的手指停顿了一下，然后缓缓地展开了那封信…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈海山的」×7、「陈海山点」×5",
+      "[observe] 章内自我复读 23 句（如「陈海山点点头，“确实，有些人的地址变了，但不是所…」）",
+      "[observe] 标题重复：「铅笔轻叩桌面」已存在"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林素云的」×5、「陈海山的」×3",
+      "情节与已写章节重复 0.64 ≥ 0.62（撞上「林素云发现一笔三年前的汇款记录仍用旧地址，引发她对王振国…」）",
+      "narration_para_pct 8.8 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 238.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:10:00"
+}

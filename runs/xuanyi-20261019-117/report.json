@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-117",
+  "profile": "悬疑推理",
+  "title": "红单",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13840,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13164,
+    "chapter_chars_mean": 2633,
+    "chapter_chars_median": 3031,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 57.6,
+    "dialogue_chars_pct": 40.3,
+    "dialogue_para_pct": 78.8,
+    "interiority_para_pct": 8.2,
+    "narration_para_pct": 13.0,
+    "turn_under20_pct": 75.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.3,
+    "attr_adv_pct": 11.4,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 5.7,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "面单覆盖的瞬间",
+      "chars": 1845,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "蓝色标签的疑云",
+      "chars": 3178,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "文件夹边缘的折痕",
+      "chars": 3581,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "面单被覆盖的瞬间",
+      "chars": 3354,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲面单的指尖",
+      "chars": 1877,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈志远的」×6",
+      "narration_para_pct 11.4 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈志远的」×4、「为什么会」×4",
+      "narration_para_pct 9.1 低于目标 20.0",
+      "attr_adv_pct 13.3 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「如果这是一个系统故障，为什么会偏偏是这个编号？…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周晓芸的」×6、「”周晓芸轻」×3、「说道“我」×3",
+      "narration_para_pct 11.7 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×4、「“我不知道」×3",
+      "narration_para_pct 19.5 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）",
+      "[observe] 标题与《面单覆盖的瞬间》近似 0.93 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 12.1 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 223.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:36:55"
+}

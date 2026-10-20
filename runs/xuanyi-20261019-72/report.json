@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-72",
+  "profile": "悬疑推理",
+  "title": "登录记录",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15022,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14213,
+    "chapter_chars_mean": 2843,
+    "chapter_chars_median": 3249,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 73,
+    "dialogue_chars_pct": 37.7,
+    "dialogue_para_pct": 78.3,
+    "interiority_para_pct": 6.7,
+    "narration_para_pct": 15.0,
+    "turn_under20_pct": 81.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.5,
+    "attr_adv_pct": 11.5,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 6.6,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "擦拭主机外壳",
+      "chars": 1899,
+      "score": 95.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "撕碎的账单残片",
+      "chars": 4143,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲皱褶的账单",
+      "chars": 3414,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲皱褶的账单",
+      "chars": 3647,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "刮痕背后的秘密",
+      "chars": 1914,
+      "score": 93.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「林志远的」×6、「“我不知道」×5、「陈雪梅的」×4",
+      "narration_para_pct 10.2 低于目标 20.0",
+      "dialogue_run_mean 11 高于目标 10.0",
+      "[observe] 章内自我复读 19 句（如「照片上是一个年轻男人的脸庞，那是很久以前的某个夜…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林志远的」×5、「陈雪梅的」×4、「他知道这」×3",
+      "narration_para_pct 10.7 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林志远的」×5",
+      "narration_para_pct 10.9 低于目标 20.0",
+      "[observe] 标题重复：「摩挲皱褶的账单」已存在"
+    ],
+    "5": [
+      "narration_para_pct 13.3 低于目标 20.0",
+      "[observe] attr_adv_pct 50.0 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 234.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:45:26"
+}

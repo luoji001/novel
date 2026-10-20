@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-71",
+  "profile": "悬疑推理",
+  "title": "铜笔",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14170,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13573,
+    "chapter_chars_mean": 2715,
+    "chapter_chars_median": 3198,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 51.2,
+    "dialogue_chars_pct": 32.3,
+    "dialogue_para_pct": 66.6,
+    "interiority_para_pct": 12.8,
+    "narration_para_pct": 20.6,
+    "turn_under20_pct": 71.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.2,
+    "attr_adv_pct": 7.7,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 4.5,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "墨迹与账本的对视",
+      "chars": 1523,
+      "score": 71.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "指纹触碰地图边缘",
+      "chars": 3615,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "符号与账本的对视",
+      "chars": 3774,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "瓷器与日期的对视",
+      "chars": 3335,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "锁舌上的刻痕",
+      "chars": 1918,
+      "score": 90.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 6.5 低于目标 20.0",
+      "interiority_para_pct 26.7 高于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「不仅仅是」×4",
+      "dialogue_chars_pct 18.0 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「为了进一步确认这一点，他小心翼翼地翻阅起账本中的…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈墨生的」×5、「不仅仅是」×4、「沈墨生站在」×3",
+      "narration_para_pct 7.4 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0",
+      "dialogue_run_mean 11.8 高于目标 10.0",
+      "[observe] 标题与《墨迹与账本的对视》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「沈墨生的」×6、「变得更加」×4、「周怀瑾的」×3",
+      "narration_para_pct 16.7 低于目标 20.0",
+      "[observe] 章内自我复读 6 句（如「这正是保险柜第三次开启的日子，也是他最初怀疑问题…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「周怀瑾的」×4",
+      "narration_para_pct 14.6 低于目标 20.0",
+      "attr_adv_pct 18.2 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:42:58"
+}

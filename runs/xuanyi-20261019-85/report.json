@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-85",
+  "profile": "悬疑推理",
+  "title": "黑衣人",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15830,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15072,
+    "chapter_chars_mean": 3014,
+    "chapter_chars_median": 3572,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 67.8,
+    "dialogue_chars_pct": 33.2,
+    "dialogue_para_pct": 67.5,
+    "interiority_para_pct": 9.3,
+    "narration_para_pct": 23.1,
+    "turn_under20_pct": 78.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.0,
+    "attr_adv_pct": 23.4,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 4.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "影子多了一寸",
+      "chars": 2281,
+      "score": 92.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "日期错位",
+      "chars": 4139,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "遗落的身份证",
+      "chars": 3750,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "指纹在玻璃上留下痕迹",
+      "chars": 3778,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "凝视收银机的陌生人",
+      "chars": 1877,
+      "score": 76.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周启明的」×5、「林子墨的」×4",
+      "dialogue_chars_pct 16.5 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周启明的」×10、「林子墨点了点头」×3、「林子墨站在」×3",
+      "[observe] 章内自我复读 11 句（如「你知道你在做什么吗？这些录像是我们公司最重要的资…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周启明的」×8、「为什么会」×4、「“我不知道」×3",
+      "narration_para_pct 12.2 低于目标 20.0",
+      "attr_adv_pct 15.6 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周启明的」×13、「林子墨的」×7、「为什么会」×3",
+      "narration_para_pct 5.6 低于目标 20.0",
+      "attr_adv_pct 19.0 高于目标 10.0",
+      "dialogue_run_mean 11.4 高于目标 10.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 10.5 低于目标 20.0",
+      "dialogue_run_mean 1.3 低于目标 1.5",
+      "[observe] attr_adv_pct 100.0 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 236.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:17:17"
+}

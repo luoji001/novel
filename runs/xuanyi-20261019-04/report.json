@@ -1,0 +1,108 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-04",
+  "profile": "悬疑推理",
+  "title": "钥匙",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14464,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13803,
+    "chapter_chars_mean": 2761,
+    "chapter_chars_median": 3346,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 58.4,
+    "dialogue_chars_pct": 32.9,
+    "dialogue_para_pct": 71.8,
+    "interiority_para_pct": 10.5,
+    "narration_para_pct": 17.7,
+    "turn_under20_pct": 78.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.9,
+    "attr_adv_pct": 9.0,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 3.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本上的陌生名字",
+      "chars": 1687,
+      "score": 96.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "锈蚀的钥匙",
+      "chars": 3507,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "锈蚀的铁皮柜",
+      "chars": 3659,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "照片背面的碎纸片",
+      "chars": 3861,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲泛黄纸页",
+      "chars": 1745,
+      "score": 91.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「陈国栋的」×7、「周淑芬的」×5、「周淑芬点」×4",
+      "narration_para_pct 8.1 低于目标 20.0",
+      "attr_adv_pct 10.5 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「陈国栋的声音低沉了一些…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈国栋的」×10、「周淑芬的」×7、「“我不知道」×3",
+      "narration_para_pct 18.6 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「陈国栋的」×10、「周淑芬的」×4、「为什么会」×4",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈国栋的」×4、「周淑芬的」×3",
+      "narration_para_pct 18.6 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 236.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T08:56:44"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "监控画面中的异常刷卡",
+    "beat": "林振东发现监控画面中出现了一张注销的卡的刷卡记录，而门禁系统显示从未有卡被刷开",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控录像的存储硬盘",
+    "speakers": [
+      "林振东"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "检查监控录像存储硬盘",
+    "beat": "林振东检查监控录像存储硬盘，试图找到异常刷卡记录的来源",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "门锁记录表",
+    "speakers": [
+      "林振东"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "沈婉如的沉默与技术维护",
+    "beat": "沈婉如拒绝提供监控系统后台权限，暗示她知道异常刷卡记录的真相",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "系统后台权限",
+    "speakers": [
+      "沈婉如"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "陆家嘴物业管理公司的沉默",
+    "beat": "陆家嘴物业管理公司拒绝透露完整的门禁系统日志和监控录像备份",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "门禁系统日志",
+    "speakers": [
+      "陆家嘴物业管理公司"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "绿萝的枯萎与真相浮现",
+    "beat": "绿萝的枯萎象征着真相即将浮出水面，林振东最终意识到异常刷卡记录与绿萝的枯萎存在某种联系",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "绿萝",
+    "speakers": [
+      "林振东"
+    ]
+  }
+]

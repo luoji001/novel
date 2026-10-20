@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-261",
+  "profile": "悬疑推理",
+  "title": "怀表",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14798,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14147,
+    "chapter_chars_mean": 2829,
+    "chapter_chars_median": 2992,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 56.6,
+    "dialogue_chars_pct": 31.2,
+    "dialogue_para_pct": 71.1,
+    "interiority_para_pct": 10.8,
+    "narration_para_pct": 18.1,
+    "turn_under20_pct": 82.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.3,
+    "attr_adv_pct": 7.1,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 4.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻开铁皮盒的秘密",
+      "chars": 1903,
+      "score": 96.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "账本上的可疑日期",
+      "chars": 3926,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "显影液中的陌生面孔",
+      "chars": 3131,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "翻转怀表见姓名",
+      "chars": 3951,
+      "score": 84.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "照片边缘的旧车票",
+      "chars": 1882,
+      "score": 91.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏婉清的」×4、「”苏婉清轻」×3",
+      "narration_para_pct 17.6 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林志远的」×8、「苏婉清的」×4、「”苏婉清低」×3",
+      "narration_para_pct 14.6 低于目标 20.0",
+      "[observe] 章内自我复读 20 句（如「他在脑海中迅速回想那个案子的情形，一个八岁的男孩…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林志远的」×6、「苏婉清的」×5、「林志远站在」×4",
+      "narration_para_pct 11.5 低于目标 20.0",
+      "attr_adv_pct 11.8 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「深吸一口气」×4、「苏婉清的」×4",
+      "dialogue_chars_pct 16.4 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「她说着，几乎是本能地伸手摸向胸前的位置——那里有…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「苏婉清的」×7、「林志远的」×6"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 244.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:30:29"
+}

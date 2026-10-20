@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-47",
+  "profile": "悬疑推理",
+  "title": "铜钱",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13715,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13041,
+    "chapter_chars_mean": 2608,
+    "chapter_chars_median": 3002,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 59.2,
+    "dialogue_chars_pct": 38.0,
+    "dialogue_para_pct": 79.3,
+    "interiority_para_pct": 10.0,
+    "narration_para_pct": 10.7,
+    "turn_under20_pct": 75.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 13.2,
+    "attr_adv_pct": 6.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 5.5,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "砚台的交易记录",
+      "chars": 1718,
+      "score": 83.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "钥匙与落叶的对话",
+      "chars": 3591,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "砚台边缘的摩挲",
+      "chars": 3141,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "匾额边缘的刻痕",
+      "chars": 3500,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铜钱与账本对谈",
+      "chars": 1760,
+      "score": 92.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 15.9 低于目标 20.0",
+      "interiority_para_pct 21.7 高于目标 20.0",
+      "narration_para_pct 17.4 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「几年前，有个自称是文物专家的人来店里看过那方砚台…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「点了点头」×3、「陆知行点」×3、「沈怀远的」×3",
+      "narration_para_pct 10.4 低于目标 20.0",
+      "attr_adv_pct 15.0 高于目标 10.0",
+      "[observe] 章内自我复读 19 句（如「陆知行看着他，似是明白了什么，点了点头，随后又回…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陆知行点」×4、「沈怀远的」×4",
+      "narration_para_pct 1.6 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 12.7 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 17.5 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 228.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:43:32"
+}

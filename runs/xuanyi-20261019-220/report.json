@@ -1,0 +1,107 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-220",
+  "profile": "悬疑推理",
+  "title": "刷卡密码",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14144,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13466,
+    "chapter_chars_mean": 2693,
+    "chapter_chars_median": 3189,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 59.4,
+    "dialogue_chars_pct": 39.5,
+    "dialogue_para_pct": 71.5,
+    "interiority_para_pct": 8.9,
+    "narration_para_pct": 19.6,
+    "turn_under20_pct": 74.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.9,
+    "attr_adv_pct": 9.8,
+    "scenes_per_chapter": 3.6,
+    "dialogue_run_mean": 4.3,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "注销卡重现流通",
+      "chars": 1757,
+      "score": 99.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "刷卡记录与监控冲突",
+      "chars": 3772,
+      "score": 86.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "擦拭大理石台面",
+      "chars": 3328,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "刷卡记录疑云",
+      "chars": 3386,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "折叠文件夹开启时刻",
+      "chars": 1896,
+      "score": 93.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「林子安的」×5",
+      "[observe] 章内自我复读 18 句（如「林子安起身走向监控墙，指着一块屏幕说：“小王，帮…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周启明的」×3、「林子安的」×3、「为什么会」×3",
+      "narration_para_pct 17.7 低于目标 20.0",
+      "attr_adv_pct 13.0 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周启明的」×8、「林子安的」×8",
+      "narration_para_pct 9.3 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ],
+    "5": [
+      "narration_para_pct 13.3 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 225.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T17:48:46"
+}

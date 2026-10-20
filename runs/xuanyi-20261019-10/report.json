@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-10",
+  "profile": "悬疑推理",
+  "title": "钥匙串",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15658,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 15060,
+    "chapter_chars_mean": 3012,
+    "chapter_chars_median": 3481,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 52.2,
+    "dialogue_chars_pct": 18.3,
+    "dialogue_para_pct": 52.5,
+    "interiority_para_pct": 19.2,
+    "narration_para_pct": 28.3,
+    "turn_under20_pct": 80.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.6,
+    "attr_adv_pct": 6.4,
+    "scenes_per_chapter": 4.6,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手机蓝光映脸",
+      "chars": 2148,
+      "score": 93.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "手机蓝光映脸",
+      "chars": 4035,
+      "score": 6.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 3,
+      "title": "钥匙串低语",
+      "chars": 3862,
+      "score": 54.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "钥匙串低语",
+      "chars": 3638,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "计费单失踪时刻",
+      "chars": 1970,
+      "score": 90.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「城东旧货市场」×3",
+      "dialogue_chars_pct 18.1 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「刚才那张计费单上显示的是他完成了一个订单后立即接…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「不仅仅是」×3",
+      "dialogue_chars_pct 6.9 低于目标 20.0",
+      "interiority_para_pct 26.4 高于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0",
+      "dialogue_run_mean 1.3 低于目标 1.5",
+      "[observe] 标题重复：「手机蓝光映脸」已存在"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「个神秘的」×3",
+      "dialogue_chars_pct 13.6 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「您正等待一位尚未预订的乘客…」）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈志远的」×5、「点了点头」×3",
+      "narration_para_pct 15.3 低于目标 20.0",
+      "[observe] 标题重复：「钥匙串低语」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:11:53"
+}

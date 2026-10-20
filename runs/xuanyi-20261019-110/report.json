@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-110",
+  "profile": "悬疑推理",
+  "title": "空车",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15342,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14748,
+    "chapter_chars_mean": 2950,
+    "chapter_chars_median": 3256,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 51.4,
+    "dialogue_chars_pct": 11.5,
+    "dialogue_para_pct": 39.9,
+    "interiority_para_pct": 24.7,
+    "narration_para_pct": 35.4,
+    "turn_under20_pct": 83.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.1,
+    "attr_adv_pct": 11.6,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "计费器的时间差",
+      "chars": 1689,
+      "score": 89.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "玻璃碎片的低语",
+      "chars": 3985,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "充电线的嗡鸣",
+      "chars": 4068,
+      "score": 26.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 4,
+      "title": "后座座椅的痕迹",
+      "chars": 3385,
+      "score": 15.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "触摸后视镜的凉意",
+      "chars": 2210,
+      "score": 60.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 17.3 低于目标 20.0",
+      "interiority_para_pct 23.5 高于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×3",
+      "dialogue_chars_pct 16.3 低于目标 20.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「为什么会」×4、「深吸一口气」×3、「他知道自己」×3",
+      "dialogue_chars_pct 9.7 低于目标 20.0",
+      "interiority_para_pct 26.4 高于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5",
+      "[observe] 章内自我复读 16 句（如「他睁开眼看了看窗外漆黑一片的世界，脑海中浮现出一…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 8.1 低于目标 20.0",
+      "interiority_para_pct 28.1 高于目标 20.0",
+      "dialogue_run_mean 1.2 低于目标 1.5",
+      "[observe] 章内自我复读 1 句（如「你一直在找的东西，就在你身边…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3",
+      "dialogue_chars_pct 6.6 低于目标 20.0",
+      "interiority_para_pct 27.0 高于目标 20.0",
+      "dialogue_run_mean 1.2 低于目标 1.5",
+      "[observe] attr_adv_pct 50.0 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 229.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:19:33"
+}

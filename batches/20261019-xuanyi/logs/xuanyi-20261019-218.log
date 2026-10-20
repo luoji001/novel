@@ -1,0 +1,160 @@
+开始：xuanyi-20261019-218（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-218
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 铜制算盘的响声（short，1942字）绣坊主发现绣品上的针脚与绣工死亡时间不符
+     2. 银针的痕迹（normal，3238字）绣坊学徒承认绣工死亡与绣品完成时间矛盾
+     3. 朱砂颜料的色泽（normal，3238字）绣品残留的朱砂颜料揭示绣工死亡时间的疑点
+     4. 旧布鞋的印痕（normal，3238字）绣坊主发现绣工旧布鞋与绣品完成时间不符
+     5. 雕花木窗的光影（short，1942字）绣坊主在雕花木窗下揭开绣工死亡真相
+
+  继续：novel-agent approve xuanyi-20261019-218 --accept
+  打回：novel-agent approve xuanyi-20261019-218 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-218
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-218
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第1场「揭示绣坊主对绣工死亡时间的掌握，但仍扣住绣工旧布鞋的下落」与第1章第3场「揭示绣坊主对绣工死亡时间的掌控存在漏洞，但仍扣住绣坊主对绣工死亡的隐瞒」信息重合 0.70（同一章内）
+    - 第1章第1场「揭示绣坊主对绣工死亡时间的掌握，但仍扣住绣工旧布鞋的下落」与第2章第2场「揭示绣坊主掌握绣工死亡时间，但仍扣住绣品完成时间与死亡时间的矛盾」信息重合 0.60
+    - 第1章第2场「揭示绣工死亡时间与绣品完成时间的矛盾，但仍扣住绣坊主对绣工死亡的直接参与」与第1章第3场「揭示绣坊主对绣工死亡时间的掌控存在漏洞，但仍扣住绣坊主对绣工死亡的隐瞒」信息重合 0.65（同一章内）
+    - 第1章第2场「揭示绣工死亡时间与绣品完成时间的矛盾，但仍扣住绣坊主对绣工死亡的直接参与」与第3章第1场「揭示朱砂颜料色泽与绣工死亡时间不符，但仍扣住绣坊主对绣工死亡时间的掌控」信息重合 0.62
+    - 第1章第2场「揭示绣工死亡时间与绣品完成时间的矛盾，但仍扣住绣坊主对绣工死亡的直接参与」与第3章第5场「揭示朱砂颜料色泽与绣品完成时间存在矛盾，但仍扣住绣坊主对绣工死亡时间的掌控」信息重合 0.68
+    - 第1章第2场「揭示绣工死亡时间与绣品完成时间的矛盾，但仍扣住绣坊主对绣工死亡的直接参与」与第5章第1场「揭示绣工死亡时间与绣品完成时间的矛盾，但仍扣住绣坊主对绣工死亡的直接责任」信息重合 0.94
+    - 第1章第2场「揭示绣工死亡时间与绣品完成时间的矛盾，但仍扣住绣坊主对绣工死亡的直接参与」与第5章第2场「揭示陆怀瑾对绣工死亡的间接责任，但仍扣住绣坊主对绣工死亡的直接责任」信息重合 0.67
+    - 第1章第3场「揭示绣坊主对绣工死亡时间的掌控存在漏洞，但仍扣住绣坊主对绣工死亡的隐瞒」与第5章第1场「揭示绣工死亡时间与绣品完成时间的矛盾，但仍扣住绣坊主对绣工死亡的直接责任」信息重合 0.65
+    - 第1章第3场「揭示绣坊主对绣工死亡时间的掌控存在漏洞，但仍扣住绣坊主对绣工死亡的隐瞒」与第5章第2场「揭示陆怀瑾对绣工死亡的间接责任，但仍扣住绣坊主对绣工死亡的直接责任」信息重合 0.65
+    - 第2章第1场「揭示陆怀瑾保管银针，但仍扣住绣工死亡时间与绣品完成时间矛盾」与第2章第3场「揭示陆怀瑾负责绣品针脚细节，但仍扣住绣工死亡与绣品完成时间矛盾」信息重合 0.80（同一章内）
+    - 第2章第1场「揭示陆怀瑾保管银针，但仍扣住绣工死亡时间与绣品完成时间矛盾」与第2章第4场「揭示绣坊主藏有绣工旧布鞋，但仍扣住绣工死亡与绣品完成时间矛盾」信息重合 0.68（同一章内）
+    - 第2章第1场「揭示陆怀瑾保管银针，但仍扣住绣工死亡时间与绣品完成时间矛盾」与第2章第5场「揭示陆怀瑾保管银针与绣品针脚细节，但仍扣住绣工死亡与绣品完成时间矛盾」信息重合 0.86（同一章内）
+    第1章 3 场：揭示绣坊主对绣工死亡时间的掌握， | 揭示绣工死亡时间与绣品完成时间的 | 揭示绣坊主对绣工死亡时间的掌控存
+    第2章 6 场：揭示陆怀瑾保管银针，但仍扣住绣工 | 揭示绣坊主掌握绣工死亡时间，但仍 | 揭示陆怀瑾负责绣品针脚细节，但仍 | 揭示绣坊主藏有绣工旧布鞋，但仍扣 | 揭示陆怀瑾保管银针与绣品针脚细节 | 揭示绣坊主掌握绣工死亡时间，但仍
+    第3章 6 场：揭示朱砂颜料色泽与绣工死亡时间不 | 揭示朱砂颜料色泽与绣品完成时间不 | 揭示朱砂颜料色泽与绣工死亡时间存 | 揭示朱砂颜料色泽与绣工死亡时间存 | 揭示朱砂颜料色泽与绣品完成时间存 | 揭示朱砂颜料色泽与绣工死亡时间存
+    第4章 6 场：揭示旧布鞋的磨损程度，但仍扣住绣 | 揭示旧布鞋的鞋底印痕，但仍扣住绣 | 揭示旧布鞋的鞋带断裂位置，但仍扣 | 揭示旧布鞋的鞋面污渍，但仍扣住绣 | 揭示旧布鞋的鞋跟磨损程度，但仍扣 | 揭示旧布鞋的鞋底材质，但仍扣住绣
+    第5章 3 场：揭示绣工死亡时间与绣品完成时间的 | 揭示陆怀瑾对绣工死亡的间接责任， | 揭示银色痕迹与绣工生前使用的银针
+
+  继续：novel-agent approve xuanyi-20261019-218 --accept
+  打回：novel-agent approve xuanyi-20261019-218 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-218
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-218
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-218/report.md
+
+  继续：novel-agent approve xuanyi-20261019-218 --accept
+  打回：novel-agent approve xuanyi-20261019-218 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-218
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-218
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-218
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-218

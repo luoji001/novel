@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-95",
+  "profile": "悬疑推理",
+  "title": "表停时",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14307,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13610,
+    "chapter_chars_mean": 2722,
+    "chapter_chars_median": 3064,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 60,
+    "dialogue_chars_pct": 31.5,
+    "dialogue_para_pct": 64.4,
+    "interiority_para_pct": 11.0,
+    "narration_para_pct": 24.5,
+    "turn_under20_pct": 80.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.9,
+    "attr_adv_pct": 4.8,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "停滞的机械表",
+      "chars": 1708,
+      "score": 69.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "机械表秒针异常",
+      "chars": 4144,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "机械表秒针重启",
+      "chars": 3579,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "转动表壳的秘密",
+      "chars": 3235,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "止痛药与灰色外套",
+      "chars": 1636,
+      "score": 80.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 9.1 低于目标 20.0",
+      "interiority_para_pct 24.1 高于目标 20.0",
+      "dialogue_run_mean 1.1 低于目标 1.5"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×6、「市立医院」×4",
+      "[observe] 章内自我复读 12 句（如「他知道，这个信息绝对不是巧合，而是有人故意告诉他…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林婉如的」×6、「他知道这」×3、「为什么会」×3",
+      "attr_adv_pct 15.8 高于目标 10.0",
+      "[observe] 标题与《机械表秒针异常》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×4、「陈志远的」×3、「为什么会」×3",
+      "narration_para_pct 14.1 低于目标 20.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 14.9 低于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 222.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:41:50"
+}

@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-118",
+  "profile": "悬疑推理",
+  "title": "绣绷上的余线",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14476,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13765,
+    "chapter_chars_mean": 2753,
+    "chapter_chars_median": 3382,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 63.2,
+    "dialogue_chars_pct": 40.7,
+    "dialogue_para_pct": 78.9,
+    "interiority_para_pct": 10.8,
+    "narration_para_pct": 10.4,
+    "turn_under20_pct": 74.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.6,
+    "attr_adv_pct": 10.0,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 5.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本上的针脚",
+      "chars": 1761,
+      "score": 99.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "账本上的绣线痕迹",
+      "chars": 3571,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "绣绷上的暗纹",
+      "chars": 3524,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "绣品上的新针痕",
+      "chars": 3875,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "绣品上的旧标记",
+      "chars": 1740,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「”陆文远轻」×3",
+      "narration_para_pct 2.2 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "dialogue_run_mean 10.2 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈佩兰的」×8",
+      "narration_para_pct 12.2 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「陆文远的」×5",
+      "narration_para_pct 12.5 低于目标 20.0",
+      "attr_adv_pct 17.6 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「沈佩兰的」×12、「陆文远的」×4",
+      "narration_para_pct 10.2 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「那你为什么不告诉我？…」）"
+    ],
+    "5": [
+      "narration_para_pct 10.8 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:39:25"
+}

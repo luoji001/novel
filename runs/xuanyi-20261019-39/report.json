@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-39",
+  "profile": "悬疑推理",
+  "title": "旧信笺",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14176,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13590,
+    "chapter_chars_mean": 2718,
+    "chapter_chars_median": 3082,
+    "chapter_chars_cv": 0.4,
+    "paragraphs_mean": 52.2,
+    "dialogue_chars_pct": 29.1,
+    "dialogue_para_pct": 73.4,
+    "interiority_para_pct": 11.7,
+    "narration_para_pct": 14.9,
+    "turn_under20_pct": 77.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.8,
+    "attr_adv_pct": 8.2,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 4.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲汇款单的手指",
+      "chars": 1673,
+      "score": 98.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲账本的手指",
+      "chars": 4126,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲算珠的手指",
+      "chars": 3207,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "摩挲铜牌的手指",
+      "chars": 3513,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "盖章的手指",
+      "chars": 1652,
+      "score": 89.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 11.4 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「林永年盯着那份单据看了许久，直到太阳快要落山才终…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林永年的」×6",
+      "attr_adv_pct 15.4 高于目标 10.0",
+      "[observe] 标题与《摩挲汇款单的手指》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「周桂花的」×6、「林永年的」×4、「带着一丝」×3",
+      "情节与已写章节重复 0.63 ≥ 0.62（撞上「林永年发现一张泛黄汇款单上的地址与已废弃的渔村小学有关，…」）",
+      "narration_para_pct 18.2 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] 标题与《摩挲账本的手指》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "narration_para_pct 8.8 低于目标 20.0",
+      "[observe] 标题与《摩挲账本的手指》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 6.5 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:23:54"
+}

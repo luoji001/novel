@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-178",
+  "profile": "悬疑推理",
+  "title": "绣线的痕迹",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13957,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13341,
+    "chapter_chars_mean": 2668,
+    "chapter_chars_median": 3096,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 54,
+    "dialogue_chars_pct": 41.2,
+    "dialogue_para_pct": 81.1,
+    "interiority_para_pct": 8.3,
+    "narration_para_pct": 10.6,
+    "turn_under20_pct": 67.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.3,
+    "attr_adv_pct": 7.1,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 6.0,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "绣针拨开线团",
+      "chars": 1777,
+      "score": 96.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "绣架上的烛光",
+      "chars": 3820,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "绣线的粗糙触感",
+      "chars": 3572,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红绸的粗粝触感",
+      "chars": 3241,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "绣品上的名字",
+      "chars": 1542,
+      "score": 90.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈怀瑾的」×4",
+      "narration_para_pct 8.0 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「苏绣坊」×28、「沈怀瑾的」×8",
+      "narration_para_pct 8.6 低于目标 20.0",
+      "attr_adv_pct 11.5 高于目标 10.0",
+      "dialogue_run_mean 10.3 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「顾清和的」×5、「沈怀瑾的」×4、「他知道这」×3",
+      "narration_para_pct 10.1 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「苏绣坊」×26、「沈怀瑾的」×6、「“我不知道」×3",
+      "narration_para_pct 15.4 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 10.0 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 239.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:07:29"
+}

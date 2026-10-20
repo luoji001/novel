@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-152",
+  "profile": "悬疑推理",
+  "title": "火车票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 15588,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14771,
+    "chapter_chars_mean": 2954,
+    "chapter_chars_median": 3146,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 73.6,
+    "dialogue_chars_pct": 38.9,
+    "dialogue_para_pct": 75.0,
+    "interiority_para_pct": 6.7,
+    "narration_para_pct": 18.3,
+    "turn_under20_pct": 79.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.5,
+    "attr_adv_pct": 7.4,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 5.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单上的涂改痕迹",
+      "chars": 2009,
+      "score": 99.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "纸片上的陌生名字",
+      "chars": 4412,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 3,
+      "title": "摩挲火车票边缘",
+      "chars": 3789,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲登记本边缘",
+      "chars": 3285,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲纸张边缘",
+      "chars": 2088,
+      "score": 90.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×7、「陈雪梅的」×6、「”陈雪梅低」×4",
+      "dialogue_chars_pct 59.6 高于目标 58.0",
+      "narration_para_pct 7.6 低于目标 20.0",
+      "dialogue_run_mean 10.6 高于目标 10.0",
+      "[observe] 章内自我复读 26 句（如「是网吧老板让我保存的，他说万一有什么事，可以用来…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林志远的」×12、「“我不知道」×4、「林志远站在」×3",
+      "narration_para_pct 18.5 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「林志远的心跳又加快了几分…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林志远的」×3",
+      "narration_para_pct 16.1 低于目标 20.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林志远站在」×3",
+      "dialogue_chars_pct 17.8 低于目标 20.0",
+      "[observe] 标题与《摩挲登记本边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T15:03:03"
+}

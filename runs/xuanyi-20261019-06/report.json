@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-06",
+  "profile": "悬疑推理",
+  "title": "钥匙牌",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14770,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14079,
+    "chapter_chars_mean": 2816,
+    "chapter_chars_median": 3402,
+    "chapter_chars_cv": 0.41,
+    "paragraphs_mean": 57.6,
+    "dialogue_chars_pct": 41.2,
+    "dialogue_para_pct": 76.8,
+    "interiority_para_pct": 8.2,
+    "narration_para_pct": 15.0,
+    "turn_under20_pct": 72.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.3,
+    "attr_adv_pct": 7.1,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 5.3,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙牌的错位",
+      "chars": 1431,
+      "score": 98.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "火车票的揭示",
+      "chars": 3713,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙牌与房号牌的对峙",
+      "chars": 4172,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "铁盒里的记事本",
+      "chars": 3560,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲木钉",
+      "chars": 1889,
+      "score": 93.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈国栋站在」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「林秀兰的」×6、「陈国栋的」×6、「陈国栋站在」×4",
+      "narration_para_pct 6.4 低于目标 20.0",
+      "[observe] 章内自我复读 10 句（如「陈国栋压低声音说道，“他好像一直在找什么人…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈国栋站在」×3、「“我不知道」×3、「陈国栋的」×3",
+      "narration_para_pct 16.1 低于目标 20.0",
+      "[observe] 章内自我复读 20 句（如「你知道我们这里的一切都是按规矩来的吗？如果你再胡…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈国栋的」×6",
+      "narration_para_pct 19.4 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 14.3 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 243.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:02:03"
+}

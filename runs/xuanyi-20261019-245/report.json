@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-245",
+  "profile": "悬疑推理",
+  "title": "空匣",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14503,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13879,
+    "chapter_chars_mean": 2776,
+    "chapter_chars_median": 3293,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 54.2,
+    "dialogue_chars_pct": 18.4,
+    "dialogue_para_pct": 51.5,
+    "interiority_para_pct": 17.4,
+    "narration_para_pct": 31.1,
+    "turn_under20_pct": 80.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.0,
+    "attr_adv_pct": 5.3,
+    "scenes_per_chapter": 4.8,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "录像带的裂痕",
+      "chars": 1710,
+      "score": 93.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "药品消失的清晨",
+      "chars": 3753,
+      "score": 84.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "触摸电话机的胶痕",
+      "chars": 3457,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "票据上的空白签名",
+      "chars": 3553,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "钥匙缝隙中的纸片",
+      "chars": 2025,
+      "score": 86.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈志远的」×8"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈志远的」×7、「林子安站在」×3、「林子安的」×3",
+      "dialogue_chars_pct 15.5 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「你看到的东西不是你以为的那个样子…」）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林子安点了点头」×3、「林子安的」×3、「为什么会」×3",
+      "dialogue_chars_pct 18.9 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「陈志远的」×7、「林子安的」×5",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「林子安的心跳加快了几分…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 13.9 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 230.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:50:23"
+}

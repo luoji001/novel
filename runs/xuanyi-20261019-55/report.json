@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-55",
+  "profile": "悬疑推理",
+  "title": "时光刻度",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14255,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13593,
+    "chapter_chars_mean": 2719,
+    "chapter_chars_median": 3196,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 58.8,
+    "dialogue_chars_pct": 42.8,
+    "dialogue_para_pct": 79.2,
+    "interiority_para_pct": 5.9,
+    "narration_para_pct": 15.0,
+    "turn_under20_pct": 70.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.8,
+    "attr_adv_pct": 14.2,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 5.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "开关上的字条",
+      "chars": 1537,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "表盘上的裂痕",
+      "chars": 4110,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "表盘上的裂痕",
+      "chars": 3336,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "摩挲存折封面",
+      "chars": 3378,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲钢笔外壳",
+      "chars": 1889,
+      "score": 89.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈文远的」×6",
+      "narration_para_pct 14.7 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×4、「点了点头」×3、「周雪梅的」×3",
+      "narration_para_pct 12.1 低于目标 20.0",
+      "[observe] 章内自我复读 9 句（如「周雪梅笑着摇头，“不过，如果你能证明这一点的话，…」）",
+      "[observe] attr_adv_pct 22.7 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「沈文远的」×5、「点了点头」×3、「他知道这」×3",
+      "narration_para_pct 12.7 低于目标 20.0",
+      "[observe] 标题重复：「表盘上的裂痕」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×3、「点了点头」×3、「他知道这」×3",
+      "narration_para_pct 9.4 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3、「浦东新区殡仪馆」×3",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 236.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:03:15"
+}

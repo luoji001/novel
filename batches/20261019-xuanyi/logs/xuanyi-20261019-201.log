@@ -1,0 +1,160 @@
+开始：xuanyi-20261019-201（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-201
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 显影液中的身影（short，1942字）沈国强在暗房中发现了一张不该存在的合影
+     2. 账本上的名字（normal，3238字）沈国强翻看顾客账本，发现照片中人物的名字在账本上出现
+     3. 结婚证的日期（normal，3238字）周婉秋拿出1992年的结婚证，与照片中人物的年龄不符
+     4. 钥匙的用途（normal，3238字）沈国强发现生锈的钥匙可以打开照相馆的保险柜
+     5. 文化局的调查（short，1942字）县文化局开始调查照相馆，怀疑其存在违规行为
+
+  继续：novel-agent approve xuanyi-20261019-201 --accept
+  打回：novel-agent approve xuanyi-20261019-201 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-201
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-201
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第2章第1场「揭示账本的格式，但仍扣住账本中缺失的姓名记录」与第2章第2场「揭示账本的使用频率，但仍扣住账本中某页的异常空白」信息重合 0.61（同一章内）
+    - 第2章第3场「揭示账本中某页的日期，但仍扣住该页与照片时间的矛盾」与第2章第4场「揭示账本中某页的顾客签名，但仍扣住签名与照片人物的关联」信息重合 0.65（同一章内）
+    - 第2章第3场「揭示账本中某页的日期，但仍扣住该页与照片时间的矛盾」与第2章第5场「揭示账本中某页的顾客编号，但仍扣住编号与照片人物的对应关系」信息重合 0.63（同一章内）
+    - 第2章第3场「揭示账本中某页的日期，但仍扣住该页与照片时间的矛盾」与第2章第6场「揭示账本中某页的备注内容，但仍扣住备注与照片内容的矛盾」信息重合 0.73（同一章内）
+    - 第2章第4场「揭示账本中某页的顾客签名，但仍扣住签名与照片人物的关联」与第2章第5场「揭示账本中某页的顾客编号，但仍扣住编号与照片人物的对应关系」信息重合 0.79（同一章内）
+    - 第2章第4场「揭示账本中某页的顾客签名，但仍扣住签名与照片人物的关联」与第2章第6场「揭示账本中某页的备注内容，但仍扣住备注与照片内容的矛盾」信息重合 0.63（同一章内）
+    - 第2章第5场「揭示账本中某页的顾客编号，但仍扣住编号与照片人物的对应关系」与第2章第6场「揭示账本中某页的备注内容，但仍扣住备注与照片内容的矛盾」信息重合 0.61（同一章内）
+    - 第3章第2场「揭示结婚证上的姓名与照片中人物姓名一致，但仍扣住照片中人物与现实时间线的错位」与第3章第3场「揭示结婚证上的签名与照片中人物的笔迹相似，但仍扣住照片中人物与现实时间线的错位」信息重合 0.86（同一章内）
+    - 第3章第2场「揭示结婚证上的姓名与照片中人物姓名一致，但仍扣住照片中人物与现实时间线的错位」与第3章第5场「揭示结婚证上的婚姻状况与照片中人物的婚姻状况矛盾，但仍扣住照片中人物与现实时间线的错位」信息重合 0.79（同一章内）
+    - 第3章第2场「揭示结婚证上的姓名与照片中人物姓名一致，但仍扣住照片中人物与现实时间线的错位」与第3章第6场「揭示结婚证上的登记地点与照片中人物的活动地点不符，但仍扣住照片中人物与现实时间线的错位」信息重合 0.79（同一章内）
+    - 第3章第3场「揭示结婚证上的签名与照片中人物的笔迹相似，但仍扣住照片中人物与现实时间线的错位」与第3章第5场「揭示结婚证上的婚姻状况与照片中人物的婚姻状况矛盾，但仍扣住照片中人物与现实时间线的错位」信息重合 0.80（同一章内）
+    - 第3章第3场「揭示结婚证上的签名与照片中人物的笔迹相似，但仍扣住照片中人物与现实时间线的错位」与第3章第6场「揭示结婚证上的登记地点与照片中人物的活动地点不符，但仍扣住照片中人物与现实时间线的错位」信息重合 0.80（同一章内）
+    第1章 3 场：揭示老式显影机的日常使用流程，但 | 揭示显影液中浮现的轮廓逐渐清晰， | 揭示照片中的合影内容与照相馆运营
+    第2章 6 场：揭示账本的格式，但仍扣住账本中缺 | 揭示账本的使用频率，但仍扣住账本 | 揭示账本中某页的日期，但仍扣住该 | 揭示账本中某页的顾客签名，但仍扣 | 揭示账本中某页的顾客编号，但仍扣 | 揭示账本中某页的备注内容，但仍扣
+    第3章 6 场：揭示结婚证的日期为1992年，但 | 揭示结婚证上的姓名与照片中人物姓 | 揭示结婚证上的签名与照片中人物的 | 揭示结婚证上的日期与照片中人物的 | 揭示结婚证上的婚姻状况与照片中人 | 揭示结婚证上的登记地点与照片中人
+    第4章 6 场：揭示钥匙的形状，但仍扣住钥匙的用 | 揭示钥匙的重量，但仍扣住钥匙的来 | 揭示钥匙的锈迹，但仍扣住钥匙的归 | 揭示钥匙的尺寸，但仍扣住钥匙的用 | 揭示钥匙的齿纹，但仍扣住钥匙的归 | 揭示钥匙的触感，但仍扣住钥匙的秘
+    第5章 3 场：揭示老式显影机的使用频率，但仍扣 | 揭示老式显影机的维护状况，但仍扣 | 揭示老式显影机的显影液成分，但仍
+
+  继续：novel-agent approve xuanyi-20261019-201 --accept
+  打回：novel-agent approve xuanyi-20261019-201 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-201
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-201
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-201/report.md
+
+  继续：novel-agent approve xuanyi-20261019-201 --accept
+  打回：novel-agent approve xuanyi-20261019-201 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-201
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-201
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-201
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-201

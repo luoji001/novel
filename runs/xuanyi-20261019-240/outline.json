@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "凌晨三点的刷卡记录",
+    "beat": "物业经理发现门禁系统中一张注销卡在深夜时段的刷卡记录",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "门禁刷卡机",
+    "speakers": [
+      "沈嘉文"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "指纹识别器的异常提示",
+    "beat": "系统显示该注销卡的持有者尚未完成离职手续",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "指纹识别器",
+    "speakers": [
+      "沈嘉文"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "离职登记表上的空白签名",
+    "beat": "物业经理发现离职登记表上缺少应有的签名",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "离职登记表",
+    "speakers": [
+      "沈嘉文"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "监控录像中的模糊身影",
+    "beat": "监控录像显示疑似注销卡持有者在深夜出现",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "监控录像",
+    "speakers": [
+      "沈嘉文"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "人事主管的沉默应对",
+    "beat": "人事主管拒绝提供关于注销卡持有者的详细信息",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "人事主管",
+    "speakers": [
+      "周若雪"
+    ]
+  }
+]

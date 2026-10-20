@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-56",
+  "profile": "悬疑推理",
+  "title": "铜纽扣",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14422,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13647,
+    "chapter_chars_mean": 2729,
+    "chapter_chars_median": 3275,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 67.8,
+    "dialogue_chars_pct": 43.7,
+    "dialogue_para_pct": 83.5,
+    "interiority_para_pct": 8.1,
+    "narration_para_pct": 8.3,
+    "turn_under20_pct": 79.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.4,
+    "attr_adv_pct": 16.1,
+    "scenes_per_chapter": 4.2,
+    "dialogue_run_mean": 7.3,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "烟锅底的裂痕",
+      "chars": 1652,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "账单的背面纹路",
+      "chars": 3699,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "木牌的缺口痕迹",
+      "chars": 3442,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "烛光下的纸条",
+      "chars": 3697,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "铜纽扣的重现",
+      "chars": 1927,
+      "score": 89.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈素云的」×4、「沈文远的」×3",
+      "narration_para_pct 15.8 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈文远的」×6、「“我不知道」×4、「陈素云的」×4",
+      "narration_para_pct 5.6 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「陈素云的」×7、「沈文远的」×6",
+      "narration_para_pct 9.2 低于目标 20.0",
+      "[observe] attr_adv_pct 31.6 > 20.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈素云的」×5、「“我不知道」×4、「沈文远点」×4",
+      "情节与已写章节重复 0.73 ≥ 0.62（撞上「沈文远和陈素云在防空洞中发现李老板的遗物，揭开他死亡背后…」）",
+      "narration_para_pct 6.2 低于目标 20.0",
+      "attr_adv_pct 19.6 高于目标 10.0",
+      "dialogue_run_mean 12.2 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「沈文远的」×3",
+      "narration_para_pct 9.5 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 241.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:05:52"
+}

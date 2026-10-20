@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-87",
+  "profile": "悬疑推理",
+  "title": "铜印",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13741,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13104,
+    "chapter_chars_mean": 2621,
+    "chapter_chars_median": 2952,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 54.6,
+    "dialogue_chars_pct": 36.7,
+    "dialogue_para_pct": 75.2,
+    "interiority_para_pct": 11.7,
+    "narration_para_pct": 13.1,
+    "turn_under20_pct": 74.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.2,
+    "attr_adv_pct": 15.8,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 4.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "砚台底款的暗纹",
+      "chars": 1867,
+      "score": 97.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "翻阅拍卖目录",
+      "chars": 3327,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "铜印的低语",
+      "chars": 3100,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "纸条上的日期",
+      "chars": 3577,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "砚台消失的雨天",
+      "chars": 1865,
+      "score": 91.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「沈砚生的」×10、「周怀远的」×3、「瑞玉斋」×3",
+      "narration_para_pct 10.9 低于目标 20.0",
+      "attr_adv_pct 17.4 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「瑞玉斋」×8、「沈砚生的」×5",
+      "narration_para_pct 7.5 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×5、「沈砚生的」×5、「北平古玩协会」×3",
+      "narration_para_pct 19.7 低于目标 20.0",
+      "attr_adv_pct 15.4 高于目标 10.0",
+      "[observe] 章内自我复读 2 句（如「沈砚生没有回答，只是默默地注视着对方，眼中闪过一…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈砚生的」×5、「周怀远的」×3",
+      "narration_para_pct 6.2 低于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 233.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:22:16"
+}

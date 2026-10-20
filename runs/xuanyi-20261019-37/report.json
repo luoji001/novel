@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-37",
+  "profile": "悬疑推理",
+  "title": "撕碎的面单",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14729,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14044,
+    "chapter_chars_mean": 2809,
+    "chapter_chars_median": 3389,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 61.2,
+    "dialogue_chars_pct": 35.1,
+    "dialogue_para_pct": 75.5,
+    "interiority_para_pct": 9.0,
+    "narration_para_pct": 15.4,
+    "turn_under20_pct": 77.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.9,
+    "attr_adv_pct": 16.4,
+    "scenes_per_chapter": 4.8,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "咔嗒声的回响",
+      "chars": 1909,
+      "score": 97.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "撕碎的面单",
+      "chars": 3542,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "撕碎的面单",
+      "chars": 3627,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "扫描枪的校准",
+      "chars": 3594,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "暗红色的血迹",
+      "chars": 2052,
+      "score": 89.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林雨桐的」×4",
+      "narration_para_pct 13.2 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周正阳的」×7、「林雨桐的」×4、「林雨桐站在」×3",
+      "narration_para_pct 15.7 低于目标 20.0",
+      "[observe] attr_adv_pct 40.0 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「林雨桐站在」×4、「周正阳的」×4",
+      "narration_para_pct 15.5 低于目标 20.0",
+      "[observe] 标题重复：「撕碎的面单」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「周正阳的」×4、「林雨桐的」×4",
+      "narration_para_pct 14.5 低于目标 20.0",
+      "attr_adv_pct 10.5 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林雨桐的」×4",
+      "narration_para_pct 18.4 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 232.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T10:18:56"
+}

@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-256",
+  "profile": "悬疑推理",
+  "title": "铜板敲击声",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14640,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13951,
+    "chapter_chars_mean": 2790,
+    "chapter_chars_median": 3251,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 61.4,
+    "dialogue_chars_pct": 34.2,
+    "dialogue_para_pct": 71.6,
+    "interiority_para_pct": 11.8,
+    "narration_para_pct": 16.5,
+    "turn_under20_pct": 83.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.9,
+    "attr_adv_pct": 9.0,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜板上的血迹",
+      "chars": 1616,
+      "score": 98.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "水面倒影晃动",
+      "chars": 4269,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲欠条边缘",
+      "chars": 3421,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲怀表外壳",
+      "chars": 3478,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲铜板边缘",
+      "chars": 1851,
+      "score": 87.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 17.6 低于目标 20.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈文远的」×6、「”周素娥轻」×3、「周素娥的」×3",
+      "narration_para_pct 7.2 低于目标 20.0",
+      "[observe] attr_adv_pct 24.0 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周素娥的」×7、「陈文远的」×4、「陈文远站在」×3",
+      "narration_para_pct 11.5 低于目标 20.0",
+      "[observe] 章内自我复读 4 句（如「陈文远盯着那份欠条看了许久，缓缓说道：“如果张三…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈文远的」×6、「为什么会」×3",
+      "interiority_para_pct 21.7 高于目标 20.0",
+      "narration_para_pct 18.8 低于目标 20.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 16.9 低于目标 20.0",
+      "[observe] 标题与《摩挲欠条边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 248.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:17:44"
+}

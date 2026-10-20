@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-101",
+  "profile": "悬疑推理",
+  "title": "底片",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14393,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13718,
+    "chapter_chars_mean": 2744,
+    "chapter_chars_median": 3295,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 58.4,
+    "dialogue_chars_pct": 33.5,
+    "dialogue_para_pct": 72.0,
+    "interiority_para_pct": 10.6,
+    "narration_para_pct": 17.5,
+    "turn_under20_pct": 79.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.7,
+    "attr_adv_pct": 7.1,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 4.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "触摸照片边缘",
+      "chars": 1704,
+      "score": 97.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "触摸照片边缘",
+      "chars": 3465,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "触摸照片边缘",
+      "chars": 3423,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "触摸照片边缘",
+      "chars": 3813,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "触摸照片边缘",
+      "chars": 1983,
+      "score": 91.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 28.6 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周玉兰的」×9、「沈国强的」×3",
+      "narration_para_pct 14.9 低于目标 20.0",
+      "[observe] 标题重复：「触摸照片边缘」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「周玉兰的」×9",
+      "narration_para_pct 19.3 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] 标题重复：「触摸照片边缘」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「周玉兰的」×10、「沈国强的」×5",
+      "narration_para_pct 19.5 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「图片上是一个小男孩，大概六七岁的模样，正坐在照相…」）",
+      "[observe] 标题重复：「触摸照片边缘」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「“我不知道」×3",
+      "narration_para_pct 12.5 低于目标 20.0",
+      "[observe] 标题重复：「触摸照片边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 233.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:57:09"
+}

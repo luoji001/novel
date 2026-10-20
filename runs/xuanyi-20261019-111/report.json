@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-111",
+  "profile": "悬疑推理",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13963,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13276,
+    "chapter_chars_mean": 2655,
+    "chapter_chars_median": 3244,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 58.2,
+    "dialogue_chars_pct": 44.6,
+    "dialogue_para_pct": 83.0,
+    "interiority_para_pct": 6.3,
+    "narration_para_pct": 10.7,
+    "turn_under20_pct": 73.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.7,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 7.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "新锁的暗红光泽",
+      "chars": 1771,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摩挲账本的指尖",
+      "chars": 3569,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲铜钥匙的指尖",
+      "chars": 3430,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "摩挲支票的指尖",
+      "chars": 3416,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲铜钥匙的指纹",
+      "chars": 1772,
+      "score": 92.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 5.7 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈慕云的」×6、「周怀瑾的」×5",
+      "narration_para_pct 12.2 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×4、「沈慕云的」×4",
+      "narration_para_pct 5.9 低于目标 20.0",
+      "[observe] 章内自我复读 7 句（如「而且，这个钥匙的形状和以前不一样，它更宽一些，上…」）",
+      "[observe] attr_adv_pct 26.1 > 20.0（结构塌缩）",
+      "[observe] 标题与《摩挲账本的指尖》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「周怀瑾的」×7、「沈慕云的」×4",
+      "narration_para_pct 14.3 低于目标 20.0",
+      "[observe] 标题与《摩挲账本的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「周怀瑾的」×5",
+      "narration_para_pct 14.7 低于目标 20.0",
+      "[observe] 标题与《摩挲铜钥匙的指尖》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 242.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:22:06"
+}

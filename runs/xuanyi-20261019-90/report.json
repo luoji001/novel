@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-90",
+  "profile": "悬疑推理",
+  "title": "十四分钟",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14959,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14295,
+    "chapter_chars_mean": 2859,
+    "chapter_chars_median": 3339,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 58.2,
+    "dialogue_chars_pct": 34.7,
+    "dialogue_para_pct": 69.8,
+    "interiority_para_pct": 11.7,
+    "narration_para_pct": 18.4,
+    "turn_under20_pct": 75.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.9,
+    "attr_adv_pct": 6.5,
+    "scenes_per_chapter": 5,
+    "dialogue_run_mean": 4.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "车窗上的指纹",
+      "chars": 1809,
+      "score": 84.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "屏幕上的空白时刻",
+      "chars": 3552,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "纸片上的十四分钟",
+      "chars": 4124,
+      "score": 80.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "手指摩挲纸边",
+      "chars": 3519,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲手机边缘",
+      "chars": 1950,
+      "score": 92.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林婉如的」×3",
+      "dialogue_chars_pct 10.5 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈志远的」×7、「陈志远站在」×5、「林婉如的」×3",
+      "narration_para_pct 10.6 低于目标 20.0",
+      "attr_adv_pct 10.7 高于目标 10.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 14.8 低于目标 20.0",
+      "[observe] 章内自我复读 12 句（如「他小心翼翼地把它抽出来，展开一看，上面歪歪扭扭地…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林婉如的」×5、「”林婉如轻」×4、「陈志远站在」×3",
+      "narration_para_pct 9.6 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈志远的」×4、「林婉如的」×3",
+      "narration_para_pct 12.2 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 228.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:29:34"
+}

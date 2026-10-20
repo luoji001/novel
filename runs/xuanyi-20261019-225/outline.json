@@ -1,0 +1,57 @@
+[
+  {
+    "no": 1,
+    "title": "监控屏幕上的空白记录",
+    "beat": "林秋实注意到监控系统未记录某人离开药房的全过程",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "监控录像带",
+    "speakers": [
+      "林秋实"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "打印机纸张上的异常签名",
+    "beat": "林秋实发现打印出的夜班记录本缺少某人的签名",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "打印机纸张",
+    "speakers": [
+      "林秋实"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "处方单上的伪造签名",
+    "beat": "林秋实发现某张处方单上的签名与系统记录不符",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "药品处方单",
+    "speakers": [
+      "林秋实"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "钥匙插进锁孔的声音",
+    "beat": "林秋实听到钥匙插入药房大门锁孔的声音，但无人离开",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "药房钥匙",
+    "speakers": [
+      "林秋实"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "夜班记录本上的涂改痕迹",
+    "beat": "林秋实发现夜班记录本上存在明显的涂改痕迹，暗示有人篡改记录",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "夜班值班记录本",
+    "speakers": [
+      "林秋实"
+    ]
+  }
+]

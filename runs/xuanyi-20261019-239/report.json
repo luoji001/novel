@@ -1,0 +1,108 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-239",
+  "profile": "悬疑推理",
+  "title": "铜印",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13861,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13273,
+    "chapter_chars_mean": 2655,
+    "chapter_chars_median": 2851,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 51,
+    "dialogue_chars_pct": 36.8,
+    "dialogue_para_pct": 75.1,
+    "interiority_para_pct": 12.1,
+    "narration_para_pct": 12.7,
+    "turn_under20_pct": 77.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.5,
+    "attr_adv_pct": 11.4,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 5.3,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "泛黄汇款单飘落",
+      "chars": 1653,
+      "score": 99.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铜印边缘的裂痕",
+      "chars": 3794,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "信纸边缘的指纹",
+      "chars": 3000,
+      "score": 86.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "算盘珠轻颤",
+      "chars": 3794,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "翻开账本的手指",
+      "chars": 1615,
+      "score": 84.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「林振国的」×6、「陈素云的」×5、「林振国站在」×3",
+      "narration_para_pct 8.1 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×4、「陈素云点」×3、「林振国的」×3",
+      "narration_para_pct 14.9 低于目标 20.0",
+      "[observe] 章内自我复读 20 句（如「林振国站起身来，看着走进来的身影——正是每天清晨…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林振国的」×7、「陈素云的」×6、「”陈素云轻」×5",
+      "narration_para_pct 6.3 低于目标 20.0",
+      "attr_adv_pct 18.2 高于目标 10.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 11.5 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 238.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:35:33"
+}

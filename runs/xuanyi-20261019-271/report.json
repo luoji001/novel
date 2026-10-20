@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-271",
+  "profile": "悬疑推理",
+  "title": "锁芯",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14097,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13422,
+    "chapter_chars_mean": 2684,
+    "chapter_chars_median": 3088,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 60,
+    "dialogue_chars_pct": 45.5,
+    "dialogue_para_pct": 80.1,
+    "interiority_para_pct": 7.3,
+    "narration_para_pct": 12.6,
+    "turn_under20_pct": 67.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.5,
+    "attr_adv_pct": 5.4,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 5.2,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲怀表纹路",
+      "chars": 1644,
+      "score": 98.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摩挲支票边缘",
+      "chars": 3752,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "摩挲锁芯纹路",
+      "chars": 3238,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲锁芯纹路",
+      "chars": 3652,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 5,
+      "title": "摩挲钥匙边缘",
+      "chars": 1806,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 12.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈慕云的」×5",
+      "narration_para_pct 16.9 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周启明的」×7、「沈慕云的」×7",
+      "narration_para_pct 11.8 低于目标 20.0",
+      "[observe] 标题与《摩挲怀表纹路》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「周启明的」×9、「沈慕云的」×4、「沈慕云点了点头」×3",
+      "情节与已写章节重复 0.67 ≥ 0.62（撞上「沈慕云发现保险柜锁芯有异常磨损，质疑其更换时间与死者死亡…」）",
+      "narration_para_pct 8.0 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「周启明的声音低了下来…」）",
+      "[observe] attr_adv_pct 21.1 > 20.0（结构塌缩）",
+      "[observe] 标题重复：「摩挲锁芯纹路」已存在"
+    ],
+    "5": [
+      "narration_para_pct 14.0 低于目标 20.0",
+      "[observe] 标题与《摩挲支票边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:55:22"
+}

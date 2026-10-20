@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-186",
+  "profile": "悬疑推理",
+  "title": "红票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13986,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13409,
+    "chapter_chars_mean": 2682,
+    "chapter_chars_median": 3147,
+    "chapter_chars_cv": 0.41,
+    "paragraphs_mean": 50,
+    "dialogue_chars_pct": 29.4,
+    "dialogue_para_pct": 65.3,
+    "interiority_para_pct": 20.6,
+    "narration_para_pct": 14.1,
+    "turn_under20_pct": 76.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.7,
+    "attr_adv_pct": 11.0,
+    "scenes_per_chapter": 4.6,
+    "dialogue_run_mean": 5.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "触摸钥匙牌",
+      "chars": 1541,
+      "score": 89.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "擦拭钥匙牌",
+      "chars": 4155,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲红布面封面",
+      "chars": 3369,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲皮包拉链",
+      "chars": 3245,
+      "score": 0.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "窥视钥匙牌变化",
+      "chars": 1671,
+      "score": 89.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林婉秋的」×4",
+      "interiority_para_pct 26.1 高于目标 20.0",
+      "narration_para_pct 13.0 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林婉秋的」×4、「为什么会」×4",
+      "narration_para_pct 12.5 低于目标 20.0",
+      "[observe] 标题与《触摸钥匙牌》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「林婉秋的」×9、「”林婉秋轻」×4、「“我不知道」×3",
+      "narration_para_pct 13.2 低于目标 20.0",
+      "attr_adv_pct 15.4 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「不仅仅是」×3",
+      "dialogue_chars_pct 12.7 低于目标 20.0",
+      "narration_para_pct 19.5 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] interiority_para_pct 36.6 > 32.0（结构塌缩）"
+    ],
+    "5": [
+      "narration_para_pct 10.0 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "dialogue_run_mean 11.5 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 224.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T16:27:17"
+}

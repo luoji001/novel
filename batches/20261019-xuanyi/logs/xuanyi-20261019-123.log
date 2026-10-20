@@ -1,0 +1,160 @@
+开始：xuanyi-20261019-123（档位 悬疑推理／单篇连续弧，5 幕 / 13600 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-123
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 行李箱消失（short，1942字）行李箱的消失引发调查
+     2. 钥匙与便签（normal，3238字）钥匙和便签揭示了小林的意图
+     3. 离职证明（normal，3238字）离职证明成为关键证据
+     4. 监控录像（normal，3238字）监控录像显示小林未离开
+     5. 工资单（short，1942字）工资单揭露工厂的隐瞒
+
+  继续：novel-agent approve xuanyi-20261019-123 --accept
+  打回：novel-agent approve xuanyi-20261019-123 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-123
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-123
+  · approve_outline
+  · plan_scenes  [+5 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第1场「揭示行李箱消失的时间，但仍扣住行李箱消失的原因」与第1章第2场「揭示行李箱消失的地点，但仍扣住行李箱消失的动机」信息重合 0.83（同一章内）
+    - 第1章第1场「揭示行李箱消失的时间，但仍扣住行李箱消失的原因」与第1章第3场「揭示行李箱消失的路径，但仍扣住行李箱消失的真相」信息重合 0.83（同一章内）
+    - 第1章第2场「揭示行李箱消失的地点，但仍扣住行李箱消失的动机」与第1章第3场「揭示行李箱消失的路径，但仍扣住行李箱消失的真相」信息重合 0.83（同一章内）
+    - 第2章第1场「揭示小林离职申请表上的签名，但仍扣住钥匙上的血迹来源」与第2章第5场「揭示小林的离职申请表被篡改，但仍扣住钥匙与申请表的关联」信息重合 0.64（同一章内）
+    - 第2章第2场「揭示小林的工时记录被篡改，但仍扣住钥匙与工时记录的关联」与第2章第3场「揭示小林失踪前最后一天的加班记录，但仍扣住钥匙与加班记录的联系」信息重合 0.66（同一章内）
+    - 第2章第2场「揭示小林的工时记录被篡改，但仍扣住钥匙与工时记录的关联」与第2章第4场「揭示小林的工资单被销毁，但仍扣住钥匙与工资单的关联」信息重合 0.73（同一章内）
+    - 第2章第2场「揭示小林的工时记录被篡改，但仍扣住钥匙与工时记录的关联」与第2章第5场「揭示小林的离职申请表被篡改，但仍扣住钥匙与申请表的关联」信息重合 0.70（同一章内）
+    - 第2章第2场「揭示小林的工时记录被篡改，但仍扣住钥匙与工时记录的关联」与第2章第6场「揭示小林的工时记录与工资单存在矛盾，但仍扣住钥匙与工时记录的联系」信息重合 0.78（同一章内）
+    - 第2章第3场「揭示小林失踪前最后一天的加班记录，但仍扣住钥匙与加班记录的联系」与第2章第6场「揭示小林的工时记录与工资单存在矛盾，但仍扣住钥匙与工时记录的联系」信息重合 0.63（同一章内）
+    - 第2章第4场「揭示小林的工资单被销毁，但仍扣住钥匙与工资单的关联」与第2章第5场「揭示小林的离职申请表被篡改，但仍扣住钥匙与申请表的关联」信息重合 0.65（同一章内）
+    - 第2章第4场「揭示小林的工资单被销毁，但仍扣住钥匙与工资单的关联」与第2章第6场「揭示小林的工时记录与工资单存在矛盾，但仍扣住钥匙与工时记录的联系」信息重合 0.67（同一章内）
+    - 第2章第4场「揭示小林的工资单被销毁，但仍扣住钥匙与工资单的关联」与第5章第1场「揭示小林工资单上的工时记录，但仍扣住工资单被篡改的疑点」信息重合 0.62
+    第1章 3 场：揭示行李箱消失的时间，但仍扣住行 | 揭示行李箱消失的地点，但仍扣住行 | 揭示行李箱消失的路径，但仍扣住行
+    第2章 6 场：揭示小林离职申请表上的签名，但仍 | 揭示小林的工时记录被篡改，但仍扣 | 揭示小林失踪前最后一天的加班记录 | 揭示小林的工资单被销毁，但仍扣住 | 揭示小林的离职申请表被篡改，但仍 | 揭示小林的工时记录与工资单存在矛
+    第3章 6 场：揭示陈美玲掌握小林离职证明的线索 | 揭示周振华持有小林的离职证明复印 | 揭示陈美玲知道小林离职证明的来源 | 揭示周振华发现离职证明的印章问题 | 揭示陈美玲知道小林离职证明的异常 | 揭示周振华发现行李箱钥匙与离职证
+    第4章 6 场：揭示周振华持有监控录像，但仍扣住 | 揭示监控录像存在，但仍扣住录像未 | 揭示南方电子厂掌握小林失踪前的考 | 揭示小林失踪前的考勤记录与监控录 | 揭示监控录像未被播放，但仍扣住录 | 揭示南方电子厂掌握小林失踪前的考
+    第5章 3 场：揭示小林工资单上的工时记录，但仍 | 揭示工资单上的考勤记录被删除，但 | 揭示工资单上的工资数额与小林实际
+
+  继续：novel-agent approve xuanyi-20261019-123 --accept
+  打回：novel-agent approve xuanyi-20261019-123 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-123
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-123
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [5 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [6 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/xuanyi-20261019-123/report.md
+
+  继续：novel-agent approve xuanyi-20261019-123 --accept
+  打回：novel-agent approve xuanyi-20261019-123 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-123
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xuanyi-20261019-123
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/xuanyi-20261019-123
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/xuanyi-20261019-123

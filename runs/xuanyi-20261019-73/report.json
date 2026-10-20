@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-73",
+  "profile": "悬疑推理",
+  "title": "铜钱裂纹",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13556,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12901,
+    "chapter_chars_mean": 2580,
+    "chapter_chars_median": 3064,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 56.4,
+    "dialogue_chars_pct": 41.8,
+    "dialogue_para_pct": 78.2,
+    "interiority_para_pct": 11.8,
+    "narration_para_pct": 10.1,
+    "turn_under20_pct": 67.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.7,
+    "attr_adv_pct": 13.6,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 5.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本的缺口",
+      "chars": 1673,
+      "score": 97.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "铜锁换三次",
+      "chars": 3365,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "碗底裂痕",
+      "chars": 3576,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铜钱的凹痕",
+      "chars": 3181,
+      "score": 85.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铜钱消失的瞬间",
+      "chars": 1756,
+      "score": 92.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈砚秋的」×4",
+      "narration_para_pct 15.4 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈砚秋的」×9、「周云舟的」×6、「学徒房」×4",
+      "narration_para_pct 8.5 低于目标 20.0",
+      "[observe] attr_adv_pct 30.8 > 20.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「”周云舟低」×4、「沈砚秋的」×4、「周云舟的」×3",
+      "narration_para_pct 9.5 低于目标 20.0"
+    ],
+    "4": [
+      "interiority_para_pct 23.1 高于目标 20.0",
+      "narration_para_pct 11.5 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「沈砚秋的」×11",
+      "narration_para_pct 6.5 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:47:49"
+}

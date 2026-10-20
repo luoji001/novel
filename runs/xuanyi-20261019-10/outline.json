@@ -1,0 +1,59 @@
+[
+  {
+    "no": 1,
+    "title": "夜班订单",
+    "beat": "老周接到一个没有乘客信息的订单，目的地是城东旧货市场",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "手机计费单",
+    "speakers": [
+      "老周"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "异常行程",
+    "beat": "老周发现自己的行程记录显示行驶了十五公里，但实际并未离开车辆",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "车载GPS记录",
+    "speakers": [
+      "老周"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "陌生电话",
+    "beat": "老周接到一个陌生电话，对方称自己是乘客并要求前往某个地点",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "乘客遗留的钥匙串",
+    "speakers": [
+      "老周"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "旧货市场监控",
+    "beat": "老周抵达旧货市场后，发现监控录像显示有人在市场内活动",
+    "target_chars": 3238,
+    "scale": "normal",
+    "must_object": "旧货市场的监控录像",
+    "speakers": [
+      "老周",
+      "陈志远"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "记账本疑云",
+    "beat": "老周检查自己的记账本时，发现其中有一笔未记录的费用",
+    "target_chars": 1942,
+    "scale": "short",
+    "must_object": "司机的记账本",
+    "speakers": [
+      "老周",
+      "城南交通管理局"
+    ]
+  }
+]

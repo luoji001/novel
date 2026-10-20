@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-61",
+  "profile": "悬疑推理",
+  "title": "泛黄的合影",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14786,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14188,
+    "chapter_chars_mean": 2838,
+    "chapter_chars_median": 3187,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 51.6,
+    "dialogue_chars_pct": 29.4,
+    "dialogue_para_pct": 69.0,
+    "interiority_para_pct": 13.6,
+    "narration_para_pct": 17.4,
+    "turn_under20_pct": 75.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.3,
+    "attr_adv_pct": 15.7,
+    "scenes_per_chapter": 3.8,
+    "dialogue_run_mean": 5.1,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "显影液中的老照片",
+      "chars": 2062,
+      "score": 98.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲纸边的手指",
+      "chars": 3766,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲登记本的指尖",
+      "chars": 3297,
+      "score": 44.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲照片的指尖",
+      "chars": 3825,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲相机的指尖",
+      "chars": 1831,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏婉秋的」×3",
+      "narration_para_pct 16.1 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「苏婉秋的」×6、「林永年的」×4、「为什么会」×4",
+      "interiority_para_pct 21.2 高于目标 20.0",
+      "narration_para_pct 15.2 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「苏婉秋的」×4",
+      "dialogue_chars_pct 12.2 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「苏婉秋的」×10、「林永年的」×5、「”苏婉秋轻」×4",
+      "narration_para_pct 10.8 低于目标 20.0",
+      "attr_adv_pct 15.8 高于目标 10.0",
+      "[observe] 标题与《摩挲登记本的指尖》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「苏婉秋的」×5",
+      "narration_para_pct 3.2 低于目标 20.0",
+      "[observe] attr_adv_pct 23.1 > 20.0（结构塌缩）",
+      "[observe] 标题与《摩挲照片的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 223.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T11:18:07"
+}

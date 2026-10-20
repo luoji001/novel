@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-25",
+  "profile": "悬疑推理",
+  "title": "药盒",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14885,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14208,
+    "chapter_chars_mean": 2842,
+    "chapter_chars_median": 3213,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 56,
+    "dialogue_chars_pct": 35.3,
+    "dialogue_para_pct": 72.0,
+    "interiority_para_pct": 9.7,
+    "narration_para_pct": 18.4,
+    "turn_under20_pct": 66.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.0,
+    "attr_adv_pct": 10.7,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 4.4,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "无人离场",
+      "chars": 1656,
+      "score": 99.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "手机收到神秘短信",
+      "chars": 4060,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "撕碎的值班表一角",
+      "chars": 3371,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "指纹擦拭登记本",
+      "chars": 3825,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙上的指纹痕迹",
+      "chars": 1968,
+      "score": 89.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 10.3 低于目标 20.0",
+      "[observe] attr_adv_pct 28.6 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「林婉如的」×6、「沈墨站在」×3",
+      "narration_para_pct 9.3 低于目标 20.0",
+      "attr_adv_pct 15.8 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林婉如的」×9、「“我不知道」×4、「”林婉如轻」×4",
+      "narration_para_pct 15.5 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「晨曦药业有限公司」×6"
+    ],
+    "5": [
+      "单条套路句式超限：「沈墨站在」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 230.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:49:22"
+}

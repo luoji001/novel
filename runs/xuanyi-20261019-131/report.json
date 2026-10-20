@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-131",
+  "profile": "悬疑推理",
+  "title": "锁痕",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14279,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13569,
+    "chapter_chars_mean": 2714,
+    "chapter_chars_median": 3130,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 62.4,
+    "dialogue_chars_pct": 40.9,
+    "dialogue_para_pct": 77.2,
+    "interiority_para_pct": 8.7,
+    "narration_para_pct": 14.1,
+    "turn_under20_pct": 75.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.5,
+    "attr_adv_pct": 9.8,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 5.7,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "锁痕暗藏账本秘密",
+      "chars": 1650,
+      "score": 98.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "纸张边缘的时光褶皱",
+      "chars": 3604,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "纸张边缘的时光褶皱",
+      "chars": 3789,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "钥匙上的刻痕之谜",
+      "chars": 3268,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲存单边缘",
+      "chars": 1963,
+      "score": 91.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周慕云的」×4",
+      "narration_para_pct 8.3 低于目标 20.0",
+      "[observe] attr_adv_pct 30.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周慕云的」×5、「沈怀瑾站在」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「周慕云点」×6、「周慕云的」×5、「沈怀瑾的」×5",
+      "narration_para_pct 8.6 低于目标 20.0",
+      "attr_adv_pct 13.2 高于目标 10.0",
+      "[observe] 章内自我复读 2 句（如「那你为什么不早告诉我？…」）",
+      "[observe] 标题重复：「纸张边缘的时光褶皱」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「沈怀瑾的」×6、「周慕云的」×4、「他知道这」×3",
+      "narration_para_pct 16.4 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "5": [
+      "narration_para_pct 13.2 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T14:11:31"
+}

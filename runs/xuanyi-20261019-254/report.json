@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-254",
+  "profile": "悬疑推理",
+  "title": "麻袋",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14355,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13678,
+    "chapter_chars_mean": 2736,
+    "chapter_chars_median": 3084,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 60,
+    "dialogue_chars_pct": 43.1,
+    "dialogue_para_pct": 80.1,
+    "interiority_para_pct": 7.8,
+    "narration_para_pct": 12.0,
+    "turn_under20_pct": 78.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.9,
+    "attr_adv_pct": 12.9,
+    "scenes_per_chapter": 4.6,
+    "dialogue_run_mean": 6.5,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "布料的重量",
+      "chars": 1711,
+      "score": 98.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "撕碎的进货单",
+      "chars": 3758,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "摩挲账页的手指",
+      "chars": 3257,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "摩挲布料的手指",
+      "chars": 3646,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲红绳的手指",
+      "chars": 1978,
+      "score": 90.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈国栋站在」×3",
+      "narration_para_pct 16.2 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周婉秋的」×11、「陈国栋的」×5",
+      "narration_para_pct 10.8 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×7、「陈国栋的」×7、「”周婉秋轻」×4",
+      "dialogue_chars_pct 58.4 高于目标 58.0",
+      "narration_para_pct 3.8 低于目标 20.0",
+      "attr_adv_pct 14.8 高于目标 10.0",
+      "dialogue_run_mean 14.8 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周婉秋的」×3",
+      "narration_para_pct 15.7 低于目标 20.0",
+      "attr_adv_pct 11.8 高于目标 10.0",
+      "[observe] 标题与《摩挲账页的手指》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈国栋的」×7",
+      "narration_para_pct 17.5 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "[observe] 标题与《摩挲账页的手指》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 231.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:12:41"
+}

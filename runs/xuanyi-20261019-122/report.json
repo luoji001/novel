@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-122",
+  "profile": "悬疑推理",
+  "title": "当票",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13576,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12890,
+    "chapter_chars_mean": 2578,
+    "chapter_chars_median": 2969,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 58,
+    "dialogue_chars_pct": 40.8,
+    "dialogue_para_pct": 75.8,
+    "interiority_para_pct": 10.7,
+    "narration_para_pct": 13.5,
+    "turn_under20_pct": 71.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.6,
+    "attr_adv_pct": 6.0,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 4.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "怀表与铜锁",
+      "chars": 1607,
+      "score": 81.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "摩挲当票副本",
+      "chars": 3150,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲当票副本",
+      "chars": 3501,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲账簿边缘",
+      "chars": 3499,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲铜锁缝隙",
+      "chars": 1814,
+      "score": 93.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 32.1 高于目标 20.0",
+      "narration_para_pct 10.7 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "2": [
+      "narration_para_pct 9.0 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×4、「说道“我」×3、「沈慕云的」×3",
+      "narration_para_pct 17.7 低于目标 20.0",
+      "[observe] 标题重复：「摩挲当票副本」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「沈慕云的」×4",
+      "narration_para_pct 11.9 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 18.8 低于目标 20.0",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 227.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T13:49:24"
+}

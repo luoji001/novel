@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-273",
+  "profile": "悬疑推理",
+  "title": "断笔",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13630,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13034,
+    "chapter_chars_mean": 2607,
+    "chapter_chars_median": 2978,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 50.4,
+    "dialogue_chars_pct": 34.4,
+    "dialogue_para_pct": 75.6,
+    "interiority_para_pct": 11.8,
+    "narration_para_pct": 12.7,
+    "turn_under20_pct": 74.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.1,
+    "attr_adv_pct": 10.5,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "算盘珠的凹痕",
+      "chars": 1781,
+      "score": 95.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "触摸账页的指尖",
+      "chars": 3830,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "触碰丝绸腰带的指尖",
+      "chars": 3121,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "凝视钢笔的余光",
+      "chars": 3124,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "拾起残纸的指尖",
+      "chars": 1769,
+      "score": 93.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈怀瑾的」×4"
+    ],
+    "2": [
+      "单条套路句式超限：「沈怀瑾的」×6、「周文渊的」×5",
+      "narration_para_pct 8.3 低于目标 20.0",
+      "attr_adv_pct 15.8 高于目标 10.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈怀瑾站在」×4、「沈怀瑾的」×4",
+      "narration_para_pct 14.3 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周文渊的」×6、「沈怀瑾的」×5",
+      "narration_para_pct 9.8 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周文渊的」×5、「沈怀瑾的」×3",
+      "narration_para_pct 8.8 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 230.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T20:00:23"
+}

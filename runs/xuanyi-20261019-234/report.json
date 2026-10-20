@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-234",
+  "profile": "悬疑推理",
+  "title": "蓝布",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13421,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12810,
+    "chapter_chars_mean": 2562,
+    "chapter_chars_median": 2747,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 52.8,
+    "dialogue_chars_pct": 27.5,
+    "dialogue_para_pct": 65.0,
+    "interiority_para_pct": 12.0,
+    "narration_para_pct": 23.0,
+    "turn_under20_pct": 82.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.8,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 3.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记簿缺了一页",
+      "chars": 1465,
+      "score": 96.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "算珠映出的疑云",
+      "chars": 3788,
+      "score": 84.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "印章坠入抽屉的一瞬",
+      "chars": 2893,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "布料上的暗纹",
+      "chars": 3306,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摸蓝布见铜印",
+      "chars": 1964,
+      "score": 87.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周玉兰的」×3",
+      "narration_para_pct 19.2 低于目标 20.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 14.8 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周玉兰的」×3",
+      "narration_para_pct 12.5 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周玉兰的」×3、「陈德昌的」×3",
+      "narration_para_pct 17.2 低于目标 20.0",
+      "attr_adv_pct 15.4 高于目标 10.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周玉兰的」×3",
+      "narration_para_pct 18.9 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「桌上躺着几件零碎的东西，一卷未拆封的蓝布静静躺在…」）",
+      "[observe] attr_adv_pct 25.0 > 20.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 219.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T18:23:04"
+}

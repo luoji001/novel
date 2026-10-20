@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-15",
+  "profile": "悬疑推理",
+  "title": "手表",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14536,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13859,
+    "chapter_chars_mean": 2772,
+    "chapter_chars_median": 3021,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 59.6,
+    "dialogue_chars_pct": 42.6,
+    "dialogue_para_pct": 80.0,
+    "interiority_para_pct": 9.4,
+    "narration_para_pct": 10.6,
+    "turn_under20_pct": 75.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.3,
+    "attr_adv_pct": 8.0,
+    "scenes_per_chapter": 4,
+    "dialogue_run_mean": 6.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "表冠转动时刻度",
+      "chars": 1902,
+      "score": 94.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "存折上的密码",
+      "chars": 3796,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "怀表与钟楼",
+      "chars": 3469,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "表盘上的X-987",
+      "chars": 3156,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "表盘上的X-987",
+      "chars": 2208,
+      "score": 91.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 16.7 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周正阳的」×6、「他知道这」×3",
+      "narration_para_pct 9.3 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×5、「为什么会」×5、「”林婉如轻」×4",
+      "narration_para_pct 9.1 低于目标 20.0",
+      "attr_adv_pct 16.3 高于目标 10.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×6、「“我不知道」×5、「不仅仅是」×3",
+      "narration_para_pct 6.8 低于目标 20.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "情节与已写章节重复 0.63 ≥ 0.62（撞上「陈师傅在冷藏室发现一具遗体手腕上的异常机械表，表盘显示1…」）",
+      "narration_para_pct 15.2 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「1987年12月1日…」）",
+      "[observe] 标题重复：「表盘上的X-987」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 240.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T09:24:31"
+}

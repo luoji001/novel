@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-80",
+  "profile": "悬疑推理",
+  "title": "暗码",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14405,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 13749,
+    "chapter_chars_mean": 2750,
+    "chapter_chars_median": 3325,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 57,
+    "dialogue_chars_pct": 42.1,
+    "dialogue_para_pct": 76.5,
+    "interiority_para_pct": 8.9,
+    "narration_para_pct": 14.7,
+    "turn_under20_pct": 66.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.5,
+    "attr_adv_pct": 7.6,
+    "scenes_per_chapter": 3.4,
+    "dialogue_run_mean": 7.0,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "系统记录的矛盾点",
+      "chars": 1822,
+      "score": 97.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "员工卡深夜入楼",
+      "chars": 3671,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "便签纸上的异常日期",
+      "chars": 3608,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "触碰未完成的离职单",
+      "chars": 3472,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲金属牌的疑云",
+      "chars": 1827,
+      "score": 92.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周雪梅的」×4、「他知道这」×3",
+      "narration_para_pct 18.2 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周雪梅的」×4",
+      "narration_para_pct 15.9 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「林嘉文摇摇头，神色依旧平静，“也有可能是他最后一…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林嘉文的」×6、「他知道这」×5、「他知道自己」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「林嘉文的」×5、「带着一丝」×3、「周雪梅的」×3",
+      "narration_para_pct 10.8 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林嘉文的」×3",
+      "narration_para_pct 3.6 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 239.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:04:55"
+}
