@@ -1,0 +1,168 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-150",
+  "profile": "校园青春",
+  "title": "未完成的课表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21238,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20257,
+    "chapter_chars_mean": 2251,
+    "chapter_chars_median": 2240,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 44.4,
+    "dialogue_chars_pct": 20.7,
+    "dialogue_para_pct": 61.4,
+    "interiority_para_pct": 14.8,
+    "narration_para_pct": 23.8,
+    "turn_under20_pct": 89.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.8,
+    "attr_adv_pct": 14.9,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "课表上的铅笔痕",
+      "chars": 1499,
+      "score": 97.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "分科表边缘的褶皱",
+      "chars": 2886,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "名字标签的触感",
+      "chars": 2326,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "旧磁带里的歌声",
+      "chars": 2292,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "课桌边缘的折痕",
+      "chars": 2468,
+      "score": 83.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "课桌边缘的折痕",
+      "chars": 2341,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "课表上的铅笔痕",
+      "chars": 2926,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "磁带里的英文歌",
+      "chars": 2519,
+      "score": 58.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "分科表边缘的褶皱",
+      "chars": 1972,
+      "score": 87.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林子安站在」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「周雨桐的」×4",
+      "narration_para_pct 12.5 低于目标 15.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 15.6 低于目标 20.0",
+      "[observe] 章内自我复读 3 句（如「我只是觉得奇怪，毕竟之前没有人提起你要来…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 16 句（如「林子安看着她背影，忽然想起几个月前，他也曾这样站…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 17.3 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「林子安看着她离去的背影，忽然想起昨天晚上，他在宿…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林子安的」×9、「周雨桐的」×3",
+      "[observe] 标题重复：「课桌边缘的折痕」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×5",
+      "[observe] 章内自我复读 17 句（如「林子安则默默地将那一张未完成的课表放在桌上，轻轻…」）",
+      "[observe] attr_adv_pct 100.0 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「课表上的铅笔痕」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林子安站在」×4、「他知道这」×4",
+      "dialogue_chars_pct 15.0 低于目标 20.0",
+      "[observe] 标题与《旧磁带里的歌声》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「周雨桐的」×3",
+      "[observe] 章内自我复读 15 句（如「周雨桐没有说话，只是看了他一眼，然后把分科表递给…」）",
+      "[observe] 标题重复：「分科表边缘的褶皱」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 452.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:06:13"
+}

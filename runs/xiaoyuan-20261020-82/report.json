@@ -1,0 +1,162 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-82",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20764,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19796,
+    "chapter_chars_mean": 2200,
+    "chapter_chars_median": 2388,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 46.1,
+    "dialogue_chars_pct": 22.8,
+    "dialogue_para_pct": 60.9,
+    "interiority_para_pct": 18.1,
+    "narration_para_pct": 21.0,
+    "turn_under20_pct": 91.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.2,
+    "attr_adv_pct": 3.6,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "笔记本里的秘密",
+      "chars": 1307,
+      "score": 97.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "课桌下的影子",
+      "chars": 2560,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "消毒水的气味",
+      "chars": 2433,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "磁带的重量",
+      "chars": 2370,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "挪动课本的指尖",
+      "chars": 2485,
+      "score": 48.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "撕碎的请假条",
+      "chars": 2769,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "磁带的重量",
+      "chars": 2522,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "调试音响的指尖",
+      "chars": 2644,
+      "score": 38.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "蓝色笔记本的页数",
+      "chars": 1665,
+      "score": 93.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句"
+    ],
+    "2": [
+      "单条套路句式超限：「周晓阳的」×5"
+    ],
+    "3": [
+      "单条套路句式超限：「林子墨站在」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「林子墨站在」×6、「他知道这」×3",
+      "dialogue_chars_pct 13.8 低于目标 20.0",
+      "[observe] 章内自我复读 38 句（如「陈老师的目光在他身上停留片刻，似乎想说点什么，但…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林子墨的」×4",
+      "[observe] 章内自我复读 18 句（如「林子墨看着他，忽然想起前几天晚上，他偷偷打开了周…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×4、「点了点头」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 章内自我复读 21 句（如「他记得上次这样坐在这里是在非典时期，那时候整个学…」）",
+      "[observe] 标题重复：「磁带的重量」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「周晓阳的」×3",
+      "dialogue_chars_pct 12.6 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「林子墨抬起头，看向门口的方向，那里曾经有一个身影…」）"
+    ],
+    "9": [
+      "narration_para_pct 12.2 低于目标 15.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 431.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T13:58:34"
+}

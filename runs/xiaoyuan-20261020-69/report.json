@@ -1,0 +1,165 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-69",
+  "profile": "校园青春",
+  "title": "画室钥匙",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21426,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20370,
+    "chapter_chars_mean": 2263,
+    "chapter_chars_median": 2427,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 51.4,
+    "dialogue_chars_pct": 27.5,
+    "dialogue_para_pct": 67.7,
+    "interiority_para_pct": 15.1,
+    "narration_para_pct": 17.2,
+    "turn_under20_pct": 88.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.5,
+    "attr_adv_pct": 5.1,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕碎的课表边缘",
+      "chars": 1497,
+      "score": 97.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "磁带边缘摩挲",
+      "chars": 2660,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙链摩挲",
+      "chars": 3010,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "校服外套",
+      "chars": 2774,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "翻阅旧画册",
+      "chars": 2560,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "雪落值日表",
+      "chars": 2257,
+      "score": 82.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "撕碎的课表边缘",
+      "chars": 2365,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "翻阅旧年鉴",
+      "chars": 2570,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "钥匙链摩挲",
+      "chars": 1724,
+      "score": 94.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「中带着一丝」×3、「周子墨的」×3、「林夏站在」×3",
+      "narration_para_pct 10.2 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「那是她在早上抄写的美院招生简章，里面有一句话让她…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「知道自己」×3",
+      "narration_para_pct 13.1 低于目标 15.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 19 句（如「陈老师沉默了一会儿，然后说：“如果你愿意，我可以…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×3",
+      "narration_para_pct 10.7 低于目标 15.0"
+    ],
+    "5": [
+      "单条套路句式超限：「知道自己」×5、「林夏站在」×3",
+      "[observe] 章内自我复读 21 句（如「她知道，自己还有很长一段时间要面对这个选择，而此…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 37 句（如「她想起了上周放学时看到的情景——他在广播站附近徘…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「“我不知道」×3",
+      "[observe] 标题重复：「撕碎的课表边缘」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「市重点中学」×26、「林夏点点」×3",
+      "narration_para_pct 12.3 低于目标 15.0",
+      "[observe] 标题与《翻阅旧画册》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "narration_para_pct 11.8 低于目标 15.0",
+      "[observe] 标题重复：「钥匙链摩挲」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 447.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T13:00:12"
+}

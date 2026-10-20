@@ -1,0 +1,165 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-77",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19500,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18533,
+    "chapter_chars_mean": 2059,
+    "chapter_chars_median": 2207,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 45.7,
+    "dialogue_chars_pct": 23.8,
+    "dialogue_para_pct": 62.0,
+    "interiority_para_pct": 12.1,
+    "narration_para_pct": 25.9,
+    "turn_under20_pct": 86.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 52.1,
+    "attr_adv_pct": 3.3,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "纸张的褶皱",
+      "chars": 1184,
+      "score": 93.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙的重量",
+      "chars": 2676,
+      "score": 52.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "分科表的边缘滑动",
+      "chars": 2307,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "信封与疤痕的对白",
+      "chars": 2521,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "袖口的香水味",
+      "chars": 2460,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "磁带的边缘摩挲",
+      "chars": 2233,
+      "score": 84.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "钥匙的重量",
+      "chars": 2581,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "钥匙的重量",
+      "chars": 2106,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "分科表的边缘滑动",
+      "chars": 1423,
+      "score": 93.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 17.9 低于目标 20.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 14.3 低于目标 20.0",
+      "[observe] 章内自我复读 13 句（如「也许有些话真的不需要说出来，但它们依然在那里，静…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「苏雨桐的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓阳点点」×3、「林晓阳的」×3",
+      "[observe] 章内自我复读 16 句（如「苏雨桐说完便转身离开，留下一句未完的话语悬在空气…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓阳的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「苏雨桐的」×5",
+      "dialogue_chars_pct 18.6 低于目标 20.0",
+      "narration_para_pct 12.5 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「苏雨桐笑了笑，转身看向外面，风吹动窗帘一角，露出…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「苏雨桐的」×3、「他知道这」×3",
+      "[observe] 标题重复：「钥匙的重量」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓阳和苏雨桐」×4、「苏雨桐的」×4、「他知道这」×3",
+      "[observe] 标题重复：「钥匙的重量」已存在"
+    ],
+    "9": [
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「分科表的边缘滑动」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 423.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T13:36:05"
+}

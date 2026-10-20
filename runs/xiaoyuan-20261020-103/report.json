@@ -1,0 +1,168 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-103",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21471,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20384,
+    "chapter_chars_mean": 2265,
+    "chapter_chars_median": 2466,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 52.3,
+    "dialogue_chars_pct": 28.5,
+    "dialogue_para_pct": 67.2,
+    "interiority_para_pct": 12.5,
+    "narration_para_pct": 20.3,
+    "turn_under20_pct": 87.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.5,
+    "attr_adv_pct": 4.7,
+    "scenes_per_chapter": 2.9,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "磁带放入书包夹层",
+      "chars": 1556,
+      "score": 96.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "课表滑落桌面",
+      "chars": 2322,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "外套递出的瞬间",
+      "chars": 2526,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "名单钉上公告栏",
+      "chars": 2693,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "分科表飘落指尖",
+      "chars": 2703,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "分科表飘落指尖",
+      "chars": 2575,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "旧歌插进耳机孔",
+      "chars": 2708,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "右手按住胸口",
+      "chars": 2811,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "试卷裂痕藏入书包",
+      "chars": 1568,
+      "score": 92.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周启明的」×5、「他知道这」×3、「林夏站在」×3",
+      "interiority_para_pct 7.5 低于目标 8.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周启明点」×5、「他知道这」×4",
+      "[observe] 章内自我复读 19 句（如「他知道，这意味着他再也看不到林夏每天在教室里认真…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周启明的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「市一中教务处」×8、「点了点头」×4",
+      "attr_adv_pct 13.0 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「”周启明低」×4、「“我不知道」×3、「周启明的」×3",
+      "narration_para_pct 12.3 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「他知道，虽然未来的道路可能会越来越远，但只要还有…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林夏站在」×4、「他知道自己」×3、「“林夏你」×3",
+      "[observe] 章内自我复读 16 句（如「这时，教务处的大门吱呀一声打开，陈慧走了出来，手…」）",
+      "[observe] 标题重复：「分科表飘落指尖」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「周启明的」×5、「林夏站在」×3",
+      "[observe] 章内自我复读 10 句（如「她想起昨晚路过医务室时看到的那一幕——父亲躺着病…」）"
+    ],
+    "8": [
+      "单条套路句式超限：「周启明的」×5、「周启明点」×3、「林夏站在」×3",
+      "[observe] 章内自我复读 17 句（如「她想起早上路过公告栏时看到的通知，上面写着“请各…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「林夏点点」×3",
+      "[observe] 章内自我复读 18 句（如「周启明看着那一片光斑，忽然想起昨天早上看到的那个…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 455.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T15:32:53"
+}

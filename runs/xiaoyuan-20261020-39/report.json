@@ -1,0 +1,162 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-39",
+  "profile": "校园青春",
+  "title": "校服外套的温度",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21384,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20314,
+    "chapter_chars_mean": 2257,
+    "chapter_chars_median": 2414,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 52,
+    "dialogue_chars_pct": 24.6,
+    "dialogue_para_pct": 65.0,
+    "interiority_para_pct": 17.7,
+    "narration_para_pct": 17.3,
+    "turn_under20_pct": 87.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.4,
+    "attr_adv_pct": 7.4,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 3.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "纸张的低语",
+      "chars": 1415,
+      "score": 98.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "磁带的余音",
+      "chars": 3003,
+      "score": 80.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "外套的重量",
+      "chars": 2767,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "笔记本的窃读者",
+      "chars": 2609,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "课表的错位",
+      "chars": 2282,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "贺卡的折痕",
+      "chars": 2419,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "磁带的余音",
+      "chars": 2539,
+      "score": 85.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "摩挲照片的指尖",
+      "chars": 2531,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "摩挲分科表的指尖",
+      "chars": 1810,
+      "score": 84.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 11.8 低于目标 15.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 18.4 低于目标 20.0",
+      "interiority_para_pct 35.8 高于目标 35.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 章内自我复读 30 句（如「放学铃响起时，林小满依旧呆坐在座位上，手中紧握着…」）"
+    ],
+    "3": [
+      "narration_para_pct 4.9 低于目标 15.0",
+      "attr_adv_pct 15.8 高于目标 12.0"
+    ],
+    "4": [
+      "narration_para_pct 13.4 低于目标 15.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「陆老师的声音打断了她的思绪…」）"
+    ],
+    "6": [
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "7": [
+      "dialogue_chars_pct 16.2 低于目标 20.0",
+      "[observe] 标题重复：「磁带的余音」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「不仅仅是」×4、「心中充满了」×3",
+      "narration_para_pct 11.9 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「林小满突然意识到，这不仅仅是一个座位的问题，而是…」）",
+      "[observe] 标题与《摩挲照片的指尖》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 471.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:44:57"
+}

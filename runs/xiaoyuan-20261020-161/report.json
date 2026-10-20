@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-161",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21023,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20012,
+    "chapter_chars_mean": 2224,
+    "chapter_chars_median": 2380,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 48,
+    "dialogue_chars_pct": 21.8,
+    "dialogue_para_pct": 59.8,
+    "interiority_para_pct": 15.8,
+    "narration_para_pct": 24.4,
+    "turn_under20_pct": 87.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.7,
+    "attr_adv_pct": 5.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表边缘的褶皱",
+      "chars": 1482,
+      "score": 86.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "练习册上的名字",
+      "chars": 2855,
+      "score": 85.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "咸菜包的温度",
+      "chars": 2413,
+      "score": 85.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "外套松了的瞬间",
+      "chars": 2608,
+      "score": 84.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "笔记本边缘的裂痕",
+      "chars": 2347,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙遗失的刹那",
+      "chars": 2516,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "分科表传递的瞬间",
+      "chars": 2574,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "磁带边缘的温度",
+      "chars": 2507,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "分科表边缘的褶皱",
+      "chars": 1712,
+      "score": 88.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林晓阳的」×6",
+      "interiority_para_pct 2.1 低于目标 8.0",
+      "[observe] 章内自我复读 13 句（如「林晓阳看着她的背影消失在教室门口，手中紧握着那张…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「点了点头」×4、「林晓阳的」×3",
+      "[observe] 章内自我复读 33 句（如「他知道自己还有很多话要说，但那些话都被藏起来了，…」）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 15.3 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「请各位同学注意，文理分科表已于今日张贴，请大家尽…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓阳点点」×3",
+      "[observe] 章内自我复读 30 句（如「苏晴没有立刻回答，而是望向远处的教学楼，那里挂着…」）"
+    ],
+    "5": [
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓阳的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "7": [
+      "[observe] 章内自我复读 14 句（如「他们或许还没有意识到，那个时刻即将到来，但他们已…」）"
+    ],
+    "8": [
+      "单条套路句式超限：「他知道这」×5、「林晓阳的」×4",
+      "narration_para_pct 14.3 低于目标 15.0"
+    ],
+    "9": [
+      "单条套路句式超限：「林晓阳站在」×4",
+      "[observe] 章内自我复读 16 句（如「林晓阳低头看了看手中的糖果袋子，手指摩挲着边缘的…」）",
+      "[observe] 标题重复：「分科表边缘的褶皱」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 457.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:57:37"
+}

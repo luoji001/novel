@@ -1,0 +1,172 @@
+{
+  "consistency": "1. 第二章提到“林修远发现自己的校服被当作公共物品处理”，但第四章提到“苏晚晴借走校服”，说明校服是被借走而非被当作公共物品处理，存在矛盾。\n\n2. 第四章提到“林修远得知她已转班”，但第五章提到“林修远在家长会前遇见苏晚晴，得知她即将转学”，前后对“转班”时间的描述不一致。\n\n3. 第六章提到“陈老师发现一件旧校服外套，联想到失踪的学生苏晚晴”，但苏晚晴并未失踪，而是转班，存在“失踪”与“转班”的概念混淆。\n\n4. 第七章提到“苏晚晴发现课表上林修远的名字不见了”，但第五章提到“林修远在家长会前遇见苏晚晴，得知她即将转学”，说明苏晚晴转学后课表上名字消失，但林修远并未在第七章前得知她转学，存在时间线错乱。\n\n5. 第八章提到“林修远将藏了许久的磁带交给她”，但第四章提到“林修远在教室发现苏晚晴留下的磁带”，说明磁带是苏晚晴留下的，而非林修远藏起的，存在归属矛盾。",
+  "slug": "xiaoyuan-20261020-145",
+  "profile": "校园青春",
+  "title": "八百米",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20440,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19445,
+    "chapter_chars_mean": 2161,
+    "chapter_chars_median": 2194,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 46.7,
+    "dialogue_chars_pct": 22.8,
+    "dialogue_para_pct": 67.9,
+    "interiority_para_pct": 15.2,
+    "narration_para_pct": 16.9,
+    "turn_under20_pct": 93.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.3,
+    "attr_adv_pct": 6.2,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "补全报名表",
+      "chars": 1554,
+      "score": 96.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "校服外套的交接",
+      "chars": 2712,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "抚摸课表背面字迹",
+      "chars": 2521,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "磁带与梧桐叶",
+      "chars": 2320,
+      "score": 49.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "落叶坠入窗棂",
+      "chars": 2320,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻查旧校服标签",
+      "chars": 2256,
+      "score": 85.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "触摸课表边缘",
+      "chars": 2326,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "磁带在风中摇晃",
+      "chars": 2618,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "磁带与梧桐叶",
+      "chars": 1804,
+      "score": 90.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏晚晴的」×3、「林修远的」×3",
+      "interiority_para_pct 6.2 低于目标 8.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「点了点头」×4、「带着一丝」×3",
+      "[observe] 章内自我复读 16 句（如「他走到窗边时，看见苏晚晴正站在走廊尽头，手里拿着…」）"
+    ],
+    "3": [
+      "narration_para_pct 8.9 低于目标 15.0",
+      "[observe] 章内自我复读 13 句（如「那里有一个小小的纸盒，里面装满了各种各样的小物件…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「“林修远你」×3、「发现自己」×3",
+      "dialogue_chars_pct 13.9 低于目标 20.0",
+      "narration_para_pct 12.8 低于目标 15.0",
+      "[observe] 章内自我复读 14 句（如「他想起上周值日时，在教室角落的柜子里翻到这张磁带…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「苏晚晴的」×5、「带着一丝」×3",
+      "[observe] 章内自我复读 7 句（如「教室里的气氛安静极了，仿佛什么都变了，却又好像什…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×3",
+      "dialogue_chars_pct 17.1 低于目标 20.0",
+      "[observe] 章内自我复读 12 句（如「他拿着这张标签走向储物柜，打开柜门，只见里面的衣…」）"
+    ],
+    "7": [
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 13.2 低于目标 15.0",
+      "[observe] 章内自我复读 7 句（如「他知道，这样的日子不会太久了，很快就要分科了，他…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「苏晚晴的」×3、「林修远的」×3",
+      "narration_para_pct 13.3 低于目标 15.0",
+      "[observe] 章内自我复读 9 句（如「老师，我是苏晚晴，我的课表……是不是也被换了？…」）",
+      "[observe] 标题重复：「磁带与梧桐叶」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 443.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T18:43:37"
+}

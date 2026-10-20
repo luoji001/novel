@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-157",
+  "profile": "校园青春",
+  "title": "铅笔印",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20268,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19237,
+    "chapter_chars_mean": 2137,
+    "chapter_chars_median": 2208,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 49.1,
+    "dialogue_chars_pct": 26.3,
+    "dialogue_para_pct": 67.0,
+    "interiority_para_pct": 17.2,
+    "narration_para_pct": 15.8,
+    "turn_under20_pct": 84.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.9,
+    "attr_adv_pct": 6.2,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "志愿表的褶皱一角",
+      "chars": 1292,
+      "score": 97.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "麦克风上的指纹",
+      "chars": 2792,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "校服口袋的磁带盒",
+      "chars": 2234,
+      "score": 84.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "手指划过公告栏",
+      "chars": 2646,
+      "score": 84.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "志愿表边缘的指纹",
+      "chars": 2266,
+      "score": 86.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "揉皱的志愿表",
+      "chars": 2775,
+      "score": 84.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "手指划过书包带",
+      "chars": 2378,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "手指划过分科表",
+      "chars": 2339,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "志愿表上的铅笔痕",
+      "chars": 1537,
+      "score": 92.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 5.7 低于目标 8.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周子墨点了点头」×3、「周子墨的」×3",
+      "narration_para_pct 14.3 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周子墨的」×6",
+      "narration_para_pct 12.1 低于目标 15.0",
+      "[observe] 章内自我复读 32 句（如「她想起上周路过教务处的时候看到的那些文件，还有陈…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓棠点点」×4、「带着一丝」×4、「林晓棠点了点头」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 章内自我复读 34 句（如「陈老师看了她一眼，意味深长地说：“因为你提交的志…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓棠站在」×3",
+      "dialogue_chars_pct 18.6 低于目标 20.0",
+      "narration_para_pct 9.1 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「然而在这个瞬间，她感受到了一股久违的动力，就像是…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓棠点点」×3",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 章内自我复读 39 句（如「林晓棠看着他认真翻阅笔记本的样子，忽然觉得这个世…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「周子墨的」×4、「林晓棠的」×4、「林晓棠点点」×3",
+      "narration_para_pct 7.7 低于目标 15.0"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓棠的」×3",
+      "narration_para_pct 10.3 低于目标 15.0",
+      "[observe] 与历史章节逐字重复 4 句（如「周子墨抬起头，看了她一眼，又低下头去…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 431.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:38:45"
+}

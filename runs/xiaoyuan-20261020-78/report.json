@@ -1,0 +1,168 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-78",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21413,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20310,
+    "chapter_chars_mean": 2257,
+    "chapter_chars_median": 2320,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 53.3,
+    "dialogue_chars_pct": 28.9,
+    "dialogue_para_pct": 67.8,
+    "interiority_para_pct": 14.0,
+    "narration_para_pct": 18.2,
+    "turn_under20_pct": 87.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.3,
+    "attr_adv_pct": 18.1,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "抚摸公告栏的字迹",
+      "chars": 1705,
+      "score": 97.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "翻阅旧课本的少女",
+      "chars": 2358,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲书包拉链",
+      "chars": 2537,
+      "score": 56.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "摩挲作文纸边缘",
+      "chars": 2589,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲磁带边缘",
+      "chars": 2439,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摩挲作文纸边缘",
+      "chars": 2425,
+      "score": 87.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "摩挲磁带边缘",
+      "chars": 2550,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "摩挲作文纸边缘",
+      "chars": 3122,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摩挲手背的温度",
+      "chars": 1679,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 5.4 低于目标 8.0"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×3、「教务处」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「苏晓棠的」×6、「他知道自己」×4",
+      "dialogue_chars_pct 14.8 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「你最近是不是有点不对劲？…」）",
+      "[observe] attr_adv_pct 100.0 > 22.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「操场看台」×4、「“我不知道」×3、「苏晓棠的」×3",
+      "narration_para_pct 14.3 低于目标 15.0"
+    ],
+    "5": [
+      "单条套路句式超限：「苏晓棠的」×4",
+      "[observe] 标题与《摩挲作文纸边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「教务处」×9、「他知道这」×4",
+      "[observe] 章内自我复读 19 句（如「陈老师的声音低了下来，眼神略显疲惫，“如果学生们…」）",
+      "[observe] 标题重复：「摩挲作文纸边缘」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「苏晓棠的」×4、「林子墨的」×4",
+      "[observe] 标题重复：「摩挲磁带边缘」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「苏晓棠的」×3",
+      "attr_adv_pct 15.8 高于目标 12.0",
+      "[observe] 标题重复：「摩挲作文纸边缘」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「苏晓棠的」×5",
+      "narration_para_pct 14.7 低于目标 15.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 444.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T13:40:36"
+}

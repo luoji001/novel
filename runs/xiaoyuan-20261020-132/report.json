@@ -1,0 +1,170 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-132",
+  "profile": "校园青春",
+  "title": "磁带播放",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21638,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20583,
+    "chapter_chars_mean": 2287,
+    "chapter_chars_median": 2532,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 51.3,
+    "dialogue_chars_pct": 27.6,
+    "dialogue_para_pct": 67.4,
+    "interiority_para_pct": 14.6,
+    "narration_para_pct": 18.0,
+    "turn_under20_pct": 85.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.3,
+    "attr_adv_pct": 10.4,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯下的影子",
+      "chars": 1614,
+      "score": 98.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "磁带盒摩挲",
+      "chars": 2962,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "笔记本触碰指尖",
+      "chars": 2915,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "课表翻阅",
+      "chars": 2713,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "磁带盒摩挲",
+      "chars": 2736,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "公告栏凝视",
+      "chars": 2316,
+      "score": 86.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "笔记本触碰指尖",
+      "chars": 2639,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "广播站关闭",
+      "chars": 1983,
+      "score": 84.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "手表滴答声",
+      "chars": 1751,
+      "score": 91.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏雨桐的」×4",
+      "narration_para_pct 13.3 低于目标 15.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「苏雨桐的」×8、「林晓阳的」×4、「”苏雨桐低」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 章内自我复读 32 句（如「她想起那天晚上，同样是这样的黑暗，同样的声音在教…」）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林晓阳的」×6、「苏雨桐的」×4、「他知道这」×3",
+      "[observe] 章内自我复读 2 句（如「那你现在是不是已经想好了？…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「“我不知道」×4、「苏雨桐的」×4",
+      "[observe] attr_adv_pct 22.6 > 22.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「苏雨桐的」×7、「林晓阳的」×4",
+      "[observe] 标题重复：「磁带盒摩挲」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×4、「苏雨桐点」×3、「苏雨桐的」×3",
+      "narration_para_pct 9.1 低于目标 15.0",
+      "[observe] 章内自我复读 19 句（如「这一刻，他们之间仿佛有一种无形的纽带连接在一起，…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「苏雨桐的」×7、「林晓阳的」×7、「他知道这」×3",
+      "[observe] 标题重复：「笔记本触碰指尖」已存在"
+    ],
+    "8": [
+      "interiority_para_pct 2.5 低于目标 8.0",
+      "[observe] 章内自我复读 20 句（如「她只是把一张又一张录音带叠在一起，像是要把所有的…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「苏雨桐的」×8",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 453.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T17:44:43"
+}

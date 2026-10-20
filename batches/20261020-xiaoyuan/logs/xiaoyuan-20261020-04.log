@@ -1,0 +1,38 @@
+开始：xiaoyuan-20261020-04（档位 校园青春／分章连载，9 章 / 18000 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=xiaoyuan-20261020-04
+  · init  [0 场定稿]
+Traceback (most recent call last):
+  File "/home/liang/.venvs/novel-agent/bin/novel-agent", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/mnt/c/code/novel-agent/src/novel_agent/cli.py", line 397, in main
+    rc = a.func(a)
+         ^^^^^^^^^
+  File "/mnt/c/code/novel-agent/src/novel_agent/cli.py", line 141, in cmd_new
+    return _run(app, a.slug, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/code/novel-agent/src/novel_agent/cli.py", line 56, in _run
+    for chunk in app.stream(payload, cfg, durability="sync",
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/pregel/main.py", line 3058, in stream
+    for _ in runner.tick(
+             ^^^^^^^^^^^^
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/pregel/_runner.py", line 208, in tick
+    run_with_retry(
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/pregel/_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/_internal/_runnable.py", line 707, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/_internal/_runnable.py", line 447, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/code/novel-agent/src/novel_agent/nodes/plan.py", line 154, in premise
+    data, tele = llm.call_structured(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/code/novel-agent/src/novel_agent/llm.py", line 341, in call_structured
+    bound = _client(model).bind(
+            ^^^^^^^
+NameError: name '_client' is not defined
+During task with name 'premise' and id 'd53c8fb1-1a69-1be0-15af-f8ab823ae874'

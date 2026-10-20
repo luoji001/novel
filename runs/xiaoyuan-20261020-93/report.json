@@ -1,0 +1,163 @@
+{
+  "consistency": "1. 第一章和第七章、第八章均提到“分科表的裂痕”，但未说明为何多次出现相同标题，且内容重复，存在标题重复使用的问题。\n\n2. 第三章和第六章均出现“磁带的告别”，但内容重复，存在标题重复使用的问题。\n\n3. 第二章提到“纸上的日期”，第九章提到“纸上的字迹”，但未说明两者之间的逻辑关联，可能造成读者混淆。\n\n4. 第五章提到“林晓棠即将离开学校去补习班”，但第六章提到“林晓棠将转学”，第七章提到“林晓棠即将离开学校前往补习班”，存在“转学”与“补习班”表述不一致的问题。\n\n5. 第六章提到“陈老师也透露了更多真相”，但前文未明确陈老师是否知晓林晓棠转学或父亲去世的真相，存在信息来源不明确的问题。\n\n6. 第四章提到“广播系统故障”，但未在前文提及广播站或相关设备，属于未交代的物件。\n\n7. 第三章提到“林晓棠在操场回忆父亲遗物”，但未在前文提及父亲遗物的具体内容或出现，属于未交代的物件。\n\n8. 第五章提到“林晓棠与周子墨告别并留下未说出口的思念”，但第六章提到“两人在分别前产生微妙情感”，人物立场从“未说出口的思念”到“产生微妙情感”无明确理由，立场翻转。",
+  "slug": "xiaoyuan-20261020-93",
+  "profile": "校园青春",
+  "title": "磁带的留言",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20043,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19025,
+    "chapter_chars_mean": 2114,
+    "chapter_chars_median": 2257,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 47.7,
+    "dialogue_chars_pct": 22.5,
+    "dialogue_para_pct": 57.5,
+    "interiority_para_pct": 15.5,
+    "narration_para_pct": 27.0,
+    "turn_under20_pct": 87.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.2,
+    "attr_adv_pct": 0.5,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表的裂痕",
+      "chars": 1284,
+      "score": 89.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "纸上的日期",
+      "chars": 2385,
+      "score": 0.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带的告别",
+      "chars": 2436,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "笔记本的修改",
+      "chars": 2332,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "课表的最后一页",
+      "chars": 2730,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "磁带的告别",
+      "chars": 2435,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "分科表的裂痕",
+      "chars": 2606,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "分科表的裂痕",
+      "chars": 2286,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "纸上的字迹",
+      "chars": 1540,
+      "score": 89.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 6.7 低于目标 8.0",
+      "[observe] 章内自我复读 17 句（如「意味着他再也看不见周子墨在操场上奔跑的身影，意味…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 13 句（如「他知道有些东西再也回不来了，就像那条公交车线路，…」）",
+      "[observe] dialogue_chars_pct 6.5 < 8.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「周子墨的」×4、「周子墨点」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓棠站在」×4、「林晓棠点点」×3",
+      "[observe] 章内自我复读 12 句（如「但此刻，他只能默默收起那些没说出口的话，任由它们…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「磁带的告别」已存在"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林晓棠点点」×3",
+      "[observe] 标题重复：「分科表的裂痕」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓棠站在」×3、「他知道这」×3",
+      "[observe] 章内自我复读 1 句（如「你的公交线路调整了，以后只能换乘其他线路才能到达…」）",
+      "[observe] 标题重复：「分科表的裂痕」已存在"
+    ],
+    "9": [
+      "narration_para_pct 10.3 低于目标 15.0",
+      "[observe] 章内自我复读 13 句（如「她抬头看向他，目光穿过层层叠叠的树影，仿佛能看到…」）",
+      "[observe] 标题与《纸上的日期》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 435.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T14:48:20"
+}

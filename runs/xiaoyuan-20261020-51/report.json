@@ -1,0 +1,164 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-51",
+  "profile": "校园青春",
+  "title": "纸条",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20363,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19311,
+    "chapter_chars_mean": 2146,
+    "chapter_chars_median": 2328,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 46.9,
+    "dialogue_chars_pct": 22.2,
+    "dialogue_para_pct": 62.8,
+    "interiority_para_pct": 14.8,
+    "narration_para_pct": 22.4,
+    "turn_under20_pct": 89.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.2,
+    "attr_adv_pct": 3.2,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "磁带藏进书包夹层",
+      "chars": 1492,
+      "score": 94.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "公告栏边缘的纸屑",
+      "chars": 2424,
+      "score": 54.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "旧课表藏在储物柜",
+      "chars": 2444,
+      "score": 84.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "校服外套的领子",
+      "chars": 2537,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "纸片贴上看台栏杆",
+      "chars": 2518,
+      "score": 1.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "脚印擦去落叶",
+      "chars": 2659,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "旧唱片上的银杏叶",
+      "chars": 2124,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "分科表边缘的灰尘",
+      "chars": 2517,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "旧课表藏在储物柜",
+      "chars": 1639,
+      "score": 86.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 3.0 低于目标 8.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 14.5 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「带着一丝」×3、「不仅仅是」×3",
+      "[observe] 章内自我复读 27 句（如「他只是默默地把课表收好，然后转过身，望向走廊尽头…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林夏点点」×3"
+    ],
+    "5": [
+      "dialogue_chars_pct 8.2 低于目标 20.0",
+      "[observe] 章内自我复读 15 句（如「她知道，有些东西不能说破，有些距离不必跨越，只要…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 19.6 低于目标 20.0",
+      "[observe] 章内自我复读 6 句（如「周野没有立刻回答，而是走到长椅另一端，蹲下来仔细…」）"
+    ],
+    "7": [
+      "interiority_para_pct 5.1 低于目标 8.0",
+      "narration_para_pct 10.3 低于目标 15.0"
+    ],
+    "8": [
+      "[observe] 章内自我复读 15 句（如「她想起了昨天晚上在床上辗转反侧的画面，那些未能说…」）"
+    ],
+    "9": [
+      "interiority_para_pct 3.3 低于目标 8.0",
+      "[observe] 章内自我复读 16 句（如「周野的目光移到她的手腕上，那里有道浅浅的擦伤，像…」）",
+      "[observe] 标题重复：「旧课表藏在储物柜」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 429.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T11:39:31"
+}

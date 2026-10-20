@@ -1,0 +1,167 @@
+{
+  "consistency": "1. 第二章提到“林浩即将南下工作”，但第九章提到“林浩因父亲安排要去城里打工”，表述不一致，应为“南下工作”与“去城里打工”是否为同一事需确认。\n\n2. 第五章提到“林浩主动帮助她应对寒假补课”，但第六章提到“苏晓棠在广播站收到林浩留下的卡片”，第七章提到“林浩与苏晓棠在广播站告别”，而第九章提到“林浩因父亲安排要去城里打工”，前后时间线与行为逻辑存在矛盾，需确认林浩是否在寒假前已离开。\n\n3. 第八章提到“苏晓棠握紧钥匙离开”，但前文未提及钥匙的来源或相关情节，属于物件未交代。\n\n4. 第九章提到“林浩意外得知自己被调至理科班”，但前文未提及林浩的班级变动，属于情节突兀，缺乏铺垫。",
+  "slug": "xiaoyuan-20261020-16",
+  "profile": "校园青春",
+  "title": "磁带的重量",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20845,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19745,
+    "chapter_chars_mean": 2194,
+    "chapter_chars_median": 2305,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 51.4,
+    "dialogue_chars_pct": 26.8,
+    "dialogue_para_pct": 68.2,
+    "interiority_para_pct": 12.7,
+    "narration_para_pct": 19.1,
+    "turn_under20_pct": 91.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.6,
+    "attr_adv_pct": 8.4,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "磁带的重量",
+      "chars": 1506,
+      "score": 98.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "磁带的裂痕",
+      "chars": 2566,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "粉笔灰落在衣领上",
+      "chars": 2426,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "名单上的名字消失",
+      "chars": 2394,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "粉笔灰落在衣领上",
+      "chars": 2142,
+      "score": 82.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "广播站的卡片",
+      "chars": 2890,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "磁带上的新年祝福",
+      "chars": 2928,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "纸巾盒里的纸条",
+      "chars": 2428,
+      "score": 86.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "雪落玻璃上的痕迹",
+      "chars": 1556,
+      "score": 87.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「苏晓棠的」×3",
+      "[observe] 标题与《磁带的重量》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「林浩点了点头」×3",
+      "narration_para_pct 10.0 低于目标 15.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 章内自我复读 12 句（如「她知道，这一切都是命运的安排，就像她永远也无法说…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「苏晓棠的」×4、「苏晓棠站在」×3",
+      "[observe] 章内自我复读 1 句（如「她想起昨夜父亲的电话，那头传来的是沙哑的咳嗽声，…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 17.7 低于目标 20.0",
+      "narration_para_pct 12.5 低于目标 15.0",
+      "[observe] 章内自我复读 18 句（如「这时，林浩凑近了一些，低声说道：“如果你真不想去…」）",
+      "[observe] 标题重复：「粉笔灰落在衣领上」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「苏晓棠的」×3",
+      "narration_para_pct 8.2 低于目标 15.0",
+      "[observe] attr_adv_pct 28.6 > 22.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「苏晓棠点点」×4、「苏晓棠站在」×3",
+      "interiority_para_pct 4.3 低于目标 8.0",
+      "narration_para_pct 14.3 低于目标 15.0"
+    ],
+    "8": [
+      "单条套路句式超限：「点了点头」×4、「苏晓棠点点」×3",
+      "[observe] 章内自我复读 17 句（如「小棠，这次月考你的成绩比上次好了很多，继续保持下…」）"
+    ],
+    "9": [
+      "[observe] 章内自我复读 15 句（如「那时候她以为日子会一直这样下去，直到高考结束，大…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 481.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T08:59:23"
+}

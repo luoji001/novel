@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-131",
+  "profile": "校园青春",
+  "title": "磁带遗落",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20031,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19008,
+    "chapter_chars_mean": 2112,
+    "chapter_chars_median": 2172,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 49.6,
+    "dialogue_chars_pct": 24.1,
+    "dialogue_para_pct": 62.6,
+    "interiority_para_pct": 14.7,
+    "narration_para_pct": 22.7,
+    "turn_under20_pct": 90.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.7,
+    "attr_adv_pct": 7.5,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表签字",
+      "chars": 1313,
+      "score": 45.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "磁带遗落",
+      "chars": 2531,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "药盒与鞋带",
+      "chars": 2239,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "磁带遗落",
+      "chars": 2807,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手指划过名字",
+      "chars": 2296,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "手指划过名字",
+      "chars": 2235,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "手指抚过衣领",
+      "chars": 2738,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "手指抚过名字",
+      "chars": 2387,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "钥匙环上的工作证",
+      "chars": 1476,
+      "score": 91.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「教务处」×8",
+      "dialogue_run_mean 1.4 低于目标 1.5",
+      "[observe] 章内自我复读 29 句（如「他忽然想起昨天放学时，一个学生留了下来，问了一些…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「知道自己」×3",
+      "dialogue_chars_pct 16.1 低于目标 20.0",
+      "[observe] attr_adv_pct 35.7 > 22.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「程景行的」×4、「林知夏的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「程景行的」×7、「林知夏站在」×3",
+      "[observe] 标题重复：「磁带遗落」已存在"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「程景行的」×3",
+      "narration_para_pct 14.5 低于目标 15.0",
+      "[observe] 章内自我复读 1 句（如「苏文远的声音从身后传来…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「程景行的」×3",
+      "[observe] 标题重复：「手指划过名字」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「程景行的」×5、「林知夏点点」×3"
+    ],
+    "8": [
+      "单条套路句式超限：「林知夏站在」×3",
+      "dialogue_chars_pct 16.8 低于目标 20.0",
+      "[observe] 标题与《手指划过名字》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「林知夏站在」×3",
+      "dialogue_chars_pct 18.4 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 439.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T17:40:05"
+}

@@ -1,0 +1,165 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-118",
+  "profile": "校园青春",
+  "title": "课表碎片",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20883,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19763,
+    "chapter_chars_mean": 2196,
+    "chapter_chars_median": 2360,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 52.6,
+    "dialogue_chars_pct": 27.4,
+    "dialogue_para_pct": 69.8,
+    "interiority_para_pct": 14.5,
+    "narration_para_pct": 15.7,
+    "turn_under20_pct": 91.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.7,
+    "attr_adv_pct": 4.9,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "校服外套的油渍",
+      "chars": 1567,
+      "score": 48.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "课表的夹层秘密",
+      "chars": 2582,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带的沙沙声",
+      "chars": 2085,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙的重量",
+      "chars": 2097,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "名字的圆圈",
+      "chars": 2662,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "校服外套的雪痕",
+      "chars": 2679,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "实习证明的复印件",
+      "chars": 2974,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "签字笔的余温",
+      "chars": 2496,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "实习证明的复印件",
+      "chars": 1732,
+      "score": 86.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「发现自己」×3",
+      "dialogue_chars_pct 17.7 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「她终于明白，为什么这两天总能在公告栏前看到那个熟…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「苏婉秋站在」×3",
+      "[observe] 章内自我复读 1 句（如「苏婉秋站在储物柜前，手指轻轻拂过抽屉边缘…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 15 句（如「他知道，有些话说不出口，有些情感藏不住，就像此刻…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「苏婉秋的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「点了点头」×3",
+      "narration_para_pct 9.1 低于目标 15.0",
+      "[observe] 章内自我复读 8 句（如「她知道现在说什么都没用，只有等他真的离开之后，才…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「带着一丝」×3",
+      "narration_para_pct 4.7 低于目标 15.0",
+      "[observe] 章内自我复读 10 句（如「林小满抬起头，“我偷偷把你那份课表藏起来了，一直…」）",
+      "[observe] 标题与《校服外套的油渍》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "narration_para_pct 14.1 低于目标 15.0"
+    ],
+    "9": [
+      "interiority_para_pct 6.1 低于目标 8.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「实习证明的复印件」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 459.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:40:58"
+}

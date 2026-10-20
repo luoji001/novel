@@ -1,0 +1,165 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-109",
+  "profile": "校园青春",
+  "title": "磁带的重量",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20367,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19362,
+    "chapter_chars_mean": 2151,
+    "chapter_chars_median": 2310,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 48.1,
+    "dialogue_chars_pct": 23.3,
+    "dialogue_para_pct": 65.9,
+    "interiority_para_pct": 14.7,
+    "narration_para_pct": 19.3,
+    "turn_under20_pct": 93.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.4,
+    "attr_adv_pct": 9.3,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 3.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "储物柜里的校服",
+      "chars": 1610,
+      "score": 88.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摸褶皱的手指",
+      "chars": 2440,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "磁带盒上的刻字",
+      "chars": 2565,
+      "score": 15.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "课表上的模糊字迹",
+      "chars": 2586,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "补袖口的毛线边",
+      "chars": 2595,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "磁带缓缓转动",
+      "chars": 2714,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "分科表的裂缝",
+      "chars": 2094,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "接住一片雪花",
+      "chars": 2329,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "窗边的画册",
+      "chars": 1425,
+      "score": 87.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 15.1 低于目标 20.0",
+      "interiority_para_pct 6.1 低于目标 8.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周子航的」×4、「带着一丝」×3"
+    ],
+    "3": [
+      "dialogue_chars_pct 9.9 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓棠的」×5",
+      "[observe] 章内自我复读 16 句（如「他的目光移回到那份课表上，手指轻轻摩挲着那些模糊…」）"
+    ],
+    "5": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「他站起身，手里还握着那张纸，眼睛直视着她的眼睛，…」）"
+    ],
+    "6": [
+      "narration_para_pct 11.5 低于目标 15.0",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「林晓棠的」×3",
+      "narration_para_pct 14.3 低于目标 15.0"
+    ],
+    "8": [
+      "narration_para_pct 9.7 低于目标 15.0",
+      "[observe] 章内自我复读 2 句（如「你还记得我们第一次见面吗？…」）"
+    ],
+    "9": [
+      "dialogue_chars_pct 19.5 低于目标 20.0",
+      "narration_para_pct 13.3 低于目标 15.0",
+      "[observe] 章内自我复读 14 句（如「她记得去年这时候，还有暖气，那时候她总会在画室待…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 442.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T15:59:32"
+}

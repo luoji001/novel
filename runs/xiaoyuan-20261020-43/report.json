@@ -1,0 +1,164 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-43",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20654,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19545,
+    "chapter_chars_mean": 2172,
+    "chapter_chars_median": 2283,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 51.6,
+    "dialogue_chars_pct": 24.5,
+    "dialogue_para_pct": 64.2,
+    "interiority_para_pct": 14.8,
+    "narration_para_pct": 20.9,
+    "turn_under20_pct": 90.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 44.1,
+    "attr_adv_pct": 0.8,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "磁带塞进课桌夹层",
+      "chars": 1673,
+      "score": 91.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙藏入储物柜缝隙",
+      "chars": 2440,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带滑落控制面板",
+      "chars": 2410,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "分科表的张贴",
+      "chars": 2558,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "落叶飘进书包缝隙",
+      "chars": 2897,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "袖口裂痕提醒过往",
+      "chars": 2409,
+      "score": 85.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "撕碎的日记在掌心",
+      "chars": 2293,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "钥匙藏入储物柜缝隙",
+      "chars": 2255,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "撕碎的日记在掌心",
+      "chars": 1710,
+      "score": 52.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 9.4 低于目标 15.0",
+      "[observe] 章内自我复读 18 句（如「你还记得那天下午吗？你在操场上走来走去，我正好也…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×4",
+      "[observe] 章内自我复读 17 句（如「他皱眉看了眼四周，教室里人声嘈杂，大家都在埋头做…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×4",
+      "narration_para_pct 9.3 低于目标 15.0"
+    ],
+    "4": [
+      "interiority_para_pct 7.1 低于目标 8.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 19.0 低于目标 20.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 17.7 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「这时，广播声忽然响起：“请同学们注意，下周开始进…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「林夏点点」×4、「林夏站在」×3",
+      "[observe] 章内自我复读 4 句（如「她知道，这一切都将随风而去，但她也会把它们珍藏在…」）"
+    ],
+    "8": [
+      "narration_para_pct 14.0 低于目标 15.0",
+      "[observe] 标题重复：「钥匙藏入储物柜缝隙」已存在"
+    ],
+    "9": [
+      "[observe] 章内自我复读 29 句（如「林夏望着窗外，那里有一群学生正在操场上奔跑，他们…」）",
+      "[observe] 标题重复：「撕碎的日记在掌心」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 429.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T11:03:17"
+}

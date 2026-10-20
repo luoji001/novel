@@ -1,0 +1,176 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-159",
+  "profile": "校园青春",
+  "title": "旧磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21237,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20088,
+    "chapter_chars_mean": 2232,
+    "chapter_chars_median": 2374,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 55.3,
+    "dialogue_chars_pct": 33.3,
+    "dialogue_para_pct": 74.3,
+    "interiority_para_pct": 9.9,
+    "narration_para_pct": 15.8,
+    "turn_under20_pct": 85.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.0,
+    "attr_adv_pct": 11.4,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 5.1,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "风吹动的纸张",
+      "chars": 1563,
+      "score": 84.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "旧磁带的重量",
+      "chars": 2505,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "旧磁带的重量",
+      "chars": 2853,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "字条飘落的瞬间",
+      "chars": 2531,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "旧磁带的重量",
+      "chars": 2690,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "旧磁带的重量",
+      "chars": 2200,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "字条边缘的褶皱",
+      "chars": 2515,
+      "score": 85.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "轻声哼唱的尾音",
+      "chars": 2559,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "字条飘落的瞬间",
+      "chars": 1812,
+      "score": 90.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 15.1 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「他转身走向教室后排，留下苏晚晴独自站在公告栏前，…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「苏晚晴的」×9、「林子墨的」×3",
+      "narration_para_pct 11.7 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「苏晚晴点」×4、「心中充满了」×3、「林子墨站在」×3",
+      "narration_para_pct 8.5 低于目标 15.0",
+      "attr_adv_pct 17.9 高于目标 12.0",
+      "[observe] 章内自我复读 15 句（如「林子墨笑了笑，“不过，我真的很喜欢跟你在一起的感…」）",
+      "[observe] 标题重复：「旧磁带的重量」已存在"
+    ],
+    "4": [
+      "narration_para_pct 12.5 低于目标 15.0"
+    ],
+    "5": [
+      "单条套路句式超限：「苏晚晴的」×6、「“我不知道」×3、「苏晚晴点」×3",
+      "[observe] 章内自我复读 13 句（如「她知道，林子墨一直在默默关注着她，虽然从未直接表…」）",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「旧磁带的重量」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「苏晚晴的」×4",
+      "interiority_para_pct 6.1 低于目标 8.0",
+      "narration_para_pct 14.3 低于目标 15.0",
+      "[observe] 标题重复：「旧磁带的重量」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「苏晚晴的」×6、「林子墨点了点头」×3",
+      "interiority_para_pct 1.8 低于目标 8.0",
+      "narration_para_pct 12.5 低于目标 15.0",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "8": [
+      "interiority_para_pct 6.6 低于目标 8.0",
+      "narration_para_pct 6.6 低于目标 15.0",
+      "[observe] attr_adv_pct 28.6 > 22.0（结构塌缩）"
+    ],
+    "9": [
+      "单条套路句式超限：「苏晚晴的」×5",
+      "interiority_para_pct 4.9 低于目标 8.0",
+      "[observe] 标题重复：「字条飘落的瞬间」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 459.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:48:15"
+}

@@ -1,0 +1,168 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-141",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20702,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19679,
+    "chapter_chars_mean": 2187,
+    "chapter_chars_median": 2204,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 47.2,
+    "dialogue_chars_pct": 27.3,
+    "dialogue_para_pct": 69.4,
+    "interiority_para_pct": 13.7,
+    "narration_para_pct": 16.9,
+    "turn_under20_pct": 88.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.8,
+    "attr_adv_pct": 9.5,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表的褶皱",
+      "chars": 1413,
+      "score": 93.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "触碰旧课本的指尖",
+      "chars": 2751,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "触碰旧课本的指尖",
+      "chars": 2250,
+      "score": 86.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "触摸撕碎的纸片",
+      "chars": 2606,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "藏在铁盒里的磁带",
+      "chars": 2774,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "触碰笔记本的指尖",
+      "chars": 2640,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "摩挲铁盒边缘的手指",
+      "chars": 2333,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "翻阅旧课本的指尖",
+      "chars": 2214,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摩挲分科表边缘的手指",
+      "chars": 1712,
+      "score": 89.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_run_mean 1.4 低于目标 1.5"
+    ],
+    "2": [
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「苏念站在」×3",
+      "[observe] 章内自我复读 19 句（如「苏念的目光落在那些整齐排列的文件盒上，突然注意到…」）",
+      "[observe] 标题重复：「触碰旧课本的指尖」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「江远舟点」×3、「江远舟的」×3",
+      "narration_para_pct 14.8 低于目标 15.0",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "6": [
+      "narration_para_pct 12.2 低于目标 15.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「真的吗？那你为什么不说出来呢？…」）",
+      "[observe] 标题与《触碰旧课本的指尖》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "narration_para_pct 7.1 低于目标 15.0",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "[observe] 章内自我复读 6 句（如「管理员阿姨微微一笑：“这是去年毕业的一个学生留下…」）",
+      "[observe] 标题与《触碰旧课本的指尖》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "[observe] 标题与《摩挲铁盒边缘的手指》近似 0.74 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 447.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T18:25:51"
+}

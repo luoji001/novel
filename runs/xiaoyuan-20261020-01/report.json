@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-01",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20862,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19804,
+    "chapter_chars_mean": 2200,
+    "chapter_chars_median": 2408,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 49.3,
+    "dialogue_chars_pct": 21.9,
+    "dialogue_para_pct": 61.5,
+    "interiority_para_pct": 14.9,
+    "narration_para_pct": 23.6,
+    "turn_under20_pct": 90.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.5,
+    "attr_adv_pct": 6.7,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "缴费单遗失",
+      "chars": 1266,
+      "score": 96.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "磁带播放",
+      "chars": 2471,
+      "score": 82.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "校服外套飘落",
+      "chars": 2821,
+      "score": 44.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "缴费单飘落",
+      "chars": 2505,
+      "score": 34.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "债务清单摩挲",
+      "chars": 2589,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "课表边缘滑过指尖",
+      "chars": 2549,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "债务清单摩挲",
+      "chars": 2680,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "缴费单飘落",
+      "chars": 2468,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "缴费单摩挲",
+      "chars": 1504,
+      "score": 87.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林小满的」×7",
+      "interiority_para_pct 5.9 低于目标 8.0",
+      "narration_para_pct 14.7 低于目标 15.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周远舟的」×4、「林小满站在」×3",
+      "dialogue_chars_pct 15.7 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「他说完便转身离开，留下林小满一个人站在那里，听着…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周远舟的」×6、「他知道这」×4、「林小满的」×4",
+      "dialogue_chars_pct 13.3 低于目标 20.0",
+      "[observe] 章内自我复读 2 句（如「周远舟站起身，看了他一眼，然后转过了身…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「周远舟的」×4",
+      "dialogue_chars_pct 12.1 低于目标 20.0",
+      "[observe] 章内自我复读 3 句（如「他记得刚才那张缴费单上写着的是母亲的床位费，还有…」）",
+      "[observe] 标题与《缴费单遗失》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「周远舟的」×5、「他知道这」×3",
+      "interiority_para_pct 6.7 低于目标 8.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「周远舟的」×3、「他知道这」×3、「林小满的」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「林小满的」×5、「周远舟的」×3",
+      "[observe] 标题重复：「债务清单摩挲」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「周远舟的」×5、「他知道这」×4、「林小满站在」×3",
+      "[observe] 章内自我复读 1 句（如「小满，你最近是不是太累了？…」）",
+      "[observe] 标题重复：「缴费单飘落」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「周远舟的」×4、「林小满站在」×3",
+      "dialogue_chars_pct 17.8 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「你是不是也参加了毕业典礼？…」）",
+      "[observe] 标题与《缴费单飘落》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 480.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T08:48:38"
+}

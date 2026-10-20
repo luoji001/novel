@@ -1,0 +1,162 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-32",
+  "profile": "校园青春",
+  "title": "磁带播放",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21443,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20216,
+    "chapter_chars_mean": 2246,
+    "chapter_chars_median": 2403,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 60.2,
+    "dialogue_chars_pct": 27.2,
+    "dialogue_para_pct": 63.6,
+    "interiority_para_pct": 13.8,
+    "narration_para_pct": 22.6,
+    "turn_under20_pct": 87.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 47.2,
+    "attr_adv_pct": 2.3,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "林夏摩挲名单边缘",
+      "chars": 1655,
+      "score": 89.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "文件夹坠地",
+      "chars": 3062,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带在抽屉里震动",
+      "chars": 2224,
+      "score": 57.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "磁带在抽屉里震动",
+      "chars": 2533,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲名单边缘",
+      "chars": 2819,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "磁带在抽屉里震动",
+      "chars": 2399,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "摩挲名单边缘",
+      "chars": 2562,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "磁带外壳浮现名字",
+      "chars": 2523,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "摩挲名单边缘",
+      "chars": 1657,
+      "score": 89.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 13 句（如「程远摸了摸口袋里的磁带，仿佛那里有某种力量支撑着…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林夏和程远」×3、「他知道自己」×3、「他知道这」×3",
+      "[observe] 章内自我复读 15 句（如「林夏摸了摸口袋，掏出手机点亮屏幕，却只见一行字：…」）"
+    ],
+    "3": [
+      "interiority_para_pct 6.9 低于目标 8.0",
+      "[observe] 章内自我复读 26 句（如「磁带依然静静地躺在程远的抽屉里，等待着他真正准备…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3、「林夏站在」×3",
+      "[observe] 标题重复：「磁带在抽屉里震动」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×5",
+      "[observe] 章内自我复读 17 句（如「那个角落曾是他和程远经常一起去的地方，他们在那里…」）",
+      "[observe] 标题与《林夏摩挲名单边缘》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「”程远低」×3",
+      "narration_para_pct 10.2 低于目标 15.0",
+      "[observe] 标题重复：「磁带在抽屉里震动」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×5",
+      "[observe] 标题重复：「摩挲名单边缘」已存在"
+    ],
+    "9": [
+      "[observe] 标题重复：「摩挲名单边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 453.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:12:21"
+}

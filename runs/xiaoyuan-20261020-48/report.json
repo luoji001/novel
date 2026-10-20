@@ -1,0 +1,172 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-48",
+  "profile": "校园青春",
+  "title": "蓝笔记本",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21111,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20090,
+    "chapter_chars_mean": 2232,
+    "chapter_chars_median": 2365,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 47.9,
+    "dialogue_chars_pct": 26.5,
+    "dialogue_para_pct": 65.5,
+    "interiority_para_pct": 15.7,
+    "narration_para_pct": 18.8,
+    "turn_under20_pct": 82.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.9,
+    "attr_adv_pct": 11.4,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "水杯倾倒",
+      "chars": 1390,
+      "score": 90.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "笔记本触碰手肘",
+      "chars": 2586,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "校服外套摩挲衣角",
+      "chars": 2454,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红丝带系腕",
+      "chars": 2530,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "袖口裂痕",
+      "chars": 2943,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "笔记本触碰手肘",
+      "chars": 2362,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "志愿表藏入桌洞",
+      "chars": 2480,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "志愿表藏入桌洞",
+      "chars": 2501,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "蓝色笔记本触碰手肘",
+      "chars": 1856,
+      "score": 89.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 15.5 低于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 22.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「沈知远的」×5、「林晓棠的」×3",
+      "attr_adv_pct 15.0 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈知远的」×3",
+      "[observe] 章内自我复读 16 句（如「她转过身，收拾着办公桌上堆积的试卷，“不过你要记…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「”沈知远低」×3、「沈知远的」×3",
+      "narration_para_pct 9.1 低于目标 15.0",
+      "[observe] 章内自我复读 19 句（如「我带来了一些新的材料，”那个男生说着，慢慢走近几…」）"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林晓棠的」×5",
+      "[observe] 章内自我复读 25 句（如「她想起父亲临终前最后那个眼神，还有自己撕碎的日记…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "narration_para_pct 11.1 低于目标 15.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「笔记本触碰手肘」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「“我不知道」×3、「沈知远的」×3",
+      "[observe] 章内自我复读 17 句（如「他抬起头，眼神有些涣散，“如果按照成绩，我可以选…」）",
+      "[observe] attr_adv_pct 40.0 > 22.0（结构塌缩）"
+    ],
+    "8": [
+      "单条套路句式超限：「县一中教务处」×3",
+      "[observe] 标题重复：「志愿表藏入桌洞」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「沈知远的」×3、「林晓棠的」×3",
+      "dialogue_chars_pct 19.2 低于目标 20.0",
+      "[observe] 标题与《笔记本触碰手肘》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 455.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T11:26:07"
+}

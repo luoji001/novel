@@ -1,0 +1,172 @@
+{
+  "consistency": "1. 林晓阳在第一章发现苏子墨的笔记本封面破损，但第九章提到苏子墨撕碎课表逃避补课，与林晓阳在教室告别，暗示苏子墨撕碎的是课表而非笔记本封面，前后不一致。\n\n2. 第二章提到苏子墨在广播站播放自制磁带向林晓阳表白，但第七章提到林晓阳发现苏子墨是唯一留下补课的人，却因分科安排错过重逢，暗示两人在分科前已有情感发展，但未明确说明磁带是否在分科前播放，时间线不清晰。\n\n3. 第三章提到林晓阳发现寒假补课名单仅苏子墨一人，后得知自己也被列入名单，但第八章提到林晓阳因分科安排错过重逢，暗示分科发生在寒假补课之后，但未明确时间顺序，导致逻辑混乱。\n\n4. 第五章提到林晓阳发现补课名单上只有苏子墨的名字，但第三章和第八章均提到林晓阳后来被加入补课名单，前后矛盾。\n\n5. 第九章提到苏子墨撕碎课表逃避补课，但第一章提到苏子墨的笔记本封面被撕掉，暗示两人均有过撕纸行为，但未明确说明是否为同一张纸或不同纸张，导致人物行为不一致。",
+  "slug": "xiaoyuan-20261020-136",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20933,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19787,
+    "chapter_chars_mean": 2199,
+    "chapter_chars_median": 2308,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 53.8,
+    "dialogue_chars_pct": 25.0,
+    "dialogue_para_pct": 61.6,
+    "interiority_para_pct": 14.9,
+    "narration_para_pct": 23.4,
+    "turn_under20_pct": 88.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.9,
+    "attr_adv_pct": 8.3,
+    "scenes_per_chapter": 3.7,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "触碰笔记本边缘",
+      "chars": 1288,
+      "score": 38.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "磁带里的\"你",
+      "chars": 2607,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "笔记本边缘的雪",
+      "chars": 2468,
+      "score": 83.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "触碰笔记本边缘",
+      "chars": 2786,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "触碰笔记本边缘",
+      "chars": 2313,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "触碰笔记本边缘",
+      "chars": 2429,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "触摸校服口袋的磁带",
+      "chars": 2610,
+      "score": 83.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "触碰笔记本边缘",
+      "chars": 2417,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "触碰笔记本边缘",
+      "chars": 2006,
+      "score": 85.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏子墨的」×6、「他知道这」×3",
+      "dialogue_chars_pct 18.4 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「而在那个空荡荡的教室里，只剩下一本书，静静地躺在…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「苏子墨的」×5",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「林晓阳站在」×4、「林晓阳点点」×3、「微微一笑」×3",
+      "dialogue_chars_pct 19.5 低于目标 20.0",
+      "[observe] 章内自我复读 24 句（如「路过广播室的时候，他停下脚步，透过门缝看到了熟悉…」）",
+      "[observe] 标题与《触碰笔记本边缘》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「苏子墨的」×5、「他知道这」×5、「林晓阳点了点头」×3",
+      "[observe] 章内自我复读 1 句（如「林晓阳点了点头，却没有说话…」）",
+      "[observe] 标题重复：「触碰笔记本边缘」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「苏子墨的」×3",
+      "[observe] 标题重复：「触碰笔记本边缘」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「苏子墨的」×4",
+      "[observe] 标题重复：「触碰笔记本边缘」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「林晓阳的」×5、「苏子墨点」×4",
+      "[observe] 章内自我复读 28 句（如「有时候是站在窗边望着操场上奔跑的身影，有时候是在…」）"
+    ],
+    "8": [
+      "单条套路句式超限：「苏子墨的」×7、「林晓阳站在」×4、「林晓阳点了点头」×3",
+      "[observe] 章内自我复读 15 句（如「林晓阳站在教室门口，手指轻轻划过名单边缘，眼神中…」）",
+      "[observe] 标题重复：「触碰笔记本边缘」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「苏子墨的」×7、「林晓阳站在」×4",
+      "[observe] 章内自我复读 19 句（如「这时，教室外面传来一阵脚步声，打破了两人之间的沉…」）",
+      "[observe] 标题重复：「触碰笔记本边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 447.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T18:03:09"
+}

@@ -1,0 +1,1129 @@
+════════════════════════════════════════════════════════
+ 批量生成：xiaoyuan
+   截止        2026-10-20 20:00 （还剩 676 分钟）
+   闸门        observe
+   并发        2 （会吃满 vLLM 两路，你的对话通道被挤）
+   种子        20 条，循环（当前第 1 轮）
+   预估        每部约 3 分钟 → 到截止大约能跑 225 部
+   产出        /home/liang/novel-agent/batches/20261020-xiaoyuan
+   停止        touch /home/liang/.novel-agent-batch.stop
+════════════════════════════════════════════════════════
+
+── [1] xiaoyuan-20261020-01  （08:43，距截止 676 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　299s　{"chapters": 9, "total_chars": 20862, "score_min": 34.2, "score_mean": 79.0, "degraded": 0, "debt": 27, "calls": 100, "llm_sec": 480.2, "dialogue_pct": 21.9}
+
+── [2] xiaoyuan-20261020-02  （08:48，距截止 671 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-02.log
+   failed　53s　{}
+
+── [3] xiaoyuan-20261020-03  （08:49，距截止 670 分钟）
+   题材：2010年市一中，她转学前把一盘磁带塞进了他的课桌夹层
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-03.log
+   failed　1s　{}
+
+── [4] xiaoyuan-20261020-04  （08:49，距截止 670 分钟）
+   题材：1995年镇中学，走读生和住校生只在早自习前那二十分钟碰得上
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-04.log
+   failed　1s　{}
+
+── [5] xiaoyuan-20261020-05  （08:49，距截止 670 分钟）
+   题材：2008年高二，运动会报名表上他替她填了八百米
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-05.log
+   failed　2s　{}
+
+── [6] xiaoyuan-20261020-06  （08:49，距截止 670 分钟）
+   题材：2015年国际部，保送名单公布那天她删掉了没发出去的那条消息
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-06.log
+   failed　1s　{}
+
+── [7] xiaoyuan-20261020-07  （08:49，距截止 670 分钟）
+   题材：1992年师范附中，广播站的钥匙每周轮一个人，这周是他们两个
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-07.log
+   failed　2s　{}
+
+── [8] xiaoyuan-20261020-08  （08:49，距截止 670 分钟）
+   题材：2006年高三，月考排名把前二十名调进了同一个班，她差了一名
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-08.log
+   failed　1s　{}
+
+── [9] xiaoyuan-20261020-09  （08:49，距截止 670 分钟）
+   题材：2012年艺术班，画室的暖气只开到十二月，她的手一直是凉的
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-09.log
+   failed　2s　{}
+
+── [10] xiaoyuan-20261020-10  （08:49，距截止 670 分钟）
+   题材：1989年厂办中学，他父亲调去外地，转学手续办到一半
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-10.log
+   failed　1s　{}
+
+── [11] xiaoyuan-20261020-11  （08:49，距截止 670 分钟）
+   题材：2019年高一，分班考后她去了竞赛班，走廊从此是两个方向
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-11.log
+   failed　2s　{}
+
+── [12] xiaoyuan-20261020-12  （08:49，距截止 670 分钟）
+   题材：2001年高三，晚自习断电那十五分钟，教室里只有他们在等
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-12.log
+   failed　1s　{}
+
+── [13] xiaoyuan-20261020-13  （08:49，距截止 670 分钟）
+   题材：2017年高二，她家搬迁，公交路线从此不经过他那一站
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-13.log
+   failed　2s　{}
+
+── [14] xiaoyuan-20261020-14  （08:49，距截止 670 分钟）
+   题材：1997年初三，体检表上她的身高写错了，老师让他陪她再量一次
+   ✗ 失败，日志：/home/liang/novel-agent/batches/20261020-xiaoyuan/logs/xiaoyuan-20261020-14.log
+   failed　1s　{}
+
+── [15] xiaoyuan-20261020-15  （08:49，距截止 670 分钟）
+   题材：2011年高三，毕业照拍完那天下午，公告栏的名单还没撤
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 9, "total_chars": 20754, "score_min": 88.1, "score_mean": 90.6, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 454.0, "dialogue_pct": 32.5}
+
+── [16] xiaoyuan-20261020-16  （08:54，距截止 665 分钟）
+   题材：2004年高二，寒假补课名单上只有一个人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　294s　{"chapters": 9, "total_chars": 20845, "score_min": 82.5, "score_mean": 90.5, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 481.6, "dialogue_pct": 26.8}
+
+── [17] xiaoyuan-20261020-17  （08:59，距截止 660 分钟）
+   题材：2014年高三，她的志愿表改了三次，每次他都在旁边
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　308s　{"chapters": 9, "total_chars": 20745, "score_min": 37.5, "score_mean": 85.6, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 495.9, "dialogue_pct": 25.6}
+
+── [18] xiaoyuan-20261020-18  （09:04，距截止 655 分钟）
+   题材：1993年中专，食堂排队的顺序由班级轮，这学期他们班排最后
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　294s　{"chapters": 9, "total_chars": 20967, "score_min": 39.7, "score_mean": 83.6, "degraded": 0, "debt": 14, "calls": 100, "llm_sec": 470.7, "dialogue_pct": 24.6}
+
+── [19] xiaoyuan-20261020-19  （09:09，距截止 650 分钟）
+   题材：2020年高二，网课结束返校，座位表按学号重排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 9, "total_chars": 20406, "score_min": 40.8, "score_mean": 78.5, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 447.9, "dialogue_pct": 18.5}
+
+── [20] xiaoyuan-20261020-20  （09:14，距截止 645 分钟）
+   题材：2007年高三，他把笔记借给她，那本笔记后来没还回来
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 9, "total_chars": 20855, "score_min": 11.7, "score_mean": 74.6, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 444.9, "dialogue_pct": 18.8}
+
+── [21] xiaoyuan-20261020-21  （09:18，距截止 641 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　266s　{"chapters": 9, "total_chars": 20527, "score_min": 84.5, "score_mean": 90.2, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 434.9, "dialogue_pct": 22.0}
+
+── [22] xiaoyuan-20261020-22  （09:23，距截止 636 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　256s　{"chapters": 9, "total_chars": 20969, "score_min": 48.3, "score_mean": 85.5, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 411.9, "dialogue_pct": 20.5}
+
+── [23] xiaoyuan-20261020-23  （09:27，距截止 632 分钟）
+   题材：2010年市一中，她转学前把一盘磁带塞进了他的课桌夹层
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 9, "total_chars": 19906, "score_min": 57.5, "score_mean": 85.7, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 445.5, "dialogue_pct": 22.8}
+
+── [24] xiaoyuan-20261020-24  （09:32，距截止 628 分钟）
+   题材：1995年镇中学，走读生和住校生只在早自习前那二十分钟碰得上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20124, "score_min": 30.0, "score_mean": 81.8, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 432.7, "dialogue_pct": 21.4}
+
+── [25] xiaoyuan-20261020-25  （09:36，距截止 623 分钟）
+   题材：2008年高二，运动会报名表上他替她填了八百米
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　267s　{"chapters": 9, "total_chars": 20400, "score_min": 37.9, "score_mean": 85.8, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 431.3, "dialogue_pct": 32.0}
+
+── [26] xiaoyuan-20261020-26  （09:40，距截止 619 分钟）
+   题材：2015年国际部，保送名单公布那天她删掉了没发出去的那条消息
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 9, "total_chars": 20415, "score_min": 7.5, "score_mean": 68.2, "degraded": 0, "debt": 29, "calls": 100, "llm_sec": 439.9, "dialogue_pct": 19.6}
+
+── [27] xiaoyuan-20261020-27  （09:45，距截止 614 分钟）
+   题材：1992年师范附中，广播站的钥匙每周轮一个人，这周是他们两个
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　262s　{"chapters": 9, "total_chars": 20176, "score_min": 89.1, "score_mean": 92.0, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 424.7, "dialogue_pct": 25.6}
+
+── [28] xiaoyuan-20261020-28  （09:49，距截止 610 分钟）
+   题材：2006年高三，月考排名把前二十名调进了同一个班，她差了一名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 9, "total_chars": 20905, "score_min": 85.0, "score_mean": 89.8, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 444.8, "dialogue_pct": 27.2}
+
+── [29] xiaoyuan-20261020-29  （09:54，距截止 605 分钟）
+   题材：2012年艺术班，画室的暖气只开到十二月，她的手一直是凉的
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 21077, "score_min": 57.5, "score_mean": 88.2, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 440.3, "dialogue_pct": 26.0}
+
+── [30] xiaoyuan-20261020-30  （09:58，距截止 601 分钟）
+   题材：1989年厂办中学，他父亲调去外地，转学手续办到一半
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 9, "total_chars": 20465, "score_min": 39.2, "score_mean": 80.8, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 452.2, "dialogue_pct": 20.0}
+
+── [31] xiaoyuan-20261020-31  （10:03，距截止 596 分钟）
+   题材：2019年高一，分班考后她去了竞赛班，走廊从此是两个方向
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　266s　{"chapters": 9, "total_chars": 20566, "score_min": 45.8, "score_mean": 87.2, "degraded": 0, "debt": 13, "calls": 100, "llm_sec": 436.7, "dialogue_pct": 25.5}
+
+── [32] xiaoyuan-20261020-32  （10:07，距截止 592 分钟）
+   题材：2001年高三，晚自习断电那十五分钟，教室里只有他们在等
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 9, "total_chars": 21443, "score_min": 57.6, "score_mean": 86.5, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 453.3, "dialogue_pct": 27.2}
+
+── [33] xiaoyuan-20261020-33  （10:12，距截止 587 分钟）
+   题材：2017年高二，她家搬迁，公交路线从此不经过他那一站
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　284s　{"chapters": 9, "total_chars": 22307, "score_min": 44.0, "score_mean": 85.2, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 461.9, "dialogue_pct": 28.0}
+
+── [34] xiaoyuan-20261020-34  （10:17，距截止 582 分钟）
+   题材：1997年初三，体检表上她的身高写错了，老师让他陪她再量一次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 9, "total_chars": 20481, "score_min": 87.9, "score_mean": 91.6, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 448.3, "dialogue_pct": 30.2}
+
+── [35] xiaoyuan-20261020-35  （10:21，距截止 578 分钟）
+   题材：2011年高三，毕业照拍完那天下午，公告栏的名单还没撤
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　266s　{"chapters": 9, "total_chars": 20198, "score_min": 90.7, "score_mean": 92.2, "degraded": 0, "debt": 10, "calls": 100, "llm_sec": 436.2, "dialogue_pct": 27.9}
+
+── [36] xiaoyuan-20261020-36  （10:26，距截止 573 分钟）
+   题材：2004年高二，寒假补课名单上只有一个人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　293s　{"chapters": 9, "total_chars": 22458, "score_min": 78.9, "score_mean": 88.6, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 479.1, "dialogue_pct": 27.5}
+
+── [37] xiaoyuan-20261020-37  （10:30，距截止 569 分钟）
+   题材：2014年高三，她的志愿表改了三次，每次他都在旁边
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 9, "total_chars": 21304, "score_min": 82.4, "score_mean": 88.5, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 454.9, "dialogue_pct": 22.5}
+
+── [38] xiaoyuan-20261020-38  （10:35，距截止 564 分钟）
+   题材：1993年中专，食堂排队的顺序由班级轮，这学期他们班排最后
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 20278, "score_min": 85.6, "score_mean": 91.0, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 424.8, "dialogue_pct": 27.2}
+
+── [39] xiaoyuan-20261020-39  （10:40，距截止 559 分钟）
+   题材：2020年高二，网课结束返校，座位表按学号重排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　292s　{"chapters": 9, "total_chars": 21384, "score_min": 80.9, "score_mean": 88.6, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 471.6, "dialogue_pct": 24.6}
+
+── [40] xiaoyuan-20261020-40  （10:45，距截止 554 分钟）
+   题材：2007年高三，他把笔记借给她，那本笔记后来没还回来
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 9, "total_chars": 20708, "score_min": 82.5, "score_mean": 90.4, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 450.5, "dialogue_pct": 23.9}
+
+── [41] xiaoyuan-20261020-41  （10:49，距截止 550 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 9, "total_chars": 20385, "score_min": 37.5, "score_mean": 78.3, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 440.7, "dialogue_pct": 18.0}
+
+── [42] xiaoyuan-20261020-42  （10:54，距截止 545 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 9, "total_chars": 20251, "score_min": 84.9, "score_mean": 88.9, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 437.4, "dialogue_pct": 21.5}
+
+── [43] xiaoyuan-20261020-43  （10:58，距截止 541 分钟）
+   题材：2010年市一中，她转学前把一盘磁带塞进了他的课桌夹层
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 9, "total_chars": 20654, "score_min": 52.8, "score_mean": 86.6, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 429.9, "dialogue_pct": 24.5}
+
+── [44] xiaoyuan-20261020-44  （11:03，距截止 536 分钟）
+   题材：1995年镇中学，走读生和住校生只在早自习前那二十分钟碰得上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　282s　{"chapters": 9, "total_chars": 21541, "score_min": 85.4, "score_mean": 91.1, "degraded": 0, "debt": 12, "calls": 100, "llm_sec": 459.7, "dialogue_pct": 26.7}
+
+── [45] xiaoyuan-20261020-45  （11:08，距截止 532 分钟）
+   题材：2008年高二，运动会报名表上他替她填了八百米
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　294s　{"chapters": 9, "total_chars": 22232, "score_min": 79.5, "score_mean": 88.8, "degraded": 0, "debt": 30, "calls": 100, "llm_sec": 472.7, "dialogue_pct": 25.3}
+
+── [46] xiaoyuan-20261020-46  （11:12，距截止 527 分钟）
+   题材：2015年国际部，保送名单公布那天她删掉了没发出去的那条消息
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　259s　{"chapters": 9, "total_chars": 20121, "score_min": 49.5, "score_mean": 85.1, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 416.4, "dialogue_pct": 23.4}
+
+── [47] xiaoyuan-20261020-47  （11:17，距截止 522 分钟）
+   题材：1992年师范附中，广播站的钥匙每周轮一个人，这周是他们两个
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　256s　{"chapters": 9, "total_chars": 19465, "score_min": 90.4, "score_mean": 91.7, "degraded": 0, "debt": 10, "calls": 100, "llm_sec": 421.2, "dialogue_pct": 29.1}
+
+── [48] xiaoyuan-20261020-48  （11:21，距截止 518 分钟）
+   题材：2006年高三，月考排名把前二十名调进了同一个班，她差了一名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 9, "total_chars": 21111, "score_min": 86.1, "score_mean": 89.8, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 455.4, "dialogue_pct": 26.5}
+
+── [49] xiaoyuan-20261020-49  （11:26，距截止 513 分钟）
+   题材：2012年艺术班，画室的暖气只开到十二月，她的手一直是凉的
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 9, "total_chars": 19532, "score_min": 52.5, "score_mean": 85.5, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 423.5, "dialogue_pct": 23.5}
+
+── [50] xiaoyuan-20261020-50  （11:30，距截止 509 分钟）
+   题材：1989年厂办中学，他父亲调去外地，转学手续办到一半
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　271s　{"chapters": 9, "total_chars": 20964, "score_min": 86.1, "score_mean": 89.1, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 444.0, "dialogue_pct": 21.4}
+
+── [51] xiaoyuan-20261020-51  （11:35，距截止 504 分钟）
+   题材：2019年高一，分班考后她去了竞赛班，走廊从此是两个方向
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20363, "score_min": 1.7, "score_mean": 75.8, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 429.3, "dialogue_pct": 22.2}
+
+── [52] xiaoyuan-20261020-52  （11:39，距截止 500 分钟）
+   题材：2001年高三，晚自习断电那十五分钟，教室里只有他们在等
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 9, "total_chars": 21094, "score_min": 29.2, "score_mean": 82.7, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 440.8, "dialogue_pct": 25.3}
+
+── [53] xiaoyuan-20261020-53  （11:44，距截止 496 分钟）
+   题材：2017年高二，她家搬迁，公交路线从此不经过他那一站
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 9, "total_chars": 19125, "score_min": 0.0, "score_mean": 79.2, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 426.9, "dialogue_pct": 20.2}
+
+── [54] xiaoyuan-20261020-54  （11:48，距截止 491 分钟）
+   题材：1997年初三，体检表上她的身高写错了，老师让他陪她再量一次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　267s　{"chapters": 9, "total_chars": 21254, "score_min": 59.5, "score_mean": 87.3, "degraded": 0, "debt": 26, "calls": 100, "llm_sec": 438.3, "dialogue_pct": 25.6}
+
+── [55] xiaoyuan-20261020-55  （11:52，距截止 487 分钟）
+   题材：2011年高三，毕业照拍完那天下午，公告栏的名单还没撤
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 9, "total_chars": 19809, "score_min": 56.6, "score_mean": 86.3, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 419.2, "dialogue_pct": 24.1}
+
+── [56] xiaoyuan-20261020-56  （11:57，距截止 482 分钟）
+   题材：2004年高二，寒假补课名单上只有一个人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 9, "total_chars": 18833, "score_min": 45.8, "score_mean": 80.0, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 420.4, "dialogue_pct": 20.7}
+
+── [57] xiaoyuan-20261020-57  （12:01，距截止 478 分钟）
+   题材：2014年高三，她的志愿表改了三次，每次他都在旁边
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　259s　{"chapters": 9, "total_chars": 19613, "score_min": 58.3, "score_mean": 86.6, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 419.2, "dialogue_pct": 23.8}
+
+── [58] xiaoyuan-20261020-58  （12:05，距截止 474 分钟）
+   题材：1993年中专，食堂排队的顺序由班级轮，这学期他们班排最后
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 9, "total_chars": 19743, "score_min": 66.0, "score_mean": 85.2, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 425.8, "dialogue_pct": 20.8}
+
+── [59] xiaoyuan-20261020-59  （12:10，距截止 469 分钟）
+   题材：2020年高二，网课结束返校，座位表按学号重排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 19888, "score_min": 39.2, "score_mean": 74.1, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 434.4, "dialogue_pct": 22.1}
+
+── [60] xiaoyuan-20261020-60  （12:14，距截止 465 分钟）
+   题材：2007年高三，他把笔记借给她，那本笔记后来没还回来
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 9, "total_chars": 20816, "score_min": 85.0, "score_mean": 91.5, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 438.8, "dialogue_pct": 31.6}
+
+── [61] xiaoyuan-20261020-61  （12:19，距截止 460 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　285s　{"chapters": 9, "total_chars": 21714, "score_min": 83.9, "score_mean": 89.8, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 463.9, "dialogue_pct": 25.0}
+
+── [62] xiaoyuan-20261020-62  （12:23，距截止 456 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 21215, "score_min": 79.6, "score_mean": 89.3, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 441.8, "dialogue_pct": 27.6}
+
+── [63] xiaoyuan-20261020-63  （12:28，距截止 451 分钟）
+   题材：2010年市一中，她转学前把一盘磁带塞进了他的课桌夹层
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 9, "total_chars": 20465, "score_min": 54.2, "score_mean": 82.2, "degraded": 0, "debt": 27, "calls": 100, "llm_sec": 440.0, "dialogue_pct": 20.9}
+
+── [64] xiaoyuan-20261020-64  （12:32，距截止 447 分钟）
+   题材：1995年镇中学，走读生和住校生只在早自习前那二十分钟碰得上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　284s　{"chapters": 9, "total_chars": 21963, "score_min": 57.5, "score_mean": 86.5, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 468.9, "dialogue_pct": 22.6}
+
+── [65] xiaoyuan-20261020-65  （12:37，距截止 442 分钟）
+   题材：2008年高二，运动会报名表上他替她填了八百米
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 9, "total_chars": 20728, "score_min": 82.9, "score_mean": 90.3, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 435.9, "dialogue_pct": 27.7}
+
+── [66] xiaoyuan-20261020-66  （12:42，距截止 437 分钟）
+   题材：2015年国际部，保送名单公布那天她删掉了没发出去的那条消息
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　261s　{"chapters": 9, "total_chars": 19355, "score_min": 0.0, "score_mean": 68.1, "degraded": 0, "debt": 27, "calls": 100, "llm_sec": 416.2, "dialogue_pct": 18.6}
+
+── [67] xiaoyuan-20261020-67  （12:46，距截止 433 分钟）
+   题材：1992年师范附中，广播站的钥匙每周轮一个人，这周是他们两个
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 9, "total_chars": 21237, "score_min": 87.6, "score_mean": 91.1, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 457.9, "dialogue_pct": 25.1}
+
+── [68] xiaoyuan-20261020-68  （12:51，距截止 428 分钟）
+   题材：2006年高三，月考排名把前二十名调进了同一个班，她差了一名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 9, "total_chars": 21149, "score_min": 80.1, "score_mean": 89.9, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 457.7, "dialogue_pct": 25.8}
+
+── [69] xiaoyuan-20261020-69  （12:55，距截止 424 分钟）
+   题材：2012年艺术班，画室的暖气只开到十二月，她的手一直是凉的
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 9, "total_chars": 21426, "score_min": 82.8, "score_mean": 91.6, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 447.3, "dialogue_pct": 27.5}
+
+── [70] xiaoyuan-20261020-70  （13:00，距截止 419 分钟）
+   题材：1989年厂办中学，他父亲调去外地，转学手续办到一半
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 9, "total_chars": 20603, "score_min": 32.5, "score_mean": 76.8, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 444.5, "dialogue_pct": 20.8}
+
+── [71] xiaoyuan-20261020-71  （13:04，距截止 415 分钟）
+   题材：2019年高一，分班考后她去了竞赛班，走廊从此是两个方向
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　262s　{"chapters": 9, "total_chars": 20307, "score_min": 56.7, "score_mean": 80.5, "degraded": 0, "debt": 26, "calls": 100, "llm_sec": 427.5, "dialogue_pct": 19.8}
+
+── [72] xiaoyuan-20261020-72  （13:09，距截止 410 分钟）
+   题材：2001年高三，晚自习断电那十五分钟，教室里只有他们在等
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　261s　{"chapters": 9, "total_chars": 19721, "score_min": 27.5, "score_mean": 82.0, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 426.5, "dialogue_pct": 21.3}
+
+── [73] xiaoyuan-20261020-73  （13:13，距截止 406 分钟）
+   题材：2017年高二，她家搬迁，公交路线从此不经过他那一站
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 9, "total_chars": 21056, "score_min": 37.0, "score_mean": 84.2, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 456.0, "dialogue_pct": 30.8}
+
+── [74] xiaoyuan-20261020-74  （13:18，距截止 401 分钟）
+   题材：1997年初三，体检表上她的身高写错了，老师让他陪她再量一次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 9, "total_chars": 21110, "score_min": 31.7, "score_mean": 80.5, "degraded": 0, "debt": 13, "calls": 100, "llm_sec": 447.2, "dialogue_pct": 20.6}
+
+── [75] xiaoyuan-20261020-75  （13:22，距截止 397 分钟）
+   题材：2011年高三，毕业照拍完那天下午，公告栏的名单还没撤
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 9, "total_chars": 21262, "score_min": 31.7, "score_mean": 82.5, "degraded": 0, "debt": 29, "calls": 100, "llm_sec": 442.1, "dialogue_pct": 22.7}
+
+── [76] xiaoyuan-20261020-76  （13:27，距截止 392 分钟）
+   题材：2004年高二，寒假补课名单上只有一个人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　267s　{"chapters": 9, "total_chars": 20832, "score_min": 89.2, "score_mean": 92.1, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 435.4, "dialogue_pct": 27.3}
+
+── [77] xiaoyuan-20261020-77  （13:31，距截止 388 分钟）
+   题材：2014年高三，她的志愿表改了三次，每次他都在旁边
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　262s　{"chapters": 9, "total_chars": 19500, "score_min": 52.5, "score_mean": 86.5, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 423.4, "dialogue_pct": 23.8}
+
+── [78] xiaoyuan-20261020-78  （13:36，距截止 383 分钟）
+   题材：1993年中专，食堂排队的顺序由班级轮，这学期他们班排最后
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 9, "total_chars": 21413, "score_min": 56.7, "score_mean": 88.2, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 444.6, "dialogue_pct": 28.9}
+
+── [79] xiaoyuan-20261020-79  （13:40，距截止 379 分钟）
+   题材：2020年高二，网课结束返校，座位表按学号重排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 9, "total_chars": 20896, "score_min": 82.6, "score_mean": 91.0, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 441.5, "dialogue_pct": 24.6}
+
+── [80] xiaoyuan-20261020-80  （13:45，距截止 374 分钟）
+   题材：2007年高三，他把笔记借给她，那本笔记后来没还回来
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 9, "total_chars": 20001, "score_min": 88.0, "score_mean": 92.5, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 427.1, "dialogue_pct": 32.2}
+
+── [81] xiaoyuan-20261020-81  （13:49，距截止 370 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 9, "total_chars": 21099, "score_min": 9.2, "score_mean": 78.6, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 445.3, "dialogue_pct": 20.6}
+
+── [82] xiaoyuan-20261020-82  （13:54，距截止 365 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20764, "score_min": 38.3, "score_mean": 80.7, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 431.6, "dialogue_pct": 22.8}
+
+── [83] xiaoyuan-20261020-83  （13:58，距截止 361 分钟）
+   题材：2010年市一中，她转学前把一盘磁带塞进了他的课桌夹层
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　286s　{"chapters": 9, "total_chars": 21433, "score_min": 48.0, "score_mean": 84.6, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 456.7, "dialogue_pct": 23.5}
+
+── [84] xiaoyuan-20261020-84  （14:03，距截止 356 分钟）
+   题材：1995年镇中学，走读生和住校生只在早自习前那二十分钟碰得上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　289s　{"chapters": 9, "total_chars": 21742, "score_min": 47.5, "score_mean": 84.3, "degraded": 0, "debt": 26, "calls": 100, "llm_sec": 472.3, "dialogue_pct": 22.5}
+
+── [85] xiaoyuan-20261020-85  （14:08，距截止 351 分钟）
+   题材：2008年高二，运动会报名表上他替她填了八百米
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　259s　{"chapters": 9, "total_chars": 19925, "score_min": 0.0, "score_mean": 52.2, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 418.6, "dialogue_pct": 16.8}
+
+── [86] xiaoyuan-20261020-86  （14:12，距截止 347 分钟）
+   题材：2015年国际部，保送名单公布那天她删掉了没发出去的那条消息
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　261s　{"chapters": 9, "total_chars": 20042, "score_min": 53.3, "score_mean": 83.7, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 426.2, "dialogue_pct": 23.0}
+
+── [87] xiaoyuan-20261020-87  （14:16，距截止 343 分钟）
+   题材：1992年师范附中，广播站的钥匙每周轮一个人，这周是他们两个
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　261s　{"chapters": 9, "total_chars": 19188, "score_min": 84.1, "score_mean": 89.4, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 428.3, "dialogue_pct": 26.2}
+
+── [88] xiaoyuan-20261020-88  （14:21，距截止 338 分钟）
+   题材：2006年高三，月考排名把前二十名调进了同一个班，她差了一名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　266s　{"chapters": 9, "total_chars": 19980, "score_min": 51.5, "score_mean": 86.3, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 429.7, "dialogue_pct": 21.9}
+
+── [89] xiaoyuan-20261020-89  （14:25，距截止 334 分钟）
+   题材：2012年艺术班，画室的暖气只开到十二月，她的手一直是凉的
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 9, "total_chars": 20526, "score_min": 85.4, "score_mean": 90.2, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 436.1, "dialogue_pct": 25.5}
+
+── [90] xiaoyuan-20261020-90  （14:30，距截止 329 分钟）
+   题材：1989年厂办中学，他父亲调去外地，转学手续办到一半
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 9, "total_chars": 21246, "score_min": 88.1, "score_mean": 91.9, "degraded": 0, "debt": 14, "calls": 100, "llm_sec": 450.9, "dialogue_pct": 26.3}
+
+── [91] xiaoyuan-20261020-91  （14:34，距截止 325 分钟）
+   题材：2019年高一，分班考后她去了竞赛班，走廊从此是两个方向
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　262s　{"chapters": 9, "total_chars": 19756, "score_min": 0.0, "score_mean": 75.0, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 431.0, "dialogue_pct": 20.5}
+
+── [92] xiaoyuan-20261020-92  （14:39，距截止 320 分钟）
+   题材：2001年高三，晚自习断电那十五分钟，教室里只有他们在等
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　283s　{"chapters": 9, "total_chars": 23018, "score_min": 83.5, "score_mean": 89.6, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 459.4, "dialogue_pct": 28.1}
+
+── [93] xiaoyuan-20261020-93  （14:43，距截止 316 分钟）
+   题材：2017年高二，她家搬迁，公交路线从此不经过他那一站
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 9, "total_chars": 20043, "score_min": 0.0, "score_mean": 81.1, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 435.5, "dialogue_pct": 22.5}
+
+── [94] xiaoyuan-20261020-94  （14:48，距截止 311 分钟）
+   题材：1997年初三，体检表上她的身高写错了，老师让他陪她再量一次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 20218, "score_min": 87.0, "score_mean": 90.8, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 438.8, "dialogue_pct": 25.2}
+
+── [95] xiaoyuan-20261020-95  （14:52，距截止 307 分钟）
+   题材：2011年高三，毕业照拍完那天下午，公告栏的名单还没撤
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　255s　{"chapters": 9, "total_chars": 20447, "score_min": 24.2, "score_mean": 82.6, "degraded": 0, "debt": 12, "calls": 100, "llm_sec": 421.9, "dialogue_pct": 22.0}
+
+── [96] xiaoyuan-20261020-96  （14:57，距截止 302 分钟）
+   题材：2004年高二，寒假补课名单上只有一个人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　257s　{"chapters": 9, "total_chars": 19672, "score_min": 86.5, "score_mean": 90.7, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 415.8, "dialogue_pct": 23.8}
+
+── [97] xiaoyuan-20261020-97  （15:01，距截止 298 分钟）
+   题材：2014年高三，她的志愿表改了三次，每次他都在旁边
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 20270, "score_min": 43.4, "score_mean": 84.9, "degraded": 0, "debt": 27, "calls": 100, "llm_sec": 440.3, "dialogue_pct": 25.4}
+
+── [98] xiaoyuan-20261020-98  （15:05，距截止 294 分钟）
+   题材：1993年中专，食堂排队的顺序由班级轮，这学期他们班排最后
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 9, "total_chars": 19755, "score_min": 89.2, "score_mean": 90.8, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 424.3, "dialogue_pct": 29.1}
+
+── [99] xiaoyuan-20261020-99  （15:10，距截止 289 分钟）
+   题材：2020年高二，网课结束返校，座位表按学号重排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 9, "total_chars": 21666, "score_min": 86.5, "score_mean": 90.6, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 451.9, "dialogue_pct": 28.7}
+
+── [100] xiaoyuan-20261020-100  （15:14，距截止 285 分钟）
+   题材：2007年高三，他把笔记借给她，那本笔记后来没还回来
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　271s　{"chapters": 9, "total_chars": 21045, "score_min": 15.8, "score_mean": 66.4, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 449.0, "dialogue_pct": 19.7}
+
+── [101] xiaoyuan-20261020-101  （15:19，距截止 280 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　266s　{"chapters": 9, "total_chars": 20782, "score_min": 32.5, "score_mean": 74.9, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 435.5, "dialogue_pct": 22.8}
+
+── [102] xiaoyuan-20261020-102  （15:23，距截止 276 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　259s　{"chapters": 9, "total_chars": 19574, "score_min": 46.7, "score_mean": 82.3, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 423.2, "dialogue_pct": 20.0}
+
+── [103] xiaoyuan-20261020-103  （15:28，距截止 271 分钟）
+   题材：2010年市一中，她转学前把一盘磁带塞进了他的课桌夹层
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 9, "total_chars": 21471, "score_min": 88.6, "score_mean": 91.9, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 455.8, "dialogue_pct": 28.5}
+
+── [104] xiaoyuan-20261020-104  （15:32，距截止 267 分钟）
+   题材：1995年镇中学，走读生和住校生只在早自习前那二十分钟碰得上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20339, "score_min": 59.2, "score_mean": 85.8, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 434.8, "dialogue_pct": 22.8}
+
+── [105] xiaoyuan-20261020-105  （15:37，距截止 262 分钟）
+   题材：2008年高二，运动会报名表上他替她填了八百米
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 9, "total_chars": 20100, "score_min": 19.2, "score_mean": 74.1, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 434.9, "dialogue_pct": 22.2}
+
+── [106] xiaoyuan-20261020-106  （15:41，距截止 258 分钟）
+   题材：2015年国际部，保送名单公布那天她删掉了没发出去的那条消息
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　255s　{"chapters": 9, "total_chars": 19107, "score_min": 84.4, "score_mean": 89.3, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 412.4, "dialogue_pct": 26.9}
+
+── [107] xiaoyuan-20261020-107  （15:46，距截止 253 分钟）
+   题材：1992年师范附中，广播站的钥匙每周轮一个人，这周是他们两个
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　271s　{"chapters": 9, "total_chars": 20579, "score_min": 86.0, "score_mean": 91.4, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 444.1, "dialogue_pct": 28.9}
+
+── [108] xiaoyuan-20261020-108  （15:50，距截止 249 分钟）
+   题材：2006年高三，月考排名把前二十名调进了同一个班，她差了一名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 9, "total_chars": 20093, "score_min": 54.1, "score_mean": 85.4, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 436.5, "dialogue_pct": 22.5}
+
+── [109] xiaoyuan-20261020-109  （15:55，距截止 244 分钟）
+   题材：2012年艺术班，画室的暖气只开到十二月，她的手一直是凉的
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 9, "total_chars": 20367, "score_min": 15.8, "score_mean": 82.7, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 442.1, "dialogue_pct": 23.3}
+
+── [110] xiaoyuan-20261020-110  （15:59，距截止 240 分钟）
+   题材：1989年厂办中学，他父亲调去外地，转学手续办到一半
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 9, "total_chars": 19591, "score_min": 79.5, "score_mean": 89.7, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 440.0, "dialogue_pct": 23.5}
+
+── [111] xiaoyuan-20261020-111  （16:04，距截止 235 分钟）
+   题材：2019年高一，分班考后她去了竞赛班，走廊从此是两个方向
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 9, "total_chars": 20520, "score_min": 45.8, "score_mean": 79.9, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 446.6, "dialogue_pct": 18.8}
+
+── [112] xiaoyuan-20261020-112  （16:08，距截止 231 分钟）
+   题材：2001年高三，晚自习断电那十五分钟，教室里只有他们在等
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 9, "total_chars": 19942, "score_min": 80.2, "score_mean": 90.5, "degraded": 0, "debt": 14, "calls": 100, "llm_sec": 428.4, "dialogue_pct": 28.7}
+
+── [113] xiaoyuan-20261020-113  （16:13，距截止 226 分钟）
+   题材：2017年高二，她家搬迁，公交路线从此不经过他那一站
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　287s　{"chapters": 9, "total_chars": 21323, "score_min": 84.8, "score_mean": 90.2, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 464.3, "dialogue_pct": 24.5}
+
+── [114] xiaoyuan-20261020-114  （16:17，距截止 222 分钟）
+   题材：1997年初三，体检表上她的身高写错了，老师让他陪她再量一次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　286s　{"chapters": 9, "total_chars": 21077, "score_min": 55.0, "score_mean": 86.0, "degraded": 0, "debt": 15, "calls": 100, "llm_sec": 465.7, "dialogue_pct": 21.2}
+
+── [115] xiaoyuan-20261020-115  （16:22，距截止 217 分钟）
+   题材：2011年高三，毕业照拍完那天下午，公告栏的名单还没撤
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 20487, "score_min": 81.9, "score_mean": 90.7, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 447.0, "dialogue_pct": 26.4}
+
+── [116] xiaoyuan-20261020-116  （16:27，距截止 212 分钟）
+   题材：2004年高二，寒假补课名单上只有一个人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　271s　{"chapters": 9, "total_chars": 20106, "score_min": 55.0, "score_mean": 86.4, "degraded": 0, "debt": 15, "calls": 100, "llm_sec": 441.5, "dialogue_pct": 22.5}
+
+── [117] xiaoyuan-20261020-117  （16:31，距截止 208 分钟）
+   题材：2014年高三，她的志愿表改了三次，每次他都在旁边
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　275s　{"chapters": 9, "total_chars": 20269, "score_min": 87.3, "score_mean": 91.4, "degraded": 0, "debt": 27, "calls": 100, "llm_sec": 440.5, "dialogue_pct": 25.6}
+
+── [118] xiaoyuan-20261020-118  （16:36，距截止 203 分钟）
+   题材：1993年中专，食堂排队的顺序由班级轮，这学期他们班排最后
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　286s　{"chapters": 9, "total_chars": 20883, "score_min": 48.4, "score_mean": 85.2, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 459.1, "dialogue_pct": 27.4}
+
+── [119] xiaoyuan-20261020-119  （16:41，距截止 199 分钟）
+   题材：2020年高二，网课结束返校，座位表按学号重排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20162, "score_min": 88.0, "score_mean": 91.4, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 428.8, "dialogue_pct": 25.9}
+
+── [120] xiaoyuan-20261020-120  （16:45，距截止 194 分钟）
+   题材：2007年高三，他把笔记借给她，那本笔记后来没还回来
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　283s　{"chapters": 9, "total_chars": 21720, "score_min": 85.3, "score_mean": 89.9, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 455.8, "dialogue_pct": 24.0}
+
+── [121] xiaoyuan-20261020-121  （16:50，距截止 189 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20041, "score_min": 87.9, "score_mean": 91.7, "degraded": 0, "debt": 11, "calls": 100, "llm_sec": 434.3, "dialogue_pct": 24.8}
+
+── [122] xiaoyuan-20261020-122  （16:54，距截止 185 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 9, "total_chars": 20839, "score_min": 48.6, "score_mean": 86.5, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 437.9, "dialogue_pct": 27.9}
+
+── [123] xiaoyuan-20261020-123  （16:59，距截止 180 分钟）
+   题材：2010年市一中，她转学前把一盘磁带塞进了他的课桌夹层
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20161, "score_min": 84.9, "score_mean": 89.5, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 428.9, "dialogue_pct": 24.6}
+
+── [124] xiaoyuan-20261020-124  （17:03，距截止 176 分钟）
+   题材：1995年镇中学，走读生和住校生只在早自习前那二十分钟碰得上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 9, "total_chars": 22261, "score_min": 0.8, "score_mean": 81.5, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 458.1, "dialogue_pct": 24.1}
+
+── [125] xiaoyuan-20261020-125  （17:08，距截止 171 分钟）
+   题材：2008年高二，运动会报名表上他替她填了八百米
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 9, "total_chars": 21095, "score_min": 37.9, "score_mean": 84.1, "degraded": 0, "debt": 23, "calls": 100, "llm_sec": 449.8, "dialogue_pct": 32.2}
+
+── [126] xiaoyuan-20261020-126  （17:12，距截止 167 分钟）
+   题材：2015年国际部，保送名单公布那天她删掉了没发出去的那条消息
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　284s　{"chapters": 9, "total_chars": 21466, "score_min": 82.8, "score_mean": 89.5, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 463.2, "dialogue_pct": 24.7}
+
+── [127] xiaoyuan-20261020-127  （17:17，距截止 162 分钟）
+   题材：1992年师范附中，广播站的钥匙每周轮一个人，这周是他们两个
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　258s　{"chapters": 9, "total_chars": 19724, "score_min": 55.8, "score_mean": 81.9, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 419.2, "dialogue_pct": 20.5}
+
+── [128] xiaoyuan-20261020-128  （17:21，距截止 158 分钟）
+   题材：2006年高三，月考排名把前二十名调进了同一个班，她差了一名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 9, "total_chars": 21502, "score_min": 45.0, "score_mean": 85.3, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 454.9, "dialogue_pct": 25.9}
+
+── [129] xiaoyuan-20261020-129  （17:26，距截止 153 分钟）
+   题材：2012年艺术班，画室的暖气只开到十二月，她的手一直是凉的
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 9, "total_chars": 21198, "score_min": 84.2, "score_mean": 90.5, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 448.2, "dialogue_pct": 26.6}
+
+── [130] xiaoyuan-20261020-130  （17:31，距截止 148 分钟）
+   题材：1989年厂办中学，他父亲调去外地，转学手续办到一半
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　266s　{"chapters": 9, "total_chars": 19760, "score_min": 56.9, "score_mean": 87.9, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 436.5, "dialogue_pct": 25.4}
+
+── [131] xiaoyuan-20261020-131  （17:35，距截止 144 分钟）
+   题材：2019年高一，分班考后她去了竞赛班，走廊从此是两个方向
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 20031, "score_min": 45.8, "score_mean": 86.2, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 439.3, "dialogue_pct": 24.1}
+
+── [132] xiaoyuan-20261020-132  （17:40，距截止 139 分钟）
+   题材：2001年高三，晚自习断电那十五分钟，教室里只有他们在等
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 9, "total_chars": 21638, "score_min": 84.2, "score_mean": 90.3, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 453.8, "dialogue_pct": 27.6}
+
+── [133] xiaoyuan-20261020-133  （17:44，距截止 135 分钟）
+   题材：2017年高二，她家搬迁，公交路线从此不经过他那一站
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 9, "total_chars": 20500, "score_min": 44.1, "score_mean": 83.5, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 442.7, "dialogue_pct": 23.8}
+
+── [134] xiaoyuan-20261020-134  （17:49，距截止 130 分钟）
+   题材：1997年初三，体检表上她的身高写错了，老师让他陪她再量一次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 9, "total_chars": 21465, "score_min": 84.8, "score_mean": 90.0, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 461.0, "dialogue_pct": 24.6}
+
+── [135] xiaoyuan-20261020-135  （17:53，距截止 126 分钟）
+   题材：2011年高三，毕业照拍完那天下午，公告栏的名单还没撤
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 21061, "score_min": 86.5, "score_mean": 91.3, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 443.7, "dialogue_pct": 30.6}
+
+── [136] xiaoyuan-20261020-136  （17:58，距截止 121 分钟）
+   题材：2004年高二，寒假补课名单上只有一个人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 9, "total_chars": 20933, "score_min": 38.3, "score_mean": 83.1, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 447.7, "dialogue_pct": 25.0}
+
+── [137] xiaoyuan-20261020-137  （18:03，距截止 116 分钟）
+   题材：2014年高三，她的志愿表改了三次，每次他都在旁边
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 9, "total_chars": 20065, "score_min": 85.8, "score_mean": 91.0, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 435.5, "dialogue_pct": 29.2}
+
+── [138] xiaoyuan-20261020-138  （18:07，距截止 112 分钟）
+   题材：1993年中专，食堂排队的顺序由班级轮，这学期他们班排最后
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 9, "total_chars": 20906, "score_min": 85.3, "score_mean": 90.5, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 446.7, "dialogue_pct": 28.9}
+
+── [139] xiaoyuan-20261020-139  （18:12，距截止 107 分钟）
+   题材：2020年高二，网课结束返校，座位表按学号重排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 9, "total_chars": 21960, "score_min": 0.0, "score_mean": 80.1, "degraded": 0, "debt": 18, "calls": 100, "llm_sec": 441.4, "dialogue_pct": 22.3}
+
+── [140] xiaoyuan-20261020-140  （18:16，距截止 103 分钟）
+   题材：2007年高三，他把笔记借给她，那本笔记后来没还回来
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20232, "score_min": 86.4, "score_mean": 90.5, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 433.0, "dialogue_pct": 30.9}
+
+── [141] xiaoyuan-20261020-141  （18:21，距截止 98 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 9, "total_chars": 20702, "score_min": 86.4, "score_mean": 91.0, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 447.9, "dialogue_pct": 27.3}
+
+── [142] xiaoyuan-20261020-142  （18:25，距截止 94 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　257s　{"chapters": 9, "total_chars": 20549, "score_min": 49.3, "score_mean": 84.0, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 417.5, "dialogue_pct": 27.0}
+
+── [143] xiaoyuan-20261020-143  （18:30，距截止 89 分钟）
+   题材：2010年市一中，她转学前把一盘磁带塞进了他的课桌夹层
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　261s　{"chapters": 9, "total_chars": 18871, "score_min": 30.4, "score_mean": 84.2, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 413.0, "dialogue_pct": 25.8}
+
+── [144] xiaoyuan-20261020-144  （18:34，距截止 85 分钟）
+   题材：1995年镇中学，走读生和住校生只在早自习前那二十分钟碰得上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 9, "total_chars": 20879, "score_min": 89.4, "score_mean": 92.0, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 446.0, "dialogue_pct": 25.1}
+
+── [145] xiaoyuan-20261020-145  （18:39，距截止 80 分钟）
+   题材：2008年高二，运动会报名表上他替她填了八百米
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 9, "total_chars": 20440, "score_min": 49.2, "score_mean": 86.1, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 443.6, "dialogue_pct": 22.8}
+
+── [146] xiaoyuan-20261020-146  （18:43，距截止 76 分钟）
+   题材：2015年国际部，保送名单公布那天她删掉了没发出去的那条消息
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 9, "total_chars": 20420, "score_min": 83.9, "score_mean": 89.9, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 432.3, "dialogue_pct": 22.0}
+
+── [147] xiaoyuan-20261020-147  （18:48，距截止 71 分钟）
+   题材：1992年师范附中，广播站的钥匙每周轮一个人，这周是他们两个
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 9, "total_chars": 20266, "score_min": 88.5, "score_mean": 91.6, "degraded": 0, "debt": 14, "calls": 100, "llm_sec": 426.5, "dialogue_pct": 26.8}
+
+── [148] xiaoyuan-20261020-148  （18:52，距截止 67 分钟）
+   题材：2006年高三，月考排名把前二十名调进了同一个班，她差了一名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 9, "total_chars": 21268, "score_min": 22.5, "score_mean": 77.8, "degraded": 0, "debt": 22, "calls": 100, "llm_sec": 460.0, "dialogue_pct": 20.9}
+
+── [149] xiaoyuan-20261020-149  （18:57，距截止 62 分钟）
+   题材：2012年艺术班，画室的暖气只开到十二月，她的手一直是凉的
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 9, "total_chars": 20179, "score_min": 34.9, "score_mean": 83.9, "degraded": 0, "debt": 17, "calls": 100, "llm_sec": 445.8, "dialogue_pct": 24.9}
+
+── [150] xiaoyuan-20261020-150  （19:01，距截止 58 分钟）
+   题材：1989年厂办中学，他父亲调去外地，转学手续办到一半
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 9, "total_chars": 21238, "score_min": 58.3, "score_mean": 85.8, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 452.2, "dialogue_pct": 20.7}
+
+── [151] xiaoyuan-20261020-151  （19:06，距截止 53 分钟）
+   题材：2019年高一，分班考后她去了竞赛班，走廊从此是两个方向
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 9, "total_chars": 21313, "score_min": 67.8, "score_mean": 86.7, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 440.6, "dialogue_pct": 21.9}
+
+── [152] xiaoyuan-20261020-152  （19:10，距截止 49 分钟）
+   题材：2001年高三，晚自习断电那十五分钟，教室里只有他们在等
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 9, "total_chars": 20756, "score_min": 83.3, "score_mean": 87.9, "degraded": 0, "debt": 16, "calls": 100, "llm_sec": 424.7, "dialogue_pct": 26.0}
+
+── [153] xiaoyuan-20261020-153  （19:15，距截止 44 分钟）
+   题材：2017年高二，她家搬迁，公交路线从此不经过他那一站
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 9, "total_chars": 21659, "score_min": 84.1, "score_mean": 90.3, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 459.1, "dialogue_pct": 21.4}
+
+── [154] xiaoyuan-20261020-154  （19:20，距截止 40 分钟）
+   题材：1997年初三，体检表上她的身高写错了，老师让他陪她再量一次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　286s　{"chapters": 9, "total_chars": 21077, "score_min": 50.0, "score_mean": 81.1, "degraded": 0, "debt": 24, "calls": 100, "llm_sec": 466.9, "dialogue_pct": 22.2}
+
+── [155] xiaoyuan-20261020-155  （19:24，距截止 35 分钟）
+   题材：2011年高三，毕业照拍完那天下午，公告栏的名单还没撤
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 9, "total_chars": 21077, "score_min": 78.8, "score_mean": 90.6, "degraded": 0, "debt": 14, "calls": 100, "llm_sec": 454.5, "dialogue_pct": 25.5}
+
+── [156] xiaoyuan-20261020-156  （19:29，距截止 30 分钟）
+   题材：2004年高二，寒假补课名单上只有一个人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　299s　{"chapters": 9, "total_chars": 21559, "score_min": 85.8, "score_mean": 90.7, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 480.8, "dialogue_pct": 33.6}
+
+── [157] xiaoyuan-20261020-157  （19:34，距截止 25 分钟）
+   题材：2014年高三，她的志愿表改了三次，每次他都在旁边
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 9, "total_chars": 20268, "score_min": 84.2, "score_mean": 89.7, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 431.6, "dialogue_pct": 26.3}
+
+── [158] xiaoyuan-20261020-158  （19:38，距截止 21 分钟）
+   题材：1993年中专，食堂排队的顺序由班级轮，这学期他们班排最后
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　288s　{"chapters": 9, "total_chars": 21588, "score_min": 84.3, "score_mean": 90.7, "degraded": 0, "debt": 21, "calls": 100, "llm_sec": 466.3, "dialogue_pct": 27.4}
+
+── [159] xiaoyuan-20261020-159  （19:43，距截止 16 分钟）
+   题材：2020年高二，网课结束返校，座位表按学号重排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　282s　{"chapters": 9, "total_chars": 21237, "score_min": 84.2, "score_mean": 89.0, "degraded": 0, "debt": 28, "calls": 100, "llm_sec": 459.2, "dialogue_pct": 33.3}
+
+── [160] xiaoyuan-20261020-160  （19:48，距截止 11 分钟）
+   题材：2007年高三，他把笔记借给她，那本笔记后来没还回来
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　283s　{"chapters": 9, "total_chars": 21469, "score_min": 84.9, "score_mean": 89.6, "degraded": 0, "debt": 25, "calls": 100, "llm_sec": 461.1, "dialogue_pct": 26.8}
+
+── [161] xiaoyuan-20261020-161  （19:53，距截止 7 分钟）
+   题材：1998年县中，文理分科表贴出来的那天，两人的名字在不同的榜上
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 9, "total_chars": 21023, "score_min": 84.9, "score_mean": 88.8, "degraded": 0, "debt": 19, "calls": 100, "llm_sec": 457.4, "dialogue_pct": 21.8}
+
+── [162] xiaoyuan-20261020-162  （19:57，距截止 2 分钟）
+   题材：2003年高三，非典停课后回校，他的座位被调到了最后一排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 9, "total_chars": 19849, "score_min": 78.7, "score_mean": 88.2, "degraded": 0, "debt": 20, "calls": 100, "llm_sec": 445.1, "dialogue_pct": 22.4}
+
+⏰ 到点（20:02 ≥ 20:00），不再开新的。
+
+════════════════════════════════════════════════════════
+ 收工 20:02　开了 162 部：149 成 / 13 败
+ 汇总：/home/liang/novel-agent/batches/20261020-xiaoyuan/summary.md
+ 成品：/home/liang/novel-agent/batches/20261020-xiaoyuan/books
+ 台账：/home/liang/novel-agent/batches/20261020-xiaoyuan/batch.jsonl
+════════════════════════════════════════════════════════

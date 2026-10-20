@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-110",
+  "profile": "校园青春",
+  "title": "转学单",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19591,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18599,
+    "chapter_chars_mean": 2067,
+    "chapter_chars_median": 2087,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 46.6,
+    "dialogue_chars_pct": 23.5,
+    "dialogue_para_pct": 60.1,
+    "interiority_para_pct": 12.8,
+    "narration_para_pct": 27.1,
+    "turn_under20_pct": 88.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.2,
+    "attr_adv_pct": 1.4,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕碎的纸屑",
+      "chars": 1393,
+      "score": 97.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摩挲转学单边缘",
+      "chars": 2207,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "袖口的褐色污渍",
+      "chars": 2150,
+      "score": 79.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲转学单边缘",
+      "chars": 2584,
+      "score": 86.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲磁带边缘",
+      "chars": 2554,
+      "score": 87.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摩挲钥匙边缘",
+      "chars": 2460,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "摩挲转学单边缘",
+      "chars": 2140,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲转学单边缘",
+      "chars": 2415,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摩挲袖口褶皱",
+      "chars": 1679,
+      "score": 93.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句"
+    ],
+    "2": [
+      "单条套路句式超限：「周子墨的」×3、「他知道这」×3",
+      "dialogue_chars_pct 18.1 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林晓阳站在」×4、「他知道这」×3",
+      "dialogue_chars_pct 15.6 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「林晓阳没有回应，只是低头看着手中的转学单，那是他…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×6、「林晓阳站在」×4、「林晓阳的」×3",
+      "dialogue_chars_pct 19.1 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「陈老师说，语气平静得不像话，“明天就开始收拾行李…」）",
+      "[observe] 标题重复：「摩挲转学单边缘」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「周子墨的」×5、「林晓阳点了点头」×4、「林晓阳站在」×3",
+      "[observe] 章内自我复读 21 句（如「就像他始终不明白，为何那个看似冷漠的人，会在某个…」）",
+      "[observe] 标题与《摩挲转学单边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "narration_para_pct 14.3 低于目标 15.0",
+      "[observe] 标题与《摩挲磁带边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×5、「林晓阳站在」×4",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「摩挲转学单边缘」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓阳站在」×4、「他知道自己」×4、「他知道这」×3",
+      "[observe] 章内自我复读 19 句（如「我们这里有很多学生都像你一样，转学手续办不完，只…」）",
+      "[observe] 标题重复：「摩挲转学单边缘」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「周子墨的」×3、「林晓阳的」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 440.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:04:00"
+}

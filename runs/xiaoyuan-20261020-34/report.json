@@ -1,0 +1,161 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-34",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20481,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19525,
+    "chapter_chars_mean": 2169,
+    "chapter_chars_median": 2183,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 43.9,
+    "dialogue_chars_pct": 30.2,
+    "dialogue_para_pct": 68.6,
+    "interiority_para_pct": 14.3,
+    "narration_para_pct": 17.1,
+    "turn_under20_pct": 81.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.5,
+    "attr_adv_pct": 6.3,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "蓝色塑料尺",
+      "chars": 1609,
+      "score": 97.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "触碰衣角的指尖",
+      "chars": 2629,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "触碰衣角的指尖",
+      "chars": 2789,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "磁带塞入掌心",
+      "chars": 2417,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "掀开袖口的病历本",
+      "chars": 2217,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摩挲纸边的手指",
+      "chars": 2883,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "摩挲袖口的指尖",
+      "chars": 2219,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "摩挲袖口的指尖",
+      "chars": 2286,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲纸边的手指",
+      "chars": 1423,
+      "score": 91.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「周子航的」×4、「林晓棠的」×3",
+      "narration_para_pct 10.4 低于目标 15.0",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周子航的」×3、「林晓棠的」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 章内自我复读 15 句（如「他抬头看向远处的公告栏，那些贴满纸张的地方像是一…」）",
+      "[observe] 标题重复：「触碰衣角的指尖」已存在"
+    ],
+    "4": [
+      "narration_para_pct 12.8 低于目标 15.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "narration_para_pct 13.9 低于目标 15.0",
+      "[observe] 章内自我复读 7 句（如「老师，”她终于开口，声音轻得几乎听不见，“我是不…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓棠的」×4、「林晓棠点点」×3",
+      "[observe] 章内自我复读 19 句（如「林晓棠望着远处走廊尽头的窗户，那里阳光透过梧桐树…」）"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓棠的」×6",
+      "[observe] 标题重复：「摩挲袖口的指尖」已存在"
+    ],
+    "9": [
+      "情节与已写章节重复 0.70 ≥ 0.65（撞上「林晓棠发现自己的名字被错误地张贴在物理组名单上，引发她对…」）",
+      "[observe] 标题重复：「摩挲纸边的手指」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 448.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:21:35"
+}

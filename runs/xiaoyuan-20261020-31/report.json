@@ -1,0 +1,159 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-31",
+  "profile": "校园青春",
+  "title": "旧磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20566,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19497,
+    "chapter_chars_mean": 2166,
+    "chapter_chars_median": 2367,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 50,
+    "dialogue_chars_pct": 25.5,
+    "dialogue_para_pct": 66.5,
+    "interiority_para_pct": 15.1,
+    "narration_para_pct": 18.4,
+    "turn_under20_pct": 86.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.0,
+    "attr_adv_pct": 0.6,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙与磁带的重逢",
+      "chars": 1546,
+      "score": 98.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "蓝色笔记本的发现",
+      "chars": 2489,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "旧磁带的播放",
+      "chars": 2510,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "校服外套的归还",
+      "chars": 2952,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与磁带的重逢",
+      "chars": 2225,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "折叠地图的触碰",
+      "chars": 2504,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "课表的更新",
+      "chars": 2569,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "缝补校服的指尖",
+      "chars": 2281,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "分科表上的缝线痕迹",
+      "chars": 1481,
+      "score": 45.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 6.0 低于目标 8.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 17.7 低于目标 20.0"
+    ],
+    "4": [
+      "narration_para_pct 14.9 低于目标 15.0"
+    ],
+    "5": [
+      "interiority_para_pct 6.6 低于目标 8.0",
+      "narration_para_pct 13.1 低于目标 15.0",
+      "[observe] 章内自我复读 3 句（如「因为它让我想起我们初见的那个午后…」）",
+      "[observe] 标题重复：「钥匙与磁带的重逢」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「林夏站在」×3、「林夏点点」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「知道自己」×4、「林夏站在」×4"
+    ],
+    "8": [
+      "narration_para_pct 9.5 低于目标 15.0"
+    ],
+    "9": [
+      "单条套路句式超限：「林夏点点」×4、「带着一丝」×3、「教务处」×3",
+      "narration_para_pct 3.4 低于目标 15.0",
+      "[observe] 章内自我复读 13 句（如「她忽然想起上周整理储物柜的时候，在一个角落发现了…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 436.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:07:44"
+}

@@ -1,0 +1,168 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-59",
+  "profile": "校园青春",
+  "title": "课桌",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19888,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18911,
+    "chapter_chars_mean": 2101,
+    "chapter_chars_median": 2279,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 46.1,
+    "dialogue_chars_pct": 22.1,
+    "dialogue_para_pct": 62.9,
+    "interiority_para_pct": 15.8,
+    "narration_para_pct": 21.3,
+    "turn_under20_pct": 86.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.4,
+    "attr_adv_pct": 6.1,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "课桌上的拖鞋",
+      "chars": 1277,
+      "score": 39.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "纸条上的字迹",
+      "chars": 2014,
+      "score": 45.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "拼接磁带的黄昏",
+      "chars": 2491,
+      "score": 45.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "分科表的边缘",
+      "chars": 2542,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "纸条上的字迹",
+      "chars": 2378,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "纸条上的字迹",
+      "chars": 2736,
+      "score": 86.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "校服外套的褶皱",
+      "chars": 2412,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "窗外的铁丝网",
+      "chars": 2399,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "纸条上的字迹",
+      "chars": 1630,
+      "score": 85.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 15.8 低于目标 20.0",
+      "interiority_para_pct 0.0 低于目标 8.0",
+      "[observe] 章内自我复读 17 句（如「他说完这句话后，立刻低下头继续研究手中的课表，像…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 13.5 低于目标 20.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 13.4 低于目标 20.0",
+      "[observe] 章内自我复读 15 句（如「那人忽然开口，语气温和，“有时候，我们并不是不愿…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「苏雨桐的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「苏雨桐的」×3",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「纸条上的字迹」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「苏雨桐的」×3",
+      "narration_para_pct 14.8 低于目标 15.0",
+      "[observe] 章内自我复读 17 句（如「林夏点点头，眼神却落在那些已经被扔掉的矿泉水瓶上…」）",
+      "[observe] 标题重复：「纸条上的字迹」已存在"
+    ],
+    "7": [
+      "dialogue_chars_pct 17.8 低于目标 20.0",
+      "narration_para_pct 12.5 低于目标 15.0"
+    ],
+    "8": [
+      "单条套路句式超限：「苏雨桐的」×3"
+    ],
+    "9": [
+      "dialogue_chars_pct 18.1 低于目标 20.0",
+      "[observe] 标题重复：「纸条上的字迹」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 434.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T12:14:32"
+}

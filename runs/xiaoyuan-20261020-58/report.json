@@ -1,0 +1,163 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-58",
+  "profile": "校园青春",
+  "title": "风铃",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19743,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18864,
+    "chapter_chars_mean": 2096,
+    "chapter_chars_median": 2216,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 40.6,
+    "dialogue_chars_pct": 20.8,
+    "dialogue_para_pct": 58.4,
+    "interiority_para_pct": 21.8,
+    "narration_para_pct": 19.8,
+    "turn_under20_pct": 87.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.3,
+    "attr_adv_pct": 1.8,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "蓝色笔记本的裂口",
+      "chars": 1667,
+      "score": 79.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "磁带在抽屉里发烫",
+      "chars": 2537,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "贴名签的手指",
+      "chars": 2093,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙坠入尘埃",
+      "chars": 2197,
+      "score": 86.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "蓝色笔记本的裂口",
+      "chars": 2443,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "攥紧蓝色笔记本",
+      "chars": 2313,
+      "score": 84.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "纸条上的字迹",
+      "chars": 2401,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "攥紧蓝色笔记本",
+      "chars": 2374,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "纸飞机落公告栏",
+      "chars": 1709,
+      "score": 66.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 8.7 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「知道自己」×3"
+    ],
+    "3": [
+      "narration_para_pct 9.8 低于目标 15.0",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 17.0 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 11.6 低于目标 15.0",
+      "[observe] 标题重复：「蓝色笔记本的裂口」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「教务处」×21、「点了点头」×4",
+      "narration_para_pct 12.2 低于目标 15.0",
+      "[observe] 章内自我复读 18 句（如「她不知道这个名字代表什么，也不知道为什么会有这样…」）",
+      "[observe] 标题与《蓝色笔记本的裂口》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「苏晓棠的」×4",
+      "[observe] 标题重复：「攥紧蓝色笔记本」已存在"
+    ],
+    "9": [
+      "dialogue_chars_pct 12.5 低于目标 20.0",
+      "interiority_para_pct 36.0 高于目标 35.0",
+      "dialogue_run_mean 1.2 低于目标 1.5",
+      "[observe] 章内自我复读 15 句（如「她低头看着手中的排名单，数字一点点爬上视线，像一…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 425.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T12:10:07"
+}

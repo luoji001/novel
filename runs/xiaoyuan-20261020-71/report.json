@@ -1,0 +1,174 @@
+{
+  "consistency": "1. 第二章与第五章均出现《摸玻璃边的分科表》，但第二章描述沈砚确认分科名单并决定留在原班，第五章却描述两人在分班名单前相遇并得知彼此被分入竞赛班，时间线与分班结果矛盾。\n\n2. 第三章提到林晚舟因成绩未进竞赛班而失落，但第六章却说林晚舟因分班考进入竞赛班与沈砚分开，前后分班结果不一致。\n\n3. 第八章提到沈砚收到父亲留下的表格，得知可能被调入竞赛班，但第六章已说明林晚舟因分班考进入竞赛班，沈砚未被提及进入竞赛班，前后信息矛盾。\n\n4. 第五章提到林晚舟和沈砚在分班名单前相遇，得知彼此被分入竞赛班，但第六章又说林晚舟因分班考进入竞赛班与沈砚分开，时间线与分班结果矛盾。",
+  "slug": "xiaoyuan-20261020-71",
+  "profile": "校园青春",
+  "title": "纸飞机",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20307,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19357,
+    "chapter_chars_mean": 2151,
+    "chapter_chars_median": 2240,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 44.4,
+    "dialogue_chars_pct": 19.8,
+    "dialogue_para_pct": 60.2,
+    "interiority_para_pct": 19.1,
+    "narration_para_pct": 20.7,
+    "turn_under20_pct": 89.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.9,
+    "attr_adv_pct": 5.2,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "纸飞机与梧桐树",
+      "chars": 1520,
+      "score": 84.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摸玻璃边的分科表",
+      "chars": 2509,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "纸飞机落公告栏",
+      "chars": 2093,
+      "score": 56.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "课桌抽屉的胶痕",
+      "chars": 2770,
+      "score": 58.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摸玻璃边的分科表",
+      "chars": 2190,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "纸飞机落公告栏",
+      "chars": 2618,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "袖口的线头",
+      "chars": 2517,
+      "score": 86.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "课桌抽屉的胶痕",
+      "chars": 2351,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "纸飞机落公告栏",
+      "chars": 1730,
+      "score": 75.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 14 句（如「你知道吗？这棵树去年冬天枯死了一半，但是春天来了…」）"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×5、「”沈砚低」×5、「“我不知道」×4",
+      "interiority_para_pct 7.7 低于目标 8.0",
+      "[observe] 章内自我复读 23 句（如「每个人都有不同的路可以选择。只要你愿意走下去，总…」）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林晚舟的」×6",
+      "dialogue_chars_pct 14.8 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×5、「点了点头」×3",
+      "dialogue_chars_pct 15.0 低于目标 20.0",
+      "[observe] 章内自我复读 19 句（如「他想起昨晚翻看的那张照片，父亲站在公告栏前，手里…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晚舟的」×4",
+      "[observe] 标题重复：「摸玻璃边的分科表」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×3",
+      "dialogue_chars_pct 17.6 低于目标 20.0",
+      "[observe] 标题重复：「纸飞机落公告栏」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「林晚舟的」×4、「林晚舟点点」×3、「带着一丝」×3",
+      "dialogue_chars_pct 17.8 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「他知道，未来的路并不容易走，但他们都在各自的道路…」）"
+    ],
+    "8": [
+      "单条套路句式超限：「林晚舟的」×5",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「课桌抽屉的胶痕」已存在"
+    ],
+    "9": [
+      "dialogue_chars_pct 9.9 低于目标 20.0",
+      "narration_para_pct 9.1 低于目标 15.0",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「纸飞机落公告栏」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 427.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T13:09:10"
+}

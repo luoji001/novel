@@ -1,0 +1,166 @@
+{
+  "consistency": "1. 第一章提到“分科表公布日”，但第二章提到“磁带里的秘密”发生在“教室和走廊多次相遇”，未明确时间线，可能与分科表公布日冲突。\n\n2. 第三章提到“分科表变动”，但第四章提到“周朗发现课表上有自己从未写过的名字”，与“替她签了名字”的设定矛盾。\n\n3. 第五章提到“分科表和未说出口的告白”，但第六章提到“分班名单变动”，与“分科表”概念混淆。\n\n4. 第七章提到“等待的课表”，但第八章提到“分班名单有异常调整”，与“课表”概念不一致。\n\n5. 第九章提到“周朗曾默默帮助她调整课表”，但第一章提到“周朗偷偷替她签了名字”，与“调整课表”不一致。\n\n6. 第三章提到“周朗座位空缺”，但第九章提到“周朗在分班后仍暗中关注她”，未解释座位空缺原因。\n\n7. 第八章提到“一位女生质疑自己的分班情况”，但未明确该女生是否为林夏，与前文设定不一致。",
+  "slug": "xiaoyuan-20261020-111",
+  "profile": "校园青春",
+  "title": "磁带里的告白",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20520,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19496,
+    "chapter_chars_mean": 2166,
+    "chapter_chars_median": 2282,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 47.8,
+    "dialogue_chars_pct": 18.8,
+    "dialogue_para_pct": 57.8,
+    "interiority_para_pct": 18.0,
+    "narration_para_pct": 24.1,
+    "turn_under20_pct": 90.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.6,
+    "attr_adv_pct": 8.2,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕下一角的课表",
+      "chars": 1303,
+      "score": 95.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "磁带里的秘密",
+      "chars": 2543,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "纸条上的泪痕",
+      "chars": 2370,
+      "score": 49.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "课表边缘的指纹",
+      "chars": 2474,
+      "score": 45.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "袖口的折痕",
+      "chars": 2237,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "袖口的粉笔灰",
+      "chars": 2380,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "等待的课表",
+      "chars": 2638,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "撕掉一角的名单",
+      "chars": 2578,
+      "score": 80.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "课表边缘的指纹",
+      "chars": 1988,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 14.8 低于目标 15.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 18.6 低于目标 20.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 13.9 低于目标 20.0",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）"
+    ],
+    "4": [
+      "dialogue_chars_pct 13.5 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 25 句（如「陈老师摇了摇头，“每一学期都会有人来调整课表，尤…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「带着一丝」×3",
+      "[observe] 章内自我复读 15 句（如「林夏下意识地摸了摸袖口，才发现那里有几道细小的折…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林夏站在」×4、「林夏点点」×3",
+      "[observe] 章内自我复读 17 句（如「她的眼睛在那些名字间游移，直到看见自己的名字出现…」）"
+    ],
+    "7": [
+      "dialogue_chars_pct 19.6 低于目标 20.0",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 章内自我复读 15 句（如「那一刻，他突然明白了，原来有些人，只需要偶尔看见…」）"
+    ],
+    "8": [
+      "dialogue_chars_pct 15.7 低于目标 20.0",
+      "[observe] 章内自我复读 20 句（如「他抬起头，看向窗外的操场上，几个学生正在跑道上奔…」）"
+    ],
+    "9": [
+      "interiority_para_pct 6.7 低于目标 8.0",
+      "[observe] 标题重复：「课表边缘的指纹」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 446.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:08:36"
+}

@@ -1,0 +1,160 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-155",
+  "profile": "校园青春",
+  "title": "磁带里的声音",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21077,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19928,
+    "chapter_chars_mean": 2214,
+    "chapter_chars_median": 2228,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 54.1,
+    "dialogue_chars_pct": 25.5,
+    "dialogue_para_pct": 67.0,
+    "interiority_para_pct": 13.2,
+    "narration_para_pct": 19.8,
+    "turn_under20_pct": 92.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.3,
+    "attr_adv_pct": 4.7,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "指尖触碰调令",
+      "chars": 1519,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "划掉名字的课表",
+      "chars": 3086,
+      "score": 85.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带盒掉落瞬间",
+      "chars": 2392,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "袖口的折痕",
+      "chars": 2740,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "磁带标签飘向操场",
+      "chars": 2404,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "触摸纸张的温度",
+      "chars": 2159,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "袖口的折痕",
+      "chars": 2749,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "调令的重量",
+      "chars": 2147,
+      "score": 78.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "指尖触碰通知书",
+      "chars": 1872,
+      "score": 93.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「苏明岚的」×3",
+      "[observe] 章内自我复读 17 句（如「这一次，她写得更快了，像是要把所有的想法都塞进这…」）"
+    ],
+    "3": [
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「点了点头」×3、「带着一丝」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「点了点头」×3",
+      "narration_para_pct 7.8 低于目标 15.0"
+    ],
+    "6": [
+      "单条套路句式超限：「苏明岚的」×5"
+    ],
+    "7": [
+      "单条套路句式超限：「陆子墨的」×4",
+      "[observe] 标题重复：「袖口的折痕」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「点了点头」×3、「不仅仅是」×3、「知道自己」×3",
+      "dialogue_chars_pct 16.2 低于目标 20.0",
+      "[observe] 章内自我复读 24 句（如「陈老师的办公桌上堆满了文件，电脑屏幕上闪着蓝光，…」）"
+    ],
+    "9": [
+      "narration_para_pct 10.0 低于目标 15.0",
+      "[observe] 标题与《指尖触碰调令》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 454.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:29:22"
+}

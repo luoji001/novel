@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-153",
+  "profile": "校园青春",
+  "title": "课表上的空白",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21659,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20598,
+    "chapter_chars_mean": 2289,
+    "chapter_chars_median": 2510,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 49.9,
+    "dialogue_chars_pct": 21.4,
+    "dialogue_para_pct": 63.1,
+    "interiority_para_pct": 17.4,
+    "narration_para_pct": 19.5,
+    "turn_under20_pct": 89.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.8,
+    "attr_adv_pct": 10.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "递订单的塑料袋",
+      "chars": 1376,
+      "score": 96.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "触碰的落叶",
+      "chars": 2950,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "触碰的落叶",
+      "chars": 2703,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "磁带放入机器",
+      "chars": 2837,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "课表上的空白",
+      "chars": 2300,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "触碰的就诊卡",
+      "chars": 2618,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "触碰的就诊卡",
+      "chars": 2646,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "成绩单上的褶痕",
+      "chars": 2643,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "触碰的课表一角",
+      "chars": 1577,
+      "score": 84.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 33.3 > 22.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周子墨的」×6、「林晓棠站在」×3、「林晓棠点点」×3",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周子墨的」×6、「林晓棠站在」×3",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题重复：「触碰的落叶」已存在"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周子墨的」×5、「“我不知道」×3、「林晓棠点点」×3",
+      "narration_para_pct 14.1 低于目标 15.0",
+      "[observe] 章内自我复读 15 句（如「林晓棠看着他微驼的肩膀，想起昨夜整理成绩单的时候…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 18.7 低于目标 20.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 18.1 低于目标 20.0"
+    ],
+    "7": [
+      "单条套路句式超限：「周子墨的」×9",
+      "dialogue_chars_pct 18.0 低于目标 20.0",
+      "[observe] 标题重复：「触碰的就诊卡」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「周子墨的」×5",
+      "narration_para_pct 13.6 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「周子墨笑了笑，“那时候你觉得我太吵了，现在想起来…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「带着一丝」×3",
+      "dialogue_chars_pct 14.0 低于目标 20.0",
+      "[observe] 章内自我复读 3 句（如「她闭上了眼睛，仿佛还能听到那句熟悉的话语，在耳边…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 459.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:19:58"
+}

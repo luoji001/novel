@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-68",
+  "profile": "校园青春",
+  "title": "磁带播放",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21149,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20007,
+    "chapter_chars_mean": 2223,
+    "chapter_chars_median": 2314,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 53.6,
+    "dialogue_chars_pct": 25.8,
+    "dialogue_para_pct": 68.2,
+    "interiority_para_pct": 12.6,
+    "narration_para_pct": 19.2,
+    "turn_under20_pct": 92.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.1,
+    "attr_adv_pct": 11.5,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲纸边",
+      "chars": 1607,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摩挲纸边",
+      "chars": 2452,
+      "score": 83.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲纸边",
+      "chars": 2430,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "磁带播放",
+      "chars": 2433,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲纸边",
+      "chars": 2685,
+      "score": 80.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "摩挲笔记本封面",
+      "chars": 2835,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "摩挲笔记本封面",
+      "chars": 2223,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "摩挲课本边缘",
+      "chars": 2560,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摩挲笔记本封面",
+      "chars": 1915,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「教务处」×8、「顾明远的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「顾明远的」×9、「林晚晴的」×3",
+      "[observe] 章内自我复读 40 句（如「林晚晴的目光不由自主地飘向那个位置，那里写着她的…」）",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「顾明远的」×5、「林晚晴的」×3",
+      "[observe] 章内自我复读 15 句（如「顾明远盯着那些数字，忽然发现其中有个熟悉的符号—…」）",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「林晚晴的」×3",
+      "narration_para_pct 11.4 低于目标 15.0",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 15.3 低于目标 20.0",
+      "[observe] 章内自我复读 13 句（如「窗外的风轻轻吹进来，卷起了几片落叶，飘落在地上，…」）",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「林晚晴的」×5、「心中充满了」×3、「顾明远点」×3"
+    ],
+    "7": [
+      "[observe] 标题重复：「摩挲笔记本封面」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「顾明远的」×5、「林晚晴点点」×3、「林晚晴的」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题与《摩挲纸边》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "narration_para_pct 12.0 低于目标 15.0",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题重复：「摩挲笔记本封面」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 457.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T12:55:39"
+}

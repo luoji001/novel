@@ -1,0 +1,164 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-64",
+  "profile": "校园青春",
+  "title": "磁带的旋律",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21963,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20916,
+    "chapter_chars_mean": 2324,
+    "chapter_chars_median": 2438,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 50.8,
+    "dialogue_chars_pct": 22.6,
+    "dialogue_para_pct": 62.1,
+    "interiority_para_pct": 14.4,
+    "narration_para_pct": 23.5,
+    "turn_under20_pct": 89.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.6,
+    "attr_adv_pct": 4.1,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "纸团里的数学题",
+      "chars": 1476,
+      "score": 90.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "课本边角的摩挲",
+      "chars": 2558,
+      "score": 57.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "调试录音机",
+      "chars": 2428,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "外套口袋的硬币",
+      "chars": 2775,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "调试录音机",
+      "chars": 2404,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "公告栏的红圈",
+      "chars": 2842,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "擦桌角的灰",
+      "chars": 2585,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "诊断书的边缘",
+      "chars": 2982,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "墨迹如泪",
+      "chars": 1904,
+      "score": 85.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周子航的」×5、「林小满的」×4",
+      "dialogue_chars_pct 16.7 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林小满的」×7",
+      "dialogue_chars_pct 14.9 低于目标 20.0",
+      "dialogue_run_mean 1.3 低于目标 1.5",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周子航的」×6、「带着一丝」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「周子航的」×5、「他知道这」×4、「”周子航低」×3"
+    ],
+    "5": [
+      "[observe] 标题重复：「调试录音机」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「周子航的」×7、「林小满的」×4",
+      "narration_para_pct 13.5 低于目标 15.0",
+      "[observe] 章内自我复读 21 句（如「周子航没有回答，只是默默地把那份分科表折起来，放…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「周子航的」×4、「周子航点」×3"
+    ],
+    "8": [
+      "单条套路句式超限：「周子航的」×5、「”周子航轻」×3、「”周子航低」×3"
+    ],
+    "9": [
+      "单条套路句式超限：「林小满的」×4、「周子航点」×3、「周子航的」×3",
+      "[observe] 章内自我复读 18 句（如「林小满走近一步，声音比平时更低了一些，“反正我们…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 468.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T12:37:36"
+}

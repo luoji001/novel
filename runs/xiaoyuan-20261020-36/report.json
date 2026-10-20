@@ -1,0 +1,168 @@
+{
+  "consistency": "1. 第三章提到林夏被定为文科生，第四章却说她与周朗约定一起报考理科班，前后矛盾。\n\n2. 第五章提到周朗在篮球场回忆与林夏的过往，但第一章已说明他们因分科消息陷入沉默，暗示分科已成定局，与第五章的“重拾未竟的情愫”不符。\n\n3. 第八章提到林夏因走读申请被拒，被分入文科班，但第四章已说明林夏已被定为文科生，重复且无必要。\n\n4. 第九章提到林夏因走读证明被老师发现，但第六章已说明林夏隐瞒走读证明的秘密，且未被老师发现，前后矛盾。\n\n5. 第三章、第八章、第九章均出现“摩挲纸边的手指”这一标题，重复使用，缺乏区分度。",
+  "slug": "xiaoyuan-20261020-36",
+  "profile": "校园青春",
+  "title": "红绳",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 22458,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 21361,
+    "chapter_chars_mean": 2373,
+    "chapter_chars_median": 2397,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 53.4,
+    "dialogue_chars_pct": 27.5,
+    "dialogue_para_pct": 68.7,
+    "interiority_para_pct": 13.6,
+    "narration_para_pct": 17.7,
+    "turn_under20_pct": 90.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 48.0,
+    "attr_adv_pct": 6.6,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红绳断了",
+      "chars": 1741,
+      "score": 99.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "播放磁带",
+      "chars": 3286,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "摩挲纸边的手指",
+      "chars": 2417,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红绳缠腕",
+      "chars": 2979,
+      "score": 84.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲木纹的手指",
+      "chars": 2757,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "走读生的证明",
+      "chars": 2365,
+      "score": 84.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "摩挲袖口的线头",
+      "chars": 2733,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲纸边的手指",
+      "chars": 2496,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲纸边的手指",
+      "chars": 1675,
+      "score": 78.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 7.5 低于目标 15.0",
+      "[observe] 章内自我复读 32 句（如「他知道，这一刻会成为他们之间的一个转折点，尽管未…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林夏站在」×3",
+      "dialogue_chars_pct 17.8 低于目标 20.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 32 句（如「林夏忽然开口，声音很小，像是怕惊醒什么，“我们被…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林夏点点」×4、「林夏站在」×3、「”周朗低」×3",
+      "interiority_para_pct 5.8 低于目标 8.0",
+      "narration_para_pct 11.6 低于目标 15.0",
+      "[observe] 标题与《摩挲纸边的手指》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「林夏站在」×3",
+      "dialogue_chars_pct 19.5 低于目标 20.0",
+      "narration_para_pct 12.8 低于目标 15.0",
+      "[observe] 章内自我复读 26 句（如「她突然想起昨天晚上，周朗打电话来说他要在县一中的…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「林夏点点」×5、「带着一丝」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 18 句（如「林夏独自坐在操场看台的第三排座位上，手里紧紧攥着…」）"
+    ],
+    "8": [
+      "narration_para_pct 14.3 低于目标 15.0",
+      "[observe] 标题重复：「摩挲纸边的手指」已存在"
+    ],
+    "9": [
+      "dialogue_chars_pct 14.9 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 章内自我复读 19 句（如「林夏的心跳加快了一下，她想要回答，却又怕说出来后…」）",
+      "[observe] 标题重复：「摩挲纸边的手指」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 479.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:30:55"
+}

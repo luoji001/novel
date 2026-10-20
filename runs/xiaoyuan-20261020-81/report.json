@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-81",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21099,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20119,
+    "chapter_chars_mean": 2235,
+    "chapter_chars_median": 2431,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 47.6,
+    "dialogue_chars_pct": 20.6,
+    "dialogue_para_pct": 57.9,
+    "interiority_para_pct": 17.6,
+    "narration_para_pct": 24.5,
+    "turn_under20_pct": 89.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.2,
+    "attr_adv_pct": 1.8,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表飘动",
+      "chars": 1424,
+      "score": 98.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "袖口褶皱",
+      "chars": 2469,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带裂痕",
+      "chars": 2487,
+      "score": 9.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "课表重叠",
+      "chars": 2786,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "试卷藏入衣袋",
+      "chars": 2533,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "分科表重贴",
+      "chars": 2641,
+      "score": 82.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "袖口褶皱",
+      "chars": 2571,
+      "score": 87.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "磁带藏入衣袋",
+      "chars": 2748,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "袖口褶皱",
+      "chars": 1431,
+      "score": 73.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林小满的」×3",
+      "dialogue_chars_pct 19.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林小满的」×5",
+      "dialogue_chars_pct 18.9 低于目标 20.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 9.1 低于目标 20.0",
+      "[observe] 章内自我复读 11 句（如「他忽然想起一个画面：林小满站在公告栏前，双手紧握…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林小满的」×6",
+      "[observe] 章内自我复读 12 句（如「可能会有些麻烦，”陈老师点点头，“但这是学校统一…」）"
+    ],
+    "5": [
+      "narration_para_pct 13.6 低于目标 15.0",
+      "[observe] 章内自我复读 10 句（如「而她也只能在这短暂的时间里，尽可能多做一些让自己…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林小满的」×8、「林小满和苏远」×7、「林小满深吸」×3",
+      "dialogue_chars_pct 18.9 低于目标 20.0",
+      "[observe] 章内自我复读 27 句（如「苏远也没有回应，只是默默地握紧了手中的东西，像是…」）",
+      "[observe] 标题与《分科表飘动》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「林小满站在」×5、「带着一丝」×3",
+      "[observe] 章内自我复读 17 句（如「他知道，有些话终究还是说不出口，就像那些藏在心底…」）",
+      "[observe] 标题重复：「袖口褶皱」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林小满的」×4、「他知道这」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题与《试卷藏入衣袋》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "dialogue_chars_pct 10.4 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「林小满望着公告栏上的名字，忽然想起什么，伸手摸了…」）",
+      "[observe] 标题重复：「袖口褶皱」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 445.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T13:54:06"
+}

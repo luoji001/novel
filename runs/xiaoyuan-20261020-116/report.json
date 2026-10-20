@@ -1,0 +1,161 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-116",
+  "profile": "校园青春",
+  "title": "补课通知的张贴",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20106,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19080,
+    "chapter_chars_mean": 2120,
+    "chapter_chars_median": 2269,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 47.4,
+    "dialogue_chars_pct": 22.5,
+    "dialogue_para_pct": 63.0,
+    "interiority_para_pct": 13.3,
+    "narration_para_pct": 23.8,
+    "turn_under20_pct": 90.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.6,
+    "attr_adv_pct": 4.0,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "抚摸名单的指尖",
+      "chars": 1472,
+      "score": 98.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "触摸照片的指尖",
+      "chars": 2702,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "笔记本的裂痕",
+      "chars": 2533,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "磁带的褶皱",
+      "chars": 2312,
+      "score": 84.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "脚印在台阶上延伸",
+      "chars": 2420,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "拾起病历本的瞬间",
+      "chars": 2359,
+      "score": 55.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "电流声中的对话",
+      "chars": 2188,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "值日表的签名",
+      "chars": 2568,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "抚摸名单的指尖",
+      "chars": 1543,
+      "score": 86.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "dialogue_chars_pct 18.3 低于目标 20.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 18.7 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「苏晓阳的」×5、「他知道自己」×4",
+      "[observe] 章内自我复读 36 句（如「他转过身，看见周老师正拿着一份文件朝这边走来，脚…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「苏晓阳的」×3",
+      "narration_para_pct 11.7 低于目标 15.0"
+    ],
+    "6": [
+      "单条套路句式超限：「苏晓阳的」×6",
+      "dialogue_chars_pct 14.6 低于目标 20.0"
+    ],
+    "7": [
+      "单条套路句式超限：「陆子墨点」×3",
+      "[observe] 章内自我复读 20 句（如「陆子墨笑了，那是他第一次写歌词的时候，还在宿舍床…」）"
+    ],
+    "8": [
+      "[observe] 章内自我复读 2 句（如「周老师站在走廊尽头，手里拿着值日表…」）"
+    ],
+    "9": [
+      "dialogue_chars_pct 15.2 低于目标 20.0",
+      "narration_para_pct 13.0 低于目标 15.0",
+      "[observe] 标题重复：「抚摸名单的指尖」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 441.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:31:37"
+}

@@ -1,0 +1,168 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-96",
+  "profile": "校园青春",
+  "title": "第七级台阶",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19672,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18686,
+    "chapter_chars_mean": 2076,
+    "chapter_chars_median": 2185,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 45.7,
+    "dialogue_chars_pct": 23.8,
+    "dialogue_para_pct": 63.0,
+    "interiority_para_pct": 15.3,
+    "narration_para_pct": 21.7,
+    "turn_under20_pct": 88.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.8,
+    "attr_adv_pct": 6.5,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "握紧课表的手指",
+      "chars": 1550,
+      "score": 96.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "课表上的空白行",
+      "chars": 2423,
+      "score": 86.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "冻疮的手腕",
+      "chars": 2304,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "信封上的地址",
+      "chars": 2242,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摸纸边的手指",
+      "chars": 2380,
+      "score": 86.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摸纸边的手指",
+      "chars": 2177,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "握紧笔记本的手指",
+      "chars": 2293,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "磁带上的小雨",
+      "chars": 2677,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摸纸边的手指",
+      "chars": 1617,
+      "score": 91.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林晓阳的」×3"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林晓阳站在」×6、「他知道这」×4、「林晓阳的」×4",
+      "dialogue_chars_pct 16.9 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「他知道，这只是开始的一部分…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「”苏雨桐低」×3、「苏雨桐的」×3、「他知道这」×3",
+      "[observe] 章内自我复读 5 句（如「林晓阳望着她苍白的嘴唇，突然意识到她眼角也有细细…」）"
+    ],
+    "4": [
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「带着一丝」×3、「他知道这」×3、「为什么会」×3",
+      "[observe] 章内自我复读 16 句（如「陈老师的表情有些复杂，但他最终还是摇了摇头：“这…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×7、「林晓阳站在」×5、「林晓阳点了点头」×3",
+      "[observe] 标题重复：「摸纸边的手指」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「“我不知道」×3、「林晓阳的」×3",
+      "dialogue_chars_pct 19.2 低于目标 20.0",
+      "[observe] 标题与《握紧课表的手指》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「”苏雨桐轻」×3、「苏雨桐点」×3",
+      "narration_para_pct 8.3 低于目标 15.0",
+      "[observe] attr_adv_pct 26.3 > 22.0（结构塌缩）"
+    ],
+    "9": [
+      "单条套路句式超限：「苏雨桐的」×3",
+      "[observe] 标题重复：「摸纸边的手指」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 415.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T15:01:24"
+}

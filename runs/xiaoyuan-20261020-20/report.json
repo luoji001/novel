@@ -1,0 +1,170 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-20",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20855,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19837,
+    "chapter_chars_mean": 2204,
+    "chapter_chars_median": 2364,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 48.3,
+    "dialogue_chars_pct": 18.8,
+    "dialogue_para_pct": 60.4,
+    "interiority_para_pct": 19.7,
+    "narration_para_pct": 19.9,
+    "turn_under20_pct": 94.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.9,
+    "attr_adv_pct": 4.1,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "病历卡的触碰",
+      "chars": 1245,
+      "score": 38.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "手指抚过公告栏",
+      "chars": 2550,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "手指抚过磁带封皮",
+      "chars": 3025,
+      "score": 11.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "校服外套的重量",
+      "chars": 2379,
+      "score": 83.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手指拂过课表边缘",
+      "chars": 2417,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "手指拂过公告栏",
+      "chars": 2477,
+      "score": 85.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "手指抚过分科表",
+      "chars": 2658,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "磁带消失的瞬间",
+      "chars": 2604,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "手指拂过公告栏",
+      "chars": 1491,
+      "score": 90.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 16.1 低于目标 20.0",
+      "[observe] 章内自我复读 15 句（如「窗外的蝉鸣越来越急，林夏看着程野的背影，想起自己…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林夏站在」×3",
+      "dialogue_chars_pct 18.5 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「点了点头」×4",
+      "dialogue_chars_pct 9.4 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「有时候他会给我讲一些关于人生哲理的故事，有时也会…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 17.9 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「她一直在努力让自己看起来很开心，可是在这一刻，她…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林夏站在」×3",
+      "narration_para_pct 12.3 低于目标 15.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「那你为什么总是躲着我？…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「带着一丝」×3",
+      "dialogue_chars_pct 17.6 低于目标 20.0",
+      "[observe] 章内自我复读 5 句（如「他只是继续翻着课本，好像完全没有听懂她的问题…」）",
+      "[observe] 标题与《手指抚过公告栏》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「林夏站在」×3"
+    ],
+    "8": [
+      "单条套路句式超限：「知道自己」×3、「为什么会」×3",
+      "dialogue_chars_pct 19.7 低于目标 20.0",
+      "[observe] 章内自我复读 8 句（如「她不知道自己为什么会有这种感觉，好像丢掉的东西不…」）"
+    ],
+    "9": [
+      "[observe] 标题重复：「手指拂过公告栏」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 444.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T09:18:35"
+}

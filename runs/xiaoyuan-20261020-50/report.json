@@ -1,0 +1,173 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-50",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20964,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19940,
+    "chapter_chars_mean": 2216,
+    "chapter_chars_median": 2369,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 46.6,
+    "dialogue_chars_pct": 21.4,
+    "dialogue_para_pct": 59.7,
+    "interiority_para_pct": 14.9,
+    "narration_para_pct": 25.4,
+    "turn_under20_pct": 91.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.1,
+    "attr_adv_pct": 8.1,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲转学通知边缘",
+      "chars": 1364,
+      "score": 95.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "摩挲课表边缘",
+      "chars": 2729,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲笔记本边角",
+      "chars": 2699,
+      "score": 86.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "摩挲袖口补丁",
+      "chars": 2651,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲磁带边缘",
+      "chars": 2392,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摩挲窗框红漆标语",
+      "chars": 2533,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "摩挲转学通知边缘",
+      "chars": 2495,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲红漆标语边缘",
+      "chars": 2453,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲公告栏边缘",
+      "chars": 1639,
+      "score": 91.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 7.1 低于目标 8.0",
+      "narration_para_pct 14.3 低于目标 15.0",
+      "[observe] 章内自我复读 3 句（如「林晓阳苦笑了一下，手指无意识地摩挲着那张被撕下的…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「带着一丝」×3、「林晓阳的」×3",
+      "dialogue_chars_pct 19.9 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「他在想，如果父亲真的离开了，他会不会也像这些落叶…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×6、「周子墨的」×3",
+      "dialogue_chars_pct 19.6 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「他知道，这些公式不会告诉他答案，但他知道，这些东…」）",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「周子墨的」×6、「林晓阳的」×5、「林晓阳站在」×3",
+      "[observe] 章内自我复读 21 句（如「周子墨似乎感受到了林晓阳的情绪，轻轻地拍了拍他的…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓阳的」×5、「周子墨的」×3",
+      "dialogue_chars_pct 19.4 低于目标 20.0",
+      "[observe] 标题与《摩挲课表边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×4",
+      "dialogue_chars_pct 15.7 低于目标 20.0"
+    ],
+    "7": [
+      "单条套路句式超限：「林晓阳站在」×3、「周子墨的」×3",
+      "[observe] attr_adv_pct 44.4 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「摩挲转学通知边缘」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓阳站在」×3",
+      "[observe] 标题与《摩挲窗框红漆标语》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「林晓阳站在」×4、「“我不知道」×3",
+      "dialogue_chars_pct 18.6 低于目标 20.0",
+      "[observe] 标题与《摩挲磁带边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 444.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T11:35:05"
+}

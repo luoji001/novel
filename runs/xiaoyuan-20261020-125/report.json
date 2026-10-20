@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-125",
+  "profile": "校园青春",
+  "title": "报名表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21095,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19865,
+    "chapter_chars_mean": 2207,
+    "chapter_chars_median": 2434,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 60.1,
+    "dialogue_chars_pct": 32.2,
+    "dialogue_para_pct": 69.8,
+    "interiority_para_pct": 12.0,
+    "narration_para_pct": 18.2,
+    "turn_under20_pct": 90.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.1,
+    "attr_adv_pct": 5.8,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 3.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "粉笔灰落在肩头",
+      "chars": 1580,
+      "score": 96.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "缝补袖口的午后",
+      "chars": 2647,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "橡皮擦上的指纹",
+      "chars": 2605,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "八百米报名表的背面",
+      "chars": 2496,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "缝补袖口的午后",
+      "chars": 2581,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 6,
+      "title": "笔记本里的八百米",
+      "chars": 2611,
+      "score": 84.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "被揉皱的报名表",
+      "chars": 2843,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "揉皱的报名表",
+      "chars": 2422,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "八百米报名表的背面",
+      "chars": 1301,
+      "score": 37.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 18.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「苏雨桐点」×4、「苏雨桐的」×4",
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「苏雨桐的」×5、「林晓阳的」×3",
+      "[observe] 章内自我复读 22 句（如「林晓阳指着桌面上的一道铅笔划痕，“我在帮你修改上…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「苏雨桐的」×10、「他知道自己」×4、「林晓阳站在」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓阳站在」×3、「“我不知道」×3",
+      "interiority_para_pct 1.5 低于目标 8.0",
+      "narration_para_pct 7.6 低于目标 15.0",
+      "dialogue_run_mean 12 高于目标 10.0",
+      "[observe] 标题重复：「缝补袖口的午后」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓阳的」×7、「苏雨桐的」×5",
+      "[observe] 章内自我复读 34 句（如「他的视线不由自主地落在苏雨桐的手腕上，那里还戴着…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「苏雨桐点了点头」×3、「苏雨桐点」×3",
+      "narration_para_pct 12.2 低于目标 15.0"
+    ],
+    "8": [
+      "单条套路句式超限：「苏雨桐的」×5、「“我不知道」×3",
+      "narration_para_pct 10.2 低于目标 15.0",
+      "[observe] 章内自我复读 19 句（如「林晓阳看了看苏雨桐，又看看手中的笔记本，最后轻轻…」）",
+      "[observe] 标题与《被揉皱的报名表》近似 0.92 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「苏雨桐的」×7、「他知道这」×3、「发现自己」×3",
+      "dialogue_chars_pct 17.2 低于目标 20.0",
+      "[observe] 章内自我复读 15 句（如「林晓阳低头看着那张报名表，手指无意识地摩挲着边缘…」）",
+      "[observe] 标题重复：「八百米报名表的背面」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 449.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T17:12:48"
+}

@@ -1,0 +1,165 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-119",
+  "profile": "校园青春",
+  "title": "座位票",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20162,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19113,
+    "chapter_chars_mean": 2124,
+    "chapter_chars_median": 2090,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 49.6,
+    "dialogue_chars_pct": 25.9,
+    "dialogue_para_pct": 65.9,
+    "interiority_para_pct": 13.8,
+    "narration_para_pct": 20.2,
+    "turn_under20_pct": 89.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.8,
+    "attr_adv_pct": 6.4,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "课表上的新座位",
+      "chars": 1552,
+      "score": 97.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "座位票的消失",
+      "chars": 3220,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "旧磁带的日期",
+      "chars": 2110,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "纸片上的名字",
+      "chars": 2440,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "分科表的折叠痕迹",
+      "chars": 2309,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "袖口的墨水痕迹",
+      "chars": 2183,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "磁带边缘的刻痕",
+      "chars": 2080,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "窗边的横幅",
+      "chars": 2590,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "磁带边缘的刻痕",
+      "chars": 1669,
+      "score": 92.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「教务处」×6",
+      "[observe] 章内自我复读 4 句（如「因为你坐的位置，”陈默笑着说，“我一直以为你会坐…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×3",
+      "attr_adv_pct 15.6 高于目标 12.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 19.8 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 章内自我复读 14 句（如「她的目光扫过桌角，那张被压得平平的纸片正躺在那里…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「教务处」×8、「林夏站在」×3、「说道“你」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「林夏站在」×4、「教务处」×4、「林夏点点」×3",
+      "narration_para_pct 14.3 低于目标 15.0"
+    ],
+    "6": [
+      "[observe] 章内自我复读 19 句（如「她记得很清楚，那天下着小雨，陈默把自己的外套脱下…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「”陈默低」×3",
+      "interiority_para_pct 6.4 低于目标 8.0"
+    ],
+    "8": [
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 章内自我复读 14 句（如「她知道，这样的安排不会有任何改变，就像她心中那个…」）"
+    ],
+    "9": [
+      "interiority_para_pct 7.3 低于目标 8.0",
+      "[observe] 标题重复：「磁带边缘的刻痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 428.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:45:23"
+}

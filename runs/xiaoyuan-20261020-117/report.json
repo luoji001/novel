@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-117",
+  "profile": "校园青春",
+  "title": "纽扣",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20269,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19302,
+    "chapter_chars_mean": 2145,
+    "chapter_chars_median": 2351,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 46,
+    "dialogue_chars_pct": 25.6,
+    "dialogue_para_pct": 65.4,
+    "interiority_para_pct": 17.2,
+    "narration_para_pct": 17.4,
+    "turn_under20_pct": 87.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.7,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铅笔划痕",
+      "chars": 1302,
+      "score": 97.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲纽扣看志愿表",
+      "chars": 2596,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "志愿表上的折痕",
+      "chars": 2608,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲磁带盒",
+      "chars": 2201,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲纽扣看志愿表",
+      "chars": 2404,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摩挲纽扣看志愿表",
+      "chars": 2667,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "摩挲志愿表",
+      "chars": 2472,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "摩挲黑板擦",
+      "chars": 2479,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摩挲纽扣看志愿表",
+      "chars": 1531,
+      "score": 87.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 8.0 低于目标 15.0",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈砚舟的」×4、「他知道自己」×3",
+      "narration_para_pct 14.6 低于目标 15.0",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林知夏的」×5、「他知道这」×4、「沈砚舟的」×3",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「沈砚舟的」×3",
+      "narration_para_pct 11.4 低于目标 15.0",
+      "[observe] 章内自我复读 7 句（如「你知道吗？有时候我会想，如果我们不是在这里，是不…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林知夏的」×6、「沈砚舟的」×4",
+      "dialogue_chars_pct 18.1 低于目标 20.0",
+      "[observe] 标题重复：「摩挲纽扣看志愿表」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「沈砚舟的」×10、「”沈砚舟轻」×4、「林知夏的」×3",
+      "narration_para_pct 13.6 低于目标 15.0",
+      "[observe] 章内自我复读 2 句（如「我就在这儿，给你们做些事情…」）",
+      "[observe] 标题重复：「摩挲纽扣看志愿表」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「林知夏点点」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 17 句（如「他想到了那个清晨，阳光透过窗户洒在他的书桌上，他…」）",
+      "[observe] 标题与《摩挲纽扣看志愿表》近似 0.77 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「沈砚舟的」×4、「林知夏点点」×3、「林知夏的」×3",
+      "dialogue_chars_pct 19.1 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「你知道吗，”林知夏低声说，“有时候我想把所有的事…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「他知道这」×3、「林知夏的」×3",
+      "[observe] 章内自我复读 17 句（如「他的目光落在教室后墙那张泛黄的分科表上，像是第一…」）",
+      "[observe] 标题重复：「摩挲纽扣看志愿表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 440.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:36:12"
+}

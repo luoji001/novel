@@ -1,0 +1,166 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-38",
+  "profile": "校园青春",
+  "title": "铁皮桶",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20278,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19192,
+    "chapter_chars_mean": 2132,
+    "chapter_chars_median": 2169,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 52.3,
+    "dialogue_chars_pct": 27.2,
+    "dialogue_para_pct": 66.4,
+    "interiority_para_pct": 15.5,
+    "narration_para_pct": 18.0,
+    "turn_under20_pct": 86.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.9,
+    "attr_adv_pct": 12.9,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "贴错的分科表",
+      "chars": 1347,
+      "score": 96.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "摩挲笔记本的指尖",
+      "chars": 2195,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "食堂的铁皮桶",
+      "chars": 2828,
+      "score": 85.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "铁皮桶里的磁带",
+      "chars": 2312,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲手表的手指",
+      "chars": 2348,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲书包夹层的手指",
+      "chars": 2847,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "食堂的铁皮桶",
+      "chars": 2240,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "摩挲借条的指尖",
+      "chars": 2533,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "摩挲饭票的指尖",
+      "chars": 1619,
+      "score": 85.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 4.4 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「带着一丝」×3",
+      "attr_adv_pct 15.8 高于目标 12.0",
+      "[observe] 章内自我复读 34 句（如「当他回到教室时，看见桌上摆着一些早餐食物，那是林…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「周晓阳点」×3、「他知道这」×3"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 29.4 > 22.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「林子安的」×9、「他知道这」×4",
+      "narration_para_pct 11.1 低于目标 15.0",
+      "[observe] 章内自我复读 34 句（如「而在林子安的眼中，这张简单的课表仿佛变成了一块巨…」）",
+      "[observe] 标题与《摩挲手表的手指》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "dialogue_chars_pct 19.0 低于目标 20.0",
+      "[observe] 标题重复：「食堂的铁皮桶」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「周晓阳的」×4",
+      "narration_para_pct 14.8 低于目标 15.0",
+      "[observe] attr_adv_pct 37.5 > 22.0（结构塌缩）",
+      "[observe] 标题与《摩挲笔记本的指尖》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「他知道这」×3、「林子安的」×3",
+      "narration_para_pct 10.5 低于目标 15.0",
+      "[observe] 章内自我复读 13 句（如「林子安的手指在裤兜里握紧了饭票，忽然想起来昨天下…」）",
+      "[observe] 标题与《摩挲借条的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 424.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:40:05"
+}

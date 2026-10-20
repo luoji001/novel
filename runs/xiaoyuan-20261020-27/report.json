@@ -1,0 +1,172 @@
+{
+  "consistency": "1. 第二章提到苏阳将旧课表交给林夏，但第九章又说林夏得知自己被分到理科班，与苏阳分开，暗示苏阳可能未被分到理科班，与前文矛盾。\n\n2. 第三章提到苏阳被分到理科班，前往省城补习，但第九章又说林夏被分到理科班，与苏阳分开，导致苏阳分科情况与林夏分科情况混淆，逻辑不清。\n\n3. 第四章提到陈老师收走林夏的校服外套，但第五章提到林夏在陈老师手中接过苏阳遗留的校服，前后人物与物品交接不一致。\n\n4. 第六章提到林夏在广播站与苏阳重逢，得知他即将离开，但第三章已说明苏阳前往省城补习，时间线存在矛盾。",
+  "slug": "xiaoyuan-20261020-27",
+  "profile": "校园青春",
+  "title": "广播站钥匙",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20176,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19191,
+    "chapter_chars_mean": 2132,
+    "chapter_chars_median": 2351,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 47.6,
+    "dialogue_chars_pct": 25.6,
+    "dialogue_para_pct": 65.4,
+    "interiority_para_pct": 15.2,
+    "narration_para_pct": 19.4,
+    "turn_under20_pct": 88.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.4,
+    "attr_adv_pct": 5.2,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲钥匙纹路",
+      "chars": 1207,
+      "score": 98.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲纸角",
+      "chars": 2606,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "摩挲纸角",
+      "chars": 2601,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲校服衣角",
+      "chars": 2567,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲钥匙纹路",
+      "chars": 2308,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 6,
+      "title": "摩挲钥匙纹路",
+      "chars": 2479,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "摩挲磁带标签",
+      "chars": 2473,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "摩挲钥匙纹路",
+      "chars": 2459,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摩挲纸角",
+      "chars": 1467,
+      "score": 91.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「广播站」×4",
+      "narration_para_pct 9.5 低于目标 15.0"
+    ],
+    "2": [
+      "narration_para_pct 8.5 低于目标 15.0",
+      "[observe] 章内自我复读 17 句（如「苏阳缓缓收回目光，在那一瞬间，他觉得自己的心好像…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「”林夏低」×3、「广播站」×3",
+      "[observe] 标题重复：「摩挲纸角」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「广播站」×8",
+      "[observe] 标题与《摩挲纸角》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「广播站」×13、「”林夏低」×3",
+      "dialogue_chars_pct 19.8 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 5 句（如「你知道的，那是广播站的规定…」）",
+      "[observe] 标题重复：「摩挲钥匙纹路」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「广播站」×10",
+      "narration_para_pct 8.8 低于目标 15.0",
+      "[observe] 标题重复：「摩挲钥匙纹路」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「广播站」×9、「”林夏低」×3",
+      "dialogue_chars_pct 19.5 低于目标 20.0"
+    ],
+    "8": [
+      "单条套路句式超限：「广播站」×9、「”林夏低」×5",
+      "narration_para_pct 7.5 低于目标 15.0",
+      "[observe] 标题重复：「摩挲钥匙纹路」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「广播站」×4",
+      "[observe] 章内自我复读 1 句（如「陈老师说，“你要走的时候拿去吧…」）",
+      "[observe] 标题重复：「摩挲纸角」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 424.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T09:49:35"
+}

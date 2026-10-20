@@ -1,0 +1,174 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-84",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21742,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20692,
+    "chapter_chars_mean": 2299,
+    "chapter_chars_median": 2374,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 50,
+    "dialogue_chars_pct": 22.5,
+    "dialogue_para_pct": 62.5,
+    "interiority_para_pct": 13.9,
+    "narration_para_pct": 23.6,
+    "turn_under20_pct": 89.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.2,
+    "attr_adv_pct": 7.2,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手与磁带的触碰",
+      "chars": 1472,
+      "score": 47.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "触摸广播机的凹槽",
+      "chars": 2529,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "校服内袋的温度",
+      "chars": 3048,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲分科表边缘",
+      "chars": 2763,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "磁带与手腕的触碰",
+      "chars": 2516,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "触摸广播机的凹槽",
+      "chars": 2374,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "摸分科表边缘的指尖",
+      "chars": 2630,
+      "score": 79.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "磁带与手腕的触碰",
+      "chars": 2472,
+      "score": 87.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 9,
+      "title": "摩挲磁带的指尖",
+      "chars": 1929,
+      "score": 92.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林小满点点」×3、「林小满点」×3",
+      "[observe] 章内自我复读 16 句（如「周子航还是低头看着名单，声音很轻：“你知道吗，每…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×4、「周子航的」×3、「林小满的」×3",
+      "[observe] attr_adv_pct 28.6 > 22.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「林小满的」×5、「他知道这」×4、「林小满站在」×3",
+      "narration_para_pct 14.8 低于目标 15.0",
+      "[observe] 章内自我复读 17 句（如「陈老师的声音再次响起，林小满的目光终于回到黑板上…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林小满的」×6、「他知道这」×4",
+      "dialogue_chars_pct 19.7 低于目标 20.0",
+      "[observe] 章内自我复读 5 句（如「他说，指着一张纸上模糊的墨迹，“你是数学组的，下…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「周子航的」×5、「林小满站在」×3、「林小满的」×3",
+      "[observe] 标题与《手与磁带的触碰》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「周子航点」×3",
+      "interiority_para_pct 6.1 低于目标 8.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「触摸广播机的凹槽」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「周子航的」×3、「林小满的」×3",
+      "dialogue_chars_pct 15.7 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「林小满的目光微微颤动了一下，随后恢复如常：“你还…」）",
+      "[observe] 标题与《摩挲分科表边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林小满的」×7、「他知道这」×3",
+      "dialogue_chars_pct 17.2 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「林小满还想说什么，但最终还是闭上了嘴…」）",
+      "[observe] 标题重复：「磁带与手腕的触碰」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「林小满点点」×3、「周子航的」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 472.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T14:08:10"
+}
