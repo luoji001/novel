@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-257",
+  "profile": "AI 推演",
+  "title": "数据镜",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12066,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11802,
+    "chapter_chars_mean": 1967,
+    "chapter_chars_median": 2031,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 15,
+    "dialogue_chars_pct": 13.5,
+    "dialogue_para_pct": 38.1,
+    "interiority_para_pct": 13.2,
+    "narration_para_pct": 48.7,
+    "turn_under20_pct": 71.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 5.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击桌面",
+      "chars": 2369,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对招聘JD条款",
+      "chars": 2221,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "核对考勤记录",
+      "chars": 2103,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "敲击桌面",
+      "chars": 2051,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "敲击键盘",
+      "chars": 1965,
+      "score": 85.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "敲击键盘",
+      "chars": 1351,
+      "score": 36.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「一条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 30.6 高于目标 18.0",
+      "narration_para_pct 17.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻？…」）",
+      "[observe] 标题重复：「敲击桌面」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 32.6 高于目标 18.0",
+      "narration_para_pct 11.8 低于目标 45.0"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「不过，目前的数据确实还存在一些偏差…」）",
+      "[observe] 标题重复：「敲击键盘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 217.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:25:49"
+}

@@ -23,3 +23,114 @@
     自动放行卡点 #1
   ◉ Langfuse 追踪已开：http://localhost:3000  session=aiyuce-20261021-247
   · approve_outline
+  · plan_scenes  [+6 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第2章第1场「因为招聘JD上未提及代码验证能力，所以未吸引具备该技能的候选人，除非招聘JD明确要求代码验证能力」与第2章第2场「因为招聘JD加入了代码验证能力要求，所以可能吸引更多具备该技能的候选人，除非该要求不符合行业标准」推论重合 0.65（同一章内）
+    第1章 3 场：因为三台测试服务器每月总耗电36 | 因为电费单显示总费用为8400元 | 因为每台服务器每月电费为2800
+    第2章 3 场：因为招聘JD上未提及代码验证能力 | 因为招聘JD加入了代码验证能力要 | 因为招聘JD已通过审核并发布，所
+    第3章 3 场：因为代码验证流程手册第5条要求验 | 因为张晓在导师指导下重新检查了边 | 因为第二版报告的逻辑完整性符合手
+    第4章 3 场：因为张晓的第一版代码验证报告中存 | 因为张晓根据导师建议修改了报告中 | 因为张晓提交的第二版报告覆盖了所
+    第5章 3 场：因为张晓在第二版报告中遗漏了3个 | 因为张晓新增的测试用例覆盖了85 | 因为测试服务器的负载在张晓提交报
+    第6章 2 场：因为招聘JD上明确要求具备代码验 | 因为研发部主管发现代码验证无法替
+
+  继续：novel-agent approve aiyuce-20261021-247 --accept
+  打回：novel-agent approve aiyuce-20261021-247 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/aiyuce-20261021-247
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=aiyuce-20261021-247
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['6']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/aiyuce-20261021-247/report.md
+
+  继续：novel-agent approve aiyuce-20261021-247 --accept
+  打回：novel-agent approve aiyuce-20261021-247 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/aiyuce-20261021-247
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=aiyuce-20261021-247
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/aiyuce-20261021-247
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/aiyuce-20261021-247

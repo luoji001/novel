@@ -1,0 +1,129 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-251",
+  "profile": "AI 推演",
+  "title": "模型复核页数",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11255,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10985,
+    "chapter_chars_mean": 1831,
+    "chapter_chars_median": 1843,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 14.7,
+    "dialogue_chars_pct": 20.6,
+    "dialogue_para_pct": 47.7,
+    "interiority_para_pct": 24.4,
+    "narration_para_pct": 27.9,
+    "turn_under20_pct": 63.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 4.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲预算表",
+      "chars": 1883,
+      "score": 95.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "划线标记调查报告",
+      "chars": 2205,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "目光锁定统计表",
+      "chars": 1815,
+      "score": 34.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "目光锁定统计表",
+      "chars": 1893,
+      "score": 33.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "目光锁定统计表",
+      "chars": 2194,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摩挲调查报告",
+      "chars": 1259,
+      "score": 35.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 33.3 低于目标 45.0"
+    ],
+    "2": [
+      "interiority_para_pct 42.9 高于目标 40.0",
+      "narration_para_pct 35.7 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 51.6 高于目标 18.0",
+      "dialogue_run_mean 6 高于目标 4.0",
+      "narration_para_pct 17.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「一条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「带着一丝」×3",
+      "dialogue_chars_pct 49.3 高于目标 18.0",
+      "narration_para_pct 10.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）",
+      "[observe] 标题重复：「目光锁定统计表」已存在"
+    ],
+    "5": [
+      "narration_para_pct 35.7 低于目标 45.0",
+      "[observe] 标题重复：「目光锁定统计表」已存在"
+    ],
+    "6": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 205.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:11:32"
+}

@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-271",
+  "profile": "AI 推演",
+  "title": "代码灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12906,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12598,
+    "chapter_chars_mean": 2100,
+    "chapter_chars_median": 2218,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 18,
+    "dialogue_chars_pct": 12.2,
+    "dialogue_para_pct": 35.7,
+    "interiority_para_pct": 16.3,
+    "narration_para_pct": 47.9,
+    "turn_under20_pct": 77.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.6,
+    "attr_adv_pct": 1.8,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "审视招聘JD",
+      "chars": 2724,
+      "score": 96.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "浏览招聘JD",
+      "chars": 2379,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对电费单",
+      "chars": 2181,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "指指点点报价单",
+      "chars": 2166,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "核对代码提交记录",
+      "chars": 2350,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲咖啡杯沿",
+      "chars": 1100,
+      "score": 89.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「深圳某科技园区」×3",
+      "narration_para_pct 33.3 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《审视招聘JD》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 43.1 高于目标 18.0",
+      "narration_para_pct 25.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的事实推翻呢…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 217.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:58:56"
+}

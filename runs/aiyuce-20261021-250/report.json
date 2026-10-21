@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-250",
+  "profile": "AI 推演",
+  "title": "折旧表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12286,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11994,
+    "chapter_chars_mean": 1999,
+    "chapter_chars_median": 2040,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 15.3,
+    "dialogue_chars_pct": 3.7,
+    "dialogue_para_pct": 26.4,
+    "interiority_para_pct": 25.7,
+    "narration_para_pct": 47.9,
+    "turn_under20_pct": 95.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 48.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.3,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "目光停留在JD文件上",
+      "chars": 2041,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "目光停留在工资条上",
+      "chars": 2557,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "抽查持证人员比例",
+      "chars": 2228,
+      "score": 58.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "目光停留在折旧表上",
+      "chars": 1964,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "目光停留在合同上",
+      "chars": 2148,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "目光停留在JD文件上",
+      "chars": 1342,
+      "score": 35.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道这」×4",
+      "interiority_para_pct 47.1 高于目标 40.0",
+      "narration_para_pct 17.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「必须持有国家职业资格证书…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「人事部主管拿起那张标注员的工资条，目光停留在“每…」）",
+      "[observe] 标题与《目光停留在JD文件上》近似 0.63 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《目光停留在工资条上》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 30.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「标注单价为每小时80元…」）",
+      "[observe] 标题与《目光停留在工资条上》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 44.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「然而，这条推论会被什么推翻呢…」）",
+      "[observe] 标题重复：「目光停留在JD文件上」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 219.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:09:18"
+}

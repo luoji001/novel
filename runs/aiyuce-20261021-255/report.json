@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-255",
+  "profile": "AI 推演",
+  "title": "初筛",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11417,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11160,
+    "chapter_chars_mean": 1860,
+    "chapter_chars_median": 2131,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 13.7,
+    "dialogue_chars_pct": 11.8,
+    "dialogue_para_pct": 31.1,
+    "interiority_para_pct": 15.6,
+    "narration_para_pct": 53.3,
+    "turn_under20_pct": 75.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.9,
+    "attr_adv_pct": 5.3,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 5
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅统计表",
+      "chars": 2158,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "翻阅统计表",
+      "chars": 2199,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻阅报价单",
+      "chars": 2520,
+      "score": 34.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "翻阅年度预算明细",
+      "chars": 2181,
+      "score": 35.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻阅招聘JD",
+      "chars": 1063,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "翻阅CT检查量统计表",
+      "chars": 1290,
+      "score": 86.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 标题重复：「翻阅统计表」已存在"
+    ],
+    "3": [
+      "dialogue_chars_pct 48.1 高于目标 18.0",
+      "dialogue_run_mean 5.2 高于目标 4.0",
+      "narration_para_pct 13.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 标题与《翻阅统计表》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 203.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:21:10"
+}

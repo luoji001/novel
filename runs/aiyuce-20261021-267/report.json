@@ -1,0 +1,127 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-267",
+  "profile": "AI 推演",
+  "title": "AI推理单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11723,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11441,
+    "chapter_chars_mean": 1907,
+    "chapter_chars_median": 1952,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 15.5,
+    "dialogue_chars_pct": 18.7,
+    "dialogue_para_pct": 42.8,
+    "interiority_para_pct": 9.4,
+    "narration_para_pct": 47.8,
+    "turn_under20_pct": 51.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 9.5,
+    "attr_adv_pct": 8.1,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对设备兼容性",
+      "chars": 2100,
+      "score": 96.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "核对设备兼容性",
+      "chars": 2392,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对设备兼容性",
+      "chars": 2285,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对设备兼容性",
+      "chars": 1906,
+      "score": 34.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "核对设备兼容性",
+      "chars": 1678,
+      "score": 82.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "核对设备兼容性",
+      "chars": 1356,
+      "score": 89.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 18.4 高于目标 18.0",
+      "narration_para_pct 36.8 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对设备兼容性」已存在"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对设备兼容性」已存在"
+    ],
+    "4": [
+      "dialogue_chars_pct 31.9 高于目标 18.0",
+      "narration_para_pct 35.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对设备兼容性」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 63.5 高于目标 18.0",
+      "dialogue_run_mean 8 高于目标 4.0",
+      "narration_para_pct 5.9 低于目标 45.0",
+      "[observe] 标题重复：「核对设备兼容性」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「核对设备兼容性」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:49:08"
+}

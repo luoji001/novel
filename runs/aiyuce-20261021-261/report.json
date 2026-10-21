@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-261",
+  "profile": "AI 推演",
+  "title": "批改本",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 10750,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10485,
+    "chapter_chars_mean": 1748,
+    "chapter_chars_median": 1848,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 14.3,
+    "dialogue_chars_pct": 15.7,
+    "dialogue_para_pct": 44.7,
+    "interiority_para_pct": 13.2,
+    "narration_para_pct": 42.1,
+    "turn_under20_pct": 52.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.7,
+    "attr_adv_pct": 2.8,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 3.9,
+    "turn_len_median": 17
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅听课记录本",
+      "chars": 1971,
+      "score": 96.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "AI作文批改系统",
+      "chars": 1396,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "核对预算表",
+      "chars": 2024,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对预算表",
+      "chars": 1825,
+      "score": 34.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "核对听课记录本",
+      "chars": 2140,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "手指滑过图表边缘",
+      "chars": 1388,
+      "score": 80.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 30.0 低于目标 45.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 32.9 高于目标 18.0",
+      "narration_para_pct 31.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对预算表」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 2 句（如「比如说在未来某个季度内，若出现大量因忽略个别细节…」）",
+      "[observe] 标题与《翻阅听课记录本》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "dialogue_chars_pct 42.5 高于目标 18.0",
+      "dialogue_run_mean 11 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 189.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:35:02"
+}

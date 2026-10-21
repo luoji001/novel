@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-263",
+  "profile": "AI 推演",
+  "title": "错判",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12732,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12444,
+    "chapter_chars_mean": 2074,
+    "chapter_chars_median": 2174,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 15.8,
+    "dialogue_chars_pct": 11.0,
+    "dialogue_para_pct": 31.8,
+    "interiority_para_pct": 15.3,
+    "narration_para_pct": 52.9,
+    "turn_under20_pct": 48.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "结算单边缘卷曲",
+      "chars": 2246,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "报价单边缘卷曲",
+      "chars": 2203,
+      "score": 34.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "检查AI分析结果",
+      "chars": 2165,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签署附加协议",
+      "chars": 2589,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "检查AI分析结果",
+      "chars": 2285,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "检查AI分析结果",
+      "chars": 1238,
+      "score": 87.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 31.2 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 44.1 高于目标 18.0",
+      "narration_para_pct 20.0 低于目标 45.0",
+      "[observe] 章内自我复读 4 句（如「那为什么昨天客户投诉说检索过程中出现了两次错误？…」）",
+      "[observe] 标题与《结算单边缘卷曲》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）",
+      "[observe] 标题重复：「检查AI分析结果」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「检查AI分析结果」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 217.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:39:41"
+}

@@ -1,0 +1,129 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-249",
+  "profile": "AI 推演",
+  "title": "红笔",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12799,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12502,
+    "chapter_chars_mean": 2084,
+    "chapter_chars_median": 2232,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 16.5,
+    "dialogue_chars_pct": 17.9,
+    "dialogue_para_pct": 58.5,
+    "interiority_para_pct": 9.0,
+    "narration_para_pct": 32.6,
+    "turn_under20_pct": 49.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 9.0,
+    "attr_adv_pct": 3.7,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指轻叩桌面",
+      "chars": 2244,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "研组长摊开使用报告",
+      "chars": 2482,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "手指轻叩桌面",
+      "chars": 1821,
+      "score": 32.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 4,
+      "title": "手指轻触数据页面",
+      "chars": 2491,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手指轻触数据页面",
+      "chars": 2321,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 6,
+      "title": "手指轻触数据页面",
+      "chars": 1434,
+      "score": 92.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 37.5 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「也许就是当某位教师的实际修改次数超过预设阈值之后…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 35.7 高于目标 18.0",
+      "narration_para_pct 25.0 低于目标 45.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 24.7 高于目标 18.0",
+      "dialogue_run_mean 10 高于目标 4.0",
+      "narration_para_pct 15.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「手指轻叩桌面」已存在"
+    ],
+    "4": [
+      "narration_para_pct 28.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 20.7 高于目标 18.0",
+      "narration_para_pct 35.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「一条推论会被什么推翻…」）",
+      "[observe] 标题重复：「手指轻触数据页面」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「手指轻触数据页面」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 235.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:06:57"
+}

@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-247",
+  "profile": "AI 推演",
+  "title": "验码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11961,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11668,
+    "chapter_chars_mean": 1945,
+    "chapter_chars_median": 2112,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 16.2,
+    "dialogue_chars_pct": 11.4,
+    "dialogue_para_pct": 33.3,
+    "interiority_para_pct": 17.6,
+    "narration_para_pct": 49.1,
+    "turn_under20_pct": 44.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.9,
+    "attr_adv_pct": 5.2,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 26
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对电费单数据",
+      "chars": 2222,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "审阅招聘JD",
+      "chars": 2412,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "审阅代码验证手册",
+      "chars": 2106,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对代码验证手册",
+      "chars": 2488,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "审阅代码验证手册",
+      "chars": 1540,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "审阅代码验证报告",
+      "chars": 1187,
+      "score": 34.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "dialogue_chars_pct 18.5 高于目标 18.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《审阅代码验证手册》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 35.7 低于目标 45.0",
+      "[observe] 标题重复：「审阅代码验证手册」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 34.4 高于目标 18.0",
+      "narration_para_pct 20.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《审阅代码验证手册》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 213.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:01:57"
+}

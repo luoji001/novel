@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-252",
+  "profile": "AI 推演",
+  "title": "模型灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12708,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12439,
+    "chapter_chars_mean": 2073,
+    "chapter_chars_median": 2194,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14.7,
+    "dialogue_chars_pct": 8.1,
+    "dialogue_para_pct": 29.0,
+    "interiority_para_pct": 8.8,
+    "narration_para_pct": 62.2,
+    "turn_under20_pct": 56.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.5,
+    "attr_adv_pct": 10.9,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "折线划分成绩表",
+      "chars": 2278,
+      "score": 96.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "教学计划表",
+      "chars": 2459,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "铅笔标记预算表",
+      "chars": 2241,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对模型使用次数",
+      "chars": 2247,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻阅档案",
+      "chars": 2211,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手指滑过表格边缘",
+      "chars": 1266,
+      "score": 36.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "narration_para_pct 30.0 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「如果后续调查显示，多数学生并没有因为模型教学获得…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 221.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:13:53"
+}

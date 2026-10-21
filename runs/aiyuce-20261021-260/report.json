@@ -1,0 +1,129 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-260",
+  "profile": "AI 推演",
+  "title": "校对钟",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 10997,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10703,
+    "chapter_chars_mean": 1784,
+    "chapter_chars_median": 1866,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 16.5,
+    "dialogue_chars_pct": 31.2,
+    "dialogue_para_pct": 54.2,
+    "interiority_para_pct": 12.6,
+    "narration_para_pct": 33.2,
+    "turn_under20_pct": 53.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 30
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅报价单",
+      "chars": 1907,
+      "score": 96.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "七百二十小时的校对工作",
+      "chars": 1908,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "翻阅投诉记录表",
+      "chars": 2083,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "校对数据对比图",
+      "chars": 1915,
+      "score": 34.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "翻阅满意度问卷",
+      "chars": 2012,
+      "score": 79.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "翻阅报价单",
+      "chars": 1166,
+      "score": 34.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 41.7 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 20.6 高于目标 18.0",
+      "[observe] 章内自我复读 2 句（如「我们可以看到，这项技术目前在校对准确度方面已经取…」）"
+    ],
+    "3": [
+      "narration_para_pct 43.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 48.8 高于目标 18.0",
+      "dialogue_run_mean 5.3 高于目标 4.0",
+      "narration_para_pct 15.8 低于目标 45.0",
+      "[observe] 章内自我复读 3 句（如「比如说，如果有新的数据显示AI在校对某些特定领域…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「点了点头」×3、「带着一丝」×3",
+      "dialogue_chars_pct 59.6 高于目标 18.0",
+      "dialogue_run_mean 9 高于目标 4.0",
+      "narration_para_pct 10.0 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 65.1 高于目标 18.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「翻阅报价单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 210.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:32:55"
+}

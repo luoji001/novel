@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-258",
+  "profile": "AI 推演",
+  "title": "报价单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11469,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11201,
+    "chapter_chars_mean": 1867,
+    "chapter_chars_median": 1842,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 13.7,
+    "dialogue_chars_pct": 5.8,
+    "dialogue_para_pct": 16.6,
+    "interiority_para_pct": 10.4,
+    "narration_para_pct": 73.1,
+    "turn_under20_pct": 37.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 65.0,
+    "attr_adv_pct": 8.7,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 28
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "报价单上的三个数字",
+      "chars": 1819,
+      "score": 95.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "电费单上的数字变化",
+      "chars": 1893,
+      "score": 34.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对合同条款",
+      "chars": 1884,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "招聘JD上的新要求",
+      "chars": 2412,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对折旧表数据",
+      "chars": 1896,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "价格变化触发市场反应",
+      "chars": 1559,
+      "score": 36.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「杭州开源模型开发团队」×3"
+    ],
+    "2": [
+      "[observe] 章内自我复读 4 句（如「如果后续数据显示用电量的增长主要来自于冷却系统的…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 28.8 高于目标 18.0",
+      "narration_para_pct 38.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「如果在未来三个月内，公司能够通过自动化工具或流程…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「杭州开源模型开发团队」×3",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 210.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:28:11"
+}

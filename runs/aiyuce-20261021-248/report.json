@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-248",
+  "profile": "AI 推演",
+  "title": "校对小时",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11861,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11557,
+    "chapter_chars_mean": 1926,
+    "chapter_chars_median": 1986,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 17.7,
+    "dialogue_chars_pct": 20.3,
+    "dialogue_para_pct": 46.1,
+    "interiority_para_pct": 19.2,
+    "narration_para_pct": 34.7,
+    "turn_under20_pct": 67.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.9,
+    "attr_adv_pct": 10.5,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对电费单",
+      "chars": 1882,
+      "score": 94.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "敲击键盘",
+      "chars": 2314,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲报价单边缘",
+      "chars": 1988,
+      "score": 33.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "摩挲报价单边缘",
+      "chars": 2298,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲折旧表边缘",
+      "chars": 2096,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "摩挲电费单边缘",
+      "chars": 1277,
+      "score": 80.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "dialogue_chars_pct 27.2 高于目标 18.0",
+      "dialogue_run_mean 4.2 高于目标 4.0",
+      "narration_para_pct 24.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 59.4 高于目标 18.0",
+      "dialogue_run_mean 5.2 高于目标 4.0",
+      "narration_para_pct 11.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「我们必须尽快准备好新方案，不能再拖下去了…」）"
+    ],
+    "4": [
+      "narration_para_pct 37.5 低于目标 45.0",
+      "[observe] 标题重复：「摩挲报价单边缘」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 37.3 高于目标 18.0",
+      "dialogue_run_mean 7 高于目标 4.0",
+      "narration_para_pct 20.0 低于目标 45.0",
+      "[observe] 标题与《摩挲报价单边缘》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 220.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:04:23"
+}

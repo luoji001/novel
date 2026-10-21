@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-254",
+  "profile": "AI 推演",
+  "title": "显卡摊位",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12709,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12430,
+    "chapter_chars_mean": 2072,
+    "chapter_chars_median": 2132,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14,
+    "dialogue_chars_pct": 2.5,
+    "dialogue_para_pct": 16.6,
+    "interiority_para_pct": 16.8,
+    "narration_para_pct": 66.6,
+    "turn_under20_pct": 75.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 100.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻看销售清单",
+      "chars": 2144,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "检查应聘者证件",
+      "chars": 2201,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "检查 UPS 电源状态",
+      "chars": 2491,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "核对电费与销量",
+      "chars": 2064,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "对比电费单与折旧表",
+      "chars": 2463,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对新订单数据",
+      "chars": 1340,
+      "score": 88.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「随着报名人数逐渐增多，老王意识到必须尽快安排面试…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 228.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:18:54"
+}

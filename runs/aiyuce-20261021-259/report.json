@@ -1,0 +1,126 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-259",
+  "profile": "AI 推演",
+  "title": "算法修正",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12205,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11864,
+    "chapter_chars_mean": 1977,
+    "chapter_chars_median": 2054,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 20.3,
+    "dialogue_chars_pct": 20.5,
+    "dialogue_para_pct": 50.1,
+    "interiority_para_pct": 18.3,
+    "narration_para_pct": 31.5,
+    "turn_under20_pct": 47.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.4,
+    "attr_adv_pct": 4.6,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 23
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单核对",
+      "chars": 2186,
+      "score": 95.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对旧文件细节",
+      "chars": 2233,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "审核员接过报价单",
+      "chars": 1963,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "核对折旧表细节",
+      "chars": 2114,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对数据字段格式",
+      "chars": 2098,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对数据字段格式",
+      "chars": 1605,
+      "score": 35.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 21.1 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 27.6 高于目标 18.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "narration_para_pct 10.7 低于目标 45.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 39.7 高于目标 18.0",
+      "narration_para_pct 24.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《核对旧文件细节》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "6": [
+      "dialogue_chars_pct 26.8 高于目标 18.0",
+      "narration_para_pct 28.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对数据字段格式」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 214.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T19:30:30"
+}
