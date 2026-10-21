@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-78",
+  "profile": "AI 推演",
+  "title": "报价单上的数字",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12716,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12431,
+    "chapter_chars_mean": 2072,
+    "chapter_chars_median": 2025,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 15.5,
+    "dialogue_chars_pct": 2.9,
+    "dialogue_para_pct": 15.5,
+    "interiority_para_pct": 21.5,
+    "narration_para_pct": 63.0,
+    "turn_under20_pct": 74.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 44.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击桌面确认数字",
+      "chars": 1985,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对财务报表数字",
+      "chars": 2025,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻阅合同条款",
+      "chars": 2117,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对费用明细",
+      "chars": 2469,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对许可证条款",
+      "chars": 2500,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对成本清单数据",
+      "chars": 1614,
+      "score": 35.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「杭州开源模型项目组」×4",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "interiority_para_pct 41.2 高于目标 40.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:14:01"
+}

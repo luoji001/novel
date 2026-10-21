@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-94",
+  "profile": "AI 推演",
+  "title": "标尺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12764,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12508,
+    "chapter_chars_mean": 2085,
+    "chapter_chars_median": 2258,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14,
+    "dialogue_chars_pct": 3.0,
+    "dialogue_para_pct": 16.6,
+    "interiority_para_pct": 19.0,
+    "narration_para_pct": 64.4,
+    "turn_under20_pct": 67.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.6,
+    "attr_adv_pct": 28.6,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.2,
+    "turn_len_median": 19
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "工资单核对",
+      "chars": 2487,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "报价单核对",
+      "chars": 2414,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对工资单",
+      "chars": 1868,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "折旧表核对",
+      "chars": 2247,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "薪资标准调整",
+      "chars": 2356,
+      "score": 23.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "查看证书发放记录",
+      "chars": 1386,
+      "score": 87.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 标题与《工资单核对》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 30.8 低于目标 45.0",
+      "[observe] 标题与《工资单核对》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "interiority_para_pct 63.6 高于目标 40.0",
+      "narration_para_pct 27.3 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 214.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:52:26"
+}

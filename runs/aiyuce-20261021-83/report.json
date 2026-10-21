@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-83",
+  "profile": "AI 推演",
+  "title": "页数",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13317,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13034,
+    "chapter_chars_mean": 2172,
+    "chapter_chars_median": 2333,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 14.8,
+    "dialogue_chars_pct": 6.3,
+    "dialogue_para_pct": 29.4,
+    "interiority_para_pct": 13.0,
+    "narration_para_pct": 57.6,
+    "turn_under20_pct": 60.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫描仪的首次启动",
+      "chars": 2474,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "折旧表上的电力消耗",
+      "chars": 2506,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "查看折旧表数据",
+      "chars": 2446,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "年度计费明细表",
+      "chars": 2318,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "合伙人翻阅年度计费明细表",
+      "chars": 2100,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "扫描仪的首次启动",
+      "chars": 1467,
+      "score": 94.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "命中套话收尾句"
+    ],
+    "4": [
+      "dialogue_chars_pct 20.7 高于目标 18.0",
+      "narration_para_pct 23.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的事实推翻呢…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《年度计费明细表》近似 0.74 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题重复：「扫描仪的首次启动」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 235.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:26:15"
+}

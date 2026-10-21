@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-90",
+  "profile": "AI 推演",
+  "title": "定价尺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13500,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13221,
+    "chapter_chars_mean": 2204,
+    "chapter_chars_median": 2402,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 15,
+    "dialogue_chars_pct": 3.8,
+    "dialogue_para_pct": 28.1,
+    "interiority_para_pct": 15.3,
+    "narration_para_pct": 56.7,
+    "turn_under20_pct": 84.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.2,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻看报价单细节",
+      "chars": 2099,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对合规成本明细",
+      "chars": 2637,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻看财务报表细节",
+      "chars": 2420,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "翻看市场调研报告",
+      "chars": 2555,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "敲击桌面思考",
+      "chars": 2484,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对财务报表细节",
+      "chars": 1299,
+      "score": 35.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被哪些实际的数据所推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 35.3 低于目标 45.0"
+    ],
+    "3": [
+      "[observe] 标题与《翻看报价单细节》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「这条推论会被什么样的证据推翻呢…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "interiority_para_pct 42.9 高于目标 40.0",
+      "narration_para_pct 28.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）",
+      "[observe] 标题与《翻看财务报表细节》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 228.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:43:02"
+}

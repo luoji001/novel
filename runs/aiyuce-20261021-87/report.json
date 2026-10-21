@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-87",
+  "profile": "AI 推演",
+  "title": "复核名单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11940,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11636,
+    "chapter_chars_mean": 1939,
+    "chapter_chars_median": 2078,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 16.7,
+    "dialogue_chars_pct": 17.9,
+    "dialogue_para_pct": 44.5,
+    "interiority_para_pct": 14.0,
+    "narration_para_pct": 41.5,
+    "turn_under20_pct": 71.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.8,
+    "attr_adv_pct": 3.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "预算表上的AI开支",
+      "chars": 2350,
+      "score": 96.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "报价单上的数字",
+      "chars": 2098,
+      "score": 32.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "划线标注学历要求",
+      "chars": 2104,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "鼠标划过屏幕上的数字",
+      "chars": 2209,
+      "score": 86.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "电话里的算法对话",
+      "chars": 2143,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "目光停留统计数据",
+      "chars": 1030,
+      "score": 86.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 19.4 高于目标 18.0",
+      "narration_para_pct 32.0 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 68.2 高于目标 18.0",
+      "dialogue_run_mean 8 高于目标 4.0",
+      "narration_para_pct 14.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被哪些事实推翻呢…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "narration_para_pct 42.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "interiority_para_pct 42.9 高于目标 40.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 225.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:35:42"
+}

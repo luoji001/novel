@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-73",
+  "profile": "AI 推演",
+  "title": "纸笔",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11646,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11385,
+    "chapter_chars_mean": 1898,
+    "chapter_chars_median": 2082,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 13.5,
+    "dialogue_chars_pct": 4.8,
+    "dialogue_para_pct": 23.6,
+    "interiority_para_pct": 17.7,
+    "narration_para_pct": 58.8,
+    "turn_under20_pct": 80.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.6,
+    "attr_adv_pct": 6.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分析客户订单记录",
+      "chars": 2156,
+      "score": 97.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "点击鼠标查看价格历史",
+      "chars": 2308,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻阅订单记录",
+      "chars": 2105,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "翻看设备折旧表",
+      "chars": 2001,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻看问卷数据",
+      "chars": 2144,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "停顿在价格数据点",
+      "chars": 926,
+      "score": 92.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 3 句（如「他知道，如果不能提高打印效率，那么到了学期末，当…」）"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "narration_para_pct 43.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 55,
+    "calls_counted": 55,
+    "llm_seconds": 211.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:01:41"
+}

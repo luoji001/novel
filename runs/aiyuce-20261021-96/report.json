@@ -1,0 +1,129 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-96",
+  "profile": "AI 推演",
+  "title": "电表转得更快",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11395,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11076,
+    "chapter_chars_mean": 1846,
+    "chapter_chars_median": 1891,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 18.2,
+    "dialogue_chars_pct": 29.6,
+    "dialogue_para_pct": 62.2,
+    "interiority_para_pct": 14.1,
+    "narration_para_pct": 23.7,
+    "turn_under20_pct": 36.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.5,
+    "attr_adv_pct": 14.7,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 26
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单上的用电量增长",
+      "chars": 1937,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "模拟机使用记录",
+      "chars": 2282,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对课程报价细节",
+      "chars": 1961,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "折旧表边缘的120W标注",
+      "chars": 2252,
+      "score": 35.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "翻看电费单",
+      "chars": 1795,
+      "score": 85.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻看折旧表",
+      "chars": 1162,
+      "score": 34.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「带着一丝」×3",
+      "dialogue_chars_pct 35.3 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 18.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 31.4 高于目标 18.0",
+      "narration_para_pct 35.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 22.0 高于目标 18.0",
+      "narration_para_pct 15.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 44.8 高于目标 18.0",
+      "narration_para_pct 11.1 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 41.4 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 212.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:57:13"
+}

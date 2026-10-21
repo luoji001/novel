@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-76",
+  "profile": "AI 推演",
+  "title": "电表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13310,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13063,
+    "chapter_chars_mean": 2177,
+    "chapter_chars_median": 2228,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 12.8,
+    "dialogue_chars_pct": 1.1,
+    "dialogue_para_pct": 7.1,
+    "interiority_para_pct": 11.7,
+    "narration_para_pct": 81.2,
+    "turn_under20_pct": 80.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 100.0,
+    "attr_adv_pct": 100.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "通知单张贴在墙上",
+      "chars": 2504,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "文件堆叠在桌面",
+      "chars": 2344,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "电费明细单",
+      "chars": 2157,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "电费明细单",
+      "chars": 2191,
+      "score": 33.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "负荷率达标验证",
+      "chars": 2668,
+      "score": 33.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "负荷率达标验证",
+      "chars": 1440,
+      "score": 85.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「某地级市供电局」×3",
+      "[observe] 章内自我复读 3 句（如「例如，若后来发现由于技术改进降低了发电成本，而电…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「电费明细单」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「负荷率达标验证」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 235.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:09:12"
+}

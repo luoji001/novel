@@ -1,0 +1,125 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-81",
+  "profile": "AI 推演",
+  "title": "改卷",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12208,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11936,
+    "chapter_chars_mean": 1989,
+    "chapter_chars_median": 2038,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 14.5,
+    "dialogue_chars_pct": 22.1,
+    "dialogue_para_pct": 42.1,
+    "interiority_para_pct": 11.1,
+    "narration_para_pct": 46.8,
+    "turn_under20_pct": 48.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.5,
+    "attr_adv_pct": 2.7,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 5.2,
+    "turn_len_median": 21
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "点击听课记录",
+      "chars": 1869,
+      "score": 86.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "核对听课记录表",
+      "chars": 2041,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "分析系统运行日志",
+      "chars": 2127,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "记录表的细微变化",
+      "chars": 2343,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "分析系统运行日志",
+      "chars": 2535,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对听课记录表",
+      "chars": 1287,
+      "score": 78.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 73.1 高于目标 18.0",
+      "dialogue_run_mean 16 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0"
+    ],
+    "2": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 标题与《点击听课记录》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「分析系统运行日志」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 69.5 高于目标 18.0",
+      "dialogue_run_mean 10 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0",
+      "[observe] 标题重复：「核对听课记录表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 221.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:21:15"
+}

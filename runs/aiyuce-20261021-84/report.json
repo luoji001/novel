@@ -1,0 +1,125 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-84",
+  "profile": "AI 推演",
+  "title": "模型灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11827,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11528,
+    "chapter_chars_mean": 1921,
+    "chapter_chars_median": 1882,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 17.5,
+    "dialogue_chars_pct": 24.1,
+    "dialogue_para_pct": 48.2,
+    "interiority_para_pct": 17.0,
+    "narration_para_pct": 34.7,
+    "turn_under20_pct": 52.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.6,
+    "attr_adv_pct": 1.8,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 4.3,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "统计数据对比图",
+      "chars": 1837,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "核对电费单",
+      "chars": 2135,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对电费单",
+      "chars": 1947,
+      "score": 82.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "核对招聘JD",
+      "chars": 2736,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对电费单",
+      "chars": 1925,
+      "score": 32.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 6,
+      "title": "核对成绩统计表",
+      "chars": 1241,
+      "score": 88.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 46.3 高于目标 18.0",
+      "dialogue_run_mean 4.8 高于目标 4.0",
+      "narration_para_pct 29.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 53.3 高于目标 18.0",
+      "dialogue_run_mean 11.5 高于目标 4.0",
+      "narration_para_pct 7.7 低于目标 45.0",
+      "[observe] 标题重复：「核对电费单」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 39.4 高于目标 18.0",
+      "dialogue_run_mean 6 高于目标 4.0",
+      "narration_para_pct 13.3 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「如果最终的考试成绩仍然保持原来的分布模式，那么所…」）",
+      "[observe] 标题重复：「核对电费单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:28:39"
+}

@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-77",
+  "profile": "AI 推演",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12739,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12490,
+    "chapter_chars_mean": 2082,
+    "chapter_chars_median": 2201,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 12.5,
+    "dialogue_chars_pct": 1.9,
+    "dialogue_para_pct": 17.1,
+    "interiority_para_pct": 19.3,
+    "narration_para_pct": 63.6,
+    "turn_under20_pct": 79.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅质检成本明细",
+      "chars": 2170,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "翻阅质检成本明细",
+      "chars": 2340,
+      "score": 33.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "翻阅预算分配表",
+      "chars": 2438,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "翻阅编制表数据",
+      "chars": 2280,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻阅编制表数据",
+      "chars": 2202,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对质检成本明细",
+      "chars": 1303,
+      "score": 34.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 40.0 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「翻阅质检成本明细」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「了自己的」×3",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「2023年质检岗人员编制表…」）"
+    ],
+    "5": [
+      "[observe] 标题重复：「翻阅编制表数据」已存在"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《翻阅质检成本明细》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 225.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:11:36"
+}
