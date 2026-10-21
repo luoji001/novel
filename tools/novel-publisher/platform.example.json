@@ -1,0 +1,21 @@
+{
+  "id": "your-platform",
+  "configured": false,
+  "loginUrl": "https://example.com/login",
+  "editorUrl": "https://example.com/editor/new",
+  "timeoutMs": 15000,
+  "fields": {
+    "title": "#novel-title",
+    "body": "#novel-body"
+  },
+  "actions": {
+    "save": {
+      "button": "#save-draft",
+      "success": "#draft-saved-success"
+    },
+    "publish": {
+      "button": "#publish",
+      "success": "#publish-success"
+    }
+  }
+}

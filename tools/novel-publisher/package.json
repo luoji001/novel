@@ -1,0 +1,21 @@
+{
+  "name": "novel-publisher",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "list": "node publisher.mjs list",
+    "preview": "node publisher.mjs preview",
+    "run": "node publisher.mjs run",
+    "qimao:login": "node publisher.mjs login --config platforms/qimao.json",
+    "qimao:setup": "node publisher.mjs setup --config platforms/qimao.json --output qimao.local.json",
+    "qimao": "node publisher.mjs run --config qimao.local.json",
+    "test": "node --test test/core.test.mjs test/cli.test.mjs test/calibration.test.mjs",
+    "test:browser": "node --test test/browser.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "1.64.1"
+  }
+}
