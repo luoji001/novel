@@ -1,0 +1,126 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-219",
+  "profile": "AI 推演",
+  "title": "扫描屏",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11454,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11176,
+    "chapter_chars_mean": 1863,
+    "chapter_chars_median": 1951,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 15.2,
+    "dialogue_chars_pct": 22.5,
+    "dialogue_para_pct": 50.6,
+    "interiority_para_pct": 17.0,
+    "narration_para_pct": 32.5,
+    "turn_under20_pct": 61.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.3,
+    "attr_adv_pct": 11.9,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 17
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲纸边看数字",
+      "chars": 1605,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摩挲纸边看数字",
+      "chars": 2258,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲纸边看数字",
+      "chars": 2279,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲纸边看数字",
+      "chars": 2133,
+      "score": 80.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲纸边看数字",
+      "chars": 1875,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲纸边看数字",
+      "chars": 1298,
+      "score": 36.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 16.7 低于目标 45.0"
+    ],
+    "2": [
+      "narration_para_pct 27.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「2024年影像科医生离职率分析报告…」）",
+      "[observe] 标题重复：「摩挲纸边看数字」已存在"
+    ],
+    "3": [
+      "dialogue_chars_pct 23.2 高于目标 18.0",
+      "narration_para_pct 38.1 低于目标 45.0",
+      "[observe] 标题重复：「摩挲纸边看数字」已存在"
+    ],
+    "4": [
+      "dialogue_chars_pct 75.5 高于目标 18.0",
+      "dialogue_run_mean 12.5 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0",
+      "[observe] 标题重复：「摩挲纸边看数字」已存在"
+    ],
+    "5": [
+      "[observe] 标题重复：「摩挲纸边看数字」已存在"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「摩挲纸边看数字」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 219.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:54:27"
+}

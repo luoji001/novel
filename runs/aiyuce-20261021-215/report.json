@@ -1,0 +1,128 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-215",
+  "profile": "AI 推演",
+  "title": "复核页",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11747,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11403,
+    "chapter_chars_mean": 1900,
+    "chapter_chars_median": 1944,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 20.2,
+    "dialogue_chars_pct": 49.4,
+    "dialogue_para_pct": 74.5,
+    "interiority_para_pct": 6.8,
+    "narration_para_pct": 18.7,
+    "turn_under20_pct": 38.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.3,
+    "attr_adv_pct": 6.4,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 6.1,
+    "turn_len_median": 29
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻动财务报表",
+      "chars": 2073,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "翻动财务报表",
+      "chars": 1965,
+      "score": 81.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "指尖划过调查表",
+      "chars": 2570,
+      "score": 32.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "指尖划过记录表",
+      "chars": 2049,
+      "score": 80.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "手指滑过错误率报告",
+      "chars": 1968,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "红标警示",
+      "chars": 1116,
+      "score": 34.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "dialogue_chars_pct 57.7 高于目标 18.0",
+      "dialogue_run_mean 9 高于目标 4.0",
+      "narration_para_pct 5.0 低于目标 45.0",
+      "[observe] 标题重复：「翻动财务报表」已存在"
+    ],
+    "3": [
+      "dialogue_chars_pct 68.6 高于目标 18.0",
+      "dialogue_run_mean 6.5 高于目标 4.0",
+      "narration_para_pct 13.3 低于目标 45.0",
+      "[observe] 章内自我复读 4 句（如「我觉得这就是根本的问题所在，”陈文远说道，“如果…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 55.1 高于目标 18.0",
+      "dialogue_run_mean 10.5 高于目标 4.0",
+      "narration_para_pct 12.0 低于目标 45.0",
+      "[observe] 标题与《指尖划过调查表》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "dialogue_chars_pct 50.3 高于目标 18.0",
+      "narration_para_pct 10.0 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 66.5 高于目标 18.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "narration_para_pct 18.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 215.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:45:01"
+}

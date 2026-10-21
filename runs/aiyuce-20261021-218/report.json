@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-218",
+  "profile": "AI 推演",
+  "title": "价差",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11537,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11262,
+    "chapter_chars_mean": 1877,
+    "chapter_chars_median": 1892,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14.7,
+    "dialogue_chars_pct": 4.4,
+    "dialogue_para_pct": 14.2,
+    "interiority_para_pct": 20.7,
+    "narration_para_pct": 65.1,
+    "turn_under20_pct": 25.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 60.3,
+    "attr_adv_pct": 100.8,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 34
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "检查LED灯泡电压",
+      "chars": 1903,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "更新招聘JD的内容",
+      "chars": 2249,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "修改报价单",
+      "chars": 1939,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "整理库存与客户互动",
+      "chars": 2290,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "查看显卡报价单",
+      "chars": 1924,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "修改显卡标价",
+      "chars": 1226,
+      "score": 86.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 31.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 6 句（如「如果有新的产品发布引起市场价格大幅下跌，那么即使…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 210.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:52:01"
+}

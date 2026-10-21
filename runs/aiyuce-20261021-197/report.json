@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-197",
+  "profile": "AI 推演",
+  "title": "质检员月度工作量统计表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12900,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12554,
+    "chapter_chars_mean": 2092,
+    "chapter_chars_median": 2172,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 19.2,
+    "dialogue_chars_pct": 25.9,
+    "dialogue_para_pct": 46.0,
+    "interiority_para_pct": 6.9,
+    "narration_para_pct": 47.1,
+    "turn_under20_pct": 39.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.1,
+    "attr_adv_pct": 1.5,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 27
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫描质检员工作量数据",
+      "chars": 1897,
+      "score": 96.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "扫描预算报表数据",
+      "chars": 2455,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "扫描投诉记录数据",
+      "chars": 2486,
+      "score": 80.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "AI评分模块比例调整",
+      "chars": 2099,
+      "score": 34.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "折叠JD文件一角",
+      "chars": 2364,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "讨论误判率与人力成本",
+      "chars": 1593,
+      "score": 33.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "dialogue_chars_pct 53.8 高于目标 18.0",
+      "dialogue_run_mean 7.5 高于目标 4.0",
+      "narration_para_pct 23.8 低于目标 45.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 31.5 高于目标 18.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「但这是否就意味着整个质检团队会变得更高效…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 44.4 高于目标 18.0",
+      "narration_para_pct 44.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 223.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:01:18"
+}

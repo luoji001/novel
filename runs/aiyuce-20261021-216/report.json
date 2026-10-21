@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-216",
+  "profile": "AI 推演",
+  "title": "模型教学法",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11534,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11275,
+    "chapter_chars_mean": 1879,
+    "chapter_chars_median": 1892,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 13.8,
+    "dialogue_chars_pct": 6.6,
+    "dialogue_para_pct": 27.3,
+    "interiority_para_pct": 27.9,
+    "narration_para_pct": 44.8,
+    "turn_under20_pct": 72.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.0,
+    "attr_adv_pct": 12.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲成绩统计表",
+      "chars": 2461,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "核对报销凭证",
+      "chars": 2369,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对报销凭证",
+      "chars": 1749,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对报销凭证",
+      "chars": 1942,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对评分表数据",
+      "chars": 1929,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对评分表数据",
+      "chars": 1078,
+      "score": 35.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 38.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 标题重复：「核对报销凭证」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对报销凭证」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "interiority_para_pct 50.0 高于目标 40.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对评分表数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 208.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:47:22"
+}

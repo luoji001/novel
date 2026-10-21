@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-217",
+  "profile": "AI 推演",
+  "title": "打印店的墨水",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11821,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11551,
+    "chapter_chars_mean": 1925,
+    "chapter_chars_median": 1972,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 14.8,
+    "dialogue_chars_pct": 8.2,
+    "dialogue_para_pct": 31.9,
+    "interiority_para_pct": 18.1,
+    "narration_para_pct": 50.0,
+    "turn_under20_pct": 57.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.5,
+    "attr_adv_pct": 10.1,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "报表的折痕",
+      "chars": 1808,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对服务器使用时间",
+      "chars": 2327,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "修订报价单",
+      "chars": 2128,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "问卷的折痕",
+      "chars": 2294,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "修改声明的笔尖",
+      "chars": 1914,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "报表上的折痕",
+      "chars": 1344,
+      "score": 89.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 4 句（如「很简单，只需要有一天，AI代写服务的实际成交金额…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 29.4 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「一条关键性的推论会被什么推翻…」）",
+      "[observe] 标题与《报表的折痕》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 23.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 标题与《报表的折痕》近似 0.91 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:49:42"
+}

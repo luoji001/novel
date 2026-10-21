@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-208",
+  "profile": "AI 推演",
+  "title": "电表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12398,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12135,
+    "chapter_chars_mean": 2022,
+    "chapter_chars_median": 2074,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 14,
+    "dialogue_chars_pct": 4.0,
+    "dialogue_para_pct": 19.6,
+    "interiority_para_pct": 23.4,
+    "narration_para_pct": 57.1,
+    "turn_under20_pct": 70.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "计算电费单",
+      "chars": 2135,
+      "score": 38.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "划线计算电费单",
+      "chars": 2578,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "划线计算电费单",
+      "chars": 2432,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "划线计算电费单",
+      "chars": 2104,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "划线计算电费单",
+      "chars": 1978,
+      "score": 22.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "查看电价涨幅数据",
+      "chars": 1165,
+      "score": 88.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 21.4 低于目标 45.0",
+      "[observe] 标题与《计算电费单》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 标题重复：「划线计算电费单」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「划线计算电费单」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「划线计算电费单」已存在"
+    ],
+    "6": [
+      "narration_para_pct 44.4 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 225.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:27:55"
+}

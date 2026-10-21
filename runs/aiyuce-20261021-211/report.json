@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-211",
+  "profile": "AI 推演",
+  "title": "代码灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12235,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11981,
+    "chapter_chars_mean": 1997,
+    "chapter_chars_median": 2155,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 12.8,
+    "dialogue_chars_pct": 2.4,
+    "dialogue_para_pct": 15.6,
+    "interiority_para_pct": 13.4,
+    "narration_para_pct": 71.0,
+    "turn_under20_pct": 93.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击桌面的招聘JD",
+      "chars": 1830,
+      "score": 53.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "代码审查报告",
+      "chars": 2018,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "电费单对比分析",
+      "chars": 2396,
+      "score": 58.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "试用期考核评分表",
+      "chars": 2368,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "服务器折旧表",
+      "chars": 2400,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "敲击桌面的代码评分表",
+      "chars": 1217,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「北京某高校计算机学院」×4"
+    ],
+    "6": [
+      "narration_para_pct 25.0 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 220.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:35:15"
+}

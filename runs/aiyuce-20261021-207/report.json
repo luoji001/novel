@@ -1,0 +1,125 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-207",
+  "profile": "AI 推演",
+  "title": "AI初筛",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13210,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12913,
+    "chapter_chars_mean": 2152,
+    "chapter_chars_median": 2260,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 16.7,
+    "dialogue_chars_pct": 12.0,
+    "dialogue_para_pct": 34.3,
+    "interiority_para_pct": 20.0,
+    "narration_para_pct": 45.7,
+    "turn_under20_pct": 51.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.5,
+    "attr_adv_pct": 2.4,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 19
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对预算表数据",
+      "chars": 2480,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "敲击桌面计算数字",
+      "chars": 2237,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "敲击桌面计算数字",
+      "chars": 1791,
+      "score": 34.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "修改招聘JD",
+      "chars": 2993,
+      "score": 35.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对预算表数据",
+      "chars": 2381,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对预算表数据",
+      "chars": 1322,
+      "score": 85.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 46.2 高于目标 40.0"
+    ],
+    "2": [
+      "narration_para_pct 43.8 低于目标 45.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 33.3 高于目标 18.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「这时，李明的目光落在那份详细列出的服务内容上，似…」）",
+      "[observe] 标题重复：「敲击桌面计算数字」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对预算表数据」已存在"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 34.8 高于目标 18.0",
+      "narration_para_pct 15.4 低于目标 45.0",
+      "[observe] 标题重复：「核对预算表数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 229.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:25:34"
+}

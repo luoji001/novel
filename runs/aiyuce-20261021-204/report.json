@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-204",
+  "profile": "AI 推演",
+  "title": "模型清单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12296,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12022,
+    "chapter_chars_mean": 2004,
+    "chapter_chars_median": 2200,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 15,
+    "dialogue_chars_pct": 6.0,
+    "dialogue_para_pct": 23.7,
+    "interiority_para_pct": 16.6,
+    "narration_para_pct": 59.8,
+    "turn_under20_pct": 63.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 6.3,
+    "attr_adv_pct": 3.1,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻看电费单",
+      "chars": 2277,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "翻看电费单",
+      "chars": 2209,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "翻看成绩统计表",
+      "chars": 1748,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "翻看物理模型清单",
+      "chars": 2494,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻看招聘JD",
+      "chars": 2400,
+      "score": 34.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "翻看成绩统计表",
+      "chars": 1162,
+      "score": 88.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「翻看电费单」已存在"
+    ],
+    "3": [
+      "narration_para_pct 30.8 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「翻看成绩统计表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 225.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:18:15"
+}

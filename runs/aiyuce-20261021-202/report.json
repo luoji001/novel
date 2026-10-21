@@ -1,0 +1,107 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-202",
+  "profile": "AI 推演",
+  "title": "电表指针",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12057,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11802,
+    "chapter_chars_mean": 1967,
+    "chapter_chars_median": 2026,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 13,
+    "dialogue_chars_pct": 2.3,
+    "dialogue_para_pct": 15.1,
+    "interiority_para_pct": 23.6,
+    "narration_para_pct": 61.3,
+    "turn_under20_pct": 84.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.1,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单被抖落一角",
+      "chars": 1968,
+      "score": 56.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "勾画招聘JD边缘",
+      "chars": 2212,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "折旧表上的数字",
+      "chars": 2373,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "轻拂报价单边缘",
+      "chars": 1995,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "核对电费单数字",
+      "chars": 2144,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "翻阅招聘JD一角",
+      "chars": 1359,
+      "score": 89.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "interiority_para_pct 42.9 高于目标 40.0",
+      "narration_para_pct 42.9 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 221.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:13:14"
+}

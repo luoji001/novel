@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-203",
+  "profile": "AI 推演",
+  "title": "页码之争",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11937,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11580,
+    "chapter_chars_mean": 1930,
+    "chapter_chars_median": 1984,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 21.7,
+    "dialogue_chars_pct": 31.6,
+    "dialogue_para_pct": 58.3,
+    "interiority_para_pct": 10.2,
+    "narration_para_pct": 31.5,
+    "turn_under20_pct": 34.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.7,
+    "attr_adv_pct": 2.7,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 25
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "文件上的数字",
+      "chars": 2319,
+      "score": 96.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "文件上的数字",
+      "chars": 2212,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "翻阅财务报表",
+      "chars": 1847,
+      "score": 33.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "翻阅误判报告",
+      "chars": 2306,
+      "score": 34.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "红色警告框",
+      "chars": 1865,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "敲击报告",
+      "chars": 1382,
+      "score": 33.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "dialogue_chars_pct 27.8 高于目标 18.0",
+      "narration_para_pct 29.6 低于目标 45.0",
+      "[observe] 标题重复：「文件上的数字」已存在"
+    ],
+    "3": [
+      "dialogue_chars_pct 58.5 高于目标 18.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "narration_para_pct 9.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「比如说，当某个重要判决依据仅仅依靠一页纸就可以决…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 52.1 高于目标 18.0",
+      "narration_para_pct 20.5 低于目标 45.0",
+      "[observe] 章内自我复读 4 句（如「我知道这个问题很重要，所以我正在努力改进模型…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 46.4 高于目标 18.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 231.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T17:15:44"
+}
