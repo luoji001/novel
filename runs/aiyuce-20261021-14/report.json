@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-14",
+  "profile": "AI 推演",
+  "title": "电表指针",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12439,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12159,
+    "chapter_chars_mean": 2026,
+    "chapter_chars_median": 2060,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 15.5,
+    "dialogue_chars_pct": 2.3,
+    "dialogue_para_pct": 16.8,
+    "interiority_para_pct": 20.9,
+    "narration_para_pct": 62.4,
+    "turn_under20_pct": 84.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.1,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对电费单",
+      "chars": 1933,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "盯着电费单",
+      "chars": 2268,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对报价单上的交付周期",
+      "chars": 2356,
+      "score": 34.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "数着损耗数据",
+      "chars": 2716,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "分析订单增长趋势",
+      "chars": 1945,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对电费单",
+      "chars": 1215,
+      "score": 90.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《核对电费单》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 2 句（如「如果有足够多的实际交易案例能够证明当前价位确实优…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「到了一个」×3"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 标题重复：「核对电费单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 231.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:40:51"
+}

@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-10",
+  "profile": "AI 推演",
+  "title": "标价单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13191,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12878,
+    "chapter_chars_mean": 2146,
+    "chapter_chars_median": 2258,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 16.8,
+    "dialogue_chars_pct": 10.0,
+    "dialogue_para_pct": 28.3,
+    "interiority_para_pct": 17.5,
+    "narration_para_pct": 54.2,
+    "turn_under20_pct": 54.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.0,
+    "attr_adv_pct": 8.3,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 23
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "培训计划草案",
+      "chars": 2164,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "分析报价单与招聘JD关联",
+      "chars": 2650,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "电费单的能耗推算",
+      "chars": 2393,
+      "score": 34.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "折旧表的损耗率变化",
+      "chars": 2344,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "培训计划草案",
+      "chars": 2266,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "计算单价与工时变化",
+      "chars": 1368,
+      "score": 90.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 31.1 高于目标 18.0",
+      "narration_para_pct 38.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 38.9 低于目标 45.0",
+      "[observe] 章内自我复读 5 句（如「如果市场上突然出现了大量具备相关资质的新从业者加…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "narration_para_pct 27.8 低于目标 45.0"
+    ],
+    "5": [
+      "[observe] 标题重复：「培训计划草案」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 220.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:31:08"
+}

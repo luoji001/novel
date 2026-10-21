@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-17",
+  "profile": "AI 推演",
+  "title": "质检灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12799,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12512,
+    "chapter_chars_mean": 2085,
+    "chapter_chars_median": 2102,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 15.8,
+    "dialogue_chars_pct": 10.3,
+    "dialogue_para_pct": 40.9,
+    "interiority_para_pct": 13.5,
+    "narration_para_pct": 45.7,
+    "turn_under20_pct": 70.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 4.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分析质检报表",
+      "chars": 2077,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "核对投诉统计表",
+      "chars": 2735,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对坐席名单",
+      "chars": 2112,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "翻阅质检岗招聘JD",
+      "chars": 2201,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "测试报告数据滑动",
+      "chars": 2195,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对误差率数据",
+      "chars": 1473,
+      "score": 90.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 38.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 42.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "narration_para_pct 41.2 低于目标 45.0"
+    ],
+    "5": [
+      "narration_para_pct 41.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 222.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:48:02"
+}

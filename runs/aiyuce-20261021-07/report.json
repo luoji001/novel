@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-07",
+  "profile": "AI 推演",
+  "title": "代码审查",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12639,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12377,
+    "chapter_chars_mean": 2063,
+    "chapter_chars_median": 2155,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 13.7,
+    "dialogue_chars_pct": 4.8,
+    "dialogue_para_pct": 25.8,
+    "interiority_para_pct": 16.9,
+    "narration_para_pct": 57.4,
+    "turn_under20_pct": 76.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 6.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "招聘JD的修改",
+      "chars": 2129,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "调整模型参数",
+      "chars": 2359,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "查看代码提交记录",
+      "chars": 2461,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "查看代码提交记录",
+      "chars": 2270,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "查阅绩效评估表",
+      "chars": 2028,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "修改招聘JD条款",
+      "chars": 1386,
+      "score": 35.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「查看代码提交记录」已存在"
+    ],
+    "5": [
+      "narration_para_pct 38.5 低于目标 45.0"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 214.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:23:58"
+}

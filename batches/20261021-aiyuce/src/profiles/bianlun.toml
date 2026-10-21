@@ -1,0 +1,94 @@
+# 论辩驱动档位 —— 《天幕红尘》口径，与 quality/metrics.py 的 TARGETS 原值一致。
+# 适用：人物靠对话交锋推进情节的现实题材（《良产》走的是这条）。
+#
+# 硬线（hard）的标定基准见 metrics.py:68-78 的注释：按参照书**单章分布的 p3**定，
+# 不是全书聚合值。用聚合值当单章阈值会把参照书自己写得最好的章拦掉。
+name = "论辩驱动"
+prose_model_hint = "对话承担叙事，归属尽量用裸「说」，少用情绪副词"
+prose_system_extra = """\
+这是论辩驱动的小说。情节靠两个人把一件具体的事争清楚来推进，\
+双方都要有道理，不要让其中一方显得明显是错的。"""
+
+[scene]
+driver_name = "论题"
+driver_desc = "这一场要争的那件事"
+driver_rule = """· 每一场的 driver 都必须是关于「{obj}」的，而且是 {want} 个互不相同的侧面。
+  不要去争别的东西。
+· {want} 场必须争 {want} 件**不同的事**，不是同一个决定换着问几遍。
+  「该不该用它」「它能不能行」「要不要换掉它」是同一件事的三种问法，只算一场——
+  这种要合并，然后去找真正不同的争点（谁出钱、谁担责、按什么价、什么时候交、
+  出了问题算谁的）。
+"""
+axis_name = "核心分歧"
+axis_desc = "核心分歧：两种主张各是什么，都要能站得住"
+stance_desc = "在核心分歧上站哪一边"
+premise_rule = """· 核心分歧必须从这个行业的**具体决策**长出来（比如某一单货该不该接、
+  某条线该不该停），不准搬用现成的思想标签。
+· 两种主张都要站得住 —— 如果一方明显是错的，就没有可争的东西。
+"""
+cast_rule = """· A 和 B 必须在核心分歧上站对立的两边，各有各的道理。
+"""
+dedup_threshold = 0.55
+min_speakers = 2
+require_object = true
+
+[meta]
+target_total_chars = 20000
+chapters = 10
+scenes_per_chapter = 4
+
+
+# 章长编排。首末章是「结构标点章」，走 short 档位 —— metrics.py:187-191 说明
+# 参照书的冷开场/收束章对话占比低到 1.6%，short 档会豁免密度类硬线。
+[rhythm]
+short = 1400
+normal = 2200
+long = 3000
+open_scale = "short"
+close_scale = "short"
+
+# 章长硬下限 = target_chars * min_ratio。0.55 而非 0.7 的理由见 metrics.py:203-205。
+[gates]
+min_ratio = 0.55
+sim_threshold = 0.90      # 整章复读（difflib ratio）
+theme_max = 0.58          # 与最近 3 章的 bigram 余弦
+title_sim_max = 0.60      # 标题近似重复
+plot_sim_max = 0.55       # 摘要层面的情节重复
+tpl_per_kilo = 16.0       # 套路句式密度 /千字，= book-01 的 p10
+tpl_single_max = 2        # 单条骨架一章内次数上限
+sent_dup_min_len = 10
+sent_dup_max = 2          # 与历史章节逐字重复的长句数上限
+sent_self_dup_max = 0     # 章内自我复读
+degrade_after = 3         # 同章尝试次数上限，超过只拦硬错
+
+[targets.dialogue_chars_pct]
+lo = 38.0
+hi = 58.0
+hard = 20.0
+
+[targets.interiority_para_pct]
+lo = 0.0
+hi = 6.0
+hard = 15.0
+
+[targets.narration_para_pct]
+lo = 10.0
+hi = 40.0
+
+[targets.turn_under20_pct]
+lo = 45.0
+hi = 72.0
+
+[targets.attr_say_pct]
+lo = 70.0
+hi = 100.0
+
+[targets.attr_adv_pct]
+lo = 0.0
+hi = 8.0
+hard = 15.0
+
+[targets.dialogue_run_mean]
+lo = 3.5
+hi = 10.0
+hard = 1.8

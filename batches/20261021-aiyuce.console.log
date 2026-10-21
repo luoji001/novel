@@ -1,0 +1,169 @@
+════════════════════════════════════════════════════════
+ 批量生成：aiyuce
+   截止        2026-10-21 20:00 （还剩 654 分钟）
+   闸门        observe
+   并发        2 （会吃满 vLLM 两路，你的对话通道被挤）
+   种子        12 条，循环（当前第 1 轮）
+   预估        每部约 3 分钟 → 到截止大约能跑 218 部
+   产出        /home/liang/novel-agent/batches/20261021-aiyuce
+   代码快照    /home/liang/novel-agent/batches/20261021-aiyuce/src
+               rev 2bb8d7c-dirty　hash 56229570da6c （工作树有未提交改动，快照已固化当前状态）
+   停止        touch /home/liang/.novel-agent-batch.stop
+════════════════════════════════════════════════════════
+
+── [1] aiyuce-20261021-01  （09:05，距截止 654 分钟）
+   题材：推理成本每年降一个数量级，县城的打印店开始挂牌卖「代写」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　176s　{"chapters": 6, "total_chars": 12020, "score_min": 35.7, "score_mean": 62.4, "degraded": 0, "debt": 11, "calls": 57, "llm_sec": 275.0, "dialogue_pct": 7.8}
+
+── [2] aiyuce-20261021-02  （09:08，距截止 651 分钟）
+   题材：一张消费级显卡的二手价跟着模型发布涨跌，华强北出现了专做这个的黄牛
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　191s　{"chapters": 6, "total_chars": 12483, "score_min": 35.4, "score_mean": 62.6, "degraded": 0, "debt": 10, "calls": 57, "llm_sec": 292.2, "dialogue_pct": 3.6}
+
+── [3] aiyuce-20261021-03  （09:12，距截止 647 分钟）
+   题材：三甲医院影像科把初筛交给模型，放射科招聘的学历要求反而提高了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　164s　{"chapters": 6, "total_chars": 12612, "score_min": 35.8, "score_mean": 79.1, "degraded": 0, "debt": 11, "calls": 57, "llm_sec": 247.9, "dialogue_pct": 22.9}
+
+── [4] aiyuce-20261021-04  （09:14，距截止 645 分钟）
+   题材：一个地级市的供电局开始给机房单独排产，工业电价当年调了两次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　141s　{"chapters": 6, "total_chars": 12594, "score_min": 35.2, "score_mean": 57.2, "degraded": 0, "debt": 10, "calls": 57, "llm_sec": 222.1, "dialogue_pct": 8.7}
+
+── [5] aiyuce-20261021-05  （09:17，距截止 642 分钟）
+   题材：外包客服公司的坐席在缩编，但质检岗的编制在扩
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　139s　{"chapters": 6, "total_chars": 11334, "score_min": 32.9, "score_mean": 44.5, "degraded": 0, "debt": 19, "calls": 57, "llm_sec": 209.7, "dialogue_pct": 34.2}
+
+── [6] aiyuce-20261021-06  （09:19，距截止 640 分钟）
+   题材：某开源模型的许可证改了一行字，下游三家公司的报价当月翻倍
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　132s　{"chapters": 6, "total_chars": 11233, "score_min": 34.1, "score_mean": 64.0, "degraded": 0, "debt": 7, "calls": 57, "llm_sec": 205.3, "dialogue_pct": 6.5}
+
+── [7] aiyuce-20261021-07  （09:21，距截止 638 分钟）
+   题材：应届生的第一份工作从「写代码」变成「验代码」，试用期延长到六个月
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　138s　{"chapters": 6, "total_chars": 12639, "score_min": 35.2, "score_mean": 63.6, "degraded": 0, "debt": 5, "calls": 57, "llm_sec": 214.6, "dialogue_pct": 4.8}
+
+── [8] aiyuce-20261021-08  （09:24，距截止 636 分钟）
+   题材：翻译公司的计价单位从千字改成校对小时
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　145s　{"chapters": 6, "total_chars": 13304, "score_min": 38.0, "score_mean": 81.0, "degraded": 0, "debt": 3, "calls": 57, "llm_sec": 224.1, "dialogue_pct": 5.3}
+
+── [9] aiyuce-20261021-09  （09:26，距截止 633 分钟）
+   题材：一所中学把作文批改交给模型，语文教研组的听课记录变薄了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　143s　{"chapters": 6, "total_chars": 11848, "score_min": 34.7, "score_mean": 68.6, "degraded": 0, "debt": 16, "calls": 57, "llm_sec": 213.2, "dialogue_pct": 40.8}
+
+── [10] aiyuce-20261021-10  （09:28，距截止 631 分钟）
+   题材：数据标注的单价涨了，因为要的是有执业资格的人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　145s　{"chapters": 6, "total_chars": 13191, "score_min": 34.3, "score_mean": 63.1, "degraded": 0, "debt": 8, "calls": 57, "llm_sec": 220.9, "dialogue_pct": 10.0}
+
+── [11] aiyuce-20261021-11  （09:31，距截止 628 分钟）
+   题材：一家律所把检索外包给模型，合伙人改按复核页数计费
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　137s　{"chapters": 6, "total_chars": 12103, "score_min": 34.8, "score_mean": 61.5, "degraded": 0, "debt": 17, "calls": 57, "llm_sec": 211.6, "dialogue_pct": 32.0}
+
+── [12] aiyuce-20261021-12  （09:33，距截止 626 分钟）
+   题材：乡镇中学的物理老师用模型备课，期末统考的分数分布变窄了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　144s　{"chapters": 6, "total_chars": 12647, "score_min": 33.9, "score_mean": 70.6, "degraded": 0, "debt": 11, "calls": 57, "llm_sec": 220.4, "dialogue_pct": 19.8}
+
+── [13] aiyuce-20261021-13  （09:35，距截止 624 分钟）
+   题材：推理成本每年降一个数量级，县城的打印店开始挂牌卖「代写」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　148s　{"chapters": 6, "total_chars": 11532, "score_min": 35.7, "score_mean": 64.4, "degraded": 0, "debt": 12, "calls": 57, "llm_sec": 224.3, "dialogue_pct": 11.4}
+
+── [14] aiyuce-20261021-14  （09:38，距截止 621 分钟）
+   题材：一张消费级显卡的二手价跟着模型发布涨跌，华强北出现了专做这个的黄牛
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　154s　{"chapters": 6, "total_chars": 12439, "score_min": 34.5, "score_mean": 63.4, "degraded": 0, "debt": 7, "calls": 57, "llm_sec": 231.3, "dialogue_pct": 2.3}
+
+── [15] aiyuce-20261021-15  （09:40，距截止 619 分钟）
+   题材：三甲医院影像科把初筛交给模型，放射科招聘的学历要求反而提高了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　135s　{"chapters": 6, "total_chars": 11568, "score_min": 35.6, "score_mean": 45.2, "degraded": 0, "debt": 7, "calls": 57, "llm_sec": 211.9, "dialogue_pct": 2.6}
+
+── [16] aiyuce-20261021-16  （09:43，距截止 616 分钟）
+   题材：一个地级市的供电局开始给机房单独排产，工业电价当年调了两次
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　150s　{"chapters": 6, "total_chars": 13165, "score_min": 34.8, "score_mean": 56.9, "degraded": 0, "debt": 6, "calls": 57, "llm_sec": 224.1, "dialogue_pct": 6.1}
+
+── [17] aiyuce-20261021-17  （09:45，距截止 614 分钟）
+   题材：外包客服公司的坐席在缩编，但质检岗的编制在扩
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　141s　{"chapters": 6, "total_chars": 12799, "score_min": 35.8, "score_mean": 54.2, "degraded": 0, "debt": 8, "calls": 57, "llm_sec": 222.7, "dialogue_pct": 10.3}
+
+── [18] aiyuce-20261021-18  （09:48，距截止 611 分钟）
+   题材：某开源模型的许可证改了一行字，下游三家公司的报价当月翻倍
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　135s　{"chapters": 6, "total_chars": 12380, "score_min": 35.7, "score_mean": 81.6, "degraded": 0, "debt": 4, "calls": 53, "llm_sec": 209.5, "dialogue_pct": 4.2}
+
+── [19] aiyuce-20261021-19  （09:50，距截止 609 分钟）
+   题材：应届生的第一份工作从「写代码」变成「验代码」，试用期延长到六个月
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　141s　{"chapters": 6, "total_chars": 11461, "score_min": 35.7, "score_mean": 45.1, "degraded": 0, "debt": 14, "calls": 57, "llm_sec": 214.7, "dialogue_pct": 14.5}
+
+── [20] aiyuce-20261021-20  （09:52，距截止 607 分钟）
+   题材：翻译公司的计价单位从千字改成校对小时
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　146s　{"chapters": 6, "total_chars": 11660, "score_min": 33.6, "score_mean": 53.8, "degraded": 0, "debt": 10, "calls": 57, "llm_sec": 217.1, "dialogue_pct": 5.4}
+
+── [21] aiyuce-20261021-21  （09:55，距截止 604 分钟）
+   题材：一所中学把作文批改交给模型，语文教研组的听课记录变薄了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　142s　{"chapters": 6, "total_chars": 11746, "score_min": 33.0, "score_mean": 43.5, "degraded": 0, "debt": 14, "calls": 57, "llm_sec": 212.6, "dialogue_pct": 27.7}
+
+── [22] aiyuce-20261021-22  （09:57，距截止 602 分钟）
+   题材：数据标注的单价涨了，因为要的是有执业资格的人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　145s　{"chapters": 6, "total_chars": 13521, "score_min": 23.4, "score_mean": 42.2, "degraded": 0, "debt": 12, "calls": 57, "llm_sec": 217.8, "dialogue_pct": 11.1}
+
+── [23] aiyuce-20261021-23  （09:59，距截止 600 分钟）
+   题材：一家律所把检索外包给模型，合伙人改按复核页数计费

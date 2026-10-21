@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-04",
+  "profile": "AI 推演",
+  "title": "电闸",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12594,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12317,
+    "chapter_chars_mean": 2053,
+    "chapter_chars_median": 2176,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 15.2,
+    "dialogue_chars_pct": 8.7,
+    "dialogue_para_pct": 29.5,
+    "interiority_para_pct": 17.7,
+    "narration_para_pct": 52.7,
+    "turn_under20_pct": 65.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 41.9,
+    "attr_adv_pct": 9.8,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅电费单",
+      "chars": 2219,
+      "score": 95.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "发布招聘JD",
+      "chars": 2133,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "划线的电费单边缘",
+      "chars": 2399,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "翻阅电费单边缘",
+      "chars": 2232,
+      "score": 59.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "翻阅折旧表边缘",
+      "chars": 2271,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻阅电力需求报告",
+      "chars": 1334,
+      "score": 81.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「A市供电局」×3",
+      "[observe] 章内自我复读 1 句（如「这意味着市场上确实存在对具备特定技能技术人员的巨…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "narration_para_pct 42.1 低于目标 45.0",
+      "[observe] 标题与《翻阅电费单》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 31.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 47.4 高于目标 18.0",
+      "dialogue_run_mean 6 高于目标 4.0",
+      "narration_para_pct 7.7 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 222.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:17:09"
+}

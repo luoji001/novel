@@ -1,0 +1,126 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-19",
+  "profile": "AI 推演",
+  "title": "代码验证",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11461,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11163,
+    "chapter_chars_mean": 1860,
+    "chapter_chars_median": 1934,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 16.3,
+    "dialogue_chars_pct": 14.5,
+    "dialogue_para_pct": 40.8,
+    "interiority_para_pct": 19.2,
+    "narration_para_pct": 40.0,
+    "turn_under20_pct": 57.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.5,
+    "attr_adv_pct": 10.9,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 19
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对电费单",
+      "chars": 2198,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "核对权限管理代码",
+      "chars": 1803,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对权限管理代码",
+      "chars": 2017,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "核对折旧表",
+      "chars": 2239,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对代码验证报告",
+      "chars": 1973,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "核对代码验证报告",
+      "chars": 1225,
+      "score": 87.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 38.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 41.7 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「如果这些逻辑漏洞根本不会影响实际运行，那么他的所…」）"
+    ],
+    "3": [
+      "narration_para_pct 40.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对权限管理代码」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 23.5 高于目标 18.0",
+      "narration_para_pct 34.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 23.3 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 标题重复：「核对代码验证报告」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 214.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:52:37"
+}

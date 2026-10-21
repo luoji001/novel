@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-08",
+  "profile": "AI 推演",
+  "title": "校对钟",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13304,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13036,
+    "chapter_chars_mean": 2173,
+    "chapter_chars_median": 2215,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 15.3,
+    "dialogue_chars_pct": 5.3,
+    "dialogue_para_pct": 26.5,
+    "interiority_para_pct": 24.6,
+    "narration_para_pct": 48.8,
+    "turn_under20_pct": 71.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "审视电费单",
+      "chars": 2598,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "修改招聘JD",
+      "chars": 2152,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "签字动作",
+      "chars": 2207,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "审视折旧表",
+      "chars": 2316,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "接电话",
+      "chars": 2351,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "摩挲报价单",
+      "chars": 1674,
+      "score": 89.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "narration_para_pct 30.8 低于目标 45.0"
+    ],
+    "6": [
+      "narration_para_pct 22.2 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 224.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:26:24"
+}

@@ -1,0 +1,88 @@
+# 科幻 / 设定短篇
+#
+# ⚠ [targets] 的数字是**未经标定的起点**，不是实测值。理由同 xuanyi.toml：
+# 这个档位没有对应的参照语料，硬线放得很松，只抓真塌缩。
+# 先 `--gate observe` 跑 2~3 部，取单章 p3 再回来改。
+name = "科幻设定"
+prose_model_hint = "设定靠人物撞上它来呈现，不要靠旁白解释"
+prose_system_extra = """\
+这是科幻小说。设定要靠人物撞上它、被它限制来呈现，\
+绝对不要用旁白段落解释原理——那是说明书不是小说。\
+新概念第一次出现时用人物的日常动作带出来，不要先定义再使用。"""
+
+[meta]
+target_total_chars = 20000
+chapters = 10
+scenes_per_chapter = 4
+
+
+[rhythm]
+short = 1400
+normal = 2200
+long = 3200
+open_scale = "normal"       # 科幻开场要立世界，太短立不住
+close_scale = "short"
+
+[scene]
+driver_name = "规则"
+driver_desc = "这一场触碰到设定的哪条规则，人物付了什么代价"
+driver_rule = """· 每一场的 driver 必须写成「因为规则 X，所以人物不得不 Y，代价是 Z」。
+  {want} 场要触碰 {want} 条**不同的**规则后果，不是同一条规则重复演示。
+· 必须围绕「{obj}」展开——这个物件是本章规则的具体化身。
+· 不准出现「人物讨论这个设定」的场景。规则只能通过它造成的具体麻烦被看见。
+"""
+axis_name = "设定的代价"
+axis_desc = "这个世界多了/少了哪一条规则，以及谁在为它付代价"
+stance_desc = "他从这条规则里得利还是受损，他怎么绕开它"
+premise_rule = """· 只引入**一条**反事实规则，其余一切照现实世界运转。
+  一篇两万字的短篇塞不下两套设定，塞了就只能靠解释。
+· 这条规则必须能产生一个具体的、不靠解释就能看懂的两难。
+· ending_direction 要写明人物最终是接受了这个代价还是付出更大代价绕开了它。
+"""
+cast_rule = """· A 是被这条规则挤压的人，B 是靠它活着或执行它的人。
+· 不要安排「向主角解释世界观」的角色——那个角色的存在本身就是败笔。
+"""
+outline_rule = """· 每章让规则多显露一层后果，且后果必须作用在人物的具体处境上。
+· 全篇不准有任何一章的任务是「交代背景」。
+"""
+dedup_threshold = 0.58
+min_speakers = 1
+require_object = true
+
+[gates]
+min_ratio = 0.55
+sim_threshold = 0.90
+theme_max = 0.70            # 全篇围着一条规则转，主题重合天然高
+title_sim_max = 0.60
+plot_sim_max = 0.62
+tpl_per_kilo = 16.0
+tpl_single_max = 2
+sent_dup_min_len = 10
+sent_dup_max = 2
+sent_self_dup_max = 0
+degrade_after = 3
+
+[targets.dialogue_chars_pct]
+lo = 15.0
+hi = 52.0
+hard = 5.0
+
+[targets.interiority_para_pct]
+lo = 0.0
+hi = 18.0
+hard = 30.0
+
+# 世界的质感靠叙述承载，比例应该比论辩体高得多
+[targets.narration_para_pct]
+lo = 25.0
+hi = 75.0
+
+[targets.attr_adv_pct]
+lo = 0.0
+hi = 10.0
+hard = 20.0
+
+[targets.dialogue_run_mean]
+lo = 1.5
+hi = 10.0
+hard = 0.8

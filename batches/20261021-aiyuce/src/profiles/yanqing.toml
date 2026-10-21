@@ -1,0 +1,87 @@
+# 言情 / 关系
+#
+# ⚠ [targets] 的数字是**未经标定的起点**，不是实测值。
+# 先 `--gate observe` 跑 2~3 部，取单章 p3 再回来改。
+name = "言情关系"
+prose_model_hint = "关系的变化写在动作和沉默里，不要靠人物宣告自己的感受"
+prose_system_extra = """\
+这是关系小说。感情的变化要写在动作、停顿、没说出口的话里，\
+不要让人物宣告自己的感受（「我爱你」「我好难过」这类）。\
+两人之间的物理距离、谁先开口、谁回避了哪个问题，都是叙事手段。"""
+
+[meta]
+target_total_chars = 20000
+chapters = 10
+scenes_per_chapter = 4
+
+
+[rhythm]
+short = 1300
+normal = 2100
+long = 2900
+open_scale = "short"
+close_scale = "short"
+
+[scene]
+driver_name = "关系变化"
+driver_desc = "这一场把两人的关系挪动了哪一格（谁先让步、谁退了一步、什么被说开了）"
+driver_rule = """· 每一场的 driver 必须写成「关系从 A 状态变成 B 状态」的形式，
+  且必须是**不可逆的一小步**，不是情绪起伏。
+  「他们吵了一架然后和好」不算变化——那是回到原点。
+· {want} 场要走 {want} 个**不同的**台阶，围绕「{obj}」展开。
+· 不准出现「原地踏步」（只是又亲近了一点）或「跳进」（突然就在一起了）。
+"""
+axis_name = "关系张力"
+axis_desc = "两人想要的东西在哪一点上不兼容，而他们又为什么离不开"
+stance_desc = "他要的是什么、他愿意为此让掉什么、他绝不让的是什么"
+premise_rule = """· 张力必须来自两人**各自站得住的需求之间的不兼容**，
+  不是误会、不是第三者、不是外部阻碍。误会解开就没了，需求冲突才撑得起两万字。
+· ending_direction 要写明最后谁让了哪一步，或者两人各自带走了什么。
+"""
+cast_rule = """· A 和 B 的需求必须具体到可指认（要留在这座城市 / 要那份工作 /
+  要把母亲接过来），不准是「想要安稳」这类空壳。
+· 两人都要有一个「绝不让」的底线，而且这两个底线互相撞。
+"""
+outline_rule = """· 每章关系必须挪动一格，且不准往回挪成原样。
+· 不要安排任何一章是纯粹的「甜」或纯粹的「虐」——每章都要有代价。
+"""
+dedup_threshold = 0.55
+min_speakers = 2
+
+[gates]
+min_ratio = 0.55
+sim_threshold = 0.90
+theme_max = 0.72            # 全篇就两个人的关系，主题重合必然很高
+title_sim_max = 0.60
+plot_sim_max = 0.65
+tpl_per_kilo = 16.0
+tpl_single_max = 2
+sent_dup_min_len = 10
+sent_dup_max = 2
+sent_self_dup_max = 0
+degrade_after = 3
+
+[targets.dialogue_chars_pct]
+lo = 30.0
+hi = 65.0
+hard = 10.0
+
+# 言情的心理活动是本体，不是毛病 —— 按论辩体的 6% 去卡会把这个题材判死
+[targets.interiority_para_pct]
+lo = 5.0
+hi = 28.0
+hard = 42.0
+
+[targets.narration_para_pct]
+lo = 10.0
+hi = 55.0
+
+[targets.attr_adv_pct]
+lo = 0.0
+hi = 12.0
+hard = 22.0
+
+[targets.dialogue_run_mean]
+lo = 2.0
+hi = 12.0
+hard = 1.0

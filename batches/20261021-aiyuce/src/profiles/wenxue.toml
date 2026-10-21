@@ -1,0 +1,95 @@
+# 纯文学 / 氛围成长
+#
+# ⚠ [targets] 的数字是**未经标定的起点**，不是实测值。
+# 先 `--gate observe` 跑 2~3 部，取单章 p3 再回来改。
+#
+# 这个档位和其他四个有一处本质不同：`min_speakers = 0`。
+# 独白体、书信体、单人视角的章节是这个题材的正常写法，而最初版本把
+# 「每章至少 2 人开口」写成硬性要求，会让这类章节每章都报问题。
+name = "纯文学"
+prose_model_hint = "认知的变化写在具体物的细节里，不要靠抒情句"
+prose_system_extra = """\
+这是纯文学短篇。人物对自己处境的认知变化要落在具体物的细节上——\
+他第二次看同一样东西时注意到了不同的地方。\
+不要写抒情句、不要总结人物的领悟、不要在段末下判断。可以整段没有对话。"""
+
+[meta]
+target_total_chars = 18000
+chapters = 9
+scenes_per_chapter = 3
+
+
+[rhythm]
+short = 1300
+normal = 2000
+long = 2800
+open_scale = "short"
+close_scale = "short"
+
+[scene]
+driver_name = "认知变化"
+driver_desc = "这一场让人物对自己处境的认知变了哪一点（他第二次看同一件事时看到了什么不同）"
+driver_rule = """· 每一场的 driver 必须写成「他原本以为 X，这一场之后他看见 Y」。
+  变化可以极小，但必须是**具体的**：一个他以前没注意的细节、
+  一句被重新理解的话、一个他终于肯承认的事实。
+· {want} 场要走 {want} 个**不同的**认知台阶，围绕「{obj}」展开。
+· 不准写成「他突然明白了人生的意义」这类顿悟——认知变化必须附着在具体物上。
+"""
+axis_name = "内在张力"
+axis_desc = "人物如何理解自己的处境，而这个理解在哪一点上是不成立的"
+stance_desc = "他对自己处境的说法是什么，这个说法替他挡掉了什么"
+premise_rule = """· 不需要外部冲突。核心是人物对自己处境的某个说法，以及这个说法的裂缝。
+· 具体物件在这里尤其重要——它们是认知变化唯一的落点。
+· ending_direction 要写明他最后对那件事的理解变成了什么，
+  不必是和解，可以只是看清。
+"""
+cast_rule = """· 可以只有 A 一个主要人物。B 如果存在，作用是让 A 的说法显出裂缝，
+  不必与 A 对立。
+· A 的 stance 必须写明「他对自己处境的说法」以及「这个说法替他挡掉了什么」。
+"""
+outline_rule = """· 每章让认知挪动一点，不要安排情节转折去推动它。
+· 允许某些章几乎没有事件发生，但不允许某章没有认知变化。
+"""
+dedup_threshold = 0.55
+min_speakers = 0            # ← 允许独白体 / 书信体 / 单人视角的章节
+require_object = true       # 具体物在纯文学里反而更要紧，保留
+
+[gates]
+min_ratio = 0.55
+sim_threshold = 0.90
+theme_max = 0.75            # 全篇咬同一个内在张力，主题重合最高的档位
+title_sim_max = 0.60
+plot_sim_max = 0.68
+tpl_per_kilo = 16.0
+tpl_single_max = 2
+sent_dup_min_len = 10
+sent_dup_max = 2
+sent_self_dup_max = 0
+degrade_after = 3
+
+# 整章没有对话是这个题材的正常写法。硬线 2% 只拦「连一句话都没有且通篇抒情」。
+[targets.dialogue_chars_pct]
+lo = 8.0
+hi = 48.0
+hard = 2.0
+
+# 心理活动是本体。硬线 50% 只拦「通篇只有想法、没有任何外部世界」。
+[targets.interiority_para_pct]
+lo = 5.0
+hi = 32.0
+hard = 50.0
+
+[targets.narration_para_pct]
+lo = 30.0
+hi = 85.0
+
+[targets.attr_adv_pct]
+lo = 0.0
+hi = 10.0
+hard = 22.0
+
+# 不设 dialogue_run_mean 的硬线：独白章的 run 本来就是 0，
+# 设任何下限都会把这个题材写得最对的章拦掉。
+[targets.dialogue_run_mean]
+lo = 1.0
+hi = 9.0
