@@ -1,0 +1,125 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-55",
+  "profile": "AI 推演",
+  "title": "代码镜像",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12622,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12312,
+    "chapter_chars_mean": 2052,
+    "chapter_chars_median": 2214,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 17.3,
+    "dialogue_chars_pct": 6.2,
+    "dialogue_para_pct": 17.7,
+    "interiority_para_pct": 8.6,
+    "narration_para_pct": 73.8,
+    "turn_under20_pct": 63.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "代码审查记录提交",
+      "chars": 2431,
+      "score": 38.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "代码审查报告提交",
+      "chars": 2298,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "代码审查报告提交",
+      "chars": 2466,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "提交代码审查报告",
+      "chars": 1797,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "代码审查报告提交",
+      "chars": 2243,
+      "score": 34.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "翻动代码审查报告",
+      "chars": 1381,
+      "score": 90.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的事实推翻呢…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《代码审查记录提交》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「智创科技有限公司的」×3",
+      "[observe] 标题重复：「代码审查报告提交」已存在"
+    ],
+    "4": [
+      "dialogue_chars_pct 23.5 高于目标 18.0",
+      "narration_para_pct 36.8 低于目标 45.0",
+      "[observe] 标题与《代码审查报告提交》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「某科技公司技术部」×5",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「代码审查报告提交」已存在"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "[observe] 标题与《提交代码审查报告》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 219.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:18:57"
+}

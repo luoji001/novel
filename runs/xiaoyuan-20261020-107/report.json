@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-107",
+  "profile": "校园青春",
+  "title": "钥匙",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20579,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19566,
+    "chapter_chars_mean": 2174,
+    "chapter_chars_median": 2384,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 48.1,
+    "dialogue_chars_pct": 28.9,
+    "dialogue_para_pct": 69.6,
+    "interiority_para_pct": 13.2,
+    "narration_para_pct": 17.2,
+    "turn_under20_pct": 87.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.6,
+    "attr_adv_pct": 5.0,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 3.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙与未完成的诗",
+      "chars": 1525,
+      "score": 97.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "分科表的张贴",
+      "chars": 2508,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "磁带的整理",
+      "chars": 2793,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "笔记本的边缘摩挲",
+      "chars": 2563,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "课表的边缘摩挲",
+      "chars": 2501,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "磁带盒的最后触碰",
+      "chars": 2498,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "调令文件的边缘摩挲",
+      "chars": 2192,
+      "score": 86.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "铜钥匙的最后触碰",
+      "chars": 2479,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "钥匙的最后触碰",
+      "chars": 1511,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 19.8 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）"
+    ],
+    "2": [
+      "dialogue_chars_pct 17.2 低于目标 20.0"
+    ],
+    "3": [
+      "interiority_para_pct 4.9 低于目标 8.0",
+      "narration_para_pct 11.5 低于目标 15.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周子墨的」×4、「林晓棠的」×3",
+      "narration_para_pct 11.5 低于目标 15.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周子墨的」×3、「林晓棠的」×3",
+      "narration_para_pct 9.8 低于目标 15.0",
+      "[observe] 标题与《笔记本的边缘摩挲》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓棠站在」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「周子墨的」×5、「点了点头」×4、「周子墨点」×4",
+      "dialogue_chars_pct 18.9 低于目标 20.0",
+      "[observe] 章内自我复读 13 句（如「他知道这孩子一直藏着很多事情，就像那个总是躲在角…」）",
+      "[observe] 标题与《课表的边缘摩挲》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "narration_para_pct 7.0 低于目标 15.0",
+      "[observe] 标题与《磁带盒的最后触碰》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题与《铜钥匙的最后触碰》近似 0.93 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 444.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T15:50:32"
+}

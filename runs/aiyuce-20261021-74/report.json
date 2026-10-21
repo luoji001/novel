@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-74",
+  "profile": "AI 推演",
+  "title": "显卡交易",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12198,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11932,
+    "chapter_chars_mean": 1989,
+    "chapter_chars_median": 1920,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 14.3,
+    "dialogue_chars_pct": 5.9,
+    "dialogue_para_pct": 29.1,
+    "interiority_para_pct": 28.9,
+    "narration_para_pct": 42.0,
+    "turn_under20_pct": 83.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 11.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单的疑问",
+      "chars": 1923,
+      "score": 37.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "电费单的疑问",
+      "chars": 2572,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "推理报价单的疑云",
+      "chars": 2205,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "折旧表的折旧率",
+      "chars": 1791,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "七月的招聘JD",
+      "chars": 2001,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "电费单的疑问",
+      "chars": 1700,
+      "score": 90.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 3 句（如「假如在未来的一段时间内，市场交易量没有延续当前的…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「电费单的疑问」已存在"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 18.4 高于目标 18.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "narration_para_pct 29.4 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「然后继续盯着那张折旧表看了好一会儿才开口问，“你…」）"
+    ],
+    "5": [
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0"
+    ],
+    "6": [
+      "[observe] 标题重复：「电费单的疑问」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 223.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:04:08"
+}

@@ -1,0 +1,171 @@
+{
+  "consistency": "1. 林晓阳在第一章发现蓝色笔记本，但第六章提到他整理课表时发现未完成的笔记，却未提及蓝色笔记本的下落，前后不一致。\n\n2. 第四章提到林晓阳在运动会报名表上误签了“她”的名字，但第五章提到林雨欣的名字从公告栏消失却在运动会名单中出现，导致“她”与“林雨欣”身份混淆，人物称呼不一致。\n\n3. 第八章提到同学们发现座位表与转学通知存在矛盾，但第三章已说明陈老师确认她带走所有东西，座位空缺，公告栏名字消失，矛盾未被合理解释。\n\n4. 第五章提到沈知远在运动会名单中发现林雨欣的名字，但第九章提到林晓阳误将好友名字写在自己报名表上，导致“她”与“林雨欣”身份混淆，人物称呼不一致。\n\n5. 第七章提到沈知远在教室发现一块破碎的校服碎片，但第六章提到林晓阳在整理课表时发现未完成的笔记，未提及校服碎片，前后不一致。\n\n6. 第九章提到林晓阳误将好友名字写在自己报名表上，但第四章提到他误签了“她”的名字，导致“她”与“好友”身份混淆，人物称呼不一致。",
+  "slug": "xiaoyuan-20261020-105",
+  "profile": "校园青春",
+  "title": "终点线",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20100,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19173,
+    "chapter_chars_mean": 2130,
+    "chapter_chars_median": 2151,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 43.1,
+    "dialogue_chars_pct": 22.2,
+    "dialogue_para_pct": 63.6,
+    "interiority_para_pct": 16.3,
+    "narration_para_pct": 20.1,
+    "turn_under20_pct": 89.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.9,
+    "attr_adv_pct": 2.6,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "触摸蓝色笔记本的边缘",
+      "chars": 1817,
+      "score": 78.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "抚摸校服布料的指尖",
+      "chars": 2218,
+      "score": 19.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "触摸空位的指尖",
+      "chars": 2258,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "写在表格上的名字",
+      "chars": 2182,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "触摸空位的指尖",
+      "chars": 2734,
+      "score": 84.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "触摸未完成的课表",
+      "chars": 2464,
+      "score": 24.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "触摸空位的指尖",
+      "chars": 2264,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "触摸空位的指尖",
+      "chars": 2456,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "触摸空位的指尖",
+      "chars": 1698,
+      "score": 93.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 10.8 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「林晓阳记得很清楚，那些页子里记满了数学公式，还有…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 10.3 低于目标 20.0",
+      "narration_para_pct 14.8 低于目标 15.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓阳点点」×3",
+      "[observe] 章内自我复读 18 句（如「林晓阳的目光不由自主地飘向那里，却又很快收回来看…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈知远的」×5、「沈知远点」×3",
+      "dialogue_chars_pct 18.6 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「沈知远的目光落在公告栏旁边，那里挂着一块崭新的牌…」）",
+      "[observe] 标题重复：「触摸空位的指尖」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「沈知远的」×4、「林晓阳的」×3",
+      "dialogue_chars_pct 10.9 低于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5",
+      "[observe] 章内自我复读 16 句（如「林晓阳望着那张未完成的课表，心中涌起一股莫名的情…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×4、「沈知远点了点头」×3、「”沈知远低」×3",
+      "narration_para_pct 11.1 低于目标 15.0",
+      "[observe] 标题重复：「触摸空位的指尖」已存在"
+    ],
+    "8": [
+      "interiority_para_pct 6.2 低于目标 8.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「阳光透过窗户洒进教室，在每个人的身上投下长长的影…」）",
+      "[observe] 标题重复：「触摸空位的指尖」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「林晓阳站在」×3",
+      "narration_para_pct 13.5 低于目标 15.0",
+      "[observe] 标题重复：「触摸空位的指尖」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 434.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T15:41:45"
+}

@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-42",
+  "profile": "校园青春",
+  "title": "蓝笔记本",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20251,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19288,
+    "chapter_chars_mean": 2143,
+    "chapter_chars_median": 2347,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 45,
+    "dialogue_chars_pct": 21.5,
+    "dialogue_para_pct": 56.0,
+    "interiority_para_pct": 18.4,
+    "narration_para_pct": 25.6,
+    "turn_under20_pct": 87.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.7,
+    "attr_adv_pct": 5.1,
+    "scenes_per_chapter": 4.1,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕碎的分科表",
+      "chars": 1572,
+      "score": 97.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "撕碎的分科表",
+      "chars": 2485,
+      "score": 86.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "擦拭消毒水味的校服",
+      "chars": 2580,
+      "score": 87.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "翻开的课本页面",
+      "chars": 2472,
+      "score": 86.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "野花放在窗台",
+      "chars": 2198,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙藏入信封",
+      "chars": 2499,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "签到册上的名字",
+      "chars": 2004,
+      "score": 84.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "蓝色笔记本的笔记",
+      "chars": 2760,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "磁带放在窗台",
+      "chars": 1672,
+      "score": 87.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 章内自我复读 1 句（如「林晓阳没有说话，只是点点头…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「周子墨的」×4、「他知道这」×3",
+      "dialogue_chars_pct 16.7 低于目标 20.0",
+      "[observe] 标题重复：「撕碎的分科表」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×5、「林晓阳点点」×3",
+      "dialogue_chars_pct 19.3 低于目标 20.0",
+      "[observe] 章内自我复读 19 句（如「这些天你总是独自一个人坐在那边，”陈慧继续说道，…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×5、「林晓阳点了点头」×4、「林晓阳的」×3",
+      "dialogue_chars_pct 19.9 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「陈慧看了看四周，又看了看林晓阳的脸色，终于说道：…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道自己」×4、「”周子墨低」×3",
+      "dialogue_chars_pct 19.8 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「他的目光落在窗外那一株盛开的小花上，那是他妈妈生…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「带着一丝」×3",
+      "dialogue_chars_pct 18.1 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「他忽然想起昨天放学时看到的情景，那群人围在一起讨…」）",
+      "[observe] attr_adv_pct 28.6 > 22.0（结构塌缩）"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓阳的」×5、「林晓阳点点」×3",
+      "[observe] 章内自我复读 21 句（如「他知道，有些事情不是靠努力就能改变的，就像现在坐…」）"
+    ],
+    "9": [
+      "[observe] 章内自我复读 17 句（如「他低头看着自己的笔记本，上面密密麻麻记满了数学公…」）",
+      "[observe] 标题与《野花放在窗台》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 437.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:58:48"
+}

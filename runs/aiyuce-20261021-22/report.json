@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-22",
+  "profile": "AI 推演",
+  "title": "证书风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13521,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13215,
+    "chapter_chars_mean": 2202,
+    "chapter_chars_median": 2084,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 16.8,
+    "dialogue_chars_pct": 11.1,
+    "dialogue_para_pct": 30.2,
+    "interiority_para_pct": 21.4,
+    "narration_para_pct": 48.4,
+    "turn_under20_pct": 60.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "薪资条上的持证标记",
+      "chars": 2101,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "敲击键盘的招聘JD",
+      "chars": 2925,
+      "score": 23.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "敲击桌面的报价单",
+      "chars": 2638,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "盯住统计表的指腹",
+      "chars": 2139,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "盯住误差率的指腹",
+      "chars": 2128,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "盯着误差率的指腹",
+      "chars": 1584,
+      "score": 32.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 18.4 高于目标 18.0",
+      "narration_para_pct 27.8 低于目标 45.0",
+      "[observe] 章内自我复读 4 句（如「比如，如果新入职的持证人员培训时间较长，或者他们…」）",
+      "[observe] 标题与《盯住统计表的指腹》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "dialogue_chars_pct 47.3 高于目标 18.0",
+      "narration_para_pct 27.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《盯住误差率的指腹》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 217.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:59:46"
+}

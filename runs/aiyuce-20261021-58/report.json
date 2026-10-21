@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-58",
+  "profile": "AI 推演",
+  "title": "标尺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12215,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11927,
+    "chapter_chars_mean": 1988,
+    "chapter_chars_median": 2156,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 15.2,
+    "dialogue_chars_pct": 9.3,
+    "dialogue_para_pct": 28.8,
+    "interiority_para_pct": 18.3,
+    "narration_para_pct": 52.9,
+    "turn_under20_pct": 61.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.5,
+    "attr_adv_pct": 20.1,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击键盘的报价单",
+      "chars": 2251,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "指尖轻触证书边缘",
+      "chars": 2473,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对薪资明细表",
+      "chars": 2249,
+      "score": 34.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对质量评估报告",
+      "chars": 2159,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "手指轻触财务报表",
+      "chars": 2013,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对报价单边缘",
+      "chars": 1064,
+      "score": 87.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 3 句（如「如果有证据表明市场上有其他公司已经开始提高单价，…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 19.0 高于目标 18.0",
+      "narration_para_pct 37.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "narration_para_pct 29.4 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 28.0 高于目标 18.0",
+      "narration_para_pct 12.5 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 217.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:26:04"
+}

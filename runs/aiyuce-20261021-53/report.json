@@ -1,0 +1,127 @@
+{
+  "consistency": "未发现。",
+  "slug": "aiyuce-20261021-53",
+  "profile": "AI 推演",
+  "title": "数据镜",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12944,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12676,
+    "chapter_chars_mean": 2113,
+    "chapter_chars_median": 2278,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 15.3,
+    "dialogue_chars_pct": 29.9,
+    "dialogue_para_pct": 69.4,
+    "interiority_para_pct": 4.7,
+    "narration_para_pct": 25.9,
+    "turn_under20_pct": 51.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.8,
+    "attr_adv_pct": 6.9,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 6.4,
+    "turn_len_median": 27
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击桌面",
+      "chars": 2820,
+      "score": 95.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摩挲桌面边缘",
+      "chars": 2676,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "扫描评分表",
+      "chars": 1693,
+      "score": 84.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "扫描评分表",
+      "chars": 2453,
+      "score": 79.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "翻阅评分表",
+      "chars": 2198,
+      "score": 85.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "签署审批单",
+      "chars": 1098,
+      "score": 33.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 35.7 低于目标 45.0"
+    ],
+    "2": [
+      "narration_para_pct 44.4 低于目标 45.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 43.5 高于目标 18.0",
+      "narration_para_pct 26.7 低于目标 45.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 69.2 高于目标 18.0",
+      "dialogue_run_mean 23 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0",
+      "[observe] 标题重复：「扫描评分表」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 23.5 高于目标 18.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "narration_para_pct 16.7 低于目标 45.0",
+      "[observe] 标题与《扫描评分表》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "dialogue_chars_pct 38.9 高于目标 18.0",
+      "narration_para_pct 30.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 232.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:14:07"
+}

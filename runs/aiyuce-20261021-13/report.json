@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-13",
+  "profile": "AI 推演",
+  "title": "折旧表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11532,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11230,
+    "chapter_chars_mean": 1872,
+    "chapter_chars_median": 2020,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 17.2,
+    "dialogue_chars_pct": 11.4,
+    "dialogue_para_pct": 41.5,
+    "interiority_para_pct": 20.6,
+    "narration_para_pct": 38.0,
+    "turn_under20_pct": 71.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.4,
+    "attr_adv_pct": 2.6,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单上的数字",
+      "chars": 2033,
+      "score": 95.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "张贴招聘JD",
+      "chars": 2252,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "报价单上的数字",
+      "chars": 2133,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "折旧表上的磨损处",
+      "chars": 2120,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "打印纸上的数字",
+      "chars": 1803,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "电费单上的数字",
+      "chars": 1185,
+      "score": 35.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 30.8 低于目标 45.0"
+    ],
+    "3": [
+      "narration_para_pct 44.4 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「如果有一天，周晓梅发现她的客户数量下降，而竞争对…」）",
+      "[observe] 标题与《电费单上的数字》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "dialogue_chars_pct 21.4 高于目标 18.0",
+      "narration_para_pct 32.1 低于目标 45.0",
+      "[observe] 章内自我复读 3 句（如「如果这台机器突然发生了重大故障，导致提前报废，那…」）"
+    ],
+    "5": [
+      "narration_para_pct 35.7 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 25.8 高于目标 18.0",
+      "narration_para_pct 20.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「电费单上的数字」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 224.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:38:16"
+}

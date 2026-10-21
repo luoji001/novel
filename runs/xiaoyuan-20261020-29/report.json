@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-29",
+  "profile": "校园青春",
+  "title": "校服外套的重量",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21077,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20080,
+    "chapter_chars_mean": 2231,
+    "chapter_chars_median": 2377,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 47.6,
+    "dialogue_chars_pct": 26.0,
+    "dialogue_para_pct": 66.2,
+    "interiority_para_pct": 19.1,
+    "narration_para_pct": 14.7,
+    "turn_under20_pct": 88.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.2,
+    "attr_adv_pct": 5.4,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "素描本最后一页",
+      "chars": 1325,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "磁带上的划痕",
+      "chars": 3031,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "课桌下的速写稿",
+      "chars": 2370,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "纸团里的秘密",
+      "chars": 2515,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "手指抚过公告栏",
+      "chars": 2727,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "磁带掉在地面",
+      "chars": 2697,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "素描本最后一页",
+      "chars": 2290,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "校服外套的褶皱",
+      "chars": 2506,
+      "score": 57.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "手指抚过公告栏",
+      "chars": 1607,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周子墨的」×4",
+      "narration_para_pct 7.7 低于目标 15.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周子墨的」×8",
+      "narration_para_pct 14.8 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×3、「带着一丝」×3",
+      "narration_para_pct 11.7 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「就像窗外的梧桐树，在寒冷中紧紧包裹着自己，不肯伸…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「周子墨的」×4、「“我不知道」×3、「点了点头」×3",
+      "narration_para_pct 14.5 低于目标 15.0",
+      "[observe] 章内自我复读 17 句（如「林晚晴望着那些小小的雪花，想起昨天晚上，她在宿舍…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晚晴站在」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「周子墨的」×6",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "7": [
+      "narration_para_pct 13.7 低于目标 15.0",
+      "[observe] 标题重复：「素描本最后一页」已存在"
+    ],
+    "8": [
+      "dialogue_chars_pct 14.9 低于目标 20.0",
+      "[observe] 章内自我复读 12 句（如「那一刻，她忽然想起去年冬天，他抱着音响在走廊上播…」）"
+    ],
+    "9": [
+      "narration_para_pct 13.3 低于目标 15.0",
+      "[observe] 标题重复：「手指抚过公告栏」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 440.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T09:58:39"
+}

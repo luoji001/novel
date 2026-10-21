@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-03",
+  "profile": "AI 推演",
+  "title": "胶片",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12612,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12342,
+    "chapter_chars_mean": 2057,
+    "chapter_chars_median": 2128,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 15.2,
+    "dialogue_chars_pct": 22.9,
+    "dialogue_para_pct": 59.3,
+    "interiority_para_pct": 18.3,
+    "narration_para_pct": 22.4,
+    "turn_under20_pct": 52.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 8.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击桌面",
+      "chars": 1934,
+      "score": 95.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "敲击表格单元格",
+      "chars": 2042,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "翻阅预算报表",
+      "chars": 2321,
+      "score": 79.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "翻阅采购清单",
+      "chars": 2562,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻阅招聘JD",
+      "chars": 2307,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "翻阅统计表",
+      "chars": 1440,
+      "score": 87.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 23.1 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 23.6 高于目标 18.0",
+      "narration_para_pct 21.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 61.1 高于目标 18.0",
+      "dialogue_run_mean 12 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0"
+    ],
+    "4": [
+      "narration_para_pct 35.7 低于目标 45.0"
+    ],
+    "5": [
+      "narration_para_pct 37.5 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 29.8 高于目标 18.0",
+      "narration_para_pct 11.1 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 247.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:14:47"
+}

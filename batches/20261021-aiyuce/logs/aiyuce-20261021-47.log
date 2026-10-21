@@ -1,0 +1,132 @@
+开始：aiyuce-20261021-47（档位 AI 推演／分节文章，6 节 / 9000 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=aiyuce-20261021-47
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 三月的货款（normal，1588字）律所收到一笔货款，但未发现异常
+     2. 五月的报价单（normal，1588字）模型推理报价单被采用，成本降低
+     3. 七月的复核页数（normal，1588字）律师复核页数统计表显示效率提升
+     4. 九月的投诉记录（normal，1588字）客户投诉记录出现，质疑服务质量
+     5. 十一月的败诉判决（normal，1588字）案件败诉判决书送达，信任危机爆发
+     6. 二月的预测推翻（short，1058字）这条预测会被什么推翻
+
+  继续：novel-agent approve aiyuce-20261021-47 --accept
+  打回：novel-agent approve aiyuce-20261021-47 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/aiyuce-20261021-47
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=aiyuce-20261021-47
+  · approve_outline
+  · plan_scenes  [+6 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+    第1章 3 场：因为案件检索报告中显示的货款金额 | 因为案件检索报告未提及客户特殊要 | 因为案件检索报告未包含交付周期信
+    第2章 3 场：因为模型推理报价单显示单件案件处 | 因为试用模型推理服务后处理时间缩 | 因为模型推理服务使律所整体成本降
+    第3章 3 场：因为复核页数统计表显示7月平均每 | 因为复核页数统计表显示效率提升， | 因为效率提升意味着计费模式更加有
+    第4章 3 场：因为客户投诉记录中提到的案件处理 | 因为投诉记录显示案件处理时间超出 | 因为投诉记录中提到的案件处理时间
+    第5章 3 场：因为 陈志远收到一份案件败诉判决 | 因为 陈志远发现模型推理报价单与 | 因为 陈志远发现客户投诉记录中提
+    第6章 2 场：因为陈志远发现案件败诉判决书的复 | 因为陈志远发现模型推理报价单的页
+
+  继续：novel-agent approve aiyuce-20261021-47 --accept
+  打回：novel-agent approve aiyuce-20261021-47 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/aiyuce-20261021-47
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=aiyuce-20261021-47
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['6']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/aiyuce-20261021-47/report.md
+
+  继续：novel-agent approve aiyuce-20261021-47 --accept
+  打回：novel-agent approve aiyuce-20261021-47 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/aiyuce-20261021-47
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=aiyuce-20261021-47
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/aiyuce-20261021-47
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/aiyuce-20261021-47

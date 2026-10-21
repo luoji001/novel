@@ -1,0 +1,160 @@
+{
+  "consistency": "1. 第二章提到林晓阳“即将转学”，但第一章已说明他“选择离开学校”，时间线存在矛盾。  \n2. 第四章提到周子墨“已帮他伪造转学手续”，但第六章提到林晓阳“与陈老师对峙”，暗示转学手续尚未完成，前后矛盾。  \n3. 第七章提到“周子墨帮助他整理学习资料并给予支持”，但第九章提到“周子墨主动帮他处理转学手续”，与第四章“已帮他伪造转学手续”重复，逻辑不一致。  \n4. 第八章提到“周子墨主动帮他处理转学手续，却最终选择放手让他离开”，但第九章提到“林晓阳在最后一天课堂上收到转学手续”，说明手续已处理完毕，与第八章“放手让他离开”矛盾。  \n5. 第九章提到“林晓阳在最后一天课堂上收到转学手续”，但第六章提到“林晓阳选择离开”，时间线不一致。  \n6. 第三章提到“分科表时间紧迫”，但第九章提到“林晓阳在最后一天课堂上收到转学手续”，说明时间安排存在矛盾。  \n7. 第五章提到“林晓阳发现自己的笔记被周子墨找到”，但第一章提到“林晓阳发现自己的笔记失踪”，前后矛盾。  \n8. 第八章和第九章均提到“手指抚过课表”，但第八章提到“林晓阳发现自己的名字仍留在课表上”，第九章未提及，逻辑不一致。",
+  "slug": "xiaoyuan-20261020-90",
+  "profile": "校园青春",
+  "title": "笔记残章",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21246,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20223,
+    "chapter_chars_mean": 2247,
+    "chapter_chars_median": 2357,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 47.9,
+    "dialogue_chars_pct": 26.3,
+    "dialogue_para_pct": 65.2,
+    "interiority_para_pct": 14.6,
+    "narration_para_pct": 20.2,
+    "turn_under20_pct": 85.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.8,
+    "attr_adv_pct": 1.7,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "半本笔记遗失",
+      "chars": 1605,
+      "score": 97.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "磁带转动声响",
+      "chars": 2670,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "课表悬挂不动",
+      "chars": 2480,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "校服外套丢失",
+      "chars": 2919,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "笔记遗落的午后",
+      "chars": 2399,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手指抚过公告栏",
+      "chars": 2214,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "铁盒刻痕浮现",
+      "chars": 2871,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "手指抚过课表",
+      "chars": 2495,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "手指抚过课表",
+      "chars": 1584,
+      "score": 88.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道自己」×5"
+    ],
+    "2": [
+      "单条套路句式超限：「周子墨的」×5、「他知道这」×5"
+    ],
+    "3": [
+      "单条套路句式超限：「林晓阳站在」×3、「他知道自己」×3",
+      "narration_para_pct 11.8 低于目标 15.0",
+      "[observe] 章内自我复读 1 句（如「陈老师点了点头，似乎明白了什么…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓阳的」×4",
+      "narration_para_pct 13.8 低于目标 15.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓阳的」×5、「他知道这」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓阳站在」×4"
+    ],
+    "8": [
+      "单条套路句式超限：「周子墨点」×3、「周子墨的」×3",
+      "[observe] 标题与《手指抚过公告栏》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「林晓阳的」×3",
+      "dialogue_chars_pct 16.3 低于目标 20.0",
+      "[observe] 标题重复：「手指抚过课表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 450.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T14:34:46"
+}

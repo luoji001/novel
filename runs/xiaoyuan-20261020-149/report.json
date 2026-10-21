@@ -1,0 +1,165 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-149",
+  "profile": "校园青春",
+  "title": "冻笔",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20179,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19168,
+    "chapter_chars_mean": 2130,
+    "chapter_chars_median": 2319,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 48.3,
+    "dialogue_chars_pct": 24.9,
+    "dialogue_para_pct": 63.9,
+    "interiority_para_pct": 13.0,
+    "narration_para_pct": 23.1,
+    "turn_under20_pct": 89.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.1,
+    "attr_adv_pct": 4.5,
+    "scenes_per_chapter": 3.1,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "贴课表的手指",
+      "chars": 1064,
+      "score": 34.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "磁带盒的缝隙",
+      "chars": 2272,
+      "score": 95.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "铅笔划破素描本",
+      "chars": 2434,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "素描本上的指纹",
+      "chars": 2687,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "素描纸上的蓝痕",
+      "chars": 2405,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "素描纸上的蓝痕",
+      "chars": 2581,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "素描纸上的蓝痕",
+      "chars": 2460,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "磁带盒的缝隙",
+      "chars": 2663,
+      "score": 87.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "素描纸上的蓝痕",
+      "chars": 1604,
+      "score": 86.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林夏站在」×3",
+      "dialogue_chars_pct 11.8 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「那上面写着“美术班”的字样，旁边还有一排小字：“…」）"
+    ],
+    "2": [
+      "narration_para_pct 13.7 低于目标 15.0"
+    ],
+    "3": [
+      "attr_adv_pct 15.0 高于目标 12.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 章内自我复读 13 句（如「他知道，这只是一个开始，就像那些被风吹散的雪片，…」）"
+    ],
+    "5": [
+      "interiority_para_pct 7.5 低于目标 8.0",
+      "[observe] 章内自我复读 16 句（如「她的视线停留在桌面上那一小块被墨迹晕染的地方，那…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「素描纸上的蓝痕」已存在"
+    ],
+    "7": [
+      "[observe] 章内自我复读 5 句（如「你怎么又一个人待在这里？…」）",
+      "[observe] 标题重复：「素描纸上的蓝痕」已存在"
+    ],
+    "8": [
+      "[observe] 章内自我复读 16 句（如「画室里的空气似乎变得更加安静了一些，仿佛连时间也…」）",
+      "[observe] 标题重复：「磁带盒的缝隙」已存在"
+    ],
+    "9": [
+      "dialogue_chars_pct 17.1 低于目标 20.0",
+      "[observe] 标题重复：「素描纸上的蓝痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 445.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:01:36"
+}

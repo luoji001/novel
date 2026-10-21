@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-60",
+  "profile": "AI 推演",
+  "title": "电磁模型",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13642,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13376,
+    "chapter_chars_mean": 2229,
+    "chapter_chars_median": 2318,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 14.2,
+    "dialogue_chars_pct": 4.2,
+    "dialogue_para_pct": 22.2,
+    "interiority_para_pct": 22.6,
+    "narration_para_pct": 55.2,
+    "turn_under20_pct": 68.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 16.1,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻看成绩统计表",
+      "chars": 2443,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对图纸参数",
+      "chars": 2285,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对折旧计算表",
+      "chars": 3028,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "修改岗位说明书",
+      "chars": 2648,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对原材料需求表",
+      "chars": 1964,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "翻看成绩统计表",
+      "chars": 1268,
+      "score": 87.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 33.3 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 7 句（如「如果新供应商能够在两天内顺利送达所需材料，并且订…」）"
+    ],
+    "6": [
+      "interiority_para_pct 50.0 高于目标 40.0",
+      "[observe] 标题重复：「翻看成绩统计表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 237.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:30:57"
+}

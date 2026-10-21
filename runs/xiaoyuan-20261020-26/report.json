@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-26",
+  "profile": "校园青春",
+  "title": "未发的消息",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20415,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19505,
+    "chapter_chars_mean": 2167,
+    "chapter_chars_median": 2229,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 42.3,
+    "dialogue_chars_pct": 19.6,
+    "dialogue_para_pct": 62.7,
+    "interiority_para_pct": 19.1,
+    "narration_para_pct": 18.1,
+    "turn_under20_pct": 87.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.0,
+    "attr_adv_pct": 5.7,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 4.1,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指划过公告栏",
+      "chars": 1387,
+      "score": 98.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "手指抚过笔记本边缘",
+      "chars": 2913,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "抚摸袖口的裂痕",
+      "chars": 2585,
+      "score": 7.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "手指抚过笔记本边缘",
+      "chars": 2820,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "抚摸袖口的裂痕",
+      "chars": 2204,
+      "score": 86.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 6,
+      "title": "手指抚过分科表",
+      "chars": 2378,
+      "score": 56.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "摩挲分科表边缘",
+      "chars": 2161,
+      "score": 10.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲分科表边缘",
+      "chars": 2338,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "抚摸袖口的裂痕",
+      "chars": 1620,
+      "score": 81.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「周明远的」×7",
+      "narration_para_pct 8.9 低于目标 15.0",
+      "attr_adv_pct 15.8 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周明远的」×5、「知道自己」×5、「林夏站在」×3",
+      "dialogue_chars_pct 8.9 低于目标 20.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「点了点头」×4、「林夏站在」×4",
+      "narration_para_pct 12.5 低于目标 15.0",
+      "[observe] 章内自我复读 11 句（如「她知道有些话说出来就不叫秘密了，就像那些藏在笔记…」）",
+      "[observe] 标题重复：「手指抚过笔记本边缘」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「带着一丝」×3、「知道自己」×3",
+      "dialogue_chars_pct 19.4 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 20 句（如「她知道，自己已经不再是那个无忧无虑的女孩了，而是…」）",
+      "[observe] 标题重复：「抚摸袖口的裂痕」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「林夏站在」×4",
+      "dialogue_chars_pct 14.8 低于目标 20.0",
+      "narration_para_pct 13.5 低于目标 15.0"
+    ],
+    "7": [
+      "dialogue_chars_pct 9.2 低于目标 20.0",
+      "dialogue_run_mean 1.1 低于目标 1.5",
+      "[observe] 章内自我复读 1 句（如「那上面还沾着一点粉笔灰，可能是刚才有人路过时蹭上…」）"
+    ],
+    "8": [
+      "单条套路句式超限：「林夏点点」×4、「林夏站在」×3",
+      "narration_para_pct 12.8 低于目标 15.0",
+      "[observe] 标题重复：「摩挲分科表边缘」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「林夏站在」×3",
+      "dialogue_chars_pct 16.2 低于目标 20.0",
+      "narration_para_pct 10.3 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「直到走到楼梯口，听见有人在议论什么，她才想起昨天…」）",
+      "[observe] 标题重复：「抚摸袖口的裂痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 439.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T09:45:16"
+}

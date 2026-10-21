@@ -1,0 +1,173 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-61",
+  "profile": "校园青春",
+  "title": "橡皮的痕迹",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21714,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20657,
+    "chapter_chars_mean": 2295,
+    "chapter_chars_median": 2479,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 51.2,
+    "dialogue_chars_pct": 25.0,
+    "dialogue_para_pct": 69.2,
+    "interiority_para_pct": 13.5,
+    "narration_para_pct": 17.3,
+    "turn_under20_pct": 89.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.6,
+    "attr_adv_pct": 7.5,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 4.1,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "触碰笔记的指尖",
+      "chars": 1301,
+      "score": 83.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "触碰笔记的指尖",
+      "chars": 3011,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "橡皮的裂痕",
+      "chars": 2234,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "橡皮的裂痕",
+      "chars": 2596,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "橡皮的裂痕",
+      "chars": 2836,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "磁带的触碰",
+      "chars": 2777,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "粉笔画的裂痕",
+      "chars": 2815,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "磁带的触碰",
+      "chars": 2548,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "触摸分科表的指尖",
+      "chars": 1587,
+      "score": 87.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林小满的」×3",
+      "dialogue_chars_pct 16.5 低于目标 20.0",
+      "[observe] 章内自我复读 14 句（如「陈老师抱着一摞作业走进走廊，看见两个人站着的样子…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林小满的」×11、「周远舟的」×5",
+      "[observe] 章内自我复读 18 句（如「她闭上眼睛，听着那些熟悉的旋律，仿佛看到了一个遥…」）",
+      "[observe] 标题重复：「触碰笔记的指尖」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「周远舟的」×4",
+      "narration_para_pct 14.6 低于目标 15.0",
+      "[observe] attr_adv_pct 41.7 > 22.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「”林小满低」×3、「林小满的」×3",
+      "[observe] 标题重复：「橡皮的裂痕」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「林小满的」×8、「周远舟的」×3",
+      "narration_para_pct 11.3 低于目标 15.0",
+      "[observe] 章内自我复读 1 句（如「你们两个都在这儿啊？…」）",
+      "[observe] 标题重复：「橡皮的裂痕」已存在"
+    ],
+    "6": [
+      "narration_para_pct 11.5 低于目标 15.0"
+    ],
+    "7": [
+      "单条套路句式超限：「林小满点」×3",
+      "interiority_para_pct 7.5 低于目标 8.0",
+      "[observe] 章内自我复读 25 句（如「林小满点了点头，目光落在公告栏下方的一行小字上：…」）"
+    ],
+    "8": [
+      "单条套路句式超限：「林小满的」×4、「周远舟的」×3",
+      "dialogue_chars_pct 18.6 低于目标 20.0",
+      "narration_para_pct 14.9 低于目标 15.0",
+      "[observe] 标题重复：「磁带的触碰」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「周远舟的」×5、「周远舟站在」×3",
+      "[observe] 章内自我复读 15 句（如「周远舟的目光也落在上面，像是第一次仔细看清那些名…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 463.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T12:23:47"
+}

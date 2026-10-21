@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-16",
+  "profile": "AI 推演",
+  "title": "降压器",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13165,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12889,
+    "chapter_chars_mean": 2148,
+    "chapter_chars_median": 2316,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 14.7,
+    "dialogue_chars_pct": 6.1,
+    "dialogue_para_pct": 21.4,
+    "interiority_para_pct": 16.9,
+    "narration_para_pct": 61.7,
+    "turn_under20_pct": 69.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.6,
+    "attr_adv_pct": 23.6,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电力调度员的岗位说明书",
+      "chars": 2393,
+      "score": 56.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "电费单核对分析",
+      "chars": 2032,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "触摸折旧表边缘",
+      "chars": 2373,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "触摸折旧表边缘",
+      "chars": 2354,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "触摸岗位说明书边缘",
+      "chars": 2545,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "核对电费单",
+      "chars": 1462,
+      "score": 35.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 标题重复：「触摸折旧表边缘」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 34.2 高于目标 18.0",
+      "narration_para_pct 18.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 224.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:45:36"
+}

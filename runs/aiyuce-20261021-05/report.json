@@ -1,0 +1,131 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-05",
+  "profile": "AI 推演",
+  "title": "质检尺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11334,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11022,
+    "chapter_chars_mean": 1837,
+    "chapter_chars_median": 1936,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 17.7,
+    "dialogue_chars_pct": 34.2,
+    "dialogue_para_pct": 62.9,
+    "interiority_para_pct": 10.5,
+    "narration_para_pct": 26.6,
+    "turn_under20_pct": 46.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 30
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对质检报告数据",
+      "chars": 2232,
+      "score": 38.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "划动预算表指腹",
+      "chars": 2102,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲测试报告边缘",
+      "chars": 1936,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "划掉工作经验条款",
+      "chars": 1886,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "摩挲测试报告边缘",
+      "chars": 2039,
+      "score": 32.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 6,
+      "title": "摩挲测试报告边缘",
+      "chars": 1133,
+      "score": 35.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 21.1 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被客户满意度调查结果推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 23.4 高于目标 18.0",
+      "narration_para_pct 6.7 低于目标 45.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 65.5 高于目标 18.0",
+      "dialogue_run_mean 4.8 高于目标 4.0",
+      "narration_para_pct 16.7 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「张慧提出了自己的疑问…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 67.3 高于目标 18.0",
+      "dialogue_run_mean 6.3 高于目标 4.0",
+      "narration_para_pct 9.5 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「如果AI质检工具在2024年初达到了95%以上的…」）",
+      "[observe] 标题重复：「摩挲测试报告边缘」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 19.9 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「摩挲测试报告边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 209.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:19:24"
+}

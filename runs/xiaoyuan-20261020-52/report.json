@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-52",
+  "profile": "校园青春",
+  "title": "灯灭",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21094,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19952,
+    "chapter_chars_mean": 2217,
+    "chapter_chars_median": 2364,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 48.9,
+    "dialogue_chars_pct": 25.3,
+    "dialogue_para_pct": 62.1,
+    "interiority_para_pct": 16.7,
+    "narration_para_pct": 21.1,
+    "turn_under20_pct": 87.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 53.1,
+    "attr_adv_pct": 6.9,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "课表上的名字",
+      "chars": 1682,
+      "score": 96.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "校服衣领的褶皱",
+      "chars": 2459,
+      "score": 29.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带滑落的瞬间",
+      "chars": 2712,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "指尖划过空位",
+      "chars": 2137,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "纸条飘出书包缝隙",
+      "chars": 2460,
+      "score": 83.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "指纹印在通报纸上",
+      "chars": 2573,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "纸条飘出书包缝隙",
+      "chars": 2502,
+      "score": 85.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "书包带勾住校服外套",
+      "chars": 3063,
+      "score": 85.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "指纹印在通报纸上",
+      "chars": 1497,
+      "score": 86.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 14.7 低于目标 15.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「陈老师转过身来，目光温和地看着她：“当然可以…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 11.5 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「此刻，他更在意的是放在自己书包里的那张缴费单，那…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道自己」×4、「周野点了点头」×3、「”周野低」×3",
+      "narration_para_pct 11.3 低于目标 15.0"
+    ],
+    "4": [
+      "narration_para_pct 12.5 低于目标 15.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 15.8 低于目标 20.0",
+      "[observe] 章内自我复读 10 句（如「而在另一边，周野则拿起桌上的笔，在纸上写下一行小…」）"
+    ],
+    "6": [
+      "narration_para_pct 9.8 低于目标 15.0",
+      "[observe] 章内自我复读 2 句（如「你还记得我们第一次见面的情景吗？…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「知道自己」×3",
+      "dialogue_chars_pct 17.1 低于目标 20.0",
+      "[observe] 标题重复：「纸条飘出书包缝隙」已存在"
+    ],
+    "8": [
+      "[observe] 章内自我复读 35 句（如「周野把课本放回桌子里，眼睛依然停留在那本书包的边…」）",
+      "[observe] attr_adv_pct 33.3 > 22.0（结构塌缩）"
+    ],
+    "9": [
+      "单条套路句式超限：「林夏点点」×3",
+      "narration_para_pct 12.9 低于目标 15.0",
+      "[observe] 章内自我复读 12 句（如「周野怔住了，他一直以为林夏是个很坚强的女孩，没想…」）",
+      "[observe] 标题重复：「指纹印在通报纸上」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 440.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T11:43:59"
+}

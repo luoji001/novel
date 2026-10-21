@@ -1,0 +1,154 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-35",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20198,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19155,
+    "chapter_chars_mean": 2128,
+    "chapter_chars_median": 2313,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 50.4,
+    "dialogue_chars_pct": 27.9,
+    "dialogue_para_pct": 68.9,
+    "interiority_para_pct": 14.6,
+    "narration_para_pct": 16.5,
+    "turn_under20_pct": 85.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.1,
+    "attr_adv_pct": 6.4,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "粉笔灰的重量",
+      "chars": 1405,
+      "score": 96.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "课桌上的光斑",
+      "chars": 2626,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "磁带的暂停键",
+      "chars": 2308,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙的温度",
+      "chars": 2461,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "粉笔灰的重量",
+      "chars": 2439,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "最后一首歌的按钮",
+      "chars": 2474,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 7,
+      "title": "校服外套的温度",
+      "chars": 2176,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "拉手的瞬间",
+      "chars": 2677,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "铅笔盒的裂痕",
+      "chars": 1623,
+      "score": 92.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 章内自我复读 1 句（如「这名单……是不是又贴了一遍？…」）"
+    ],
+    "2": [
+      "narration_para_pct 11.3 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×3"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「我们永远是最好的朋友…」）",
+      "[observe] 标题重复：「粉笔灰的重量」已存在"
+    ],
+    "7": [
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "8": [
+      "narration_para_pct 12.7 低于目标 15.0"
+    ],
+    "9": [
+      "单条套路句式超限：「知道自己」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 436.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:26:01"
+}

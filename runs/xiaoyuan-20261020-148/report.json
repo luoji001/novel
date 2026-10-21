@@ -1,0 +1,170 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-148",
+  "profile": "校园青春",
+  "title": "橡皮",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21268,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20182,
+    "chapter_chars_mean": 2242,
+    "chapter_chars_median": 2276,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 52.4,
+    "dialogue_chars_pct": 20.9,
+    "dialogue_para_pct": 58.7,
+    "interiority_para_pct": 16.2,
+    "narration_para_pct": 25.1,
+    "turn_under20_pct": 87.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.4,
+    "attr_adv_pct": 4.7,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "书包夹层的边缘",
+      "chars": 1509,
+      "score": 91.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "磁带滚落桌面",
+      "chars": 2765,
+      "score": 82.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "钥匙与旧时光",
+      "chars": 2392,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "磁带与钥匙的对望",
+      "chars": 2921,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "橡皮上的棠字",
+      "chars": 2731,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "钥匙与树叶的触碰",
+      "chars": 2297,
+      "score": 52.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "橡皮上的棠字",
+      "chars": 2331,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "钥匙与旧时光",
+      "chars": 2613,
+      "score": 22.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 9,
+      "title": "钥匙与怀表的温度",
+      "chars": 1700,
+      "score": 90.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林晓棠的」×5",
+      "dialogue_chars_pct 15.9 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「发现自己」×3",
+      "dialogue_chars_pct 17.2 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「从前总是靠着窗边的位置，现在却被挪到中间，与隔壁…」）",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周子墨的」×5、「林晓棠的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「周子墨的」×6、「林晓棠的」×5、「林晓棠和周子墨」×3",
+      "[observe] 章内自我复读 13 句（如「窗外传来远处操场上的欢呼声，仿佛在提醒着每一个人…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "[observe] 章内自我复读 18 句（如「她想起昨天晚上，妈妈还在电话里说希望她能考上好大…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「周子墨点」×3",
+      "dialogue_chars_pct 14.3 低于目标 20.0"
+    ],
+    "7": [
+      "单条套路句式超限：「周子墨的」×5、「林晓棠的」×3",
+      "[observe] 标题重复：「橡皮上的棠字」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓棠的」×5、「周子墨的」×4、「心中充满了」×3",
+      "dialogue_chars_pct 10.7 低于目标 20.0",
+      "dialogue_run_mean 1.4 低于目标 1.5",
+      "[observe] 章内自我复读 5 句（如「他说完就转身离开了，仿佛什么事情都没有发生过一样…」）",
+      "[observe] 标题重复：「钥匙与旧时光」已存在"
+    ],
+    "9": [
+      "interiority_para_pct 7.1 低于目标 8.0",
+      "[observe] 章内自我复读 11 句（如「她记得有一次，他在图书馆里借了一本书，结果忘了带…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 460.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T18:57:04"
+}

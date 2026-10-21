@@ -1,0 +1,164 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-83",
+  "profile": "校园青春",
+  "title": "磁带夹层",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21433,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20313,
+    "chapter_chars_mean": 2257,
+    "chapter_chars_median": 2326,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 54.3,
+    "dialogue_chars_pct": 23.5,
+    "dialogue_para_pct": 62.6,
+    "interiority_para_pct": 11.6,
+    "narration_para_pct": 25.7,
+    "turn_under20_pct": 89.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 50.0,
+    "attr_adv_pct": 3.5,
+    "scenes_per_chapter": 3.9,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "磁带滑入夹层",
+      "chars": 1557,
+      "score": 96.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "分科表收进文件柜",
+      "chars": 3005,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "广播喇叭嗡鸣",
+      "chars": 2917,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "值日表消失痕迹",
+      "chars": 2829,
+      "score": 81.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "校服外套遗失",
+      "chars": 2772,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "梧桐树影落在肩上",
+      "chars": 2039,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "排名单藏入怀中",
+      "chars": 2315,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "借条藏入夹层",
+      "chars": 2466,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "借条藏入夹层",
+      "chars": 1524,
+      "score": 48.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「点了点头」×7",
+      "interiority_para_pct 6.7 低于目标 8.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周子墨点」×3",
+      "interiority_para_pct 7.5 低于目标 8.0",
+      "[observe] 章内自我复读 15 句（如「周子墨皱了皱眉，往前走了几步，踩在地板上的吱呀声…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「周子墨的」×5",
+      "dialogue_chars_pct 17.0 低于目标 20.0",
+      "[observe] 章内自我复读 30 句（如「就在上周，他无意中看到了周子墨的笔记，里面提到了…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓阳的」×5、「林晓阳站在」×4、「周子墨的」×4",
+      "[observe] 章内自我复读 18 句（如「周子墨停顿了一下，似乎在斟酌措辞，“觉得你的外套…」）",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓阳的」×7、「周子墨点」×3",
+      "dialogue_chars_pct 18.8 低于目标 20.0",
+      "[observe] 章内自我复读 13 句（如「他不知道自己为什么要问这个问题，但那个名字消失得…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「林晓阳站在」×3、「周子墨的」×3、「林晓阳的」×3",
+      "dialogue_chars_pct 18.5 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「林晓阳低头看着自己胸前的校徽，那上面还沾着一点蓝…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「周子墨的」×7、「林晓阳点了点头」×3、「林晓阳感」×3",
+      "[observe] 章内自我复读 23 句（如「林晓阳低头看了看自己的值日表，发现上面被什么东西…」）",
+      "[observe] 标题重复：「借条藏入夹层」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 456.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T14:03:17"
+}

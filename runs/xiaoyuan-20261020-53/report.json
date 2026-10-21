@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-53",
+  "profile": "校园青春",
+  "title": "课表的褶皱",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19125,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18272,
+    "chapter_chars_mean": 2030,
+    "chapter_chars_median": 2109,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 39.8,
+    "dialogue_chars_pct": 20.2,
+    "dialogue_para_pct": 63.2,
+    "interiority_para_pct": 18.8,
+    "narration_para_pct": 18.0,
+    "turn_under20_pct": 91.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.0,
+    "attr_adv_pct": 15.6,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁皮盒的锁孔",
+      "chars": 1369,
+      "score": 89.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "校服外套的褶皱",
+      "chars": 2214,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "纸条上的小星星",
+      "chars": 2190,
+      "score": 86.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "纸条上的小星星",
+      "chars": 2286,
+      "score": 0.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "公告栏的纸片",
+      "chars": 2291,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "钥匙串的铜环",
+      "chars": 2452,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "钥匙坠入雨帘",
+      "chars": 2194,
+      "score": 86.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "钥匙坠入雨帘",
+      "chars": 2330,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "课表的折痕",
+      "chars": 1790,
+      "score": 84.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 14.7 低于目标 20.0",
+      "[observe] attr_adv_pct 100.0 > 22.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「林夏点点」×3",
+      "narration_para_pct 13.3 低于目标 15.0",
+      "[observe] 章内自我复读 1 句（如「他的位置……还有吗？…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 18 句（如「你知道我不在了吗？你知道我要转学了吗？你知道………」）",
+      "[observe] attr_adv_pct 23.1 > 22.0（结构塌缩）"
+    ],
+    "4": [
+      "interiority_para_pct 45.5 高于目标 35.0",
+      "[observe] 章内自我复读 14 句（如「她知道，这个位置从此以后都将属于别人，就像那些未…」）",
+      "[observe] dialogue_chars_pct 6.8 < 8.0（结构塌缩）",
+      "[observe] 标题重复：「纸条上的小星星」已存在"
+    ],
+    "5": [
+      "narration_para_pct 8.2 低于目标 15.0",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「林夏点点」×3",
+      "interiority_para_pct 5.8 低于目标 8.0"
+    ],
+    "7": [
+      "dialogue_chars_pct 16.7 低于目标 20.0",
+      "[observe] attr_adv_pct 27.3 > 22.0（结构塌缩）"
+    ],
+    "8": [
+      "单条套路句式超限：「林夏站在」×4",
+      "dialogue_chars_pct 18.8 低于目标 20.0",
+      "[observe] 标题重复：「钥匙坠入雨帘」已存在"
+    ],
+    "9": [
+      "dialogue_chars_pct 14.4 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 426.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T11:48:21"
+}

@@ -1,0 +1,169 @@
+{
+  "consistency": "1. 第二章《信封上的名字》提到“两人在分别前坦诚心意”，但第四章《通知书上的日期》又说“最终因分科决定而分离，留下未说出口的告白和未寄出的信”，前后矛盾，同一情节出现“坦诚心意”与“未说出口”的冲突。\n\n2. 第五章《纸条上的名字》提到“两人在分科前坦诚心意”，但第六章《手指抚过名单边缘》又说“在分科表公布后面临分离”，时间线错乱，分科前与分科后重复出现“坦诚心意”的情节。\n\n3. 第七章《储物柜的拉链声》与第九章《储物柜的拉链声》标题重复，且内容相似，存在章节重复问题。\n\n4. 第八章《删除信息的指尖》提到“周砚带来分科表并暗示未来可能再见”，但第九章《储物柜的拉链声》又说“因储物柜和未发送的信息而心生波澜”，前后情节不一致，周砚的“暗示未来可能再见”与“心生波澜”逻辑不连贯。\n\n5. 第二章《信封上的名字》提到“周砚在储物柜留下信”，但第七章《储物柜的拉链声》又说“林夏与周砚在分科前告别”，未交代信件是否被发现或处理，前后不一致。",
+  "slug": "xiaoyuan-20261020-106",
+  "profile": "校园青春",
+  "title": "未发送的短信",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19107,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18074,
+    "chapter_chars_mean": 2008,
+    "chapter_chars_median": 2138,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 49.4,
+    "dialogue_chars_pct": 26.9,
+    "dialogue_para_pct": 67.7,
+    "interiority_para_pct": 13.1,
+    "narration_para_pct": 19.2,
+    "turn_under20_pct": 89.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.3,
+    "attr_adv_pct": 4.3,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指划过名单边缘",
+      "chars": 1542,
+      "score": 84.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "信封上的名字",
+      "chars": 2547,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "麦克风的余音",
+      "chars": 2093,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "通知书上的日期",
+      "chars": 2329,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "纸条上的名字",
+      "chars": 2404,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "手指抚过名单边缘",
+      "chars": 2312,
+      "score": 86.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "储物柜的拉链声",
+      "chars": 2263,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "删除信息的指尖",
+      "chars": 2102,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "储物柜的拉链声",
+      "chars": 1506,
+      "score": 86.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林夏点点」×3",
+      "interiority_para_pct 2.7 低于目标 8.0",
+      "narration_para_pct 13.5 低于目标 15.0",
+      "[observe] 章内自我复读 20 句（如「他说这话的时候，目光并没有真正落到她身上，而是停…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林夏点了点头」×3",
+      "narration_para_pct 14.8 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林夏站在」×3",
+      "narration_para_pct 7.0 低于目标 15.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 18.4 低于目标 20.0"
+    ],
+    "5": [
+      "narration_para_pct 11.1 低于目标 15.0",
+      "[observe] 章内自我复读 21 句（如「周砚慢慢地说，手指轻轻敲打着桌面，“不是为了留下…」）",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）",
+      "[observe] 标题与《信封上的名字》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "dialogue_chars_pct 17.3 低于目标 20.0",
+      "[observe] 标题与《手指划过名单边缘》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「林夏站在」×4"
+    ],
+    "8": [
+      "单条套路句式超限：「林夏点了点头」×3"
+    ],
+    "9": [
+      "单条套路句式超限：「“林夏你」×3",
+      "interiority_para_pct 6.5 低于目标 8.0",
+      "[observe] 章内自我复读 18 句（如「这时，陈主任的声音从楼梯上传来：“林夏，你的储物…」）",
+      "[observe] 标题重复：「储物柜的拉链声」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 412.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T15:46:00"
+}

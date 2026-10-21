@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-91",
+  "profile": "AI 推演",
+  "title": "代码验证机",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11696,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11371,
+    "chapter_chars_mean": 1895,
+    "chapter_chars_median": 1978,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 17.5,
+    "dialogue_chars_pct": 17.6,
+    "dialogue_para_pct": 49.9,
+    "interiority_para_pct": 9.4,
+    "narration_para_pct": 40.6,
+    "turn_under20_pct": 54.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.4,
+    "attr_adv_pct": 4.6,
+    "scenes_per_chapter": 3.2,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "薪资条上的试用期数字",
+      "chars": 1932,
+      "score": 38.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "代码导入系统的第一次尝试",
+      "chars": 2222,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "绩效考核表上的数字",
+      "chars": 2136,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "代码验证报告的数字波动",
+      "chars": 2224,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "测试机器的错误提示",
+      "chars": 1902,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "绩效考核表的数字波动",
+      "chars": 1274,
+      "score": 90.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 21.3 高于目标 18.0",
+      "narration_para_pct 42.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 44.4 低于目标 45.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 19.2 高于目标 18.0",
+      "narration_para_pct 30.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 24.5 高于目标 18.0",
+      "narration_para_pct 23.1 低于目标 45.0",
+      "[observe] 标题与《绩效考核表上的数字》近似 0.84 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 210.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:45:24"
+}

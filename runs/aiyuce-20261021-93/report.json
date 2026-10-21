@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-93",
+  "profile": "AI 推演",
+  "title": "听课笔记",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11461,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11194,
+    "chapter_chars_mean": 1866,
+    "chapter_chars_median": 1865,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 13,
+    "dialogue_chars_pct": 11.7,
+    "dialogue_para_pct": 36.5,
+    "interiority_para_pct": 12.0,
+    "narration_para_pct": 51.5,
+    "turn_under20_pct": 54.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "听课记录本的减页调整",
+      "chars": 1850,
+      "score": 38.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "AI作文批改报告核查",
+      "chars": 2165,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "批改作文时间缩短",
+      "chars": 2107,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "AI作文样本的字数争议",
+      "chars": 1919,
+      "score": 34.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "AI批改报告核查",
+      "chars": 1894,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "听课记录本的边缘痕迹",
+      "chars": 1520,
+      "score": 90.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 30.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「智教科技的」×4",
+      "dialogue_chars_pct 36.0 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 标题与《AI作文批改报告核查》近似 0.89 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题与《听课记录本的减页调整》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 213.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T12:50:08"
+}

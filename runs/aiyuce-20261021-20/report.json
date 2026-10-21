@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-20",
+  "profile": "AI 推演",
+  "title": "校对工时",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11660,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11398,
+    "chapter_chars_mean": 1900,
+    "chapter_chars_median": 1994,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 13.5,
+    "dialogue_chars_pct": 5.4,
+    "dialogue_para_pct": 21.2,
+    "interiority_para_pct": 25.2,
+    "narration_para_pct": 53.6,
+    "turn_under20_pct": 82.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "打开电费单核查",
+      "chars": 2202,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对招聘JD",
+      "chars": 2026,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "核对推理报价单",
+      "chars": 1897,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对订单执行情况",
+      "chars": 2100,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "核对折旧表数据",
+      "chars": 2051,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "泼翻咖啡渍合同",
+      "chars": 1378,
+      "score": 33.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "命中套话收尾句",
+      "interiority_para_pct 53.8 高于目标 40.0",
+      "narration_para_pct 23.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「如果AI校对工具的实际表现未能达到预期水平，或者…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 章内自我复读 2 句（如「如果公司将折旧年限调整为3年，那么年折旧额就会变…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 33.9 高于目标 18.0",
+      "narration_para_pct 9.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被实际操作过程中出现的技术漏洞或者市场…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 217.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:54:58"
+}

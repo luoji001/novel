@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-51",
+  "profile": "AI 推演",
+  "title": "初筛",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13286,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12977,
+    "chapter_chars_mean": 2163,
+    "chapter_chars_median": 2262,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 17.5,
+    "dialogue_chars_pct": 8.0,
+    "dialogue_para_pct": 33.5,
+    "interiority_para_pct": 12.0,
+    "narration_para_pct": 54.5,
+    "turn_under20_pct": 67.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 2.7,
+    "attr_adv_pct": 2.7,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "AI性能报告的凝视",
+      "chars": 2397,
+      "score": 38.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "AI性能报告的凝视",
+      "chars": 2244,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "签字笔的落款",
+      "chars": 2617,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "屏幕上的数字",
+      "chars": 2073,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "查看晋升档案",
+      "chars": 2748,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "职称晋升档案的凝视",
+      "chars": 1201,
+      "score": 90.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 40.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 35.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「AI性能报告的凝视」已存在"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「如果AI模型的准确率在未来某个季度下降至80%以…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「这也说明了一个事实：对于特定类型的先进技术而言，…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 230.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:09:11"
+}

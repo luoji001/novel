@@ -1,0 +1,168 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-138",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20906,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19860,
+    "chapter_chars_mean": 2207,
+    "chapter_chars_median": 2320,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 49.2,
+    "dialogue_chars_pct": 28.9,
+    "dialogue_para_pct": 67.7,
+    "interiority_para_pct": 16.1,
+    "narration_para_pct": 16.1,
+    "turn_under20_pct": 86.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.6,
+    "attr_adv_pct": 9.8,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "袖口褶皱",
+      "chars": 1525,
+      "score": 97.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "摩挲铁皮公告栏",
+      "chars": 2429,
+      "score": 85.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲分科表草稿",
+      "chars": 2630,
+      "score": 86.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲校服袖口线头",
+      "chars": 2813,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲课表褶皱",
+      "chars": 2430,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摩挲磁带划痕",
+      "chars": 2676,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "摩挲分科表边缘",
+      "chars": 2067,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲校服袖口线头",
+      "chars": 2690,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "摩挲课表褶皱",
+      "chars": 1637,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 5.7 低于目标 8.0",
+      "narration_para_pct 14.3 低于目标 15.0",
+      "[observe] 章内自我复读 1 句（如「5月20日发放分科表…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「点了点头」×4、「就在这时」×3、「带着一丝」×3",
+      "dialogue_chars_pct 19.9 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「陈老师的声音带着一丝疲惫，手里还拿着粉笔，在纸面…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「就在这时」×3",
+      "narration_para_pct 8.9 低于目标 15.0",
+      "[observe] 章内自我复读 19 句（如「然后他像是突然想起来似的，又补充了一句，“不过，…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「苏婉秋的」×6、「他知道自己」×3",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「点了点头」×4",
+      "narration_para_pct 14.0 低于目标 15.0"
+    ],
+    "6": [
+      "单条套路句式超限：「点了点头」×3、「陆子航点」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 章内自我复读 6 句（如「陈老师看着他，似乎想要说什么，但最终只是拍了拍他…」）",
+      "[observe] 标题与《摩挲分科表草稿》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "[observe] 标题重复：「摩挲校服袖口线头」已存在"
+    ],
+    "9": [
+      "[observe] attr_adv_pct 40.0 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「摩挲课表褶皱」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 446.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T18:12:17"
+}

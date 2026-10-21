@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-113",
+  "profile": "校园青春",
+  "title": "药盒",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21323,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20315,
+    "chapter_chars_mean": 2257,
+    "chapter_chars_median": 2362,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 48.4,
+    "dialogue_chars_pct": 24.5,
+    "dialogue_para_pct": 66.4,
+    "interiority_para_pct": 14.0,
+    "narration_para_pct": 19.7,
+    "turn_under20_pct": 88.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.0,
+    "attr_adv_pct": 5.6,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶与录音笔",
+      "chars": 1383,
+      "score": 95.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "课表消失",
+      "chars": 2476,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "麦克风的颤动",
+      "chars": 2962,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "校服外套的褶皱",
+      "chars": 2212,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "储物柜第三格",
+      "chars": 2648,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "课桌上的铁盒",
+      "chars": 2482,
+      "score": 84.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "成绩单的褶皱",
+      "chars": 2641,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "擦拭桌面的粉笔灰",
+      "chars": 2451,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "邀请函的褶皱",
+      "chars": 2059,
+      "score": 90.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「教务处」×3",
+      "dialogue_chars_pct 18.7 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "interiority_para_pct 7.8 低于目标 8.0",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林晓棠的」×6、「林晓棠点点」×3",
+      "attr_adv_pct 13.6 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「顾明远的」×3",
+      "dialogue_chars_pct 17.9 低于目标 20.0",
+      "narration_para_pct 13.5 低于目标 15.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「“我不知道」×3、「顾明远点」×3、「带着一丝」×3",
+      "narration_para_pct 14.6 低于目标 15.0"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "dialogue_chars_pct 17.1 低于目标 20.0",
+      "[observe] 章内自我复读 13 句（如「周文清点头，“你知道吗，有些人其实很想靠近别人，…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「顾明远点」×4"
+    ],
+    "8": [
+      "单条套路句式超限：「点了点头」×3"
+    ],
+    "9": [
+      "单条套路句式超限：「顾明远的」×7、「林晓棠点点」×3",
+      "narration_para_pct 10.2 低于目标 15.0",
+      "[observe] 章内自我复读 20 句（如「林晓棠点点头，睫毛在眼下投出细碎的阴影，“我爸爸…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 464.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:17:48"
+}

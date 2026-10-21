@@ -1,0 +1,73 @@
+[
+  {
+    "no": 1,
+    "title": "三月的货款",
+    "beat": "张晓阳收到公司发来的三月份货款明细，确认自己作为新员工的工资到账情况",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "电费单",
+    "speakers": [
+      "张晓阳"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "代码验证报告",
+    "beat": "张晓阳开始对照项目需求文档进行代码验证，发现部分代码逻辑存在漏洞",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "项目需求文档",
+    "speakers": [
+      "张晓阳",
+      "技术部主管"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "招聘JD的修订",
+    "beat": "技术部主管根据张晓阳的验证结果调整了招聘JD，增加对代码验证能力的要求",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "招聘JD",
+    "speakers": [
+      "技术部主管",
+      "张晓阳"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "折旧表的更新",
+    "beat": "张晓阳发现公司对笔记本电脑的折旧计算方式存在问题，并提出修改建议",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "折旧表",
+    "speakers": [
+      "张晓阳",
+      "财务部门"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "AI模型训练数据",
+    "beat": "AI研发部向张晓阳展示其模型训练数据，试图证明代码生成工具能替代人工验证",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "AI模型训练数据",
+    "speakers": [
+      "张晓阳",
+      "AI研发部"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "这条预测会被什么推翻",
+    "beat": "张晓阳指出AI模型在复杂场景下仍需人工干预，从而推翻关于代码生成工具完全替代人工验证的预测",
+    "target_chars": 1058,
+    "scale": "short",
+    "must_object": "代码验证报告",
+    "speakers": [
+      "张晓阳",
+      "技术部主管"
+    ]
+  }
+]

@@ -1,0 +1,165 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-123",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20161,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19239,
+    "chapter_chars_mean": 2138,
+    "chapter_chars_median": 2254,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 43.3,
+    "dialogue_chars_pct": 24.6,
+    "dialogue_para_pct": 60.0,
+    "interiority_para_pct": 17.7,
+    "narration_para_pct": 22.3,
+    "turn_under20_pct": 79.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "磁带滑入课桌夹层",
+      "chars": 1457,
+      "score": 96.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "课表边缘的指纹",
+      "chars": 2951,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "袖口的折痕",
+      "chars": 2398,
+      "score": 86.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "触摸公告栏的纸面",
+      "chars": 2425,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "纸团砸向塑胶跑道",
+      "chars": 2725,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "纸页边缘的指纹",
+      "chars": 1958,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "播放键悬空",
+      "chars": 2362,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "分科表的张贴",
+      "chars": 2179,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "磁带塞入课桌夹层",
+      "chars": 1697,
+      "score": 84.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林晓阳的」×4、「周子墨的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「周子墨的」×9、「他知道自己」×4、「周子墨点」×4",
+      "[observe] 章内自我复读 33 句（如「这时，陈老师转身拿起一份文件，对着全班宣布：“接…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周子墨的」×8、「林晓阳的」×7、「知道自己」×3",
+      "[observe] 章内自我复读 13 句（如「但那些东西，此刻还藏在他的心里，像是一块看不见的…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×4",
+      "dialogue_chars_pct 17.6 低于目标 20.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周子墨的」×9、「知道自己」×5、「林晓阳站在」×3",
+      "narration_para_pct 13.6 低于目标 15.0",
+      "[observe] 章内自我复读 1 句（如「林晓阳看着他，心中涌起一股莫名的情绪…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓阳的」×3",
+      "[observe] 标题与《课表边缘的指纹》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「他知道这」×4",
+      "dialogue_chars_pct 19.5 低于目标 20.0",
+      "[observe] 章内自我复读 11 句（如「有人正对着课本认真做笔记，也有人低着头，在练习册…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「周子墨的」×4",
+      "dialogue_chars_pct 19.4 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「他不知道接下来会发生什么，但他知道，有些事情只能…」）",
+      "[observe] 标题与《磁带滑入课桌夹层》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 428.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T17:03:32"
+}

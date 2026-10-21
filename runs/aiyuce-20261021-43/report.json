@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-43",
+  "profile": "AI 推演",
+  "title": "审码录",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12206,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11920,
+    "chapter_chars_mean": 1987,
+    "chapter_chars_median": 2088,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 15,
+    "dialogue_chars_pct": 9.9,
+    "dialogue_para_pct": 30.2,
+    "interiority_para_pct": 13.9,
+    "narration_para_pct": 55.9,
+    "turn_under20_pct": 52.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 13.7,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "审核报表悄然变动",
+      "chars": 2148,
+      "score": 96.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "绩效考核表数据分析",
+      "chars": 2275,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "代码审查工具性能测试报告",
+      "chars": 2071,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "试用期延长审批单",
+      "chars": 2131,
+      "score": 87.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "敲击键盘审代码",
+      "chars": 2303,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "审代码时手机震动",
+      "chars": 1272,
+      "score": 91.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 25.9 高于目标 18.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "narration_para_pct 42.1 低于目标 45.0"
+    ],
+    "5": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "narration_para_pct 44.4 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T10:49:44"
+}

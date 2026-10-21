@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-25",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20400,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19323,
+    "chapter_chars_mean": 2147,
+    "chapter_chars_median": 2308,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 52.1,
+    "dialogue_chars_pct": 32.0,
+    "dialogue_para_pct": 73.6,
+    "interiority_para_pct": 13.7,
+    "narration_para_pct": 12.7,
+    "turn_under20_pct": 88.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.3,
+    "attr_adv_pct": 5.9,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 3.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "笔记本上的槐花",
+      "chars": 1256,
+      "score": 37.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "袖口的粉笔灰",
+      "chars": 2540,
+      "score": 96.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "名单上的空白位置",
+      "chars": 2293,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "磁带的播放",
+      "chars": 2782,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "笔记本的最后一页",
+      "chars": 2758,
+      "score": 86.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "借条的揉皱",
+      "chars": 2429,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "分科表的张贴",
+      "chars": 2357,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "撕掉最后一页的笔记本",
+      "chars": 2503,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "磁带的播放",
+      "chars": 1473,
+      "score": 85.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏怀远点」×3、「苏怀远的」×3、「发现自己」×3",
+      "[observe] 章内自我复读 18 句（如「林晓棠抬头看他一眼，又迅速移回视线，假装不经意地…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「苏怀远的」×3、「林晓棠的」×3",
+      "narration_para_pct 13.8 低于目标 15.0"
+    ],
+    "3": [
+      "interiority_para_pct 7.8 低于目标 8.0",
+      "narration_para_pct 9.8 低于目标 15.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「苏怀远的」×4、「林晓棠站在」×3"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「“我不知道」×4",
+      "narration_para_pct 11.4 低于目标 15.0",
+      "[observe] 章内自我复读 20 句（如「你知道吗？我最近一直在想，如果当时我没有那么固执…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「苏怀远的」×4、「带着一丝」×3",
+      "narration_para_pct 5.6 低于目标 15.0"
+    ],
+    "7": [
+      "单条套路句式超限：「苏怀远的」×4",
+      "narration_para_pct 1.9 低于目标 15.0"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓棠站在」×3",
+      "narration_para_pct 14.8 低于目标 15.0",
+      "attr_adv_pct 15.8 高于目标 12.0"
+    ],
+    "9": [
+      "dialogue_chars_pct 14.2 低于目标 20.0",
+      "[observe] 标题重复：「磁带的播放」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 431.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T09:40:47"
+}

@@ -1,0 +1,164 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-21",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20527,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19580,
+    "chapter_chars_mean": 2176,
+    "chapter_chars_median": 2344,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 44.4,
+    "dialogue_chars_pct": 22.0,
+    "dialogue_para_pct": 64.2,
+    "interiority_para_pct": 17.7,
+    "narration_para_pct": 18.1,
+    "turn_under20_pct": 88.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.7,
+    "attr_adv_pct": 8.0,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表的边缘",
+      "chars": 1537,
+      "score": 98.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "校服外套上的汗渍",
+      "chars": 2615,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "磁带塞入书包的动作",
+      "chars": 2457,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "课表边缘的铅笔线",
+      "chars": 2292,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙和欠条",
+      "chars": 2334,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙藏进书包夹层",
+      "chars": 2528,
+      "score": 84.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "欠条边缘的潮湿",
+      "chars": 2489,
+      "score": 86.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "分科表的复印件",
+      "chars": 2484,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "缴费单边缘的汗渍",
+      "chars": 1782,
+      "score": 86.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句"
+    ],
+    "2": [
+      "单条套路句式超限：「林小满站在」×3",
+      "dialogue_chars_pct 15.9 低于目标 20.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 章内自我复读 8 句（如「她穿着一身蓝色制服，手里拎着一叠文件，脸色看起来…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林小满的」×6"
+    ],
+    "5": [
+      "narration_para_pct 12.3 低于目标 15.0"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道自己」×5、「”苏远低」×5",
+      "narration_para_pct 14.6 低于目标 15.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 章内自我复读 25 句（如「他知道，这把钥匙不仅仅是打开家门的工具，它更像是…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×5",
+      "dialogue_chars_pct 17.3 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "8": [
+      "narration_para_pct 14.5 低于目标 15.0",
+      "[observe] 标题与《分科表的边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「林小满的」×3",
+      "dialogue_chars_pct 15.7 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 434.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T09:23:02"
+}

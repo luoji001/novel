@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-158",
+  "profile": "校园青春",
+  "title": "保温桶",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21588,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20509,
+    "chapter_chars_mean": 2279,
+    "chapter_chars_median": 2379,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 51.9,
+    "dialogue_chars_pct": 27.4,
+    "dialogue_para_pct": 67.6,
+    "interiority_para_pct": 13.2,
+    "narration_para_pct": 19.2,
+    "turn_under20_pct": 87.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.5,
+    "attr_adv_pct": 17.9,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "缴费单的温度",
+      "chars": 1534,
+      "score": 94.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "颤抖的手臂",
+      "chars": 3327,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "作业本里的碎纸片",
+      "chars": 2734,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "分科表复印件风波",
+      "chars": 2841,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "保温桶之争",
+      "chars": 3023,
+      "score": 84.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "保温桶的重量",
+      "chars": 2477,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "保温桶的重量",
+      "chars": 2454,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "旧照片的重量",
+      "chars": 1912,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "缴费单的温度",
+      "chars": 1277,
+      "score": 89.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈子安的」×4"
+    ],
+    "2": [
+      "单条套路句式超限：「沈子安的」×13、「“我不知道」×3、「点了点头」×3",
+      "[observe] 章内自我复读 17 句（如「林晓棠这才注意到他怀里紧紧抱着一个蓝色的笔记本，…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「沈子安的」×5、「”沈子安低」×3",
+      "interiority_para_pct 7.4 低于目标 8.0",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「”沈子安低」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「沈子安的」×11、「“我不知道」×4、「他知道自己」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 章内自我复读 40 句（如「沈子安沉思了一下，然后说道：“如果真是这样，那就…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「沈子安的」×8、「林晓棠的」×6、「林晓棠站在」×3",
+      "[observe] 章内自我复读 18 句（如「这时，广播室突然响起了一阵音乐声，紧接着是沈子安…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「沈子安的」×5、「林晓棠的」×3",
+      "narration_para_pct 12.2 低于目标 15.0",
+      "[observe] attr_adv_pct 70.0 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「保温桶的重量」已存在"
+    ],
+    "8": [
+      "narration_para_pct 8.2 低于目标 15.0",
+      "[observe] attr_adv_pct 36.4 > 22.0（结构塌缩）"
+    ],
+    "9": [
+      "单条套路句式超限：「沈子安的」×3",
+      "[observe] 章内自我复读 11 句（如「沈子安耸耸肩，将一份文件塞进书包里，“要是早点知…」）",
+      "[observe] 标题重复：「缴费单的温度」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 466.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:43:29"
+}

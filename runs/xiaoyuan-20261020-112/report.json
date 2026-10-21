@@ -1,0 +1,162 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-112",
+  "profile": "校园青春",
+  "title": "灯灭",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19942,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19018,
+    "chapter_chars_mean": 2113,
+    "chapter_chars_median": 2121,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 42.3,
+    "dialogue_chars_pct": 28.7,
+    "dialogue_para_pct": 68.2,
+    "interiority_para_pct": 14.2,
+    "narration_para_pct": 17.6,
+    "turn_under20_pct": 81.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.7,
+    "attr_adv_pct": 10.9,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "粉笔灰落在肩头",
+      "chars": 1744,
+      "score": 80.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "粉笔擦蹭过黑板",
+      "chars": 2213,
+      "score": 94.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带滑落桌面",
+      "chars": 2602,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "袖口的粉笔灰痕迹",
+      "chars": 2528,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "收音机的电流声",
+      "chars": 2197,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "志愿表的空白页",
+      "chars": 2214,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "分科表的折痕",
+      "chars": 2368,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "课表的错位",
+      "chars": 2428,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "分科表的折痕",
+      "chars": 1639,
+      "score": 89.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 18.0 低于目标 20.0",
+      "[observe] 章内自我复读 28 句（如「苏念安则不自觉地调整了一下收音机的位置，似乎想要…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「知道自己」×3、「林子墨的」×3",
+      "narration_para_pct 11.9 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林子墨的」×3",
+      "[observe] attr_adv_pct 50.0 > 22.0（结构塌缩）"
+    ],
+    "4": [
+      "narration_para_pct 5.8 低于目标 15.0"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 30.0 > 22.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「苏念安的」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「苏念安的」×4"
+    ],
+    "8": [
+      "单条套路句式超限：「苏念安的」×4",
+      "[observe] 章内自我复读 2 句（如「你知道自己有多在意这份工作…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「林子墨的」×4",
+      "[observe] 标题重复：「分科表的折痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 428.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:13:02"
+}

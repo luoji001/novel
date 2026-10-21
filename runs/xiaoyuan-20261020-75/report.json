@@ -1,0 +1,177 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-75",
+  "profile": "校园青春",
+  "title": "褶皱",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21262,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20274,
+    "chapter_chars_mean": 2253,
+    "chapter_chars_median": 2371,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 47.1,
+    "dialogue_chars_pct": 22.7,
+    "dialogue_para_pct": 65.5,
+    "interiority_para_pct": 21.4,
+    "narration_para_pct": 13.1,
+    "turn_under20_pct": 87.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.8,
+    "attr_adv_pct": 8.1,
+    "scenes_per_chapter": 2.9,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "课表边缘的褶皱",
+      "chars": 1452,
+      "score": 80.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "磁带上的名字",
+      "chars": 2781,
+      "score": 87.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "整理校服的褶皱",
+      "chars": 2748,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "撕碎的纸片",
+      "chars": 2462,
+      "score": 31.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "撕碎的纸片",
+      "chars": 2470,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摩挲纸张的指尖",
+      "chars": 2601,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "摩挲衣角的指尖",
+      "chars": 2789,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "摩挲纸张的指尖",
+      "chars": 2320,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "摩挲公告栏的指尖",
+      "chars": 1630,
+      "score": 91.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林雨桐的」×3",
+      "dialogue_chars_pct 14.2 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「陈老师愣了一下，随即笑了笑，“分科表已经贴出来了…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「周子航的」×5、「林雨桐的」×5、「他知道这」×3",
+      "narration_para_pct 5.6 低于目标 15.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 章内自我复读 22 句（如「周子航看着她的背影，心中升起了一种莫名的感觉，仿…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林雨桐点点」×3",
+      "narration_para_pct 13.8 低于目标 15.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 章内自我复读 17 句（如「然后她轻轻地转过了身，继续看着那块还没有撤下去的…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林雨桐的」×3",
+      "dialogue_chars_pct 11.8 低于目标 20.0",
+      "[observe] 章内自我复读 11 句（如「她知道，不管怎样，那一天的记忆都会像钉子一样扎进…」）"
+    ],
+    "5": [
+      "narration_para_pct 14.0 低于目标 15.0",
+      "[observe] 标题重复：「撕碎的纸片」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「”周子航低」×3、「林雨桐的」×3",
+      "narration_para_pct 13.0 低于目标 15.0"
+    ],
+    "7": [
+      "单条套路句式超限：「林雨桐的」×6、「林雨桐站在」×4、「教务处」×4",
+      "narration_para_pct 9.7 低于目标 15.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题与《摩挲纸张的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「林雨桐的」×3",
+      "narration_para_pct 13.0 低于目标 15.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题重复：「摩挲纸张的指尖」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「林雨桐的」×4",
+      "narration_para_pct 9.7 低于目标 15.0",
+      "[observe] 标题与《摩挲纸张的指尖》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 442.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T13:27:15"
+}

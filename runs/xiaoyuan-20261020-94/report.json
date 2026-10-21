@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-94",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20218,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19271,
+    "chapter_chars_mean": 2141,
+    "chapter_chars_median": 2239,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 44.7,
+    "dialogue_chars_pct": 25.2,
+    "dialogue_para_pct": 67.3,
+    "interiority_para_pct": 15.4,
+    "narration_para_pct": 17.3,
+    "turn_under20_pct": 86.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.4,
+    "attr_adv_pct": 9.9,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记簿上的空位",
+      "chars": 1578,
+      "score": 90.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "课表上的红圈",
+      "chars": 2322,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带与数学题",
+      "chars": 2339,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "磁带与未拆封的承诺",
+      "chars": 2671,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "名字后的圆圈",
+      "chars": 2163,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "名字后的圆圈",
+      "chars": 2387,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "笔记本上的铅笔痕",
+      "chars": 2366,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "作业本上的折痕",
+      "chars": 2723,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "粉笔削成的尖角",
+      "chars": 1660,
+      "score": 87.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「发现自己」×3",
+      "[observe] 章内自我复读 12 句（如「她终于意识到，也许不只是她的身高数据出现了问题，…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林晓棠的」×4、「林晓棠点了点头」×3",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "3": [
+      "narration_para_pct 14.0 低于目标 15.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓棠站在」×4",
+      "[observe] 章内自我复读 19 句（如「空气中弥漫着一种淡淡的忧伤，像是一种无法言说的心…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓棠点点」×3",
+      "narration_para_pct 12.5 低于目标 15.0",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「林晓棠的」×3",
+      "[observe] 章内自我复读 5 句（如「陈老师继续批改作业，而林晓棠的目光始终停留在那张…」）",
+      "[observe] 标题重复：「名字后的圆圈」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「林晓棠的」×5",
+      "[observe] attr_adv_pct 33.3 > 22.0（结构塌缩）"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓棠的」×6",
+      "interiority_para_pct 7.2 低于目标 8.0"
+    ],
+    "9": [
+      "dialogue_chars_pct 19.0 低于目标 20.0",
+      "[observe] 章内自我复读 15 句（如「她记得上周五下午，当她在办公室门口拦住陈老师的时…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 438.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T14:52:52"
+}

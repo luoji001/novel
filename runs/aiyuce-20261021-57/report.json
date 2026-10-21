@@ -1,0 +1,125 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-57",
+  "profile": "AI 推演",
+  "title": "作文样本分析",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11946,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11675,
+    "chapter_chars_mean": 1946,
+    "chapter_chars_median": 1990,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 15.2,
+    "dialogue_chars_pct": 16.6,
+    "dialogue_para_pct": 54.9,
+    "interiority_para_pct": 15.0,
+    "narration_para_pct": 30.0,
+    "turn_under20_pct": 42.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 9.5,
+    "attr_adv_pct": 8.5,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "修改听课安排",
+      "chars": 1955,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "AI反馈报告",
+      "chars": 2434,
+      "score": 33.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "预算报表",
+      "chars": 2118,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "AI反馈报告",
+      "chars": 2152,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "工作量统计表",
+      "chars": 1928,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻看作文样本集",
+      "chars": 1353,
+      "score": 89.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 25.2 高于目标 18.0",
+      "dialogue_run_mean 7 高于目标 4.0",
+      "narration_para_pct 17.6 低于目标 45.0",
+      "[observe] 章内自我复读 3 句（如「但他很快意识到，仅仅依靠经济因素还不足以说服所有…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 27.2 高于目标 18.0",
+      "narration_para_pct 23.5 低于目标 45.0"
+    ],
+    "4": [
+      "narration_para_pct 29.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「AI反馈报告」已存在"
+    ],
+    "5": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "narration_para_pct 25.0 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 219.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:23:42"
+}

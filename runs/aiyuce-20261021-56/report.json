@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-56",
+  "profile": "AI 推演",
+  "title": "校对尺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11965,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11670,
+    "chapter_chars_mean": 1945,
+    "chapter_chars_median": 1954,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 16.5,
+    "dialogue_chars_pct": 12.7,
+    "dialogue_para_pct": 33.4,
+    "interiority_para_pct": 13.3,
+    "narration_para_pct": 53.3,
+    "turn_under20_pct": 40.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 24
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单上的数字",
+      "chars": 1696,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "校对软件运行界面",
+      "chars": 2666,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对报价单数据",
+      "chars": 2126,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对电脑折旧表",
+      "chars": 1887,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对报价单数据",
+      "chars": 2232,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对报价单数据",
+      "chars": 1352,
+      "score": 80.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 2 句（如「如果有证据表明某个时间段内的电力消耗并未如预测那…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的证据推翻呢…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 18.4 高于目标 18.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 标题重复：「核对报价单数据」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 43.3 高于目标 18.0",
+      "dialogue_run_mean 11 高于目标 4.0",
+      "narration_para_pct 8.3 低于目标 45.0",
+      "[observe] 标题重复：「核对报价单数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 220.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:21:23"
+}

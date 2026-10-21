@@ -1,0 +1,128 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-09",
+  "profile": "AI 推演",
+  "title": "听笔",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11848,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11503,
+    "chapter_chars_mean": 1917,
+    "chapter_chars_median": 2056,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 18.8,
+    "dialogue_chars_pct": 40.8,
+    "dialogue_para_pct": 71.0,
+    "interiority_para_pct": 11.0,
+    "narration_para_pct": 18.0,
+    "turn_under20_pct": 30.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.7,
+    "attr_adv_pct": 3.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 7.0,
+    "turn_len_median": 29
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "记录本的页数减少",
+      "chars": 1666,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "签字栏的最后一笔",
+      "chars": 2489,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "预算明细表的变化",
+      "chars": 2149,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "作文样本集",
+      "chars": 2314,
+      "score": 79.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "使用次数增长",
+      "chars": 2078,
+      "score": 82.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "记录本的页数变化",
+      "chars": 1146,
+      "score": 35.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 51.7 高于目标 18.0",
+      "dialogue_run_mean 4.7 高于目标 4.0",
+      "narration_para_pct 5.9 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 49.9 高于目标 18.0",
+      "narration_para_pct 17.2 低于目标 45.0",
+      "[observe] 章内自我复读 3 句（如「这时，外面传来一阵脚步声，似乎是其他几位老师也陆…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 25.0 低于目标 45.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 61.9 高于目标 18.0",
+      "dialogue_run_mean 19 高于目标 4.0",
+      "narration_para_pct 5.0 低于目标 45.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 44.1 高于目标 18.0",
+      "dialogue_run_mean 5.7 高于目标 4.0",
+      "narration_para_pct 9.1 低于目标 45.0"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《记录本的页数减少》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 213.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T09:28:42"
+}

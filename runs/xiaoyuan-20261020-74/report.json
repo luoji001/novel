@@ -1,0 +1,159 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-74",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21110,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20230,
+    "chapter_chars_mean": 2248,
+    "chapter_chars_median": 2425,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 41,
+    "dialogue_chars_pct": 20.6,
+    "dialogue_para_pct": 61.7,
+    "interiority_para_pct": 16.4,
+    "narration_para_pct": 21.8,
+    "turn_under20_pct": 89.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.4,
+    "attr_adv_pct": 6.9,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "松动的第三颗纽扣",
+      "chars": 1260,
+      "score": 91.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "粉笔灰染指缝",
+      "chars": 3187,
+      "score": 50.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "分科表上的名字",
+      "chars": 2100,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "耳机里的沙沙声",
+      "chars": 2523,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲校服纽扣",
+      "chars": 2824,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲磁带封皮",
+      "chars": 2507,
+      "score": 31.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "摩挲分科表边缘",
+      "chars": 2574,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "摩挲校服袖口褶皱",
+      "chars": 2550,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "摩挲玻璃雾气",
+      "chars": 1576,
+      "score": 92.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 17 句（如「她低头看向自己微驼的背，仿佛能看到那些藏不住的尺…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "dialogue_chars_pct 14.1 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林晓棠的」×5、「知道自己」×4、「带着一丝」×3",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "[observe] 章内自我复读 8 句（如「我记得以前有一首很像样的歌曲，现在好像找不见了…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓棠的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「周子航的」×3、「林晓棠的」×3",
+      "dialogue_chars_pct 11.8 低于目标 20.0",
+      "[observe] attr_adv_pct 33.3 > 22.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「知道自己」×4、「林晓棠站在」×3"
+    ],
+    "9": [
+      "单条套路句式超限：「林晓棠站在」×4"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 447.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T13:22:42"
+}

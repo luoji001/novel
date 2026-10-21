@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-30",
+  "profile": "AI 推演",
+  "title": "涨价令",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12361,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12078,
+    "chapter_chars_mean": 2013,
+    "chapter_chars_median": 2086,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 14.8,
+    "dialogue_chars_pct": 5.7,
+    "dialogue_para_pct": 22.5,
+    "interiority_para_pct": 21.2,
+    "narration_para_pct": 56.3,
+    "turn_under20_pct": 59.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单上的异常增幅",
+      "chars": 1743,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对折旧表数据",
+      "chars": 2383,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "报价单上的价格变动",
+      "chars": 2147,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对招聘JD变化",
+      "chars": 2121,
+      "score": 55.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对许可证修改通知",
+      "chars": 2211,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对许可证修改通知",
+      "chars": 1750,
+      "score": 88.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 3 句（如「比如说当实际操作过程中遇到了意想不到的技术难题使…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「杭州开源模型项目组」×3",
+      "[observe] 章内自我复读 2 句（如「如果未来某个季度内多家主流用户的订单量突然下降超…」）"
+    ],
+    "4": [
+      "narration_para_pct 44.4 低于目标 45.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「核对许可证修改通知」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 217.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T10:18:56"
+}

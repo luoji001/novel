@@ -1,0 +1,162 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-100",
+  "profile": "校园青春",
+  "title": "磁带播放",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21045,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20013,
+    "chapter_chars_mean": 2224,
+    "chapter_chars_median": 2426,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 47.7,
+    "dialogue_chars_pct": 19.7,
+    "dialogue_para_pct": 58.5,
+    "interiority_para_pct": 21.2,
+    "narration_para_pct": 20.2,
+    "turn_under20_pct": 92.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.8,
+    "attr_adv_pct": 5.8,
+    "scenes_per_chapter": 2.9,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "笔记里的阳光",
+      "chars": 1272,
+      "score": 43.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "耳机的遗失",
+      "chars": 2736,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "藏在衣领里的纸张",
+      "chars": 2267,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "校服口袋的震动",
+      "chars": 2541,
+      "score": 52.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "手指划过名字",
+      "chars": 2455,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "磁带的播放",
+      "chars": 2553,
+      "score": 15.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "磁带盒的沉默",
+      "chars": 2843,
+      "score": 29.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "校服口袋的震动",
+      "chars": 2848,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "校服袖口的褶皱",
+      "chars": 1521,
+      "score": 92.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 19 句（如「他翻开几页，看到自己写的公式，旁边却有一行小小的…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「带着一丝」×3",
+      "narration_para_pct 14.3 低于目标 15.0",
+      "[observe] 章内自我复读 15 句（如「她想起上周他借给她一本厚厚的笔记本，里面密密麻麻…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「”周予低」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×4、「点了点头」×3",
+      "dialogue_chars_pct 14.3 低于目标 20.0",
+      "[observe] 章内自我复读 20 句（如「毕竟，在这个即将分别的时刻，每一个举动都可能成为…」）",
+      "[observe] attr_adv_pct 27.3 > 22.0（结构塌缩）"
+    ],
+    "6": [
+      "dialogue_chars_pct 9.9 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「也许这就是分别，或许还会再见，但这一刻，只有这份…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×3、「林夏站在」×3",
+      "dialogue_chars_pct 11.5 低于目标 20.0",
+      "[observe] 章内自我复读 34 句（如「她今天特意把校服外套的下摆塞进裤子里，这样就不会…」）"
+    ],
+    "8": [
+      "单条套路句式超限：「”周予低」×4、「“我不知道」×3、「林夏点点」×3",
+      "[observe] 章内自我复读 20 句（如「他在纸上画了一条长长的线，好像是在描绘某个遥远的…」）",
+      "[observe] 标题重复：「校服口袋的震动」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 449.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T15:19:29"
+}

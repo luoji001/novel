@@ -1,0 +1,156 @@
+{
+  "consistency": "未发现",
+  "slug": "fixcheck-03",
+  "profile": "校园青春",
+  "title": "磁带藏入夹层",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19185,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18265,
+    "chapter_chars_mean": 2029,
+    "chapter_chars_median": 2044,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 43.6,
+    "dialogue_chars_pct": 24.0,
+    "dialogue_para_pct": 63.5,
+    "interiority_para_pct": 17.6,
+    "narration_para_pct": 18.9,
+    "turn_under20_pct": 88.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.4,
+    "attr_adv_pct": 2.7,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表落下一角",
+      "chars": 1398,
+      "score": 97.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铅笔别肩",
+      "chars": 2517,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "磁带边缘摩挲",
+      "chars": 2195,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "照片滑落桌面",
+      "chars": 2005,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "诊断书碎片拾起",
+      "chars": 2129,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "铅笔别肩",
+      "chars": 2517,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "梧桐树影斑驳",
+      "chars": 2648,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "磁带消失在夹层",
+      "chars": 2133,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "旧照片压在课本下",
+      "chars": 1634,
+      "score": 85.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林子墨的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「周雨桐的」×8、「林子墨的」×4",
+      "narration_para_pct 9.6 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周雨桐的」×6、「“我不知道」×3"
+    ],
+    "4": [
+      "dialogue_chars_pct 19.4 低于目标 20.0"
+    ],
+    "6": [
+      "单条套路句式超限：「带着一丝」×3",
+      "[observe] 标题重复：「铅笔别肩」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「周雨桐的」×6、「林子墨站在」×4"
+    ],
+    "8": [
+      "单条套路句式超限：「周雨桐的」×4、「林子墨的」×3"
+    ],
+    "9": [
+      "dialogue_chars_pct 16.8 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 689.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T08:54:28"
+}

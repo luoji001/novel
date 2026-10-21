@@ -1,0 +1,168 @@
+{
+  "consistency": "1. 第二章与第六章同名《磁带掉进书包缝隙》，内容重复，存在标题与内容重复的问题。  \n2. 第四章提到“林子墨因座位调整与周雨桐同桌”，但第三章已提到“被调至最后一排，遇到新同桌周雨桐”，说明林子墨与周雨桐同桌发生在第三章而非第四章，存在时间线错乱。  \n3. 第五章提到“林子墨发现自己的笔记本被他人动过”，但第七章又提到“周雨桐带来磁带并主动提出帮忙”，暗示周雨桐可能接触过林子墨的笔记本，但未明确说明两者之间有直接关联，导致人物互动逻辑不清晰。  \n4. 第九章提到“林子墨得知有人在偷偷听音乐”，但周雨桐的动机是“怕被母亲发现她偷偷听音乐”，说明周雨桐是“偷偷听音乐”的人，但第九章却说“有人在偷偷听音乐”，未明确指出“有人”即周雨桐，存在指代不清。  \n5. 第九章提到“林子墨与她分享了秘密”，但前文未明确说明林子墨是否已向周雨桐透露自己的秘密（数学笔记藏在口袋），导致人物互动缺乏铺垫。",
+  "slug": "xiaoyuan-20261020-162",
+  "profile": "校园青春",
+  "title": "褶皱",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19849,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18848,
+    "chapter_chars_mean": 2094,
+    "chapter_chars_median": 2144,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 46,
+    "dialogue_chars_pct": 22.4,
+    "dialogue_para_pct": 63.1,
+    "interiority_para_pct": 16.0,
+    "narration_para_pct": 20.9,
+    "turn_under20_pct": 89.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 48.9,
+    "attr_adv_pct": 4.8,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "课表边缘的指纹",
+      "chars": 1479,
+      "score": 78.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "磁带掉进书包缝隙",
+      "chars": 2090,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "衣袖上的粉笔灰",
+      "chars": 2609,
+      "score": 79.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "笔记上的空白页",
+      "chars": 2460,
+      "score": 86.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "笔记本上的小勾",
+      "chars": 2249,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "磁带掉进书包缝隙",
+      "chars": 2681,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "笔记本上的小勾",
+      "chars": 2528,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "纸角的温度",
+      "chars": 2239,
+      "score": 83.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "校服袖口的裂痕",
+      "chars": 1505,
+      "score": 95.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 12.3 低于目标 20.0",
+      "[observe] 章内自我复读 15 句（如「陈老师说完，转身走进教室，留下林子墨一个人站在那…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「周雨桐的」×4、「”周雨桐低」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「了自己的」×7、「林子墨点了点头」×3",
+      "dialogue_chars_pct 16.2 低于目标 20.0",
+      "[observe] 章内自我复读 33 句（如「周雨桐也没有在意他的沉默，而是自顾自地说了起来：…」）",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×5、「林子墨站在」×3、「林子墨点点」×3",
+      "[observe] 章内自我复读 35 句（如「林子墨打开课本，发现昨天放在桌子上的数学笔记不见…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×5"
+    ],
+    "6": [
+      "单条套路句式超限：「周雨桐点了点头」×3、「周雨桐的」×3",
+      "narration_para_pct 13.1 低于目标 15.0",
+      "[observe] 标题重复：「磁带掉进书包缝隙」已存在"
+    ],
+    "7": [
+      "narration_para_pct 13.5 低于目标 15.0",
+      "[observe] 章内自我复读 14 句（如「她知道，有些变化并不是那么容易适应的，就像那些隐…」）",
+      "[observe] 标题重复：「笔记本上的小勾」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林子墨的」×6、「他知道这」×3",
+      "dialogue_chars_pct 17.1 低于目标 20.0",
+      "[observe] 章内自我复读 19 句（如「他的声音透过空气传来：“你们现在的位置已经调整好…」）"
+    ],
+    "9": [
+      "narration_para_pct 5.7 低于目标 15.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 445.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T20:02:14"
+}

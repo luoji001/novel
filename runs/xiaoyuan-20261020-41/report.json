@@ -1,0 +1,166 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-41",
+  "profile": "校园青春",
+  "title": "借条抽屉",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20385,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19480,
+    "chapter_chars_mean": 2164,
+    "chapter_chars_median": 2289,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 42.1,
+    "dialogue_chars_pct": 18.0,
+    "dialogue_para_pct": 59.1,
+    "interiority_para_pct": 19.6,
+    "narration_para_pct": 21.3,
+    "turn_under20_pct": 92.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.7,
+    "attr_adv_pct": 2.5,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表边缘的指纹",
+      "chars": 1399,
+      "score": 87.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "校服领口的折痕",
+      "chars": 2382,
+      "score": 44.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "借条抽屉的沉默",
+      "chars": 2887,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "课表上的空白",
+      "chars": 2353,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "纸飞机坠入余晖",
+      "chars": 2467,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "自行车后座的温度",
+      "chars": 2532,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "蓝色文件袋的重量",
+      "chars": 2326,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "抽屉最底层的纸",
+      "chars": 2753,
+      "score": 85.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "分科表边缘的指纹",
+      "chars": 1277,
+      "score": 92.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 14.5 低于目标 20.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林小满站在」×4、「他知道这」×4",
+      "dialogue_chars_pct 13.3 低于目标 20.0",
+      "[observe] 章内自我复读 1 句（如「我不知道该怎么说……我只是觉得……有点奇怪…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「周子航的」×9、「他知道这」×3、「林小满的」×3",
+      "dialogue_chars_pct 17.2 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周子航的」×4、「林小满的」×4"
+    ],
+    "5": [
+      "单条套路句式超限：「周子航的」×3",
+      "dialogue_chars_pct 12.5 低于目标 20.0",
+      "[observe] 章内自我复读 17 句（如「林小满看了他一眼，然后低下头继续盯着手中的书，“…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「林小满点点」×4、「周子航的」×4",
+      "interiority_para_pct 6.7 低于目标 8.0"
+    ],
+    "7": [
+      "dialogue_chars_pct 15.6 低于目标 20.0",
+      "narration_para_pct 13.9 低于目标 15.0"
+    ],
+    "8": [
+      "单条套路句式超限：「周子航的」×7、「带着一丝」×3",
+      "dialogue_chars_pct 15.4 低于目标 20.0"
+    ],
+    "9": [
+      "[observe] 标题重复：「分科表边缘的指纹」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 440.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T10:54:15"
+}

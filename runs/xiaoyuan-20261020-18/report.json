@@ -1,0 +1,160 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-18",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20967,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19975,
+    "chapter_chars_mean": 2219,
+    "chapter_chars_median": 2299,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 47,
+    "dialogue_chars_pct": 24.6,
+    "dialogue_para_pct": 65.4,
+    "interiority_para_pct": 14.4,
+    "narration_para_pct": 20.2,
+    "turn_under20_pct": 88.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.7,
+    "attr_adv_pct": 5.2,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "磁带在口袋发烫",
+      "chars": 1295,
+      "score": 39.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "课表上的红笔圈",
+      "chars": 3175,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "手指划过分科表",
+      "chars": 2554,
+      "score": 84.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "磁带在口袋发烫",
+      "chars": 2422,
+      "score": 86.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "纪律考核表上的勾",
+      "chars": 2819,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "笔记本上的名字",
+      "chars": 2401,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 7,
+      "title": "粉笔写下的祝贺语",
+      "chars": 2342,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "笔记本里的纸条",
+      "chars": 2479,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "磁带在口袋发烫",
+      "chars": 1471,
+      "score": 91.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「就在这时」×3",
+      "[observe] 章内自我复读 21 句（如「就在这时候，广播里突然传来通知：“请各班同学注意…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「带着一丝」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×4、「他知道自己」×3、「知道自己」×3",
+      "dialogue_chars_pct 16.7 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3",
+      "interiority_para_pct 5.6 低于目标 8.0",
+      "[observe] 章内自我复读 14 句（如「林小满感觉心跳加速，但他知道这并不是爱情的感觉，…」）",
+      "[observe] 标题重复：「磁带在口袋发烫」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 16.6 低于目标 20.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "7": [
+      "单条套路句式超限：「点了点头」×3"
+    ],
+    "8": [
+      "narration_para_pct 9.6 低于目标 15.0"
+    ],
+    "9": [
+      "[observe] 标题重复：「磁带在口袋发烫」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 470.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T09:09:21"
+}

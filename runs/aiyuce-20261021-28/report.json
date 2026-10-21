@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-28",
+  "profile": "AI 推演",
+  "title": "电表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12369,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12090,
+    "chapter_chars_mean": 2015,
+    "chapter_chars_median": 2280,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 13.8,
+    "dialogue_chars_pct": 3.6,
+    "dialogue_para_pct": 22.9,
+    "interiority_para_pct": 18.1,
+    "narration_para_pct": 59.0,
+    "turn_under20_pct": 75.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.2,
+    "turn_len_median": 6
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "查看机房用电明细表",
+      "chars": 1398,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "勾画电价基准值",
+      "chars": 2390,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "手指划过电价涨幅数字",
+      "chars": 2396,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "手指划过电价涨幅数字",
+      "chars": 2281,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对电费明细表",
+      "chars": 2371,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "手指划过电价涨幅数字",
+      "chars": 1527,
+      "score": 34.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 44.4 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「手指划过电价涨幅数字」已存在"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「手指划过电价涨幅数字」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 228.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T10:14:00"
+}

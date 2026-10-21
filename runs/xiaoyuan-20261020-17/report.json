@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-17",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20745,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19738,
+    "chapter_chars_mean": 2193,
+    "chapter_chars_median": 2382,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 47.9,
+    "dialogue_chars_pct": 25.6,
+    "dialogue_para_pct": 65.0,
+    "interiority_para_pct": 15.6,
+    "narration_para_pct": 19.3,
+    "turn_under20_pct": 89.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.7,
+    "attr_adv_pct": 3.8,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕掉页角的笔记本",
+      "chars": 1546,
+      "score": 94.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲志愿表边缘",
+      "chars": 2584,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲志愿表边缘",
+      "chars": 2680,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲笔记本边缘",
+      "chars": 2345,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲笔记本边缘",
+      "chars": 2546,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摩挲分科表边缘",
+      "chars": 2513,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "摩挲分科表边缘",
+      "chars": 2414,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "摩挲笔记本边缘",
+      "chars": 2595,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摩挲志愿表边缘",
+      "chars": 1513,
+      "score": 90.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 17.6 低于目标 20.0",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「点了点头」×3",
+      "dialogue_chars_pct 12.5 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「她看了眼陈老师手中的分科表，那些整齐排列的名字让…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林晓棠的」×7",
+      "[observe] 标题重复：「摩挲志愿表边缘」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「沈子墨的」×6、「林晓棠的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓棠的」×6、「沈子墨的」×4",
+      "[observe] 标题重复：「摩挲笔记本边缘」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 10.3 低于目标 15.0",
+      "[observe] 章内自我复读 15 句（如「他忽然想起前几天，自己无意间看到林晓棠在课桌下面…」）",
+      "[observe] 标题与《摩挲志愿表边缘》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「林晓棠的」×3",
+      "[observe] 标题重复：「摩挲分科表边缘」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓棠的」×7、「沈子墨的」×6",
+      "[observe] 章内自我复读 5 句（如「沈子墨的声音有些发颤，“而不是等到分科表贴出来的…」）",
+      "[observe] 标题重复：「摩挲笔记本边缘」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「沈子墨的」×5、「林晓棠的」×4",
+      "dialogue_chars_pct 19.4 低于目标 20.0",
+      "narration_para_pct 12.9 低于目标 15.0",
+      "[observe] 标题重复：「摩挲志愿表边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 495.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T09:04:27"
+}

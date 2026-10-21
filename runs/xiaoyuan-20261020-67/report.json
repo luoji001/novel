@@ -1,0 +1,173 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-67",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21237,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20180,
+    "chapter_chars_mean": 2242,
+    "chapter_chars_median": 2313,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 50.3,
+    "dialogue_chars_pct": 25.1,
+    "dialogue_para_pct": 64.9,
+    "interiority_para_pct": 17.6,
+    "narration_para_pct": 17.6,
+    "turn_under20_pct": 84.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.8,
+    "attr_adv_pct": 8.6,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙藏在书包夹层",
+      "chars": 1542,
+      "score": 96.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙挂成琴弦",
+      "chars": 2796,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙摩挲书包夹层",
+      "chars": 2419,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙摩挲书包夹层",
+      "chars": 2281,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "钥匙摩挲书包夹层",
+      "chars": 2590,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "钥匙摩挲书包夹层",
+      "chars": 2362,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "钥匙摩挲书包夹层",
+      "chars": 2860,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "钥匙摩挲书包夹层",
+      "chars": 2695,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "钥匙摩挲书包夹层",
+      "chars": 1683,
+      "score": 89.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道这」×4、「林小满站在」×3、「林小满的」×3",
+      "[observe] 章内自我复读 2 句（如「他知道，这一切都是因为他不能说出真相，就像他一直…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林小满的」×4、「“我不知道」×3",
+      "narration_para_pct 13.8 低于目标 15.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 16.9 低于目标 20.0",
+      "[observe] 标题与《钥匙藏在书包夹层》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「”苏远低」×3",
+      "narration_para_pct 11.1 低于目标 15.0",
+      "[observe] 标题重复：「钥匙摩挲书包夹层」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 11.3 低于目标 15.0",
+      "[observe] 标题重复：「钥匙摩挲书包夹层」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「林小满站在」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 章内自我复读 5 句（如「他知道，苏远一直在躲避某些事情，但现在看来，那份…」）",
+      "[observe] 标题重复：「钥匙摩挲书包夹层」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「“我不知道」×3、「林小满的」×3",
+      "narration_para_pct 11.9 低于目标 15.0",
+      "[observe] 标题重复：「钥匙摩挲书包夹层」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林小满的」×3",
+      "narration_para_pct 12.5 低于目标 15.0",
+      "[observe] 标题重复：「钥匙摩挲书包夹层」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「林小满的」×5",
+      "[observe] attr_adv_pct 50.0 > 22.0（结构塌缩）",
+      "[observe] 标题重复：「钥匙摩挲书包夹层」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 457.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T12:50:59"
+}

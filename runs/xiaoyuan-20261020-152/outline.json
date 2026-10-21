@@ -1,0 +1,112 @@
+[
+  {
+    "no": 1,
+    "title": "应急灯亮起",
+    "beat": "停电发生，应急灯开启，教室陷入短暂混乱",
+    "target_chars": 1409,
+    "scale": "short",
+    "must_object": "应急灯",
+    "speakers": [
+      "林夏",
+      "周朗",
+      "陈老师"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "储物柜打开",
+    "beat": "林夏利用钥匙打开储物柜，取出黑色笔记本",
+    "target_chars": 2168,
+    "scale": "normal",
+    "must_object": "黑色笔记本",
+    "speakers": [
+      "林夏",
+      "陈老师"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "广播响起",
+    "beat": "周朗操控广播系统播放音乐，打破沉默",
+    "target_chars": 2168,
+    "scale": "normal",
+    "must_object": "广播系统",
+    "speakers": [
+      "周朗",
+      "陈老师"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "课表翻阅",
+    "beat": "陈老师检查课表，确认分科表张贴时间",
+    "target_chars": 2168,
+    "scale": "normal",
+    "must_object": "课表",
+    "speakers": [
+      "陈老师",
+      "林夏"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "磁带播放",
+    "beat": "周朗播放磁带，引起众人注意",
+    "target_chars": 2168,
+    "scale": "normal",
+    "must_object": "磁带",
+    "speakers": [
+      "周朗",
+      "林夏"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "公告栏查看",
+    "beat": "林夏查看公告栏上的名单，确认分科情况",
+    "target_chars": 2168,
+    "scale": "normal",
+    "must_object": "公告栏",
+    "speakers": [
+      "林夏",
+      "陈老师"
+    ]
+  },
+  {
+    "no": 7,
+    "title": "作业本整理",
+    "beat": "林夏整理未完成的作业本，准备提交",
+    "target_chars": 2168,
+    "scale": "normal",
+    "must_object": "黑色笔记本",
+    "speakers": [
+      "林夏",
+      "周朗"
+    ]
+  },
+  {
+    "no": 8,
+    "title": "分科表张贴",
+    "beat": "分科表正式张贴，众人开始讨论分科情况",
+    "target_chars": 2168,
+    "scale": "normal",
+    "must_object": "分科表",
+    "speakers": [
+      "林夏",
+      "周朗",
+      "陈老师"
+    ]
+  },
+  {
+    "no": 9,
+    "title": "校服外套丢弃",
+    "beat": "林夏丢弃校服外套，表示对分科结果的接受",
+    "target_chars": 1409,
+    "scale": "short",
+    "must_object": "校服外套",
+    "speakers": [
+      "林夏",
+      "陈老师"
+    ]
+  }
+]

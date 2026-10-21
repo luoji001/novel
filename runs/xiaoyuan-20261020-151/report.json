@@ -1,0 +1,165 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-151",
+  "profile": "校园青春",
+  "title": "耳机线",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21313,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20243,
+    "chapter_chars_mean": 2249,
+    "chapter_chars_median": 2385,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 52,
+    "dialogue_chars_pct": 21.9,
+    "dialogue_para_pct": 62.2,
+    "interiority_para_pct": 14.0,
+    "narration_para_pct": 23.8,
+    "turn_under20_pct": 92.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.3,
+    "attr_adv_pct": 4.5,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "磁带滑落",
+      "chars": 1366,
+      "score": 67.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "耳机线断裂",
+      "chars": 2696,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙交出",
+      "chars": 2841,
+      "score": 83.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "耳机线缠绕",
+      "chars": 2832,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "校服衣角轻颤",
+      "chars": 2491,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "公告栏空白处",
+      "chars": 2513,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 7,
+      "title": "梧桐树下捡起准考证",
+      "chars": 2382,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "纸条压在课本下",
+      "chars": 2650,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "纸张飘入垃圾桶",
+      "chars": 1533,
+      "score": 83.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 13.3 低于目标 20.0",
+      "interiority_para_pct 4.0 低于目标 8.0",
+      "dialogue_run_mean 1.2 低于目标 1.5",
+      "[observe] 章内自我复读 14 句（如「她只是轻轻地把磁带放回书包，然后抬头看向走廊尽头…」）"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「教务处」×4",
+      "[observe] 章内自我复读 14 句（如「下次播的时候，能不能不放那些什么‘愿你们在未来的…」）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「教务处」×5、「带着一丝」×3",
+      "dialogue_chars_pct 17.3 低于目标 20.0",
+      "[observe] 章内自我复读 18 句（如「她展开来看，发现那是分班考的成绩单复印件，旁边有…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「”周砚低」×3",
+      "[observe] 章内自我复读 11 句（如「于是，在那一瞬间，他们的目光交汇在一起，仿佛有什…」）",
+      "[observe] attr_adv_pct 22.6 > 22.0（结构塌缩）",
+      "[observe] 标题与《耳机线断裂》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「林夏站在」×3",
+      "dialogue_chars_pct 17.5 低于目标 20.0"
+    ],
+    "8": [
+      "单条套路句式超限：「知道自己」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「听说这次难度比上次更高呢…」）"
+    ],
+    "9": [
+      "dialogue_chars_pct 11.3 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 440.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:10:51"
+}

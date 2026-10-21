@@ -1,0 +1,172 @@
+{
+  "consistency": "1. 第九章提到“林晓棠因身高问题隐瞒真相”，但前文从未提及身高问题或相关线索。  \n2. 第五章提到“林晓棠发现自己的名字被替换”，但未说明是谁替换了名字，也未交代后续处理。  \n3. 第三章提到“周子墨透露母亲住院的消息”，但未说明他如何得知，也未交代他是否曾向他人透露。  \n4. 第六章提到“林晓棠听到广播，回忆起母亲的病情”，但前文未明确说明她如何得知母亲住院的消息。  \n5. 第八章提到“林晓棠在教室发现母亲的病情线索”，但未说明线索来源或具体内容。  \n6. 第七章提到“陈老师递上新的分科名单”，但未交代陈老师是如何得知林晓棠的情况，也未说明分科名单是否与体检表冲突。  \n7. 第九章再次出现“摩挲校服纽扣”，与第七章重复，但未说明其象征意义或是否与情节发展相关。  \n8. 第二章提到“林晓棠在分科表上留有划痕”，但未说明划痕的具体内容或是否与体检表有关。  \n9. 第四章提到“林晓棠因体检表和分科表日期冲突而焦虑”，但未说明具体冲突内容或是否与母亲病情相关。  \n10. 第五章提到“林晓棠坦白母亲住院真相”，但未说明她如何坦白，以及陈老师和周子墨的反应。",
+  "slug": "xiaoyuan-20261020-154",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21077,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20117,
+    "chapter_chars_mean": 2235,
+    "chapter_chars_median": 2419,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 45.2,
+    "dialogue_chars_pct": 22.2,
+    "dialogue_para_pct": 64.4,
+    "interiority_para_pct": 17.7,
+    "narration_para_pct": 17.9,
+    "turn_under20_pct": 88.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 53.0,
+    "attr_adv_pct": 8.7,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "体检表的夹层",
+      "chars": 1333,
+      "score": 53.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "圆珠笔的痕迹",
+      "chars": 2521,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "病历本的缝隙",
+      "chars": 2248,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲课表边缘",
+      "chars": 2429,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "座位调整的余波",
+      "chars": 2694,
+      "score": 86.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "磁带盒的颤动",
+      "chars": 2679,
+      "score": 50.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "摩挲校服纽扣",
+      "chars": 2814,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "多肉植物的倒影",
+      "chars": 2719,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲校服纽扣",
+      "chars": 1631,
+      "score": 86.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "interiority_para_pct 0.0 低于目标 8.0",
+      "[observe] 章内自我复读 17 句（如「陈老师站在讲台前，手里拿着一份表格：“下周开始，…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「林晓棠的」×4",
+      "[observe] 章内自我复读 16 句（如「她知道，陈老师的怀疑并非毫无根据，尤其是当她低头…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「林晓棠的」×5",
+      "narration_para_pct 8.2 低于目标 15.0"
+    ],
+    "4": [
+      "单条套路句式超限：「林晓棠点点」×3",
+      "dialogue_chars_pct 18.5 低于目标 20.0",
+      "narration_para_pct 14.6 低于目标 15.0",
+      "[observe] 章内自我复读 2 句（如「那几个字像钉子一样扎进她心里，让她感觉整个世界都…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「周子墨的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 20 句（如「周子墨似乎看出了她的担忧：“我听说今天要贴分科表…」）"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林晓棠的」×5",
+      "dialogue_chars_pct 14.0 低于目标 20.0",
+      "[observe] 章内自我复读 12 句（如「她下意识地看了眼手中的课本，又低头看着课桌上贴好…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「周子墨的」×5、「“我不知道」×3、「林晓棠点点」×3"
+    ],
+    "8": [
+      "单条套路句式超限：「知道自己」×4、「林晓棠的」×4、「点了点头」×3",
+      "[observe] attr_adv_pct 25.0 > 22.0（结构塌缩）"
+    ],
+    "9": [
+      "narration_para_pct 9.1 低于目标 15.0",
+      "[observe] 章内自我复读 15 句（如「自从上次在广播站听见周子墨的声音，她就开始怀疑自…」）",
+      "[observe] 标题重复：「摩挲校服纽扣」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 466.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T19:24:45"
+}

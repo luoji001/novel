@@ -1,0 +1,166 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-57",
+  "profile": "校园青春",
+  "title": "信笺",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 19613,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 18578,
+    "chapter_chars_mean": 2064,
+    "chapter_chars_median": 2300,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 47.1,
+    "dialogue_chars_pct": 23.8,
+    "dialogue_para_pct": 66.4,
+    "interiority_para_pct": 14.2,
+    "narration_para_pct": 19.4,
+    "turn_under20_pct": 88.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.5,
+    "attr_adv_pct": 4.8,
+    "scenes_per_chapter": 3.1,
+    "dialogue_run_mean": 3.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙孔的回音",
+      "chars": 1370,
+      "score": 95.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "调试音效的指尖",
+      "chars": 2497,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "手指摩挲纸边",
+      "chars": 2519,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "手指摩挲纸边",
+      "chars": 2548,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手指摩挲磁带",
+      "chars": 2277,
+      "score": 58.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摩挲信封边角",
+      "chars": 2434,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 7,
+      "title": "抽屉里的信封",
+      "chars": 2509,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "检查单的边缘",
+      "chars": 2116,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "手指摩挲袖口褶皱",
+      "chars": 1334,
+      "score": 79.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 12.0 低于目标 15.0",
+      "[observe] 章内自我复读 3 句（如「她捡起来，却发现那是张空白的信笺，背面还留着几道…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道自己」×3",
+      "interiority_para_pct 6.2 低于目标 8.0"
+    ],
+    "3": [
+      "单条套路句式超限：「“我不知道」×3、「点了点头」×3",
+      "interiority_para_pct 6.5 低于目标 8.0",
+      "narration_para_pct 11.3 低于目标 15.0",
+      "[observe] 章内自我复读 1 句（如「但我总觉得，如果我现在放弃了，可能会后悔一辈子…」）"
+    ],
+    "4": [
+      "narration_para_pct 11.8 低于目标 15.0",
+      "[observe] 标题重复：「手指摩挲纸边」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 15.0 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「周老师走到她身边，低声说了几句什么，然后转向顾舟…」）",
+      "[observe] 标题与《手指摩挲纸边》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「点了点头」×3",
+      "dialogue_chars_pct 18.4 低于目标 20.0",
+      "[observe] 章内自我复读 16 句（如「她的目光落在门缝里露出一角的纸张上，那是封没有邮…」）"
+    ],
+    "8": [
+      "[observe] 章内自我复读 16 句（如「顾舟看着那些光影交错的样子，突然觉得这个世界变得…」）",
+      "[observe] attr_adv_pct 22.2 > 22.0（结构塌缩）"
+    ],
+    "9": [
+      "dialogue_chars_pct 11.5 低于目标 20.0",
+      "[observe] 章内自我复读 10 句（如「她下意识地把身体往前凑了一点，几乎是不自觉的动作…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 419.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T12:05:43"
+}

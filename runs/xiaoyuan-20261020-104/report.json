@@ -1,0 +1,166 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-104",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20339,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19384,
+    "chapter_chars_mean": 2154,
+    "chapter_chars_median": 2347,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 45.3,
+    "dialogue_chars_pct": 22.8,
+    "dialogue_para_pct": 60.7,
+    "interiority_para_pct": 15.3,
+    "narration_para_pct": 24.0,
+    "turn_under20_pct": 87.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.7,
+    "attr_adv_pct": 6.2,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁门的轻响",
+      "chars": 1361,
+      "score": 88.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙的沉默时刻",
+      "chars": 2522,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "广播的余韵",
+      "chars": 2477,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙的沉默时刻",
+      "chars": 2573,
+      "score": 82.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "纸飞机的轨迹",
+      "chars": 2359,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "校服外套的褶皱",
+      "chars": 2636,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "磁带的温度",
+      "chars": 2407,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "擦拭公告栏的指纹",
+      "chars": 2463,
+      "score": 59.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "手指画圈",
+      "chars": 1532,
+      "score": 84.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周子航的」×4",
+      "dialogue_chars_pct 14.9 低于目标 20.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周子航的」×4、「他知道这」×4、「林小满站在」×3",
+      "dialogue_chars_pct 18.6 低于目标 20.0",
+      "[observe] 章内自我复读 5 句（如「你知道吗？我一直都觉得，我们之间有一些特别的东西…」）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "[observe] 章内自我复读 5 句（如「他知道，这不仅仅是一个关于音乐的选择，更像是一个…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 37 句（如「林小满望向教室后墙，那张分科表已经被钉在那里，上…」）",
+      "[observe] 标题重复：「钥匙的沉默时刻」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「周子航的」×4"
+    ],
+    "6": [
+      "单条套路句式超限：「林小满的」×6、「带着一丝」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「林小满站在」×3",
+      "attr_adv_pct 15.8 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「林小满站在」×3、「他知道自己」×3、「周子航的」×3",
+      "dialogue_chars_pct 15.1 低于目标 20.0",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "9": [
+      "dialogue_chars_pct 13.2 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 434.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T15:37:17"
+}

@@ -1,0 +1,156 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-44",
+  "profile": "校园青春",
+  "title": "分科表",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21541,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20542,
+    "chapter_chars_mean": 2282,
+    "chapter_chars_median": 2418,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 47.1,
+    "dialogue_chars_pct": 26.7,
+    "dialogue_para_pct": 65.3,
+    "interiority_para_pct": 14.5,
+    "narration_para_pct": 20.2,
+    "turn_under20_pct": 82.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.7,
+    "attr_adv_pct": 2.8,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "等待分科表的时刻",
+      "chars": 1463,
+      "score": 96.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "分科表上的铅笔字",
+      "chars": 2645,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "笔记本里的字迹",
+      "chars": 2415,
+      "score": 85.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "调试麦克风的午后",
+      "chars": 2671,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "课表上的日期",
+      "chars": 2833,
+      "score": 87.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "校服外套上的名字",
+      "chars": 2660,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "摩挲磁带外壳",
+      "chars": 2525,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "扶草叶的手",
+      "chars": 2531,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "接住第一滴雨",
+      "chars": 1789,
+      "score": 93.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林小满站在」×3、「周子航的」×3、「林小满的」×3",
+      "dialogue_chars_pct 19.7 低于目标 20.0",
+      "narration_para_pct 13.6 低于目标 15.0",
+      "[observe] 章内自我复读 4 句（如「但是你要记住，你们每个人都有各自的路要走…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 18.8 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道自己」×5、「林小满点了点头」×4、「“我不知道」×4",
+      "[observe] 章内自我复读 30 句（如「他不知道该怎么办，也不知道为什么父亲会这样写，他…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「林小满的」×4、「林小满站在」×3、「周子航的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「周子航点」×4、「带着一丝」×4、「周子航的」×4",
+      "[observe] 章内自我复读 19 句（如「周子航点点头，目光落在林小满身上，“我以前以为，…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×4"
+    ],
+    "8": [
+      "单条套路句式超限：「周子航的」×4、「”周子航轻」×3、「他知道这」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 459.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T11:07:59"
+}

@@ -1,0 +1,170 @@
+{
+  "consistency": "1. 第二章提到林夏“面对分科抉择和未完成的数学题”，但第三章提到她在广播站与周野重逢时“回忆过往并坦白心意”，未提及数学题，前后缺乏衔接。\n\n2. 第四章提到周野“得知自己被保送离校”，但第六章提到林夏与周野在教室里“回忆过往，彼此留下联系方式，约定未来再见”，暗示周野并未离开，与第四章矛盾。\n\n3. 第五章提到林夏“留下一盘未拆封的磁带”，但第九章提到周野在办公室告别林夏时“留下未发送的消息”，未提及磁带，前后未交代清楚。\n\n4. 第六章提到林夏与周野“约定未来再见”，但第八章提到“周野透露自己将离开学校”，与第六章的约定矛盾。\n\n5. 第七章提到林夏“得知自己被保送离开学校”，但第六章提到林夏与周野“约定未来再见”，暗示林夏并未离开，与第七章矛盾。",
+  "slug": "xiaoyuan-20261020-126",
+  "profile": "校园青春",
+  "title": "磁带",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 21466,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 20338,
+    "chapter_chars_mean": 2260,
+    "chapter_chars_median": 2390,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 53.9,
+    "dialogue_chars_pct": 24.7,
+    "dialogue_para_pct": 65.3,
+    "interiority_para_pct": 17.4,
+    "narration_para_pct": 17.3,
+    "turn_under20_pct": 88.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.4,
+    "attr_adv_pct": 1.3,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "分科表上的红墨迹",
+      "chars": 1281,
+      "score": 90.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "便利贴上的数学题",
+      "chars": 2520,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "数学题上的折痕",
+      "chars": 3064,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "触摸纸边",
+      "chars": 2741,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "触摸纸边",
+      "chars": 2137,
+      "score": 82.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "触摸纸边",
+      "chars": 2567,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "触摸纸边",
+      "chars": 2478,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "触摸纸边",
+      "chars": 2938,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "触摸纸边",
+      "chars": 1731,
+      "score": 90.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「国际部」×3",
+      "[observe] 章内自我复读 17 句（如「周野把课表翻过来，背面还粘着一小块橡皮擦的残渣，…」）"
+    ],
+    "2": [
+      "narration_para_pct 12.3 低于目标 15.0",
+      "[observe] 章内自我复读 16 句（如「就像那张便利贴，就像那道题目，就像她和周野之间的…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「点了点头」×3、「他知道这」×3、「林夏站在」×3",
+      "narration_para_pct 11.9 低于目标 15.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 章内自我复读 13 句（如「那时候他还以为这只是个普通的早晨，却没有想到那天…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「林夏站在」×5、「“我不知道」×3",
+      "[observe] 章内自我复读 24 句（如「她望向陈老师的脸，那个总是严肃冷静的男人，此刻竟…」）",
+      "[observe] 标题重复：「触摸纸边」已存在"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「林夏没有回头，只是轻声说：“我知道…」）",
+      "[observe] 标题重复：「触摸纸边」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「林夏点了点头」×4",
+      "narration_para_pct 9.1 低于目标 15.0",
+      "[observe] 章内自我复读 18 句（如「她的思绪飘向了一个遥远的地方，那里有着无数的可能…」）",
+      "[observe] 标题重复：「触摸纸边」已存在"
+    ],
+    "8": [
+      "[observe] 章内自我复读 16 句（如「阳光穿过窗户洒进来的那一刻，她感受到了一种温暖的…」）",
+      "[observe] 标题重复：「触摸纸边」已存在"
+    ],
+    "9": [
+      "interiority_para_pct 4.8 低于目标 8.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「触摸纸边」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 463.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T17:17:32"
+}
