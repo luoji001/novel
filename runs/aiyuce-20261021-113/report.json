@@ -1,0 +1,129 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-113",
+  "profile": "AI 推演",
+  "title": "听音",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12559,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12273,
+    "chapter_chars_mean": 2046,
+    "chapter_chars_median": 2135,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 15.8,
+    "dialogue_chars_pct": 14.0,
+    "dialogue_para_pct": 37.0,
+    "interiority_para_pct": 25.2,
+    "narration_para_pct": 37.9,
+    "turn_under20_pct": 66.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.0,
+    "attr_adv_pct": 5.2,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 21
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "抚摸报表边缘",
+      "chars": 2087,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "审阅报表边缘",
+      "chars": 2367,
+      "score": 34.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "审阅报表边缘",
+      "chars": 2025,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "手指抚过报表边缘",
+      "chars": 2283,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "手指抚过报表边缘",
+      "chars": 2657,
+      "score": 34.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "手指抚过报表边缘",
+      "chars": 1134,
+      "score": 81.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 26.7 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「如果AI质检系统的测试报告显示其准确率达到或超过…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《抚摸报表边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「审阅报表边缘」已存在"
+    ],
+    "4": [
+      "dialogue_chars_pct 21.1 高于目标 18.0",
+      "narration_para_pct 35.0 低于目标 45.0",
+      "[observe] 标题与《抚摸报表边缘》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 35.0 低于目标 45.0",
+      "[observe] 章内自我复读 5 句（如「一方面，他知道任何变革都伴随着阵痛期；另一方面他…」）",
+      "[observe] 标题重复：「手指抚过报表边缘」已存在"
+    ],
+    "6": [
+      "情节与已写章节重复 0.73 ≥ 0.72（撞上「技术部经理与质检主管讨论AI质检系统的测试结果及是否替代…」）",
+      "dialogue_chars_pct 74.1 高于目标 18.0",
+      "dialogue_run_mean 13 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0",
+      "[observe] 标题重复：「手指抚过报表边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 226.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:38:52"
+}

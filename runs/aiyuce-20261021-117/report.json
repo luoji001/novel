@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-117",
+  "profile": "AI 推演",
+  "title": "记录本",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11865,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11626,
+    "chapter_chars_mean": 1938,
+    "chapter_chars_median": 2006,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 12.3,
+    "dialogue_chars_pct": 1.9,
+    "dialogue_para_pct": 14.6,
+    "interiority_para_pct": 17.9,
+    "narration_para_pct": 67.5,
+    "turn_under20_pct": 84.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 18.0,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "记录本的使用与管理",
+      "chars": 2188,
+      "score": 95.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "记录本折旧表",
+      "chars": 2463,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "记录本消耗异常",
+      "chars": 2183,
+      "score": 85.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "核对折旧表",
+      "chars": 1914,
+      "score": 33.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对折旧表",
+      "chars": 1719,
+      "score": 33.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对折旧表",
+      "chars": 1392,
+      "score": 90.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被最终采用的新纪录管理系统所推翻…」）",
+      "[observe] 标题重复：「核对折旧表」已存在"
+    ],
+    "6": [
+      "narration_para_pct 14.3 低于目标 45.0",
+      "[observe] 标题重复：「核对折旧表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 221.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:48:21"
+}

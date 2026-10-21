@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-109",
+  "profile": "AI 推演",
+  "title": "备案编号",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11743,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11463,
+    "chapter_chars_mean": 1910,
+    "chapter_chars_median": 1886,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 15.5,
+    "dialogue_chars_pct": 5.9,
+    "dialogue_para_pct": 41.3,
+    "interiority_para_pct": 10.7,
+    "narration_para_pct": 48.0,
+    "turn_under20_pct": 83.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.1,
+    "attr_adv_pct": 5.6,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 4
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "代写服务营收数据",
+      "chars": 1726,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "代写服务价格表",
+      "chars": 2100,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "备案登记文件审核",
+      "chars": 2477,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "翻阅协议草案",
+      "chars": 1784,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "审视投诉单",
+      "chars": 2091,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对订单数据",
+      "chars": 1559,
+      "score": 36.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 27.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「一旦正式获批，后续还需要按照规定定期报送经营数据…」）"
+    ],
+    "5": [
+      "narration_para_pct 35.7 低于目标 45.0"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 214.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:28:49"
+}

@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现。",
+  "slug": "aiyuce-20261021-104",
+  "profile": "AI 推演",
+  "title": "校对小时",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13862,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13593,
+    "chapter_chars_mean": 2266,
+    "chapter_chars_median": 2370,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 15.2,
+    "dialogue_chars_pct": 8.7,
+    "dialogue_para_pct": 30.1,
+    "interiority_para_pct": 18.8,
+    "narration_para_pct": 51.1,
+    "turn_under20_pct": 76.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.4,
+    "attr_adv_pct": 3.2,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲报价单",
+      "chars": 2411,
+      "score": 96.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "测试报告",
+      "chars": 2618,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻阅投诉记录",
+      "chars": 2420,
+      "score": 53.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "翻阅离职统计",
+      "chars": 2317,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "翻阅预算调整方案",
+      "chars": 2707,
+      "score": 33.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "敲击桌面",
+      "chars": 1383,
+      "score": 86.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 17.6 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 18.6 高于目标 18.0",
+      "narration_para_pct 22.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 34.3 高于目标 18.0",
+      "narration_para_pct 14.3 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 241.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:16:59"
+}

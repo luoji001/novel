@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-102",
+  "profile": "AI 推演",
+  "title": "合规账单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12839,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12564,
+    "chapter_chars_mean": 2094,
+    "chapter_chars_median": 2206,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 15,
+    "dialogue_chars_pct": 14.1,
+    "dialogue_para_pct": 37.1,
+    "interiority_para_pct": 18.0,
+    "narration_para_pct": 44.9,
+    "turn_under20_pct": 56.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.9,
+    "attr_adv_pct": 2.1,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "报价单上的三个数字",
+      "chars": 1983,
+      "score": 96.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "合规费用明细表",
+      "chars": 2171,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "市场调研报告",
+      "chars": 2435,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对报价单",
+      "chars": 2429,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "核对报价单",
+      "chars": 2338,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对合规费用明细表",
+      "chars": 1477,
+      "score": 88.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 23.5 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 51.4 高于目标 18.0",
+      "narration_para_pct 16.7 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「变得更加」×3",
+      "narration_para_pct 38.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的证据推翻呢…」）",
+      "[observe] 标题重复：「核对报价单」已存在"
+    ],
+    "6": [
+      "[observe] 标题与《合规费用明细表》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 221.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:11:47"
+}

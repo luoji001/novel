@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-111",
+  "profile": "AI 推演",
+  "title": "影像初筛",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12536,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12245,
+    "chapter_chars_mean": 2041,
+    "chapter_chars_median": 2142,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 15.7,
+    "dialogue_chars_pct": 18.7,
+    "dialogue_para_pct": 36.8,
+    "interiority_para_pct": 10.0,
+    "narration_para_pct": 53.2,
+    "turn_under20_pct": 62.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 41.3,
+    "attr_adv_pct": 6.6,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅排班记录的焦虑",
+      "chars": 2471,
+      "score": 95.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对薪资明细表",
+      "chars": 2684,
+      "score": 34.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻阅AI报价单的博弈",
+      "chars": 1860,
+      "score": 81.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "展示数据图表",
+      "chars": 2078,
+      "score": 31.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "划破招聘JD的笔尖",
+      "chars": 2324,
+      "score": 35.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "翻阅影像处理报告",
+      "chars": 1113,
+      "score": 89.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 52.3 高于目标 18.0",
+      "dialogue_run_mean 6 高于目标 4.0",
+      "narration_para_pct 6.7 低于目标 45.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 54.1 高于目标 18.0",
+      "dialogue_run_mean 9 高于目标 4.0",
+      "narration_para_pct 28.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 227.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:33:47"
+}

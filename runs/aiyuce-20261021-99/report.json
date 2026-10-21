@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-99",
+  "profile": "AI 推演",
+  "title": "筛影",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11139,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10881,
+    "chapter_chars_mean": 1814,
+    "chapter_chars_median": 1898,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 14,
+    "dialogue_chars_pct": 14.3,
+    "dialogue_para_pct": 44.2,
+    "interiority_para_pct": 18.5,
+    "narration_para_pct": 37.3,
+    "turn_under20_pct": 40.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指轻敲桌面",
+      "chars": 2247,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "手指轻敲桌面",
+      "chars": 2247,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "手指划过数字",
+      "chars": 1869,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "手指划过数字",
+      "chars": 2014,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手指轻敲桌面",
+      "chars": 1342,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手指轻敲键盘",
+      "chars": 1414,
+      "score": 88.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "dialogue_chars_pct 27.5 高于目标 18.0",
+      "narration_para_pct 15.4 低于目标 45.0",
+      "[observe] 标题重复：「手指轻敲桌面」已存在"
+    ],
+    "3": [
+      "narration_para_pct 26.7 低于目标 45.0"
+    ],
+    "4": [
+      "narration_para_pct 35.7 低于目标 45.0",
+      "[observe] 标题重复：「手指划过数字」已存在"
+    ],
+    "5": [
+      "[observe] 标题重复：「手指轻敲桌面」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 27.6 高于目标 18.0",
+      "narration_para_pct 28.6 低于目标 45.0",
+      "[observe] 标题与《手指轻敲桌面》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 203.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:04:16"
+}

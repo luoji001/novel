@@ -1,0 +1,127 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-108",
+  "profile": "AI 推演",
+  "title": "实验课",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11260,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10961,
+    "chapter_chars_mean": 1827,
+    "chapter_chars_median": 1809,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 16.2,
+    "dialogue_chars_pct": 28.6,
+    "dialogue_para_pct": 52.4,
+    "interiority_para_pct": 7.5,
+    "narration_para_pct": 40.1,
+    "turn_under20_pct": 46.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 4.1,
+    "turn_len_median": 30
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "灯光闪烁",
+      "chars": 1754,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "模型演示与实验操作",
+      "chars": 1884,
+      "score": 33.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "模型演示与实验操作",
+      "chars": 2261,
+      "score": 34.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "模型演示与实验操作",
+      "chars": 2293,
+      "score": 78.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "教学模型使用情况统计表",
+      "chars": 1840,
+      "score": 87.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "模型演示与实验操作",
+      "chars": 1222,
+      "score": 85.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 28.8 高于目标 18.0",
+      "dialogue_run_mean 5.5 高于目标 4.0",
+      "narration_para_pct 6.7 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 65.5 高于目标 18.0",
+      "dialogue_run_mean 6 高于目标 4.0",
+      "narration_para_pct 14.3 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「2024年6月物理统考试卷分析报告…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「模型演示与实验操作」已存在"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 40.6 高于目标 18.0",
+      "dialogue_run_mean 7 高于目标 4.0",
+      "narration_para_pct 16.7 低于目标 45.0",
+      "[observe] 标题重复：「模型演示与实验操作」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 34.2 高于目标 18.0",
+      "narration_para_pct 38.5 低于目标 45.0",
+      "[observe] 标题重复：「模型演示与实验操作」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 211.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:26:31"
+}

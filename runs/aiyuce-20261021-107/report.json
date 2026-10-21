@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-107",
+  "profile": "AI 推演",
+  "title": "误检",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12691,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12402,
+    "chapter_chars_mean": 2067,
+    "chapter_chars_median": 2173,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 15.8,
+    "dialogue_chars_pct": 14.7,
+    "dialogue_para_pct": 36.9,
+    "interiority_para_pct": 13.1,
+    "narration_para_pct": 50.0,
+    "turn_under20_pct": 50.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.4,
+    "attr_adv_pct": 2.7,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 24
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "模型服务费用明细单",
+      "chars": 1822,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "翻查案件检索报告",
+      "chars": 2579,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "调整参数观察效果",
+      "chars": 2101,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "调取费用明细单",
+      "chars": 2465,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "拍桌投诉记录",
+      "chars": 2337,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "翻看判决书一角",
+      "chars": 1381,
+      "score": 36.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 43.4 高于目标 18.0",
+      "narration_para_pct 31.2 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《模型服务费用明细单》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "dialogue_chars_pct 20.4 高于目标 18.0",
+      "narration_para_pct 41.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 21.0 高于目标 18.0",
+      "narration_para_pct 35.7 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 221.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:24:06"
+}

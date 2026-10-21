@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-121",
+  "profile": "AI 推演",
+  "title": "代写订单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12486,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12196,
+    "chapter_chars_mean": 2033,
+    "chapter_chars_median": 2051,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 15.8,
+    "dialogue_chars_pct": 6.4,
+    "dialogue_para_pct": 34.0,
+    "interiority_para_pct": 19.9,
+    "narration_para_pct": 46.1,
+    "turn_under20_pct": 69.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.4,
+    "attr_adv_pct": 19.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对月度财务报表",
+      "chars": 1700,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "盯价格清单的手指",
+      "chars": 2602,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "盯着客户订单记录",
+      "chars": 2494,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对论文相似度",
+      "chars": 2075,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "盯着客户订单记录",
+      "chars": 2126,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "盯月度财务报表",
+      "chars": 1483,
+      "score": 90.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 25.0 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 42.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "4": [
+      "narration_para_pct 28.6 低于目标 45.0"
+    ],
+    "5": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）",
+      "[observe] 标题重复：「盯着客户订单记录」已存在"
+    ],
+    "6": [
+      "[observe] 标题与《核对月度财务报表》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 219.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:57:47"
+}

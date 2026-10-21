@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-118",
+  "profile": "AI 推演",
+  "title": "证书名单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12969,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12677,
+    "chapter_chars_mean": 2113,
+    "chapter_chars_median": 2176,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 16.7,
+    "dialogue_chars_pct": 13.3,
+    "dialogue_para_pct": 47.0,
+    "interiority_para_pct": 6.9,
+    "narration_para_pct": 46.1,
+    "turn_under20_pct": 60.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "提交工时记录表",
+      "chars": 2529,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "调整报价单",
+      "chars": 2115,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "修改招聘JD",
+      "chars": 2294,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "查看财务报表",
+      "chars": 2142,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对证书复印件",
+      "chars": 2368,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "核对证书复印件",
+      "chars": 1515,
+      "score": 80.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 2 句（如「不过，这条推论会被什么推翻呢…」）"
+    ],
+    "2": [
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 30.8 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3",
+      "dialogue_chars_pct 18.7 高于目标 18.0",
+      "narration_para_pct 39.1 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 47.7 高于目标 18.0",
+      "dialogue_run_mean 7 高于目标 4.0",
+      "narration_para_pct 6.2 低于目标 45.0",
+      "[observe] 标题重复：「核对证书复印件」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 223.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:50:48"
+}

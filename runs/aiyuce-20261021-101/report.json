@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-101",
+  "profile": "AI 推演",
+  "title": "纸表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12789,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12511,
+    "chapter_chars_mean": 2085,
+    "chapter_chars_median": 2137,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14.2,
+    "dialogue_chars_pct": 6.9,
+    "dialogue_para_pct": 28.7,
+    "interiority_para_pct": 13.2,
+    "narration_para_pct": 58.1,
+    "turn_under20_pct": 76.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.1,
+    "attr_adv_pct": 3.5,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻看质检记录的纸质表格",
+      "chars": 2256,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "翻看考勤表数字",
+      "chars": 2448,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻看质检记录的纸质表格",
+      "chars": 2637,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "翻看采购报价单",
+      "chars": 2112,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻看采购报价单",
+      "chars": 1904,
+      "score": 87.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "翻看质检记录的纸质表格",
+      "chars": 1426,
+      "score": 33.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「比如说一旦有哪家竞争对手率先实现了百分之九十以上…」）",
+      "[observe] 标题重复：「翻看质检记录的纸质表格」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 标题重复：「翻看采购报价单」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 34.4 高于目标 18.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "narration_para_pct 23.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「翻看质检记录的纸质表格」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 229.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:09:19"
+}

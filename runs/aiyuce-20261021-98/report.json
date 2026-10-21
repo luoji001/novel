@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-98",
+  "profile": "AI 推演",
+  "title": "显卡库存",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12052,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11785,
+    "chapter_chars_mean": 1964,
+    "chapter_chars_median": 2066,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 14.3,
+    "dialogue_chars_pct": 4.8,
+    "dialogue_para_pct": 23.3,
+    "interiority_para_pct": 22.9,
+    "narration_para_pct": 53.8,
+    "turn_under20_pct": 79.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "调整显卡陈列位置",
+      "chars": 2260,
+      "score": 38.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对电费单",
+      "chars": 2173,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对显卡成交金额",
+      "chars": 2237,
+      "score": 23.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "调价显卡库存",
+      "chars": 1869,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "核对显卡折旧表",
+      "chars": 2052,
+      "score": 35.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对显卡折旧表",
+      "chars": 1455,
+      "score": 86.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 41.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_run_mean 5 高于目标 4.0",
+      "narration_para_pct 30.0 低于目标 45.0",
+      "[observe] 标题重复：「核对显卡折旧表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 228.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:02:06"
+}

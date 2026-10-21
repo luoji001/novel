@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-103",
+  "profile": "AI 推演",
+  "title": "代码复查",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13211,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12915,
+    "chapter_chars_mean": 2152,
+    "chapter_chars_median": 2228,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 16.5,
+    "dialogue_chars_pct": 12.9,
+    "dialogue_para_pct": 37.8,
+    "interiority_para_pct": 13.5,
+    "narration_para_pct": 48.7,
+    "turn_under20_pct": 49.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.5,
+    "attr_adv_pct": 1.6,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "调整任务分配方案",
+      "chars": 2681,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "重新标注数据集",
+      "chars": 2310,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "对比两份项目进度表",
+      "chars": 2449,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "画折线图",
+      "chars": 2133,
+      "score": 87.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "检查代码审核报告",
+      "chars": 2240,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "检查代码审核报告",
+      "chars": 1392,
+      "score": 34.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 19.2 高于目标 18.0",
+      "narration_para_pct 31.6 低于目标 45.0"
+    ],
+    "2": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 23.3 高于目标 18.0",
+      "narration_para_pct 27.8 低于目标 45.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 30.7 高于目标 18.0",
+      "narration_para_pct 35.7 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「检查代码审核报告」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 232.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:14:20"
+}

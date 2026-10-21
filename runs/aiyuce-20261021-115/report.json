@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-115",
+  "profile": "AI 推演",
+  "title": "代码审查报告",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12156,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11839,
+    "chapter_chars_mean": 1973,
+    "chapter_chars_median": 2054,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 18,
+    "dialogue_chars_pct": 12.9,
+    "dialogue_para_pct": 37.2,
+    "interiority_para_pct": 25.3,
+    "narration_para_pct": 37.4,
+    "turn_under20_pct": 66.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.7,
+    "attr_adv_pct": 15.6,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "张伟查看招聘JD",
+      "chars": 2236,
+      "score": 38.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "张伟查看薪资条",
+      "chars": 2134,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "代码审查报告修正",
+      "chars": 2063,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "服务器折旧表更新",
+      "chars": 2178,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "代码审查报告修正",
+      "chars": 2092,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 6,
+      "title": "代码审查报告修正",
+      "chars": 1447,
+      "score": 86.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "[observe] 章内自我复读 1 句（如「如果张伟最终能够成功通过试用期并获得转正机会，那…」）"
+    ],
+    "2": [
+      "narration_para_pct 5.6 低于目标 45.0",
+      "[observe] 章内自我复读 5 句（如「正如这张纸上所写的那样，“月工资：15,000元…」）"
+    ],
+    "3": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「点了点头」×3",
+      "dialogue_chars_pct 23.6 高于目标 18.0",
+      "narration_para_pct 34.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「代码审查报告修正」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 30.6 高于目标 18.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 标题重复：「代码审查报告修正」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 209.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:43:29"
+}

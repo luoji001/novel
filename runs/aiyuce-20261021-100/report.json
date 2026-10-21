@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-100",
+  "profile": "AI 推演",
+  "title": "电单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13840,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13570,
+    "chapter_chars_mean": 2262,
+    "chapter_chars_median": 2391,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 14.8,
+    "dialogue_chars_pct": 3.4,
+    "dialogue_para_pct": 18.1,
+    "interiority_para_pct": 28.6,
+    "narration_para_pct": 53.4,
+    "turn_under20_pct": 76.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单核对过程",
+      "chars": 2473,
+      "score": 56.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "计算电费变化",
+      "chars": 2402,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "折旧表核对过程",
+      "chars": 2583,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对电价变化",
+      "chars": 2271,
+      "score": 87.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "盯住招聘JD",
+      "chars": 2505,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对电价变化",
+      "chars": 1600,
+      "score": 88.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「东莞某工业园区机房」×3",
+      "narration_para_pct 40.0 低于目标 45.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 4 句（如「此外，由于新岗位对团队协作也有一定要求，这意味着…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「核对电价变化」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 244.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:06:51"
+}

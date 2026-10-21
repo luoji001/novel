@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-116",
+  "profile": "AI 推演",
+  "title": "校对钟",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11093,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10832,
+    "chapter_chars_mean": 1805,
+    "chapter_chars_median": 1870,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 13.3,
+    "dialogue_chars_pct": 3.0,
+    "dialogue_para_pct": 15.5,
+    "interiority_para_pct": 16.9,
+    "narration_para_pct": 67.6,
+    "turn_under20_pct": 73.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.4,
+    "attr_adv_pct": 50.7,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "校对主管摩挲报价单",
+      "chars": 1835,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲合同页边距",
+      "chars": 1894,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲反馈表边缘",
+      "chars": 1939,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "摩挲财务报表边缘",
+      "chars": 1981,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲使用记录边缘",
+      "chars": 2042,
+      "score": 33.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲使用记录边缘",
+      "chars": 1396,
+      "score": 33.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 42.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的事实推翻呢…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《摩挲反馈表边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「摩挲使用记录边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 217.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T13:45:53"
+}
