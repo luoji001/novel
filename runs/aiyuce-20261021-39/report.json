@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-39",
+  "profile": "AI 推演",
+  "title": "影像科的夜",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12435,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12120,
+    "chapter_chars_mean": 2020,
+    "chapter_chars_median": 2092,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 16.2,
+    "dialogue_chars_pct": 21.3,
+    "dialogue_para_pct": 51.8,
+    "interiority_para_pct": 10.3,
+    "narration_para_pct": 37.9,
+    "turn_under20_pct": 57.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "日志里的数字密码",
+      "chars": 1748,
+      "score": 98.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "AI模型推理报价单",
+      "chars": 2262,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "预算表上的百分比变化",
+      "chars": 2728,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "敲击桌面的数据质疑",
+      "chars": 2031,
+      "score": 32.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "对比新旧招聘广告",
+      "chars": 2282,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "敲击桌面的数据质疑",
+      "chars": 1378,
+      "score": 34.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 19.0 高于目标 18.0",
+      "narration_para_pct 16.7 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 22.7 高于目标 18.0",
+      "narration_para_pct 31.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「如果有足够的数据显示AI模型对于某些特定类型的病…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 57.9 高于目标 18.0",
+      "dialogue_run_mean 5.7 高于目标 4.0",
+      "narration_para_pct 10.5 低于目标 45.0",
+      "[observe] 章内自我复读 6 句（如「我理解你的意思，但我们不能忽视这样一个事实：如果…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 27.8 高于目标 18.0",
+      "narration_para_pct 38.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「敲击桌面的数据质疑」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 225.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T10:40:18"
+}

@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-31",
+  "profile": "AI 推演",
+  "title": "审查笔记",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12485,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12210,
+    "chapter_chars_mean": 2035,
+    "chapter_chars_median": 2179,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 14.3,
+    "dialogue_chars_pct": 6.4,
+    "dialogue_para_pct": 24.1,
+    "interiority_para_pct": 17.0,
+    "narration_para_pct": 58.9,
+    "turn_under20_pct": 48.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 4.6,
+    "attr_adv_pct": 4.6,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "代码审查日报的溢出",
+      "chars": 2279,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "AI工具的演示",
+      "chars": 2384,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "手册的页码翻动",
+      "chars": 2477,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "键盘上的指令输入",
+      "chars": 1946,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "代码审查日报的溢出",
+      "chars": 2181,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "代码审查日报的溢出",
+      "chars": 1212,
+      "score": 35.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 5 句（如「这些做法可能会带来意想不到的好处，比如减少重复劳…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 20.6 高于目标 18.0",
+      "narration_para_pct 15.4 低于目标 45.0"
+    ],
+    "4": [
+      "命中套话收尾句"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「代码审查日报的溢出」已存在"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「代码审查日报的溢出」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 223.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T10:21:20"
+}

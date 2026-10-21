@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-26",
+  "profile": "AI 推演",
+  "title": "折旧表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12906,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12634,
+    "chapter_chars_mean": 2106,
+    "chapter_chars_median": 2097,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 14.8,
+    "dialogue_chars_pct": 3.5,
+    "dialogue_para_pct": 23.9,
+    "interiority_para_pct": 23.7,
+    "narration_para_pct": 52.4,
+    "turn_under20_pct": 69.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 13.6,
+    "attr_adv_pct": 13.6,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单上的数字",
+      "chars": 2120,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "张贴招聘JD",
+      "chars": 2660,
+      "score": 34.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "订单确认流程",
+      "chars": 2169,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "核对计算器按键",
+      "chars": 2389,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对计算器按键",
+      "chars": 2052,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对计算器按键",
+      "chars": 1510,
+      "score": 88.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 2 句（如「如果电力公司突然上调电价，那么实际支出将会高于预…」）"
+    ],
+    "2": [
+      "interiority_para_pct 41.2 高于目标 40.0",
+      "[observe] 章内自我复读 6 句（如「因此，他在做出这个决策的时候，心里很清楚地意识到…」）"
+    ],
+    "3": [
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "narration_para_pct 35.7 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对计算器按键」已存在"
+    ],
+    "6": [
+      "dialogue_run_mean 5 高于目标 4.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 标题重复：「核对计算器按键」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 234.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T10:09:17"
+}

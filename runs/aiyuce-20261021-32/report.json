@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-32",
+  "profile": "AI 推演",
+  "title": "校对钟",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11621,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11329,
+    "chapter_chars_mean": 1888,
+    "chapter_chars_median": 1932,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 15.7,
+    "dialogue_chars_pct": 19.7,
+    "dialogue_para_pct": 46.1,
+    "interiority_para_pct": 17.0,
+    "narration_para_pct": 36.9,
+    "turn_under20_pct": 57.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.8,
+    "attr_adv_pct": 1.7,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 5.2,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对校对费用表",
+      "chars": 2006,
+      "score": 95.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "校对工时记录表",
+      "chars": 2212,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻阅客户反馈报告",
+      "chars": 1948,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "查看校对工时记录",
+      "chars": 2397,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "翻阅AI测试数据",
+      "chars": 1816,
+      "score": 80.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "审视AI测试数据",
+      "chars": 1236,
+      "score": 82.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 43.8 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 26.3 高于目标 18.0",
+      "narration_para_pct 36.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）",
+      "[observe] 标题与《校对工时记录表》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "dialogue_chars_pct 63.0 高于目标 18.0",
+      "dialogue_run_mean 16 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 25.0 高于目标 18.0",
+      "dialogue_run_mean 7 高于目标 4.0",
+      "narration_para_pct 20.0 低于目标 45.0",
+      "[observe] 标题与《翻阅AI测试数据》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 209.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T10:23:37"
+}
