@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-61",
+  "profile": "AI 推演",
+  "title": "代写报价单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12165,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11882,
+    "chapter_chars_mean": 1980,
+    "chapter_chars_median": 1964,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 16.5,
+    "dialogue_chars_pct": 8.6,
+    "dialogue_para_pct": 33.1,
+    "interiority_para_pct": 16.3,
+    "narration_para_pct": 50.6,
+    "turn_under20_pct": 62.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对报表",
+      "chars": 1942,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "成本曲线下降趋势",
+      "chars": 2126,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "扫码付款",
+      "chars": 2059,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "摩挲调查问卷",
+      "chars": 2830,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对协议条款",
+      "chars": 1969,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "核对报表",
+      "chars": 1233,
+      "score": 90.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 36.4 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「核对报表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 211.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:33:17"
+}

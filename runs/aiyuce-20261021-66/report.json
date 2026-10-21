@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-66",
+  "profile": "AI 推演",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11736,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11472,
+    "chapter_chars_mean": 1912,
+    "chapter_chars_median": 1956,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 13.8,
+    "dialogue_chars_pct": 3.1,
+    "dialogue_para_pct": 21.6,
+    "interiority_para_pct": 18.1,
+    "narration_para_pct": 60.4,
+    "turn_under20_pct": 95.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对协议副本条款",
+      "chars": 1870,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对协议副本条款",
+      "chars": 2325,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "核对成本分析表",
+      "chars": 2269,
+      "score": 34.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对成本分析表",
+      "chars": 2101,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "发送法律咨询函",
+      "chars": 1896,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对成本分析表",
+      "chars": 1269,
+      "score": 35.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「不仅仅是」×3",
+      "narration_para_pct 44.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对协议副本条款」已存在"
+    ],
+    "3": [
+      "[observe] 章内自我复读 4 句（如「如果有权威性的审计报告能够证明该公司确实是在某个…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）",
+      "[observe] 标题重复：「核对成本分析表」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 4 句（如「如果这家律所最终认定第7条不具备足够的法律基础，…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对成本分析表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 215.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:45:15"
+}

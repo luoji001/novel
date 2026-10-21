@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-49",
+  "profile": "AI 推演",
+  "title": "电耗计",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11619,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11306,
+    "chapter_chars_mean": 1884,
+    "chapter_chars_median": 2009,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 17.7,
+    "dialogue_chars_pct": 11.4,
+    "dialogue_para_pct": 41.2,
+    "interiority_para_pct": 15.9,
+    "narration_para_pct": 42.9,
+    "turn_under20_pct": 65.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 4.7,
+    "attr_adv_pct": 3.9,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "查看代写服务报价单",
+      "chars": 2293,
+      "score": 39.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "核对电费单数据",
+      "chars": 2285,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "贴JD的剪刀动作",
+      "chars": 2431,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "打印店老板看报价单",
+      "chars": 1837,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对折旧表数据",
+      "chars": 1606,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "盯着代写报价单",
+      "chars": 1161,
+      "score": 92.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 37.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 28.3 高于目标 18.0",
+      "narration_para_pct 35.3 低于目标 45.0"
+    ],
+    "6": [
+      "narration_para_pct 22.2 低于目标 45.0",
+      "[observe] 标题与《查看代写服务报价单》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:04:08"
+}

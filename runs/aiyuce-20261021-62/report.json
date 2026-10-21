@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-62",
+  "profile": "AI 推演",
+  "title": "电表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12667,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12398,
+    "chapter_chars_mean": 2066,
+    "chapter_chars_median": 2146,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 14.5,
+    "dialogue_chars_pct": 6.0,
+    "dialogue_para_pct": 27.6,
+    "interiority_para_pct": 17.5,
+    "narration_para_pct": 54.9,
+    "turn_under20_pct": 69.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 19
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对电表读数",
+      "chars": 1833,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对订单记录",
+      "chars": 2277,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对价格表数据",
+      "chars": 2701,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对测试机参数",
+      "chars": 2439,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对折旧计算表",
+      "chars": 2106,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "核对显卡用电数据",
+      "chars": 1305,
+      "score": 85.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 16.7 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《核对电表读数》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "interiority_para_pct 44.4 高于目标 40.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 224.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:35:49"
+}

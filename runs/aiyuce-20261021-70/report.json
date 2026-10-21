@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-70",
+  "profile": "AI 推演",
+  "title": "证书",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12655,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12398,
+    "chapter_chars_mean": 2066,
+    "chapter_chars_median": 2138,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 13.5,
+    "dialogue_chars_pct": 8.0,
+    "dialogue_para_pct": 27.4,
+    "interiority_para_pct": 24.9,
+    "narration_para_pct": 47.8,
+    "turn_under20_pct": 63.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 6.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对财务报表",
+      "chars": 2574,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "修订版招聘JD文件",
+      "chars": 1991,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对财务报表",
+      "chars": 2063,
+      "score": 34.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "扫描报告数据",
+      "chars": 2296,
+      "score": 34.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对持证员工名单",
+      "chars": 2544,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对财务报表",
+      "chars": 1181,
+      "score": 78.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对财务报表」已存在"
+    ],
+    "4": [
+      "interiority_para_pct 43.8 高于目标 40.0",
+      "[observe] 章内自我复读 3 句（如「此外，如果市场对数据标注的需求下降，导致企业减少…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "6": [
+      "dialogue_chars_pct 60.3 高于目标 18.0",
+      "dialogue_run_mean 8 高于目标 4.0",
+      "narration_para_pct 11.1 低于目标 45.0",
+      "[observe] 标题重复：「核对财务报表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 223.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T11:54:36"
+}
