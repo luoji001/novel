@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-126",
+  "profile": "AI 推演",
+  "title": "算力账单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12476,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12174,
+    "chapter_chars_mean": 2029,
+    "chapter_chars_median": 2110,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 16.7,
+    "dialogue_chars_pct": 9.9,
+    "dialogue_para_pct": 32.2,
+    "interiority_para_pct": 14.9,
+    "narration_para_pct": 52.9,
+    "turn_under20_pct": 65.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对折旧表数据",
+      "chars": 2168,
+      "score": 95.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对电费账单数据",
+      "chars": 2148,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对招聘JD数据",
+      "chars": 1960,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对电费账单数据",
+      "chars": 2522,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "核对许可证条款",
+      "chars": 2190,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对报价单数据",
+      "chars": 1482,
+      "score": 91.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 43.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 24.4 高于目标 18.0",
+      "narration_para_pct 38.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「与此同时，在杭州的某个角落里，一位CTO正仔细核…」）",
+      "[observe] 标题重复：「核对电费账单数据」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "narration_para_pct 27.3 低于目标 45.0",
+      "[observe] 标题与《核对电费账单数据》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 213.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:09:58"
+}

@@ -1,0 +1,126 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-131",
+  "profile": "AI 推演",
+  "title": "模型复核页数",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12156,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11874,
+    "chapter_chars_mean": 1979,
+    "chapter_chars_median": 2073,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 15.3,
+    "dialogue_chars_pct": 18.7,
+    "dialogue_para_pct": 40.7,
+    "interiority_para_pct": 19.9,
+    "narration_para_pct": 39.4,
+    "turn_under20_pct": 51.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 11.2,
+    "attr_adv_pct": 2.1,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻看案件处理清单",
+      "chars": 2252,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "翻看案件处理清单",
+      "chars": 2186,
+      "score": 33.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 3,
+      "title": "核对调查表数据",
+      "chars": 2061,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对调查表数据",
+      "chars": 1975,
+      "score": 85.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对误判率数据",
+      "chars": 2450,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对误判率数据",
+      "chars": 1226,
+      "score": 85.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 41.7 高于目标 40.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 章内自我复读 4 句（如「就在他准备进一步查阅相关资料的时候，他的手机震动…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 56.6 高于目标 18.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "narration_para_pct 14.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「翻看案件处理清单」已存在"
+    ],
+    "3": [
+      "narration_para_pct 35.7 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「核对调查表数据」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 42.4 高于目标 18.0",
+      "narration_para_pct 16.7 低于目标 45.0",
+      "[observe] 标题重复：「核对误判率数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 227.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:21:34"
+}

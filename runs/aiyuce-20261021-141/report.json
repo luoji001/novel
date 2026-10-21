@@ -1,0 +1,128 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-141",
+  "profile": "AI 推演",
+  "title": "听课笔记",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11026,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10733,
+    "chapter_chars_mean": 1789,
+    "chapter_chars_median": 1868,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 15.2,
+    "dialogue_chars_pct": 19.0,
+    "dialogue_para_pct": 41.8,
+    "interiority_para_pct": 14.1,
+    "narration_para_pct": 44.1,
+    "turn_under20_pct": 46.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.4,
+    "attr_adv_pct": 2.4,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 31
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "计算器与标签的对峙",
+      "chars": 1920,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "听课记录本使用统计表",
+      "chars": 2684,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "听课记录本使用统计表",
+      "chars": 1204,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "听课记录本使用统计表",
+      "chars": 2086,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "翻开听课记录本",
+      "chars": 1930,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻开听课记录本",
+      "chars": 1196,
+      "score": 35.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 43.4 高于目标 18.0",
+      "dialogue_run_mean 4.3 高于目标 4.0",
+      "narration_para_pct 35.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被哪些具体的证据反驳吗…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 标题重复：「听课记录本使用统计表」已存在"
+    ],
+    "4": [
+      "narration_para_pct 42.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「听课记录本使用统计表」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 21.6 高于目标 18.0",
+      "narration_para_pct 40.9 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 20.7 高于目标 18.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「翻开听课记录本」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 203.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:46:22"
+}

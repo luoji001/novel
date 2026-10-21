@@ -1,0 +1,70 @@
+[
+  {
+    "no": 1,
+    "title": "翻译报价单上的数字",
+    "beat": "展示当前翻译计价方式和客户数量",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "一份翻译报价单（单价15元/千字）",
+    "speakers": [
+      "上海一家翻译公司的校对主管",
+      "北京某AI翻译软件供应商"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "校对报价单的异议",
+    "beat": "校对主管质疑计价方式的合理性",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "一份校对报价单（单价20元/小时）",
+    "speakers": [
+      "上海一家翻译公司的校对主管"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "翻译软件的使用记录",
+    "beat": "AI翻译软件的使用情况被记录",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "一台翻译软件的使用记录表",
+    "speakers": [
+      "北京某AI翻译软件供应商"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "员工工时统计表的矛盾",
+    "beat": "员工工时与计价方式产生冲突",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "一份员工工时统计表",
+    "speakers": [
+      "上海一家翻译公司的校对主管"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "客户满意度调查表的反馈",
+    "beat": "客户对计价方式的满意度下降",
+    "target_chars": 1588,
+    "scale": "normal",
+    "must_object": "一份客户满意度调查表",
+    "speakers": [
+      "上海一家翻译公司的校对主管"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "这条预测会被什么推翻",
+    "beat": "分析预测可能被推翻的原因",
+    "target_chars": 1058,
+    "scale": "short",
+    "must_object": "一份校对报价单（单价20元/小时）",
+    "speakers": [
+      "上海一家翻译公司的校对主管",
+      "北京某AI翻译软件供应商"
+    ]
+  }
+]

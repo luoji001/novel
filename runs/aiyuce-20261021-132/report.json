@@ -1,0 +1,130 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-132",
+  "profile": "AI 推演",
+  "title": "模型灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11261,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10955,
+    "chapter_chars_mean": 1826,
+    "chapter_chars_median": 1904,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 17.2,
+    "dialogue_chars_pct": 30.7,
+    "dialogue_para_pct": 60.4,
+    "interiority_para_pct": 4.5,
+    "narration_para_pct": 35.1,
+    "turn_under20_pct": 29.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.1,
+    "attr_adv_pct": 5.6,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 4.6,
+    "turn_len_median": 30
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "表格与图纸的对话",
+      "chars": 1880,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "标准差对比分析",
+      "chars": 2156,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "示波器价格清单",
+      "chars": 1848,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "软件采购与教学调整",
+      "chars": 2178,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "计算器与问卷",
+      "chars": 2031,
+      "score": 34.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "表格边缘的铅笔痕迹",
+      "chars": 1162,
+      "score": 34.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 28.1 高于目标 18.0",
+      "dialogue_run_mean 14 高于目标 4.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 35.7 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这个问题直指张伟的教学方式调整…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 34.7 高于目标 18.0",
+      "narration_para_pct 15.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「几天后，张伟向学校提出了增加设备的数量的请求，并…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 33.3 高于目标 18.0",
+      "narration_para_pct 29.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 57.7 高于目标 18.0",
+      "narration_para_pct 20.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 219.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:24:02"
+}

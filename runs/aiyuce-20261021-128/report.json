@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-128",
+  "profile": "AI 推演",
+  "title": "校对钟",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11457,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11213,
+    "chapter_chars_mean": 1869,
+    "chapter_chars_median": 1898,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 12.7,
+    "dialogue_chars_pct": 7.1,
+    "dialogue_para_pct": 24.9,
+    "interiority_para_pct": 13.1,
+    "narration_para_pct": 62.0,
+    "turn_under20_pct": 31.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 27
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻译报价单分析",
+      "chars": 1919,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对工资表",
+      "chars": 2189,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对测试数据",
+      "chars": 2392,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "客户反馈报告的核查",
+      "chars": 1847,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "预算表核对",
+      "chars": 1964,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "核对测试数据",
+      "chars": 1140,
+      "score": 35.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 27.3 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对测试数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:14:45"
+}

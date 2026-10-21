@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-134",
+  "profile": "AI 推演",
+  "title": "电表转数",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11766,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11484,
+    "chapter_chars_mean": 1914,
+    "chapter_chars_median": 2060,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 14.8,
+    "dialogue_chars_pct": 5.5,
+    "dialogue_para_pct": 20.8,
+    "interiority_para_pct": 23.8,
+    "narration_para_pct": 55.4,
+    "turn_under20_pct": 69.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 11.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对交易记录表",
+      "chars": 2151,
+      "score": 59.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对电费单数据",
+      "chars": 2057,
+      "score": 23.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对利润计算表",
+      "chars": 1795,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对库存清单数据",
+      "chars": 2190,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对库存清单数据",
+      "chars": 2170,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "核对显卡交易记录",
+      "chars": 1397,
+      "score": 91.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 3 句（如「一条可能推翻这条推论的情况是，如果市场上出现了更…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《核对电费单数据》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 38.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对库存清单数据」已存在"
+    ],
+    "6": [
+      "narration_para_pct 36.4 低于目标 45.0",
+      "[observe] 标题与《核对交易记录表》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 213.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:28:59"
+}

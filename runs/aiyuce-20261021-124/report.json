@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-124",
+  "profile": "AI 推演",
+  "title": "电表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12898,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12632,
+    "chapter_chars_mean": 2105,
+    "chapter_chars_median": 2184,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14.2,
+    "dialogue_chars_pct": 5.5,
+    "dialogue_para_pct": 26.0,
+    "interiority_para_pct": 21.5,
+    "narration_para_pct": 52.5,
+    "turn_under20_pct": 69.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指轻抚电费单",
+      "chars": 2222,
+      "score": 96.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "手指轻抚折旧表",
+      "chars": 2532,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "手指轻抚招聘JD",
+      "chars": 2541,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "比对电价走势",
+      "chars": 2240,
+      "score": 23.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对电费单数据",
+      "chars": 1916,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对电费单数据",
+      "chars": 1441,
+      "score": 88.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 44.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "interiority_para_pct 46.2 高于目标 40.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被电网调度异常导致的生产延误所推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_run_mean 5 高于目标 4.0",
+      "narration_para_pct 30.0 低于目标 45.0",
+      "[observe] 标题重复：「核对电费单数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 231.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:05:11"
+}

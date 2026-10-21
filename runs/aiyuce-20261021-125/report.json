@@ -1,0 +1,128 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-125",
+  "profile": "AI 推演",
+  "title": "数据镜",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12428,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12110,
+    "chapter_chars_mean": 2018,
+    "chapter_chars_median": 2120,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 17.2,
+    "dialogue_chars_pct": 38.1,
+    "dialogue_para_pct": 57.0,
+    "interiority_para_pct": 11.9,
+    "narration_para_pct": 31.1,
+    "turn_under20_pct": 32.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.8,
+    "attr_adv_pct": 3.9,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 4.0,
+    "turn_len_median": 36
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅质检报表",
+      "chars": 1740,
+      "score": 96.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对预算分配表",
+      "chars": 2485,
+      "score": 33.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "翻阅测试报告",
+      "chars": 2222,
+      "score": 85.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "翻阅考勤记录表",
+      "chars": 2696,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻阅客户投诉报表",
+      "chars": 2147,
+      "score": 31.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "翻阅质检报表",
+      "chars": 1132,
+      "score": 80.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 36.4 低于目标 45.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 66.6 高于目标 18.0",
+      "narration_para_pct 12.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 22.2 高于目标 18.0",
+      "narration_para_pct 42.9 低于目标 45.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 65.8 高于目标 18.0",
+      "dialogue_run_mean 5.7 高于目标 4.0",
+      "narration_para_pct 10.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 68.8 高于目标 18.0",
+      "dialogue_run_mean 10 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0",
+      "[observe] 标题重复：「翻阅质检报表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 230.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:07:41"
+}

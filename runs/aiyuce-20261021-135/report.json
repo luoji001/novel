@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-135",
+  "profile": "AI 推演",
+  "title": "筛片",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13724,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13407,
+    "chapter_chars_mean": 2234,
+    "chapter_chars_median": 2392,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 17.8,
+    "dialogue_chars_pct": 7.0,
+    "dialogue_para_pct": 26.7,
+    "interiority_para_pct": 19.4,
+    "narration_para_pct": 53.8,
+    "turn_under20_pct": 67.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对影像科工作量统计表",
+      "chars": 2465,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "AI初筛报价单",
+      "chars": 2611,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "核对影像科工作量统计表",
+      "chars": 2922,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "注视报告",
+      "chars": 2022,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对预算报表数据",
+      "chars": 2429,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "审视误诊案例报告",
+      "chars": 1269,
+      "score": 34.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 3 句（如「他想起之前的一次会议上，一位年轻医生提到过，连续…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对影像科工作量统计表」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "narration_para_pct 42.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 233.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:31:30"
+}

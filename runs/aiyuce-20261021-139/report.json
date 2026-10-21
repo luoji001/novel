@@ -1,0 +1,131 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-139",
+  "profile": "AI 推演",
+  "title": "代码折旧表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12826,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12455,
+    "chapter_chars_mean": 2076,
+    "chapter_chars_median": 2142,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 24.2,
+    "dialogue_chars_pct": 19.7,
+    "dialogue_para_pct": 47.2,
+    "interiority_para_pct": 11.9,
+    "narration_para_pct": 40.8,
+    "turn_under20_pct": 50.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.5,
+    "attr_adv_pct": 5.4,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻开电费单",
+      "chars": 2281,
+      "score": 38.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "翻看招聘JD",
+      "chars": 1905,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "摩挲纸边",
+      "chars": 2690,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "敲击键盘",
+      "chars": 2571,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "敲击键盘",
+      "chars": 2129,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "敲击桌面",
+      "chars": 1244,
+      "score": 34.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 23.5 高于目标 18.0",
+      "narration_para_pct 27.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "narration_para_pct 44.4 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「这条推论会被什么样的事实推翻呢…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「点了点头」×3",
+      "dialogue_chars_pct 25.1 高于目标 18.0",
+      "narration_para_pct 40.6 低于目标 45.0",
+      "[observe] 章内自我复读 5 句（如「最终决定采取分阶段实施的方式，优先解决最紧迫的功…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 18.8 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「敲击键盘」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 28.9 高于目标 18.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "narration_para_pct 35.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 227.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T14:41:38"
+}
