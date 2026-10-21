@@ -3,6 +3,10 @@ state/*.sqlite
 state/*.sqlite-shm
 state/*.sqlite-wal
 
+# 自动提交脚本（scripts/auto_commit.sh）的运行日志与锁文件
+state/*.log
+state/*.lock
+
 # Python
 __pycache__/
 *.py[cod]
