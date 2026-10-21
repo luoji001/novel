@@ -1,0 +1,130 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-178",
+  "profile": "AI 推演",
+  "title": "刻度",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11856,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11528,
+    "chapter_chars_mean": 1921,
+    "chapter_chars_median": 1940,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 19.3,
+    "dialogue_chars_pct": 30.6,
+    "dialogue_para_pct": 58.9,
+    "interiority_para_pct": 11.3,
+    "narration_para_pct": 29.8,
+    "turn_under20_pct": 46.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指摩挲记录单",
+      "chars": 2102,
+      "score": 38.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "核对工资条数字",
+      "chars": 2309,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "手指划过数据点",
+      "chars": 2395,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "手指划过数据点",
+      "chars": 1821,
+      "score": 33.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "手指划过数据点",
+      "chars": 1894,
+      "score": 86.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "手指划过数据点",
+      "chars": 1329,
+      "score": 35.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 41.2 低于目标 45.0",
+      "[observe] 章内自我复读 3 句（如「如果有证据表明公司在未来几个月内会不得不削减预算…」）"
+    ],
+    "2": [
+      "narration_para_pct 41.7 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 22.4 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 41.8 高于目标 18.0",
+      "narration_para_pct 22.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「手指划过数据点」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 44.8 高于目标 18.0",
+      "dialogue_run_mean 4.2 高于目标 4.0",
+      "narration_para_pct 15.4 低于目标 45.0",
+      "[observe] 标题重复：「手指划过数据点」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 52.8 高于目标 18.0",
+      "narration_para_pct 15.4 低于目标 45.0",
+      "[observe] 章内自我复读 4 句（如「李晓阳突然开口，“如果证书获取成本真的大幅上升，…」）",
+      "[observe] 标题重复：「手指划过数据点」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 206.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:14:56"
+}

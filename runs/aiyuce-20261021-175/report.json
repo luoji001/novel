@@ -1,0 +1,125 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-175",
+  "profile": "AI 推演",
+  "title": "验码台",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12148,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11861,
+    "chapter_chars_mean": 1977,
+    "chapter_chars_median": 2114,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 16.8,
+    "dialogue_chars_pct": 22.5,
+    "dialogue_para_pct": 47.2,
+    "interiority_para_pct": 16.0,
+    "narration_para_pct": 36.9,
+    "turn_under20_pct": 55.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 8.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 20
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击键盘",
+      "chars": 2249,
+      "score": 95.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "敲击键盘",
+      "chars": 2204,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "代码验收流程调整方案",
+      "chars": 2498,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "敲击键盘",
+      "chars": 2122,
+      "score": 86.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "敲击桌面",
+      "chars": 1797,
+      "score": 82.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "敲击桌面",
+      "chars": 1272,
+      "score": 85.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 31.6 低于目标 45.0"
+    ],
+    "2": [
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 标题重复：「敲击键盘」已存在"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 29.4 高于目标 18.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 标题重复：「敲击键盘」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 64.6 高于目标 18.0",
+      "dialogue_run_mean 6.5 高于目标 4.0",
+      "narration_para_pct 6.2 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 32.1 高于目标 18.0",
+      "narration_para_pct 16.7 低于目标 45.0",
+      "[observe] 标题重复：「敲击桌面」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 208.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:07:51"
+}

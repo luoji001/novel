@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-194",
+  "profile": "AI 推演",
+  "title": "租卡",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12283,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11997,
+    "chapter_chars_mean": 2000,
+    "chapter_chars_median": 2048,
+    "chapter_chars_cv": 0.09,
+    "paragraphs_mean": 15.3,
+    "dialogue_chars_pct": 5.8,
+    "dialogue_para_pct": 22.3,
+    "interiority_para_pct": 28.2,
+    "narration_para_pct": 49.5,
+    "turn_under20_pct": 56.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "显卡包装盒上的二维码",
+      "chars": 2208,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "电费单上的数字",
+      "chars": 1985,
+      "score": 34.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "折旧表的计算",
+      "chars": 2113,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "显卡租赁的定价策略",
+      "chars": 2077,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "屏幕上的分配表",
+      "chars": 2214,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "CUDA编程的手势",
+      "chars": 1680,
+      "score": 35.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 27.5 高于目标 18.0",
+      "dialogue_run_mean 5.7 高于目标 4.0",
+      "narration_para_pct 16.0 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 4 句（如「如果有数据显示店铺的实际电费支出低于2800元，…」）"
+    ],
+    "3": [
+      "interiority_para_pct 41.2 高于目标 40.0"
+    ],
+    "4": [
+      "narration_para_pct 42.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 232.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:54:04"
+}

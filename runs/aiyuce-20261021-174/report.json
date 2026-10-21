@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-174",
+  "profile": "AI 推演",
+  "title": "信笺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11784,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11531,
+    "chapter_chars_mean": 1922,
+    "chapter_chars_median": 2169,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 12.3,
+    "dialogue_chars_pct": 5.8,
+    "dialogue_para_pct": 36.4,
+    "interiority_para_pct": 21.7,
+    "narration_para_pct": 41.9,
+    "turn_under20_pct": 69.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "会议桌上的合同签署",
+      "chars": 1266,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对技术服务费明细",
+      "chars": 2177,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对报价单金额变化",
+      "chars": 2251,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "核对合同条款差异",
+      "chars": 2308,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对芯片价格涨幅",
+      "chars": 2539,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对合同条款差异",
+      "chars": 1237,
+      "score": 35.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 35.7 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "interiority_para_pct 42.9 高于目标 40.0",
+      "narration_para_pct 21.4 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「不过，他也清楚地知道，这条推论会被什么推翻——如…」）"
+    ],
+    "4": [
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被具体的合同样本以及最终执行结果所验证…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「上海开源模型开发公司」×3",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对合同条款差异」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 205.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:05:31"
+}

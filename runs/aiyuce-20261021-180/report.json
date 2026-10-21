@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-180",
+  "profile": "AI 推演",
+  "title": "数据链",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12915,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12605,
+    "chapter_chars_mean": 2101,
+    "chapter_chars_median": 2246,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 16.5,
+    "dialogue_chars_pct": 5.7,
+    "dialogue_para_pct": 19.5,
+    "interiority_para_pct": 8.6,
+    "narration_para_pct": 71.9,
+    "turn_under20_pct": 86.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 9.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 6
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "实验设备安装调试",
+      "chars": 2523,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "备课笔记中的实验记录",
+      "chars": 2185,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "设备采购清单更新",
+      "chars": 2414,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "电学演示仪的实时数据传输",
+      "chars": 2467,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "成绩统计表上的标准差变动",
+      "chars": 2002,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "标准差变动的质疑",
+      "chars": 1318,
+      "score": 83.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "interiority_para_pct 41.2 高于目标 40.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 45.0 高于目标 18.0",
+      "dialogue_run_mean 6 高于目标 4.0",
+      "narration_para_pct 18.8 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 230.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:20:00"
+}

@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-192",
+  "profile": "AI 推演",
+  "title": "电表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12077,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11784,
+    "chapter_chars_mean": 1964,
+    "chapter_chars_median": 2121,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 16.5,
+    "dialogue_chars_pct": 3.0,
+    "dialogue_para_pct": 14.2,
+    "interiority_para_pct": 12.7,
+    "narration_para_pct": 73.1,
+    "turn_under20_pct": 93.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "划动预算明细指针",
+      "chars": 1769,
+      "score": 39.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "核对电费单",
+      "chars": 2228,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "模型教学与成绩变化",
+      "chars": 2224,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "模型清单更新对比",
+      "chars": 2180,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对预算明细",
+      "chars": 2158,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "核对电费单",
+      "chars": 1512,
+      "score": 33.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 41.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 3 句（如「斜面滑动摩擦系数测定仪…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对电费单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 229.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:49:06"
+}

@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-172",
+  "profile": "AI 推演",
+  "title": "电表指针",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13762,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 13468,
+    "chapter_chars_mean": 2245,
+    "chapter_chars_median": 2326,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 16.2,
+    "dialogue_chars_pct": 8.9,
+    "dialogue_para_pct": 29.2,
+    "interiority_para_pct": 18.2,
+    "narration_para_pct": 52.6,
+    "turn_under20_pct": 42.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.2,
+    "attr_adv_pct": 4.3,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对电费单",
+      "chars": 2347,
+      "score": 95.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "招聘JD的打印通知",
+      "chars": 2514,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对报价单",
+      "chars": 2418,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对折旧表数据",
+      "chars": 2338,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "核对电费单",
+      "chars": 2642,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对报价单",
+      "chars": 1497,
+      "score": 35.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 30.8 低于目标 45.0"
+    ],
+    "3": [
+      "[observe] 标题与《核对电费单》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "narration_para_pct 35.3 低于目标 45.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对电费单」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 19.8 高于目标 18.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对报价单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 236.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:00:41"
+}

@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-195",
+  "profile": "AI 推演",
+  "title": "AI透视镜",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12316,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12040,
+    "chapter_chars_mean": 2007,
+    "chapter_chars_median": 2173,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 14.8,
+    "dialogue_chars_pct": 5.5,
+    "dialogue_para_pct": 14.9,
+    "interiority_para_pct": 7.6,
+    "narration_para_pct": 77.5,
+    "turn_under20_pct": 62.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 51.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "AI系统部署调试",
+      "chars": 2502,
+      "score": 37.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "博士学历门槛设定",
+      "chars": 2595,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "AI模型测试报告",
+      "chars": 1368,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "博士学历门槛设定",
+      "chars": 2159,
+      "score": 85.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "翻阅测试报告",
+      "chars": 2285,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "阅读招聘JD",
+      "chars": 1401,
+      "score": 35.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「华西医院影像科」×3",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「华西医院影像科」×5",
+      "[observe] 标题重复：「博士学历门槛设定」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 22.1 高于目标 18.0",
+      "narration_para_pct 42.9 低于目标 45.0"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 208.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:56:19"
+}

@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-188",
+  "profile": "AI 推演",
+  "title": "校对尺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 10999,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 10735,
+    "chapter_chars_mean": 1789,
+    "chapter_chars_median": 1842,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 13.8,
+    "dialogue_chars_pct": 7.0,
+    "dialogue_para_pct": 31.6,
+    "interiority_para_pct": 14.2,
+    "narration_para_pct": 54.2,
+    "turn_under20_pct": 60.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 7.9,
+    "attr_adv_pct": 7.9,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击桌面的红笔",
+      "chars": 1891,
+      "score": 38.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "翻开工资表",
+      "chars": 1873,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻看客户反馈报告",
+      "chars": 1985,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "敲击键盘的手指",
+      "chars": 1784,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "翻看财务报表",
+      "chars": 2014,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "点击屏幕的指尖",
+      "chars": 1446,
+      "score": 88.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 28.6 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「他停顿片刻，目光扫向旁边的一叠纸质账册，“如果按…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "narration_para_pct 37.5 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「这条推论会被什么推翻？…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 6 句（如「听到这个问题后，陈晓阳只是摇了摇头，把那份最新的…」）"
+    ],
+    "6": [
+      "narration_para_pct 40.0 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 213.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:39:09"
+}

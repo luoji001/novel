@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-190",
+  "profile": "AI 推演",
+  "title": "能耗密码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12668,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12408,
+    "chapter_chars_mean": 2068,
+    "chapter_chars_median": 2083,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 13.5,
+    "dialogue_chars_pct": 5.1,
+    "dialogue_para_pct": 31.6,
+    "interiority_para_pct": 25.0,
+    "narration_para_pct": 43.4,
+    "turn_under20_pct": 70.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.2,
+    "attr_adv_pct": 5.8,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "计算电费单上的数字",
+      "chars": 2342,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "敲击键盘",
+      "chars": 2001,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "计算电费单上的数字",
+      "chars": 2754,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "手指划过折旧表",
+      "chars": 2089,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "手指摩挲纸边",
+      "chars": 2162,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "计算电费单上的数字",
+      "chars": 1314,
+      "score": 89.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「她把注意力再次放回那张电费单上，心中清楚，这项数…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「计算电费单上的数字」已存在"
+    ],
+    "5": [
+      "narration_para_pct 30.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "6": [
+      "interiority_para_pct 50.0 高于目标 40.0",
+      "narration_para_pct 25.0 低于目标 45.0",
+      "[observe] 标题重复：「计算电费单上的数字」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 225.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:44:05"
+}
