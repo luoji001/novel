@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-246",
+  "profile": "AI 推演",
+  "title": "报价单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12905,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12622,
+    "chapter_chars_mean": 2104,
+    "chapter_chars_median": 2189,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 14.8,
+    "dialogue_chars_pct": 5.4,
+    "dialogue_para_pct": 26.0,
+    "interiority_para_pct": 17.3,
+    "narration_para_pct": 56.7,
+    "turn_under20_pct": 67.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.3,
+    "attr_adv_pct": 4.9,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.3,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "拨通A公司电话",
+      "chars": 2424,
+      "score": 95.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对报价单与成本报告",
+      "chars": 2466,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "核对账户明细",
+      "chars": 2071,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对报价单与成本报告",
+      "chars": 2199,
+      "score": 86.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对报价单与成本报告",
+      "chars": 2287,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对成本报告细节",
+      "chars": 1452,
+      "score": 88.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 26.7 低于目标 45.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 标题重复：「核对报价单与成本报告」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对报价单与成本报告」已存在"
+    ],
+    "6": [
+      "[observe] 标题与《核对报价单与成本报告》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 231.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:59:30"
+}

@@ -1,0 +1,130 @@
+{
+  "consistency": "未发现。",
+  "slug": "aiyuce-20261021-237",
+  "profile": "AI 推演",
+  "title": "批改纸条",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11918,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11589,
+    "chapter_chars_mean": 1932,
+    "chapter_chars_median": 2004,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 19.2,
+    "dialogue_chars_pct": 31.4,
+    "dialogue_para_pct": 68.0,
+    "interiority_para_pct": 8.8,
+    "narration_para_pct": 23.2,
+    "turn_under20_pct": 38.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.6,
+    "attr_adv_pct": 12.4,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 30
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "批改表数据波动",
+      "chars": 2261,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "翻看对比分析报告",
+      "chars": 2009,
+      "score": 85.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "系统断开瞬间",
+      "chars": 2073,
+      "score": 34.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "翻看预算明细表",
+      "chars": 2050,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "翻看满意度调查问卷",
+      "chars": 2277,
+      "score": 33.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "翻看工作量统计表",
+      "chars": 1242,
+      "score": 34.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 33.0 高于目标 18.0",
+      "narration_para_pct 26.1 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 31.2 高于目标 18.0",
+      "narration_para_pct 27.8 低于目标 45.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 38.2 高于目标 18.0",
+      "dialogue_run_mean 4.8 高于目标 4.0",
+      "narration_para_pct 17.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「一条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 21.1 高于目标 18.0",
+      "narration_para_pct 20.0 低于目标 45.0",
+      "[observe] 章内自我复读 2 句（如「这条推论会被什么推翻？…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 29.6 高于目标 18.0",
+      "narration_para_pct 29.4 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 37.4 高于目标 18.0",
+      "narration_para_pct 14.3 低于目标 45.0",
+      "[observe] 章内自我复读 4 句（如「如果未来AI系统能够自动学习并整合教师常用的个性…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 222.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:37:49"
+}

@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-224",
+  "profile": "AI 推演",
+  "title": "计费尺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11623,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11359,
+    "chapter_chars_mean": 1893,
+    "chapter_chars_median": 2013,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 14.3,
+    "dialogue_chars_pct": 13.3,
+    "dialogue_para_pct": 38.4,
+    "interiority_para_pct": 7.9,
+    "narration_para_pct": 53.7,
+    "turn_under20_pct": 53.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 5.1,
+    "attr_adv_pct": 2.6,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对报价单",
+      "chars": 2096,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对校对明细表",
+      "chars": 1953,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对校对明细表",
+      "chars": 2020,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对校对明细表",
+      "chars": 2164,
+      "score": 34.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对校对明细表",
+      "chars": 2100,
+      "score": 80.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "踱步报价单",
+      "chars": 1284,
+      "score": 37.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 2 句（如「如果实际上所有项目的交付周期都没有发生变化，而且…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对校对明细表」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对校对明细表」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 54.3 高于目标 18.0",
+      "dialogue_run_mean 9 高于目标 4.0",
+      "narration_para_pct 5.3 低于目标 45.0",
+      "[observe] 标题重复：「核对校对明细表」已存在"
+    ],
+    "6": [
+      "narration_para_pct 20.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻？…」）",
+      "[observe] 标题与《核对报价单》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 206.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:06:26"
+}

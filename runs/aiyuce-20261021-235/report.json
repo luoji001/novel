@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-235",
+  "profile": "AI 推演",
+  "title": "代码修正",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12204,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11918,
+    "chapter_chars_mean": 1986,
+    "chapter_chars_median": 2059,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 14.7,
+    "dialogue_chars_pct": 10.9,
+    "dialogue_para_pct": 32.1,
+    "interiority_para_pct": 5.8,
+    "narration_para_pct": 62.1,
+    "turn_under20_pct": 50.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 8.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "AI筛选系统运行测试",
+      "chars": 2173,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "实习生考核成绩表的填写",
+      "chars": 2038,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "服务器日志异常排查",
+      "chars": 2197,
+      "score": 81.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "报销单的审核过程",
+      "chars": 2462,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "文档草稿的修改讨论",
+      "chars": 1978,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "文档草稿的修改讨论",
+      "chars": 1350,
+      "score": 90.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "[observe] 章内自我复读 2 句（如「然而这条推论会被什么推翻呢…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「广州某科技园区技术部办公室」×3",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的证据所推翻呢…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 40.3 高于目标 18.0",
+      "dialogue_run_mean 9 高于目标 4.0",
+      "narration_para_pct 13.6 低于目标 45.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「文档草稿的修改讨论」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 216.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:33:05"
+}

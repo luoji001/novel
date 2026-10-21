@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-223",
+  "profile": "AI 推演",
+  "title": "代码审核手册",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13039,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12703,
+    "chapter_chars_mean": 2117,
+    "chapter_chars_median": 2169,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 20.7,
+    "dialogue_chars_pct": 19.5,
+    "dialogue_para_pct": 47.2,
+    "interiority_para_pct": 15.4,
+    "narration_para_pct": 37.4,
+    "turn_under20_pct": 46.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.6,
+    "attr_adv_pct": 16.3,
+    "scenes_per_chapter": 3,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 19
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "填写入职表格",
+      "chars": 2320,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "手册上的变量命名规则",
+      "chars": 2307,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "敲击键盘",
+      "chars": 2901,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "敲击键盘",
+      "chars": 2139,
+      "score": 31.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "标注冗余代码",
+      "chars": 2079,
+      "score": 33.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "敲击桌面",
+      "chars": 1287,
+      "score": 35.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 42.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 41.9 高于目标 18.0",
+      "dialogue_run_mean 8.5 高于目标 4.0",
+      "narration_para_pct 10.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「敲击键盘」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 32.6 高于目标 18.0",
+      "narration_para_pct 31.8 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 232.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:04:07"
+}

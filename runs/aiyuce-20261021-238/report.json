@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-238",
+  "profile": "AI 推演",
+  "title": "执照",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12934,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12634,
+    "chapter_chars_mean": 2106,
+    "chapter_chars_median": 2218,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 16.2,
+    "dialogue_chars_pct": 10.7,
+    "dialogue_para_pct": 31.7,
+    "interiority_para_pct": 27.7,
+    "narration_para_pct": 40.6,
+    "turn_under20_pct": 67.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对工资结算单",
+      "chars": 2040,
+      "score": 59.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "核对客户订单明细表",
+      "chars": 2559,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对客户订单明细表",
+      "chars": 2483,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对客户订单明细表",
+      "chars": 2432,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "核对客户订单明细表",
+      "chars": 2098,
+      "score": 86.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "核对客户订单明细表",
+      "chars": 1316,
+      "score": 82.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 40.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 标题重复：「核对客户订单明细表」已存在"
+    ],
+    "4": [
+      "narration_para_pct 28.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对客户订单明细表」已存在"
+    ],
+    "5": [
+      "interiority_para_pct 43.8 高于目标 40.0",
+      "narration_para_pct 31.2 低于目标 45.0",
+      "[observe] 标题重复：「核对客户订单明细表」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 73.1 高于目标 18.0",
+      "dialogue_run_mean 10.5 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0",
+      "[observe] 标题重复：「核对客户订单明细表」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 229.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:40:22"
+}

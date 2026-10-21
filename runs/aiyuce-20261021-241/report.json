@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-241",
+  "profile": "AI 推演",
+  "title": "纸张",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12993,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12690,
+    "chapter_chars_mean": 2115,
+    "chapter_chars_median": 2098,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 17.2,
+    "dialogue_chars_pct": 6.9,
+    "dialogue_para_pct": 42.6,
+    "interiority_para_pct": 17.7,
+    "narration_para_pct": 39.7,
+    "turn_under20_pct": 78.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.4,
+    "attr_adv_pct": 20.4,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 6
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "代写服务的海报",
+      "chars": 2450,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "备案文件的核对",
+      "chars": 2825,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "调查报告的副本",
+      "chars": 2152,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "收费标准的公示",
+      "chars": 2143,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "折旧费用的计算",
+      "chars": 1994,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "敲击桌面的节奏",
+      "chars": 1423,
+      "score": 35.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 25.0 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「县市场监管局」×3",
+      "narration_para_pct 6.2 低于目标 45.0"
+    ],
+    "4": [
+      "narration_para_pct 38.9 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "narration_para_pct 38.9 低于目标 45.0",
+      "[observe] 章内自我复读 3 句（如「她需要更全面的信息来做出决策，而这正是她下一步要…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 235.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:47:44"
+}

@@ -1,0 +1,129 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-245",
+  "profile": "AI 推演",
+  "title": "质检手册",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11768,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11411,
+    "chapter_chars_mean": 1902,
+    "chapter_chars_median": 1958,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 20.8,
+    "dialogue_chars_pct": 39.1,
+    "dialogue_para_pct": 70.8,
+    "interiority_para_pct": 7.1,
+    "narration_para_pct": 22.1,
+    "turn_under20_pct": 40.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.0,
+    "attr_adv_pct": 6.4,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 6.5,
+    "turn_len_median": 28
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "查看通话量统计表",
+      "chars": 2260,
+      "score": 95.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "测试报告上的准确率数据",
+      "chars": 2284,
+      "score": 34.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "递交裁员通知",
+      "chars": 1799,
+      "score": 78.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "客户投诉率分析表",
+      "chars": 1869,
+      "score": 81.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "修改招聘JD的笔尖",
+      "chars": 2172,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "测试报告上的准确率数据",
+      "chars": 1378,
+      "score": 80.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 43.5 低于目标 45.0"
+    ],
+    "2": [
+      "dialogue_chars_pct 33.6 高于目标 18.0",
+      "narration_para_pct 28.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "dialogue_chars_pct 65.6 高于目标 18.0",
+      "dialogue_run_mean 9 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 44.6 高于目标 18.0",
+      "dialogue_run_mean 5.7 高于目标 4.0",
+      "narration_para_pct 19.0 低于目标 45.0"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3",
+      "dialogue_chars_pct 18.2 高于目标 18.0",
+      "narration_para_pct 28.0 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 74.4 高于目标 18.0",
+      "dialogue_run_mean 16 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0",
+      "[observe] 标题重复：「测试报告上的准确率数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 213.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:57:00"
+}

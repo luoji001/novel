@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-226",
+  "profile": "AI 推演",
+  "title": "标尺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12994,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12736,
+    "chapter_chars_mean": 2123,
+    "chapter_chars_median": 2188,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 13.3,
+    "dialogue_chars_pct": 2.6,
+    "dialogue_para_pct": 19.3,
+    "interiority_para_pct": 18.5,
+    "narration_para_pct": 62.1,
+    "turn_under20_pct": 84.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "查看招聘JD的细节",
+      "chars": 2178,
+      "score": 95.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对工资单数据",
+      "chars": 1912,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "核对报价单数据",
+      "chars": 2506,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "核对工时统计报告",
+      "chars": 2294,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "查看折旧记录",
+      "chars": 2596,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "核对报价单数据",
+      "chars": 1502,
+      "score": 89.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 31.2 低于目标 45.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《核对工资单数据》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「核对报价单数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 227.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T18:11:22"
+}
