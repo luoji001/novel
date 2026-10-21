@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-165",
+  "profile": "AI 推演",
+  "title": "听评",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11985,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11731,
+    "chapter_chars_mean": 1955,
+    "chapter_chars_median": 2030,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 12.8,
+    "dialogue_chars_pct": 6.6,
+    "dialogue_para_pct": 35.9,
+    "interiority_para_pct": 16.2,
+    "narration_para_pct": 47.9,
+    "turn_under20_pct": 70.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "回车键震动",
+      "chars": 2289,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "打开使用报告",
+      "chars": 2070,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "翻看听课记录",
+      "chars": 2069,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "屏幕数据曲线图",
+      "chars": 1995,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻开年度规划",
+      "chars": 2206,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对工作量统计表",
+      "chars": 1350,
+      "score": 88.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 5 句（如「就在他准备进一步分析这些问题的时候，手机突然震动…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被系统实际应用后反馈的真实效果推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "narration_para_pct 38.5 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 219.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:43:28"
+}

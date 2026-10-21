@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-158",
+  "profile": "AI 推演",
+  "title": "电单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12157,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11827,
+    "chapter_chars_mean": 1971,
+    "chapter_chars_median": 2300,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 17.7,
+    "dialogue_chars_pct": 15.4,
+    "dialogue_para_pct": 31.4,
+    "interiority_para_pct": 12.5,
+    "narration_para_pct": 56.1,
+    "turn_under20_pct": 46.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.0,
+    "attr_adv_pct": 3.2,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 3.0,
+    "turn_len_median": 24
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "报价单上的数字较量",
+      "chars": 1427,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "招聘JD的显卡销售主管",
+      "chars": 2611,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "电费单对比分析",
+      "chars": 2361,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "库存清单的显卡价格",
+      "chars": 2364,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "折旧表上的剩余价值",
+      "chars": 2367,
+      "score": 35.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "库存清单的显卡价格",
+      "chars": 1021,
+      "score": 86.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 60.3 高于目标 18.0",
+      "dialogue_run_mean 5.3 高于目标 4.0",
+      "narration_para_pct 15.0 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这场关于显卡和主板之争才刚刚开始…」）"
+    ],
+    "3": [
+      "dialogue_run_mean 5 高于目标 4.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的数据所推翻呢…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「库存清单的显卡价格」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 223.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:27:06"
+}

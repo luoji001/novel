@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-161",
+  "profile": "AI 推演",
+  "title": "测评表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12770,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12493,
+    "chapter_chars_mean": 2082,
+    "chapter_chars_median": 2130,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14.3,
+    "dialogue_chars_pct": 15.4,
+    "dialogue_para_pct": 43.8,
+    "interiority_para_pct": 9.9,
+    "narration_para_pct": 46.3,
+    "turn_under20_pct": 51.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 26
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "质检主管的手指划过JD页面",
+      "chars": 1920,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "绩效考核表泛黄一角",
+      "chars": 2709,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "手指划过时间戳",
+      "chars": 2315,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "平板电脑屏幕闪烁",
+      "chars": 2165,
+      "score": 85.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "预算表数字未变",
+      "chars": 2197,
+      "score": 80.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "测试报告留桌上",
+      "chars": 1458,
+      "score": 85.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 35.7 低于目标 45.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 27.7 高于目标 18.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 42.1 高于目标 18.0",
+      "dialogue_run_mean 7.5 高于目标 4.0",
+      "narration_para_pct 21.1 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 229.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:34:14"
+}

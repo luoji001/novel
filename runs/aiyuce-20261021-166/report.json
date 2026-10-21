@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-166",
+  "profile": "AI 推演",
+  "title": "涨工时费",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11647,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11386,
+    "chapter_chars_mean": 1898,
+    "chapter_chars_median": 2114,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 13.5,
+    "dialogue_chars_pct": 3.8,
+    "dialogue_para_pct": 25.6,
+    "interiority_para_pct": 29.3,
+    "narration_para_pct": 45.1,
+    "turn_under20_pct": 85.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "盯屏细数执业证书",
+      "chars": 2051,
+      "score": 95.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "用电量增幅",
+      "chars": 2263,
+      "score": 87.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "盯报价单算成本增",
+      "chars": 2383,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "盯折旧表看使用年限",
+      "chars": 1447,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "盯屏幕看执业证书",
+      "chars": 2297,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "盯报价单算成本增",
+      "chars": 1200,
+      "score": 34.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 28.6 低于目标 45.0"
+    ],
+    "2": [
+      "interiority_para_pct 57.1 高于目标 40.0",
+      "narration_para_pct 35.7 低于目标 45.0"
+    ],
+    "3": [
+      "narration_para_pct 35.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这让人事主管感到一丝希望，但也更加坚定了他对未来…」）",
+      "[observe] 标题与《盯屏细数执业证书》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 4 句（如「如果市场需求真的如某些人所说那样并不见明显上升趋…」）",
+      "[observe] 标题重复：「盯报价单算成本增」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 205.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:45:43"
+}

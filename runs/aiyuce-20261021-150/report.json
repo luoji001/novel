@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-150",
+  "profile": "AI 推演",
+  "title": "报价单",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 13051,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12781,
+    "chapter_chars_mean": 2130,
+    "chapter_chars_median": 2180,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14,
+    "dialogue_chars_pct": 3.1,
+    "dialogue_para_pct": 20.4,
+    "interiority_para_pct": 10.8,
+    "narration_para_pct": 68.9,
+    "turn_under20_pct": 73.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "计算器的按键声",
+      "chars": 2181,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "折旧表上的数字",
+      "chars": 2213,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "电费单上的数字增长",
+      "chars": 2362,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "招聘JD的修改记录",
+      "chars": 2656,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "合同条款变更通知",
+      "chars": 2245,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "报价单的数字变动",
+      "chars": 1388,
+      "score": 58.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 31.2 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「模型推理服务优化工程师…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 4 句（如「假设不久之后相关部门发布指导意见，宣布原先引入的…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 230.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:07:59"
+}

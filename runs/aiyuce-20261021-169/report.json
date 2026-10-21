@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-169",
+  "profile": "AI 推演",
+  "title": "纸墨",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12380,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12058,
+    "chapter_chars_mean": 2010,
+    "chapter_chars_median": 2128,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 18,
+    "dialogue_chars_pct": 14.7,
+    "dialogue_para_pct": 43.2,
+    "interiority_para_pct": 14.1,
+    "narration_para_pct": 42.7,
+    "turn_under20_pct": 68.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.0,
+    "attr_adv_pct": 8.4,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "代写订单的统计表",
+      "chars": 1949,
+      "score": 97.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "电费单上的数字",
+      "chars": 2121,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "电费单上的数字",
+      "chars": 2251,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "检查订单记录表",
+      "chars": 2260,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "打印机折旧表的更新",
+      "chars": 2673,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "电费单上的数字",
+      "chars": 1120,
+      "score": 34.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 18.2 高于目标 18.0",
+      "narration_para_pct 23.5 低于目标 45.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 21.3 高于目标 18.0",
+      "narration_para_pct 21.7 低于目标 45.0",
+      "[observe] 标题重复：「电费单上的数字」已存在"
+    ],
+    "4": [
+      "narration_para_pct 35.0 低于目标 45.0",
+      "[observe] 章内自我复读 3 句（如「他很清楚，只有这样才能确保自己不会被骗…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 3 句（如「如果未来几个月内，客户对代写服务的需求突然减少，…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 60.9 高于目标 18.0",
+      "dialogue_run_mean 4.7 高于目标 4.0",
+      "narration_para_pct 12.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「电费单上的数字」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 220.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:52:59"
+}

@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-163",
+  "profile": "AI 推演",
+  "title": "代码审查",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12262,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11988,
+    "chapter_chars_mean": 1998,
+    "chapter_chars_median": 2096,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 14.5,
+    "dialogue_chars_pct": 12.4,
+    "dialogue_para_pct": 39.9,
+    "interiority_para_pct": 12.1,
+    "narration_para_pct": 48.0,
+    "turn_under20_pct": 57.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 1.8,
+    "attr_adv_pct": 1.8,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "代码审查流程手册",
+      "chars": 1903,
+      "score": 38.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "签到表上的重复签名",
+      "chars": 2345,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "便签纸上的两行字",
+      "chars": 2215,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "翻阅绩效评估表",
+      "chars": 2070,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "代码审查流程手册",
+      "chars": 2342,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "手指滑动手册",
+      "chars": 1381,
+      "score": 84.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 28.6 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "narration_para_pct 40.0 低于目标 45.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「代码审查流程手册」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 58.2 高于目标 18.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "narration_para_pct 9.1 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 221.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:38:53"
+}

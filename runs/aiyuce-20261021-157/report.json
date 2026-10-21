@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-157",
+  "profile": "AI 推演",
+  "title": "AI代写",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11804,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11523,
+    "chapter_chars_mean": 1920,
+    "chapter_chars_median": 1944,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 14.2,
+    "dialogue_chars_pct": 11.0,
+    "dialogue_para_pct": 50.3,
+    "interiority_para_pct": 18.9,
+    "narration_para_pct": 30.9,
+    "turn_under20_pct": 60.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 17
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "查看月营业额报表",
+      "chars": 2502,
+      "score": 96.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "修改作文",
+      "chars": 2019,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "订单记录上的AI标记",
+      "chars": 2198,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "查看AI使用日志",
+      "chars": 1961,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "检查作文修改记录",
+      "chars": 1812,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对AI使用日志",
+      "chars": 1306,
+      "score": 88.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 25.0 低于目标 45.0"
+    ],
+    "2": [
+      "narration_para_pct 42.9 低于目标 45.0"
+    ],
+    "4": [
+      "narration_para_pct 23.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「严禁利用人工智能技术进行学术造假…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 18.5 高于目标 18.0",
+      "narration_para_pct 15.4 低于目标 45.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 23.1 高于目标 18.0",
+      "narration_para_pct 14.3 低于目标 45.0",
+      "[observe] 标题与《查看AI使用日志》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 208.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:24:42"
+}

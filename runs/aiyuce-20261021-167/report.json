@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-167",
+  "profile": "AI 推演",
+  "title": "摘句",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12238,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11944,
+    "chapter_chars_mean": 1991,
+    "chapter_chars_median": 2076,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 15.7,
+    "dialogue_chars_pct": 17.8,
+    "dialogue_para_pct": 45.7,
+    "interiority_para_pct": 14.2,
+    "narration_para_pct": 40.1,
+    "turn_under20_pct": 59.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.8,
+    "attr_adv_pct": 4.2,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "案件检索委托单",
+      "chars": 2145,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "法律条文摘要",
+      "chars": 2527,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "翻阅计费明细表",
+      "chars": 1995,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "核对报价单数据",
+      "chars": 2102,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "翻阅年度成本分析报告",
+      "chars": 2209,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "翻阅案件检索委托单",
+      "chars": 1254,
+      "score": 34.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 3 句（如「根据现行市场价格测算，若采用该人工智能辅助系统，…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 26.1 高于目标 18.0",
+      "narration_para_pct 24.0 低于目标 45.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 21.7 高于目标 18.0",
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "dialogue_chars_pct 64.2 高于目标 18.0",
+      "dialogue_run_mean 4.3 高于目标 4.0",
+      "narration_para_pct 13.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《案件检索委托单》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 231.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:48:13"
+}

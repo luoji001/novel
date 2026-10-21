@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-170",
+  "profile": "AI 推演",
+  "title": "电表",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11859,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11564,
+    "chapter_chars_mean": 1927,
+    "chapter_chars_median": 2027,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 15.7,
+    "dialogue_chars_pct": 7.7,
+    "dialogue_para_pct": 28.1,
+    "interiority_para_pct": 21.8,
+    "narration_para_pct": 50.1,
+    "turn_under20_pct": 75.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 17
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "报价单上的价格波动",
+      "chars": 1623,
+      "score": 38.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "核对库存清单",
+      "chars": 2425,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲电费单边缘",
+      "chars": 2204,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "摩挲租金合同边缘",
+      "chars": 2276,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲采购订单边缘",
+      "chars": 1949,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对库存清单",
+      "chars": 1376,
+      "score": 35.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 26.7 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题与《摩挲电费单边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 36.4 低于目标 45.0",
+      "[observe] 章内自我复读 5 句（如「就在这时，他的手机响了一声，是一条来自东莞市某A…」）",
+      "[observe] 标题重复：「核对库存清单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 236.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:55:36"
+}

@@ -1,0 +1,125 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-159",
+  "profile": "AI 推演",
+  "title": "智影入场",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11869,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11596,
+    "chapter_chars_mean": 1933,
+    "chapter_chars_median": 1993,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 14.5,
+    "dialogue_chars_pct": 7.1,
+    "dialogue_para_pct": 31.1,
+    "interiority_para_pct": 15.5,
+    "narration_para_pct": 53.4,
+    "turn_under20_pct": 70.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 5.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对影像统计表",
+      "chars": 1977,
+      "score": 98.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "核对预算报表数据",
+      "chars": 2371,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "核对AI报价单",
+      "chars": 2207,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "设备维护记录更新",
+      "chars": 2033,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "核对AI报价单",
+      "chars": 2044,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "核对预算报表数据",
+      "chars": 1231,
+      "score": 35.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 42.9 低于目标 45.0"
+    ],
+    "2": [
+      "narration_para_pct 31.2 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻呢…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「智影科技的」×3",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 4 句（如「比如说，如果AI系统的误诊率高于现有的平均水平，…」）",
+      "[observe] 标题重复：「核对AI报价单」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「智影科技的」×3",
+      "dialogue_chars_pct 33.3 高于目标 18.0",
+      "narration_para_pct 38.5 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）",
+      "[observe] 标题重复：「核对预算报表数据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:29:30"
+}

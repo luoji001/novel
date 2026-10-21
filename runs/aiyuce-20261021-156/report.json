@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-156",
+  "profile": "AI 推演",
+  "title": "模型",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12785,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12471,
+    "chapter_chars_mean": 2078,
+    "chapter_chars_median": 2060,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 17.5,
+    "dialogue_chars_pct": 12.6,
+    "dialogue_para_pct": 32.4,
+    "interiority_para_pct": 26.5,
+    "narration_para_pct": 41.0,
+    "turn_under20_pct": 72.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.2,
+    "attr_adv_pct": 16.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 4.1,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "电费单上的12度增长",
+      "chars": 2065,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "自制模型的教学实践",
+      "chars": 2850,
+      "score": 23.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对成绩统计表",
+      "chars": 2149,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "设备折旧表的摩挲",
+      "chars": 2381,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "折旧表上的磨损痕迹",
+      "chars": 2060,
+      "score": 82.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "摩挲纸边的张伟",
+      "chars": 1274,
+      "score": 89.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 41.2 高于目标 40.0",
+      "narration_para_pct 41.2 低于目标 45.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 2 句（如「具备自制物理模型的能力…」）"
+    ],
+    "4": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么呢推翻…」）"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 62.6 高于目标 18.0",
+      "dialogue_run_mean 15 高于目标 4.0",
+      "narration_para_pct 0.0 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 227.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:22:23"
+}

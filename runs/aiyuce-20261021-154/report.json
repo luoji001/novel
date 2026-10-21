@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-154",
+  "profile": "AI 推演",
+  "title": "证书",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 12693,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 12415,
+    "chapter_chars_mean": 2069,
+    "chapter_chars_median": 2048,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 15.7,
+    "dialogue_chars_pct": 6.3,
+    "dialogue_para_pct": 27.6,
+    "interiority_para_pct": 19.6,
+    "narration_para_pct": 52.8,
+    "turn_under20_pct": 47.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 18
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "核对财务报表",
+      "chars": 2438,
+      "score": 96.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "修改报价单",
+      "chars": 2149,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "核对考勤记录",
+      "chars": 1940,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "核对证书模板",
+      "chars": 2660,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "核对质量评估",
+      "chars": 2040,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "核对证书持有率",
+      "chars": 1460,
+      "score": 90.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 31.2 低于目标 45.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么样的数据显示出来呢…」）"
+    ],
+    "6": [
+      "[observe] 标题与《核对证书模板》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 222.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T15:17:31"
+}
