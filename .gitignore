@@ -16,6 +16,9 @@ venv/
 # 环境变量 / 密钥
 .env
 .env.*
+# 带后缀的密钥副本，例如 keys.env.bak.202610220902（*.env / .env.* 都匹配不到）
+*.env.*
+keys.env*
 
 # 小说发布助手的本地登录会话和运行记录
 state/novel-publisher/
