@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-19",
+  "profile": "爽文",
+  "title": "登记簿",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 17524,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 16597,
+    "chapter_chars_mean": 1660,
+    "chapter_chars_median": 1674,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 38.2,
+    "dialogue_chars_pct": 48.8,
+    "dialogue_para_pct": 82.3,
+    "interiority_para_pct": 5.3,
+    "narration_para_pct": 12.4,
+    "turn_under20_pct": 72.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.7,
+    "attr_adv_pct": 10.2,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 10.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记簿上的名字",
+      "chars": 1365,
+      "score": 99.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "盗书人手中的书",
+      "chars": 1755,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字的重量",
+      "chars": 1400,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签字笔的重量",
+      "chars": 1770,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "登记簿的折叠痕迹",
+      "chars": 1856,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "登记簿的折叠痕迹",
+      "chars": 1742,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "登记簿的折叠痕迹",
+      "chars": 1714,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "登记簿的折叠痕迹",
+      "chars": 1803,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "登记簿的折叠痕迹",
+      "chars": 1965,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "登记簿的折叠痕迹",
+      "chars": 2144,
+      "score": 92.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「沈长风的」×4"
+    ],
+    "2": [
+      "[observe] attr_adv_pct 35.3 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李怀远的」×3",
+      "[observe] 标题与《签字的重量》近似 0.91 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈长风的」×5"
+    ],
+    "6": [
+      "[observe] 标题重复：「登记簿的折叠痕迹」已存在"
+    ],
+    "7": [
+      "narration_para_pct 2.7 低于目标 5.0",
+      "attr_adv_pct 17.6 高于目标 12.0",
+      "dialogue_run_mean 35 高于目标 14.0",
+      "[observe] 标题重复：「登记簿的折叠痕迹」已存在"
+    ],
+    "8": [
+      "[observe] 标题重复：「登记簿的折叠痕迹」已存在"
+    ],
+    "9": [
+      "命中套话收尾句",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题重复：「登记簿的折叠痕迹」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「沈长风的」×3",
+      "dialogue_run_mean 15.3 高于目标 14.0",
+      "[observe] 标题重复：「登记簿的折叠痕迹」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 358.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T10:33:49"
+}

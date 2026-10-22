@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-11",
+  "profile": "爽文",
+  "title": "旧账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20757,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19714,
+    "chapter_chars_mean": 1971,
+    "chapter_chars_median": 2018,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 44.6,
+    "dialogue_chars_pct": 48.0,
+    "dialogue_para_pct": 82.4,
+    "interiority_para_pct": 7.3,
+    "narration_para_pct": 10.3,
+    "turn_under20_pct": 65.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.7,
+    "attr_adv_pct": 12.2,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 6.6,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅旧账本",
+      "chars": 1721,
+      "score": 99.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "翻阅旧账本",
+      "chars": 2122,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "翻阅账簿指玄机",
+      "chars": 2191,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "翻阅账簿指玄机",
+      "chars": 2547,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "翻阅旧账本寻真章",
+      "chars": 2326,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "账本对敲桌",
+      "chars": 2104,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "递账本",
+      "chars": 1981,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "翻阅账簿指玄机",
+      "chars": 1651,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "翻阅账簿指玄机",
+      "chars": 1902,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "账本对敲桌",
+      "chars": 2202,
+      "score": 36.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李修远的」×6"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道自己」×4",
+      "[observe] 标题重复：「翻阅旧账本」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题重复：「翻阅账簿指玄机」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李修远的」×3",
+      "attr_adv_pct 23.1 高于目标 12.0",
+      "[observe] 标题与《翻阅旧账本》近似 0.77 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "命中套话收尾句"
+    ],
+    "7": [
+      "单条套路句式超限：「李修远的」×4",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "[observe] attr_adv_pct 27.8 > 25.0（结构塌缩）"
+    ],
+    "8": [
+      "[observe] 标题重复：「翻阅账簿指玄机」已存在"
+    ],
+    "9": [
+      "attr_adv_pct 23.5 高于目标 12.0",
+      "[observe] 标题重复：「翻阅账簿指玄机」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李修远的」×5、「他知道这」×3",
+      "narration_para_pct 4.8 低于目标 5.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 1 句（如「三天之后，我希望看到你的答案…」）",
+      "[observe] 标题重复：「账本对敲桌」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 392.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T10:01:47"
+}

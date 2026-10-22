@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-14",
+  "profile": "爽文",
+  "title": "账页风波",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18208,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17294,
+    "chapter_chars_mean": 1729,
+    "chapter_chars_median": 1642,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 38.7,
+    "dialogue_chars_pct": 48.5,
+    "dialogue_para_pct": 86.0,
+    "interiority_para_pct": 4.5,
+    "narration_para_pct": 9.6,
+    "turn_under20_pct": 72.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.2,
+    "attr_adv_pct": 18.6,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 8.3,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜灯照族谱",
+      "chars": 1659,
+      "score": 39.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "墨迹拂案",
+      "chars": 1947,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "拂墨辨真伪",
+      "chars": 1672,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "残页展真相",
+      "chars": 1693,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "账册掀开一角",
+      "chars": 1442,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "拂墨辨真伪",
+      "chars": 1892,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "拂墨辨真伪",
+      "chars": 1667,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "拂墨辨真伪",
+      "chars": 2116,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "拂墨辨真伪",
+      "chars": 1801,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "拂墨辨真伪",
+      "chars": 2309,
+      "score": 36.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周守仁的」×7",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "3": [
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周守仁的」×5",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「周守仁的」×6",
+      "attr_adv_pct 21.4 高于目标 12.0",
+      "[observe] 标题重复：「拂墨辨真伪」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「周守仁的」×6",
+      "情节与已写章节重复 0.71 ≥ 0.7（撞上「周文清发现族谱与账册记载不符，质疑家族历史的真实性，引发…」）",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「拂墨辨真伪」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「周守仁的」×4",
+      "[observe] 标题重复：「拂墨辨真伪」已存在"
+    ],
+    "9": [
+      "情节与已写章节重复 0.80 ≥ 0.7（撞上「周怀远出示父亲留下的账本残页，揭露族谱中被抹去的名字，引…」）",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「拂墨辨真伪」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周守仁的」×6",
+      "narration_para_pct 2.6 低于目标 5.0",
+      "dialogue_run_mean 19 高于目标 14.0",
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「拂墨辨真伪」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 376.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T10:13:52"
+}

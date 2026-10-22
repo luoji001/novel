@@ -1,0 +1,179 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-13",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18131,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17169,
+    "chapter_chars_mean": 1717,
+    "chapter_chars_median": 1702,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 40.5,
+    "dialogue_chars_pct": 49.2,
+    "dialogue_para_pct": 83.5,
+    "interiority_para_pct": 4.3,
+    "narration_para_pct": 12.2,
+    "turn_under20_pct": 69.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.5,
+    "attr_adv_pct": 11.3,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 6.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙与账本的对峙",
+      "chars": 1617,
+      "score": 40.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "药柜突然轻响",
+      "chars": 1819,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙敲击桌面",
+      "chars": 2043,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "账本拍在桌面",
+      "chars": 1103,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "账本拍在桌面",
+      "chars": 1774,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "怀表压胸",
+      "chars": 1852,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "账本摊开的瞬间",
+      "chars": 1635,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "铜秤停在三两",
+      "chars": 1687,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "账本摊开的瞬间",
+      "chars": 1959,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "钥匙摩挲药柜",
+      "chars": 2632,
+      "score": 93.5,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李长庚的」×6",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「李长庚的」×11",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李长庚的」×6"
+    ],
+    "4": [
+      "[observe] 章节过短 1049 < 1068（本章目标 1942 字的 55%）",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「李长庚的」×4",
+      "[observe] 标题重复：「账本拍在桌面」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李长庚的」×9"
+    ],
+    "7": [
+      "单条套路句式超限：「李长庚的」×9、「周子安的」×3、「仁济堂」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「李长庚的」×11",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "9": [
+      "单条套路句式超限：「李长庚的」×4",
+      "attr_adv_pct 13.6 高于目标 12.0",
+      "[observe] 标题重复：「账本摊开的瞬间」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李长庚的」×9、「仁济堂」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 369.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T10:09:52"
+}

@@ -1,0 +1,179 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-25",
+  "profile": "爽文",
+  "title": "旧工龄证明",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20619,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19650,
+    "chapter_chars_mean": 1965,
+    "chapter_chars_median": 1958,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 39.9,
+    "dialogue_chars_pct": 46.3,
+    "dialogue_para_pct": 83.1,
+    "interiority_para_pct": 7.0,
+    "narration_para_pct": 9.9,
+    "turn_under20_pct": 69.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.5,
+    "attr_adv_pct": 15.3,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 5.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "复印件在阳光下颤抖",
+      "chars": 1658,
+      "score": 95.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "复印件在阳光下颤抖",
+      "chars": 1759,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "文件在桌上摊开",
+      "chars": 2010,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签名笔落在名册上",
+      "chars": 2087,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "复印件在阳光下颤抖",
+      "chars": 2052,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "复印件在桌上摊开",
+      "chars": 2253,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "签名笔划破文件",
+      "chars": 2117,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "文件在桌上摊开",
+      "chars": 2061,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "签名笔划破文件",
+      "chars": 2033,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "复印件在桌上摊开",
+      "chars": 2579,
+      "score": 90.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "单条套路句式超限：「林秋实的」×3"
+    ],
+    "2": [
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「复印件在阳光下颤抖」已存在"
+    ],
+    "3": [
+      "attr_adv_pct 18.8 高于目标 12.0"
+    ],
+    "4": [
+      "narration_para_pct 2.2 低于目标 5.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈启明的」×5、「他知道这」×3",
+      "attr_adv_pct 21.4 高于目标 12.0",
+      "[observe] 标题重复：「复印件在阳光下颤抖」已存在"
+    ],
+    "6": [
+      "[observe] 标题与《文件在桌上摊开》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「陈启明的」×4",
+      "narration_para_pct 3.0 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「林秋实的」×3",
+      "[observe] attr_adv_pct 35.7 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「文件在桌上摊开」已存在"
+    ],
+    "9": [
+      "[observe] 标题重复：「签名笔划破文件」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「林秋实的」×7",
+      "[observe] 标题重复：「复印件在桌上摊开」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 380.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T10:57:30"
+}

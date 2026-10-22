@@ -1,0 +1,172 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-18",
+  "profile": "爽文",
+  "title": "工艺图",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18914,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18032,
+    "chapter_chars_mean": 1803,
+    "chapter_chars_median": 1740,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 35.6,
+    "dialogue_chars_pct": 43.9,
+    "dialogue_para_pct": 77.0,
+    "interiority_para_pct": 7.9,
+    "narration_para_pct": 15.1,
+    "turn_under20_pct": 65.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 14.3,
+    "attr_adv_pct": 14.7,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔下的工艺图",
+      "chars": 1798,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "青瓷盏上的凹陷处",
+      "chars": 1780,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "签字笔下的新工艺图",
+      "chars": 2037,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "工艺图上的新改进",
+      "chars": 2051,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "工艺图上的新改进",
+      "chars": 1816,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "钢笔划过验收单",
+      "chars": 1823,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "工艺图上的新改进",
+      "chars": 1658,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "钢笔划过验收单",
+      "chars": 1985,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "工艺图上的新改进",
+      "chars": 1703,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "钢笔划过验收单",
+      "chars": 2253,
+      "score": 93.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道这」×3、「沈志远的」×3"
+    ],
+    "3": [
+      "[observe] 标题与《签字笔下的工艺图》近似 0.94 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「周振华的」×5、「沈志远的」×3",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「工艺图上的新改进」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「沈志远的」×3",
+      "dialogue_chars_pct 24.6 低于目标 30.0",
+      "[observe] attr_adv_pct 42.9 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题重复：「工艺图上的新改进」已存在"
+    ],
+    "8": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「钢笔划过验收单」已存在"
+    ],
+    "9": [
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「工艺图上的新改进」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周振华的」×4",
+      "[observe] 标题重复：「钢笔划过验收单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 364.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T10:30:01"
+}

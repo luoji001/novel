@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-20",
+  "profile": "爽文",
+  "title": "清单覆账",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18477,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17521,
+    "chapter_chars_mean": 1752,
+    "chapter_chars_median": 1734,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 41.2,
+    "dialogue_chars_pct": 46.7,
+    "dialogue_para_pct": 81.7,
+    "interiority_para_pct": 8.6,
+    "narration_para_pct": 9.7,
+    "turn_under20_pct": 70.3,
+    "turn_over200_pct": 0.2,
+    "attr_say_pct": 21.0,
+    "attr_adv_pct": 20.3,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 6.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本摊开",
+      "chars": 1838,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "签字权落",
+      "chars": 1749,
+      "score": 37.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "算盘拨动",
+      "chars": 1966,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铜牌落地",
+      "chars": 2023,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "墨迹未干",
+      "chars": 1647,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "墨迹未干",
+      "chars": 1574,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "账本掀开",
+      "chars": 1906,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "账本摩挲",
+      "chars": 1716,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "供奉凭证摩挲",
+      "chars": 1837,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "铜尺点案",
+      "chars": 2211,
+      "score": 92.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀安的」×3、「议事厅」×3",
+      "attr_adv_pct 21.4 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀安的」×5",
+      "narration_para_pct 4.0 低于目标 5.0",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「议事厅」×3",
+      "[observe] attr_adv_pct 40.0 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3、「议事厅」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「李怀安的」×4、「议事厅」×3",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「议事厅」×4、「他知道自己」×3",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「墨迹未干」已存在"
+    ],
+    "7": [
+      "narration_para_pct 3.1 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "dialogue_run_mean 15 高于目标 14.0",
+      "[observe] 标题与《账本摊开》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「李怀安的」×3",
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "9": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李怀安的」×5"
+    ],
+    "10": [
+      "单条套路句式超限：「李怀安的」×3",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 369.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T10:37:45"
+}

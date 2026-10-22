@@ -1,0 +1,177 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-22",
+  "profile": "爽文",
+  "title": "库存清单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 21010,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 20029,
+    "chapter_chars_mean": 2003,
+    "chapter_chars_median": 1924,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 42.2,
+    "dialogue_chars_pct": 52.7,
+    "dialogue_para_pct": 82.1,
+    "interiority_para_pct": 8.4,
+    "narration_para_pct": 9.5,
+    "turn_under20_pct": 58.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.9,
+    "attr_adv_pct": 11.1,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 6.8,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字时刻",
+      "chars": 2176,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲袖口",
+      "chars": 2627,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲笔帽",
+      "chars": 1944,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "摩挲纸张",
+      "chars": 1927,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲账本",
+      "chars": 1862,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲笔杆",
+      "chars": 1780,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "摩挲库存清单",
+      "chars": 1928,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲合同纸张",
+      "chars": 2165,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "摩挲账本",
+      "chars": 2094,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "签字笔的重量",
+      "chars": 2497,
+      "score": 37.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李振国的」×3",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 13.6 高于目标 12.0",
+      "dialogue_run_mean 16.3 高于目标 14.0"
+    ],
+    "4": [
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「为什么会」×3"
+    ],
+    "6": [
+      "[observe] 标题与《摩挲笔帽》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 21.4 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「李振国的」×4",
+      "attr_adv_pct 21.4 高于目标 12.0",
+      "[observe] 标题与《摩挲纸张》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「李振国的」×3",
+      "[observe] 标题重复：「摩挲账本」已存在"
+    ],
+    "10": [
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 章内自我复读 6 句（如「周晓芸的目光在这张泛黄的纸页上游移，仿佛能看到某…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 358.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T10:45:34"
+}
