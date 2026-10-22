@@ -1,0 +1,87 @@
+════════════════════════════════════════════════════════
+ 批量生成：shuangwen
+   截止        2026-10-22 20:00 （还剩 643 分钟）
+   闸门        observe
+   并发        2 （会吃满 vLLM 两路，你的对话通道被挤）
+   种子        20 条，循环（当前第 1 轮）
+   预估        每部约 3 分钟 → 到截止大约能跑 214 部
+   产出        /home/liang/novel-agent/batches/20261022-shuangwen
+   代码快照    /home/liang/novel-agent/batches/20261022-shuangwen/src
+               rev 2bb8d7c-dirty　hash 4f87a24895bc （工作树有未提交改动，快照已固化当前状态）
+   停止        touch /home/liang/.novel-agent-batch.stop
+════════════════════════════════════════════════════════
+
+── [1] shuangwen-20261022-01  （09:16，距截止 643 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　309s　{"chapters": 10, "total_chars": 18058, "score_min": 36.6, "score_mean": 87.3, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 484.2, "dialogue_pct": 39.0}
+
+── [2] shuangwen-20261022-02  （09:21，距截止 638 分钟）
+   题材：连锁餐饮总部收回分店采购权那天，交接单上少一页
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　241s　{"chapters": 10, "total_chars": 19938, "score_min": 36.8, "score_mean": 86.3, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 368.3, "dialogue_pct": 55.6}
+
+── [3] shuangwen-20261022-03  （09:25，距截止 634 分钟）
+   题材：地级市医院采购科，一台设备的验收单缺一个章
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　248s　{"chapters": 10, "total_chars": 18460, "score_min": 35.1, "score_mean": 81.7, "degraded": 0, "debt": 27, "calls": 97, "llm_sec": 395.9, "dialogue_pct": 57.8}
+
+── [4] shuangwen-20261022-04  （09:29，距截止 630 分钟）
+   题材：老城区拆迁办的补偿名单，户主那一栏写的是别人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　296s　{"chapters": 10, "total_chars": 20069, "score_min": 36.9, "score_mean": 81.2, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 454.9, "dialogue_pct": 44.5}
+
+── [5] shuangwen-20261022-05  （09:34，距截止 625 分钟）
+   题材：民办中学教务处，一份代课老师的工龄证明被压在抽屉里
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　246s　{"chapters": 10, "total_chars": 19631, "score_min": 35.3, "score_mean": 81.2, "degraded": 0, "debt": 27, "calls": 97, "llm_sec": 381.9, "dialogue_pct": 52.7}
+
+── [6] shuangwen-20261022-06  （09:38，距截止 621 分钟）
+   题材：汽修厂年底结账，一笔尾款挂在上一任经理名下
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　246s　{"chapters": 10, "total_chars": 19838, "score_min": 35.1, "score_mean": 76.2, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 385.8, "dialogue_pct": 52.7}
+
+── [7] shuangwen-20261022-07  （09:42，距截止 617 分钟）
+   题材：物流园区过磅房，一张磅单上的皮重改过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　236s　{"chapters": 10, "total_chars": 19133, "score_min": 36.8, "score_mean": 77.1, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 373.9, "dialogue_pct": 51.5}
+
+── [8] shuangwen-20261022-08  （09:46，距截止 613 分钟）
+   题材：县供销大楼柜台转租，一纸合同上只有一方签了字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　225s　{"chapters": 10, "total_chars": 18490, "score_min": 37.4, "score_mean": 88.2, "degraded": 0, "debt": 13, "calls": 97, "llm_sec": 351.3, "dialogue_pct": 47.3}
+
+── [9] shuangwen-20261022-09  （09:50，距截止 609 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　222s　{"chapters": 10, "total_chars": 19656, "score_min": 36.0, "score_mean": 64.6, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 348.2, "dialogue_pct": 50.8}
+
+── [10] shuangwen-20261022-10  （09:53，距截止 606 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　224s　{"chapters": 10, "total_chars": 18593, "score_min": 36.1, "score_mean": 69.9, "degraded": 0, "debt": 29, "calls": 97, "llm_sec": 357.0, "dialogue_pct": 53.1}
+
+── [11] shuangwen-20261022-11  （09:57，距截止 602 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2

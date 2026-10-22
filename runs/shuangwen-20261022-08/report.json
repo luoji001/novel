@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-08",
+  "profile": "爽文",
+  "title": "旧发票",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18490,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17643,
+    "chapter_chars_mean": 1764,
+    "chapter_chars_median": 1849,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 35.8,
+    "dialogue_chars_pct": 47.3,
+    "dialogue_para_pct": 82.6,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 11.4,
+    "turn_under20_pct": 66.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.3,
+    "attr_adv_pct": 12.8,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 7.1,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "旧发票对决",
+      "chars": 1566,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "墨迹晕开",
+      "chars": 1962,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "账本摊开",
+      "chars": 2063,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "发票摊开",
+      "chars": 1902,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "签字摊开",
+      "chars": 1686,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "摊开账本",
+      "chars": 1991,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "发票摊开",
+      "chars": 1992,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "发票摊开",
+      "chars": 1438,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摊开账本",
+      "chars": 1612,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "发票摊开",
+      "chars": 2268,
+      "score": 92.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "4": [
+      "attr_adv_pct 18.8 高于目标 12.0"
+    ],
+    "6": [
+      "narration_para_pct 4.5 低于目标 5.0",
+      "attr_adv_pct 16.0 高于目标 12.0"
+    ],
+    "7": [
+      "[observe] 标题重复：「发票摊开」已存在"
+    ],
+    "8": [
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「发票摊开」已存在"
+    ],
+    "9": [
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「摊开账本」已存在"
+    ],
+    "10": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「发票摊开」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 351.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T09:50:12"
+}

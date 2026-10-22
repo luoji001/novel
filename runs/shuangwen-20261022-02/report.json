@@ -1,0 +1,177 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-02",
+  "profile": "爽文",
+  "title": "旧清单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19938,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19020,
+    "chapter_chars_mean": 1902,
+    "chapter_chars_median": 1859,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 37.5,
+    "dialogue_chars_pct": 55.6,
+    "dialogue_para_pct": 88.4,
+    "interiority_para_pct": 4.9,
+    "narration_para_pct": 6.7,
+    "turn_under20_pct": 61.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.5,
+    "attr_adv_pct": 11.7,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 9.3,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "审批签字",
+      "chars": 1586,
+      "score": 98.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "一张报表",
+      "chars": 2152,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "签字笔风波",
+      "chars": 1796,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "一张旧清单",
+      "chars": 1948,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "一张旧清单",
+      "chars": 2230,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "对峙时刻",
+      "chars": 2045,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "旧清单对峙",
+      "chars": 1962,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "清单对峙",
+      "chars": 1852,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "签字笔风波",
+      "chars": 1828,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "翻出旧清单",
+      "chars": 2529,
+      "score": 91.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李志远的」×3"
+    ],
+    "2": [
+      "attr_adv_pct 17.4 高于目标 12.0",
+      "dialogue_run_mean 18.5 高于目标 14.0"
+    ],
+    "3": [
+      "narration_para_pct 2.6 低于目标 5.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李志远的」×3"
+    ],
+    "5": [
+      "narration_para_pct 4.7 低于目标 5.0",
+      "[observe] 标题重复：「一张旧清单」已存在"
+    ],
+    "6": [
+      "narration_para_pct 2.3 低于目标 5.0",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「李志远的」×3",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题与《一张旧清单》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "[observe] 标题与《旧清单对峙》近似 0.89 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「签字笔风波」已存在"
+    ],
+    "10": [
+      "narration_para_pct 4.8 低于目标 5.0",
+      "[observe] 标题与《旧清单对峙》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 368.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T09:25:15"
+}

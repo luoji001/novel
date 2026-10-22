@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-07",
+  "profile": "爽文",
+  "title": "过磅单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19133,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18184,
+    "chapter_chars_mean": 1818,
+    "chapter_chars_median": 1840,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 39.1,
+    "dialogue_chars_pct": 51.5,
+    "dialogue_para_pct": 87.6,
+    "interiority_para_pct": 5.2,
+    "narration_para_pct": 7.2,
+    "turn_under20_pct": 72.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.4,
+    "attr_adv_pct": 18.9,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 8.2,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "打印机卡纸事件",
+      "chars": 1358,
+      "score": 97.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "监控录像显示时间差",
+      "chars": 1984,
+      "score": 95.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "纸屑飘入垃圾桶",
+      "chars": 2167,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "打印机吞吐数据",
+      "chars": 1679,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "纸币堆中露出一角单",
+      "chars": 1722,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "打印纸铺满桌面",
+      "chars": 1682,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "打印机吐出第二份数据",
+      "chars": 2101,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "签字笔划破纸张",
+      "chars": 1866,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "原始记录被撕毁",
+      "chars": 2319,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "名册摊开在桌面",
+      "chars": 2245,
+      "score": 91.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周海峰的」×5",
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 16.0 高于目标 12.0"
+    ],
+    "4": [
+      "[observe] attr_adv_pct 36.4 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「周海峰的」×5"
+    ],
+    "6": [
+      "单条套路句式超限：「周海峰的」×3",
+      "narration_para_pct 3.2 低于目标 5.0",
+      "dialogue_run_mean 14.5 高于目标 14.0",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「周海峰的」×3",
+      "[observe] 标题与《打印机吞吐数据》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「周海峰的」×3",
+      "narration_para_pct 2.9 低于目标 5.0",
+      "[observe] attr_adv_pct 37.5 > 25.0（结构塌缩）"
+    ],
+    "9": [
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 14.8 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「陈志远的」×8",
+      "narration_para_pct 0.0 低于目标 5.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 373.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T09:46:27"
+}

@@ -1,0 +1,187 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-10",
+  "profile": "爽文",
+  "title": "合同副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18593,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17670,
+    "chapter_chars_mean": 1767,
+    "chapter_chars_median": 1742,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 38.5,
+    "dialogue_chars_pct": 53.1,
+    "dialogue_para_pct": 86.3,
+    "interiority_para_pct": 4.5,
+    "narration_para_pct": 9.3,
+    "turn_under20_pct": 64.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.4,
+    "attr_adv_pct": 20.8,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 11.0,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔的较量",
+      "chars": 1843,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "合同副本的裂痕",
+      "chars": 2273,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "签字笔的较量",
+      "chars": 1569,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "签字笔的较量",
+      "chars": 2001,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "合同副本的裂缝",
+      "chars": 1809,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "签字笔的较量",
+      "chars": 1457,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "签字笔的较量",
+      "chars": 1920,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    },
+    {
+      "no": 8,
+      "title": "撕碎的合同副本",
+      "chars": 1693,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "签字笔的较量",
+      "chars": 1551,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "签字笔的较量",
+      "chars": 2467,
+      "score": 88.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周建国的」×4",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周建国的」×5、「说道“我」×3",
+      "narration_para_pct 2.2 低于目标 5.0",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 44.4 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔的较量」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「周建国的」×5",
+      "[observe] 标题重复：「签字笔的较量」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「周建国的」×8、「他知道自己」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题与《合同副本的裂痕》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「周建国的」×5、「陈永福的」×3",
+      "dialogue_run_mean 32 高于目标 14.0",
+      "[observe] 标题重复：「签字笔的较量」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「周建国的」×5",
+      "narration_para_pct 2.9 低于目标 5.0",
+      "dialogue_run_mean 16.5 高于目标 14.0",
+      "[observe] 章内自我复读 4 句（如「你们以为这样就能解决问题吗？…」）",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔的较量」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「周建国的」×3",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔的较量」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周建国的」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "dialogue_run_mean 24.5 高于目标 14.0",
+      "[observe] 标题重复：「签字笔的较量」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 357.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T09:57:38"
+}

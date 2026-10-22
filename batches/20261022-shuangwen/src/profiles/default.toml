@@ -1,0 +1,84 @@
+# 通用档位 —— 不假设对话驱动。
+#
+# 为什么要有这个档位：bianlun.toml 的 dialogue_chars_pct 下限 38% 是《天幕红尘》
+# 那类论辩小说的口径。悬疑/科幻/抒情短篇的对话占比天然低得多，拿论辩口径去卡
+# 会稳定地拦住写得对的章 —— 这正是 metrics.py:68-78 记录过的那类错误的翻版
+# （用一本书的分布当所有书的闸门）。
+#
+# 这里只保留**跨体裁通用**的那几条硬线：
+#   - 心理活动占比过高  = 想法写在心里，没写成人物之间的事（跨体裁通病）
+#   - 情绪副词归属过多  = 「冷冷地说」「无奈地问」堆砌
+#   - 对话几乎归零      = 硬线放到 8%，只抓真塌缩，不表达审美
+name = "通用"
+prose_model_hint = "叙述与对话按场景需要配比，不强制论辩形式"
+
+# 题材中立的说法：只要求「每场推进一件不同的事」，不规定是争、是揭示还是挪动关系。
+# 想要题材专属的引导，用 bianlun / xuanyi / kehuan / yanqing / wenxue。
+[scene]
+driver_name = "推进点"
+driver_desc = "这一场推进的那一件事"
+driver_rule = """· 每一场的 driver 都必须是关于「{obj}」的，而且是 {want} 个互不相同的侧面。
+· {want} 场必须推进 {want} 件**不同的事**。同一件事换个问法不算两场，要合并。
+"""
+axis_name = "核心张力"
+axis_desc = "本篇的核心张力：什么和什么不兼容"
+stance_desc = "他在这个张力里的位置：要什么、怕什么"
+premise_rule = """· 核心张力必须从具体处境长出来，不准搬用现成的思想标签。
+"""
+cast_rule = """· A 和 B 必须构成本篇的主要张力，各有各的道理。
+"""
+dedup_threshold = 0.55
+min_speakers = 1
+
+[meta]
+target_total_chars = 20000
+chapters = 10
+scenes_per_chapter = 4
+
+
+[rhythm]
+short = 1400
+normal = 2200
+long = 3000
+open_scale = "short"
+close_scale = "short"
+
+[gates]
+min_ratio = 0.55
+sim_threshold = 0.90
+theme_max = 0.58
+title_sim_max = 0.60
+plot_sim_max = 0.55
+tpl_per_kilo = 16.0
+tpl_single_max = 2
+sent_dup_min_len = 10
+sent_dup_max = 2
+sent_self_dup_max = 0
+degrade_after = 3
+
+# 对话占比：软区间大幅放宽，硬线只抓「整章几乎没有人说话」
+[targets.dialogue_chars_pct]
+lo = 15.0
+hi = 60.0
+hard = 8.0
+
+# 心理活动：跨体裁通用硬线，沿用参照书单章 p95 附近
+[targets.interiority_para_pct]
+lo = 0.0
+hi = 12.0
+hard = 20.0
+
+[targets.narration_para_pct]
+lo = 10.0
+hi = 70.0
+
+[targets.attr_adv_pct]
+lo = 0.0
+hi = 10.0
+hard = 18.0
+
+# 对话 run：软下限降到 2（一问一答也算合法），硬线只抓完全接不上
+[targets.dialogue_run_mean]
+lo = 2.0
+hi = 12.0
+hard = 1.2
