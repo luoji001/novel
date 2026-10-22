@@ -1,0 +1,103 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-20261021-187",
+  "profile": "AI 推演",
+  "title": "电耗计",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 11456,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 11199,
+    "chapter_chars_mean": 1866,
+    "chapter_chars_median": 1951,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 13,
+    "dialogue_chars_pct": 1.3,
+    "dialogue_para_pct": 8.7,
+    "interiority_para_pct": 19.0,
+    "narration_para_pct": 72.3,
+    "turn_under20_pct": 82.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "代码审查记录",
+      "chars": 1893,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "电费单的用电量变化",
+      "chars": 2003,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "电脑能耗骤增",
+      "chars": 1990,
+      "score": 84.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "AI辅助次数核查",
+      "chars": 2031,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "代码审查界面提示",
+      "chars": 2068,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "代码审查通过率统计表",
+      "chars": 1465,
+      "score": 85.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 218.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-21T16:36:48"
+}
