@@ -1,0 +1,181 @@
+{
+  "consistency": "1. 第二章提到陈永年拿出父亲留下的药材清单，第四章、第五章、第六章、第七章、第九章、第十章多次提到陈永年拿出父亲留下的药材清单或清单副本，但第一章只提到陈永年手上有“一份被低估的药材清单副本”，并未明确说明父亲留下的清单与副本是否为同一份，存在前后不一致。\n\n2. 第八章提到陈永年“出示父亲留下的药材配方”，但前文（如第二章、第四章、第五章、第六章、第七章、第九章、第十章）多次提到的是“药材清单”而非“药材配方”，存在物品名称不一致。\n\n3. 第九章提到“周慧兰揭露药监局批文可能造假”，但第一章明确提到“镇上药监局（机构，主张：他们手上有批文，能证明规矩的有效性）”，而周慧兰也持有“镇上药监局的批文”，若批文造假，则与“镇上药监局手上有批文”的设定矛盾。\n\n4. 第七章提到“药监局调查并导致赵德昌认输”，但前文未明确说明药监局是否已介入调查，也未说明赵德昌认输的具体原因，存在情节推进不清晰。\n\n5. 第九章提到“众人签署新表决单”，但前文未提及是否有“新表决单”的存在，也未说明签署新表决单的依据，存在情节突兀。",
+  "slug": "shuangwen-20261022-33",
+  "profile": "爽文",
+  "title": "清单副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19041,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18022,
+    "chapter_chars_mean": 1802,
+    "chapter_chars_median": 1773,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 44.3,
+    "dialogue_chars_pct": 45.3,
+    "dialogue_para_pct": 78.8,
+    "interiority_para_pct": 6.7,
+    "narration_para_pct": 14.5,
+    "turn_under20_pct": 74.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.1,
+    "attr_adv_pct": 11.7,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "盖章签字",
+      "chars": 1681,
+      "score": 97.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "递出三斤当归",
+      "chars": 2105,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "按笔划线",
+      "chars": 1713,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "翻出旧账",
+      "chars": 1841,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻出旧账",
+      "chars": 2149,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻出旧账",
+      "chars": 2067,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "翻出旧账",
+      "chars": 1747,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "展开批文",
+      "chars": 1680,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "翻出旧账",
+      "chars": 1883,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "翻出旧账",
+      "chars": 2165,
+      "score": 93.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「镇上药监局」×4"
+    ],
+    "2": [
+      "单条套路句式超限：「赵德昌的」×6、「微微一笑」×3、「说道“你」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「赵德昌的」×4",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「赵德昌的」×10、「陈永年的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「赵德昌的」×5",
+      "[observe] 标题重复：「翻出旧账」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「赵德昌的」×5",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「翻出旧账」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「赵德昌的」×5",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题重复：「翻出旧账」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「赵德昌的」×4",
+      "attr_adv_pct 13.6 高于目标 12.0"
+    ],
+    "9": [
+      "单条套路句式超限：「赵德昌的」×3",
+      "[observe] 标题重复：「翻出旧账」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「赵德昌的」×9、「他知道这」×3、「陈永年的」×3",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题重复：「翻出旧账」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 381.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T11:29:06"
+}

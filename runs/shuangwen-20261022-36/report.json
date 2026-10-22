@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-36",
+  "profile": "爽文",
+  "title": "残页",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19179,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18231,
+    "chapter_chars_mean": 1823,
+    "chapter_chars_median": 1828,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 40.2,
+    "dialogue_chars_pct": 48.2,
+    "dialogue_para_pct": 81.4,
+    "interiority_para_pct": 6.1,
+    "narration_para_pct": 12.5,
+    "turn_under20_pct": 64.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.9,
+    "attr_adv_pct": 6.1,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 6.8,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "残页对名录",
+      "chars": 1927,
+      "score": 95.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "残页对名录",
+      "chars": 1409,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "残页对名录",
+      "chars": 1965,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "残页对名录",
+      "chars": 1957,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "残页对名录",
+      "chars": 2200,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "笔尖触纸的刹那",
+      "chars": 1639,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "铜币上的刻痕",
+      "chars": 1922,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "残页递入火盆",
+      "chars": 1740,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "残页对名录",
+      "chars": 1889,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "残页对名录",
+      "chars": 2521,
+      "score": 89.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈长风的」×5",
+      "narration_para_pct 2.3 低于目标 5.0",
+      "attr_adv_pct 17.4 高于目标 12.0",
+      "dialogue_run_mean 21.5 高于目标 14.0"
+    ],
+    "2": [
+      "[observe] 标题重复：「残页对名录」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「陈长风的」×3",
+      "[observe] 标题重复：「残页对名录」已存在"
+    ],
+    "4": [
+      "[observe] 标题重复：「残页对名录」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「陈长风的」×7、「李怀安的」×3",
+      "[observe] 章内自我复读 1 句（如「这是讲经堂的规定，任何人若要重新进入讲经堂，都需…」）",
+      "[observe] 标题重复：「残页对名录」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×4"
+    ],
+    "7": [
+      "单条套路句式超限：「陈长风的」×4",
+      "narration_para_pct 2.6 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「李怀安的」×3"
+    ],
+    "9": [
+      "单条套路句式超限：「他知道这」×5",
+      "情节与已写章节重复 0.84 ≥ 0.7（撞上「李怀安出示残破旧籍证明自己曾被录取，引发陈长风与沈文远对…」）",
+      "[observe] 标题重复：「残页对名录」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「他知道这」×4、「李怀安的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「残页对名录」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 366.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T11:40:55"
+}

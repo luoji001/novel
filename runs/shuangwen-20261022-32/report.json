@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-32",
+  "profile": "爽文",
+  "title": "金光",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19383,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18311,
+    "chapter_chars_mean": 1831,
+    "chapter_chars_median": 1789,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 46.8,
+    "dialogue_chars_pct": 42.3,
+    "dialogue_para_pct": 75.0,
+    "interiority_para_pct": 9.3,
+    "narration_para_pct": 15.7,
+    "turn_under20_pct": 74.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.5,
+    "attr_adv_pct": 14.2,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 4.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "令牌上的金光",
+      "chars": 2256,
+      "score": 97.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "递上卷轴",
+      "chars": 1869,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "交换灵石",
+      "chars": 1959,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "摊开功法",
+      "chars": 1901,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "灵石上的金光",
+      "chars": 1682,
+      "score": 95.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "递上卷轴",
+      "chars": 2300,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "摊开功法",
+      "chars": 1793,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "火焰凝成真元",
+      "chars": 1603,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "摊开功法",
+      "chars": 1879,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "摊开功法",
+      "chars": 2131,
+      "score": 37.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「演武场」×5"
+    ],
+    "2": [
+      "单条套路句式超限：「萧长风的」×3"
+    ],
+    "3": [
+      "attr_adv_pct 17.6 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「演武场」×6、「萧长风的」×4",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "5": [
+      "[observe] 标题与《令牌上的金光》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题重复：「递上卷轴」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「演武场」×4、「萧长风的」×3",
+      "attr_adv_pct 17.6 高于目标 12.0",
+      "[observe] 标题重复：「摊开功法」已存在"
+    ],
+    "8": [
+      "[observe] attr_adv_pct 40.0 > 25.0（结构塌缩）"
+    ],
+    "9": [
+      "命中套话收尾句",
+      "单条套路句式超限：「演武场」×4、「萧长风的」×3",
+      "[observe] 标题重复：「摊开功法」已存在"
+    ],
+    "10": [
+      "命中套话收尾句",
+      "单条套路句式超限：「萧长风的」×6",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「摊开功法」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 376.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T11:24:56"
+}

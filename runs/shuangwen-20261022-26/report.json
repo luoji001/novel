@@ -1,0 +1,185 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-26",
+  "profile": "爽文",
+  "title": "旧账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18782,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17789,
+    "chapter_chars_mean": 1779,
+    "chapter_chars_median": 1848,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 41.7,
+    "dialogue_chars_pct": 50.2,
+    "dialogue_para_pct": 84.6,
+    "interiority_para_pct": 5.7,
+    "narration_para_pct": 9.6,
+    "turn_under20_pct": 74.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.6,
+    "attr_adv_pct": 25.6,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 7.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扳手拨动螺丝",
+      "chars": 1384,
+      "score": 97.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "账本翻页的瞬间",
+      "chars": 1920,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "账本翻页的瞬间",
+      "chars": 2074,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "签字的手伸出来",
+      "chars": 1668,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "签字的手伸出来",
+      "chars": 2054,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "账本翻页的瞬间",
+      "chars": 2015,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "账本翻页的瞬间",
+      "chars": 2137,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "钢笔递出的时刻",
+      "chars": 1962,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "账本翻页的瞬间",
+      "chars": 1608,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "账本翻页的瞬间",
+      "chars": 1950,
+      "score": 36.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 3.8 低于目标 5.0"
+    ],
+    "2": [
+      "attr_adv_pct 23.5 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「陈志远的」×9",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「林小满的」×3",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "5": [
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题重复：「签字的手伸出来」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「陈志远的」×7",
+      "narration_para_pct 4.7 低于目标 5.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「陈志远的」×6、「办公室」×3",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ],
+    "8": [
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "9": [
+      "命中套话收尾句",
+      "[observe] attr_adv_pct 125.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「陈志远的」×4",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "dialogue_run_mean 17 高于目标 14.0",
+      "[observe] 章内自我复读 3 句（如「陈志远说着，拿出了一份结账单，上面写着“年底前完…」）",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 373.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T11:01:26"
+}

@@ -1,0 +1,170 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-31",
+  "profile": "爽文",
+  "title": "玉简",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19028,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17953,
+    "chapter_chars_mean": 1795,
+    "chapter_chars_median": 1658,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 46.2,
+    "dialogue_chars_pct": 51.6,
+    "dialogue_para_pct": 84.5,
+    "interiority_para_pct": 6.1,
+    "narration_para_pct": 9.4,
+    "turn_under20_pct": 69.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.5,
+    "attr_adv_pct": 13.2,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 9.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "玉简微光初现",
+      "chars": 1665,
+      "score": 99.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "玉简与玉筒相触",
+      "chars": 1787,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "玉简微光初现",
+      "chars": 2499,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "灵石入账",
+      "chars": 1546,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "玉简入匣",
+      "chars": 1656,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "玉简轻触账簿边沿",
+      "chars": 1701,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "玉简盖上印章",
+      "chars": 2141,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "玉简轻触账簿边沿",
+      "chars": 1940,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "玉简入匣",
+      "chars": 1654,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "玉简轻触账簿边沿",
+      "chars": 2429,
+      "score": 93.5,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李长风的」×6"
+    ],
+    "2": [
+      "单条套路句式超限：「点了点头」×4、「他知道这」×3",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 29.2 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「玉简微光初现」已存在"
+    ],
+    "5": [
+      "narration_para_pct 3.2 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "6": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "dialogue_run_mean 33 高于目标 14.0"
+    ],
+    "8": [
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「玉简轻触账簿边沿」已存在"
+    ],
+    "9": [
+      "[observe] 标题重复：「玉简入匣」已存在"
+    ],
+    "10": [
+      "[observe] 标题重复：「玉简轻触账簿边沿」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 378.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T11:20:54"
+}

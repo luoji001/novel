@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-40",
+  "profile": "爽文",
+  "title": "账本上的红印",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19148,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18103,
+    "chapter_chars_mean": 1810,
+    "chapter_chars_median": 1720,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 44.4,
+    "dialogue_chars_pct": 50.7,
+    "dialogue_para_pct": 84.7,
+    "interiority_para_pct": 6.5,
+    "narration_para_pct": 8.7,
+    "turn_under20_pct": 71.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.2,
+    "attr_adv_pct": 13.4,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 7.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本上的传承录",
+      "chars": 2561,
+      "score": 39.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "账本上的名字",
+      "chars": 1612,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "签字笔下的指印",
+      "chars": 1515,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "玉佩上的刻痕",
+      "chars": 1748,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "账本上的折痕",
+      "chars": 1820,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "香炉上的刻痕",
+      "chars": 1833,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "账本上的双印",
+      "chars": 2236,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "账本上的双印",
+      "chars": 1802,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "签字笔下的承诺",
+      "chars": 1810,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "账本上的双印",
+      "chars": 2201,
+      "score": 91.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀远的」×4、「他知道这」×3",
+      "[observe] attr_adv_pct 26.1 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀远的」×3",
+      "[observe] 标题与《账本上的传承录》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李怀远的」×8",
+      "[observe] 标题与《账本上的名字》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李怀远的」×7",
+      "[observe] 标题与《玉佩上的刻痕》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「李怀远的」×6",
+      "[observe] 标题与《账本上的折痕》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「李怀远的」×14",
+      "[observe] 章内自我复读 1 句（如「那你为什么现在才拿出来？…」）",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「账本上的双印」已存在"
+    ],
+    "9": [
+      "[observe] 标题与《签字笔下的指印》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「李怀远的」×5",
+      "情节与已写章节重复 0.74 ≥ 0.7（撞上「陈砚凭借父亲留下的账本揭露李怀远篡夺供奉之位，引发两人关…」）",
+      "narration_para_pct 2.0 低于目标 5.0",
+      "attr_adv_pct 16.0 高于目标 12.0",
+      "[observe] 标题重复：「账本上的双印」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 359.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T11:56:35"
+}
