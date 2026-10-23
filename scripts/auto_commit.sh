@@ -46,6 +46,36 @@ fi
 cd "$REPO_DIR" || { log "FAIL 无法进入 $REPO_DIR"; exit 1; }
 git rev-parse --git-dir >/dev/null 2>&1 || { log "FAIL $REPO_DIR 不是 git 仓库"; exit 1; }
 
+# ---------- 批次在跑就不要动工作树 ----------
+# 这个仓库同时是 novel-agent 的**数据根**：批次会往 runs/ 和 batches/ 里持续写盘。
+#
+# 2026-10-22 的实际损坏（state/auto-commit.log 里能对上时刻）：
+#   11:00:02  `git add -A` 把正在生成的 run 提交成了半成品（321 个文件）
+#   12:00:03  rebase 冲突 + abort，两次 checkout 把工作树回滚到 11:00 的状态，
+#             吞掉台账里 108 行，还让 148 部产出的元数据对不上号
+#   13:00~20:00  仓库卡在 rebase-merge，连续 8 小时 SKIP，等于当天没有备份
+# 当时还一度被误判成「agent 挂死 60 分钟」—— 查了很久才归因到这里。
+#
+# 所以：批次持锁期间一律不提交。等它收工（或你 touch 停止文件）再说。
+# 用 flock 的非阻塞探测，拿到就立刻释放 —— 只是问一句「有人在写吗」，不占用。
+BATCH_LOCK="${NOVEL_BATCH_LOCK:-$REPO_DIR/state/batch.lock}"
+if [[ -e $BATCH_LOCK ]] && ! flock -n "$BATCH_LOCK" true 2>/dev/null; then
+  log "SKIP 批次正在运行（$BATCH_LOCK 被占），本轮不动工作树"
+  exit 0
+fi
+
+# 批次锁只覆盖 run-batch.sh。手工跑的单部（`novel-agent new ...`）同样在往
+# runs/ 里写盘，而它不持锁 —— 实测 2026-10-23 就有一个 aiyuce 闸门检查在裸跑。
+# 这里故意用**宽松**的进程匹配兜底：代价不对称。
+#   误跳过 = 这一轮不提交，一小时后再来，没有损失
+#   误放过 = 把半成品提交进去、下次 rebase 回滚吞数据，代价很大
+# 所以宁可多跳。匹配 venv 里的真实入口路径，不是 `uv run novel-agent` 那种字面量，
+# 免得把「命令行里提到这个名字」的 shell 也算进来。
+if pgrep -f '/bin/novel-agent ' >/dev/null 2>&1; then
+  log "SKIP 有 novel-agent 进程在跑（手工单部？），本轮不动工作树"
+  exit 0
+fi
+
 # 仓库正处于 merge/rebase/cherry-pick 等中间态时不要插手
 GIT_DIR_PATH="$(git rev-parse --git-dir)"
 for marker in MERGE_HEAD CHERRY_PICK_HEAD REVERT_HEAD BISECT_LOG rebase-merge rebase-apply; do
@@ -118,8 +148,17 @@ behind="$(git rev-list --count "HEAD..$upstream")"
 if (( behind > 0 )); then
   log "INFO $upstream 领先 $behind 个提交，先 rebase"
   if ! git rebase --quiet "$upstream" >>"$LOG_FILE" 2>&1; then
-    git rebase --abort 2>/dev/null
-    log "FAIL rebase 有冲突，已回滚到 rebase 前；请手工处理后再推送"
+    # abort 自己也会失败（rebase 停在某些状态时它要 --quit 才收得干净）。
+    # 2026-10-22 就是这样：log 里写着「已回滚」，但 .git/rebase-merge 还在，
+    # 于是之后 13:00~20:00 每一轮都 SKIP，当天再没备份过 —— 一次失败的清理
+    # 把这个定时任务静默停摆了 8 小时。所以必须验证清理成功，没成功就说出来。
+    git rebase --abort 2>>"$LOG_FILE" || git rebase --quit 2>>"$LOG_FILE"
+    if [[ -e "$GIT_DIR_PATH/rebase-merge" || -e "$GIT_DIR_PATH/rebase-apply" ]]; then
+      log "FAIL rebase 有冲突，且清理没成功（.git/rebase-* 仍在）——"
+      log "     后续每一轮都会 SKIP，备份已停。必须手工处理：cd $REPO_DIR && git rebase --quit"
+    else
+      log "FAIL rebase 有冲突，已回滚到 rebase 前；请手工处理后再推送"
+    fi
     exit 1
   fi
 fi
