@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-207",
+  "profile": "悬疑推理",
+  "title": "铜印",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13530,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12852,
+    "chapter_chars_mean": 2570,
+    "chapter_chars_median": 2725,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 58.6,
+    "dialogue_chars_pct": 39.8,
+    "dialogue_para_pct": 81.8,
+    "interiority_para_pct": 8.8,
+    "narration_para_pct": 9.4,
+    "turn_under20_pct": 78.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.8,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 5.9,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "砚台上的铜印",
+      "chars": 1612,
+      "score": 100.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "翻开账本的瞬间",
+      "chars": 4009,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "玉牌上的裂痕",
+      "chars": 3268,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "抚摸砚台纹路",
+      "chars": 2889,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲砚台边缘",
+      "chars": 1747,
+      "score": 90.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周慕云的」×3",
+      "narration_para_pct 2.9 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "2": [
+      "单条套路句式超限：「“我不知道」×3",
+      "narration_para_pct 13.3 低于目标 20.0",
+      "attr_adv_pct 13.2 高于目标 10.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「微微一笑」×3",
+      "narration_para_pct 9.8 低于目标 20.0"
+    ],
+    "4": [
+      "单条套路句式超限：「沈怀瑾的」×5",
+      "narration_para_pct 6.7 低于目标 20.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「沈怀瑾的」×3",
+      "narration_para_pct 10.0 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 235.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T17:16:44"
+}

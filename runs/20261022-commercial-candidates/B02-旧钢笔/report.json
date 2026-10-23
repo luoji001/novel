@@ -1,0 +1,102 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-84",
+  "profile": "悬疑推理",
+  "title": "旧钢笔",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 13610,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 12906,
+    "chapter_chars_mean": 2581,
+    "chapter_chars_median": 3007,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 57.6,
+    "dialogue_chars_pct": 40.9,
+    "dialogue_para_pct": 78.5,
+    "interiority_para_pct": 6.2,
+    "narration_para_pct": 15.3,
+    "turn_under20_pct": 74.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.3,
+    "attr_adv_pct": 7.4,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 5.3,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "算盘珠子的震颤",
+      "chars": 1384,
+      "score": 97.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "工资单上的死亡日期",
+      "chars": 3606,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "撕去日期的指尖",
+      "chars": 3138,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "墨水瓶的焦糊味",
+      "chars": 3435,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "指尖抚过空白页",
+      "chars": 2042,
+      "score": 92.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「周淑芬的」×8、「陈永年的」×8、「他知道这」×4",
+      "narration_para_pct 12.8 低于目标 20.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周淑芬的」×6、「”周淑芬轻」×3",
+      "narration_para_pct 15.5 低于目标 20.0"
+    ],
+    "4": [
+      "narration_para_pct 12.5 低于目标 20.0",
+      "attr_adv_pct 15.4 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 224.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T12:14:44"
+}

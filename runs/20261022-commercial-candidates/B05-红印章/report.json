@@ -1,0 +1,155 @@
+{
+  "consistency": "未发现",
+  "slug": "xiaoyuan-20261020-121",
+  "profile": "校园青春",
+  "title": "红印章",
+  "gate_mode": "observe",
+  "chapters": 9,
+  "total_chars": 20041,
+  "book_metrics": {
+    "chapters": 9,
+    "total_chars": 19044,
+    "chapter_chars_mean": 2116,
+    "chapter_chars_median": 2213,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 45.4,
+    "dialogue_chars_pct": 24.8,
+    "dialogue_para_pct": 64.5,
+    "interiority_para_pct": 14.8,
+    "narration_para_pct": 20.7,
+    "turn_under20_pct": 87.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.7,
+    "attr_adv_pct": 4.4,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "风铃与褪色分科表",
+      "chars": 1555,
+      "score": 93.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "笔记本里的小猫",
+      "chars": 2609,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "课表边缘的指纹",
+      "chars": 2576,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "分科名单被揉皱",
+      "chars": 2236,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "校服外套上的发丝",
+      "chars": 2309,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "磁带头摩擦声",
+      "chars": 2292,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "分科表的红印章",
+      "chars": 2424,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "撕碎的分科名单",
+      "chars": 2456,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "褪色名单的余温",
+      "chars": 1575,
+      "score": 91.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 16.7 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「林晓阳的」×5",
+      "narration_para_pct 13.0 低于目标 15.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林晓阳的」×3",
+      "dialogue_chars_pct 18.0 低于目标 20.0",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林晓阳的」×5",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "6": [
+      "narration_para_pct 14.5 低于目标 15.0"
+    ],
+    "7": [
+      "单条套路句式超限：「林晓阳点点」×3、「林晓阳的」×3"
+    ],
+    "8": [
+      "单条套路句式超限：「林晓阳站在」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 100,
+    "calls_counted": 100,
+    "llm_seconds": 434.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-20T16:54:32"
+}

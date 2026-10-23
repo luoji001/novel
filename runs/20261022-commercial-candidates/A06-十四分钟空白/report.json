@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "xuanyi-20261019-250",
+  "profile": "悬疑推理",
+  "title": "十四分钟空白",
+  "gate_mode": "observe",
+  "chapters": 5,
+  "total_chars": 14870,
+  "book_metrics": {
+    "chapters": 5,
+    "total_chars": 14134,
+    "chapter_chars_mean": 2827,
+    "chapter_chars_median": 3299,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 65.4,
+    "dialogue_chars_pct": 39.4,
+    "dialogue_para_pct": 73.8,
+    "interiority_para_pct": 11.5,
+    "narration_para_pct": 14.6,
+    "turn_under20_pct": 75.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.0,
+    "attr_adv_pct": 7.9,
+    "scenes_per_chapter": 4,
+    "dialogue_run_mean": 5.5,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "计费器的停滞时刻",
+      "chars": 1765,
+      "score": 97.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "车载音响的沉默",
+      "chars": 4104,
+      "score": 87.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 3,
+      "title": "数据屏的闪烁残影",
+      "chars": 3637,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "车票的日期重叠",
+      "chars": 3458,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手机的通话记录",
+      "chars": 1901,
+      "score": 92.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈志远的」×5、「他知道这」×3",
+      "narration_para_pct 11.1 低于目标 20.0"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×5、「点了点头」×3、「带着一丝」×3",
+      "dialogue_chars_pct 19.8 低于目标 20.0",
+      "interiority_para_pct 21.0 高于目标 20.0",
+      "narration_para_pct 18.5 低于目标 20.0",
+      "[observe] 章内自我复读 19 句（如「或许，正是这段音乐带他回到了那个雨夜，那些未曾被…」）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈志远的」×8、「点了点头」×3、「为什么会」×3",
+      "narration_para_pct 10.7 低于目标 20.0"
+    ],
+    "4": [
+      "narration_para_pct 16.7 低于目标 20.0",
+      "attr_adv_pct 18.2 高于目标 10.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "narration_para_pct 13.3 低于目标 20.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 68,
+    "calls_counted": 68,
+    "llm_seconds": 230.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-19T19:02:35"
+}
