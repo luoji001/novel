@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-57",
+  "profile": "爽文",
+  "title": "旧凭牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19277,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18335,
+    "chapter_chars_mean": 1834,
+    "chapter_chars_median": 1748,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 39.5,
+    "dialogue_chars_pct": 43.3,
+    "dialogue_para_pct": 79.3,
+    "interiority_para_pct": 7.1,
+    "narration_para_pct": 13.6,
+    "turn_under20_pct": 66.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.6,
+    "attr_adv_pct": 9.6,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 5.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "递出死亡证明",
+      "chars": 1984,
+      "score": 98.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "父亲的旧凭牌",
+      "chars": 1775,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "递出死亡证明",
+      "chars": 1745,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "递出死亡证明",
+      "chars": 1852,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "递出旧凭牌",
+      "chars": 1873,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "撕去登记册封面",
+      "chars": 1712,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "递出旧凭牌",
+      "chars": 2463,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "递出旧凭牌",
+      "chars": 1804,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "旧凭牌轻叩桌面",
+      "chars": 1766,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "旧凭牌轻叩桌面",
+      "chars": 2293,
+      "score": 92.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「王铁山的」×6",
+      "dialogue_chars_pct 29.9 低于目标 30.0"
+    ],
+    "2": [
+      "单条套路句式超限：「王铁山的」×5"
+    ],
+    "3": [
+      "单条套路句式超限：「王铁山的」×6",
+      "[observe] 标题重复：「递出死亡证明」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「山门登记处」×7",
+      "[observe] 标题重复：「递出死亡证明」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×4"
+    ],
+    "6": [
+      "单条套路句式超限：「王铁山的」×6",
+      "attr_adv_pct 23.1 高于目标 12.0"
+    ],
+    "7": [
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「递出旧凭牌」已存在"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「递出旧凭牌」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「王铁山的」×3",
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「点了点头」×3",
+      "[observe] 标题重复：「旧凭牌轻叩桌面」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 427.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T13:10:27"
+}

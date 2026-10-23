@@ -1,0 +1,181 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-122",
+  "profile": "爽文",
+  "title": "签单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19639,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18710,
+    "chapter_chars_mean": 1871,
+    "chapter_chars_median": 1760,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 38.8,
+    "dialogue_chars_pct": 52.5,
+    "dialogue_para_pct": 85.7,
+    "interiority_para_pct": 3.8,
+    "narration_para_pct": 10.5,
+    "turn_under20_pct": 61.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.0,
+    "attr_adv_pct": 12.0,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 8.7,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔的传递",
+      "chars": 2441,
+      "score": 39.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "协议书的摊开",
+      "chars": 1641,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "签字笔的划痕",
+      "chars": 1998,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "协议残片的拾起",
+      "chars": 1916,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "名册的指腹滑动",
+      "chars": 2338,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字笔的挪移",
+      "chars": 1755,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "签字笔的轻触",
+      "chars": 1680,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "签字笔的划痕",
+      "chars": 1549,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "签字笔的轻触",
+      "chars": 1778,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "签字笔的摩挲",
+      "chars": 2533,
+      "score": 93.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李国强的」×5",
+      "[observe] 章内自我复读 1 句（如「你可以帮我把这个文件交给总部那边备案一下…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「点了点头“」×3",
+      "attr_adv_pct 21.4 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「李国强的」×3",
+      "narration_para_pct 3.3 低于目标 5.0",
+      "dialogue_run_mean 14.5 高于目标 14.0",
+      "[observe] 标题与《签字笔的传递》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「陈志远的」×4、「他知道这」×3",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强的」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题与《签字笔的划痕》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题与《签字笔的挪移》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "[observe] 标题重复：「签字笔的划痕」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李国强的」×3",
+      "[observe] 标题重复：「签字笔的轻触」已存在"
+    ],
+    "10": [
+      "attr_adv_pct 15.0 高于目标 12.0",
+      "[observe] 标题与《签字笔的轻触》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 435.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T18:03:34"
+}

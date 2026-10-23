@@ -1,0 +1,174 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-107",
+  "profile": "爽文",
+  "title": "校准证书",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19490,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18525,
+    "chapter_chars_mean": 1852,
+    "chapter_chars_median": 1766,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 40.6,
+    "dialogue_chars_pct": 51.1,
+    "dialogue_para_pct": 85.4,
+    "interiority_para_pct": 4.1,
+    "narration_para_pct": 10.5,
+    "turn_under20_pct": 64.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.8,
+    "attr_adv_pct": 15.1,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 8.1,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔的重量",
+      "chars": 1708,
+      "score": 99.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "拍桌子的回响",
+      "chars": 1813,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "校准证书的失效",
+      "chars": 2019,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "校准证书的失效",
+      "chars": 2095,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "签字笔的重量",
+      "chars": 1738,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字笔的重量",
+      "chars": 1808,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "校准证书的失效",
+      "chars": 1905,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "签字笔的重量",
+      "chars": 2044,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "签字本的重量",
+      "chars": 1728,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "签字本的重量",
+      "chars": 2622,
+      "score": 91.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] attr_adv_pct 37.5 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "4": [
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「校准证书的失效」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国的」×6",
+      "[observe] 标题重复：「签字笔的重量」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国的」×5",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题重复：「签字笔的重量」已存在"
+    ],
+    "7": [
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「校准证书的失效」已存在"
+    ],
+    "8": [
+      "narration_para_pct 2.4 低于目标 5.0",
+      "dialogue_run_mean 20 高于目标 14.0",
+      "[observe] 标题重复：「签字笔的重量」已存在"
+    ],
+    "9": [
+      "[observe] 标题与《签字笔的重量》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "[observe] 标题重复：「签字本的重量」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 415.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T16:55:24"
+}

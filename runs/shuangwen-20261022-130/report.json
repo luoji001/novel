@@ -1,0 +1,173 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-130",
+  "profile": "爽文",
+  "title": "签笔",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18734,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17841,
+    "chapter_chars_mean": 1784,
+    "chapter_chars_median": 1790,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 37.1,
+    "dialogue_chars_pct": 46.8,
+    "dialogue_para_pct": 82.1,
+    "interiority_para_pct": 6.7,
+    "narration_para_pct": 11.2,
+    "turn_under20_pct": 60.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.7,
+    "attr_adv_pct": 8.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 6.4,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "合同副本在手",
+      "chars": 1813,
+      "score": 98.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "签字笔敲桌面",
+      "chars": 2073,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字笔敲桌面",
+      "chars": 1919,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签字笔敲桌面",
+      "chars": 1961,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "指纹在纸上",
+      "chars": 1590,
+      "score": 96.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字笔敲桌面",
+      "chars": 1578,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "职级证书递过去",
+      "chars": 1627,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "签字笔敲桌面",
+      "chars": 2267,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "承诺书在手",
+      "chars": 1597,
+      "score": 95.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "签字笔敲桌面",
+      "chars": 2299,
+      "score": 37.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「他相信，只要继续努力下去，总有一天能够彻底打破眼…」）"
+    ],
+    "3": [
+      "[observe] 标题重复：「签字笔敲桌面」已存在"
+    ],
+    "4": [
+      "[observe] 标题重复：「签字笔敲桌面」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「张国强的」×4",
+      "narration_para_pct 3.1 低于目标 5.0"
+    ],
+    "6": [
+      "单条套路句式超限：「张国强的」×5",
+      "[observe] 标题重复：「签字笔敲桌面」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「张国强的」×3",
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「“李建军你」×5",
+      "[observe] 标题重复：「签字笔敲桌面」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "10": [
+      "narration_para_pct 3.8 低于目标 5.0",
+      "[observe] attr_adv_pct 29.4 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔敲桌面」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 413.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T18:38:51"
+}

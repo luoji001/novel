@@ -1,0 +1,179 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-54",
+  "profile": "爽文",
+  "title": "旧契书",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19693,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18644,
+    "chapter_chars_mean": 1864,
+    "chapter_chars_median": 1712,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 44.7,
+    "dialogue_chars_pct": 51.6,
+    "dialogue_para_pct": 86.8,
+    "interiority_para_pct": 3.0,
+    "narration_para_pct": 10.2,
+    "turn_under20_pct": 77.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.2,
+    "attr_adv_pct": 15.1,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 7.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "香炉冒起浓烟",
+      "chars": 1787,
+      "score": 40.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "座钟惊飞檐下鸟",
+      "chars": 2392,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "朱砂印痕对峙",
+      "chars": 1685,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "契书在手轻晃",
+      "chars": 1926,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "契书在手轻晃",
+      "chars": 1715,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "契书与族谱对峙",
+      "chars": 1826,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 7,
+      "title": "旧契书在手轻晃",
+      "chars": 1904,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "旧契书在手轻晃",
+      "chars": 1614,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "契书在手轻晃",
+      "chars": 1796,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "旧契书在手轻晃",
+      "chars": 3038,
+      "score": 91.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈德昌的」×4",
+      "[observe] attr_adv_pct 29.4 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「林永年的」×6、「陈德昌的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「陈德昌的」×6",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "4": [
+      "narration_para_pct 4.2 低于目标 5.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈德昌的」×3",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题重复：「契书在手轻晃」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「陈德昌的」×5",
+      "情节与已写章节重复 0.79 ≥ 0.7（撞上「林永年拿出祖传契书挑战陈德昌的权威，引发家族内部关于继承…」）",
+      "[observe] attr_adv_pct 38.5 > 25.0（结构塌缩）",
+      "[observe] 标题与《契书在手轻晃》近似 0.92 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "情节与已写章节重复 0.76 ≥ 0.7（撞上「林永年拿出祖传契书挑战陈德昌的权威，引发家族内部关于继承…」）",
+      "[observe] 标题重复：「旧契书在手轻晃」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「陈德昌的」×6",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「契书在手轻晃」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「他知道自己」×3、「陈德昌的」×3",
+      "attr_adv_pct 19.6 高于目标 12.0",
+      "[observe] 标题重复：「旧契书在手轻晃」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 458.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T12:56:38"
+}

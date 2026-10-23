@@ -1,0 +1,173 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-66",
+  "profile": "爽文",
+  "title": "副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18893,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17911,
+    "chapter_chars_mean": 1791,
+    "chapter_chars_median": 1696,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 41.9,
+    "dialogue_chars_pct": 48.1,
+    "dialogue_para_pct": 82.2,
+    "interiority_para_pct": 6.3,
+    "narration_para_pct": 11.5,
+    "turn_under20_pct": 69.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.9,
+    "attr_adv_pct": 14.7,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 7.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "结算单边缘",
+      "chars": 1694,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字笔消失",
+      "chars": 1747,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字笔划痕",
+      "chars": 1807,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "工牌边缘",
+      "chars": 1743,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "翻找手机记录",
+      "chars": 1996,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "一份副本较量",
+      "chars": 1887,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "一份副本较量",
+      "chars": 1789,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "签字笔划痕",
+      "chars": 1990,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "签字笔划痕",
+      "chars": 1754,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "签字笔指向名字",
+      "chars": 2476,
+      "score": 91.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「办公室」×4"
+    ],
+    "3": [
+      "[observe] 标题与《签字笔消失》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「办公室」×3",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "7": [
+      "dialogue_run_mean 18.5 高于目标 14.0",
+      "[observe] 章内自我复读 1 句（如「我们是不是该开始计算一下这笔尾款了？…」）",
+      "[observe] attr_adv_pct 27.8 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「一份副本较量」已存在"
+    ],
+    "8": [
+      "attr_adv_pct 17.6 高于目标 12.0",
+      "[observe] 标题重复：「签字笔划痕」已存在"
+    ],
+    "9": [
+      "[observe] 标题重复：「签字笔划痕」已存在"
+    ],
+    "10": [
+      "narration_para_pct 4.0 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 424.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T13:50:56"
+}

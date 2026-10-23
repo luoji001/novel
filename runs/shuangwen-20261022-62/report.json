@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-62",
+  "profile": "爽文",
+  "title": "旧合同",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18511,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17685,
+    "chapter_chars_mean": 1768,
+    "chapter_chars_median": 1638,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 33.3,
+    "dialogue_chars_pct": 54.4,
+    "dialogue_para_pct": 89.4,
+    "interiority_para_pct": 2.5,
+    "narration_para_pct": 8.1,
+    "turn_under20_pct": 59.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.0,
+    "attr_adv_pct": 10.8,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 12.5,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红章压住旧合同",
+      "chars": 1485,
+      "score": 98.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "红章压住旧合同",
+      "chars": 2130,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "红笔戳破旧合同",
+      "chars": 1651,
+      "score": 87.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红笔戳破旧合同",
+      "chars": 1739,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "红笔戳破旧合同",
+      "chars": 1902,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "红笔戳破旧合同",
+      "chars": 1604,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "红笔划掉旧合同",
+      "chars": 1888,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "红笔划掉旧合同",
+      "chars": 1678,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "手指抚过旧合同",
+      "chars": 1661,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "手指抚过新协议",
+      "chars": 2763,
+      "score": 92.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「红章压住旧合同」已存在"
+    ],
+    "3": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 27 高于目标 14.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「红笔戳破旧合同」已存在"
+    ],
+    "5": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 33 高于目标 14.0",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「红笔戳破旧合同」已存在"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 37.5 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「红笔戳破旧合同」已存在"
+    ],
+    "7": [
+      "[observe] 标题与《红笔戳破旧合同》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 3.8 低于目标 5.0",
+      "[observe] 标题重复：「红笔划掉旧合同」已存在"
+    ],
+    "9": [
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 405.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T13:33:07"
+}

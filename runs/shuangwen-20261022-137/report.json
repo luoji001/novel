@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-137",
+  "profile": "爽文",
+  "title": "账单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19238,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18242,
+    "chapter_chars_mean": 1824,
+    "chapter_chars_median": 1796,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 41.4,
+    "dialogue_chars_pct": 53.6,
+    "dialogue_para_pct": 86.8,
+    "interiority_para_pct": 4.0,
+    "narration_para_pct": 9.1,
+    "turn_under20_pct": 70.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.5,
+    "attr_adv_pct": 13.8,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 11.3,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账单与地图的错位",
+      "chars": 1862,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "账单与地图的错位",
+      "chars": 1819,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "账单上的裂痕",
+      "chars": 1894,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "账单指向木桌裂痕",
+      "chars": 1880,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "账单指向木桌裂痕",
+      "chars": 1607,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "账单指向木桌裂痕",
+      "chars": 1997,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "账单指向木桌裂痕",
+      "chars": 1770,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "账单指向木桌裂痕",
+      "chars": 1918,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "账单指向木桌裂痕",
+      "chars": 1994,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "账单指向木桌裂痕",
+      "chars": 2487,
+      "score": 92.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李秋生的」×6"
+    ],
+    "2": [
+      "单条套路句式超限：「赵长风的」×11",
+      "[observe] 标题重复：「账单与地图的错位」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「赵长风的」×5、「山门登记处」×3",
+      "[observe] attr_adv_pct 35.7 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "dialogue_run_mean 15 高于目标 14.0",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「赵长风的」×4",
+      "[observe] 标题重复：「账单指向木桌裂痕」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「赵长风的」×4、「知道自己」×3",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题重复：「账单指向木桌裂痕」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「赵长风的」×7",
+      "[observe] 标题重复：「账单指向木桌裂痕」已存在"
+    ],
+    "8": [
+      "dialogue_chars_pct 73.4 高于目标 70.0",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 44 高于目标 14.0",
+      "[observe] 标题重复：「账单指向木桌裂痕」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「山门登记处」×7、「赵长风的」×3",
+      "[observe] 标题重复：「账单指向木桌裂痕」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「赵长风的」×6、「他知道这」×3",
+      "attr_adv_pct 19.0 高于目标 12.0",
+      "[observe] 标题重复：「账单指向木桌裂痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 444.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T19:11:04"
+}

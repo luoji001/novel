@@ -1,0 +1,170 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-92",
+  "profile": "爽文",
+  "title": "令牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19723,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18797,
+    "chapter_chars_mean": 1880,
+    "chapter_chars_median": 1832,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 38.2,
+    "dialogue_chars_pct": 41.4,
+    "dialogue_para_pct": 81.0,
+    "interiority_para_pct": 8.6,
+    "narration_para_pct": 10.4,
+    "turn_under20_pct": 71.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.9,
+    "attr_adv_pct": 9.7,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 6.3,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "香炉暗纹映怀表光",
+      "chars": 1959,
+      "score": 97.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "雕花木桌的凹陷",
+      "chars": 1931,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "令牌撕裂的光",
+      "chars": 2049,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "触摸页码的指尖",
+      "chars": 2200,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "签名笔尖触纸纹",
+      "chars": 1850,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "铜制怀表的刻痕",
+      "chars": 1902,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "令牌与怀表相触",
+      "chars": 1841,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "签名笔尖触纸纹",
+      "chars": 1891,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "铜制怀表映令牌光",
+      "chars": 1657,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 10,
+      "title": "怀表刻痕映令牌光",
+      "chars": 2433,
+      "score": 93.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陆长风的」×5",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "2": [
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 1 句（如「林远的心跳加快了几分…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陆长风的」×5"
+    ],
+    "4": [
+      "单条套路句式超限：「陆长风的」×7"
+    ],
+    "6": [
+      "单条套路句式超限：「陆长风的」×6",
+      "narration_para_pct 3.0 低于目标 5.0",
+      "dialogue_run_mean 15 高于目标 14.0"
+    ],
+    "7": [
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「陆长风的」×6",
+      "[observe] 标题重复：「签名笔尖触纸纹」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「陆长风的」×13",
+      "[observe] 标题与《铜制怀表映令牌光》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 444.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T15:48:04"
+}

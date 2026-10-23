@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-134",
+  "profile": "爽文",
+  "title": "墨痕",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 16976,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 16079,
+    "chapter_chars_mean": 1608,
+    "chapter_chars_median": 1560,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 36.9,
+    "dialogue_chars_pct": 42.0,
+    "dialogue_para_pct": 83.6,
+    "interiority_para_pct": 6.8,
+    "narration_para_pct": 9.6,
+    "turn_under20_pct": 78.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.1,
+    "attr_adv_pct": 14.4,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 6.2,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "族谱上的墨痕",
+      "chars": 1621,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签名压在族谱上",
+      "chars": 1755,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "纸片上的名字",
+      "chars": 1607,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "族谱上的墨迹消失",
+      "chars": 1714,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "香灰落入掌心",
+      "chars": 1547,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手稿上的名字",
+      "chars": 1560,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "族谱上的墨迹消失",
+      "chars": 1701,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "纸片上的名字",
+      "chars": 1509,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "签名压在族谱上",
+      "chars": 1665,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "族谱最后一页的墨迹",
+      "chars": 2287,
+      "score": 93.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀远的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「李守仁的」×9",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「李守仁的」×8"
+    ],
+    "4": [
+      "[observe] 标题与《族谱上的墨痕》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「李守仁的」×6"
+    ],
+    "6": [
+      "单条套路句式超限：「李怀远的」×4",
+      "[observe] 标题与《纸片上的名字》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「李守仁的」×3",
+      "attr_adv_pct 17.6 高于目标 12.0",
+      "[observe] 标题重复：「族谱上的墨迹消失」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李守仁的」×4",
+      "narration_para_pct 3.6 低于目标 5.0",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「纸片上的名字」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李守仁的」×4",
+      "情节与已写章节重复 0.75 ≥ 0.7（撞上「李怀远拿出祖父留下的族谱复印件，揭露家族秘密，引发李守仁…」）",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「签名压在族谱上」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李守仁的」×5",
+      "narration_para_pct 4.3 低于目标 5.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 404.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T18:57:02"
+}

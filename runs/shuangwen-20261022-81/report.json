@@ -1,0 +1,179 @@
+{
+  "consistency": "1. 第一章与第十章均提到“账本被划破一角”，但未说明是否为同一本账本，存在重复描写但未明确关联，可能造成混淆。\n\n2. 第二章与第七章均出现“计算器清零”，但分别对应不同事件（第二章为账目核查冲突，第七章为法院冻结账户），未明确说明是否为同一台计算器或同一事件，存在重复但未明确关联。\n\n3. 第四章提到“王振华拿出三年前的供货单”，而第十章提到“王振华伪造签名作废账本”，但未明确说明该供货单是否与账本有关联，存在逻辑断层。\n\n4. 第五章提到“李国强发现账本被篡改”，而第十章提到“李国强在法庭上揭露王振华伪造签名作废账本”，但未说明账本是否为同一本，存在前后矛盾。\n\n5. 第八章提到“李国强因账目问题被降级为助理经理”，但未提及该事件与账本或王振华之间的直接关联，逻辑链条不清晰。\n\n6. 第九章提到“李国强因失去名分被合作伙伴背叛”，但未说明“名分”具体指什么，也未与前文账本或王振华的纠纷建立明确联系，存在信息缺失。",
+  "slug": "shuangwen-20261022-81",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19822,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18786,
+    "chapter_chars_mean": 1879,
+    "chapter_chars_median": 1844,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 44.1,
+    "dialogue_chars_pct": 44.7,
+    "dialogue_para_pct": 79.7,
+    "interiority_para_pct": 7.8,
+    "narration_para_pct": 12.5,
+    "turn_under20_pct": 72.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.3,
+    "attr_adv_pct": 10.7,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 5.7,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本被划破一角",
+      "chars": 1853,
+      "score": 97.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "计算器清零",
+      "chars": 1978,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "对账单背后签字",
+      "chars": 2041,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "供货单被反复翻阅",
+      "chars": 1900,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "账本被抹去数字",
+      "chars": 1899,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字笔划破纸张",
+      "chars": 2017,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "计算器清零",
+      "chars": 1902,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "文件被轻轻拂过",
+      "chars": 2037,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "名分被夺",
+      "chars": 1718,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "账本被划破一角",
+      "chars": 2467,
+      "score": 37.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李国强的」×5"
+    ],
+    "2": [
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「李国强的」×7、「他知道自己」×4"
+    ],
+    "4": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 17.3 高于目标 14.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李国强的」×4",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强的」×3",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「王振华的」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李国强的」×3"
+    ],
+    "9": [
+      "单条套路句式超限：「李国强站在」×3、「李国强的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「李国强的」×3",
+      "[observe] 章内自我复读 1 句（如「王振华拿起笔，在新的供货单上签字…」）",
+      "[observe] 标题重复：「账本被划破一角」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 443.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T14:58:54"
+}

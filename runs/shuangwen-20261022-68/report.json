@@ -1,0 +1,181 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-68",
+  "profile": "爽文",
+  "title": "账本撕页",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19210,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18298,
+    "chapter_chars_mean": 1830,
+    "chapter_chars_median": 1804,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 38.9,
+    "dialogue_chars_pct": 49.2,
+    "dialogue_para_pct": 86.9,
+    "interiority_para_pct": 5.7,
+    "narration_para_pct": 7.3,
+    "turn_under20_pct": 70.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.0,
+    "attr_adv_pct": 19.3,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 11.0,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "胸牌摩挲",
+      "chars": 1930,
+      "score": 39.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "账本核对",
+      "chars": 1833,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "印章压纸",
+      "chars": 1545,
+      "score": 95.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "胸牌敲桌",
+      "chars": 1852,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "名册摩挲",
+      "chars": 1971,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "合同圈数",
+      "chars": 1786,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "折痕藏真相",
+      "chars": 1812,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "撕纸对胸牌",
+      "chars": 2091,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "墨迹压合同",
+      "chars": 2121,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "纸角掀胸牌",
+      "chars": 2259,
+      "score": 92.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李国强的」×4",
+      "[observe] attr_adv_pct 60.0 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "narration_para_pct 2.7 低于目标 5.0",
+      "[observe] attr_adv_pct 35.7 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「李国强的」×3",
+      "narration_para_pct 2.9 低于目标 5.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强的」×8"
+    ],
+    "5": [
+      "单条套路句式超限：「李国强的」×3",
+      "dialogue_run_mean 35 高于目标 14.0"
+    ],
+    "6": [
+      "narration_para_pct 2.2 低于目标 5.0"
+    ],
+    "7": [
+      "单条套路句式超限：「李国强的」×5",
+      "narration_para_pct 3.0 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "dialogue_run_mean 15.5 高于目标 14.0"
+    ],
+    "8": [
+      "单条套路句式超限：「李国强的」×8",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "9": [
+      "单条套路句式超限：「李国强的」×7",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「李国强的」×7",
+      "narration_para_pct 2.4 低于目标 5.0",
+      "[observe] 标题与《撕纸对胸牌》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 441.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T13:59:51"
+}

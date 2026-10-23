@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-69",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18470,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17628,
+    "chapter_chars_mean": 1763,
+    "chapter_chars_median": 1652,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 34.3,
+    "dialogue_chars_pct": 44.0,
+    "dialogue_para_pct": 82.1,
+    "interiority_para_pct": 9.4,
+    "narration_para_pct": 8.4,
+    "turn_under20_pct": 61.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.5,
+    "attr_adv_pct": 18.7,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 5.7,
+    "turn_len_median": 17
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕碎的纸片",
+      "chars": 1472,
+      "score": 98.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "签字的钢笔",
+      "chars": 2286,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签到的账本",
+      "chars": 1912,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "指认的日期",
+      "chars": 1742,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "账本上的订金收据",
+      "chars": 1964,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钢笔划破合同",
+      "chars": 1674,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "账本上的订金收据",
+      "chars": 1761,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "账本上的订金收据",
+      "chars": 1634,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "账本上的订金收据",
+      "chars": 1606,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "账本上的订金收据",
+      "chars": 2409,
+      "score": 93.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "attr_adv_pct 16.0 高于目标 12.0"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「账本上的订金收据」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「带着一丝」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「账本上的订金收据」已存在"
+    ],
+    "9": [
+      "narration_para_pct 3.7 低于目标 5.0",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「账本上的订金收据」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「市文化局」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「账本上的订金收据」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 427.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T14:04:20"
+}

@@ -1,0 +1,209 @@
+开始：shuangwen-20261022-85（档位 爽文／分章连载，10 章 / 20000 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shuangwen-20261022-85
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 工龄证明的签署（normal，1942字）周正国利用伪造的工龄证明压制林婉秋的代课资格
+     2. 教学成果记录本的展示（normal，1942字）林婉秋出示教学成果记录本，试图证明自己的教学能力
+     3. 教师资格证的核查（normal，1942字）陈志远核查林婉秋的教师资格证，质疑其代课合法性
+     4. 学生评语表的呈现（normal，1942字）林婉秋展示学生评语表，证明学生的进步和认可
+     5. 工资条的争议（normal，1942字）周正国质疑林婉秋的工资条，认为其不符合代课标准
+     6. 签字权的争夺（normal，1942字）林婉秋试图获得签字权以确认教学成果，遭到周正国阻拦
+     7. 一个职级的挑战（normal，1942字）周正国提出更高的职级要求，试图进一步压制林婉秋
+     8. 一个名分的确认（normal，1942字）林婉秋争取一个名分，证明自己的教学价值
+     9. 一道规矩的突破（normal，1942字）林婉秋挑战学校的一道规矩，试图改变现状
+    10. 一次表决的胜利（long，2514字）林婉秋通过一次表决，最终赢得教学成果的认可
+
+  继续：novel-agent approve shuangwen-20261022-85 --accept
+  打回：novel-agent approve shuangwen-20261022-85 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shuangwen-20261022-85
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shuangwen-20261022-85
+  · approve_outline
+  · plan_scenes  [+10 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第3场「林婉秋撕毁工龄证明并展示教学成果记录本」与第2章第3场「林婉秋撕毁教学成果记录本」爽点重合 0.77
+    - 第2章第3场「林婉秋撕毁教学成果记录本」与第4章第3场「林婉秋将教学成果记录本摊开在桌上」爽点重合 0.71
+    - 第2章第3场「林婉秋撕毁教学成果记录本」与第6章第3场「林婉秋将教学成果记录本拍在桌上」爽点重合 0.74
+    - 第2章第3场「林婉秋撕毁教学成果记录本」与第9章第3场「林婉秋将教学成果记录本交给陈志远」爽点重合 0.71
+    - 第4章第2场「周正国要求林婉秋签署一份额外的代课协议」与第6章第2场「周正国要求林婉秋签署代课协议，她拒绝」爽点重合 0.76
+    - 第4章第3场「林婉秋将教学成果记录本摊开在桌上」与第6章第3场「林婉秋将教学成果记录本拍在桌上」爽点重合 0.90
+    - 第4章第3场「林婉秋将教学成果记录本摊开在桌上」与第9章第3场「林婉秋将教学成果记录本交给陈志远」爽点重合 0.69
+    - 第6章第3场「林婉秋将教学成果记录本拍在桌上」与第7章第3场「林婉秋将教学成果记录本拍在桌上，数据覆盖了职级晋升文件」爽点重合 0.71
+    - 第6章第3场「林婉秋将教学成果记录本拍在桌上」与第9章第3场「林婉秋将教学成果记录本交给陈志远」爽点重合 0.71
+    - 第9章第3场「林婉秋将教学成果记录本交给陈志远」与第10章第4场「林婉秋将教学成果记录本交出，表决失效」爽点重合 0.71
+    第1章 3 场：工龄证明显示林婉秋无连续任职记录 | 陈志远要求林婉秋提供连续任职证明 | 林婉秋撕毁工龄证明并展示教学成果
+    第2章 3 场：教学成果记录本上的家长反馈数据无 | 陈志远要求林婉秋提供工资条以核对 | 林婉秋撕毁教学成果记录本
+    第3章 3 场：教师资格证上的注册日期早于代课合 | 林婉秋要求查看资格证原件，陈志远 | 林婉秋将证件浸入茶水，纸张开始发
+    第4章 3 场：学生评语表上的家长签字认可了林婉 | 周正国要求林婉秋签署一份额外的代 | 林婉秋将教学成果记录本摊开在桌上
+    第5章 3 场：工资条上的代课时长与合同不符 | 林婉秋需补交三个月代课费用 | 林婉秋将教学成果记录本推到周正国
+    第6章 3 场：周正国出示签字权，林婉秋无法反驳 | 周正国要求林婉秋签署代课协议，她 | 林婉秋将教学成果记录本拍在桌上
+    第7章 3 场：职级晋升需代课资格，而林婉秋无此 | 职级晋升需补交三年工资条，林婉秋 | 林婉秋将教学成果记录本拍在桌上，
+    第8章 3 场：陈志远出示教师资格证，要求签字确 | 陈志远提出需交工资条，林婉秋拒绝 | 林婉秋展示学生进步数据，陈志远的
+    第9章 3 场：规矩说代课老师无权评优，但林婉秋 | 周正国要求林婉秋签署放弃评优的声 | 林婉秋将教学成果记录本交给陈志远
+    第10章 4 场：周正国出示伪造工龄证明，质疑林婉 | 陈志远要求林婉秋签署代课协议，确 | 周正国提出需缴纳代课费用，林婉秋 | 林婉秋将教学成果记录本交出，表决
+
+  继续：novel-agent approve shuangwen-20261022-85 --accept
+  打回：novel-agent approve shuangwen-20261022-85 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shuangwen-20261022-85
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shuangwen-20261022-85
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['6']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['7']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['8']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['9']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [4 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['10']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/shuangwen-20261022-85/report.md
+
+  继续：novel-agent approve shuangwen-20261022-85 --accept
+  打回：novel-agent approve shuangwen-20261022-85 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shuangwen-20261022-85
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shuangwen-20261022-85
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/shuangwen-20261022-85
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shuangwen-20261022-85

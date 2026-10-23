@@ -1,0 +1,174 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-85",
+  "profile": "爽文",
+  "title": "破证",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18225,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17377,
+    "chapter_chars_mean": 1738,
+    "chapter_chars_median": 1706,
+    "chapter_chars_cv": 0.09,
+    "paragraphs_mean": 34.4,
+    "dialogue_chars_pct": 52.2,
+    "dialogue_para_pct": 87.0,
+    "interiority_para_pct": 5.2,
+    "narration_para_pct": 7.8,
+    "turn_under20_pct": 56.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.3,
+    "attr_adv_pct": 10.8,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 12.3,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "指纹盖在表格上",
+      "chars": 1750,
+      "score": 99.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字权的争夺",
+      "chars": 1665,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "证件的折痕",
+      "chars": 1735,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "评语表上的指纹印",
+      "chars": 1958,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "工资条的争议",
+      "chars": 1953,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "撕碎的代课协议",
+      "chars": 1856,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "工资条的争议",
+      "chars": 1575,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "握手与纸页的摩擦",
+      "chars": 1769,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "撕碎的代课协议",
+      "chars": 1807,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "教学成果记录本的展示",
+      "chars": 2147,
+      "score": 36.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周正国的」×3"
+    ],
+    "2": [
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "3": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "dialogue_run_mean 36 高于目标 14.0"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "narration_para_pct 0.0 低于目标 5.0"
+    ],
+    "7": [
+      "单条套路句式超限：「周正国的」×7、「林婉秋的」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「工资条的争议」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「林婉秋的」×4",
+      "narration_para_pct 3.3 低于目标 5.0",
+      "dialogue_run_mean 29 高于目标 14.0"
+    ],
+    "9": [
+      "单条套路句式超限：「周正国的」×4、「林婉秋的」×3",
+      "[observe] 标题重复：「撕碎的代课协议」已存在"
+    ],
+    "10": [
+      "[observe] 章内自我复读 1 句（如「他知道，这个女人真的不一样…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 403.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T15:16:26"
+}

@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-56",
+  "profile": "爽文",
+  "title": "残页",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18127,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17162,
+    "chapter_chars_mean": 1716,
+    "chapter_chars_median": 1700,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 41.6,
+    "dialogue_chars_pct": 42.8,
+    "dialogue_para_pct": 79.0,
+    "interiority_para_pct": 5.2,
+    "narration_para_pct": 15.9,
+    "turn_under20_pct": 75.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.9,
+    "attr_adv_pct": 8.4,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 5.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "一纸旧籍",
+      "chars": 1865,
+      "score": 98.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "一纸旧籍",
+      "chars": 1912,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 3,
+      "title": "一张旧籍残页",
+      "chars": 1617,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "一纸旧籍",
+      "chars": 1946,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "一张旧籍残页",
+      "chars": 1743,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "撕碎旧页",
+      "chars": 1386,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "翻开旧页",
+      "chars": 1677,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "撕碎旧页",
+      "chars": 1670,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "旧籍残页",
+      "chars": 1919,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "签字权",
+      "chars": 2382,
+      "score": 90.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀安的」×4、「讲经堂」×4、「沈清源的」×3"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「讲经堂」×3",
+      "dialogue_chars_pct 27.0 低于目标 30.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「一纸旧籍」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「讲经堂」×3",
+      "[observe] 标题与《一纸旧籍》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「讲经堂」×4、「李怀安的」×3",
+      "[observe] 标题重复：「一纸旧籍」已存在"
+    ],
+    "5": [
+      "[observe] 标题重复：「一张旧籍残页」已存在"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "单条套路句式超限：「讲经堂」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "7": [
+      "单条套路句式超限：「李怀安的」×4、「讲经堂」×3"
+    ],
+    "8": [
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「撕碎旧页」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「讲经堂」×3",
+      "[observe] 标题与《一张旧籍残页》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「讲经堂」×5"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 431.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T13:05:58"
+}

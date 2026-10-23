@@ -1,0 +1,176 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-106",
+  "profile": "爽文",
+  "title": "欠条",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18344,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17357,
+    "chapter_chars_mean": 1736,
+    "chapter_chars_median": 1770,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 41.3,
+    "dialogue_chars_pct": 48.1,
+    "dialogue_para_pct": 79.9,
+    "interiority_para_pct": 5.9,
+    "narration_para_pct": 14.3,
+    "turn_under20_pct": 70.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.2,
+    "attr_adv_pct": 13.8,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 5.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本被拍在桌上",
+      "chars": 2288,
+      "score": 98.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "欠条在手中颤抖",
+      "chars": 1858,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "结算表被拍在桌上",
+      "chars": 1888,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "签字权被推至桌面",
+      "chars": 1902,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "欠条被推至桌面",
+      "chars": 1521,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "欠条被推至桌面",
+      "chars": 1911,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "欠条被推至桌面",
+      "chars": 1426,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "欠条被推至桌面",
+      "chars": 1754,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "欠条被推至桌面",
+      "chars": 1679,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "欠条被推至桌面",
+      "chars": 2107,
+      "score": 94.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林小满的」×4",
+      "attr_adv_pct 23.1 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「陈国强的」×4",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题与《账本被拍在桌上》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「林小满的」×5",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题与《签字权被推至桌面》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「林小满的」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「欠条被推至桌面」已存在"
+    ],
+    "7": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「欠条被推至桌面」已存在"
+    ],
+    "8": [
+      "[observe] 标题重复：「欠条被推至桌面」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「陈国强的」×4、「林小满的」×4",
+      "[observe] 标题重复：「欠条被推至桌面」已存在"
+    ],
+    "10": [
+      "[observe] 标题重复：「欠条被推至桌面」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 432.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T16:51:08"
+}

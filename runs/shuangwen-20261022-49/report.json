@@ -1,0 +1,181 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-49",
+  "profile": "爽文",
+  "title": "客户名单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18424,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17488,
+    "chapter_chars_mean": 1749,
+    "chapter_chars_median": 1720,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 38.6,
+    "dialogue_chars_pct": 45.0,
+    "dialogue_para_pct": 79.9,
+    "interiority_para_pct": 7.1,
+    "narration_para_pct": 13.0,
+    "turn_under20_pct": 72.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.8,
+    "attr_adv_pct": 7.4,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 5.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "文件压住报价单",
+      "chars": 1884,
+      "score": 99.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "碎纸机嗡嗡响",
+      "chars": 1576,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "签字权压住报价单",
+      "chars": 2204,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "文件压住报价单",
+      "chars": 2219,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手指抚过营业执照",
+      "chars": 1743,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "文件压住报价单",
+      "chars": 1528,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "文件压住报价单",
+      "chars": 1517,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "签字权压住报价单",
+      "chars": 1874,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "手指抚过营业执照",
+      "chars": 1717,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "手指抚过营业执照",
+      "chars": 2152,
+      "score": 92.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李建国的」×5"
+    ],
+    "2": [
+      "单条套路句式超限：「李建国的」×3",
+      "dialogue_chars_pct 28.0 低于目标 30.0"
+    ],
+    "3": [
+      "单条套路句式超限：「李建国的」×5",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题与《文件压住报价单》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「李建国的」×4、「市工商联」×3",
+      "[observe] 标题重复：「文件压住报价单」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国的」×5",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「文件压住报价单」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「李建国的」×4",
+      "[observe] 标题重复：「文件压住报价单」已存在"
+    ],
+    "8": [
+      "[observe] 标题重复：「签字权压住报价单」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李建国的」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「手指抚过营业执照」已存在"
+    ],
+    "10": [
+      "命中套话收尾句",
+      "单条套路句式超限：「带着一丝」×3",
+      "[observe] 标题重复：「手指抚过营业执照」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 401.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T12:33:19"
+}

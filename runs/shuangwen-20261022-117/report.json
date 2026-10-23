@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-117",
+  "profile": "爽文",
+  "title": "旧凭牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19369,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18378,
+    "chapter_chars_mean": 1838,
+    "chapter_chars_median": 1770,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 42,
+    "dialogue_chars_pct": 47.9,
+    "dialogue_para_pct": 86.5,
+    "interiority_para_pct": 5.9,
+    "narration_para_pct": 7.6,
+    "turn_under20_pct": 75.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.7,
+    "attr_adv_pct": 12.0,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 7.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "旧凭牌的触感",
+      "chars": 1869,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "翻登记簿的少年",
+      "chars": 1562,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "签名的重量",
+      "chars": 1903,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "手指摩挲登记簿边缘",
+      "chars": 1933,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "拍桌的回音",
+      "chars": 1607,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "拍桌的回音",
+      "chars": 1821,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "拍桌的回音",
+      "chars": 1743,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "翻旧凭牌的少年",
+      "chars": 1907,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "翻旧凭牌的少年",
+      "chars": 2251,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "拍桌的回音",
+      "chars": 2763,
+      "score": 90.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀远的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀远的」×5",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「登记处」×4"
+    ],
+    "4": [
+      "单条套路句式超限：「李怀远的」×9",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李怀远的」×4"
+    ],
+    "6": [
+      "单条套路句式超限：「李怀远的」×10",
+      "[observe] 标题重复：「拍桌的回音」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「李怀远的」×3",
+      "[observe] 标题重复：「拍桌的回音」已存在"
+    ],
+    "8": [
+      "narration_para_pct 2.9 低于目标 5.0",
+      "dialogue_run_mean 16.5 高于目标 14.0",
+      "[observe] attr_adv_pct 29.4 > 25.0（结构塌缩）",
+      "[observe] 标题与《旧凭牌的触感》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「李怀远的」×4",
+      "narration_para_pct 2.0 低于目标 5.0",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「翻旧凭牌的少年」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李怀远的」×10",
+      "[observe] 标题重复：「拍桌的回音」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 445.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T17:40:46"
+}

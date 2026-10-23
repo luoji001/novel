@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-105",
+  "profile": "爽文",
+  "title": "破本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19183,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18317,
+    "chapter_chars_mean": 1832,
+    "chapter_chars_median": 1824,
+    "chapter_chars_cv": 0.09,
+    "paragraphs_mean": 35.3,
+    "dialogue_chars_pct": 49.9,
+    "dialogue_para_pct": 85.2,
+    "interiority_para_pct": 5.1,
+    "narration_para_pct": 9.8,
+    "turn_under20_pct": 60.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.3,
+    "attr_adv_pct": 14.2,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 9.0,
+    "turn_len_median": 17
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔的重量",
+      "chars": 1769,
+      "score": 97.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "文件上的签名笔迹",
+      "chars": 2085,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字笔的重量",
+      "chars": 1748,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "纸张的脆响",
+      "chars": 1779,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "工龄证明的重量",
+      "chars": 1994,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "记录本的翻页声",
+      "chars": 2153,
+      "score": 34.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "教学记录本的翻页声",
+      "chars": 1829,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "纸张的脆响",
+      "chars": 1634,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "一叠泛黄的合同复印件",
+      "chars": 2057,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "翻阅教学记录本",
+      "chars": 2125,
+      "score": 93.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈志远的」×3",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "2": [
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "3": [
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「签字笔的重量」已存在"
+    ],
+    "4": [
+      "narration_para_pct 4.0 低于目标 5.0",
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「林婉秋的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "6": [
+      "narration_para_pct 1.9 低于目标 5.0",
+      "dialogue_run_mean 26.5 高于目标 14.0",
+      "[observe] 章内自我复读 2 句（如「谢谢你给了我这个机会…」）",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「林婉秋的」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "[observe] 标题与《记录本的翻页声》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「陈志远的」×4、「微微一笑」×3",
+      "[observe] 标题重复：「纸张的脆响」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「陈志远的」×6"
+    ],
+    "10": [
+      "单条套路句式超限：「说道“我」×3",
+      "dialogue_run_mean 14.3 高于目标 14.0",
+      "[observe] 标题与《教学记录本的翻页声》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 426.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T16:46:35"
+}

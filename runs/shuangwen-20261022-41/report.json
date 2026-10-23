@@ -1,0 +1,179 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-41",
+  "profile": "爽文",
+  "title": "作废的收据",
+  "gate_mode": "observe",
+  "chapters": 2,
+  "total_chars": 4234,
+  "book_metrics": {
+    "chapters": 2,
+    "total_chars": 4050,
+    "chapter_chars_mean": 2025,
+    "chapter_chars_median": 2025,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 37,
+    "dialogue_chars_pct": 53.8,
+    "dialogue_para_pct": 88.9,
+    "interiority_para_pct": 2.7,
+    "narration_para_pct": 8.4,
+    "turn_under20_pct": 65.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.2,
+    "attr_adv_pct": 21.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 11,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "编号贴纸的真假较量",
+      "chars": 1918,
+      "score": 99.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "计算器上的指纹痕迹",
+      "chars": 1790,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "计算器上的指纹痕迹",
+      "chars": 1833,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "撕碎的收据边缘",
+      "chars": 2040,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "对峙于收据边缘",
+      "chars": 1920,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "对峙于收据边缘",
+      "chars": 2001,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "对峙于收据边缘",
+      "chars": 1996,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "计算器上的指纹痕迹",
+      "chars": 1720,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "计算器上的指纹痕迹",
+      "chars": 1854,
+      "score": 98.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "计算器上的指纹痕迹",
+      "chars": 2378,
+      "score": 92.5,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李国强的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「王德发的」×4"
+    ],
+    "3": [
+      "单条套路句式超限：「王德发的」×3、「李国强的」×3",
+      "[observe] 标题重复：「计算器上的指纹痕迹」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「王德发的」×3、「李国强的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「王德发的」×9",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「王德发的」×6、「李国强的」×3",
+      "[observe] 标题重复：「对峙于收据边缘」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「王德发的」×3",
+      "[observe] 标题重复：「对峙于收据边缘」已存在"
+    ],
+    "8": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 35 高于目标 14.0",
+      "[observe] attr_adv_pct 35.7 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「计算器上的指纹痕迹」已存在"
+    ],
+    "9": [
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「李国强的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「计算器上的指纹痕迹」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 374.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T12:00:34"
+}

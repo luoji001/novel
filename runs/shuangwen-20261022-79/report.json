@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-79",
+  "profile": "爽文",
+  "title": "旧券",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 17613,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 16723,
+    "chapter_chars_mean": 1672,
+    "chapter_chars_median": 1634,
+    "chapter_chars_cv": 0.09,
+    "paragraphs_mean": 37.5,
+    "dialogue_chars_pct": 43.7,
+    "dialogue_para_pct": 83.5,
+    "interiority_para_pct": 6.6,
+    "narration_para_pct": 9.9,
+    "turn_under20_pct": 76.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.9,
+    "attr_adv_pct": 12.7,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 6.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "旧券与手令",
+      "chars": 1655,
+      "score": 39.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "暗格中的铜钱",
+      "chars": 1972,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "轻抚铜架",
+      "chars": 1710,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "轻抚旧券",
+      "chars": 1791,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "轻抚登记簿",
+      "chars": 1703,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "轻抚登记簿",
+      "chars": 1499,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "轻抚旧券",
+      "chars": 1840,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "轻抚登记簿",
+      "chars": 1688,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "轻抚旧券",
+      "chars": 1727,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "轻抚券面",
+      "chars": 2018,
+      "score": 91.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「方守仁的」×4",
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「方守仁的」×6"
+    ],
+    "4": [
+      "单条套路句式超限：「李怀安的」×3",
+      "情节与已写章节重复 0.74 ≥ 0.7（撞上「李怀安用一张旧借书券挑战方守仁的权威，引发一场关于规则与…」）",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「轻抚登记簿」已存在"
+    ],
+    "7": [
+      "[observe] 标题重复：「轻抚旧券」已存在"
+    ],
+    "8": [
+      "[observe] 标题重复：「轻抚登记簿」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「方守仁的」×4",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题重复：「轻抚旧券」已存在"
+    ],
+    "10": [
+      "情节与已写章节重复 0.70 ≥ 0.7（撞上「李怀安凭借一张三十年前的借书券挑战图书馆管理员方守仁，试…」）",
+      "[observe] 标题与《轻抚旧券》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 423.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T14:49:34"
+}

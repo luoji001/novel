@@ -1,0 +1,395 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "借书卡编号早被长老手令覆盖",
+      "entry_state": "借书卡编号被长老手令覆盖",
+      "outcome": "林秋将借书卡编号按在登记簿上",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "陆怀远要求林秋签署借阅协议",
+      "entry_state": "借书卡编号被长老手令覆盖",
+      "outcome": "林秋在借阅协议上签字",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "林秋撕毁借书卡编号页",
+      "entry_state": "借书卡编号页被撕毁",
+      "outcome": "借书卡编号页被扔进废纸篓",
+      "target_chars": 647
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "编号牌上的记录比旧借书卡晚三天",
+      "entry_state": "苏婉清盯着编号牌上的日期",
+      "outcome": "林秋将旧借书卡推到苏婉清面前",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "苏婉清要求林秋签署借阅确认书",
+      "entry_state": "林秋在确认书上签字",
+      "outcome": "苏婉清撕掉确认书并丢进废纸篓",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "林秋将编号牌推回架子上",
+      "entry_state": "编号牌从架子上掉落",
+      "outcome": "编号牌上的编号被擦去",
+      "target_chars": 647
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "陆怀远",
+        "林秋"
+      ],
+      "driver": "签字权覆盖所有借阅权限",
+      "entry_state": "林秋的借书卡被贴上封条",
+      "outcome": "林秋的借书卡被贴上封条",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "陆怀远",
+        "林秋"
+      ],
+      "driver": "林秋需缴纳五百元押金",
+      "entry_state": "林秋的押金被收走",
+      "outcome": "林秋的押金被收走",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "陆怀远",
+        "林秋"
+      ],
+      "driver": "林秋撕毁借书卡",
+      "entry_state": "借书卡被撕毁",
+      "outcome": "借书卡被撕毁",
+      "target_chars": 647
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "一笔钱能覆盖所有过期编号",
+      "entry_state": "旧借书卡被贴上作废标签",
+      "outcome": "林秋将旧借书卡按在登记簿上",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "陆怀远要求林秋赔偿三十七元",
+      "entry_state": "旧借书卡被贴上作废标签",
+      "outcome": "林秋从口袋掏出一叠零钱",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "林秋将零钱按在登记簿上",
+      "entry_state": "旧借书卡被贴上作废标签",
+      "outcome": "陆怀远手里的钱被登记簿吸走",
+      "target_chars": 647
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "借阅处规定期限不可更改",
+      "entry_state": "林秋低头翻看借书卡",
+      "outcome": "陆怀远将借书卡推回给林秋",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "陆怀远要求林秋签署延期协议",
+      "entry_state": "林秋手中借书卡被陆怀远按住",
+      "outcome": "林秋用手指划过借书卡上的编号",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "林秋将借书卡编号对准系统屏幕",
+      "entry_state": "系统显示编号匹配",
+      "outcome": "陆怀远手中的手令被林秋夺走",
+      "target_chars": 647
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "档案馆名分需经馆长审核",
+      "entry_state": "苏婉清伸手取走借书卡",
+      "outcome": "借书卡被放入审核记录本",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "旧借书卡编号与档案不符",
+      "entry_state": "借书卡被贴上待核查标签",
+      "outcome": "苏婉清将借书卡推回林秋",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "林秋撕掉借书卡编号页",
+      "entry_state": "借书卡编号页消失",
+      "outcome": "苏婉清手中的审核记录本掉落",
+      "target_chars": 647
+    }
+  ],
+  "7": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "职级高于借阅权限",
+      "entry_state": "林秋低头翻阅借书卡",
+      "outcome": "借书卡被陆怀远按在桌上",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "旧借书卡编号需核对",
+      "entry_state": "借书卡被按在桌上",
+      "outcome": "林秋抽出一张纸条递给陆怀远",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "林秋撕碎纸条",
+      "entry_state": "纸条被撕碎",
+      "outcome": "陆怀远手令掉落在地",
+      "target_chars": 647
+    }
+  ],
+  "8": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "资历不足，需补交押金",
+      "entry_state": "林秋手中旧借书卡被苏婉清扣留",
+      "outcome": "苏婉清将旧借书卡收进抽屉",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "押金需在三日内补齐",
+      "entry_state": "旧借书卡被收进抽屉",
+      "outcome": "苏婉清写下押金金额并递给林秋",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "苏婉清"
+      ],
+      "driver": "林秋撕毁押金单据",
+      "entry_state": "押金单据被撕毁",
+      "outcome": "苏婉清将押金单据丢进废纸篓",
+      "target_chars": 647
+    }
+  ],
+  "9": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "陆怀远",
+        "林秋"
+      ],
+      "driver": "借阅处规定第三条：无借书卡不得借阅",
+      "entry_state": "林秋站在柜台前，手握旧借书卡",
+      "outcome": "陆怀远将借书卡按在桌上，示意林秋离开",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "陆怀远",
+        "林秋"
+      ],
+      "driver": "林秋出示旧借书卡编号，要求核对",
+      "entry_state": "陆怀远皱眉查看编号，未发现异常",
+      "outcome": "林秋将借书卡编号抄在纸上，递给陆怀远",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "陆怀远",
+        "林秋"
+      ],
+      "driver": "林秋将旧借书卡编号与编号牌比对",
+      "entry_state": "陆怀远的手令被林秋用编号卡抵住",
+      "outcome": "陆怀远的手令被林秋用编号卡抵住，无法继续压制",
+      "target_chars": 647
+    }
+  ],
+  "10": [
+    {
+      "idx": 1,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "陆怀远出示一道许可，林秋指出编号已过期",
+      "entry_state": "林秋手按旧借书卡，编号牌被掀开",
+      "outcome": "编号牌上的日期被划掉，新日期贴上",
+      "target_chars": 628
+    },
+    {
+      "idx": 2,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远",
+        "苏婉清"
+      ],
+      "driver": "苏婉清要求林秋交出借书卡，林秋拒绝",
+      "entry_state": "苏婉清拿起编号牌核对，林秋保持沉默",
+      "outcome": "苏婉清将编号牌推回原位，林秋的借书卡被收走",
+      "target_chars": 628
+    },
+    {
+      "idx": 3,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "陆怀远要求林秋签署新借书卡，林秋撕毁新卡",
+      "entry_state": "林秋手中的旧借书卡被陆怀远夺走",
+      "outcome": "林秋将旧借书卡抛向空中，陆怀远手忙脚乱接住",
+      "target_chars": 628
+    },
+    {
+      "idx": 4,
+      "place": "借阅处柜台",
+      "present": [
+        "林秋",
+        "陆怀远"
+      ],
+      "driver": "林秋将旧借书卡编号与编号牌比对，陆怀远手令失效",
+      "entry_state": "陆怀远手令被林秋按在柜台，编号牌被重新贴上",
+      "outcome": "陆怀远手令被林秋按在柜台，编号牌被重新贴上",
+      "target_chars": 628
+    }
+  ]
+}

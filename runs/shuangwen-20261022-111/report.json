@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-111",
+  "profile": "爽文",
+  "title": "签批",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19469,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18496,
+    "chapter_chars_mean": 1850,
+    "chapter_chars_median": 1791,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 40.9,
+    "dialogue_chars_pct": 53.0,
+    "dialogue_para_pct": 88.2,
+    "interiority_para_pct": 4.8,
+    "narration_para_pct": 7.0,
+    "turn_under20_pct": 68.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.9,
+    "attr_adv_pct": 17.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 11.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账簿的折痕",
+      "chars": 1761,
+      "score": 97.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字笔的震颤",
+      "chars": 2057,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "账本上的指纹",
+      "chars": 1840,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "账簿上的损耗条",
+      "chars": 2107,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "签字笔的震颤",
+      "chars": 1843,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "账本上的损耗条",
+      "chars": 1786,
+      "score": 86.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "账本与名册的对峙",
+      "chars": 2018,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "签字笔的震颤",
+      "chars": 1685,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "账本上的损耗条",
+      "chars": 1942,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "印章的真假对决",
+      "chars": 2420,
+      "score": 92.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陆长风的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「陆长风的」×5",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道自己」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔的震颤」已存在"
+    ],
+    "6": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "dialogue_run_mean 31 高于目标 14.0",
+      "[observe] 标题与《账簿上的损耗条》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "[observe] attr_adv_pct 40.0 > 25.0（结构塌缩）"
+    ],
+    "8": [
+      "[observe] 标题重复：「签字笔的震颤」已存在"
+    ],
+    "9": [
+      "narration_para_pct 3.6 低于目标 5.0",
+      "attr_adv_pct 18.5 高于目标 12.0",
+      "dialogue_run_mean 18 高于目标 14.0",
+      "[observe] 标题重复：「账本上的损耗条」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「陆长风的」×4、「他知道这」×3",
+      "narration_para_pct 2.0 低于目标 5.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "dialogue_run_mean 15.7 高于目标 14.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 442.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T17:13:27"
+}

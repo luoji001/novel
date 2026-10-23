@@ -1,0 +1,170 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-115",
+  "profile": "爽文",
+  "title": "铜壶",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18059,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17102,
+    "chapter_chars_mean": 1710,
+    "chapter_chars_median": 1827,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 40.9,
+    "dialogue_chars_pct": 46.6,
+    "dialogue_para_pct": 84.4,
+    "interiority_para_pct": 5.0,
+    "narration_para_pct": 10.6,
+    "turn_under20_pct": 77.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.3,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 7.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜壶印痕",
+      "chars": 1433,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "门牌真假风波",
+      "chars": 1463,
+      "score": 94.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "登记簿空白处",
+      "chars": 1926,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "登记簿空白处",
+      "chars": 1576,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铜壶盖章",
+      "chars": 2064,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "铜壶验货",
+      "chars": 2003,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "门牌签字",
+      "chars": 1934,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "手稿摊开处",
+      "chars": 1464,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "签名摊开处",
+      "chars": 1988,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "手稿摊开处",
+      "chars": 2198,
+      "score": 92.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李长河的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「李长河的」×3",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「登记簿空白处」已存在"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李长河的」×5、「验货台」×3",
+      "narration_para_pct 4.3 低于目标 5.0",
+      "dialogue_run_mean 14.7 高于目标 14.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李长河的」×6、「他知道这」×3"
+    ],
+    "8": [
+      "单条套路句式超限：「验货台」×4、「李长河的」×3",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "9": [
+      "单条套路句式超限：「李长河的」×8",
+      "[observe] 标题与《手稿摊开处》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「李长河的」×7",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「手稿摊开处」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 433.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T17:31:30"
+}

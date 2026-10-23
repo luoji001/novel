@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-52",
+  "profile": "爽文",
+  "title": "令牌风云",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18972,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17789,
+    "chapter_chars_mean": 1779,
+    "chapter_chars_median": 1727,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 52,
+    "dialogue_chars_pct": 51.2,
+    "dialogue_para_pct": 86.7,
+    "interiority_para_pct": 4.2,
+    "narration_para_pct": 9.1,
+    "turn_under20_pct": 82.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.9,
+    "attr_adv_pct": 14.1,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 9.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "令牌裂痕真相",
+      "chars": 2057,
+      "score": 98.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "令牌对峙",
+      "chars": 2628,
+      "score": 20.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "令牌对峙真相",
+      "chars": 1738,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "登记簿裂痕真相",
+      "chars": 1953,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铜币交换令牌",
+      "chars": 1633,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铜牌显影术",
+      "chars": 1648,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "令牌对峙真相",
+      "chars": 1932,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "令牌交锋",
+      "chars": 1471,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "契约现形",
+      "chars": 1711,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "令牌换灵石",
+      "chars": 2191,
+      "score": 92.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李文渊的」×3",
+      "attr_adv_pct 20.8 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「李文渊的」×3",
+      "[observe] 章内自我复读 2 句（如「你真的不需要我帮忙吗？…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「李文渊的」×7",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题与《令牌对峙》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题与《令牌裂痕真相》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李文渊的」×4",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 31 高于目标 14.0"
+    ],
+    "7": [
+      "attr_adv_pct 15.8 高于目标 12.0",
+      "[observe] 标题重复：「令牌对峙真相」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「藏书阁」×4"
+    ],
+    "9": [
+      "单条套路句式超限：「李文渊的」×5"
+    ],
+    "10": [
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 451.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T12:47:26"
+}

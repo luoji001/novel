@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-47",
+  "profile": "爽文",
+  "title": "校准记录",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20411,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19364,
+    "chapter_chars_mean": 1936,
+    "chapter_chars_median": 1955,
+    "chapter_chars_cv": 0.07,
+    "paragraphs_mean": 44.5,
+    "dialogue_chars_pct": 49.4,
+    "dialogue_para_pct": 84.7,
+    "interiority_para_pct": 4.8,
+    "narration_para_pct": 10.5,
+    "turn_under20_pct": 73.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.9,
+    "attr_adv_pct": 17.1,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 7.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "一纸真实磅单",
+      "chars": 2005,
+      "score": 97.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "一纸真实磅单",
+      "chars": 2117,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "一张皱巴巴的磅单",
+      "chars": 2001,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "一纸真实磅单",
+      "chars": 2026,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "一张皱巴巴的纸条",
+      "chars": 2125,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字的笔尖",
+      "chars": 2083,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "一纸真实磅单",
+      "chars": 1781,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "一张皱巴巴的磅单",
+      "chars": 2187,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "一张皱巴巴的磅单",
+      "chars": 1855,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "一纸真实磅单",
+      "chars": 2221,
+      "score": 91.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李振强的」×8"
+    ],
+    "2": [
+      "单条套路句式超限：「周志远的」×4",
+      "[observe] attr_adv_pct 60.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「一纸真实磅单」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「李振强的」×3、「周志远的」×3",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「周志远的」×6、「他知道这」×4",
+      "[observe] 标题重复：「一纸真实磅单」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李振强的」×8",
+      "[observe] 标题与《一张皱巴巴的磅单》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李振强的」×4",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "7": [
+      "dialogue_run_mean 18 高于目标 14.0",
+      "[observe] attr_adv_pct 31.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「一纸真实磅单」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李振强的」×4",
+      "[observe] 标题重复：「一张皱巴巴的磅单」已存在"
+    ],
+    "9": [
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题重复：「一张皱巴巴的磅单」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李振强的」×4",
+      "[observe] 标题重复：「一纸真实磅单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 399.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T12:24:03"
+}

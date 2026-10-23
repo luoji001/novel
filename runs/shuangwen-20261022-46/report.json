@@ -1,0 +1,185 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-46",
+  "profile": "爽文",
+  "title": "旧车票",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19731,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18674,
+    "chapter_chars_mean": 1867,
+    "chapter_chars_median": 1846,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 46.2,
+    "dialogue_chars_pct": 45.2,
+    "dialogue_para_pct": 81.6,
+    "interiority_para_pct": 6.4,
+    "narration_para_pct": 12.0,
+    "turn_under20_pct": 76.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.0,
+    "attr_adv_pct": 19.0,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 6.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕开欠条",
+      "chars": 1735,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "撕开旧车票",
+      "chars": 2023,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摩挲账本",
+      "chars": 2256,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摩挲纸边",
+      "chars": 2099,
+      "score": 37.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲纸边",
+      "chars": 1842,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摩挲纸边",
+      "chars": 1622,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 7,
+      "title": "摩挲纸边",
+      "chars": 2001,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲袖口褶皱",
+      "chars": 1763,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "摩挲纸边",
+      "chars": 1877,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "摩挲纸边",
+      "chars": 2503,
+      "score": 92.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈志远的」×9"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李浩站在」×3",
+      "[observe] 章内自我复读 1 句（如「你知道这意味着什么吗？…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×4",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「陈志远的」×7",
+      "[observe] attr_adv_pct 37.5 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈志远的」×7、「他知道这」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「陈志远的」×5、「他知道这」×3",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "8": [
+      "[observe] attr_adv_pct 45.5 > 25.0（结构塌缩）"
+    ],
+    "9": [
+      "单条套路句式超限：「陈志远的」×5",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「他知道这」×5、「陈志远的」×4",
+      "attr_adv_pct 13.0 高于目标 12.0",
+      "[observe] 标题重复：「摩挲纸边」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 374.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T12:19:53"
+}

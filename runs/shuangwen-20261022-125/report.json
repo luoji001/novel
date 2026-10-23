@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-125",
+  "profile": "爽文",
+  "title": "旧教案",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19542,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18574,
+    "chapter_chars_mean": 1857,
+    "chapter_chars_median": 1882,
+    "chapter_chars_cv": 0.07,
+    "paragraphs_mean": 40.7,
+    "dialogue_chars_pct": 46.3,
+    "dialogue_para_pct": 84.7,
+    "interiority_para_pct": 4.7,
+    "narration_para_pct": 10.6,
+    "turn_under20_pct": 70.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.9,
+    "attr_adv_pct": 16.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 6.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "教案本的触感",
+      "chars": 2013,
+      "score": 38.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙的重量",
+      "chars": 1946,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "教案本的触感",
+      "chars": 1672,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "教案本的页码",
+      "chars": 2122,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "教案本的页码",
+      "chars": 1863,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "教案本的页码",
+      "chars": 1834,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "手指划过纸页",
+      "chars": 2014,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "一页纸上的风声",
+      "chars": 1901,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "树叶落在打印纸",
+      "chars": 2042,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "手指拂过教案本封面",
+      "chars": 2125,
+      "score": 93.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 35.7 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「微微一笑」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「周正国的」×4",
+      "[observe] 标题重复：「教案本的触感」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「林婉秋的」×4",
+      "[observe] 标题与《教案本的触感》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「教案本的页码」已存在"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「教案本的页码」已存在"
+    ],
+    "7": [
+      "narration_para_pct 2.4 低于目标 5.0"
+    ],
+    "8": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "9": [
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「周正国的」×3",
+      "narration_para_pct 2.1 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "dialogue_run_mean 15.3 高于目标 14.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 437.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T18:16:49"
+}

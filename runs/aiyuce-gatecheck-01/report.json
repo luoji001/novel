@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "aiyuce-gatecheck-01",
+  "profile": "AI 推演",
+  "title": "听评课本",
+  "gate_mode": "defect",
+  "chapters": 6,
+  "total_chars": 9081,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 8834,
+    "chapter_chars_mean": 1472,
+    "chapter_chars_median": 1550,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 11.8,
+    "dialogue_chars_pct": 16.3,
+    "dialogue_para_pct": 42.4,
+    "interiority_para_pct": 12.4,
+    "narration_para_pct": 45.2,
+    "turn_under20_pct": 55.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 22
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "听课记录表的更新",
+      "chars": 1393,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 1,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "作文样本的实时比对",
+      "chars": 1942,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 3,
+      "degraded": true,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "检查写作教学时间变化",
+      "chars": 1678,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 3,
+      "degraded": true,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "预算明细的改动",
+      "chars": 1531,
+      "score": 86.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "作文样本集的更新",
+      "chars": 1661,
+      "score": 33.8,
+      "scale": "normal",
+      "attempts": 3,
+      "degraded": true,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "翻看泛黄听课记录表",
+      "chars": 870,
+      "score": 89.0,
+      "scale": "short",
+      "attempts": 1,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[degraded] 章内自我复读 1 句（如「这条推论会被什么样的情况推翻…」）"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 45.0",
+      "[degraded] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 29.3 高于目标 18.0",
+      "narration_para_pct 30.8 低于目标 45.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 49.0 高于目标 18.0",
+      "dialogue_run_mean 4.7 高于目标 4.0",
+      "narration_para_pct 22.2 低于目标 45.0",
+      "[degraded] 章内自我复读 1 句（如「这条推论会被什么推翻…」）"
+    ],
+    "6": [
+      "narration_para_pct 33.3 低于目标 45.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 109,
+    "calls_counted": 109,
+    "llm_seconds": 538.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T08:40:27"
+}

@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-133",
+  "profile": "爽文",
+  "title": "旧药方",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19068,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18031,
+    "chapter_chars_mean": 1803,
+    "chapter_chars_median": 1698,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 43.3,
+    "dialogue_chars_pct": 45.4,
+    "dialogue_para_pct": 82.3,
+    "interiority_para_pct": 7.5,
+    "narration_para_pct": 10.1,
+    "turn_under20_pct": 73.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.5,
+    "attr_adv_pct": 11.4,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 6.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "旧药方被展开的瞬间",
+      "chars": 1730,
+      "score": 97.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "药方在木柜上展开",
+      "chars": 2281,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "药方被轻抚的瞬间",
+      "chars": 1767,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "旧药方被轻抚的瞬间",
+      "chars": 1812,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铜砣被挑起三寸",
+      "chars": 1737,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "药方被盖上红印",
+      "chars": 1759,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "药方被轻抚的瞬间",
+      "chars": 1846,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "药方被盖上红印",
+      "chars": 1865,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "药方被展开的瞬间",
+      "chars": 1714,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "药方被轻抚的瞬间",
+      "chars": 2547,
+      "score": 37.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「王德昌的」×4",
+      "narration_para_pct 3.3 低于目标 5.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "[observe] 标题与《旧药方被展开的瞬间》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道自己」×3、「他知道这」×3",
+      "[observe] 标题与《药方被轻抚的瞬间》近似 0.94 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「王德昌的」×4",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「王德昌的」×3",
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "7": [
+      "[observe] 标题重复：「药方被轻抚的瞬间」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「王德昌的」×6、「林小满的」×3",
+      "[observe] 标题重复：「药方被盖上红印」已存在"
+    ],
+    "9": [
+      "[observe] 标题与《旧药方被展开的瞬间》近似 0.94 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「王德昌的」×4",
+      "[observe] attr_adv_pct 34.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「药方被轻抚的瞬间」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 441.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T18:52:45"
+}

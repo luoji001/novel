@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-141",
+  "profile": "爽文",
+  "title": "旧签",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19475,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18483,
+    "chapter_chars_mean": 1848,
+    "chapter_chars_median": 1819,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 41.5,
+    "dialogue_chars_pct": 51.6,
+    "dialogue_para_pct": 85.7,
+    "interiority_para_pct": 6.4,
+    "narration_para_pct": 7.8,
+    "turn_under20_pct": 63.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.6,
+    "attr_adv_pct": 13.7,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 8.4,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红笔划去旧账目",
+      "chars": 2032,
+      "score": 98.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "红笔划去旧账目",
+      "chars": 1667,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "红笔划去旧账目",
+      "chars": 1951,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红印章压住旧账单",
+      "chars": 1981,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "红笔划去旧账目",
+      "chars": 1716,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "红笔划去旧账目",
+      "chars": 1895,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 7,
+      "title": "红笔划去旧账目",
+      "chars": 1872,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "钢印压住旧账单",
+      "chars": 2127,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "红笔划去旧账目",
+      "chars": 1841,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "签字页被撕下",
+      "chars": 2383,
+      "score": 93.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「红笔划去旧账目」已存在"
+    ],
+    "3": [
+      "attr_adv_pct 15.6 高于目标 12.0",
+      "[observe] 标题重复：「红笔划去旧账目」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「陈志远的」×4",
+      "narration_para_pct 3.6 低于目标 5.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「红笔划去旧账目」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国的」×4",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "dialogue_run_mean 16 高于目标 14.0",
+      "[observe] 标题重复：「红笔划去旧账目」已存在"
+    ],
+    "7": [
+      "narration_para_pct 4.4 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「红笔划去旧账目」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李建国的」×3",
+      "[observe] attr_adv_pct 27.8 > 25.0（结构塌缩）",
+      "[observe] 标题与《红印章压住旧账单》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「陈志远的」×3",
+      "[observe] 标题重复：「红笔划去旧账目」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 425.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T19:28:59"
+}

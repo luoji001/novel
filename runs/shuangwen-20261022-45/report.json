@@ -1,0 +1,174 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-45",
+  "profile": "爽文",
+  "title": "作废流程文件",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20603,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19595,
+    "chapter_chars_mean": 1960,
+    "chapter_chars_median": 2048,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 43.1,
+    "dialogue_chars_pct": 43.9,
+    "dialogue_para_pct": 82.6,
+    "interiority_para_pct": 6.5,
+    "narration_para_pct": 11.0,
+    "turn_under20_pct": 74.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.5,
+    "attr_adv_pct": 7.7,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 7.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指摩挲纸页边缘",
+      "chars": 2262,
+      "score": 98.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签署离职协议",
+      "chars": 1852,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "拍碎红头文件",
+      "chars": 2048,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签字权",
+      "chars": 1621,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲纸页边缘",
+      "chars": 2097,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摩挲纸页边缘",
+      "chars": 2191,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "摩挲纸页边缘",
+      "chars": 2186,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "摩挲纸页边缘",
+      "chars": 2261,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "按压指纹",
+      "chars": 1838,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "撕碎审批表",
+      "chars": 2237,
+      "score": 93.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周文远的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「周文远的」×6"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×5、「周文远的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国的」×7、「周文远的」×5",
+      "[observe] 标题与《手指摩挲纸页边缘》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 4.8 低于目标 5.0",
+      "[observe] 标题重复：「摩挲纸页边缘」已存在"
+    ],
+    "7": [
+      "attr_adv_pct 15.8 高于目标 12.0",
+      "[observe] 标题重复：「摩挲纸页边缘」已存在"
+    ],
+    "8": [
+      "[observe] 标题重复：「摩挲纸页边缘」已存在"
+    ],
+    "9": [
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「李建国的」×3",
+      "narration_para_pct 4.2 低于目标 5.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 378.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T12:15:52"
+}

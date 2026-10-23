@@ -1,0 +1,179 @@
+{
+  "consistency": "1. 第二章和第八章均提到“泛黄纸张的划痕”，但第八章中提到的是“竞争对手名单”，而第二章中提到的是“客户名单”，两者内容不一致，可能混淆。\n\n2. 第三章提到“三年前的合同”，但第一章和第六章提到的是“三年前的客户名单”，时间线和内容不一致，可能混淆。\n\n3. 第七章和第十章均提到“名单上的旧日期”，但第七章中提到的是“旧对手名单”，而第十章中提到的是“竞争对手名单”，两者内容不一致，可能混淆。\n\n4. 第五章和第九章均提到“签字笔的重量”，但第五章中提到的是“合同被撕毁”，而第九章中提到的是“重新签订”，两者结果不一致，可能混淆。\n\n5. 第六章提到“一份过时名单”，但第七章和第十章提到的是“旧对手名单”和“竞争对手名单”，可能混淆“过时名单”与“旧对手名单”的具体指代。",
+  "slug": "shuangwen-20261022-129",
+  "profile": "爽文",
+  "title": "名单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 17362,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 16404,
+    "chapter_chars_mean": 1640,
+    "chapter_chars_median": 1644,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 39.8,
+    "dialogue_chars_pct": 46.2,
+    "dialogue_para_pct": 79.5,
+    "interiority_para_pct": 7.4,
+    "narration_para_pct": 13.1,
+    "turn_under20_pct": 71.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.8,
+    "attr_adv_pct": 19.8,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 5.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红圈标记的报价单",
+      "chars": 1243,
+      "score": 99.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "泛黄纸张的划痕",
+      "chars": 1662,
+      "score": 37.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "名单上的疤痕痕迹",
+      "chars": 1788,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "名单上的旧日期",
+      "chars": 1466,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "签字笔的重量",
+      "chars": 1975,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钱袋里的硬币声",
+      "chars": 1367,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "名单上的旧日期",
+      "chars": 1581,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "泛黄纸张的划痕",
+      "chars": 1954,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "签字笔的重量",
+      "chars": 2111,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "泛黄纸张的划痕",
+      "chars": 2205,
+      "score": 36.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "2": [
+      "[observe] attr_adv_pct 50.0 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周国强的」×9",
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周国强的」×4",
+      "attr_adv_pct 23.1 高于目标 12.0"
+    ],
+    "5": [
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "6": [
+      "narration_para_pct 3.3 低于目标 5.0",
+      "attr_adv_pct 23.1 高于目标 12.0",
+      "dialogue_run_mean 14.5 高于目标 14.0"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题重复：「名单上的旧日期」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「周国强的」×6",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「泛黄纸张的划痕」已存在"
+    ],
+    "9": [
+      "[observe] 标题重复：「签字笔的重量」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周国强的」×7",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「泛黄纸张的划痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 404.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T18:34:27"
+}

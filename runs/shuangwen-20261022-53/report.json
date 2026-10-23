@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-53",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18585,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17586,
+    "chapter_chars_mean": 1759,
+    "chapter_chars_median": 1712,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 41.7,
+    "dialogue_chars_pct": 48.4,
+    "dialogue_para_pct": 85.2,
+    "interiority_para_pct": 3.4,
+    "narration_para_pct": 11.4,
+    "turn_under20_pct": 65.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.5,
+    "attr_adv_pct": 6.0,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 7.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜铃响起时门被撞开",
+      "chars": 1586,
+      "score": 98.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "药秤停了一瞬",
+      "chars": 1874,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "盖章的瞬间",
+      "chars": 1940,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "账簿摊开时的低语",
+      "chars": 1791,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "账本摊开时的低语",
+      "chars": 2043,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "账本摊开时的低语",
+      "chars": 1693,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "账本摊开时的低语",
+      "chars": 1834,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "账本摊开时的低语",
+      "chars": 1653,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "账本摊开时的低语",
+      "chars": 1688,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "清单边缘的红印",
+      "chars": 2473,
+      "score": 92.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李守仁的」×3",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀远点」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「李守仁的」×4",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李怀远的」×4",
+      "narration_para_pct 2.9 低于目标 5.0",
+      "dialogue_run_mean 16 高于目标 14.0"
+    ],
+    "5": [
+      "narration_para_pct 3.3 低于目标 5.0",
+      "dialogue_run_mean 14.5 高于目标 14.0",
+      "[observe] 标题与《账簿摊开时的低语》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「李怀远的」×4",
+      "[observe] 标题重复：「账本摊开时的低语」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「说道“你」×4",
+      "[observe] 标题重复：「账本摊开时的低语」已存在"
+    ],
+    "8": [
+      "narration_para_pct 2.9 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「账本摊开时的低语」已存在"
+    ],
+    "9": [
+      "[observe] 标题重复：「账本摊开时的低语」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 433.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T12:51:57"
+}

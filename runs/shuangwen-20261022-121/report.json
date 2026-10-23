@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-121",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19224,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18165,
+    "chapter_chars_mean": 1816,
+    "chapter_chars_median": 1734,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 45.2,
+    "dialogue_chars_pct": 47.1,
+    "dialogue_para_pct": 82.7,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 11.4,
+    "turn_under20_pct": 74.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.2,
+    "attr_adv_pct": 14.7,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 9.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本上的时间戳",
+      "chars": 1717,
+      "score": 97.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "账本边缘的铅笔痕",
+      "chars": 2034,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "签字笔的博弈",
+      "chars": 1811,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "存折边缘的冷笑",
+      "chars": 1721,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "签字笔的重量",
+      "chars": 2092,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字笔的重量",
+      "chars": 1549,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "签字笔的裂痕",
+      "chars": 1674,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "签字笔的裂痕",
+      "chars": 1878,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 9,
+      "title": "签字笔的裂痕",
+      "chars": 2201,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "账本边缘的摩挲",
+      "chars": 2537,
+      "score": 92.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李建国的」×9"
+    ],
+    "2": [
+      "单条套路句式超限：「周小满的」×3",
+      "attr_adv_pct 17.6 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李建国的」×4",
+      "[observe] attr_adv_pct 36.4 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "attr_adv_pct 23.1 高于目标 12.0",
+      "[observe] 标题与《签字笔的博弈》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×4",
+      "[observe] 标题重复：「签字笔的重量」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「李建国的」×3、「周小满的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题与《签字笔的博弈》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「李建国的」×4",
+      "narration_para_pct 4.1 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "dialogue_run_mean 47 高于目标 14.0",
+      "[observe] 标题重复：「签字笔的裂痕」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李建国的」×8",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题重复：「签字笔的裂痕」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周小满的」×4",
+      "[observe] 标题与《账本边缘的铅笔痕》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 449.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T17:58:58"
+}

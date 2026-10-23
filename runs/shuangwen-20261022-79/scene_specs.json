@@ -1,0 +1,394 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "借阅登记簿第37页未更新",
+      "entry_state": "李怀安低头查看登记簿",
+      "outcome": "方守仁拍桌示意登记簿已过期",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "方守仁要求李怀安补交押金200元",
+      "entry_state": "方守仁从怀中掏出账本核对",
+      "outcome": "李怀安将押金放入登记簿的抽屉",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "李怀安撕下登记簿第37页并丢入火盆",
+      "entry_state": "火盆中纸灰飘散",
+      "outcome": "方守仁手中登记簿只剩空白页",
+      "target_chars": 647
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "旧借书券的借阅期限早于手令生效日",
+      "entry_state": "沈婉如接过旧借书券并核对",
+      "outcome": "沈婉如在登记簿上签字确认",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "李怀安需补交三枚铜钱作为保管费",
+      "entry_state": "沈婉如在登记簿上签字确认",
+      "outcome": "李怀安将三枚铜钱放入铜制书架的暗格",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "李怀安撕毁旧借书券并重新登记",
+      "entry_state": "李怀安将旧借书券撕毁",
+      "outcome": "沈婉如将撕碎的旧借书券丢入废纸篓",
+      "target_chars": 647
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "铜制书架是规则的象征，不可更改",
+      "entry_state": "李怀安低头看着书架上未被移动的铜制书架",
+      "outcome": "李怀安手指抚过书架边缘，未有触碰",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "方守仁要求李怀安签署新借阅协议",
+      "entry_state": "李怀安在登记簿上签字，笔尖停顿",
+      "outcome": "李怀安将签字后的登记簿推回方守仁手中",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "李怀安将旧借书券插入书架缝隙",
+      "entry_state": "书架最底层铜片发出轻微震动",
+      "outcome": "书架底层铜片松动，露出隐藏的借阅通道",
+      "target_chars": 647
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "借阅需先交钱，这是规矩",
+      "entry_state": "李怀安低头看登记簿",
+      "outcome": "李怀安将登记簿推回桌上",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "方守仁要求李怀安签一份还款协议",
+      "entry_state": "李怀安盯着协议上的金额",
+      "outcome": "李怀安将协议揉成一团扔在地上",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "李怀安将旧借书券拍在桌上",
+      "entry_state": "方守仁手里的钱袋掉落",
+      "outcome": "方守仁弯腰捡起钱袋",
+      "target_chars": 647
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "职级高低决定借阅权限",
+      "entry_state": "李怀安低头看登记簿",
+      "outcome": "登记簿上多出一行新记录",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "需签一份权限变更协议",
+      "entry_state": "登记簿上多出一行新记录",
+      "outcome": "方守仁签字笔尖划破纸张",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "方守仁"
+      ],
+      "driver": "李怀安将旧借书券推至桌面",
+      "entry_state": "方守仁签字笔尖划破纸张",
+      "outcome": "方守仁手令被李怀安按在桌角",
+      "target_chars": 647
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "沈婉如提出需正式名分，李怀安无凭据反驳",
+      "entry_state": "沈婉如坚持名分制度，李怀安沉默无语",
+      "outcome": "沈婉如在登记簿上写下‘无名分’三字",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "李怀安递出旧借书券，沈婉如拒绝承认",
+      "entry_state": "沈婉如否认旧券效力，李怀安握紧券角",
+      "outcome": "沈婉如撕碎旧借书券，纸屑飘落",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "李怀安将旧券残片塞入登记簿夹层",
+      "entry_state": "登记簿夹层出现异物，沈婉如皱眉查看",
+      "outcome": "沈婉如翻阅登记簿，目光停留在夹层异物",
+      "target_chars": 647
+    }
+  ],
+  "7": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "规矩第三条：借阅需长老签字确认",
+      "entry_state": "李怀安低头翻阅登记簿",
+      "outcome": "李怀安将旧借书券推至桌面中央",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "方守仁要求李怀安签署新借阅协议",
+      "entry_state": "旧借书券被推至桌面中央",
+      "outcome": "李怀安用手指划过旧借书券边缘",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "李怀安将旧借书券按在登记簿上",
+      "entry_state": "旧借书券被按在登记簿上",
+      "outcome": "方守仁手中手令被李怀安按住",
+      "target_chars": 647
+    }
+  ],
+  "8": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "长老的资历比他早二十年",
+      "entry_state": "沈婉如在登记簿上划掉李怀安的名字",
+      "outcome": "登记簿上的名字被划掉",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "沈婉如要求李怀安交出借书券",
+      "entry_state": "登记簿上的名字被划掉",
+      "outcome": "李怀安将借书券递到沈婉如手中",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "李怀安撕碎借书券",
+      "entry_state": "借书券被撕碎",
+      "outcome": "登记簿上的名字重新写上",
+      "target_chars": 647
+    }
+  ],
+  "9": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "期限是长老设定的，李怀安无法反驳",
+      "entry_state": "李怀安低头看着旧借书券",
+      "outcome": "李怀安将旧借书券放在桌上",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "方守仁要求李怀安签署延期协议",
+      "entry_state": "李怀安签署延期协议",
+      "outcome": "李怀安撕碎延期协议并丢入废纸篓",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "方守仁",
+        "李怀安"
+      ],
+      "driver": "李怀安将旧借书券交给方守仁",
+      "entry_state": "方守仁接过旧借书券",
+      "outcome": "方守仁低头查看旧借书券",
+      "target_chars": 647
+    }
+  ],
+  "10": [
+    {
+      "idx": 1,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "一次表决需经书记签字确认",
+      "entry_state": "沈婉如笔尖悬在登记簿上方",
+      "outcome": "沈婉如将签字笔推回李怀安",
+      "target_chars": 628
+    },
+    {
+      "idx": 2,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "沈婉如要求李怀安交出旧借书券",
+      "entry_state": "李怀安手指抚过借书券边缘",
+      "outcome": "李怀安将借书券压在登记簿下",
+      "target_chars": 628
+    },
+    {
+      "idx": 3,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "沈婉如指出借书券已过期三年",
+      "entry_state": "李怀安指尖触到借书券背面暗纹",
+      "outcome": "李怀安抽出借书券露出内页编号",
+      "target_chars": 628
+    },
+    {
+      "idx": 4,
+      "place": "借阅处",
+      "present": [
+        "李怀安",
+        "沈婉如"
+      ],
+      "driver": "李怀安撕下借书券内页投入登记簿",
+      "entry_state": "沈婉如笔尖停在登记簿空白处",
+      "outcome": "沈婉如将签字笔收回抽屉",
+      "target_chars": 628
+    }
+  ]
+}

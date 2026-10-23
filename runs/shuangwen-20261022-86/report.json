@@ -1,0 +1,188 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-86",
+  "profile": "爽文",
+  "title": "账本残页",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20343,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19234,
+    "chapter_chars_mean": 1923,
+    "chapter_chars_median": 1926,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 48.9,
+    "dialogue_chars_pct": 47.7,
+    "dialogue_para_pct": 85.8,
+    "interiority_para_pct": 4.8,
+    "narration_para_pct": 9.4,
+    "turn_under20_pct": 81.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.0,
+    "attr_adv_pct": 12.4,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 10.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "拍纸留痕",
+      "chars": 2087,
+      "score": 39.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "拍纸留痕",
+      "chars": 1740,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "签字笔对决",
+      "chars": 1998,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "拍纸留痕",
+      "chars": 1876,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "拍纸留痕",
+      "chars": 2151,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "对峙雪夜",
+      "chars": 2111,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "拍桌留痕",
+      "chars": 1800,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "撕纸留痕",
+      "chars": 1973,
+      "score": 87.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 9,
+      "title": "撕纸留痕",
+      "chars": 2075,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "纸条留痕",
+      "chars": 2522,
+      "score": 92.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈建国的」×4",
+      "[observe] 章内自我复读 2 句（如「林小满坚定地说，“除非你愿意面对真相…」）",
+      "[observe] attr_adv_pct 31.2 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「陈建国的」×6、「林小满的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「拍纸留痕」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「林小满的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「陈建国的」×6",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「拍纸留痕」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「陈建国的」×6",
+      "narration_para_pct 3.7 低于目标 5.0",
+      "[observe] 标题重复：「拍纸留痕」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「陈建国的」×3、「办公室」×3",
+      "narration_para_pct 3.3 低于目标 5.0",
+      "dialogue_run_mean 19 高于目标 14.0"
+    ],
+    "7": [
+      "单条套路句式超限：「陈建国的」×3",
+      "[observe] 标题与《拍纸留痕》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「陈建国的」×5",
+      "narration_para_pct 2.6 低于目标 5.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "dialogue_run_mean 37 高于目标 14.0",
+      "[observe] 标题与《拍纸留痕》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「陈建国的」×4、「林小满的」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「撕纸留痕」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「陈建国的」×7",
+      "[observe] 标题与《撕纸留痕》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 452.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T15:21:12"
+}

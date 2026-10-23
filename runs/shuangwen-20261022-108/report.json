@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-108",
+  "profile": "爽文",
+  "title": "旧工牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18711,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17710,
+    "chapter_chars_mean": 1771,
+    "chapter_chars_median": 1839,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 42.6,
+    "dialogue_chars_pct": 45.4,
+    "dialogue_para_pct": 81.8,
+    "interiority_para_pct": 6.6,
+    "narration_para_pct": 11.6,
+    "turn_under20_pct": 72.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.1,
+    "attr_adv_pct": 13.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 5.6,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "递出旧工牌",
+      "chars": 1546,
+      "score": 97.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "签字时的阴影",
+      "chars": 2043,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "化肥袋的日期谜题",
+      "chars": 2099,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "翻看工龄证明",
+      "chars": 1992,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "旧工牌的反光",
+      "chars": 1587,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻看工龄证明",
+      "chars": 2116,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "递出旧工牌",
+      "chars": 1777,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "递出旧工牌",
+      "chars": 1457,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "旧工牌的反光",
+      "chars": 1878,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "旧工牌的摩挲",
+      "chars": 2206,
+      "score": 91.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「说道“我」×4、「点了点头」×3",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "3": [
+      "attr_adv_pct 17.6 高于目标 12.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "[observe] attr_adv_pct 31.2 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "[observe] 标题重复：「翻看工龄证明」已存在"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「递出旧工牌」已存在"
+    ],
+    "8": [
+      "[observe] 标题重复：「递出旧工牌」已存在"
+    ],
+    "9": [
+      "[observe] 标题重复：「旧工牌的反光」已存在"
+    ],
+    "10": [
+      "attr_adv_pct 20.8 高于目标 12.0",
+      "[observe] 标题与《旧工牌的反光》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 423.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T16:59:48"
+}

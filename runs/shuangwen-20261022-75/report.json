@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-75",
+  "profile": "爽文",
+  "title": "账本翻页",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19080,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18075,
+    "chapter_chars_mean": 1808,
+    "chapter_chars_median": 1703,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 42.6,
+    "dialogue_chars_pct": 45.4,
+    "dialogue_para_pct": 84.7,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 9.3,
+    "turn_under20_pct": 74.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.8,
+    "attr_adv_pct": 17.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 7.2,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "验货单的缺角",
+      "chars": 1686,
+      "score": 97.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "算珠与稻谷的对峙",
+      "chars": 2484,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "玉牌上的天机纹",
+      "chars": 2139,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "旧账本的指纹",
+      "chars": 1500,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "旧账页的飘荡",
+      "chars": 2226,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "血迹染红验货单",
+      "chars": 1911,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "旧账页的飘荡",
+      "chars": 1592,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "验货单的铅字",
+      "chars": 1532,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "地契的边缘",
+      "chars": 1671,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 10,
+      "title": "玉牌触腕带",
+      "chars": 2329,
+      "score": 36.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀远的」×4、「天机阁」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀远的」×6、「验货台」×3",
+      "attr_adv_pct 20.8 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「天机阁」×11、「陆子安的」×4",
+      "[observe] attr_adv_pct 36.8 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「李怀远的」×6、「天机阁」×6、「陆子安的」×5"
+    ],
+    "5": [
+      "单条套路句式超限：「天机阁」×6、「李怀远的」×5、「”陆子安坚定地说」×3",
+      "[observe] attr_adv_pct 29.2 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「李怀远的」×8"
+    ],
+    "7": [
+      "单条套路句式超限：「李怀远的」×6、「天机阁」×4",
+      "narration_para_pct 3.0 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「旧账页的飘荡」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李怀远的」×7、「天机阁」×5",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题与《验货单的缺角》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "套路句式密度 19.2/千字 > 16.0（「天机阁」×15、「李怀远的」×4、「陆子安点了点头」×1）",
+      "单条套路句式超限：「天机阁」×15、「李怀远的」×4",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "dialogue_run_mean 15.5 高于目标 14.0"
+    ],
+    "10": [
+      "单条套路句式超限：「李怀远的」×12、「验货台」×7",
+      "[observe] 章内自我复读 1 句（如「你知道这意味着什么吗？…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 445.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T14:31:29"
+}

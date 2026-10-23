@@ -1,0 +1,173 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-103",
+  "profile": "爽文",
+  "title": "验收单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19334,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18365,
+    "chapter_chars_mean": 1836,
+    "chapter_chars_median": 1730,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 39.4,
+    "dialogue_chars_pct": 55.4,
+    "dialogue_para_pct": 87.5,
+    "interiority_para_pct": 2.6,
+    "narration_para_pct": 9.9,
+    "turn_under20_pct": 63.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.3,
+    "attr_adv_pct": 20.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 9.6,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字的背面秘密",
+      "chars": 1656,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "验收单的缺失",
+      "chars": 2062,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "签字表的对峙",
+      "chars": 1778,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "手指划过合同副本",
+      "chars": 1644,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "签字表飘落",
+      "chars": 2187,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "签字表飘落",
+      "chars": 1761,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "签字笔的温度升高",
+      "chars": 2044,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "手指划过验收单",
+      "chars": 1722,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "手指划过验收单",
+      "chars": 1858,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "手指划过验收单",
+      "chars": 2612,
+      "score": 37.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 3.2 低于目标 5.0",
+      "dialogue_run_mean 14.5 高于目标 14.0"
+    ],
+    "4": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 16.5 高于目标 14.0"
+    ],
+    "5": [
+      "attr_adv_pct 23.5 高于目标 12.0"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字表飘落」已存在"
+    ],
+    "7": [
+      "narration_para_pct 2.0 低于目标 5.0",
+      "[observe] attr_adv_pct 27.8 > 25.0（结构塌缩）"
+    ],
+    "8": [
+      "attr_adv_pct 18.8 高于目标 12.0"
+    ],
+    "9": [
+      "narration_para_pct 4.9 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "dialogue_run_mean 19.5 高于目标 14.0",
+      "[observe] 标题重复：「手指划过验收单」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「市卫生局」×4",
+      "[observe] attr_adv_pct 36.4 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「手指划过验收单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 435.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T16:37:37"
+}

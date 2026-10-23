@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-100",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18667,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17640,
+    "chapter_chars_mean": 1764,
+    "chapter_chars_median": 1715,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 43.3,
+    "dialogue_chars_pct": 48.3,
+    "dialogue_para_pct": 81.9,
+    "interiority_para_pct": 6.5,
+    "narration_para_pct": 11.6,
+    "turn_under20_pct": 75.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.1,
+    "attr_adv_pct": 15.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 6.6,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本上的红痕",
+      "chars": 1569,
+      "score": 39.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "铜铃自行摇晃",
+      "chars": 1827,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "香灰与账本的对峙",
+      "chars": 1530,
+      "score": 95.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "账本撕裂的瞬间",
+      "chars": 2198,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "香灰与金币的对峙",
+      "chars": 1614,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "账本翻动的余音",
+      "chars": 2036,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "账本翻动的余音",
+      "chars": 1802,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "账本上的红痕",
+      "chars": 2074,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "账本翻动的余音",
+      "chars": 1752,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "账本翻动的余音",
+      "chars": 2255,
+      "score": 92.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀远的」×4",
+      "[observe] 章内自我复读 2 句（如「可是这三个月的供奉都没有到达…」）",
+      "[observe] attr_adv_pct 36.4 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀远的」×5、「他知道自己」×3、「供奉殿」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「供奉殿」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「李怀远的」×12",
+      "[observe] attr_adv_pct 38.5 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「供奉殿」×4",
+      "narration_para_pct 3.1 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题与《香灰与账本的对峙》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「供奉殿」×4"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李怀远的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「账本翻动的余音」已存在"
+    ],
+    "8": [
+      "[observe] 标题重复：「账本上的红痕」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「供奉殿」×4、「李怀远的」×3",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题重复：「账本翻动的余音」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「供奉殿」×4",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题重复：「账本翻动的余音」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 445.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T16:24:16"
+}

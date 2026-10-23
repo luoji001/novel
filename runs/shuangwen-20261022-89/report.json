@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-89",
+  "profile": "爽文",
+  "title": "承诺书",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18338,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17452,
+    "chapter_chars_mean": 1745,
+    "chapter_chars_median": 1721,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 36.9,
+    "dialogue_chars_pct": 51.1,
+    "dialogue_para_pct": 84.5,
+    "interiority_para_pct": 6.7,
+    "narration_para_pct": 8.8,
+    "turn_under20_pct": 70.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.1,
+    "attr_adv_pct": 12.9,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 8.2,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "报价单上的签名",
+      "chars": 1765,
+      "score": 97.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "合同上的指纹",
+      "chars": 1789,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "敲门声",
+      "chars": 2004,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "撕碎的报价单",
+      "chars": 1672,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "撕碎的报价单",
+      "chars": 1856,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "撕碎的报价单",
+      "chars": 1799,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "承诺书背面的字",
+      "chars": 1844,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "撕碎的报价单",
+      "chars": 1790,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "撕碎的名册",
+      "chars": 1487,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "文件上的指纹",
+      "chars": 2322,
+      "score": 93.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 3.3 低于目标 5.0"
+    ],
+    "3": [
+      "narration_para_pct 4.5 低于目标 5.0",
+      "attr_adv_pct 12.1 高于目标 12.0",
+      "[observe] 章内自我复读 3 句（如「不过，我希望你能记住，你所做的一切都是建立在我的…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「既然你觉得我不合适，那不如让其他人试试？…」）",
+      "[observe] 标题重复：「撕碎的报价单」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「周婉如的」×4",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "[observe] 标题重复：「撕碎的报价单」已存在"
+    ],
+    "7": [
+      "attr_adv_pct 23.5 高于目标 12.0"
+    ],
+    "8": [
+      "attr_adv_pct 20.7 高于目标 12.0",
+      "[observe] 标题重复：「撕碎的报价单」已存在"
+    ],
+    "9": [
+      "[observe] 章内自我复读 1 句（如「有些人抢来的不只是生意，还有信任…」）"
+    ],
+    "10": [
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题与《合同上的指纹》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 412.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T15:34:28"
+}

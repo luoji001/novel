@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-114",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18025,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17057,
+    "chapter_chars_mean": 1706,
+    "chapter_chars_median": 1706,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 41.3,
+    "dialogue_chars_pct": 49.0,
+    "dialogue_para_pct": 83.7,
+    "interiority_para_pct": 4.0,
+    "narration_para_pct": 12.3,
+    "turn_under20_pct": 75.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.6,
+    "attr_adv_pct": 12.3,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 6.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "烛台的阴影",
+      "chars": 1712,
+      "score": 39.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "茶壶里的裂痕",
+      "chars": 1834,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "账本的墨迹",
+      "chars": 1433,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "墙上的字迹",
+      "chars": 1895,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "族谱的墨迹",
+      "chars": 1817,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "账本的缺口",
+      "chars": 1656,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "账本的缺口",
+      "chars": 1813,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "族谱的缺口",
+      "chars": 1821,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "族谱的缺口",
+      "chars": 1570,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "账本的缺口",
+      "chars": 2464,
+      "score": 93.5,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周德昌的」×5",
+      "[observe] attr_adv_pct 26.7 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周德昌的」×6",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周德昌的」×6"
+    ],
+    "5": [
+      "单条套路句式超限：「周德昌的」×12、「周文远的」×4",
+      "[observe] 标题与《账本的墨迹》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「周文远点」×3、「周德昌的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题与《账本的墨迹》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "[observe] 标题重复：「账本的缺口」已存在"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周德昌的」×8、「他知道这」×3",
+      "[observe] 标题与《账本的缺口》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "情节与已写章节重复 0.71 ≥ 0.7（撞上「周文远揭露族谱造假并出示父亲遗留账本，引发周德昌对家族秘…」）",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「族谱的缺口」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周德昌的」×12",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「账本的缺口」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 418.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T17:26:56"
+}

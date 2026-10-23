@@ -1,0 +1,179 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-128",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19108,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18164,
+    "chapter_chars_mean": 1816,
+    "chapter_chars_median": 1793,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 39.6,
+    "dialogue_chars_pct": 48.2,
+    "dialogue_para_pct": 86.3,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 7.7,
+    "turn_under20_pct": 69.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.9,
+    "attr_adv_pct": 15.1,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 7.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本掀翻旧时光",
+      "chars": 1844,
+      "score": 40.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "账本揭开真相",
+      "chars": 2034,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "撕碎登记簿",
+      "chars": 1667,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红墨水瓶的威胁",
+      "chars": 2087,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "账本上的签名",
+      "chars": 1765,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "撕纸角的对峙",
+      "chars": 1933,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "撕纸角的对峙",
+      "chars": 1576,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "账本翻页的对峙",
+      "chars": 1941,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "账本上的签名",
+      "chars": 1840,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "撕纸角的对峙",
+      "chars": 2411,
+      "score": 93.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周建国的」×7",
+      "[observe] attr_adv_pct 60.0 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「周建国的」×8",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周建国的」×4",
+      "narration_para_pct 3.8 低于目标 5.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周建国的」×10、「林小曼的」×5"
+    ],
+    "5": [
+      "单条套路句式超限：「周建国的」×7",
+      "attr_adv_pct 23.1 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「周建国的」×5",
+      "narration_para_pct 4.5 低于目标 5.0"
+    ],
+    "7": [
+      "单条套路句式超限：「周建国的」×5、「林小曼的」×3",
+      "narration_para_pct 2.9 低于目标 5.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「撕纸角的对峙」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「周建国的」×3",
+      "[observe] 章内自我复读 1 句（如「那样的话，至少我能看到自己究竟欠了多少债…」）",
+      "[observe] 标题重复：「账本上的签名」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周建国的」×9",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「撕纸角的对峙」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 434.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T18:30:05"
+}

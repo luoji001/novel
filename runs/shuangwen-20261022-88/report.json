@@ -1,0 +1,176 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261022-88",
+  "profile": "爽文",
+  "title": "铅笔批注",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 17881,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17020,
+    "chapter_chars_mean": 1702,
+    "chapter_chars_median": 1602,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 34.6,
+    "dialogue_chars_pct": 46.2,
+    "dialogue_para_pct": 85.5,
+    "interiority_para_pct": 6.9,
+    "narration_para_pct": 7.6,
+    "turn_under20_pct": 67.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.2,
+    "attr_adv_pct": 8.8,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 7.3,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铅笔批注的账本",
+      "chars": 1631,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铅笔划过账本页角",
+      "chars": 1739,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "铅笔划过账本页角",
+      "chars": 1797,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "账本上的铅笔痕迹",
+      "chars": 1586,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铅笔划过账本页角",
+      "chars": 1730,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "铅笔划过账本页角",
+      "chars": 1632,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "铅笔划过账本页角",
+      "chars": 1630,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "铅笔划过账本页角",
+      "chars": 1627,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "铅笔划过账本页角",
+      "chars": 1828,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "铅笔划过账本页角",
+      "chars": 2671,
+      "score": 91.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "3": [
+      "[observe] 标题重复：「铅笔划过账本页角」已存在"
+    ],
+    "4": [
+      "narration_para_pct 4.3 低于目标 5.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周振国的」×4",
+      "narration_para_pct 3.6 低于目标 5.0",
+      "[observe] 标题重复：「铅笔划过账本页角」已存在"
+    ],
+    "6": [
+      "narration_para_pct 2.6 低于目标 5.0",
+      "[observe] 标题重复：「铅笔划过账本页角」已存在"
+    ],
+    "7": [
+      "[observe] 标题重复：「铅笔划过账本页角」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「周振国的」×5",
+      "narration_para_pct 3.8 低于目标 5.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「铅笔划过账本页角」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「铅笔划过账本页角」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周振国的」×7、「县供销社」×4",
+      "[observe] 标题重复：「铅笔划过账本页角」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 424.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-22T15:30:08"
+}
