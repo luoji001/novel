@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-104",
+  "profile": "爽文",
+  "title": "焚单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19032,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18035,
+    "chapter_chars_mean": 1804,
+    "chapter_chars_median": 1671,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 42,
+    "dialogue_chars_pct": 45.4,
+    "dialogue_para_pct": 82.2,
+    "interiority_para_pct": 6.8,
+    "narration_para_pct": 11.0,
+    "turn_under20_pct": 73.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.2,
+    "attr_adv_pct": 11.8,
+    "scenes_per_chapter": 2.6,
+    "dialogue_run_mean": 6.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "掀开泛黄供奉单",
+      "chars": 1644,
+      "score": 38.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摊开泛黄供奉单",
+      "chars": 2248,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "摊开泛黄供奉单",
+      "chars": 1765,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "签字笔的重量",
+      "chars": 1780,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摊开泛黄供奉单",
+      "chars": 1822,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摊开泛黄供奉单",
+      "chars": 1733,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "摊开泛黄供奉单",
+      "chars": 1747,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "供奉单的重量",
+      "chars": 1689,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摊开泛黄供奉单",
+      "chars": 2224,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "碎纸入掌",
+      "chars": 2370,
+      "score": 93.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏怀远的」×4",
+      "[observe] attr_adv_pct 40.0 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「苏怀远的」×6",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题与《掀开泛黄供奉单》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "narration_para_pct 3.1 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「摊开泛黄供奉单」已存在"
+    ],
+    "4": [
+      "命中套话收尾句"
+    ],
+    "5": [
+      "单条套路句式超限：「点了点头“」×3、「林秋站在」×3",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「摊开泛黄供奉单」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「摊开泛黄供奉单」已存在"
+    ],
+    "7": [
+      "narration_para_pct 4.4 低于目标 5.0",
+      "[observe] 标题重复：「摊开泛黄供奉单」已存在"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "[observe] 章内自我复读 1 句（如「所以你不能拿着过去的记录来要求我现在给你好处…」）"
+    ],
+    "9": [
+      "attr_adv_pct 15.2 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「因为你的供奉期限到了…」）",
+      "[observe] 标题重复：「摊开泛黄供奉单」已存在"
+    ],
+    "10": [
+      "命中套话收尾句",
+      "单条套路句式超限：「苏怀远的」×3、「他知道这」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 437.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T16:41:54"
+}

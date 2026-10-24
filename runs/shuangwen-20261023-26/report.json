@@ -1,0 +1,170 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-26",
+  "profile": "爽文",
+  "title": "旧账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18971,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17981,
+    "chapter_chars_mean": 1798,
+    "chapter_chars_median": 1790,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 41.3,
+    "dialogue_chars_pct": 49.7,
+    "dialogue_para_pct": 82.8,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 11.3,
+    "turn_under20_pct": 65.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.6,
+    "attr_adv_pct": 7.4,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 6.2,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账册燃尽的余灰",
+      "chars": 1637,
+      "score": 97.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "算盘上的珠子排列",
+      "chars": 1747,
+      "score": 95.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "账本上的指纹痕迹",
+      "chars": 1882,
+      "score": 37.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "账本上的指纹痕迹",
+      "chars": 1949,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "账本摊开的裂痕",
+      "chars": 2322,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "药方摊开的裂痕",
+      "chars": 1507,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "三两当归的补偿",
+      "chars": 1884,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "账本摊开的裂痕",
+      "chars": 2028,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "账本摊开的裂痕",
+      "chars": 1688,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "药材清单的重量",
+      "chars": 2317,
+      "score": 37.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「点了点头」×3",
+      "[observe] 标题重复：「账本上的指纹痕迹」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「丹房管理委员会」×3"
+    ],
+    "6": [
+      "[observe] 标题与《账本摊开的裂痕》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「说道“我」×3、「丹房堂上」×3",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "8": [
+      "narration_para_pct 2.4 低于目标 5.0",
+      "[observe] 标题重复：「账本摊开的裂痕」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「丹房管理委员会」×3",
+      "attr_adv_pct 21.4 高于目标 12.0",
+      "[observe] 标题重复：「账本摊开的裂痕」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李三点点」×5、「他知道这」×3",
+      "[observe] 章内自我复读 1 句（如「李师傅，王五师傅也在等你呢…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 423.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T10:50:07"
+}

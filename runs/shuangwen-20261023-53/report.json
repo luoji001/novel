@@ -1,0 +1,186 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-53",
+  "profile": "爽文",
+  "title": "旧账",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18395,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17394,
+    "chapter_chars_mean": 1739,
+    "chapter_chars_median": 1756,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 43,
+    "dialogue_chars_pct": 48.2,
+    "dialogue_para_pct": 80.5,
+    "interiority_para_pct": 6.3,
+    "narration_para_pct": 13.2,
+    "turn_under20_pct": 73.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.2,
+    "attr_adv_pct": 19.9,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 5.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "印章的秘密",
+      "chars": 1577,
+      "score": 39.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "旧账单对峙",
+      "chars": 1957,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "递出旧账单",
+      "chars": 2001,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "掀开旧账单",
+      "chars": 2119,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铜铃上的指纹",
+      "chars": 1770,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "掀开旧账单",
+      "chars": 1738,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "掀开旧账单",
+      "chars": 1926,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "递出旧账单",
+      "chars": 1678,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "掀开旧账单",
+      "chars": 1575,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "掀开旧账单",
+      "chars": 2044,
+      "score": 91.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀安的」×5",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「我记得很清楚，这枚印章原本是由前任账房总管保管的…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀安的」×5",
+      "attr_adv_pct 21.4 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「李怀安的」×6",
+      "[observe] 标题与《旧账单对峙》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「李怀安的」×7、「供奉堂」×5",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题与《递出旧账单》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「李怀安的」×9",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "[observe] 标题重复：「掀开旧账单」已存在"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李怀安的」×4、「供奉堂」×3",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「掀开旧账单」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李怀安的」×4、「供奉堂」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「递出旧账单」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李怀安的」×6、「赵九歌的」×4",
+      "[observe] attr_adv_pct 40.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「掀开旧账单」已存在"
+    ],
+    "10": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李怀安的」×3、「说道“你」×3",
+      "[observe] 标题重复：「掀开旧账单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 447.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T12:51:44"
+}

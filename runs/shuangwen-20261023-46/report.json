@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-46",
+  "profile": "爽文",
+  "title": "药方残页",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18775,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17824,
+    "chapter_chars_mean": 1782,
+    "chapter_chars_median": 1736,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 39.7,
+    "dialogue_chars_pct": 36.8,
+    "dialogue_para_pct": 75.8,
+    "interiority_para_pct": 9.2,
+    "narration_para_pct": 15.0,
+    "turn_under20_pct": 78.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.1,
+    "attr_adv_pct": 16.6,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 4.2,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药秤称量药方残页",
+      "chars": 1951,
+      "score": 98.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "药方残页的火光",
+      "chars": 1824,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "药方残页的指尖",
+      "chars": 1979,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "药秤称量药方残页",
+      "chars": 1590,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "药秤称量当归",
+      "chars": 2005,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "药方残页的火光",
+      "chars": 1745,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "药秤称量当归",
+      "chars": 1815,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "药秤称量当归",
+      "chars": 1681,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "药方残页的指纹",
+      "chars": 1743,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "药秤称量当归",
+      "chars": 2432,
+      "score": 94.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陆怀瑾的」×3、「他知道这」×3",
+      "dialogue_chars_pct 29.6 低于目标 30.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈砚秋的」×4",
+      "[observe] 标题与《药方残页的火光》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 标题重复：「药秤称量药方残页」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「沈砚秋的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「沈砚秋的」×5、「沈砚秋站在」×3",
+      "[observe] 标题重复：「药方残页的火光」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「陆怀瑾的」×5",
+      "[observe] attr_adv_pct 37.5 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「药秤称量当归」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「沈砚秋的」×3",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「药秤称量当归」已存在"
+    ],
+    "9": [
+      "[observe] 标题与《药方残页的指尖》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「药秤称量当归」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 435.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T12:18:51"
+}

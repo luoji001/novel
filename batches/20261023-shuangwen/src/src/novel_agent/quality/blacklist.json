@@ -1,0 +1,783 @@
+{
+ "sentence_templates": [
+  {
+   "pattern": "‹A›和‹B›",
+   "df": 176,
+   "count": 577
+  },
+  {
+   "pattern": "‹A›和‹B›对视",
+   "df": 118,
+   "count": 150
+  },
+  {
+   "pattern": "‹A›和‹B›对视一眼",
+   "df": 98,
+   "count": 124
+  },
+  {
+   "pattern": "点了点头",
+   "df": 97,
+   "count": 127
+  },
+  {
+   "pattern": "‹A›和‹B›站在",
+   "df": 93,
+   "count": 94
+  },
+  {
+   "pattern": "中充满了",
+   "df": 84,
+   "count": 104
+  },
+  {
+   "pattern": "他们知道",
+   "df": 75,
+   "count": 95
+  },
+  {
+   "pattern": "›点了点头",
+   "df": 74,
+   "count": 91
+  },
+  {
+   "pattern": "‹A›点",
+   "df": 70,
+   "count": 77
+  },
+  {
+   "pattern": "心中充满了",
+   "df": 68,
+   "count": 75
+  },
+  {
+   "pattern": "这个世界",
+   "df": 68,
+   "count": 153
+  },
+  {
+   "pattern": "就在此时",
+   "df": 63,
+   "count": 77
+  },
+  {
+   "pattern": "他们知道这",
+   "df": 61,
+   "count": 73
+  },
+  {
+   "pattern": "你们已经",
+   "df": 59,
+   "count": 75
+  },
+  {
+   "pattern": "‹A›深吸",
+   "df": 55,
+   "count": 57
+  },
+  {
+   "pattern": "‹B›点",
+   "df": 55,
+   "count": 65
+  },
+  {
+   "pattern": "深吸一口气",
+   "df": 54,
+   "count": 58
+  },
+  {
+   "pattern": "就在这时",
+   "df": 54,
+   "count": 60
+  },
+  {
+   "pattern": "声音在他",
+   "df": 53,
+   "count": 58
+  },
+  {
+   "pattern": "‹B›问道",
+   "df": 51,
+   "count": 56
+  },
+  {
+   "pattern": "我们必须",
+   "df": 50,
+   "count": 62
+  },
+  {
+   "pattern": "充满了疑",
+   "df": 50,
+   "count": 54
+  },
+  {
+   "pattern": "一眼心中",
+   "df": 50,
+   "count": 53
+  },
+  {
+   "pattern": "他们必须",
+   "df": 49,
+   "count": 59
+  },
+  {
+   "pattern": "耳边响起",
+   "df": 49,
+   "count": 53
+  },
+  {
+   "pattern": "个世界的",
+   "df": 48,
+   "count": 84
+  },
+  {
+   "pattern": "说道“我",
+   "df": 47,
+   "count": 49
+  },
+  {
+   "pattern": "坚定地说",
+   "df": 47,
+   "count": 49
+  },
+  {
+   "pattern": "‹A›点了点头",
+   "df": 46,
+   "count": 49
+  },
+  {
+   "pattern": "到了一个",
+   "df": 45,
+   "count": 56
+  },
+  {
+   "pattern": "›深吸一口气",
+   "df": 44,
+   "count": 46
+  },
+  {
+   "pattern": "的声音在他",
+   "df": 44,
+   "count": 45
+  },
+  {
+   "pattern": "心中充满了疑",
+   "df": 43,
+   "count": 47
+  },
+  {
+   "pattern": "”‹B›问道",
+   "df": 43,
+   "count": 48
+  },
+  {
+   "pattern": "“你们已经",
+   "df": 42,
+   "count": 49
+  },
+  {
+   "pattern": "带着一丝",
+   "df": 42,
+   "count": 43
+  },
+  {
+   "pattern": "就在此时一",
+   "df": 40,
+   "count": 45
+  },
+  {
+   "pattern": "一眼他们",
+   "df": 40,
+   "count": 48
+  },
+  {
+   "pattern": "你们需要",
+   "df": 40,
+   "count": 53
+  },
+  {
+   "pattern": "耳边响起“",
+   "df": 39,
+   "count": 43
+  },
+  {
+   "pattern": "不仅仅是",
+   "df": 39,
+   "count": 44
+  },
+  {
+   "pattern": "‹A›深吸一口气",
+   "df": 38,
+   "count": 40
+  },
+  {
+   "pattern": "声音在他们",
+   "df": 38,
+   "count": 41
+  },
+  {
+   "pattern": "‹B›的",
+   "df": 38,
+   "count": 49
+  },
+  {
+   "pattern": "知道自己",
+   "df": 38,
+   "count": 58
+  },
+  {
+   "pattern": "“你是谁",
+   "df": 38,
+   "count": 39
+  },
+  {
+   "pattern": "A›和‹B›对视一眼心中",
+   "df": 37,
+   "count": 40
+  },
+  {
+   "pattern": "‹A›和‹B›对视一眼心",
+   "df": 37,
+   "count": 40
+  },
+  {
+   "pattern": "‹B›点了点头",
+   "df": 37,
+   "count": 42
+  },
+  {
+   "pattern": "”‹A›问道",
+   "df": 37,
+   "count": 50
+  },
+  {
+   "pattern": "“欢迎来到",
+   "df": 37,
+   "count": 37
+  },
+  {
+   "pattern": "‹B›惊",
+   "df": 37,
+   "count": 42
+  },
+  {
+   "pattern": "一眼心中充满了",
+   "df": 36,
+   "count": 39
+  },
+  {
+   "pattern": "›点了点头他",
+   "df": 36,
+   "count": 38
+  },
+  {
+   "pattern": "微微一笑",
+   "df": 36,
+   "count": 39
+  },
+  {
+   "pattern": "”‹A›坚定地说",
+   "df": 35,
+   "count": 37
+  },
+  {
+   "pattern": "就在这时一",
+   "df": 35,
+   "count": 36
+  },
+  {
+   "pattern": "这个世界的",
+   "df": 35,
+   "count": 62
+  },
+  {
+   "pattern": "响起“你们",
+   "df": 35,
+   "count": 35
+  },
+  {
+   "pattern": "“我们必须",
+   "df": 34,
+   "count": 40
+  },
+  {
+   "pattern": "环顾四周",
+   "df": 34,
+   "count": 35
+  },
+  {
+   "pattern": "‹A›和‹B›对视一眼他",
+   "df": 33,
+   "count": 41
+  },
+  {
+   "pattern": "A›和‹B›对视一眼他们",
+   "df": 33,
+   "count": 41
+  },
+  {
+   "pattern": "声音在他们耳边响起“",
+   "df": 33,
+   "count": 36
+  },
+  {
+   "pattern": "他知道这",
+   "df": 33,
+   "count": 38
+  },
+  {
+   "pattern": "发现自己",
+   "df": 33,
+   "count": 37
+  },
+  {
+   "pattern": "的声音在他们",
+   "df": 32,
+   "count": 33
+  },
+  {
+   "pattern": "充满了疑惑",
+   "df": 32,
+   "count": 32
+  },
+  {
+   "pattern": "来到了一",
+   "df": 32,
+   "count": 33
+  },
+  {
+   "pattern": "新的挑战",
+   "df": 32,
+   "count": 32
+  },
+  {
+   "pattern": "›惊讶地",
+   "df": 32,
+   "count": 35
+  },
+  {
+   "pattern": "一个巨大的",
+   "df": 31,
+   "count": 33
+  },
+  {
+   "pattern": "”‹B›惊",
+   "df": 31,
+   "count": 34
+  },
+  {
+   "pattern": "‹A›的",
+   "df": 31,
+   "count": 49
+  },
+  {
+   "pattern": "的守护者",
+   "df": 31,
+   "count": 39
+  },
+  {
+   "pattern": "这将是一",
+   "df": 31,
+   "count": 40
+  },
+  {
+   "pattern": "‹A›站在",
+   "df": 30,
+   "count": 30
+  },
+  {
+   "pattern": "们必须找到",
+   "df": 30,
+   "count": 32
+  },
+  {
+   "pattern": "他知道自己",
+   "df": 30,
+   "count": 42
+  },
+  {
+   "pattern": "耀眼的光芒",
+   "df": 30,
+   "count": 30
+  },
+  {
+   "pattern": "›好奇地",
+   "df": 30,
+   "count": 30
+  },
+  {
+   "pattern": "‹B›在",
+   "df": 30,
+   "count": 32
+  },
+  {
+   "pattern": "现在你们",
+   "df": 30,
+   "count": 33
+  },
+  {
+   "pattern": "知道这将是",
+   "df": 29,
+   "count": 32
+  },
+  {
+   "pattern": "他们开始",
+   "df": 29,
+   "count": 33
+  },
+  {
+   "pattern": "说道“你",
+   "df": 29,
+   "count": 35
+  },
+  {
+   "pattern": "的声音在他们耳边响起“",
+   "df": 28,
+   "count": 29
+  },
+  {
+   "pattern": "一眼心中充满了疑",
+   "df": 28,
+   "count": 30
+  },
+  {
+   "pattern": "心中充满了疑惑",
+   "df": 28,
+   "count": 28
+  },
+  {
+   "pattern": "“‹A›你",
+   "df": 28,
+   "count": 32
+  },
+  {
+   "pattern": "“这是什么",
+   "df": 28,
+   "count": 29
+  },
+  {
+   "pattern": "一口气他",
+   "df": 28,
+   "count": 28
+  },
+  {
+   "pattern": "一个世界",
+   "df": 28,
+   "count": 32
+  },
+  {
+   "pattern": "你们终于",
+   "df": 28,
+   "count": 28
+  },
+  {
+   "pattern": "和‹B›对视一眼心中充满",
+   "df": 27,
+   "count": 30
+  },
+  {
+   "pattern": "›和‹B›对视一眼心中充",
+   "df": 27,
+   "count": 30
+  },
+  {
+   "pattern": "‹A›和‹B›在",
+   "df": 27,
+   "count": 27
+  },
+  {
+   "pattern": "”‹A›说道",
+   "df": 27,
+   "count": 34
+  },
+  {
+   "pattern": "‹A›感",
+   "df": 27,
+   "count": 37
+  },
+  {
+   "pattern": "为什么会",
+   "df": 27,
+   "count": 31
+  },
+  {
+   "pattern": "‹B›好奇地问",
+   "df": 26,
+   "count": 26
+  },
+  {
+   "pattern": "前所未有的",
+   "df": 26,
+   "count": 28
+  },
+  {
+   "pattern": "中带着一丝",
+   "df": 26,
+   "count": 27
+  },
+  {
+   "pattern": "变得更加",
+   "df": 26,
+   "count": 28
+  },
+  {
+   "pattern": "们的到来",
+   "df": 26,
+   "count": 28
+  },
+  {
+   "pattern": "‹B›对视一眼心中充满了",
+   "df": 25,
+   "count": 28
+  },
+  {
+   "pattern": "一道耀眼的光芒",
+   "df": 25,
+   "count": 25
+  },
+  {
+   "pattern": "›环顾四周",
+   "df": 25,
+   "count": 25
+  },
+  {
+   "pattern": "个神秘的",
+   "df": 25,
+   "count": 29
+  },
+  {
+   "pattern": "个古老的",
+   "df": 25,
+   "count": 30
+  },
+  {
+   "pattern": "自己已经",
+   "df": 25,
+   "count": 32
+  },
+  {
+   "pattern": "了自己的",
+   "df": 25,
+   "count": 30
+  },
+  {
+   "pattern": "终于来了",
+   "df": 25,
+   "count": 25
+  },
+  {
+   "pattern": "们的旅程",
+   "df": 25,
+   "count": 27
+  },
+  {
+   "pattern": "仿佛整个",
+   "df": 25,
+   "count": 25
+  },
+  {
+   "pattern": "一口气他知道",
+   "df": 24,
+   "count": 24
+  },
+  {
+   "pattern": "‹A›感到",
+   "df": 24,
+   "count": 34
+  },
+  {
+   "pattern": "“我不知道",
+   "df": 24,
+   "count": 25
+  },
+  {
+   "pattern": "一股强大的",
+   "df": 24,
+   "count": 25
+  },
+  {
+   "pattern": "点了点头“",
+   "df": 24,
+   "count": 33
+  }
+ ],
+ "opening_templates": [
+  {
+   "pattern": "‹A›和‹",
+   "df": 165
+  },
+  {
+   "pattern": "‹A›深吸",
+   "df": 55
+  },
+  {
+   "pattern": "‹A›点了",
+   "df": 44
+  },
+  {
+   "pattern": "”‹B›问",
+   "df": 43
+  },
+  {
+   "pattern": "就在此时一",
+   "df": 40
+  },
+  {
+   "pattern": "”‹A›问",
+   "df": 37
+  },
+  {
+   "pattern": "就在这时一",
+   "df": 35
+  },
+  {
+   "pattern": "”‹A›坚",
+   "df": 33
+  },
+  {
+   "pattern": "‹A›站在",
+   "df": 30
+  },
+  {
+   "pattern": "”‹B›惊",
+   "df": 29
+  },
+  {
+   "pattern": "‹B›点了",
+   "df": 27
+  },
+  {
+   "pattern": "他们知道这",
+   "df": 24
+  },
+  {
+   "pattern": "”‹A›说",
+   "df": 22
+  },
+  {
+   "pattern": "‹A›感到",
+   "df": 21
+  },
+  {
+   "pattern": "”‹B›轻",
+   "df": 21
+  },
+  {
+   "pattern": "‹B›好奇",
+   "df": 20
+  },
+  {
+   "pattern": "”‹B›低",
+   "df": 19
+  },
+  {
+   "pattern": "‹A›环顾",
+   "df": 19
+  },
+  {
+   "pattern": "随着他们的",
+   "df": 16
+  },
+  {
+   "pattern": "最终‹A›",
+   "df": 15
+  },
+  {
+   "pattern": "‹A›点点",
+   "df": 15
+  }
+ ],
+ "dialogue_templates": [
+  {
+   "pattern": "你是谁？",
+   "df": 23
+  },
+  {
+   "pattern": "‹LOC›",
+   "df": 19
+  },
+  {
+   "pattern": "你们终于来了。",
+   "df": 17
+  },
+  {
+   "pattern": "这是什么地方？",
+   "df": 12
+  },
+  {
+   "pattern": "这是什么？",
+   "df": 11
+  },
+  {
+   "pattern": "这是哪里？",
+   "df": 7
+  },
+  {
+   "pattern": "我们该怎么做？",
+   "df": 5
+  },
+  {
+   "pattern": "无论如何，我们都不能放弃。",
+   "df": 5
+  },
+  {
+   "pattern": "我们已经没有退路，只能勇往直前。",
+   "df": 5
+  },
+  {
+   "pattern": "我们准备好了。",
+   "df": 5
+  },
+  {
+   "pattern": "‹ORG›",
+   "df": 5
+  },
+  {
+   "pattern": "我准备好了。",
+   "df": 4
+  },
+  {
+   "pattern": "‹B›？你怎么会在这里？",
+   "df": 4
+  },
+  {
+   "pattern": "因为你的心中有很多未解的疑惑，而这里是你心灵深处的地方。",
+   "df": 4
+  }
+ ],
+ "title_words": [
+  {
+   "word": "新世界的",
+   "df": 6
+  },
+  {
+   "word": "的试炼",
+   "df": 5
+  },
+  {
+   "word": "时空的裂",
+   "df": 3
+  },
+  {
+   "word": "的觉醒",
+   "df": 3
+  },
+  {
+   "word": "图书馆的",
+   "df": 3
+  }
+ ],
+ "meta": {
+  "source": [
+   "novel.v1.210ch.txt"
+  ],
+  "chapters": 210,
+  "titles": 210,
+  "df_min": 15,
+  "ngram": [
+   4,
+   12
+  ],
+  "note": "人名/专名已占位符化，骨架与具体设定无关，换设定后仍适用"
+ }
+}

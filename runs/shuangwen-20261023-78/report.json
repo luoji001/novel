@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-78",
+  "profile": "爽文",
+  "title": "账本副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19241,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18274,
+    "chapter_chars_mean": 1827,
+    "chapter_chars_median": 1806,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 40.7,
+    "dialogue_chars_pct": 51.9,
+    "dialogue_para_pct": 85.9,
+    "interiority_para_pct": 5.3,
+    "narration_para_pct": 8.8,
+    "turn_under20_pct": 69.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.7,
+    "attr_adv_pct": 18.6,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 11.7,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔的博弈",
+      "chars": 1528,
+      "score": 98.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "账本副本的浮现",
+      "chars": 2043,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "签字笔的抉择",
+      "chars": 1816,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "账本副本的浮现",
+      "chars": 2246,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "工龄证明的冲击",
+      "chars": 1790,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "签字笔的较量",
+      "chars": 1978,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "签字笔的确认",
+      "chars": 1725,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "签字笔的确认",
+      "chars": 2051,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "签字笔的确认",
+      "chars": 1741,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "签字笔的确认",
+      "chars": 2313,
+      "score": 93.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "2": [
+      "narration_para_pct 3.9 低于目标 5.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "dialogue_run_mean 49 高于目标 14.0"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题与《签字笔的博弈》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「”陈文低」×4",
+      "[observe] 标题重复：「账本副本的浮现」已存在"
+    ],
+    "6": [
+      "narration_para_pct 4.9 低于目标 5.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题与《签字笔的抉择》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×5",
+      "[observe] attr_adv_pct 35.0 > 25.0（结构塌缩）",
+      "[observe] 标题与《签字笔的较量》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「签字笔的确认」已存在"
+    ],
+    "9": [
+      "narration_para_pct 3.4 低于目标 5.0",
+      "[observe] attr_adv_pct 31.2 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔的确认」已存在"
+    ],
+    "10": [
+      "attr_adv_pct 23.5 高于目标 12.0",
+      "[observe] 标题重复：「签字笔的确认」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 432.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T14:44:07"
+}

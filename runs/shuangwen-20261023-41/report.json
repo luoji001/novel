@@ -1,0 +1,176 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-41",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19380,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18401,
+    "chapter_chars_mean": 1840,
+    "chapter_chars_median": 1821,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 40.4,
+    "dialogue_chars_pct": 51.8,
+    "dialogue_para_pct": 85.6,
+    "interiority_para_pct": 3.7,
+    "narration_para_pct": 10.8,
+    "turn_under20_pct": 69.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.4,
+    "attr_adv_pct": 16.5,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 10.7,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲章程的裂痕",
+      "chars": 1920,
+      "score": 99.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "签名笔的较量",
+      "chars": 2337,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字笔的较量",
+      "chars": 1994,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "划线的账本",
+      "chars": 1918,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "拍案而起的签字笔",
+      "chars": 1786,
+      "score": 87.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "签名笔的较量",
+      "chars": 1797,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "翻页的账本",
+      "chars": 1819,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "翻阅账本的较量",
+      "chars": 1501,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "签名笔的裂痕",
+      "chars": 1995,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "账本的红印",
+      "chars": 2303,
+      "score": 93.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李建国的」×5、「周小满的」×3",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "2": [
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「李建国的」×4、「周小满的」×4",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题与《签名笔的较量》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "narration_para_pct 2.7 低于目标 5.0",
+      "dialogue_run_mean 17 高于目标 14.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国的」×4",
+      "narration_para_pct 2.7 低于目标 5.0",
+      "attr_adv_pct 23.1 高于目标 12.0",
+      "dialogue_run_mean 36 高于目标 14.0"
+    ],
+    "6": [
+      "单条套路句式超限：「周小满的」×3",
+      "[observe] 标题重复：「签名笔的较量」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「周小满的」×3",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题与《划线的账本》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「李建国的」×3",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题与《签名笔的较量》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 431.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T11:56:51"
+}

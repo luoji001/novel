@@ -1,0 +1,181 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-72",
+  "profile": "爽文",
+  "title": "借阅证",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 17247,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 16297,
+    "chapter_chars_mean": 1630,
+    "chapter_chars_median": 1546,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 40.6,
+    "dialogue_chars_pct": 50.3,
+    "dialogue_para_pct": 86.2,
+    "interiority_para_pct": 4.7,
+    "narration_para_pct": 9.1,
+    "turn_under20_pct": 74.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.9,
+    "attr_adv_pct": 12.3,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 13.3,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "借阅证编号风波",
+      "chars": 1663,
+      "score": 99.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "撕碎登记簿一角",
+      "chars": 2124,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "按红印",
+      "chars": 1956,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "挑战借阅证编号",
+      "chars": 1466,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "触碰铜令牌",
+      "chars": 1575,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "签上姓名",
+      "chars": 1425,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "按红印",
+      "chars": 1447,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "按下红印",
+      "chars": 1743,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "签下姓名",
+      "chars": 1603,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "签下姓名",
+      "chars": 2235,
+      "score": 88.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「方守仁的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀远站在」×3、「带着一丝」×3、「李怀远的」×3"
+    ],
+    "3": [
+      "dialogue_run_mean 16.7 高于目标 14.0",
+      "[observe] attr_adv_pct 36.0 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「方守仁的」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题与《借阅证编号风波》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「方守仁的」×7、「李怀远的」×3"
+    ],
+    "6": [
+      "narration_para_pct 4.9 低于目标 5.0"
+    ],
+    "7": [
+      "[observe] 标题重复：「按红印」已存在"
+    ],
+    "8": [
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "dialogue_run_mean 15.5 高于目标 14.0",
+      "[observe] 标题与《按红印》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「方守仁的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题与《签上姓名》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「方守仁的」×6",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 52 高于目标 14.0",
+      "[observe] 标题重复：「签下姓名」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 418.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T14:17:29"
+}

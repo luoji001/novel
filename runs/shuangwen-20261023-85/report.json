@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-85",
+  "profile": "爽文",
+  "title": "袖中令牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20043,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19057,
+    "chapter_chars_mean": 1906,
+    "chapter_chars_median": 1940,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 42.8,
+    "dialogue_chars_pct": 47.6,
+    "dialogue_para_pct": 80.6,
+    "interiority_para_pct": 6.9,
+    "narration_para_pct": 12.5,
+    "turn_under20_pct": 63.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.0,
+    "attr_adv_pct": 14.0,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 5.2,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "袖中令牌",
+      "chars": 1489,
+      "score": 39.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "玉牌对峙",
+      "chars": 1967,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "令牌对峙",
+      "chars": 1987,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "印章对决",
+      "chars": 2238,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "袖中笔记",
+      "chars": 2178,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "袖中令牌",
+      "chars": 2078,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "令牌现身",
+      "chars": 2083,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "袖中令牌",
+      "chars": 1823,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "令牌现身",
+      "chars": 1792,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "令牌对峙",
+      "chars": 2398,
+      "score": 93.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏长风的」×8、「青云宗」×3",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「苏长风的」×10、「议事厅」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「苏长风的」×6、「青云宗」×3",
+      "[observe] 标题与《玉牌对峙》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「苏长风的」×4、「议事厅」×3、「青云宗」×3",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 与历史章节逐字重复 3 句（如「你到底是谁？你怎么会知道这些？…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「青云宗」×3",
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「袖中令牌」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「苏长风的」×5",
+      "[observe] attr_adv_pct 26.7 > 25.0（结构塌缩）"
+    ],
+    "8": [
+      "单条套路句式超限：「苏长风的」×12、「议事厅」×4",
+      "[observe] 标题重复：「袖中令牌」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「苏长风的」×5、「议事厅」×4",
+      "情节与已写章节重复 0.74 ≥ 0.7（撞上「林远拿出父亲留下的通行令牌揭露苏长风冒充天机阁主，引发宗…」）",
+      "[observe] 标题重复：「令牌现身」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「苏长风的」×3、「议事厅」×3",
+      "情节与已写章节重复 0.82 ≥ 0.7（撞上「林远以父亲遗留的令牌揭穿苏长风冒充天机阁主，引发身份争议…」）",
+      "[observe] 标题重复：「令牌对峙」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 453.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T15:15:37"
+}

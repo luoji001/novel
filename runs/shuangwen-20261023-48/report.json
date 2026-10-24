@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-48",
+  "profile": "爽文",
+  "title": "残凭",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19244,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18262,
+    "chapter_chars_mean": 1826,
+    "chapter_chars_median": 1786,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 40.4,
+    "dialogue_chars_pct": 44.5,
+    "dialogue_para_pct": 87.6,
+    "interiority_para_pct": 4.8,
+    "narration_para_pct": 7.6,
+    "turn_under20_pct": 73.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.0,
+    "attr_adv_pct": 14.1,
+    "scenes_per_chapter": 1.1,
+    "dialogue_run_mean": 7.9,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "验货单上的划痕",
+      "chars": 1707,
+      "score": 39.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "印章被划掉",
+      "chars": 1972,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "签字时的沉默",
+      "chars": 1968,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钱袋里的碎纸屑",
+      "chars": 1953,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "纸币落地成局",
+      "chars": 1770,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "验货单上的划痕",
+      "chars": 1855,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "验货单上的指纹",
+      "chars": 1941,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "验货单上的指纹",
+      "chars": 1810,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "名册上的手指痕迹",
+      "chars": 1763,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "验货单上的裂痕",
+      "chars": 2495,
+      "score": 91.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「赵子安的」×11",
+      "[observe] 章内自我复读 2 句（如「现在，你可以继续验货了…」）",
+      "[observe] attr_adv_pct 36.4 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「赵子安的」×3、「验货台」×3",
+      "narration_para_pct 4.8 低于目标 5.0",
+      "attr_adv_pct 18.8 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「赵子安的」×5、「验货台」×3",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「赵子安的」×7、「验货台」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「赵子安的」×4、「验货台」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「赵子安的」×4",
+      "[observe] 标题重复：「验货单上的划痕」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「验货台」×4、「赵子安的」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "[observe] 标题与《验货单上的划痕》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「赵子安的」×4、「”李怀远轻」×3",
+      "[observe] 标题重复：「验货单上的指纹」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「赵子安的」×9、「验货台」×3",
+      "narration_para_pct 0.0 低于目标 5.0"
+    ],
+    "10": [
+      "单条套路句式超限：「赵子安的」×4、「他知道这」×3",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 标题与《验货单上的划痕》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 449.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T12:28:22"
+}

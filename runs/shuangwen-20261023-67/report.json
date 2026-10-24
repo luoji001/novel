@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-67",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18376,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17411,
+    "chapter_chars_mean": 1741,
+    "chapter_chars_median": 1672,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 39.5,
+    "dialogue_chars_pct": 51.6,
+    "dialogue_para_pct": 86.5,
+    "interiority_para_pct": 3.5,
+    "narration_para_pct": 10.0,
+    "turn_under20_pct": 73.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.2,
+    "attr_adv_pct": 11.8,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 12.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "墨水瓶的痕迹",
+      "chars": 1572,
+      "score": 98.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字的笔锋",
+      "chars": 2046,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "账本散落的瞬间",
+      "chars": 1767,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "账本翻页的瞬间",
+      "chars": 1484,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "账本翻页的瞬间",
+      "chars": 1603,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "泼墨遮不住真相",
+      "chars": 1683,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "账本翻页的瞬间",
+      "chars": 1765,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "账本翻页的瞬间",
+      "chars": 2223,
+      "score": 85.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "墨水瓶的痕迹",
+      "chars": 1859,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "账本翻页的瞬间",
+      "chars": 2364,
+      "score": 93.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周德昌的」×4"
+    ],
+    "2": [
+      "单条套路句式超限：「周怀远的」×4"
+    ],
+    "3": [
+      "单条套路句式超限：「周德昌的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「周德昌的」×7",
+      "[observe] 标题与《账本散落的瞬间》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「周德昌的」×8",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「周德昌的」×5、「周怀远的」×3",
+      "dialogue_run_mean 17.5 高于目标 14.0",
+      "[observe] attr_adv_pct 27.8 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「周德昌的」×8、「周怀远的」×3",
+      "[observe] attr_adv_pct 36.4 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「周德昌的」×7",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 51 高于目标 14.0",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「周德昌的」×8、「说道“我」×3、「周怀远的」×3",
+      "[observe] 标题重复：「墨水瓶的痕迹」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周德昌的」×7",
+      "[observe] 标题重复：「账本翻页的瞬间」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 426.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:54:41"
+}

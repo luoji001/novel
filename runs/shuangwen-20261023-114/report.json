@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-114",
+  "profile": "爽文",
+  "title": "客户名单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19311,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18426,
+    "chapter_chars_mean": 1843,
+    "chapter_chars_median": 1714,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 36.8,
+    "dialogue_chars_pct": 57.3,
+    "dialogue_para_pct": 89.6,
+    "interiority_para_pct": 4.0,
+    "narration_para_pct": 6.4,
+    "turn_under20_pct": 59.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.7,
+    "attr_adv_pct": 9.0,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 13.9,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字裂痕",
+      "chars": 1807,
+      "score": 99.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "财务报表的对峙",
+      "chars": 1657,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "翻阅客户名单",
+      "chars": 1947,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签字笔的重量",
+      "chars": 1983,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "签字笔的裂痕",
+      "chars": 1556,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字笔的裂痕",
+      "chars": 1494,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "签字笔的裂痕",
+      "chars": 1751,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "签字笔的裂痕",
+      "chars": 2149,
+      "score": 86.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "签字笔的裂痕",
+      "chars": 1796,
+      "score": 86.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "翻阅客户名单",
+      "chars": 3161,
+      "score": 36.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 3.6 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「你这是在挑战总部的权威…」）"
+    ],
+    "4": [
+      "narration_para_pct 2.4 低于目标 5.0"
+    ],
+    "5": [
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题与《签字裂痕》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 22 高于目标 14.0",
+      "[observe] 标题重复：「签字笔的裂痕」已存在"
+    ],
+    "7": [
+      "[observe] 标题重复：「签字笔的裂痕」已存在"
+    ],
+    "8": [
+      "dialogue_chars_pct 73.3 高于目标 70.0",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 40 高于目标 14.0",
+      "[observe] 标题重复：「签字笔的裂痕」已存在"
+    ],
+    "9": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 28 高于目标 14.0",
+      "[observe] 标题重复：「签字笔的裂痕」已存在"
+    ],
+    "10": [
+      "narration_para_pct 4.2 低于目标 5.0",
+      "[observe] 章内自我复读 4 句（如「我觉得只要按照规则办事，胜利总是属于有能力的人…」）",
+      "[observe] 标题重复：「翻阅客户名单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 398.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T17:27:02"
+}

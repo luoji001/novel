@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-98",
+  "profile": "爽文",
+  "title": "账本副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19491,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18481,
+    "chapter_chars_mean": 1848,
+    "chapter_chars_median": 1803,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 41.6,
+    "dialogue_chars_pct": 39.9,
+    "dialogue_para_pct": 75.5,
+    "interiority_para_pct": 8.5,
+    "narration_para_pct": 15.9,
+    "turn_under20_pct": 70.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.6,
+    "attr_adv_pct": 8.9,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 4.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔的墨迹",
+      "chars": 1803,
+      "score": 98.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字笔的传递",
+      "chars": 2033,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "账本的缺口",
+      "chars": 2270,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "签字笔的较量",
+      "chars": 1714,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲纸角的指尖",
+      "chars": 1741,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲工牌的指尖",
+      "chars": 1943,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "手指划过结算单",
+      "chars": 1899,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "签字笔的较量",
+      "chars": 1802,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲笔杆的手指",
+      "chars": 1883,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "手指划过结算单",
+      "chars": 2393,
+      "score": 90.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈志远的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「陈志远的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题与《签字笔的墨迹》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「他知道自己」×3",
+      "attr_adv_pct 21.4 高于目标 12.0"
+    ],
+    "4": [
+      "[observe] 标题与《签字笔的传递》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「林小满的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「陈志远的」×7、「他知道这」×3",
+      "[observe] 标题与《摩挲纸角的指尖》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「陈志远的」×8",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「签字笔的较量」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「林小满的」×4",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "10": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「手指划过结算单」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 442.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T16:15:22"
+}

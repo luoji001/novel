@@ -1,0 +1,394 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "借阅契约规定借阅期限为三个月",
+      "entry_state": "林远确认借阅期限",
+      "outcome": "藏书阁主将契约递至林远手中",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "林远需缴纳三枚铜币作为押金",
+      "entry_state": "林远缴纳押金",
+      "outcome": "藏书阁主在契约上盖章确认",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "林远撕毁契约并丢入废纸篓",
+      "entry_state": "契约被撕毁",
+      "outcome": "藏书阁主拾起碎片并收起",
+      "target_chars": 647
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "青石令牌的使用权归天机阁主所有",
+      "entry_state": "青石令牌被宗主按在柜台上方",
+      "outcome": "林远的手指从令牌上移开",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远需缴纳三枚灵石作为违约金",
+      "entry_state": "林远的手指从令牌上移开",
+      "outcome": "林远将三枚灵石放入柜台抽屉",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远撕毁借阅契约并扔向地面",
+      "entry_state": "林远将三枚灵石放入柜台抽屉",
+      "outcome": "借阅契约在地面碎成两半",
+      "target_chars": 647
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "藏书阁主",
+        "林远"
+      ],
+      "driver": "借阅契约第三条明确禁止私藏典籍",
+      "entry_state": "林远低头盯着契约上被划掉的条款",
+      "outcome": "藏书阁主将契约推回林远手中",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "藏书阁主",
+        "林远"
+      ],
+      "driver": "林远需缴纳违约金三千两",
+      "entry_state": "林远手指抚过契约上被划掉的条款",
+      "outcome": "林远将装有银两的布袋放在柜台",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "藏书阁主",
+        "林远"
+      ],
+      "driver": "林远撕碎契约并丢入火盆",
+      "entry_state": "火光映亮林远空荡的手掌",
+      "outcome": "藏书阁主拾起灰烬确认契约已毁",
+      "target_chars": 647
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "大比资格证上写着‘林远’名字",
+      "entry_state": "林远低头看资格证",
+      "outcome": "林远手指抚过资格证边缘",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "宗主要求林远交出青石令牌",
+      "entry_state": "林远手指仍抚着资格证",
+      "outcome": "林远将青石令牌从袖中取出",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远将资格证撕成两半",
+      "entry_state": "资格证碎片散落柜台",
+      "outcome": "宗主拾起碎片，神色微变",
+      "target_chars": 647
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "大比资格证上无林远名字",
+      "entry_state": "林远低头看资格证",
+      "outcome": "藏书阁主伸手取回资格证",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "林远需交出借阅契约",
+      "entry_state": "资格证被藏书阁主收起",
+      "outcome": "林远从怀中取出契约递给对方",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "林远撕碎契约扔进废纸篓",
+      "entry_state": "契约碎片散落桌面",
+      "outcome": "藏书阁主将资格证丢进火盆",
+      "target_chars": 647
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "长老令牌可调用宗门资源",
+      "entry_state": "林远低头看契约",
+      "outcome": "契约边缘被手指掐出褶皱",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远需交出借阅契约",
+      "entry_state": "契约边缘被手指掐出褶皱",
+      "outcome": "契约被宗主抽出并捏皱",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远撕碎契约扔向地面",
+      "entry_state": "契约被宗主抽出并捏皱",
+      "outcome": "契约碎片散落满地",
+      "target_chars": 647
+    }
+  ],
+  "7": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "藏书阁主",
+        "宗主"
+      ],
+      "driver": "藏书阁主指出长老令牌未通过借阅契约审核",
+      "entry_state": "藏书阁主翻阅借阅契约",
+      "outcome": "宗主令牌被藏书阁主按契约条款作废",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "藏书阁主",
+        "宗主"
+      ],
+      "driver": "宗主要求林远交出青石令牌作为赔偿",
+      "entry_state": "宗主令牌被作废",
+      "outcome": "林远将青石令牌交至藏书阁主手中",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "藏书阁主",
+        "宗主"
+      ],
+      "driver": "藏书阁主撕毁宗主令牌并宣布作废",
+      "entry_state": "青石令牌被交出",
+      "outcome": "宗主令牌彻底失效",
+      "target_chars": 647
+    }
+  ],
+  "8": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "借阅契约第三条明确禁止私自借阅",
+      "entry_state": "林远低头确认契约条款",
+      "outcome": "藏书阁主将契约递回林远手中",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "林远需缴纳三枚银铢作为违约金",
+      "entry_state": "林远接过契约并支付银铢",
+      "outcome": "藏书阁主在契约上盖章确认",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "林远",
+        "藏书阁主"
+      ],
+      "driver": "林远撕毁旧契约并重新签署",
+      "entry_state": "藏书阁主取出新契约",
+      "outcome": "藏书阁主将新契约与青石令牌交予林远",
+      "target_chars": 647
+    }
+  ],
+  "9": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "天机阁主身份由长老玉印认证",
+      "entry_state": "青石令牌被宗主按在柜台",
+      "outcome": "青石令牌被按在柜台，林远手心出汗",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远需赔偿三个月借阅费用",
+      "entry_state": "青石令牌被按在柜台",
+      "outcome": "林远掏出钱包，数出三百两银子",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远将青石令牌掷入火盆",
+      "entry_state": "林远掏出三百两银子",
+      "outcome": "青石令牌在火盆中化为灰烬",
+      "target_chars": 647
+    }
+  ],
+  "10": [
+    {
+      "idx": 1,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "大比资格证上明确写着林远名字",
+      "entry_state": "林远低头看着资格证，手指微颤",
+      "outcome": "宗主将资格证拍在柜台上，示意林远确认",
+      "target_chars": 628
+    },
+    {
+      "idx": 2,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远要求补交三枚铜币作为额外保证金",
+      "entry_state": "林远从怀中取出三枚铜币放在桌上",
+      "outcome": "宗主接过铜币，目光扫过林远手腕上的旧伤",
+      "target_chars": 628
+    },
+    {
+      "idx": 3,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远要求在资格证背面签字确认条款",
+      "entry_state": "林远用朱砂笔在资格证背面签下名字",
+      "outcome": "宗主接过证件，手指划过签名处的墨迹",
+      "target_chars": 628
+    },
+    {
+      "idx": 4,
+      "place": "藏书阁柜台",
+      "present": [
+        "宗主",
+        "林远"
+      ],
+      "driver": "林远将资格证撕成两半扔进废纸篓",
+      "entry_state": "林远弯腰捡起半张纸，指尖沾着墨迹",
+      "outcome": "宗主皱眉盯着废纸篓，手指无意识摩挲玉印边缘",
+      "target_chars": 628
+    }
+  ]
+}

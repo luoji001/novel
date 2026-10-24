@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-39",
+  "profile": "爽文",
+  "title": "旧磅单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18815,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17793,
+    "chapter_chars_mean": 1779,
+    "chapter_chars_median": 1726,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 43.1,
+    "dialogue_chars_pct": 44.6,
+    "dialogue_para_pct": 78.6,
+    "interiority_para_pct": 5.7,
+    "narration_para_pct": 15.7,
+    "turn_under20_pct": 74.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.7,
+    "attr_adv_pct": 8.3,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 5.3,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔的重量",
+      "chars": 1794,
+      "score": 38.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "旧磅单与电子秤之争",
+      "chars": 2191,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "记录表的重量",
+      "chars": 1677,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "抹布擦过磅单的痕迹",
+      "chars": 1568,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "摩挲记录表边缘",
+      "chars": 1806,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字笔的重量",
+      "chars": 1993,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "摩挲记录表边缘",
+      "chars": 1932,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲记录表边缘",
+      "chars": 1828,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲证书边缘",
+      "chars": 1777,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "摩挲旧磅单边缘",
+      "chars": 2239,
+      "score": 88.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "6": [
+      "[observe] 标题重复：「签字笔的重量」已存在"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题重复：「摩挲记录表边缘」已存在"
+    ],
+    "8": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「摩挲记录表边缘」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「点了点头」×4",
+      "[observe] 标题与《摩挲记录表边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「过磅房」×3",
+      "[observe] 标题与《摩挲证书边缘》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 414.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T11:47:50"
+}

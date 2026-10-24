@@ -1,0 +1,179 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-07",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18521,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17591,
+    "chapter_chars_mean": 1759,
+    "chapter_chars_median": 1684,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 39.5,
+    "dialogue_chars_pct": 46.4,
+    "dialogue_para_pct": 81.6,
+    "interiority_para_pct": 4.7,
+    "narration_para_pct": 13.6,
+    "turn_under20_pct": 71.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.2,
+    "attr_adv_pct": 13.8,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 6.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红绸展账簿",
+      "chars": 1713,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "墨水覆旧名",
+      "chars": 1738,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "墨迹覆旧名",
+      "chars": 1776,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红绸裹旧账",
+      "chars": 1985,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "红绸裹旧账",
+      "chars": 1644,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "红绸掀族谱",
+      "chars": 1649,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "红绸揭账本",
+      "chars": 1781,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "红绸展账簿",
+      "chars": 1780,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "红绸裹旧账",
+      "chars": 1767,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "红绸掀账簿",
+      "chars": 2678,
+      "score": 92.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周德昌的」×8",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周德昌的」×5",
+      "[observe] 标题与《墨水覆旧名》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「周德昌的」×7",
+      "[observe] 标题与《红绸展账簿》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周德昌的」×6、「他知道自己」×3",
+      "[observe] 标题重复：「红绸裹旧账」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「周德昌的」×4"
+    ],
+    "7": [
+      "单条套路句式超限：「周德昌的」×4",
+      "[observe] 标题与《红绸展账簿》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「周德昌的」×7、「他知道自己」×3",
+      "[observe] attr_adv_pct 31.2 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「红绸展账簿」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「周德昌的」×5、「他知道这」×4",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「红绸裹旧账」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「周德昌的」×5、「林秋实的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题与《红绸展账簿》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 431.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T09:25:18"
+}

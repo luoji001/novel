@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-132",
+  "profile": "爽文",
+  "title": "旧借书条",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18537,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17606,
+    "chapter_chars_mean": 1761,
+    "chapter_chars_median": 1730,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 39.2,
+    "dialogue_chars_pct": 42.8,
+    "dialogue_para_pct": 79.5,
+    "interiority_para_pct": 7.9,
+    "narration_para_pct": 12.6,
+    "turn_under20_pct": 72.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.1,
+    "attr_adv_pct": 18.3,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 5.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "一纸旧借书条",
+      "chars": 1989,
+      "score": 39.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "一纸旧借书条",
+      "chars": 2206,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "一张旧借书条",
+      "chars": 2098,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "撕书对决",
+      "chars": 1572,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "一纸旧借书条",
+      "chars": 1396,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "铜钱换借书条",
+      "chars": 1612,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "一纸旧借书条",
+      "chars": 1798,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "一纸旧借书条",
+      "chars": 1578,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "一纸旧借书条",
+      "chars": 1849,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "灰烬显真章",
+      "chars": 2429,
+      "score": 90.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陆怀远的」×3、「藏经阁」×3",
+      "dialogue_chars_pct 28.1 低于目标 30.0",
+      "[observe] attr_adv_pct 44.4 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "[observe] 标题重复：「一纸旧借书条」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「陆怀远的」×5、「沈墨站在」×3、「雕花木屋」×3",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题与《一纸旧借书条》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陆怀远的」×4、「他知道这」×4、「藏经阁」×3",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "5": [
+      "narration_para_pct 3.8 低于目标 5.0",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「一纸旧借书条」已存在"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陆怀远的」×5",
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "7": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「一纸旧借书条」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「陆怀远的」×4",
+      "[observe] 标题重复：「一纸旧借书条」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「陆怀远的」×4",
+      "[observe] 标题重复：「一纸旧借书条」已存在"
+    ],
+    "10": [
+      "attr_adv_pct 20.8 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 437.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T18:48:08"
+}

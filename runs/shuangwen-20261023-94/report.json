@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-94",
+  "profile": "爽文",
+  "title": "副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18811,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17878,
+    "chapter_chars_mean": 1788,
+    "chapter_chars_median": 1724,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 38.9,
+    "dialogue_chars_pct": 51.8,
+    "dialogue_para_pct": 85.8,
+    "interiority_para_pct": 3.5,
+    "narration_para_pct": 10.7,
+    "turn_under20_pct": 63.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.0,
+    "attr_adv_pct": 10.6,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 8.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "合同副本的折痕",
+      "chars": 1869,
+      "score": 98.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "合同副本的折痕",
+      "chars": 1991,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "展开旧合同",
+      "chars": 1833,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "合同副本的折痕",
+      "chars": 1698,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "合同副本的折痕",
+      "chars": 1671,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签协议的手势",
+      "chars": 1573,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "签字时的红印",
+      "chars": 1762,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "合同副本的折痕",
+      "chars": 1821,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "碎纸机吞文件",
+      "chars": 2004,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "证件摊开的瞬间",
+      "chars": 2579,
+      "score": 92.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李振国的」×8",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 6 句（如「就在这一刻，走廊尽头的门被推开了一条缝，一道瘦长…」）",
+      "[observe] 标题重复：「合同副本的折痕」已存在"
+    ],
+    "3": [
+      "narration_para_pct 2.2 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "dialogue_run_mean 22.5 高于目标 14.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「合同副本的折痕」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李振国的」×4",
+      "[observe] 标题重复：「合同副本的折痕」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李振国的」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「李振国的」×3"
+    ],
+    "8": [
+      "narration_para_pct 4.7 低于目标 5.0",
+      "[observe] attr_adv_pct 38.5 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「合同副本的折痕」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李振国的」×5",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 421.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T15:57:23"
+}

@@ -1,0 +1,183 @@
+{
+  "consistency": "1. 第一章与第二章同名《房产证被塞入抽屉》，但内容不一致，可能造成混淆。\n2. 第三章提到“父亲已故”，但第一章和第二章未明确说明李国栋父亲是否已故。\n3. 第五章提到李国栋“仍不愿放弃对房产的争夺”，但第十章明确他“被迫放弃产权”，立场出现矛盾。\n4. 第六章提到李国栋“发现父亲的房产证无法证明其继承权”，但第三章提到王建国指出房产证因父亲已故而可能归属国家，未明确说明李国栋是否已知父亲已故。\n5. 第七章提到“父亲留下的房产证已失效”，但第六章未提及房产证是否已失效。\n6. 第九章提到“李国栋发现自己的房产证被用来替换拆迁补偿名单”，但前文未提及房产证被替换的情节。\n7. 第十章提到“旧房产证被街道办事处宣布作废”，但前文未明确说明旧房产证是否已失效或被作废。",
+  "slug": "shuangwen-20261023-76",
+  "profile": "爽文",
+  "title": "旧房产证",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18452,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17552,
+    "chapter_chars_mean": 1755,
+    "chapter_chars_median": 1702,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 36.8,
+    "dialogue_chars_pct": 44.8,
+    "dialogue_para_pct": 77.8,
+    "interiority_para_pct": 9.5,
+    "narration_para_pct": 12.7,
+    "turn_under20_pct": 66.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.6,
+    "attr_adv_pct": 25.7,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 5.0,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "房产证被塞入抽屉",
+      "chars": 1818,
+      "score": 39.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "房产证被塞入抽屉",
+      "chars": 1944,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "死亡证明被反复核对",
+      "chars": 1631,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "签字笔划破协议",
+      "chars": 1709,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "签字笔划破协议",
+      "chars": 1774,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "房产证被塞入抽屉",
+      "chars": 2076,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "房产证被撕碎",
+      "chars": 1596,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "签字笔划破协议",
+      "chars": 1996,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "签字笔划破协议",
+      "chars": 1608,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "旧房产证被撕碎",
+      "chars": 2290,
+      "score": 35.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 50.0 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×4、「王建国的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「房产证被塞入抽屉」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「王建国的」×3",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "4": [
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李国栋的」×3",
+      "[observe] attr_adv_pct 26.7 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔划破协议」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李国栋的」×4",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「房产证被塞入抽屉」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「李国栋的」×5",
+      "[observe] attr_adv_pct 100.0 > 25.0（结构塌缩）"
+    ],
+    "8": [
+      "单条套路句式超限：「王建国的」×5、「李国栋的」×3",
+      "[observe] 标题重复：「签字笔划破协议」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李国栋的」×3",
+      "[observe] 标题重复：「签字笔划破协议」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李国栋的」×7",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「您父亲去世后，这套房子就归街道办事处管理了…」）",
+      "[observe] 标题与《房产证被撕碎》近似 0.92 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 424.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T14:35:16"
+}

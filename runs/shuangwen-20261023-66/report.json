@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-66",
+  "profile": "爽文",
+  "title": "红笔划掉",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19602,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18689,
+    "chapter_chars_mean": 1869,
+    "chapter_chars_median": 1751,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 38.9,
+    "dialogue_chars_pct": 44.5,
+    "dialogue_para_pct": 81.4,
+    "interiority_para_pct": 7.9,
+    "narration_para_pct": 10.8,
+    "turn_under20_pct": 59.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.7,
+    "attr_adv_pct": 22.0,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 6.4,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药单被揉皱",
+      "chars": 1749,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "红笔点纸",
+      "chars": 2536,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "红笔划线",
+      "chars": 1852,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "木箱钥匙递出去",
+      "chars": 2427,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "红笔划掉",
+      "chars": 1927,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "红笔划线",
+      "chars": 1812,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "红笔划线",
+      "chars": 1712,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "红笔划线",
+      "chars": 1701,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "红笔划线",
+      "chars": 1825,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "红笔划线",
+      "chars": 2051,
+      "score": 92.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李德顺的」×6",
+      "narration_para_pct 0.0 低于目标 5.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周明远的」×3",
+      "[observe] attr_adv_pct 42.9 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「周明远的」×4"
+    ],
+    "4": [
+      "单条套路句式超限：「李德顺的」×7、「他知道这」×3",
+      "[observe] 章内自我复读 2 句（如「嗯……确实有些出入。不过这些都是小事，我们慢慢解…」）"
+    ],
+    "5": [
+      "[observe] 标题与《红笔划线》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 60.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「红笔划线」已存在"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「红笔划线」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李德顺的」×4",
+      "narration_para_pct 3.1 低于目标 5.0",
+      "[observe] attr_adv_pct 40.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「红笔划线」已存在"
+    ],
+    "9": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李德顺的」×3",
+      "[observe] 标题重复：「红笔划线」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李德顺的」×9",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「红笔划线」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 464.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:50:12"
+}

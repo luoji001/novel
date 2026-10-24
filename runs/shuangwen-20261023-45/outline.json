@@ -1,0 +1,122 @@
+[
+  {
+    "no": 1,
+    "title": "借阅契约签署",
+    "beat": "林远在藏书阁柜台完成借阅契约签署，换取青石令牌",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "借阅契约",
+    "speakers": [
+      "林远",
+      "藏书阁主"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "青石令牌作废",
+    "beat": "宗主以天机阁主身份作废青石令牌，迫使林远失去借阅资格",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "青石令牌",
+    "speakers": [
+      "宗主",
+      "林远"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "借阅契约失效",
+    "beat": "藏书阁主宣布借阅契约因青石令牌作废而失效，林远失去藏书阁使用权",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "借阅契约",
+    "speakers": [
+      "藏书阁主",
+      "林远"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "大比资格证发放",
+    "beat": "宗主向林远发放大比资格证，确认其参赛资格",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "大比资格证",
+    "speakers": [
+      "宗主",
+      "林远"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "大比资格证作废",
+    "beat": "藏书阁主以青石令牌作废为由作废大比资格证，林远失去参赛资格",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "大比资格证",
+    "speakers": [
+      "藏书阁主",
+      "林远"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "宗门长老令牌生效",
+    "beat": "宗主出示长老令牌，确认其天机阁主身份并压制林远",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "宗门长老的令牌",
+    "speakers": [
+      "宗主",
+      "林远"
+    ]
+  },
+  {
+    "no": 7,
+    "title": "长老令牌作废",
+    "beat": "藏书阁主以青石令牌作废为由作废长老令牌，削弱宗主权力",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "宗门长老的令牌",
+    "speakers": [
+      "藏书阁主",
+      "宗主"
+    ]
+  },
+  {
+    "no": 8,
+    "title": "借阅契约重签",
+    "beat": "林远重新签署借阅契约，换取新的青石令牌",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "借阅契约",
+    "speakers": [
+      "林远",
+      "藏书阁主"
+    ]
+  },
+  {
+    "no": 9,
+    "title": "青石令牌再次作废",
+    "beat": "宗主以天机阁主身份作废青石令牌，迫使林远再次失去借阅资格",
+    "target_chars": 1942,
+    "scale": "normal",
+    "must_object": "青石令牌",
+    "speakers": [
+      "宗主",
+      "林远"
+    ]
+  },
+  {
+    "no": 10,
+    "title": "大比资格证重发",
+    "beat": "宗主重新发放大比资格证，确认林远参赛资格",
+    "target_chars": 2514,
+    "scale": "long",
+    "must_object": "大比资格证",
+    "speakers": [
+      "宗主",
+      "林远"
+    ]
+  }
+]

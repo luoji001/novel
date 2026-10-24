@@ -1,0 +1,185 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-95",
+  "profile": "爽文",
+  "title": "清单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18197,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17247,
+    "chapter_chars_mean": 1725,
+    "chapter_chars_median": 1698,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 39.1,
+    "dialogue_chars_pct": 53.4,
+    "dialogue_para_pct": 88.4,
+    "interiority_para_pct": 4.3,
+    "narration_para_pct": 7.3,
+    "turn_under20_pct": 64.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.9,
+    "attr_adv_pct": 13.3,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 14.2,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "清单副本的隐藏页",
+      "chars": 1703,
+      "score": 96.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "盖章的验收单",
+      "chars": 2029,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "清单上的指纹痕迹",
+      "chars": 1896,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "手指抚过合同表面",
+      "chars": 1576,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手指划过合同边缘",
+      "chars": 1921,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "手指划过合同边缘",
+      "chars": 1687,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "手指摩挲清单边缘",
+      "chars": 1522,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "手指摩挲证书边缘",
+      "chars": 1707,
+      "score": 35.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "手指划过合同边缘",
+      "chars": 2055,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "手指划过清单边缘",
+      "chars": 2091,
+      "score": 86.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "2": [
+      "narration_para_pct 2.5 低于目标 5.0",
+      "dialogue_run_mean 19.5 高于目标 14.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "narration_para_pct 2.2 低于目标 5.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强的」×5"
+    ],
+    "5": [
+      "单条套路句式超限：「李国强的」×3",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）",
+      "[observe] 标题与《手指抚过合同表面》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题重复：「手指划过合同边缘」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「李国强的」×7",
+      "narration_para_pct 2.9 低于目标 5.0",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 章内自我复读 1 句（如「只是你一直没有拿出来…」）"
+    ],
+    "8": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 41 高于目标 14.0",
+      "[observe] 章内自我复读 1 句（如「小王，帮我查一下张磊的资质情况…」）",
+      "[observe] 标题与《手指摩挲清单边缘》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "[observe] 标题重复：「手指划过合同边缘」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李国强的」×4",
+      "narration_para_pct 1.9 低于目标 5.0",
+      "dialogue_run_mean 25.5 高于目标 14.0",
+      "[observe] 标题与《手指划过合同边缘》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 417.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T16:01:48"
+}

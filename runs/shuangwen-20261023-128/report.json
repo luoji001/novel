@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-128",
+  "profile": "爽文",
+  "title": "契书",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18600,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17698,
+    "chapter_chars_mean": 1770,
+    "chapter_chars_median": 1656,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 37.1,
+    "dialogue_chars_pct": 44.6,
+    "dialogue_para_pct": 80.3,
+    "interiority_para_pct": 8.0,
+    "narration_para_pct": 11.7,
+    "turn_under20_pct": 67.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.0,
+    "attr_adv_pct": 14.3,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 5.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "墨痕抹去旧契书",
+      "chars": 1384,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "签字簿上的名字",
+      "chars": 2241,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "旧契书自行拼合",
+      "chars": 1700,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "残页映照契约真相",
+      "chars": 2090,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "契约自签",
+      "chars": 1424,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "玉牌照亮残页真相",
+      "chars": 1743,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "残页对峙契约真相",
+      "chars": 1727,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "残页轻颤契约现",
+      "chars": 1598,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "玉牌遮挡旧契书",
+      "chars": 2163,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "玉牌揭开旧契书",
+      "chars": 2520,
+      "score": 91.5,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「验货台」×5、「他知道这」×4"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「验货台」×3",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "7": [
+      "narration_para_pct 3.3 低于目标 5.0",
+      "attr_adv_pct 21.4 高于目标 12.0",
+      "[observe] 标题与《残页映照契约真相》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「验货台」×5"
+    ],
+    "10": [
+      "单条套路句式超限：「验货台」×3",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题与《玉牌遮挡旧契书》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 431.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T18:29:30"
+}

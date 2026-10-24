@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-56",
+  "profile": "爽文",
+  "title": "旧户籍档案",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19341,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18383,
+    "chapter_chars_mean": 1838,
+    "chapter_chars_median": 1776,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 39.3,
+    "dialogue_chars_pct": 50.2,
+    "dialogue_para_pct": 87.9,
+    "interiority_para_pct": 3.0,
+    "narration_para_pct": 9.1,
+    "turn_under20_pct": 65.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.8,
+    "attr_adv_pct": 12.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 9.8,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "一张房产证",
+      "chars": 1890,
+      "score": 98.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字笔洇开的墨迹",
+      "chars": 1485,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "一张老照片",
+      "chars": 1719,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "指纹压痕",
+      "chars": 2463,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "墨迹消散",
+      "chars": 1835,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "签字笔洇开的墨迹",
+      "chars": 2037,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "指纹压痕",
+      "chars": 1854,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "户籍档案风波",
+      "chars": 1918,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲房产证边缘",
+      "chars": 1669,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "户籍档案风波",
+      "chars": 2461,
+      "score": 37.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 16.0 高于目标 12.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「如果按照现有的人名登记的话，那么这份房产证是否还…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「王振国的」×4",
+      "dialogue_run_mean 17 高于目标 14.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「王振国的」×3、「李国强的」×3",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强的」×4",
+      "narration_para_pct 4.7 低于目标 5.0",
+      "[observe] 标题重复：「签字笔洇开的墨迹」已存在"
+    ],
+    "7": [
+      "dialogue_run_mean 17.5 高于目标 14.0",
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「指纹压痕」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李国强的」×4",
+      "narration_para_pct 2.6 低于目标 5.0"
+    ],
+    "9": [
+      "narration_para_pct 3.3 低于目标 5.0",
+      "dialogue_run_mean 14.5 高于目标 14.0"
+    ],
+    "10": [
+      "narration_para_pct 2.2 低于目标 5.0",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「户籍档案风波」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 442.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:05:12"
+}

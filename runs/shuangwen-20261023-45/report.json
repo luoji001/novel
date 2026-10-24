@@ -1,0 +1,175 @@
+{
+  "consistency": "1. 第二章提到“青石令牌被拂过”，但未明确说明是宗主拂过，导致借阅权被剥夺，与后续章节中“藏书阁主揭露青石令牌已失效”存在逻辑断层，未说明令牌失效与宗主拂过之间的因果关系。\n\n2. 第三章提到“契约化为灰烬”，但未提及任何销毁契约的程序或见证人，与藏书阁主作为见证人的身份不符，缺乏事实依据。\n\n3. 第四章提到“林远凭借天机阁颁发的资格证获得大比资格”，但未说明该资格证与青石令牌或借阅契约之间的关联，逻辑不清晰。\n\n4. 第五章提到“林远选择毁证自证”，但未说明毁证的具体内容（是青石令牌还是借阅契约），导致人物行为动机不明确。\n\n5. 第六章提到“林远凭借借阅契约和青石令牌与宗主对峙”，但根据前文，青石令牌已被宗主剥夺，此处出现矛盾。\n\n6. 第七章提到“藏书阁主揭露青石令牌已失效”，但未说明失效的具体原因或时间点，与前文“宗主拂过”缺乏直接联系。\n\n7. 第八章提到“林远获得新令牌”，但未说明新令牌的来源或是否经过长老玉印认证，与宗门规定不符。\n\n8. 第九章提到“宗主收回青石令牌，用新凭证取代”，但未说明新凭证的性质或是否与借阅契约相关，逻辑不连贯。\n\n9. 第十章提到“林远凭借青石令牌和借阅契约获得大比资格证”，但根据前文，青石令牌已被宗主收回，此处出现矛盾。",
+  "slug": "shuangwen-20261023-45",
+  "profile": "爽文",
+  "title": "青石令牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19141,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18065,
+    "chapter_chars_mean": 1806,
+    "chapter_chars_median": 1718,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 46.1,
+    "dialogue_chars_pct": 48.0,
+    "dialogue_para_pct": 81.2,
+    "interiority_para_pct": 4.5,
+    "narration_para_pct": 14.4,
+    "turn_under20_pct": 77.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.2,
+    "attr_adv_pct": 16.1,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 5.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字风波",
+      "chars": 1732,
+      "score": 38.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "青石令牌被拂过",
+      "chars": 2402,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "契约飘落",
+      "chars": 1737,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "青石令牌递入掌心",
+      "chars": 1917,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "青石令牌递入掌心",
+      "chars": 1718,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "青石令牌递入掌心",
+      "chars": 2257,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "令牌拂过契约纹",
+      "chars": 1701,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "契约飘落",
+      "chars": 1887,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "青石令牌拂过契约",
+      "chars": 1598,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "青石令牌入掌心",
+      "chars": 2182,
+      "score": 93.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 16.1 高于目标 12.0",
+      "[observe] 章内自我复读 6 句（如「林远看着眼前这个人，知道他的到来意味着自己已经被…」）"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 章内自我复读 6 句（如「话音未落，他又回头望向林远，眼神变得意味深长，“…」）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "5": [
+      "narration_para_pct 2.6 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「青石令牌递入掌心」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「青石令牌递入掌心」已存在"
+    ],
+    "7": [
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "8": [
+      "[observe] 标题重复：「契约飘落」已存在"
+    ],
+    "9": [
+      "attr_adv_pct 23.1 高于目标 12.0",
+      "[observe] 标题与《令牌拂过契约纹》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "attr_adv_pct 15.8 高于目标 12.0",
+      "[observe] 标题与《青石令牌递入掌心》近似 0.93 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 427.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T12:14:27"
+}

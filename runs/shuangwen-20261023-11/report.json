@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-11",
+  "profile": "爽文",
+  "title": "旧标准副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 17765,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 16912,
+    "chapter_chars_mean": 1691,
+    "chapter_chars_median": 1734,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 34.6,
+    "dialogue_chars_pct": 40.7,
+    "dialogue_para_pct": 78.4,
+    "interiority_para_pct": 8.0,
+    "narration_para_pct": 13.6,
+    "turn_under20_pct": 70.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.1,
+    "attr_adv_pct": 6.3,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 4.8,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "测试仪数字骤降",
+      "chars": 1806,
+      "score": 97.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "旧文件在桌上展开",
+      "chars": 1820,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "纸屑堆积成堆",
+      "chars": 1545,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "签字笔划破红印",
+      "chars": 1878,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "旧标准副本被取出",
+      "chars": 1905,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "旧验收单被递出",
+      "chars": 1399,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "旧验收单被递出",
+      "chars": 1891,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "旧验收单被递出",
+      "chars": 1429,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "验单在桌上展开",
+      "chars": 1714,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "旧验收单被递出",
+      "chars": 2368,
+      "score": 93.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「周振国的」×3",
+      "dialogue_chars_pct 29.9 低于目标 30.0"
+    ],
+    "2": [
+      "单条套路句式超限：「周振国的」×3",
+      "narration_para_pct 0.0 低于目标 5.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「周振国的」×3",
+      "attr_adv_pct 21.4 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「周振国的」×4",
+      "[observe] 章内自我复读 2 句（如「可我手里还有当年的验收单…」）"
+    ],
+    "7": [
+      "单条套路句式超限：「周振国的」×3",
+      "[observe] 标题重复：「旧验收单被递出」已存在"
+    ],
+    "8": [
+      "[observe] 标题重复：「旧验收单被递出」已存在"
+    ],
+    "9": [
+      "[observe] 标题与《旧文件在桌上展开》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「林素梅的」×3",
+      "[observe] 标题重复：「旧验收单被递出」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 404.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T09:42:58"
+}

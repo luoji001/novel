@@ -1,0 +1,174 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-33",
+  "profile": "爽文",
+  "title": "铜钥匙",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18435,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17503,
+    "chapter_chars_mean": 1750,
+    "chapter_chars_median": 1696,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 39.1,
+    "dialogue_chars_pct": 44.0,
+    "dialogue_para_pct": 81.4,
+    "interiority_para_pct": 6.6,
+    "narration_para_pct": 12.0,
+    "turn_under20_pct": 74.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.8,
+    "attr_adv_pct": 13.2,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 5.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本对峙",
+      "chars": 2020,
+      "score": 99.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "纸灰重燃",
+      "chars": 1760,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "抽屉开启",
+      "chars": 1953,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铜钥交握",
+      "chars": 1785,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "墨迹显现",
+      "chars": 1790,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "纸条现身",
+      "chars": 1495,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "账本递交",
+      "chars": 1878,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "账本翻页",
+      "chars": 1694,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "账本藏柜",
+      "chars": 1750,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "签字轻点",
+      "chars": 2300,
+      "score": 94.5,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀安的」×6、「他知道自己」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「李怀安的」×7",
+      "[observe] attr_adv_pct 40.0 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "命中套话收尾句"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李怀安的」×9"
+    ],
+    "6": [
+      "单条套路句式超限：「李怀安的」×4",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "7": [
+      "单条套路句式超限：「李怀安的」×6、「他知道这」×3"
+    ],
+    "8": [
+      "单条套路句式超限：「李怀安的」×6"
+    ],
+    "9": [
+      "单条套路句式超限：「李怀安的」×3",
+      "[observe] attr_adv_pct 40.0 > 25.0（结构塌缩）"
+    ],
+    "10": [
+      "单条套路句式超限：「李怀安的」×7"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 420.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T11:21:36"
+}

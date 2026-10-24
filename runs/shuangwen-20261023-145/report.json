@@ -1,0 +1,191 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-145",
+  "profile": "爽文",
+  "title": "令牌风云",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19893,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18870,
+    "chapter_chars_mean": 1887,
+    "chapter_chars_median": 1825,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 44.2,
+    "dialogue_chars_pct": 47.5,
+    "dialogue_para_pct": 84.4,
+    "interiority_para_pct": 6.4,
+    "narration_para_pct": 9.2,
+    "turn_under20_pct": 75.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.0,
+    "attr_adv_pct": 23.0,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 7.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "令牌上的纹路浮现",
+      "chars": 1862,
+      "score": 99.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "抚摸书脊的指尖",
+      "chars": 2646,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "令牌对质",
+      "chars": 1745,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "令牌对峙",
+      "chars": 2103,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "令牌对峙",
+      "chars": 2025,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "令牌对峙",
+      "chars": 1611,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "令牌对峙",
+      "chars": 1689,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "令牌对峙",
+      "chars": 1813,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "令牌对峙",
+      "chars": 1993,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "抚摸书脊的指尖",
+      "chars": 2396,
+      "score": 92.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 6
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 22.7 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「李承泽的」×7、「藏书阁」×4",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「李承泽的」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 章内自我复读 3 句（如「林远点了点头，“确实如此，但我不认为这就是全部真…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「藏书阁」×5",
+      "[observe] attr_adv_pct 31.2 > 25.0（结构塌缩）",
+      "[observe] 标题与《令牌对质》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「林远站在」×3",
+      "narration_para_pct 4.2 低于目标 5.0",
+      "[observe] attr_adv_pct 31.2 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「令牌对峙」已存在"
+    ],
+    "6": [
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「令牌对峙」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「李承泽的」×4",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「令牌对峙」已存在"
+    ],
+    "8": [
+      "narration_para_pct 2.3 低于目标 5.0",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题重复：「令牌对峙」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李承泽的」×5",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「令牌对峙」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李承泽的」×5",
+      "dialogue_chars_pct 70.7 高于目标 70.0",
+      "narration_para_pct 3.8 低于目标 5.0",
+      "attr_adv_pct 23.1 高于目标 12.0",
+      "dialogue_run_mean 16.7 高于目标 14.0",
+      "[observe] 标题重复：「抚摸书脊的指尖」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 441.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T19:46:38"
+}

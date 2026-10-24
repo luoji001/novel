@@ -1,0 +1,173 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-64",
+  "profile": "爽文",
+  "title": "旧伤",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19140,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18045,
+    "chapter_chars_mean": 1804,
+    "chapter_chars_median": 1785,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 47.1,
+    "dialogue_chars_pct": 51.0,
+    "dialogue_para_pct": 83.6,
+    "interiority_para_pct": 4.7,
+    "narration_para_pct": 11.7,
+    "turn_under20_pct": 74.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.4,
+    "attr_adv_pct": 15.7,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 12.3,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "触碰疤痕的指尖",
+      "chars": 1813,
+      "score": 98.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "抚摸疤痕的手指",
+      "chars": 1928,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字笔的刻痕",
+      "chars": 1849,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "玉牌对账簿",
+      "chars": 2097,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "玉牌对疤痕",
+      "chars": 1962,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "账簿与旧伤的对话",
+      "chars": 1919,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "玉牌对疤痕",
+      "chars": 2170,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "钥匙与符咒的交锋",
+      "chars": 1548,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "碎瓷片映月光",
+      "chars": 1612,
+      "score": 96.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 10,
+      "title": "签字笔的刻痕",
+      "chars": 2232,
+      "score": 93.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈长老的」×6",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "2": [
+      "dialogue_run_mean 14.7 高于目标 14.0"
+    ],
+    "3": [
+      "单条套路句式超限：「知道自己」×3",
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈长老的」×6",
+      "narration_para_pct 2.6 低于目标 5.0",
+      "dialogue_run_mean 37 高于目标 14.0",
+      "[observe] 标题与《玉牌对账簿》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈长老的」×6",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题重复：「玉牌对疤痕」已存在"
+    ],
+    "8": [
+      "dialogue_run_mean 28 高于目标 14.0",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "10": [
+      "[observe] 标题重复：「签字笔的刻痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 451.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:40:39"
+}

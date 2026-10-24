@@ -1,0 +1,188 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-97",
+  "profile": "爽文",
+  "title": "签单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19617,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18662,
+    "chapter_chars_mean": 1866,
+    "chapter_chars_median": 1774,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 41.1,
+    "dialogue_chars_pct": 51.5,
+    "dialogue_para_pct": 86.1,
+    "interiority_para_pct": 4.3,
+    "narration_para_pct": 9.6,
+    "turn_under20_pct": 69.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.1,
+    "attr_adv_pct": 17.6,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 11.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲纸缘",
+      "chars": 1756,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "文件夹较量",
+      "chars": 1977,
+      "score": 86.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "摩挲纸缘",
+      "chars": 1738,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "争夺请假条",
+      "chars": 2005,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲纸缘",
+      "chars": 1863,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摩挲纸缘",
+      "chars": 1845,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "摩挲纸缘",
+      "chars": 1848,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "摩挲纸缘",
+      "chars": 1823,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲纸缘",
+      "chars": 2203,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "摩挲纸缘",
+      "chars": 2549,
+      "score": 37.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈国强的」×4",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈国强的」×3、「微微一笑」×3",
+      "narration_para_pct 2.4 低于目标 5.0",
+      "attr_adv_pct 13.6 高于目标 12.0",
+      "dialogue_run_mean 41 高于目标 14.0"
+    ],
+    "3": [
+      "单条套路句式超限：「林婉秋的」×3",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 章内自我复读 1 句（如「因为我的学生都在这儿…」）",
+      "[observe] 标题重复：「摩挲纸缘」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「陈国强的」×4"
+    ],
+    "5": [
+      "单条套路句式超限：「陈国强的」×5",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「摩挲纸缘」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「陈国强的」×6",
+      "[observe] 标题重复：「摩挲纸缘」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「陈国强的」×4",
+      "dialogue_run_mean 16 高于目标 14.0",
+      "[observe] 标题重复：「摩挲纸缘」已存在"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「摩挲纸缘」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「林婉秋的」×3",
+      "dialogue_run_mean 15.3 高于目标 14.0",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「摩挲纸缘」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「陈国强的」×5",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「摩挲纸缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 423.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T16:10:44"
+}

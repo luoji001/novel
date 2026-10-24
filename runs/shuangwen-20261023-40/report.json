@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-40",
+  "profile": "爽文",
+  "title": "账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19305,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18321,
+    "chapter_chars_mean": 1832,
+    "chapter_chars_median": 1740,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 43.2,
+    "dialogue_chars_pct": 49.8,
+    "dialogue_para_pct": 84.3,
+    "interiority_para_pct": 5.0,
+    "narration_para_pct": 10.7,
+    "turn_under20_pct": 72.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 37.3,
+    "attr_adv_pct": 6.6,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 7.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻账本",
+      "chars": 1712,
+      "score": 96.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "翻账本",
+      "chars": 1785,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "翻账本",
+      "chars": 1635,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "翻账本",
+      "chars": 2148,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "翻账本",
+      "chars": 1679,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻账本",
+      "chars": 2004,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "翻账本",
+      "chars": 1720,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "拍文件",
+      "chars": 1872,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "翻账本",
+      "chars": 1869,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "翻账本",
+      "chars": 2871,
+      "score": 93.5,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「王德发的」×5"
+    ],
+    "2": [
+      "单条套路句式超限：「王德发的」×3",
+      "[observe] 标题重复：「翻账本」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「王德发的」×4、「李小满的」×3",
+      "narration_para_pct 3.3 低于目标 5.0",
+      "dialogue_run_mean 14.5 高于目标 14.0",
+      "[observe] 标题重复：「翻账本」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「王德发的」×5",
+      "narration_para_pct 4.9 低于目标 5.0",
+      "[observe] 标题重复：「翻账本」已存在"
+    ],
+    "5": [
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「翻账本」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「王德发的」×4",
+      "[observe] 标题重复：「翻账本」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「王德发的」×7",
+      "[observe] 标题重复：「翻账本」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「王德发的」×5、「李小满的」×4",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 2 句（如「这是来自县领导的通知…」）"
+    ],
+    "9": [
+      "单条套路句式超限：「李小满点了点头」×3、「他知道自己」×3",
+      "[observe] 标题重复：「翻账本」已存在"
+    ],
+    "10": [
+      "[observe] 标题重复：「翻账本」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 427.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T11:52:16"
+}

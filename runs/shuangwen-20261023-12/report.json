@@ -1,0 +1,166 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-12",
+  "profile": "爽文",
+  "title": "旧卡",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18596,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17599,
+    "chapter_chars_mean": 1760,
+    "chapter_chars_median": 1670,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 40.9,
+    "dialogue_chars_pct": 46.1,
+    "dialogue_para_pct": 84.0,
+    "interiority_para_pct": 7.0,
+    "narration_para_pct": 9.0,
+    "turn_under20_pct": 76.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.8,
+    "attr_adv_pct": 9.3,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 6.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钱的重量",
+      "chars": 1709,
+      "score": 98.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "借书卡的年代",
+      "chars": 2143,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "借书卡的边缘",
+      "chars": 1650,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铜牌的共鸣",
+      "chars": 1973,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "铜牌与章程的对峙",
+      "chars": 1666,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铜牌与旧卡的对峙",
+      "chars": 1704,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 7,
+      "title": "旧卡的磨损",
+      "chars": 1922,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "旧卡的归还",
+      "chars": 1508,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "章程的边缘",
+      "chars": 1792,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "青铜手令的封印",
+      "chars": 2519,
+      "score": 91.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 3.3 低于目标 5.0"
+    ],
+    "3": [
+      "[observe] 标题与《借书卡的年代》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「陆怀瑾的」×4",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "dialogue_run_mean 17 高于目标 14.0",
+      "[observe] 标题与《铜牌与章程的对峙》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "[observe] 标题与《旧卡的磨损》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「陆怀瑾的」×6"
+    ],
+    "10": [
+      "单条套路句式超限：「陆怀瑾的」×7、「沈知远的」×3",
+      "attr_adv_pct 18.5 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 418.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T09:47:18"
+}

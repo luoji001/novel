@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-110",
+  "profile": "爽文",
+  "title": "旧工牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18226,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17170,
+    "chapter_chars_mean": 1717,
+    "chapter_chars_median": 1742,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 44.3,
+    "dialogue_chars_pct": 50.1,
+    "dialogue_para_pct": 85.0,
+    "interiority_para_pct": 4.3,
+    "narration_para_pct": 10.7,
+    "turn_under20_pct": 77.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 41.9,
+    "attr_adv_pct": 4.6,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 6.9,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记簿上的名字",
+      "chars": 1557,
+      "score": 97.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "旧工牌被反复端详",
+      "chars": 2303,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "旧工牌被反复端详",
+      "chars": 1540,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "旧工牌被反复端详",
+      "chars": 1993,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "旧工牌被反复端详",
+      "chars": 1688,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "旧工牌被反复端详",
+      "chars": 1864,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "旧工牌被反复端详",
+      "chars": 1467,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "旧工牌碎屑中的编号",
+      "chars": 1887,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "旧工牌被反复端详",
+      "chars": 1805,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "旧工牌被反复端详",
+      "chars": 2112,
+      "score": 92.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "[observe] 标题重复：「旧工牌被反复端详」已存在"
+    ],
+    "4": [
+      "attr_adv_pct 15.0 高于目标 12.0",
+      "[observe] 标题重复：「旧工牌被反复端详」已存在"
+    ],
+    "5": [
+      "[observe] 标题重复：「旧工牌被反复端详」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「旧工牌被反复端详」已存在"
+    ],
+    "7": [
+      "[observe] 标题重复：「旧工牌被反复端详」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「张德强的」×3"
+    ],
+    "9": [
+      "单条套路句式超限：「张德强的」×4",
+      "[observe] 章内自我复读 2 句（如「我不需要别人替我做决定，只需要确认一件事——我已…」）",
+      "[observe] 标题重复：「旧工牌被反复端详」已存在"
+    ],
+    "10": [
+      "[observe] 标题重复：「旧工牌被反复端详」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 415.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T17:09:20"
+}

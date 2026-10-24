@@ -1,0 +1,177 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-116",
+  "profile": "爽文",
+  "title": "旧契书",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19641,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18785,
+    "chapter_chars_mean": 1878,
+    "chapter_chars_median": 1895,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 35.1,
+    "dialogue_chars_pct": 46.0,
+    "dialogue_para_pct": 85.4,
+    "interiority_para_pct": 5.9,
+    "narration_para_pct": 8.7,
+    "turn_under20_pct": 59.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.9,
+    "attr_adv_pct": 13.1,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 8.7,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签署契书之争",
+      "chars": 1571,
+      "score": 99.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "契书对峙印章前",
+      "chars": 1918,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "契书碎于印章下",
+      "chars": 2071,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "印章压契书",
+      "chars": 1977,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "契书对峙印章前",
+      "chars": 1917,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "契书对峙印章前",
+      "chars": 1987,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "契书落笔时",
+      "chars": 2010,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "签字权的争夺",
+      "chars": 1822,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "契书飘落纸纷飞",
+      "chars": 1978,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 10,
+      "title": "契书入废纸篓",
+      "chars": 2380,
+      "score": 92.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「王小梅的」×3",
+      "narration_para_pct 4.2 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「王小梅的」×4",
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「王小梅的」×3",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "4": [
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "dialogue_run_mean 15.5 高于目标 14.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国的」×4、「王小梅的」×3",
+      "narration_para_pct 2.3 低于目标 5.0",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 标题重复：「契书对峙印章前」已存在"
+    ],
+    "6": [
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「契书对峙印章前」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「李建国的」×5、「王小梅的」×3"
+    ],
+    "8": [
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「李建国的」×5",
+      "narration_para_pct 4.5 低于目标 5.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 439.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T17:35:52"
+}

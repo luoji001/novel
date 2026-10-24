@@ -1,0 +1,176 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-05",
+  "profile": "爽文",
+  "title": "令牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19477,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18399,
+    "chapter_chars_mean": 1840,
+    "chapter_chars_median": 1810,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 45.7,
+    "dialogue_chars_pct": 49.2,
+    "dialogue_para_pct": 83.6,
+    "interiority_para_pct": 5.0,
+    "narration_para_pct": 11.4,
+    "turn_under20_pct": 72.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.1,
+    "attr_adv_pct": 16.8,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 9.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "令牌裂痕现真相",
+      "chars": 1567,
+      "score": 99.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "储物戒的重量",
+      "chars": 1866,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "指尖划过令牌纹路",
+      "chars": 1962,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "令牌裂痕现真相",
+      "chars": 2005,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "令牌背面的秘密",
+      "chars": 1982,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "指尖划过令牌纹路",
+      "chars": 1966,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "指尖抚过密令残页",
+      "chars": 1690,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "玉简裂痕现残页",
+      "chars": 1755,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 9,
+      "title": "令牌裂痕现真相",
+      "chars": 1797,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "指尖抚过令牌纹路",
+      "chars": 2877,
+      "score": 37.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「不仅仅是」×3",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「这不是普通的通行令牌…」）",
+      "[observe] 标题重复：「令牌裂痕现真相」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「藏经阁」×3"
+    ],
+    "6": [
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 与历史章节逐字重复 3 句（如「这时，远处传来一阵脚步声…」）",
+      "[observe] 标题重复：「指尖划过令牌纹路」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「林子安的」×3",
+      "narration_para_pct 2.4 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "dialogue_run_mean 40 高于目标 14.0"
+    ],
+    "9": [
+      "命中套话收尾句",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「令牌裂痕现真相」已存在"
+    ],
+    "10": [
+      "命中套话收尾句",
+      "单条套路句式超限：「藏经阁」×4、「林子安站在」×3",
+      "[observe] attr_adv_pct 31.6 > 25.0（结构塌缩）",
+      "[observe] 标题与《指尖划过令牌纹路》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 440.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T09:16:15"
+}

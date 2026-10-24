@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-59",
+  "profile": "爽文",
+  "title": "皮重数据",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19149,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18197,
+    "chapter_chars_mean": 1820,
+    "chapter_chars_median": 1820,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 39.7,
+    "dialogue_chars_pct": 52.6,
+    "dialogue_para_pct": 90.4,
+    "interiority_para_pct": 2.8,
+    "narration_para_pct": 6.9,
+    "turn_under20_pct": 70.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.5,
+    "attr_adv_pct": 12.1,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 11.8,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字权的争夺",
+      "chars": 1628,
+      "score": 97.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "登记本的指尖滑动",
+      "chars": 2187,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "打印机吐出纸张",
+      "chars": 1646,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "数据本的真相",
+      "chars": 2016,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "撕碎的磅单",
+      "chars": 1685,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "指纹摩擦计算器键",
+      "chars": 2022,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "签字的指尖滑动",
+      "chars": 1768,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "签字的手指滑动",
+      "chars": 1932,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "手指摩挲纸边",
+      "chars": 1898,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "手指摩挲纸边",
+      "chars": 2357,
+      "score": 89.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李建国的」×5",
+      "attr_adv_pct 23.1 高于目标 12.0",
+      "dialogue_run_mean 15.5 高于目标 14.0"
+    ],
+    "2": [
+      "narration_para_pct 4.7 低于目标 5.0"
+    ],
+    "3": [
+      "narration_para_pct 3.4 低于目标 5.0"
+    ],
+    "6": [
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "7": [
+      "单条套路句式超限：「李建国的」×6",
+      "[observe] 标题与《登记本的指尖滑动》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "narration_para_pct 4.3 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "dialogue_run_mean 14.3 高于目标 14.0",
+      "[observe] 标题与《签字的指尖滑动》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「李建国的」×4",
+      "attr_adv_pct 15.0 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「李建国的」×5",
+      "narration_para_pct 2.3 低于目标 5.0",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "dialogue_run_mean 21.5 高于目标 14.0",
+      "[observe] 标题重复：「手指摩挲纸边」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 413.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:18:22"
+}

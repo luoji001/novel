@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-55",
+  "profile": "爽文",
+  "title": "旧版验收单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18602,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17701,
+    "chapter_chars_mean": 1770,
+    "chapter_chars_median": 1742,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 37.3,
+    "dialogue_chars_pct": 50.5,
+    "dialogue_para_pct": 84.0,
+    "interiority_para_pct": 5.2,
+    "narration_para_pct": 10.9,
+    "turn_under20_pct": 67.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.7,
+    "attr_adv_pct": 16.1,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 7.2,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指抚过纸页",
+      "chars": 1577,
+      "score": 97.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "签字笔压痕",
+      "chars": 1874,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "手指抚过纸页",
+      "chars": 1644,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "撕碎的验货单",
+      "chars": 1902,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "签字笔压痕",
+      "chars": 2005,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "纸页边缘的褐色污渍",
+      "chars": 1784,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 7,
+      "title": "旧版验收单边缘的褐色污渍",
+      "chars": 1720,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "手指抚过纸页",
+      "chars": 1791,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "签字笔压痕",
+      "chars": 2009,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "签字笔压痕",
+      "chars": 2286,
+      "score": 92.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] attr_adv_pct 35.7 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「手指抚过纸页」已存在"
+    ],
+    "5": [
+      "narration_para_pct 4.0 低于目标 5.0",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔压痕」已存在"
+    ],
+    "7": [
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题与《纸页边缘的褐色污渍》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "narration_para_pct 2.8 低于目标 5.0",
+      "[observe] 标题重复：「手指抚过纸页」已存在"
+    ],
+    "9": [
+      "narration_para_pct 4.9 低于目标 5.0",
+      "attr_adv_pct 17.6 高于目标 12.0",
+      "[observe] 标题重复：「签字笔压痕」已存在"
+    ],
+    "10": [
+      "[observe] 标题重复：「签字笔压痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 409.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:00:26"
+}

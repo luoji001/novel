@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-87",
+  "profile": "爽文",
+  "title": "地契",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19237,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18279,
+    "chapter_chars_mean": 1828,
+    "chapter_chars_median": 1716,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 40.3,
+    "dialogue_chars_pct": 46.2,
+    "dialogue_para_pct": 82.6,
+    "interiority_para_pct": 7.1,
+    "narration_para_pct": 10.2,
+    "turn_under20_pct": 71.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.7,
+    "attr_adv_pct": 11.2,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 6.4,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "族谱上的朱砂笔",
+      "chars": 1554,
+      "score": 97.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "地契入族谱",
+      "chars": 2154,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "朱砂笔的重量",
+      "chars": 1783,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签字权的争夺",
+      "chars": 2108,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "地契对石碑",
+      "chars": 1797,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "地契与法币对峙",
+      "chars": 1380,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 7,
+      "title": "地契对石碑",
+      "chars": 2963,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "掀开族谱的裂缝",
+      "chars": 1687,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "签字权的争夺",
+      "chars": 1645,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "石碑裂痕现真章",
+      "chars": 2156,
+      "score": 93.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道这」×4",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「李文远点」×3"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 章内自我复读 2 句（如「他知道，这不仅仅是一次简单的族谱修改，而是关乎整…」）"
+    ],
+    "7": [
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「地契对石碑」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李振邦的」×5"
+    ],
+    "9": [
+      "[observe] 标题重复：「签字权的争夺」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李文远的」×3",
+      "narration_para_pct 4.8 低于目标 5.0",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 444.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T15:25:03"
+}

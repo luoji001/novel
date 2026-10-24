@@ -1,0 +1,163 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-31",
+  "profile": "爽文",
+  "title": "旧本子",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18756,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17925,
+    "chapter_chars_mean": 1792,
+    "chapter_chars_median": 1748,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 34.1,
+    "dialogue_chars_pct": 40.8,
+    "dialogue_para_pct": 79.3,
+    "interiority_para_pct": 7.2,
+    "narration_para_pct": 13.6,
+    "turn_under20_pct": 65.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.0,
+    "attr_adv_pct": 6.7,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 5.4,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "工具摆上桌面",
+      "chars": 2101,
+      "score": 97.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钢笔划过纸面",
+      "chars": 1812,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字笔的重量",
+      "chars": 1910,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钢笔悬空",
+      "chars": 1653,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "印章压纸",
+      "chars": 1938,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "旧本子上的日期",
+      "chars": 1682,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 7,
+      "title": "墨痕压住旧细则",
+      "chars": 1823,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "旧本子上的反光",
+      "chars": 1546,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "墨迹覆盖旧细则",
+      "chars": 1831,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "签字笔悬空",
+      "chars": 2450,
+      "score": 93.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「沈德昌的」×4",
+      "dialogue_chars_pct 29.5 低于目标 30.0"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "单条套路句式超限：「周启明的」×5"
+    ],
+    "8": [
+      "[observe] 标题与《旧本子上的日期》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「沈德昌的」×5、「周启明的」×4"
+    ],
+    "10": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题与《钢笔悬空》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 424.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T11:12:53"
+}

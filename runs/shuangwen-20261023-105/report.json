@@ -1,0 +1,179 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-105",
+  "profile": "爽文",
+  "title": "玉牌风波",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19280,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18265,
+    "chapter_chars_mean": 1826,
+    "chapter_chars_median": 1808,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 43.8,
+    "dialogue_chars_pct": 49.6,
+    "dialogue_para_pct": 85.9,
+    "interiority_para_pct": 4.2,
+    "narration_para_pct": 9.8,
+    "turn_under20_pct": 71.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.9,
+    "attr_adv_pct": 14.7,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 10.2,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "玉牌映符文",
+      "chars": 1747,
+      "score": 99.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "玉牌现龙纹",
+      "chars": 2002,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "玉牌映龙纹",
+      "chars": 1922,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "玉牌现龙纹",
+      "chars": 1901,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "玉牌现龙纹",
+      "chars": 2012,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "玉牌现龙纹",
+      "chars": 1870,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "玉牌按典籍",
+      "chars": 1940,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "玉牌映符文",
+      "chars": 1768,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "玉牌换令牌",
+      "chars": 1688,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 10,
+      "title": "玉牌落石碑",
+      "chars": 2420,
+      "score": 90.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「藏经阁」×3",
+      "attr_adv_pct 23.5 高于目标 12.0"
+    ],
+    "2": [
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "narration_para_pct 2.6 低于目标 5.0",
+      "[observe] 标题与《玉牌现龙纹》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「林子安的」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 44 高于目标 14.0",
+      "[observe] 标题重复：「玉牌现龙纹」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李长风的」×5、「藏经阁」×3",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「玉牌现龙纹」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李长风的」×8",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「玉牌现龙纹」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「藏经阁」×4"
+    ],
+    "8": [
+      "单条套路句式超限：「李长风的」×6、「藏经阁」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「玉牌映符文」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「藏经阁」×8、「林子安的」×4、「李长风的」×3",
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 453.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T16:46:34"
+}

@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-127",
+  "profile": "爽文",
+  "title": "田契",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18732,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17777,
+    "chapter_chars_mean": 1778,
+    "chapter_chars_median": 1782,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 39.9,
+    "dialogue_chars_pct": 48.9,
+    "dialogue_para_pct": 85.0,
+    "interiority_para_pct": 3.7,
+    "narration_para_pct": 11.3,
+    "turn_under20_pct": 71.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.2,
+    "attr_adv_pct": 15.4,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 8.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙开启地窖",
+      "chars": 1961,
+      "score": 99.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜锁与田契对峙",
+      "chars": 1969,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "铜锁与田契对峙",
+      "chars": 1711,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙开启地窖",
+      "chars": 1752,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "田契与老墙对话",
+      "chars": 1550,
+      "score": 95.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铜锁与田契对峙",
+      "chars": 1903,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "田契与旧档案对峙",
+      "chars": 1773,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "铜锁与田契对峙",
+      "chars": 1998,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "田契对峙铜锁",
+      "chars": 1861,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 10,
+      "title": "田契对峙铜锁",
+      "chars": 2244,
+      "score": 93.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「赵德昌的」×6"
+    ],
+    "2": [
+      "单条套路句式超限：「赵德昌的」×13"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 29.4 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「铜锁与田契对峙」已存在"
+    ],
+    "4": [
+      "narration_para_pct 4.7 低于目标 5.0",
+      "[observe] 标题重复：「钥匙开启地窖」已存在"
+    ],
+    "5": [
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 44.4 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「铜锁与田契对峙」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「赵德昌的」×5、「李怀远的」×3",
+      "[observe] 标题重复：「铜锁与田契对峙」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李怀远点」×3",
+      "narration_para_pct 4.3 低于目标 5.0",
+      "dialogue_run_mean 22 高于目标 14.0",
+      "[observe] attr_adv_pct 29.6 > 25.0（结构塌缩）",
+      "[observe] 标题与《铜锁与田契对峙》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「赵德昌的」×7、「李怀远的」×3",
+      "narration_para_pct 4.8 低于目标 5.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「田契对峙铜锁」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 419.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T18:25:00"
+}

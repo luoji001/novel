@@ -1,0 +1,177 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-42",
+  "profile": "爽文",
+  "title": "签单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18470,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17608,
+    "chapter_chars_mean": 1761,
+    "chapter_chars_median": 1758,
+    "chapter_chars_cv": 0.07,
+    "paragraphs_mean": 36.1,
+    "dialogue_chars_pct": 42.7,
+    "dialogue_para_pct": 79.2,
+    "interiority_para_pct": 10.2,
+    "narration_para_pct": 10.6,
+    "turn_under20_pct": 68.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.6,
+    "attr_adv_pct": 14.8,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 8.3,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签下名字的瞬间",
+      "chars": 1622,
+      "score": 39.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "手表的反光",
+      "chars": 2061,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "确认书的褶痕",
+      "chars": 1932,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "执照在手",
+      "chars": 1869,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "纸上折痕",
+      "chars": 1760,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "纸上的折痕",
+      "chars": 1815,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "父亲的名片",
+      "chars": 1811,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "合同落地",
+      "chars": 1735,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "揉皱的合同",
+      "chars": 1874,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "揉皱的合同",
+      "chars": 1981,
+      "score": 88.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「李文远的」×4、「他知道这」×3",
+      "narration_para_pct 3.6 低于目标 5.0",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 章内自我复读 1 句（如「他深吸一口气，努力让自己冷静下来…」）"
+    ],
+    "3": [
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李文远的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「他知道这」×3、「李文远的」×3"
+    ],
+    "6": [
+      "[observe] 标题与《纸上折痕》近似 0.89 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "8": [
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "9": [
+      "attr_adv_pct 18.8 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「李文远的」×3",
+      "narration_para_pct 2.2 低于目标 5.0",
+      "dialogue_run_mean 44 高于目标 14.0",
+      "[observe] 标题重复：「揉皱的合同」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 409.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T12:01:01"
+}

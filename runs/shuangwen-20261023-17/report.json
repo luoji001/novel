@@ -1,0 +1,184 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-17",
+  "profile": "爽文",
+  "title": "聘书",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18868,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17948,
+    "chapter_chars_mean": 1795,
+    "chapter_chars_median": 1736,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 39.8,
+    "dialogue_chars_pct": 46.3,
+    "dialogue_para_pct": 82.2,
+    "interiority_para_pct": 6.1,
+    "narration_para_pct": 11.6,
+    "turn_under20_pct": 71.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.0,
+    "attr_adv_pct": 15.1,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 8.4,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "按手印",
+      "chars": 1733,
+      "score": 39.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "按手印",
+      "chars": 1781,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "按手印",
+      "chars": 1681,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "按手印",
+      "chars": 1871,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "按手印",
+      "chars": 1892,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "按手印",
+      "chars": 1700,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "拍聘书",
+      "chars": 1943,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "撕碎的工龄证明",
+      "chars": 1945,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "按手印",
+      "chars": 1691,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "拍聘书",
+      "chars": 2621,
+      "score": 90.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「王小红站在」×3",
+      "[observe] attr_adv_pct 50.0 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「王小红的」×3",
+      "[observe] 标题重复：「按手印」已存在"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「按手印」已存在"
+    ],
+    "4": [
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「按手印」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「王小红的」×3",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「按手印」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「王小红的」×4、「知道自己」×3",
+      "[observe] 标题重复：「按手印」已存在"
+    ],
+    "7": [
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "dialogue_run_mean 18.5 高于目标 14.0"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "单条套路句式超限：「王小红站在」×3",
+      "dialogue_chars_pct 28.8 低于目标 30.0",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "9": [
+      "narration_para_pct 4.9 低于目标 5.0",
+      "attr_adv_pct 23.8 高于目标 12.0",
+      "[observe] 标题重复：「按手印」已存在"
+    ],
+    "10": [
+      "[observe] 标题重复：「拍聘书」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 436.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T10:09:57"
+}

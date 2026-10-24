@@ -1,0 +1,187 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-140",
+  "profile": "爽文",
+  "title": "旧账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19222,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18199,
+    "chapter_chars_mean": 1820,
+    "chapter_chars_median": 1758,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 42,
+    "dialogue_chars_pct": 50.8,
+    "dialogue_para_pct": 85.4,
+    "interiority_para_pct": 4.7,
+    "narration_para_pct": 9.8,
+    "turn_under20_pct": 69.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.7,
+    "attr_adv_pct": 18.6,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 9.2,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字的手指",
+      "chars": 1769,
+      "score": 98.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "盖章的手势",
+      "chars": 1911,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "翻出旧存根",
+      "chars": 2065,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "账本与报表的对峙",
+      "chars": 1804,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手指摩挲旧账本边缘",
+      "chars": 1719,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "账本与报表的对峙",
+      "chars": 1706,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "手指摩挲旧账本边缘",
+      "chars": 1909,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "手指摩挲证书边缘",
+      "chars": 1683,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "手指摩挲名册边缘",
+      "chars": 2281,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "手指摩挲账本边缘",
+      "chars": 2365,
+      "score": 90.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李国强的」×5",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "dialogue_run_mean 16.5 高于目标 14.0"
+    ],
+    "2": [
+      "单条套路句式超限：「李国强的」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "dialogue_run_mean 15.5 高于目标 14.0"
+    ],
+    "3": [
+      "narration_para_pct 2.7 低于目标 5.0",
+      "attr_adv_pct 21.4 高于目标 12.0",
+      "dialogue_run_mean 17.5 高于目标 14.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强的」×11、「他知道这」×3、「林小满的」×3"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强的」×5",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「账本与报表的对峙」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「李国强的」×9",
+      "attr_adv_pct 17.6 高于目标 12.0",
+      "[observe] 标题重复：「手指摩挲旧账本边缘」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李国强的」×3",
+      "[observe] attr_adv_pct 30.0 > 25.0（结构塌缩）",
+      "[observe] 标题与《手指摩挲旧账本边缘》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "narration_para_pct 3.8 低于目标 5.0",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题与《手指摩挲证书边缘》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李国强的」×3",
+      "[observe] 标题与《手指摩挲旧账本边缘》近似 0.94 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 441.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T19:24:24"
+}

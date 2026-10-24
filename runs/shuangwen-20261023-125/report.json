@@ -1,0 +1,166 @@
+{
+  "consistency": "1. 第一章提到林远凭借“父亲留下的青铜令牌和一块残缺铜牌”获得比武资格，但第十章明确指出“令牌已失效”，与前文“成功获得比武资格”矛盾。\n\n2. 第二章提到“需补交押金才能继续留在藏书阁”，但未提及林远是否因此失去比武资格，与第十章“失去比武资格”无直接因果关系，逻辑不连贯。\n\n3. 第六章提到“林远发现手中青铜令牌并非家族传承，而是父亲遗失的旧令牌”，但第七章又提到“用祖传青铜令牌换取比武资格”，前后矛盾。\n\n4. 第七章提到“林远用祖传青铜令牌换取比武资格”，但第六章已指出该令牌并非家族传承，与“祖传”说法矛盾。\n\n5. 第八章提到“林远用一枚看似普通的青铜令牌引发争议”，但第六章已指出该令牌是“父亲遗失的旧令牌”，与“看似普通”无直接关联，逻辑不一致。\n\n6. 第十章提到“林远凭借家族令牌进入藏书阁”，但第六章已指出该令牌是“父亲遗失的旧令牌”，与“家族传承”矛盾。",
+  "slug": "shuangwen-20261023-125",
+  "profile": "爽文",
+  "title": "铜印",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19786,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18642,
+    "chapter_chars_mean": 1864,
+    "chapter_chars_median": 1746,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 50.3,
+    "dialogue_chars_pct": 39.3,
+    "dialogue_para_pct": 73.6,
+    "interiority_para_pct": 8.6,
+    "narration_para_pct": 17.8,
+    "turn_under20_pct": 82.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.0,
+    "attr_adv_pct": 12.3,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 3.9,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜印辨真假",
+      "chars": 2094,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铜片对证",
+      "chars": 1827,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "铜印覆旧名",
+      "chars": 1663,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "铜印压令牌",
+      "chars": 1742,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铜印压令牌",
+      "chars": 2710,
+      "score": 37.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "铜印压令牌",
+      "chars": 1735,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "铜印压令牌",
+      "chars": 2052,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "铜印压令牌",
+      "chars": 1623,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "铜印压令牌",
+      "chars": 1879,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "令牌照影",
+      "chars": 2451,
+      "score": 91.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "4": [
+      "dialogue_chars_pct 24.5 低于目标 30.0",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「陆长风的」×3",
+      "[observe] attr_adv_pct 46.7 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「铜印压令牌」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「铜印压令牌」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「陆长风的」×5",
+      "[observe] 标题重复：「铜印压令牌」已存在"
+    ],
+    "8": [
+      "dialogue_chars_pct 29.9 低于目标 30.0",
+      "[observe] 标题重复：「铜印压令牌」已存在"
+    ],
+    "9": [
+      "[observe] 标题重复：「铜印压令牌」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「青云宗」×5、「陆长风的」×4"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 443.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T18:15:58"
+}

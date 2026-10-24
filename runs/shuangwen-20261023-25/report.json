@@ -1,0 +1,181 @@
+{
+  "consistency": "1. 第一章提到林九以内门弟子身份领取参赛资格，但第四章又说他因伪造参赛名单被揭穿，失去内门身份，前后身份认定矛盾。\n\n2. 第三章提到林九因伪造身份被陆怀远揭穿，但第九章又提到林九拿出苏婉儿手写信证明自己参赛资格，说明伪造身份的说法前后不一致。\n\n3. 第六章提到林九为获得参赛资格向陆怀远行贿，但第七章又说他撕毁参赛报名表，表明其立场发生无理由翻转。\n\n4. 第十章提到林九在储物柜中找到参赛名单，但第一章和第四章均未提及储物柜与参赛名单的关联，导致储物柜与名单的出现缺乏铺垫。\n\n5. 第二章和第五章均以“铜牌贴墙生光”为标题，但内容不一致，可能为重复章节误标。",
+  "slug": "shuangwen-20261023-25",
+  "profile": "爽文",
+  "title": "令牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19464,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18364,
+    "chapter_chars_mean": 1836,
+    "chapter_chars_median": 1902,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 46.7,
+    "dialogue_chars_pct": 47.2,
+    "dialogue_para_pct": 82.1,
+    "interiority_para_pct": 5.0,
+    "narration_para_pct": 13.0,
+    "turn_under20_pct": 77.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.4,
+    "attr_adv_pct": 20.6,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 7.3,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙认主",
+      "chars": 1543,
+      "score": 98.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜牌贴墙生光",
+      "chars": 2040,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "玉佩映月光",
+      "chars": 2075,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙认主",
+      "chars": 2096,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铜牌贴墙生光",
+      "chars": 2227,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "令牌边缘升温",
+      "chars": 1723,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "令牌边缘升温",
+      "chars": 1662,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "令牌边缘升温",
+      "chars": 1509,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "令牌边缘升温",
+      "chars": 1981,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "令牌边缘升温",
+      "chars": 2598,
+      "score": 92.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "2": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 24 高于目标 14.0",
+      "[observe] attr_adv_pct 52.6 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "attr_adv_pct 21.1 高于目标 12.0"
+    ],
+    "4": [
+      "narration_para_pct 4.1 低于目标 5.0",
+      "[observe] 标题重复：「钥匙认主」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「陆怀远的」×8",
+      "[observe] 标题重复：「铜牌贴墙生光」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「陆怀远的」×4、「他知道这」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「陆怀远的」×4",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「令牌边缘升温」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「陆怀远的」×5、「他知道这」×3",
+      "[observe] 标题重复：「令牌边缘升温」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「陆怀远的」×4",
+      "[observe] attr_adv_pct 27.8 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「令牌边缘升温」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「陆怀远的」×5",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题重复：「令牌边缘升温」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 445.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T10:45:43"
+}

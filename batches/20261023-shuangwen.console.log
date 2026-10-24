@@ -1,0 +1,1057 @@
+════════════════════════════════════════════════════════
+ 批量生成：shuangwen
+   截止        2026-10-23 20:00 （还剩 666 分钟）
+   闸门        observe
+   并发        2 （会吃满 vLLM 两路，你的对话通道被挤）
+   种子        20 条，循环（当前第 8 轮）
+   预估        每部约 3 分钟 → 到截止大约能跑 222 部
+   产出        /home/liang/novel-agent/batches/20261023-shuangwen
+   代码快照    /home/liang/novel-agent/batches/20261023-shuangwen/src
+               rev 2bb8d7c-dirty　hash 94e3452ad9c3 （工作树有未提交改动，快照已固化当前状态）
+   停止        touch /home/liang/.novel-agent-batch.stop
+════════════════════════════════════════════════════════
+
+── [1] shuangwen-20261023-01  （08:53，距截止 666 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　283s　{"chapters": 10, "total_chars": 19538, "score_min": 35.2, "score_mean": 70.1, "degraded": 0, "debt": 25, "calls": 97, "llm_sec": 456.1, "dialogue_pct": 47.6}
+
+── [2] shuangwen-20261023-02  （08:58，距截止 661 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　256s　{"chapters": 10, "total_chars": 18689, "score_min": 37.7, "score_mean": 88.0, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 409.4, "dialogue_pct": 52.4}
+
+── [3] shuangwen-20261023-03  （09:02，距截止 657 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 10, "total_chars": 20462, "score_min": 37.0, "score_mean": 81.6, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 441.8, "dialogue_pct": 51.0}
+
+── [4] shuangwen-20261023-04  （09:07，距截止 652 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 10, "total_chars": 19896, "score_min": 37.4, "score_mean": 87.7, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 442.0, "dialogue_pct": 51.7}
+
+── [5] shuangwen-20261023-05  （09:11，距截止 648 分钟）
+   题材：宗门大比前夜，一枚通行令牌换了主人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 10, "total_chars": 19477, "score_min": 36.6, "score_mean": 70.4, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 440.0, "dialogue_pct": 49.2}
+
+── [6] shuangwen-20261023-06  （09:16，距截止 643 分钟）
+   题材：丹房领药窗口，一份药材清单上的份额按辈分排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 10, "total_chars": 19052, "score_min": 36.3, "score_mean": 87.3, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 435.1, "dialogue_pct": 48.8}
+
+── [7] shuangwen-20261023-07  （09:20，距截止 639 分钟）
+   题材：家族祠堂议事，族谱上一行名字被墨涂过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　267s　{"chapters": 10, "total_chars": 18521, "score_min": 36.9, "score_mean": 82.6, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 431.9, "dialogue_pct": 46.4}
+
+── [8] shuangwen-20261023-08  （09:25，距截止 634 分钟）
+   题材：坊市验货台，一件法器的来历凭据只剩半张
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　282s　{"chapters": 10, "total_chars": 19395, "score_min": 37.2, "score_mean": 81.3, "degraded": 0, "debt": 28, "calls": 97, "llm_sec": 450.1, "dialogue_pct": 44.3}
+
+── [9] shuangwen-20261023-09  （09:30，距截止 629 分钟）
+   题材：讲经堂点名，一个席位的归属按三年前的名录定
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　257s　{"chapters": 10, "total_chars": 17603, "score_min": 37.1, "score_mean": 71.0, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 414.4, "dialogue_pct": 41.3}
+
+── [10] shuangwen-20261023-10  （09:34，距截止 625 分钟）
+   题材：山门登记处，一张入山凭牌上的保人已经死了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 10, "total_chars": 19069, "score_min": 36.7, "score_mean": 86.5, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 426.9, "dialogue_pct": 44.6}
+
+── [11] shuangwen-20261023-11  （09:38，距截止 621 分钟）
+   题材：器坊交工那日，一炉成品的验收标准临时改了一条
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　250s　{"chapters": 10, "total_chars": 17765, "score_min": 36.6, "score_mean": 87.3, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 404.1, "dialogue_pct": 40.7}
+
+── [12] shuangwen-20261023-12  （09:43，距截止 617 分钟）
+   题材：藏经阁借阅处，一道取阅权限按长老的手令发
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 10, "total_chars": 18596, "score_min": 36.5, "score_mean": 88.0, "degraded": 0, "debt": 12, "calls": 97, "llm_sec": 418.4, "dialogue_pct": 46.1}
+
+── [13] shuangwen-20261023-13  （09:47，距截止 612 分钟）
+   题材：分舵月结，一笔供奉的交付记录对不上名册
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　271s　{"chapters": 10, "total_chars": 18733, "score_min": 90.4, "score_mean": 92.0, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 434.8, "dialogue_pct": 45.6}
+
+── [14] shuangwen-20261023-14  （09:51，距截止 608 分钟）
+   题材：连锁餐饮总部收回分店采购权那天，交接单上少一页
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　256s　{"chapters": 10, "total_chars": 19392, "score_min": 39.8, "score_mean": 86.8, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 411.0, "dialogue_pct": 56.4}
+
+── [15] shuangwen-20261023-15  （09:56，距截止 603 分钟）
+   题材：地级市医院采购科，一台设备的验收单缺一个章
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　266s　{"chapters": 10, "total_chars": 18609, "score_min": 36.8, "score_mean": 81.9, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 418.2, "dialogue_pct": 52.1}
+
+── [16] shuangwen-20261023-16  （10:00，距截止 599 分钟）
+   题材：老城区拆迁办的补偿名单，户主那一栏写的是别人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　291s　{"chapters": 10, "total_chars": 18991, "score_min": 35.8, "score_mean": 76.0, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 454.1, "dialogue_pct": 50.8}
+
+── [17] shuangwen-20261023-17  （10:05，距截止 594 分钟）
+   题材：民办中学教务处，一份代课老师的工龄证明被压在抽屉里
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 10, "total_chars": 18868, "score_min": 39.0, "score_mean": 87.0, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 436.3, "dialogue_pct": 46.3}
+
+── [18] shuangwen-20261023-18  （10:09，距截止 590 分钟）
+   题材：汽修厂年底结账，一笔尾款挂在上一任经理名下
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 10, "total_chars": 18849, "score_min": 36.6, "score_mean": 87.6, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 437.8, "dialogue_pct": 49.1}
+
+── [19] shuangwen-20261023-19  （10:14，距截止 585 分钟）
+   题材：物流园区过磅房，一张磅单上的皮重改过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 10, "total_chars": 18455, "score_min": 36.3, "score_mean": 82.1, "degraded": 0, "debt": 19, "calls": 97, "llm_sec": 414.5, "dialogue_pct": 51.0}
+
+── [20] shuangwen-20261023-20  （10:18，距截止 581 分钟）
+   题材：县供销大楼柜台转租，一纸合同上只有一方签了字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 10, "total_chars": 19312, "score_min": 36.6, "score_mean": 76.6, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 431.5, "dialogue_pct": 45.1}
+
+── [21] shuangwen-20261023-21  （10:23，距截止 576 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 10, "total_chars": 18938, "score_min": 36.4, "score_mean": 80.3, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 425.2, "dialogue_pct": 49.0}
+
+── [22] shuangwen-20261023-22  （10:27，距截止 572 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　258s　{"chapters": 10, "total_chars": 18976, "score_min": 37.7, "score_mean": 76.9, "degraded": 0, "debt": 16, "calls": 97, "llm_sec": 414.5, "dialogue_pct": 51.5}
+
+── [23] shuangwen-20261023-23  （10:32，距截止 567 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 10, "total_chars": 19551, "score_min": 36.0, "score_mean": 80.5, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 419.9, "dialogue_pct": 52.7}
+
+── [24] shuangwen-20261023-24  （10:36，距截止 563 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 10, "total_chars": 20520, "score_min": 37.4, "score_mean": 81.2, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 450.7, "dialogue_pct": 47.2}
+
+── [25] shuangwen-20261023-25  （10:41，距截止 558 分钟）
+   题材：宗门大比前夜，一枚通行令牌换了主人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 10, "total_chars": 19464, "score_min": 35.7, "score_mean": 76.3, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 445.3, "dialogue_pct": 47.2}
+
+── [26] shuangwen-20261023-26  （10:45，距截止 554 分钟）
+   题材：丹房领药窗口，一份药材清单上的份额按辈分排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 10, "total_chars": 18971, "score_min": 37.0, "score_mean": 82.1, "degraded": 0, "debt": 14, "calls": 97, "llm_sec": 423.8, "dialogue_pct": 49.7}
+
+── [27] shuangwen-20261023-27  （10:50，距截止 549 分钟）
+   题材：家族祠堂议事，族谱上一行名字被墨涂过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 10, "total_chars": 18668, "score_min": 38.0, "score_mean": 88.5, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 439.8, "dialogue_pct": 48.9}
+
+── [28] shuangwen-20261023-28  （10:54，距截止 545 分钟）
+   题材：坊市验货台，一件法器的来历凭据只剩半张
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 10, "total_chars": 19474, "score_min": 36.6, "score_mean": 76.4, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 434.1, "dialogue_pct": 50.7}
+
+── [29] shuangwen-20261023-29  （10:59，距截止 540 分钟）
+   题材：讲经堂点名，一个席位的归属按三年前的名录定
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 10, "total_chars": 19979, "score_min": 36.8, "score_mean": 76.1, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 443.1, "dialogue_pct": 46.4}
+
+── [30] shuangwen-20261023-30  （11:03，距截止 536 分钟）
+   题材：山门登记处，一张入山凭牌上的保人已经死了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 10, "total_chars": 18674, "score_min": 90.2, "score_mean": 92.6, "degraded": 0, "debt": 25, "calls": 97, "llm_sec": 429.4, "dialogue_pct": 45.8}
+
+── [31] shuangwen-20261023-31  （11:08，距截止 531 分钟）
+   题材：器坊交工那日，一炉成品的验收标准临时改了一条
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　266s　{"chapters": 10, "total_chars": 18756, "score_min": 37.2, "score_mean": 87.0, "degraded": 0, "debt": 9, "calls": 97, "llm_sec": 424.3, "dialogue_pct": 40.8}
+
+── [32] shuangwen-20261023-32  （11:12，距截止 527 分钟）
+   题材：藏经阁借阅处，一道取阅权限按长老的手令发
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　261s　{"chapters": 10, "total_chars": 18497, "score_min": 36.2, "score_mean": 71.1, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 422.9, "dialogue_pct": 46.1}
+
+── [33] shuangwen-20261023-33  （11:17，距截止 522 分钟）
+   题材：分舵月结，一笔供奉的交付记录对不上名册
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　267s　{"chapters": 10, "total_chars": 18435, "score_min": 36.6, "score_mean": 82.1, "degraded": 0, "debt": 14, "calls": 97, "llm_sec": 420.4, "dialogue_pct": 44.0}
+
+── [34] shuangwen-20261023-34  （11:21，距截止 518 分钟）
+   题材：连锁餐饮总部收回分店采购权那天，交接单上少一页
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　257s　{"chapters": 10, "total_chars": 18817, "score_min": 36.8, "score_mean": 87.0, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 414.5, "dialogue_pct": 55.5}
+
+── [35] shuangwen-20261023-35  （11:25，距截止 514 分钟）
+   题材：地级市医院采购科，一台设备的验收单缺一个章
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　254s　{"chapters": 10, "total_chars": 18641, "score_min": 37.1, "score_mean": 76.3, "degraded": 0, "debt": 27, "calls": 97, "llm_sec": 410.9, "dialogue_pct": 51.8}
+
+── [36] shuangwen-20261023-36  （11:30，距截止 509 分钟）
+   题材：老城区拆迁办的补偿名单，户主那一栏写的是别人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 10, "total_chars": 20327, "score_min": 36.2, "score_mean": 81.2, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 440.3, "dialogue_pct": 48.5}
+
+── [37] shuangwen-20261023-37  （11:34，距截止 505 分钟）
+   题材：民办中学教务处，一份代课老师的工龄证明被压在抽屉里
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　267s　{"chapters": 10, "total_chars": 19875, "score_min": 37.3, "score_mean": 88.2, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 427.6, "dialogue_pct": 50.4}
+
+── [38] shuangwen-20261023-38  （11:39，距截止 500 分钟）
+   题材：汽修厂年底结账，一笔尾款挂在上一任经理名下
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　258s　{"chapters": 10, "total_chars": 18647, "score_min": 37.0, "score_mean": 86.9, "degraded": 0, "debt": 12, "calls": 97, "llm_sec": 413.0, "dialogue_pct": 50.8}
+
+── [39] shuangwen-20261023-39  （11:43，距截止 496 分钟）
+   题材：物流园区过磅房，一张磅单上的皮重改过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　257s　{"chapters": 10, "total_chars": 18815, "score_min": 38.6, "score_mean": 86.6, "degraded": 0, "debt": 13, "calls": 97, "llm_sec": 414.1, "dialogue_pct": 44.6}
+
+── [40] shuangwen-20261023-40  （11:47，距截止 492 分钟）
+   题材：县供销大楼柜台转租，一纸合同上只有一方签了字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　271s　{"chapters": 10, "total_chars": 19305, "score_min": 37.1, "score_mean": 88.0, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 427.2, "dialogue_pct": 49.8}
+
+── [41] shuangwen-20261023-41  （11:52，距截止 487 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 10, "total_chars": 19380, "score_min": 37.3, "score_mean": 87.3, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 431.9, "dialogue_pct": 51.8}
+
+── [42] shuangwen-20261023-42  （11:56，距截止 483 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　250s　{"chapters": 10, "total_chars": 18470, "score_min": 36.8, "score_mean": 81.5, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 409.1, "dialogue_pct": 42.7}
+
+── [43] shuangwen-20261023-43  （12:01，距截止 478 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 10, "total_chars": 20725, "score_min": 36.5, "score_mean": 80.8, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 438.9, "dialogue_pct": 51.3}
+
+── [44] shuangwen-20261023-44  （12:05，距截止 474 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　262s　{"chapters": 10, "total_chars": 18265, "score_min": 36.6, "score_mean": 87.4, "degraded": 0, "debt": 14, "calls": 97, "llm_sec": 422.9, "dialogue_pct": 52.1}
+
+── [45] shuangwen-20261023-45  （12:09，距截止 470 分钟）
+   题材：宗门大比前夜，一枚通行令牌换了主人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　271s　{"chapters": 10, "total_chars": 19141, "score_min": 36.7, "score_mean": 76.3, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 427.9, "dialogue_pct": 48.0}
+
+── [46] shuangwen-20261023-46  （12:14，距截止 465 分钟）
+   题材：丹房领药窗口，一份药材清单上的份额按辈分排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 10, "total_chars": 18775, "score_min": 36.6, "score_mean": 82.2, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 435.4, "dialogue_pct": 36.8}
+
+── [47] shuangwen-20261023-47  （12:18，距截止 461 分钟）
+   题材：家族祠堂议事，族谱上一行名字被墨涂过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　291s　{"chapters": 10, "total_chars": 20472, "score_min": 37.1, "score_mean": 81.3, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 457.2, "dialogue_pct": 47.4}
+
+── [48] shuangwen-20261023-48  （12:23，距截止 456 分钟）
+   题材：坊市验货台，一件法器的来历凭据只剩半张
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 10, "total_chars": 19244, "score_min": 36.4, "score_mean": 81.2, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 449.8, "dialogue_pct": 44.5}
+
+── [49] shuangwen-20261023-49  （12:28，距截止 451 分钟）
+   题材：讲经堂点名，一个席位的归属按三年前的名录定
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 10, "total_chars": 19050, "score_min": 36.8, "score_mean": 87.3, "degraded": 0, "debt": 16, "calls": 97, "llm_sec": 443.3, "dialogue_pct": 46.8}
+
+── [50] shuangwen-20261023-50  （12:33，距截止 446 分钟）
+   题材：山门登记处，一张入山凭牌上的保人已经死了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 10, "total_chars": 19468, "score_min": 91.0, "score_mean": 92.7, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 444.2, "dialogue_pct": 47.6}
+
+── [51] shuangwen-20261023-51  （12:37，距截止 442 分钟）
+   题材：器坊交工那日，一炉成品的验收标准临时改了一条
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　285s　{"chapters": 10, "total_chars": 19986, "score_min": 36.8, "score_mean": 88.0, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 456.2, "dialogue_pct": 46.7}
+
+── [52] shuangwen-20261023-52  （12:42，距截止 437 分钟）
+   题材：藏经阁借阅处，一道取阅权限按长老的手令发
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 10, "total_chars": 20814, "score_min": 37.2, "score_mean": 87.4, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 441.2, "dialogue_pct": 44.9}
+
+── [53] shuangwen-20261023-53  （12:47，距截止 432 分钟）
+   题材：分舵月结，一笔供奉的交付记录对不上名册
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 10, "total_chars": 18395, "score_min": 36.4, "score_mean": 70.3, "degraded": 0, "debt": 26, "calls": 97, "llm_sec": 447.8, "dialogue_pct": 48.2}
+
+── [54] shuangwen-20261023-54  （12:51，距截止 428 分钟）
+   题材：连锁餐饮总部收回分店采购权那天，交接单上少一页
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 10, "total_chars": 19621, "score_min": 90.5, "score_mean": 92.4, "degraded": 0, "debt": 14, "calls": 97, "llm_sec": 430.4, "dialogue_pct": 48.5}
+
+── [55] shuangwen-20261023-55  （12:56，距截止 423 分钟）
+   题材：地级市医院采购科，一台设备的验收单缺一个章
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　259s　{"chapters": 10, "total_chars": 18602, "score_min": 36.9, "score_mean": 76.5, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 409.2, "dialogue_pct": 50.5}
+
+── [56] shuangwen-20261023-56  （13:00，距截止 419 分钟）
+   题材：老城区拆迁办的补偿名单，户主那一栏写的是别人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　282s　{"chapters": 10, "total_chars": 19341, "score_min": 36.7, "score_mean": 76.4, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 442.7, "dialogue_pct": 50.2}
+
+── [57] shuangwen-20261023-57  （13:05，距截止 414 分钟）
+   题材：民办中学教务处，一份代课老师的工龄证明被压在抽屉里
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　251s　{"chapters": 10, "total_chars": 18617, "score_min": 40.0, "score_mean": 87.3, "degraded": 0, "debt": 19, "calls": 97, "llm_sec": 406.5, "dialogue_pct": 51.6}
+
+── [58] shuangwen-20261023-58  （13:09，距截止 410 分钟）
+   题材：汽修厂年底结账，一笔尾款挂在上一任经理名下
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 10, "total_chars": 19595, "score_min": 35.4, "score_mean": 86.7, "degraded": 0, "debt": 26, "calls": 97, "llm_sec": 442.2, "dialogue_pct": 51.8}
+
+── [59] shuangwen-20261023-59  （13:14，距截止 405 分钟）
+   题材：物流园区过磅房，一张磅单上的皮重改过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　262s　{"chapters": 10, "total_chars": 19149, "score_min": 89.6, "score_mean": 93.5, "degraded": 0, "debt": 19, "calls": 97, "llm_sec": 413.9, "dialogue_pct": 52.6}
+
+── [60] shuangwen-20261023-60  （13:18，距截止 401 分钟）
+   题材：县供销大楼柜台转租，一纸合同上只有一方签了字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 10, "total_chars": 19071, "score_min": 36.3, "score_mean": 76.0, "degraded": 0, "debt": 26, "calls": 97, "llm_sec": 424.6, "dialogue_pct": 49.5}
+
+── [61] shuangwen-20261023-61  （13:22，距截止 397 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 10, "total_chars": 18550, "score_min": 36.4, "score_mean": 65.2, "degraded": 0, "debt": 26, "calls": 97, "llm_sec": 420.7, "dialogue_pct": 49.2}
+
+── [62] shuangwen-20261023-62  （13:27，距截止 392 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　256s　{"chapters": 10, "total_chars": 19001, "score_min": 92.3, "score_mean": 94.2, "degraded": 0, "debt": 18, "calls": 97, "llm_sec": 405.6, "dialogue_pct": 44.6}
+
+── [63] shuangwen-20261023-63  （13:31，距截止 388 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 10, "total_chars": 19123, "score_min": 35.3, "score_mean": 69.9, "degraded": 0, "debt": 27, "calls": 97, "llm_sec": 425.5, "dialogue_pct": 51.8}
+
+── [64] shuangwen-20261023-64  （13:35，距截止 384 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　286s　{"chapters": 10, "total_chars": 19140, "score_min": 35.5, "score_mean": 76.7, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 451.1, "dialogue_pct": 51.0}
+
+── [65] shuangwen-20261023-65  （13:40，距截止 379 分钟）
+   题材：宗门大比前夜，一枚通行令牌换了主人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　286s　{"chapters": 10, "total_chars": 18690, "score_min": 88.7, "score_mean": 93.9, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 446.2, "dialogue_pct": 45.4}
+
+── [66] shuangwen-20261023-66  （13:45，距截止 374 分钟）
+   题材：丹房领药窗口，一份药材清单上的份额按辈分排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　291s　{"chapters": 10, "total_chars": 19602, "score_min": 36.6, "score_mean": 71.0, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 464.6, "dialogue_pct": 44.5}
+
+── [67] shuangwen-20261023-67  （13:50，距截止 369 分钟）
+   题材：家族祠堂议事，族谱上一行名字被墨涂过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 10, "total_chars": 18376, "score_min": 37.2, "score_mean": 82.1, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 426.5, "dialogue_pct": 51.6}
+
+── [68] shuangwen-20261023-68  （13:54，距截止 365 分钟）
+   题材：坊市验货台，一件法器的来历凭据只剩半张
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 10, "total_chars": 19148, "score_min": 36.4, "score_mean": 76.1, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 441.7, "dialogue_pct": 43.1}
+
+── [69] shuangwen-20261023-69  （13:59，距截止 360 分钟）
+   题材：讲经堂点名，一个席位的归属按三年前的名录定
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 10, "total_chars": 17642, "score_min": 36.8, "score_mean": 81.9, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 418.2, "dialogue_pct": 45.0}
+
+── [70] shuangwen-20261023-70  （14:03，距截止 356 分钟）
+   题材：山门登记处，一张入山凭牌上的保人已经死了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　282s　{"chapters": 10, "total_chars": 19526, "score_min": 37.2, "score_mean": 82.3, "degraded": 0, "debt": 26, "calls": 93, "llm_sec": 442.3, "dialogue_pct": 47.7}
+
+── [71] shuangwen-20261023-71  （14:08，距截止 351 分钟）
+   题材：器坊交工那日，一炉成品的验收标准临时改了一条
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 10, "total_chars": 19311, "score_min": 36.4, "score_mean": 75.6, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 439.6, "dialogue_pct": 46.1}
+
+── [72] shuangwen-20261023-72  （14:13，距截止 346 分钟）
+   题材：藏经阁借阅处，一道取阅权限按长老的手令发
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 10, "total_chars": 17247, "score_min": 36.5, "score_mean": 87.6, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 418.9, "dialogue_pct": 50.3}
+
+── [73] shuangwen-20261023-73  （14:17，距截止 342 分钟）
+   题材：分舵月结，一笔供奉的交付记录对不上名册
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 10, "total_chars": 19723, "score_min": 34.8, "score_mean": 76.7, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 444.7, "dialogue_pct": 47.9}
+
+── [74] shuangwen-20261023-74  （14:22，距截止 337 分钟）
+   题材：连锁餐饮总部收回分店采购权那天，交接单上少一页
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　256s　{"chapters": 10, "total_chars": 19182, "score_min": 35.8, "score_mean": 69.6, "degraded": 0, "debt": 19, "calls": 97, "llm_sec": 414.4, "dialogue_pct": 45.3}
+
+── [75] shuangwen-20261023-75  （14:26，距截止 333 分钟）
+   题材：地级市医院采购科，一台设备的验收单缺一个章
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　267s　{"chapters": 10, "total_chars": 19408, "score_min": 37.1, "score_mean": 81.2, "degraded": 0, "debt": 25, "calls": 97, "llm_sec": 431.3, "dialogue_pct": 50.1}
+
+── [76] shuangwen-20261023-76  （14:30，距截止 329 分钟）
+   题材：老城区拆迁办的补偿名单，户主那一栏写的是别人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 10, "total_chars": 18452, "score_min": 35.6, "score_mean": 70.5, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 424.9, "dialogue_pct": 44.8}
+
+── [77] shuangwen-20261023-77  （14:35，距截止 324 分钟）
+   题材：民办中学教务处，一份代课老师的工龄证明被压在抽屉里
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 10, "total_chars": 19265, "score_min": 36.7, "score_mean": 70.3, "degraded": 0, "debt": 14, "calls": 97, "llm_sec": 418.5, "dialogue_pct": 46.7}
+
+── [78] shuangwen-20261023-78  （14:39，距截止 320 分钟）
+   题材：汽修厂年底结账，一笔尾款挂在上一任经理名下
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　271s　{"chapters": 10, "total_chars": 19241, "score_min": 36.5, "score_mean": 76.4, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 432.8, "dialogue_pct": 51.9}
+
+── [79] shuangwen-20261023-79  （14:44，距截止 315 分钟）
+   题材：物流园区过磅房，一张磅单上的皮重改过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　246s　{"chapters": 10, "total_chars": 17746, "score_min": 36.6, "score_mean": 86.8, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 387.3, "dialogue_pct": 45.0}
+
+── [80] shuangwen-20261023-80  （14:48，距截止 311 分钟）
+   题材：县供销大楼柜台转租，一纸合同上只有一方签了字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　284s　{"chapters": 10, "total_chars": 19435, "score_min": 37.2, "score_mean": 87.1, "degraded": 0, "debt": 13, "calls": 97, "llm_sec": 452.1, "dialogue_pct": 47.8}
+
+── [81] shuangwen-20261023-81  （14:52，距截止 307 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 10, "total_chars": 18884, "score_min": 37.0, "score_mean": 88.2, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 420.1, "dialogue_pct": 49.4}
+
+── [82] shuangwen-20261023-82  （14:57，距截止 302 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　240s　{"chapters": 10, "total_chars": 17796, "score_min": 35.5, "score_mean": 76.1, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 384.9, "dialogue_pct": 54.5}
+
+── [83] shuangwen-20261023-83  （15:01，距截止 298 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　276s　{"chapters": 10, "total_chars": 19363, "score_min": 35.3, "score_mean": 75.8, "degraded": 0, "debt": 27, "calls": 97, "llm_sec": 430.3, "dialogue_pct": 53.0}
+
+── [84] shuangwen-20261023-84  （15:05，距截止 294 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　298s　{"chapters": 10, "total_chars": 21248, "score_min": 36.8, "score_mean": 81.4, "degraded": 0, "debt": 18, "calls": 97, "llm_sec": 478.4, "dialogue_pct": 51.2}
+
+── [85] shuangwen-20261023-85  （15:10，距截止 289 分钟）
+   题材：宗门大比前夜，一枚通行令牌换了主人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　282s　{"chapters": 10, "total_chars": 20043, "score_min": 36.5, "score_mean": 70.5, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 453.4, "dialogue_pct": 47.6}
+
+── [86] shuangwen-20261023-86  （15:15，距截止 284 分钟）
+   题材：丹房领药窗口，一份药材清单上的份额按辈分排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 10, "total_chars": 19388, "score_min": 37.2, "score_mean": 65.4, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 427.2, "dialogue_pct": 41.0}
+
+── [87] shuangwen-20261023-87  （15:20，距截止 279 分钟）
+   题材：家族祠堂议事，族谱上一行名字被墨涂过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　285s　{"chapters": 10, "total_chars": 19237, "score_min": 37.5, "score_mean": 81.5, "degraded": 0, "debt": 13, "calls": 97, "llm_sec": 444.9, "dialogue_pct": 46.2}
+
+── [88] shuangwen-20261023-88  （15:25，距截止 274 分钟）
+   题材：坊市验货台，一件法器的来历凭据只剩半张
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　285s　{"chapters": 10, "total_chars": 19849, "score_min": 90.9, "score_mean": 94.2, "degraded": 0, "debt": 14, "calls": 97, "llm_sec": 450.4, "dialogue_pct": 47.6}
+
+── [89] shuangwen-20261023-89  （15:29，距截止 270 分钟）
+   题材：讲经堂点名，一个席位的归属按三年前的名录定
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　285s　{"chapters": 10, "total_chars": 19835, "score_min": 36.3, "score_mean": 81.9, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 447.1, "dialogue_pct": 48.3}
+
+── [90] shuangwen-20261023-90  （15:34，距截止 265 分钟）
+   题材：山门登记处，一张入山凭牌上的保人已经死了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 10, "total_chars": 20074, "score_min": 36.7, "score_mean": 87.2, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 443.6, "dialogue_pct": 52.7}
+
+── [91] shuangwen-20261023-91  （15:39，距截止 260 分钟）
+   题材：器坊交工那日，一炉成品的验收标准临时改了一条
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　254s　{"chapters": 10, "total_chars": 17754, "score_min": 92.1, "score_mean": 93.5, "degraded": 0, "debt": 4, "calls": 97, "llm_sec": 406.1, "dialogue_pct": 47.3}
+
+── [92] shuangwen-20261023-92  （15:43，距截止 256 分钟）
+   题材：藏经阁借阅处，一道取阅权限按长老的手令发
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 10, "total_chars": 19360, "score_min": 36.6, "score_mean": 80.6, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 444.8, "dialogue_pct": 51.0}
+
+── [93] shuangwen-20261023-93  （15:48，距截止 251 分钟）
+   题材：分舵月结，一笔供奉的交付记录对不上名册
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　288s　{"chapters": 10, "total_chars": 19549, "score_min": 37.2, "score_mean": 86.2, "degraded": 0, "debt": 31, "calls": 97, "llm_sec": 453.3, "dialogue_pct": 56.8}
+
+── [94] shuangwen-20261023-94  （15:52，距截止 247 分钟）
+   题材：连锁餐饮总部收回分店采购权那天，交接单上少一页
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 10, "total_chars": 18811, "score_min": 36.6, "score_mean": 81.7, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 421.8, "dialogue_pct": 51.8}
+
+── [95] shuangwen-20261023-95  （15:57，距截止 242 分钟）
+   题材：地级市医院采购科，一台设备的验收单缺一个章
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 10, "total_chars": 18197, "score_min": 35.3, "score_mean": 75.2, "degraded": 0, "debt": 25, "calls": 97, "llm_sec": 417.9, "dialogue_pct": 53.4}
+
+── [96] shuangwen-20261023-96  （16:01，距截止 238 分钟）
+   题材：老城区拆迁办的补偿名单，户主那一栏写的是别人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 10, "total_chars": 18648, "score_min": 35.0, "score_mean": 76.2, "degraded": 0, "debt": 19, "calls": 97, "llm_sec": 431.2, "dialogue_pct": 50.9}
+
+── [97] shuangwen-20261023-97  （16:06，距截止 233 分钟）
+   题材：民办中学教务处，一份代课老师的工龄证明被压在抽屉里
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 10, "total_chars": 19617, "score_min": 36.7, "score_mean": 76.1, "degraded": 0, "debt": 28, "calls": 97, "llm_sec": 423.3, "dialogue_pct": 51.5}
+
+── [98] shuangwen-20261023-98  （16:10，距截止 229 分钟）
+   题材：汽修厂年底结账，一笔尾款挂在上一任经理名下
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 10, "total_chars": 19491, "score_min": 90.3, "score_mean": 92.9, "degraded": 0, "debt": 18, "calls": 97, "llm_sec": 442.9, "dialogue_pct": 39.9}
+
+── [99] shuangwen-20261023-99  （16:15，距截止 224 分钟）
+   题材：物流园区过磅房，一张磅单上的皮重改过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 10, "total_chars": 19875, "score_min": 34.3, "score_mean": 80.3, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 426.7, "dialogue_pct": 45.4}
+
+── [100] shuangwen-20261023-100  （16:19，距截止 220 分钟）
+   题材：县供销大楼柜台转租，一纸合同上只有一方签了字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　256s　{"chapters": 10, "total_chars": 18248, "score_min": 37.5, "score_mean": 88.5, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 412.3, "dialogue_pct": 48.4}
+
+── [101] shuangwen-20261023-101  （16:24，距截止 215 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 10, "total_chars": 19593, "score_min": 36.7, "score_mean": 86.5, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 438.8, "dialogue_pct": 55.3}
+
+── [102] shuangwen-20261023-102  （16:28，距截止 211 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　251s　{"chapters": 10, "total_chars": 18358, "score_min": 91.2, "score_mean": 93.4, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 399.6, "dialogue_pct": 48.8}
+
+── [103] shuangwen-20261023-103  （16:32，距截止 207 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　265s　{"chapters": 10, "total_chars": 18797, "score_min": 40.0, "score_mean": 86.9, "degraded": 0, "debt": 25, "calls": 97, "llm_sec": 429.0, "dialogue_pct": 49.0}
+
+── [104] shuangwen-20261023-104  （16:37，距截止 202 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　275s　{"chapters": 10, "total_chars": 19032, "score_min": 36.5, "score_mean": 76.4, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 437.1, "dialogue_pct": 45.4}
+
+── [105] shuangwen-20261023-105  （16:41，距截止 198 分钟）
+   题材：宗门大比前夜，一枚通行令牌换了主人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　284s　{"chapters": 10, "total_chars": 19280, "score_min": 37.5, "score_mean": 87.4, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 453.5, "dialogue_pct": 49.6}
+
+── [106] shuangwen-20261023-106  （16:46，距截止 193 分钟）
+   题材：丹房领药窗口，一份药材清单上的份额按辈分排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 10, "total_chars": 19280, "score_min": 39.6, "score_mean": 87.4, "degraded": 0, "debt": 18, "calls": 97, "llm_sec": 444.6, "dialogue_pct": 44.6}
+
+── [107] shuangwen-20261023-107  （16:51，距截止 188 分钟）
+   题材：家族祠堂议事，族谱上一行名字被墨涂过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 10, "total_chars": 18623, "score_min": 37.2, "score_mean": 76.3, "degraded": 0, "debt": 30, "calls": 97, "llm_sec": 437.2, "dialogue_pct": 51.7}
+
+── [108] shuangwen-20261023-108  （16:55，距截止 184 分钟）
+   题材：坊市验货台，一件法器的来历凭据只剩半张
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　289s　{"chapters": 10, "total_chars": 18128, "score_min": 36.0, "score_mean": 76.6, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 454.0, "dialogue_pct": 47.1}
+
+── [109] shuangwen-20261023-109  （17:00，距截止 179 分钟）
+   题材：讲经堂点名，一个席位的归属按三年前的名录定
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　262s　{"chapters": 10, "total_chars": 18230, "score_min": 87.7, "score_mean": 92.7, "degraded": 0, "debt": 25, "calls": 97, "llm_sec": 419.9, "dialogue_pct": 50.9}
+
+── [110] shuangwen-20261023-110  （17:05，距截止 174 分钟）
+   题材：山门登记处，一张入山凭牌上的保人已经死了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 10, "total_chars": 18226, "score_min": 37.1, "score_mean": 87.9, "degraded": 0, "debt": 11, "calls": 97, "llm_sec": 415.6, "dialogue_pct": 50.1}
+
+── [111] shuangwen-20261023-111  （17:09，距截止 170 分钟）
+   题材：器坊交工那日，一炉成品的验收标准临时改了一条
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　252s　{"chapters": 10, "total_chars": 18318, "score_min": 92.5, "score_mean": 94.3, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 410.9, "dialogue_pct": 48.5}
+
+── [112] shuangwen-20261023-112  （17:13，距截止 166 分钟）
+   题材：藏经阁借阅处，一道取阅权限按长老的手令发
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　277s　{"chapters": 10, "total_chars": 19883, "score_min": 36.6, "score_mean": 75.6, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 443.5, "dialogue_pct": 45.0}
+
+── [113] shuangwen-20261023-113  （17:18，距截止 161 分钟）
+   题材：分舵月结，一笔供奉的交付记录对不上名册
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 10, "total_chars": 19608, "score_min": 36.0, "score_mean": 69.5, "degraded": 0, "debt": 29, "calls": 97, "llm_sec": 454.3, "dialogue_pct": 47.0}
+
+── [114] shuangwen-20261023-114  （17:22，距截止 157 分钟）
+   题材：连锁餐饮总部收回分店采购权那天，交接单上少一页
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　259s　{"chapters": 10, "total_chars": 19311, "score_min": 36.0, "score_mean": 80.1, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 398.0, "dialogue_pct": 57.3}
+
+── [115] shuangwen-20261023-115  （17:27，距截止 152 分钟）
+   题材：地级市医院采购科，一台设备的验收单缺一个章
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　255s　{"chapters": 10, "total_chars": 18130, "score_min": 91.0, "score_mean": 93.6, "degraded": 0, "debt": 19, "calls": 97, "llm_sec": 404.9, "dialogue_pct": 49.9}
+
+── [116] shuangwen-20261023-116  （17:31，距截止 148 分钟）
+   题材：老城区拆迁办的补偿名单，户主那一栏写的是别人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 10, "total_chars": 19641, "score_min": 37.3, "score_mean": 87.3, "degraded": 0, "debt": 19, "calls": 97, "llm_sec": 439.1, "dialogue_pct": 46.0}
+
+── [117] shuangwen-20261023-117  （17:35，距截止 144 分钟）
+   题材：民办中学教务处，一份代课老师的工龄证明被压在抽屉里
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　242s　{"chapters": 10, "total_chars": 17585, "score_min": 37.0, "score_mean": 70.2, "degraded": 0, "debt": 25, "calls": 97, "llm_sec": 381.7, "dialogue_pct": 48.0}
+
+── [118] shuangwen-20261023-118  （17:40，距截止 140 分钟）
+   题材：汽修厂年底结账，一笔尾款挂在上一任经理名下
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 10, "total_chars": 19330, "score_min": 37.2, "score_mean": 75.6, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 424.0, "dialogue_pct": 46.5}
+
+── [119] shuangwen-20261023-119  （17:44，距截止 135 分钟）
+   题材：物流园区过磅房，一张磅单上的皮重改过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 10, "total_chars": 18870, "score_min": 35.6, "score_mean": 82.0, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 417.7, "dialogue_pct": 49.3}
+
+── [120] shuangwen-20261023-120  （17:48，距截止 131 分钟）
+   题材：县供销大楼柜台转租，一纸合同上只有一方签了字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 10, "total_chars": 18491, "score_min": 39.2, "score_mean": 85.6, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 431.8, "dialogue_pct": 54.5}
+
+── [121] shuangwen-20261023-121  （17:53，距截止 126 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　275s　{"chapters": 10, "total_chars": 17109, "score_min": 36.8, "score_mean": 81.4, "degraded": 0, "debt": 12, "calls": 97, "llm_sec": 422.7, "dialogue_pct": 51.4}
+
+── [122] shuangwen-20261023-122  （17:57，距截止 122 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　272s　{"chapters": 10, "total_chars": 19705, "score_min": 34.8, "score_mean": 70.7, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 422.4, "dialogue_pct": 49.9}
+
+── [123] shuangwen-20261023-123  （18:02，距截止 117 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 10, "total_chars": 19833, "score_min": 36.2, "score_mean": 65.3, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 435.6, "dialogue_pct": 42.7}
+
+── [124] shuangwen-20261023-124  （18:06，距截止 113 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　267s　{"chapters": 10, "total_chars": 17438, "score_min": 36.6, "score_mean": 83.0, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 420.4, "dialogue_pct": 49.7}
+
+── [125] shuangwen-20261023-125  （18:11，距截止 108 分钟）
+   题材：宗门大比前夜，一枚通行令牌换了主人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 10, "total_chars": 19786, "score_min": 35.4, "score_mean": 82.3, "degraded": 0, "debt": 12, "calls": 97, "llm_sec": 443.5, "dialogue_pct": 39.3}
+
+── [126] shuangwen-20261023-126  （18:16，距截止 104 分钟）
+   题材：丹房领药窗口，一份药材清单上的份额按辈分排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　281s　{"chapters": 10, "total_chars": 19571, "score_min": 91.0, "score_mean": 93.1, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 445.0, "dialogue_pct": 50.3}
+
+── [127] shuangwen-20261023-127  （18:20，距截止 99 分钟）
+   题材：家族祠堂议事，族谱上一行名字被墨涂过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 10, "total_chars": 18732, "score_min": 36.5, "score_mean": 77.5, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 419.0, "dialogue_pct": 48.9}
+
+── [128] shuangwen-20261023-128  （18:25，距截止 94 分钟）
+   题材：坊市验货台，一件法器的来历凭据只剩半张
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　269s　{"chapters": 10, "total_chars": 18600, "score_min": 36.0, "score_mean": 87.5, "degraded": 0, "debt": 13, "calls": 97, "llm_sec": 431.6, "dialogue_pct": 44.6}
+
+── [129] shuangwen-20261023-129  （18:29，距截止 90 分钟）
+   题材：讲经堂点名，一个席位的归属按三年前的名录定
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　286s　{"chapters": 10, "total_chars": 19211, "score_min": 37.0, "score_mean": 81.7, "degraded": 0, "debt": 15, "calls": 97, "llm_sec": 448.1, "dialogue_pct": 51.0}
+
+── [130] shuangwen-20261023-130  （18:34，距截止 85 分钟）
+   题材：山门登记处，一张入山凭牌上的保人已经死了
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　280s　{"chapters": 10, "total_chars": 19285, "score_min": 89.8, "score_mean": 91.7, "degraded": 0, "debt": 24, "calls": 97, "llm_sec": 441.7, "dialogue_pct": 44.1}
+
+── [131] shuangwen-20261023-131  （18:38，距截止 81 分钟）
+   题材：器坊交工那日，一炉成品的验收标准临时改了一条
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　278s　{"chapters": 10, "total_chars": 20175, "score_min": 36.5, "score_mean": 75.7, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 437.0, "dialogue_pct": 43.0}
+
+── [132] shuangwen-20261023-132  （18:43，距截止 76 分钟）
+   题材：藏经阁借阅处，一道取阅权限按长老的手令发
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　274s　{"chapters": 10, "total_chars": 18537, "score_min": 37.6, "score_mean": 80.6, "degraded": 0, "debt": 23, "calls": 97, "llm_sec": 437.6, "dialogue_pct": 42.8}
+
+── [133] shuangwen-20261023-133  （18:48，距截止 71 分钟）
+   题材：分舵月结，一笔供奉的交付记录对不上名册
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　290s　{"chapters": 10, "total_chars": 21085, "score_min": 36.4, "score_mean": 87.2, "degraded": 0, "debt": 16, "calls": 97, "llm_sec": 459.1, "dialogue_pct": 48.1}
+
+── [134] shuangwen-20261023-134  （18:53，距截止 67 分钟）
+   题材：连锁餐饮总部收回分店采购权那天，交接单上少一页
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　264s　{"chapters": 10, "total_chars": 20255, "score_min": 37.2, "score_mean": 76.8, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 434.1, "dialogue_pct": 51.7}
+
+── [135] shuangwen-20261023-135  （18:57，距截止 62 分钟）
+   题材：地级市医院采购科，一台设备的验收单缺一个章
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　262s　{"chapters": 10, "total_chars": 19166, "score_min": 35.2, "score_mean": 81.8, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 417.4, "dialogue_pct": 55.0}
+
+── [136] shuangwen-20261023-136  （19:01，距截止 58 分钟）
+   题材：老城区拆迁办的补偿名单，户主那一栏写的是别人的名字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　255s　{"chapters": 10, "total_chars": 18308, "score_min": 36.0, "score_mean": 87.1, "degraded": 0, "debt": 19, "calls": 97, "llm_sec": 397.8, "dialogue_pct": 47.2}
+
+── [137] shuangwen-20261023-137  （19:06，距截止 53 分钟）
+   题材：民办中学教务处，一份代课老师的工龄证明被压在抽屉里
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　291s　{"chapters": 10, "total_chars": 19539, "score_min": 36.6, "score_mean": 70.4, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 456.8, "dialogue_pct": 46.5}
+
+── [138] shuangwen-20261023-138  （19:10，距截止 49 分钟）
+   题材：汽修厂年底结账，一笔尾款挂在上一任经理名下
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 10, "total_chars": 18409, "score_min": 37.2, "score_mean": 81.9, "degraded": 0, "debt": 18, "calls": 97, "llm_sec": 423.8, "dialogue_pct": 47.1}
+
+── [139] shuangwen-20261023-139  （19:15，距截止 44 分钟）
+   题材：物流园区过磅房，一张磅单上的皮重改过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　270s　{"chapters": 10, "total_chars": 19165, "score_min": 37.1, "score_mean": 77.0, "degraded": 0, "debt": 25, "calls": 97, "llm_sec": 425.4, "dialogue_pct": 44.9}
+
+── [140] shuangwen-20261023-140  （19:19，距截止 40 分钟）
+   题材：县供销大楼柜台转租，一纸合同上只有一方签了字
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　275s　{"chapters": 10, "total_chars": 19222, "score_min": 37.7, "score_mean": 82.3, "degraded": 0, "debt": 27, "calls": 97, "llm_sec": 441.0, "dialogue_pct": 50.8}
+
+── [141] shuangwen-20261023-141  （19:24，距截止 35 分钟）
+   题材：县城建材市场的结账窗口，三年前一张供货单上的签名
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 10, "total_chars": 18640, "score_min": 37.1, "score_mean": 87.7, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 425.1, "dialogue_pct": 51.6}
+
+── [142] shuangwen-20261023-142  （19:28，距截止 31 分钟）
+   题材：三线城市婚庆公司，一份报价单上的档期被排给了别人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　259s　{"chapters": 10, "total_chars": 19331, "score_min": 90.2, "score_mean": 92.7, "degraded": 0, "debt": 18, "calls": 97, "llm_sec": 410.9, "dialogue_pct": 50.9}
+
+── [143] shuangwen-20261023-143  （19:33，距截止 26 分钟）
+   题材：乡镇信用社放贷窗口，担保人签字的日期落在他出差那几天
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　263s　{"chapters": 10, "total_chars": 18418, "score_min": 37.5, "score_mean": 87.7, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 412.8, "dialogue_pct": 51.5}
+
+── [144] shuangwen-20261023-144  （19:37，距截止 22 分钟）
+   题材：外门弟子的灵石月例被扣了三成，账簿上写着「损耗」
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　260s　{"chapters": 10, "total_chars": 18215, "score_min": 37.2, "score_mean": 82.0, "degraded": 0, "debt": 20, "calls": 97, "llm_sec": 419.5, "dialogue_pct": 48.0}
+
+── [145] shuangwen-20261023-145  （19:42，距截止 17 分钟）
+   题材：宗门大比前夜，一枚通行令牌换了主人
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　279s　{"chapters": 10, "total_chars": 19893, "score_min": 36.6, "score_mean": 70.9, "degraded": 0, "debt": 31, "calls": 97, "llm_sec": 441.5, "dialogue_pct": 47.5}
+
+── [146] shuangwen-20261023-146  （19:46，距截止 13 分钟）
+   题材：丹房领药窗口，一份药材清单上的份额按辈分排
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　268s　{"chapters": 10, "total_chars": 18487, "score_min": 37.0, "score_mean": 76.8, "degraded": 0, "debt": 21, "calls": 97, "llm_sec": 429.3, "dialogue_pct": 52.9}
+
+── [147] shuangwen-20261023-147  （19:51，距截止 8 分钟）
+   题材：家族祠堂议事，族谱上一行名字被墨涂过
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　273s　{"chapters": 10, "total_chars": 17813, "score_min": 36.8, "score_mean": 77.3, "degraded": 0, "debt": 22, "calls": 97, "llm_sec": 429.6, "dialogue_pct": 47.5}
+
+── [148] shuangwen-20261023-148  （19:55，距截止 4 分钟）
+   题材：坊市验货台，一件法器的来历凭据只剩半张
+    自动放行卡点 #1
+    自动放行卡点 #2
+    自动放行卡点 #3
+   ok　275s　{"chapters": 10, "total_chars": 19548, "score_min": 37.9, "score_mean": 81.4, "degraded": 0, "debt": 17, "calls": 97, "llm_sec": 441.0, "dialogue_pct": 47.3}
+
+⏰ 到点（20:00 ≥ 20:00），不再开新的。
+
+════════════════════════════════════════════════════════
+ 收工 20:00　开了 148 部：148 成 / 0 败 0 超时
+ 汇总：/home/liang/novel-agent/batches/20261023-shuangwen/summary.md
+ 成品：/home/liang/novel-agent/batches/20261023-shuangwen/books
+ 台账：/home/liang/novel-agent/batches/20261023-shuangwen/batch.jsonl
+════════════════════════════════════════════════════════

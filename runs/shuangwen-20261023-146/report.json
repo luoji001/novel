@@ -1,0 +1,179 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-146",
+  "profile": "爽文",
+  "title": "旧账本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18487,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17442,
+    "chapter_chars_mean": 1744,
+    "chapter_chars_median": 1670,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 44.6,
+    "dialogue_chars_pct": 52.9,
+    "dialogue_para_pct": 86.7,
+    "interiority_para_pct": 3.6,
+    "narration_para_pct": 9.7,
+    "turn_under20_pct": 77.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.4,
+    "attr_adv_pct": 16.2,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 9.6,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "秤杆的重量",
+      "chars": 1743,
+      "score": 40.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "朱砂笔的痕迹",
+      "chars": 1694,
+      "score": 95.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "账本上的签名线",
+      "chars": 1980,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "称重的砝码",
+      "chars": 1687,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "签字的笔尖",
+      "chars": 1800,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "账本上的签名线",
+      "chars": 1712,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "账本上的签名线",
+      "chars": 2017,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "账本上的签名线",
+      "chars": 1835,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "账本上的签名线",
+      "chars": 1746,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "账本上的签名线",
+      "chars": 2263,
+      "score": 87.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「张老三的」×6",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「张老三的」×3",
+      "attr_adv_pct 15.0 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「张老三的」×5"
+    ],
+    "5": [
+      "单条套路句式超限：「张老三的」×6",
+      "[observe] attr_adv_pct 35.0 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 13.0 高于目标 12.0",
+      "[observe] 标题重复：「账本上的签名线」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「张老三的」×8",
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「账本上的签名线」已存在"
+    ],
+    "8": [
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「账本上的签名线」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「张老三的」×5",
+      "narration_para_pct 4.7 低于目标 5.0",
+      "attr_adv_pct 21.4 高于目标 12.0",
+      "[observe] 标题重复：「账本上的签名线」已存在"
+    ],
+    "10": [
+      "dialogue_run_mean 29.5 高于目标 14.0",
+      "[observe] 标题重复：「账本上的签名线」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 429.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T19:51:02"
+}

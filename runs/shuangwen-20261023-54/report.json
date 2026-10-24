@@ -1,0 +1,172 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-54",
+  "profile": "爽文",
+  "title": "合同副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19621,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18731,
+    "chapter_chars_mean": 1873,
+    "chapter_chars_median": 1902,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 36.7,
+    "dialogue_chars_pct": 48.5,
+    "dialogue_para_pct": 84.4,
+    "interiority_para_pct": 5.7,
+    "narration_para_pct": 9.9,
+    "turn_under20_pct": 62.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.8,
+    "attr_adv_pct": 10.3,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 6.9,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "合同副本的交锋",
+      "chars": 1991,
+      "score": 99.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "合同副本的交锋",
+      "chars": 1840,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "手指摩挲合同边缘",
+      "chars": 2127,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "手指摩挲纸角",
+      "chars": 1764,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手指摩挲纸角",
+      "chars": 1756,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "手指摩挲纸角",
+      "chars": 1606,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "手指摩挲报表边缘",
+      "chars": 2158,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "笔记本的较量",
+      "chars": 2246,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "手指摩挲纸角",
+      "chars": 1993,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "授权书压桌面",
+      "chars": 2130,
+      "score": 92.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李国强的」×5",
+      "attr_adv_pct 25.0 高于目标 12.0"
+    ],
+    "2": [
+      "[observe] 标题重复：「合同副本的交锋」已存在"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「他知道自己」×4"
+    ],
+    "5": [
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「手指摩挲纸角」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「手指摩挲纸角」已存在"
+    ],
+    "7": [
+      "narration_para_pct 3.4 低于目标 5.0",
+      "[observe] 标题与《手指摩挲合同边缘》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「李国强的」×5",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "9": [
+      "[observe] 标题重复：「手指摩挲纸角」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 430.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T12:56:11"
+}

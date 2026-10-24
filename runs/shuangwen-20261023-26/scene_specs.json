@@ -1,0 +1,396 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "青石巷口",
+      "present": [
+        "李三",
+        "王五"
+      ],
+      "driver": "按辈分排份额，青石巷口木牌是祖训",
+      "entry_state": "木牌立于巷口，李三高声宣读条文",
+      "outcome": "王五低头沉默，未作反驳",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "王五",
+        "陈六"
+      ],
+      "driver": "李三要求王五交出药材配比记录",
+      "entry_state": "王五拒绝交出，陈六持账本副本在旁",
+      "outcome": "陈六签字确认药材分配清单，李三记录在案",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房内室",
+      "present": [
+        "李三",
+        "王五"
+      ],
+      "driver": "王五撕毁药材清单，扔进火盆",
+      "entry_state": "火光映红墙面，李三手中账本被烧焦",
+      "outcome": "木牌被灰烬覆盖，李三夺回账本残页",
+      "target_chars": 647
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "陈六"
+      ],
+      "driver": "算盘上的珠子数着辈分份额",
+      "entry_state": "算盘珠子按辈分排列整齐",
+      "outcome": "陈六接过算盘，手指划过珠子",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "陈六"
+      ],
+      "driver": "陈六要王五签药材配比确认书",
+      "entry_state": "陈六手指划过珠子",
+      "outcome": "王五在确认书上签字",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "陈六"
+      ],
+      "driver": "王五将算盘推到陈六面前",
+      "entry_state": "王五签字完毕",
+      "outcome": "陈六夺过算盘，珠子散落一地",
+      "target_chars": 647
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "旧账本记载王五曾私自调整药材配比",
+      "entry_state": "账本被李三展开在桌上",
+      "outcome": "陈六目光扫过账本，手指停在某页数字上",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "陈六需在账本上签字确认药材配比",
+      "entry_state": "陈六手指悬在签字处",
+      "outcome": "陈六笔尖悬停，未落墨",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "陈六撕掉账本一角，扔进废纸篓",
+      "entry_state": "账本残页飘落，陈六转身离开",
+      "outcome": "账本被当场作废，陈六不再查看",
+      "target_chars": 647
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "陈六",
+        "王五"
+      ],
+      "driver": "签字权是药材分配的最终依据",
+      "entry_state": "陈六接过药材分配单",
+      "outcome": "陈六在分配单上签字确认",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "陈六",
+        "王五"
+      ],
+      "driver": "王五需补交三斤当归",
+      "entry_state": "王五从药柜取出三斤当归",
+      "outcome": "王五将当归放入陈六的账本",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "陈六",
+        "王五"
+      ],
+      "driver": "王五撕毁签字单",
+      "entry_state": "陈六的账本被撕毁一页",
+      "outcome": "陈六的账本页数减少三页",
+      "target_chars": 647
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "药材清单显示王五配比不符规约",
+      "entry_state": "陈六低头核对清单",
+      "outcome": "陈六在清单上划掉王五配比项",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "李三需赔偿三两当归",
+      "entry_state": "陈六手中清单被李三夺走",
+      "outcome": "李三将三两当归丢入药柜",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "李三撕毁清单并扔出",
+      "entry_state": "清单碎片散落药柜",
+      "outcome": "陈六捡起清单碎片并收起",
+      "target_chars": 647
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "李三"
+      ],
+      "driver": "按职级优先调配药材配比",
+      "entry_state": "药材清单被王五拍在桌上",
+      "outcome": "李三接过清单，手指抚过纸边",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "李三"
+      ],
+      "driver": "需补交三日药材损耗",
+      "entry_state": "李三低头计算损耗",
+      "outcome": "李三将算盘拨至三日损耗位置",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "李三"
+      ],
+      "driver": "李三将旧账本推至王五面前",
+      "entry_state": "王五手中清单滑落",
+      "outcome": "清单被李三捡起，重新摆放",
+      "target_chars": 647
+    }
+  ],
+  "7": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "王五"
+      ],
+      "driver": "按辈分排份额，王五无异议",
+      "entry_state": "王五低头确认药材清单",
+      "outcome": "王五在清单上签字确认",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "王五"
+      ],
+      "driver": "李三需赔偿三两当归",
+      "entry_state": "李三取出三两当归",
+      "outcome": "李三将三两当归放入王五药柜",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "王五"
+      ],
+      "driver": "王五撕毁《丹房规约》复印件",
+      "entry_state": "《丹房规约》复印件被撕毁",
+      "outcome": "王五将撕碎的纸片丢入火盆",
+      "target_chars": 647
+    }
+  ],
+  "8": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "李三"
+      ],
+      "driver": "按辈分排份额，王五的份额比李三多三成",
+      "entry_state": "王五的药材配比被李三质疑",
+      "outcome": "李三拿出旧账本，指出王五曾私自调整配比",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "李三",
+        "陈六"
+      ],
+      "driver": "陈六需在药材分配单上签字确认",
+      "entry_state": "陈六签字确认药材分配单",
+      "outcome": "陈六签字后，李三将旧账本递上",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "王五",
+        "李三"
+      ],
+      "driver": "李三撕毁药材分配单，重新调配",
+      "entry_state": "药材分配单被撕毁",
+      "outcome": "李三重新调配药材，王五的份额减少三成",
+      "target_chars": 647
+    }
+  ],
+  "9": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "按辈分排份额，王五无权干涉药材分配",
+      "entry_state": "李三展开旧账本，陈六目光微动",
+      "outcome": "陈六接过账本，指尖划过某页日期",
+      "target_chars": 647
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "陈六需在账本副本签字确认药材配比",
+      "entry_state": "陈六签字确认，账本副本被压在算盘下",
+      "outcome": "陈六将签字后的账本副本交还李三",
+      "target_chars": 647
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "陈六撕毁账本副本，当场作废《丹房规约》",
+      "entry_state": "账本副本碎纸飘落，陈六转身离开",
+      "outcome": "李三捡起碎纸，眼神凝滞",
+      "target_chars": 647
+    }
+  ],
+  "10": [
+    {
+      "idx": 1,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "期限是按药材保质期计算的",
+      "entry_state": "陈六翻看药材清单",
+      "outcome": "李三接过清单开始核对",
+      "target_chars": 628
+    },
+    {
+      "idx": 2,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "李三需在三天内完成调整",
+      "entry_state": "李三低头计算配比",
+      "outcome": "陈六在清单上划掉过期药材",
+      "target_chars": 628
+    },
+    {
+      "idx": 3,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "李三需交出旧账本副本",
+      "entry_state": "李三取出账本副本",
+      "outcome": "陈六在账本上盖章确认",
+      "target_chars": 628
+    },
+    {
+      "idx": 4,
+      "place": "丹房堂上",
+      "present": [
+        "李三",
+        "陈六"
+      ],
+      "driver": "李三撕毁清单并重新调配",
+      "entry_state": "李三将药材重新分装",
+      "outcome": "陈六在新清单上签字",
+      "target_chars": 628
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-02",
+  "profile": "爽文",
+  "title": "旧名单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18689,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17649,
+    "chapter_chars_mean": 1765,
+    "chapter_chars_median": 1674,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 44.1,
+    "dialogue_chars_pct": 52.4,
+    "dialogue_para_pct": 85.0,
+    "interiority_para_pct": 4.7,
+    "narration_para_pct": 10.4,
+    "turn_under20_pct": 72.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.5,
+    "attr_adv_pct": 11.6,
+    "scenes_per_chapter": 1.9,
+    "dialogue_run_mean": 10.0,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "折痕里的名字",
+      "chars": 2133,
+      "score": 97.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲纸边的重量",
+      "chars": 2193,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "撕碎证书的瞬间",
+      "chars": 1484,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "画线的违约金条款",
+      "chars": 1768,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲纸边的重量",
+      "chars": 1806,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲纸边的重量",
+      "chars": 1737,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "摩挲纸边的重量",
+      "chars": 1647,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "握手的承诺",
+      "chars": 1810,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "摩挲纸边的重量",
+      "chars": 1704,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "摩挲纸边的重量",
+      "chars": 2397,
+      "score": 93.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句",
+      "narration_para_pct 4.8 低于目标 5.0"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 57.1 > 25.0（结构塌缩）"
+    ],
+    "4": [
+      "attr_adv_pct 19.4 高于目标 12.0",
+      "dialogue_run_mean 17.7 高于目标 14.0"
+    ],
+    "5": [
+      "[observe] 标题重复：「摩挲纸边的重量」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「市文化局」×3",
+      "[observe] 标题重复：「摩挲纸边的重量」已存在"
+    ],
+    "7": [
+      "[observe] 标题重复：「摩挲纸边的重量」已存在"
+    ],
+    "8": [
+      "dialogue_chars_pct 72.9 高于目标 70.0",
+      "narration_para_pct 4.5 低于目标 5.0",
+      "attr_adv_pct 21.9 高于目标 12.0",
+      "dialogue_run_mean 21 高于目标 14.0"
+    ],
+    "9": [
+      "[observe] 标题重复：「摩挲纸边的重量」已存在"
+    ],
+    "10": [
+      "[observe] 标题重复：「摩挲纸边的重量」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 409.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T09:02:28"
+}

@@ -1,0 +1,185 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-30",
+  "profile": "爽文",
+  "title": "旧账单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18674,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17754,
+    "chapter_chars_mean": 1775,
+    "chapter_chars_median": 1685,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 38.3,
+    "dialogue_chars_pct": 45.8,
+    "dialogue_para_pct": 85.7,
+    "interiority_para_pct": 5.8,
+    "narration_para_pct": 8.4,
+    "turn_under20_pct": 71.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.2,
+    "attr_adv_pct": 9.9,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 8.7,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "翻阅旧账单",
+      "chars": 1450,
+      "score": 99.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字留名",
+      "chars": 2223,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "旧工牌的触碰",
+      "chars": 1786,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "账单摊开的瞬间",
+      "chars": 1715,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "账单摊开的瞬间",
+      "chars": 1707,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "账单摊开的瞬间",
+      "chars": 1761,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "账单摊开的瞬间",
+      "chars": 1580,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "账单摊开的瞬间",
+      "chars": 2049,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "账单摊开的瞬间",
+      "chars": 1886,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "摊开账单的瞬间",
+      "chars": 2507,
+      "score": 90.9,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「张德强的」×3"
+    ],
+    "2": [
+      "命中套话收尾句"
+    ],
+    "3": [
+      "单条套路句式超限：「张德强的」×6",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「张德强的」×7",
+      "narration_para_pct 3.3 低于目标 5.0",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「张德强的」×4",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「账单摊开的瞬间」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「张德强的」×5",
+      "[observe] 标题重复：「账单摊开的瞬间」已存在"
+    ],
+    "7": [
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「账单摊开的瞬间」已存在"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "单条套路句式超限：「张德强的」×4",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「账单摊开的瞬间」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「张德强的」×6",
+      "narration_para_pct 2.5 低于目标 5.0",
+      "dialogue_run_mean 19.5 高于目标 14.0",
+      "[observe] 标题重复：「账单摊开的瞬间」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「张德强的」×6",
+      "情节与已写章节重复 0.70 ≥ 0.7（撞上「李文凭借父亲留下的账单和旧工牌，与张德强展开身份与权限的…」）",
+      "[observe] 标题与《账单摊开的瞬间》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 429.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T11:08:27"
+}

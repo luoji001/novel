@@ -1,0 +1,186 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-61",
+  "profile": "爽文",
+  "title": "旧账",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18550,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17681,
+    "chapter_chars_mean": 1768,
+    "chapter_chars_median": 1702,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 36.4,
+    "dialogue_chars_pct": 49.2,
+    "dialogue_para_pct": 85.5,
+    "interiority_para_pct": 5.6,
+    "narration_para_pct": 8.9,
+    "turn_under20_pct": 67.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.4,
+    "attr_adv_pct": 22.6,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 7.2,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红笔划线",
+      "chars": 1784,
+      "score": 40.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "计算器清零",
+      "chars": 1785,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "计算器清零",
+      "chars": 1647,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "计算器清零",
+      "chars": 1780,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "计算器清零",
+      "chars": 1816,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "计算器清零",
+      "chars": 1893,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "计算器清零",
+      "chars": 1507,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "计算器清零",
+      "chars": 1734,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "计算器清零",
+      "chars": 1857,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "计算器清零",
+      "chars": 2737,
+      "score": 93.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李建军的」×4、「县供销社」×3",
+      "[observe] attr_adv_pct 52.9 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「李建军的」×6"
+    ],
+    "3": [
+      "单条套路句式超限：「县供销社」×4、「王德顺的」×3",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「县供销社」×3",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「王德顺的」×6",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「王德顺的」×7、「县供销社」×6",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「王德顺的」×5、「李建军的」×3",
+      "[observe] attr_adv_pct 37.5 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「王德顺的」×5、「县供销社」×5",
+      "narration_para_pct 3.6 低于目标 5.0",
+      "[observe] attr_adv_pct 30.8 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「王德顺的」×3",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「县供销社」×16",
+      "attr_adv_pct 19.4 高于目标 12.0",
+      "[observe] 标题重复：「计算器清零」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 420.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:27:12"
+}

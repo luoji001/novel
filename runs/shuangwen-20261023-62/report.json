@@ -1,0 +1,176 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-62",
+  "profile": "爽文",
+  "title": "剪刀",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19001,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18044,
+    "chapter_chars_mean": 1804,
+    "chapter_chars_median": 1748,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 38.7,
+    "dialogue_chars_pct": 44.6,
+    "dialogue_para_pct": 80.8,
+    "interiority_para_pct": 6.1,
+    "narration_para_pct": 13.1,
+    "turn_under20_pct": 68.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.9,
+    "attr_adv_pct": 9.2,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 6.1,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "档期被划去的瞬间",
+      "chars": 1828,
+      "score": 96.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "客户名单的核实",
+      "chars": 2384,
+      "score": 95.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "预算表的摊开",
+      "chars": 1786,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "文件被翻开的瞬间",
+      "chars": 1856,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "营业执照的审查",
+      "chars": 2068,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "签字笔的落下",
+      "chars": 1384,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "茶杯里的倒影",
+      "chars": 1520,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "文件被翻开的瞬间",
+      "chars": 1739,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "剪刀划过营业执照",
+      "chars": 1919,
+      "score": 95.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "文件被翻开的瞬间",
+      "chars": 2507,
+      "score": 94.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「他知道自己」×3",
+      "attr_adv_pct 22.2 高于目标 12.0"
+    ],
+    "2": [
+      "单条套路句式超限：「他知道这」×4"
+    ],
+    "4": [
+      "narration_para_pct 2.6 低于目标 5.0",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李振华的」×3"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×3",
+      "narration_para_pct 4.0 低于目标 5.0"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 21.4 高于目标 12.0"
+    ],
+    "8": [
+      "命中套话收尾句",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「文件被翻开的瞬间」已存在"
+    ],
+    "9": [
+      "命中套话收尾句"
+    ],
+    "10": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题重复：「文件被翻开的瞬间」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 405.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:31:28"
+}

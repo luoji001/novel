@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-131",
+  "profile": "爽文",
+  "title": "旧档案",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20175,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19217,
+    "chapter_chars_mean": 1922,
+    "chapter_chars_median": 1946,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 39.6,
+    "dialogue_chars_pct": 43.0,
+    "dialogue_para_pct": 79.6,
+    "interiority_para_pct": 7.0,
+    "narration_para_pct": 13.4,
+    "turn_under20_pct": 67.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.0,
+    "attr_adv_pct": 14.1,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 5.7,
+    "turn_len_median": 16
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "锤子落下的瞬间",
+      "chars": 1686,
+      "score": 96.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "档案摊开的瞬间",
+      "chars": 2826,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "档案摊开的瞬间",
+      "chars": 1580,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "旧册子摊开的瞬间",
+      "chars": 2128,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "旧册子摊开的瞬间",
+      "chars": 2073,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "档案摊开的瞬间",
+      "chars": 1869,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 7,
+      "title": "一份文件的真相",
+      "chars": 2033,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "旧档案摊开的瞬间",
+      "chars": 2060,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "旧档案摊开的瞬间",
+      "chars": 1805,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "档案摊开的瞬间",
+      "chars": 2105,
+      "score": 37.0,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「镇工艺委员会」×5、「周振国的」×3",
+      "attr_adv_pct 21.4 高于目标 12.0"
+    ],
+    "3": [
+      "[observe] 标题重复：「档案摊开的瞬间」已存在"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "[observe] 标题与《档案摊开的瞬间》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 标题重复：「旧册子摊开的瞬间」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「镇工艺委员会」×11、「说道“我」×3、「周振国的」×3",
+      "narration_para_pct 2.7 低于目标 5.0",
+      "attr_adv_pct 18.8 高于目标 12.0",
+      "[observe] 章内自我复读 1 句（如「林砚说完，转身离开了验收柜台…」）",
+      "[observe] 标题重复：「档案摊开的瞬间」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「周振国的」×4",
+      "[observe] attr_adv_pct 26.7 > 25.0（结构塌缩）"
+    ],
+    "8": [
+      "单条套路句式超限：「周振国的」×4、「镇工艺委员会」×4",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "[observe] 标题与《档案摊开的瞬间》近似 0.93 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「周振国的」×4",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「旧档案摊开的瞬间」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「镇工艺委员会」×3",
+      "[observe] attr_adv_pct 29.2 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「档案摊开的瞬间」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 437.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T18:43:29"
+}

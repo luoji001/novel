@@ -1,0 +1,177 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-115",
+  "profile": "爽文",
+  "title": "验收单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18130,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17286,
+    "chapter_chars_mean": 1729,
+    "chapter_chars_median": 1748,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 34,
+    "dialogue_chars_pct": 49.9,
+    "dialogue_para_pct": 86.2,
+    "interiority_para_pct": 5.9,
+    "narration_para_pct": 8.0,
+    "turn_under20_pct": 63.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.4,
+    "attr_adv_pct": 7.1,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 7.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "旧版清单被丢弃",
+      "chars": 1577,
+      "score": 98.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "递回旧版设备清单",
+      "chars": 1830,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "递回旧版设备清单",
+      "chars": 1996,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "递回旧版设备清单",
+      "chars": 1440,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "清单与报告的对峙",
+      "chars": 1700,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "旧版清单被紧握",
+      "chars": 1823,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "撕角验收单",
+      "chars": 1870,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "递回旧版设备清单",
+      "chars": 1540,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "递回旧版设备清单",
+      "chars": 1928,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "旧版清单被紧握",
+      "chars": 2416,
+      "score": 93.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林晓阳的」×6"
+    ],
+    "2": [
+      "narration_para_pct 2.6 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×3",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「递回旧版设备清单」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「周振国的」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 23.1 高于目标 12.0",
+      "[observe] 标题重复：「递回旧版设备清单」已存在"
+    ],
+    "6": [
+      "[observe] 标题与《旧版清单被丢弃》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "narration_para_pct 2.8 低于目标 5.0"
+    ],
+    "8": [
+      "[observe] 标题重复：「递回旧版设备清单」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「周振国的」×4、「林晓阳的」×4",
+      "narration_para_pct 3.2 低于目标 5.0",
+      "[observe] 标题重复：「递回旧版设备清单」已存在"
+    ],
+    "10": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「旧版清单被紧握」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 404.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T17:31:22"
+}

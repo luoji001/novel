@@ -1,0 +1,166 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-38",
+  "profile": "爽文",
+  "title": "欠条",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18647,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17637,
+    "chapter_chars_mean": 1764,
+    "chapter_chars_median": 1757,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 42.5,
+    "dialogue_chars_pct": 50.8,
+    "dialogue_para_pct": 84.8,
+    "interiority_para_pct": 3.9,
+    "narration_para_pct": 11.3,
+    "turn_under20_pct": 70.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.4,
+    "attr_adv_pct": 12.1,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 7.5,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "机油桶藏身角落",
+      "chars": 1837,
+      "score": 98.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "账本末页未填部分",
+      "chars": 1914,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字本上的指纹",
+      "chars": 1658,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "指缝间的欠条",
+      "chars": 1975,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "欠条背面的指纹",
+      "chars": 1947,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "欠条背面的指纹",
+      "chars": 1874,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "签字本上的指纹",
+      "chars": 1864,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "欠条背面的数字",
+      "chars": 1660,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "欠条背面的数字",
+      "chars": 1554,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "欠条背面的数字",
+      "chars": 2354,
+      "score": 92.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "5": [
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "6": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「欠条背面的指纹」已存在"
+    ],
+    "7": [
+      "dialogue_chars_pct 70.1 高于目标 70.0",
+      "[observe] 标题重复：「签字本上的指纹」已存在"
+    ],
+    "8": [
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）",
+      "[observe] 标题与《欠条背面的指纹》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题重复：「欠条背面的数字」已存在"
+    ],
+    "10": [
+      "narration_para_pct 3.6 低于目标 5.0",
+      "[observe] 标题重复：「欠条背面的数字」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 413.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T11:43:32"
+}

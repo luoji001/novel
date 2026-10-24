@@ -1,0 +1,181 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-135",
+  "profile": "爽文",
+  "title": "验单风波",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19166,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18218,
+    "chapter_chars_mean": 1822,
+    "chapter_chars_median": 1858,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 39.9,
+    "dialogue_chars_pct": 55.0,
+    "dialogue_para_pct": 90.3,
+    "interiority_para_pct": 1.8,
+    "narration_para_pct": 7.9,
+    "turn_under20_pct": 64.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.3,
+    "attr_adv_pct": 12.3,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 13.7,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字位置风波",
+      "chars": 1385,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "清单交出时刻",
+      "chars": 1955,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "财务报表核对",
+      "chars": 2040,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "清单交出时刻",
+      "chars": 1973,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "清单交出时刻",
+      "chars": 1947,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "清单交出时刻",
+      "chars": 1791,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "清单交出时刻",
+      "chars": 1771,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "清单交出时刻",
+      "chars": 1821,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "签字犹豫时刻",
+      "chars": 2030,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "清单交出时刻",
+      "chars": 2443,
+      "score": 35.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "2": [
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「李国强的」×3"
+    ],
+    "4": [
+      "narration_para_pct 3.0 低于目标 5.0",
+      "attr_adv_pct 18.2 高于目标 12.0",
+      "dialogue_run_mean 16 高于目标 14.0",
+      "[observe] 标题重复：「清单交出时刻」已存在"
+    ],
+    "5": [
+      "narration_para_pct 2.6 低于目标 5.0",
+      "[observe] 标题重复：「清单交出时刻」已存在"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「清单交出时刻」已存在"
+    ],
+    "7": [
+      "[observe] 标题重复：「清单交出时刻」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李国强的」×4",
+      "narration_para_pct 2.4 低于目标 5.0",
+      "dialogue_run_mean 41 高于目标 14.0",
+      "[observe] 标题重复：「清单交出时刻」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「李国强的」×4"
+    ],
+    "10": [
+      "narration_para_pct 1.9 低于目标 5.0",
+      "dialogue_run_mean 25.5 高于目标 14.0",
+      "[observe] attr_adv_pct 26.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「清单交出时刻」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 417.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T19:01:40"
+}

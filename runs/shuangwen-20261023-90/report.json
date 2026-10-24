@@ -1,0 +1,171 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-90",
+  "profile": "爽文",
+  "title": "账单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20074,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18989,
+    "chapter_chars_mean": 1899,
+    "chapter_chars_median": 1852,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 46.4,
+    "dialogue_chars_pct": 52.7,
+    "dialogue_para_pct": 86.1,
+    "interiority_para_pct": 5.1,
+    "narration_para_pct": 8.8,
+    "turn_under20_pct": 75.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.4,
+    "attr_adv_pct": 10.2,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 7.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手指摩挲登记簿",
+      "chars": 1840,
+      "score": 98.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "账单背面的签名",
+      "chars": 2274,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲凭牌边缘",
+      "chars": 1707,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "账单边缘的摩挲",
+      "chars": 2071,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "墨迹晕染的承诺",
+      "chars": 1732,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "账单边缘的摩挲",
+      "chars": 2102,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "账单边缘的摩挲",
+      "chars": 1885,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "账单边缘的摩挲",
+      "chars": 1819,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲账单边缘",
+      "chars": 2028,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "摩挲账单边缘",
+      "chars": 2606,
+      "score": 89.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「陆长青的」×6"
+    ],
+    "3": [
+      "单条套路句式超限：「陆长青的」×6、「“我不知道」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「陆长青的」×9",
+      "[observe] attr_adv_pct 41.7 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "narration_para_pct 3.7 低于目标 5.0",
+      "[observe] 标题重复：「账单边缘的摩挲」已存在"
+    ],
+    "7": [
+      "单条套路句式超限：「陆长青的」×4",
+      "[observe] 标题重复：「账单边缘的摩挲」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「陆长青的」×5、「微微一笑」×3",
+      "[observe] 标题重复：「账单边缘的摩挲」已存在"
+    ],
+    "9": [
+      "[observe] 标题与《摩挲凭牌边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「陆长青的」×6",
+      "narration_para_pct 1.8 低于目标 5.0",
+      "dialogue_run_mean 17.3 高于目标 14.0",
+      "[observe] 标题重复：「摩挲账单边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 443.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T15:39:13"
+}

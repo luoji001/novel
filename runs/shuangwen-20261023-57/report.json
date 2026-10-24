@@ -1,0 +1,177 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-57",
+  "profile": "爽文",
+  "title": "碎纸机",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18617,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17795,
+    "chapter_chars_mean": 1780,
+    "chapter_chars_median": 1758,
+    "chapter_chars_cv": 0.07,
+    "paragraphs_mean": 33.6,
+    "dialogue_chars_pct": 51.6,
+    "dialogue_para_pct": 85.6,
+    "interiority_para_pct": 6.1,
+    "narration_para_pct": 8.3,
+    "turn_under20_pct": 60.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.1,
+    "attr_adv_pct": 15.1,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 8.6,
+    "turn_len_median": 15
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "一纸教学记录本",
+      "chars": 1769,
+      "score": 40.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "一张旧教案",
+      "chars": 1985,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲封面边缘",
+      "chars": 1826,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "摩挲封面边缘",
+      "chars": 1938,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "摩挲封面边缘",
+      "chars": 1649,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摩挲封面边缘",
+      "chars": 1833,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "摩挲封面边缘",
+      "chars": 1801,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "摩挲封面边缘",
+      "chars": 1957,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "摩挲纸张边缘",
+      "chars": 1751,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "摩挲纸张边缘",
+      "chars": 2098,
+      "score": 90.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 57.1 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「林婉秋的」×4"
+    ],
+    "4": [
+      "单条套路句式超限：「周振邦的」×4",
+      "[observe] 标题重复：「摩挲封面边缘」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「林婉秋的」×3",
+      "attr_adv_pct 20.0 高于目标 12.0",
+      "[observe] 标题重复：「摩挲封面边缘」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「带着一丝」×3、「周振邦的」×3",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「摩挲封面边缘」已存在"
+    ],
+    "7": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "[observe] 标题重复：「摩挲封面边缘」已存在"
+    ],
+    "8": [
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "[observe] 标题重复：「摩挲封面边缘」已存在"
+    ],
+    "9": [
+      "[observe] 标题与《摩挲封面边缘》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "单条套路句式超限：「周振邦的」×6",
+      "narration_para_pct 2.5 低于目标 5.0",
+      "dialogue_run_mean 19 高于目标 14.0",
+      "[observe] 标题重复：「摩挲纸张边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 406.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T13:09:23"
+}

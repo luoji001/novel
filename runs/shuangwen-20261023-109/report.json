@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-109",
+  "profile": "爽文",
+  "title": "旧档案的边缘",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18230,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17200,
+    "chapter_chars_mean": 1720,
+    "chapter_chars_median": 1638,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 43.6,
+    "dialogue_chars_pct": 50.9,
+    "dialogue_para_pct": 84.6,
+    "interiority_para_pct": 5.5,
+    "narration_para_pct": 9.9,
+    "turn_under20_pct": 76.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.6,
+    "attr_adv_pct": 12.9,
+    "scenes_per_chapter": 1.6,
+    "dialogue_run_mean": 14.5,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "旧档案的指纹",
+      "chars": 1655,
+      "score": 98.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "碎纸机的吞吐",
+      "chars": 1691,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "签字笔的轨迹",
+      "chars": 1740,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "刻痕的回声",
+      "chars": 1997,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "旧档案摊开瞬间",
+      "chars": 1789,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "旧档案的摊开瞬间",
+      "chars": 1735,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 7,
+      "title": "刻痕的回声",
+      "chars": 2013,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 8,
+      "title": "旧档案的摊开瞬间",
+      "chars": 1633,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "旧档案的摊开瞬间",
+      "chars": 1718,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "签字笔划破名册",
+      "chars": 2249,
+      "score": 93.7,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「讲经堂」×4",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "3": [
+      "单条套路句式超限：「讲经堂」×4"
+    ],
+    "4": [
+      "单条套路句式超限：「李怀远的」×6、「讲经堂」×5、「陈守仁的」×4",
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈守仁的」×8、「讲经堂」×5、「李怀远的」×4",
+      "attr_adv_pct 16.7 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「讲经堂」×5、「李怀远点」×3",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "dialogue_run_mean 20 高于目标 14.0",
+      "[observe] 标题与《旧档案摊开瞬间》近似 0.93 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "7": [
+      "dialogue_chars_pct 78.1 高于目标 70.0",
+      "narration_para_pct 1.4 低于目标 5.0",
+      "dialogue_run_mean 69 高于目标 14.0",
+      "[observe] 标题重复：「刻痕的回声」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「讲经堂」×8、「李怀远的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「旧档案的摊开瞬间」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「讲经堂」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "dialogue_run_mean 18 高于目标 14.0",
+      "[observe] 标题重复：「旧档案的摊开瞬间」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「陈守仁的」×5",
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 419.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T17:05:01"
+}

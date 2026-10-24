@@ -1,0 +1,175 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-18",
+  "profile": "爽文",
+  "title": "转让协议",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18849,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17884,
+    "chapter_chars_mean": 1788,
+    "chapter_chars_median": 1732,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 41.1,
+    "dialogue_chars_pct": 49.1,
+    "dialogue_para_pct": 83.7,
+    "interiority_para_pct": 6.3,
+    "narration_para_pct": 9.9,
+    "turn_under20_pct": 74.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.7,
+    "attr_adv_pct": 12.1,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 6.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "签字笔划破",
+      "chars": 1551,
+      "score": 100.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "雪落协议展",
+      "chars": 2054,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字笔划破",
+      "chars": 1722,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "账本核对",
+      "chars": 1809,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "签字笔划破",
+      "chars": 1978,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "签字笔划破",
+      "chars": 1815,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "签字笔划破",
+      "chars": 1585,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "结算单推到桌面",
+      "chars": 2108,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "签字笔划破",
+      "chars": 1803,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "雪落协议展",
+      "chars": 2414,
+      "score": 93.3,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 3.0 低于目标 5.0"
+    ],
+    "2": [
+      "attr_adv_pct 13.6 高于目标 12.0"
+    ],
+    "3": [
+      "[observe] 标题重复：「签字笔划破」已存在"
+    ],
+    "4": [
+      "narration_para_pct 3.2 低于目标 5.0"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 27.3 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔划破」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「办公室」×3",
+      "[observe] 标题重复：「签字笔划破」已存在"
+    ],
+    "7": [
+      "[observe] 标题重复：「签字笔划破」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「办公室」×3",
+      "attr_adv_pct 19.2 高于目标 12.0"
+    ],
+    "9": [
+      "attr_adv_pct 17.6 高于目标 12.0",
+      "[observe] 标题重复：「签字笔划破」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] 标题重复：「雪落协议展」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 437.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T10:14:27"
+}

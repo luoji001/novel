@@ -1,0 +1,180 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-52",
+  "profile": "爽文",
+  "title": "借阅卡",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20814,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19801,
+    "chapter_chars_mean": 1980,
+    "chapter_chars_median": 1862,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 42.2,
+    "dialogue_chars_pct": 44.9,
+    "dialogue_para_pct": 81.1,
+    "interiority_para_pct": 5.7,
+    "narration_para_pct": 13.3,
+    "turn_under20_pct": 68.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.5,
+    "attr_adv_pct": 13.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 6.3,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙开启的瞬间",
+      "chars": 1799,
+      "score": 96.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "借阅卡的正式身份",
+      "chars": 2354,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "借阅卡的正式身份",
+      "chars": 1881,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "登记簿上的新名字",
+      "chars": 1818,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "纸团与登记簿的对峙",
+      "chars": 1909,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "名册上的借阅记录",
+      "chars": 1877,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "登记簿上的划线",
+      "chars": 2537,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "借阅卡的正式身份",
+      "chars": 2006,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "长老手令的威慑力",
+      "chars": 2128,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "借阅卡的正式身份",
+      "chars": 2495,
+      "score": 91.5,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "命中套话收尾句"
+    ],
+    "2": [
+      "单条套路句式超限：「陈文远的」×4"
+    ],
+    "3": [
+      "单条套路句式超限：「陈文远的」×3",
+      "attr_adv_pct 21.1 高于目标 12.0",
+      "[observe] 标题重复：「借阅卡的正式身份」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「陈文远的」×6",
+      "narration_para_pct 2.9 低于目标 5.0"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "单条套路句式超限：「陈文远的」×8",
+      "attr_adv_pct 13.3 高于目标 12.0"
+    ],
+    "6": [
+      "单条套路句式超限：「借阅处」×4"
+    ],
+    "7": [
+      "单条套路句式超限：「陈文远的」×5",
+      "[observe] attr_adv_pct 26.7 > 25.0（结构塌缩）",
+      "[observe] 标题与《登记簿上的新名字》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「陈文远的」×4",
+      "attr_adv_pct 22.2 高于目标 12.0",
+      "[observe] 标题重复：「借阅卡的正式身份」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「陈文远的」×6",
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "10": [
+      "[observe] 标题重复：「借阅卡的正式身份」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 441.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T12:47:04"
+}

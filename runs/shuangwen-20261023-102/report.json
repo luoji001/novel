@@ -1,0 +1,167 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-102",
+  "profile": "爽文",
+  "title": "旧合同",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 18358,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 17427,
+    "chapter_chars_mean": 1743,
+    "chapter_chars_median": 1733,
+    "chapter_chars_cv": 0.09,
+    "paragraphs_mean": 39.5,
+    "dialogue_chars_pct": 48.8,
+    "dialogue_para_pct": 85.9,
+    "interiority_para_pct": 5.5,
+    "narration_para_pct": 8.7,
+    "turn_under20_pct": 69.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.4,
+    "attr_adv_pct": 11.3,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 8.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "一张报价单",
+      "chars": 1810,
+      "score": 98.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "一张旧合同",
+      "chars": 1902,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "一道压痕",
+      "chars": 1838,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "一记钢笔印",
+      "chars": 1799,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "一张旧合同",
+      "chars": 1994,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "一记钢笔印",
+      "chars": 2030,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 7,
+      "title": "撕碎的报价单",
+      "chars": 1778,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "一记钢笔印",
+      "chars": 1674,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "一张新合同",
+      "chars": 1487,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "一张旧合同",
+      "chars": 2036,
+      "score": 91.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "attr_adv_pct 20.0 高于目标 12.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李国强点了点头」×3",
+      "attr_adv_pct 17.2 高于目标 12.0",
+      "[observe] 标题重复：「一张旧合同」已存在"
+    ],
+    "6": [
+      "narration_para_pct 2.6 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题重复：「一记钢笔印」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李国强的」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "dialogue_run_mean 15.5 高于目标 14.0",
+      "[observe] 标题重复：「一记钢笔印」已存在"
+    ],
+    "9": [
+      "[observe] 标题与《一张旧合同》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "narration_para_pct 4.3 低于目标 5.0",
+      "attr_adv_pct 13.3 高于目标 12.0",
+      "[observe] 标题重复：「一张旧合同」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 399.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T16:32:54"
+}

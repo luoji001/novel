@@ -1,0 +1,169 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-80",
+  "profile": "爽文",
+  "title": "旧约",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19435,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18393,
+    "chapter_chars_mean": 1839,
+    "chapter_chars_median": 1815,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 45,
+    "dialogue_chars_pct": 47.8,
+    "dialogue_para_pct": 83.4,
+    "interiority_para_pct": 6.5,
+    "narration_para_pct": 10.1,
+    "turn_under20_pct": 75.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.4,
+    "attr_adv_pct": 9.4,
+    "scenes_per_chapter": 1.4,
+    "dialogue_run_mean": 6.6,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "旧合同的重量",
+      "chars": 1441,
+      "score": 98.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "登记簿上的名字",
+      "chars": 2337,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "合同上的指纹",
+      "chars": 2095,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "签字权的较量",
+      "chars": 1690,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "翻开旧合同",
+      "chars": 2107,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "翻阅登记簿",
+      "chars": 1955,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "翻开登记簿",
+      "chars": 1869,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "撕纸机的回响",
+      "chars": 1793,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "撕旧合同",
+      "chars": 1721,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 10,
+      "title": "撕旧合同",
+      "chars": 2417,
+      "score": 90.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "attr_adv_pct 12.5 高于目标 12.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李主任点了点头」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「张老二的」×3",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "6": [
+      "narration_para_pct 4.5 低于目标 5.0"
+    ],
+    "7": [
+      "单条套路句式超限：「李主任的」×3",
+      "attr_adv_pct 17.6 高于目标 12.0",
+      "[observe] 标题与《翻阅登记簿》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "8": [
+      "单条套路句式超限：「张老二的」×3",
+      "[observe] 章内自我复读 1 句（如「那些东西早就不知道扔哪儿去了…」）"
+    ],
+    "9": [
+      "[observe] 标题与《翻开旧合同》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "10": [
+      "attr_adv_pct 13.6 高于目标 12.0",
+      "[observe] 标题重复：「撕旧合同」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 452.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T14:52:57"
+}

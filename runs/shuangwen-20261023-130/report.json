@@ -1,0 +1,182 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-130",
+  "profile": "爽文",
+  "title": "旧工牌",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19285,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18330,
+    "chapter_chars_mean": 1833,
+    "chapter_chars_median": 1816,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 40.3,
+    "dialogue_chars_pct": 44.1,
+    "dialogue_para_pct": 84.9,
+    "interiority_para_pct": 6.3,
+    "narration_para_pct": 8.8,
+    "turn_under20_pct": 76.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.3,
+    "attr_adv_pct": 7.4,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 7.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "旧工牌的重量",
+      "chars": 1815,
+      "score": 96.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "旧工牌的摩挲",
+      "chars": 1937,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "旧工牌的摩挲",
+      "chars": 1810,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "旧工牌的摩挲",
+      "chars": 2224,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "旧工牌的摩挲",
+      "chars": 1435,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "签字的手指",
+      "chars": 1914,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "旧工牌的摩挲",
+      "chars": 1869,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "旧工牌的签字",
+      "chars": 1926,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "旧工牌的摩挲",
+      "chars": 1907,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "旧工牌的摩挲",
+      "chars": 2438,
+      "score": 89.8,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「登记处」×5",
+      "narration_para_pct 2.5 低于目标 5.0",
+      "[observe] 标题与《旧工牌的重量》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「县林业局」×4、「林志远的」×3",
+      "narration_para_pct 4.8 低于目标 5.0",
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「旧工牌的摩挲」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「林志远的」×4、「登记处」×3",
+      "[observe] 标题重复：「旧工牌的摩挲」已存在"
+    ],
+    "5": [
+      "[observe] 标题重复：「旧工牌的摩挲」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道这」×4、「林志远的」×4"
+    ],
+    "7": [
+      "单条套路句式超限：「登记处」×4",
+      "[observe] 标题重复：「旧工牌的摩挲」已存在"
+    ],
+    "8": [
+      "narration_para_pct 3.8 低于目标 5.0",
+      "dialogue_run_mean 16.7 高于目标 14.0",
+      "[observe] 标题与《旧工牌的摩挲》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「县林业局」×3",
+      "narration_para_pct 2.9 低于目标 5.0",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「旧工牌的摩挲」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「登记处」×9",
+      "情节与已写章节重复 0.73 ≥ 0.7（撞上「林志远为证明自己仍是青云山护林员，与王主任展开身份争议，…」）",
+      "attr_adv_pct 16.0 高于目标 12.0",
+      "[observe] 标题重复：「旧工牌的摩挲」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 441.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T18:38:55"
+}

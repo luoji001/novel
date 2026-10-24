@@ -1,0 +1,177 @@
+{
+  "consistency": "1. 第二章提到李国强提及父亲身份，但第八章明确指出其父亲已去世且身份信息被注销，前后矛盾。  \n2. 第五章提到李国强拿到父亲同意的证明，但第八章指出父亲已去世，证明文件来源矛盾。  \n3. 第六章提到李国强试图用父亲的旧担保协议挽回信用，但第八章明确指出父亲已去世且担保协议失效，前后矛盾。  \n4. 第七章提到李国强试图用父亲的担保协议争取贷款资格，但第八章指出父亲已去世且身份信息被注销，前后矛盾。  \n5. 第九章提到李国强因父亲过世导致担保失效，但第六章和第七章仍提及父亲的担保协议，前后矛盾。  \n6. 第八章提到父亲身份信息被注销，但第五章提到李国强拿到父亲同意的证明，前后矛盾。  \n7. 第二章提到李国强提及父亲身份，但第十章明确指出父亲已去世，前后矛盾。  \n8. 第五章提到李国强拿到一张名片，但未说明名片来源，前后信息不完整。  \n9. 第六章提到李国强试图用父亲的旧担保协议，但第八章指出担保协议已失效，前后矛盾。  \n10. 第九章提到李国强需寻找新担保人，但未交代其是否已找到，信息不完整。",
+  "slug": "shuangwen-20261023-123",
+  "profile": "爽文",
+  "title": "担保协议",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19833,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18742,
+    "chapter_chars_mean": 1874,
+    "chapter_chars_median": 1825,
+    "chapter_chars_cv": 0.09,
+    "paragraphs_mean": 46.8,
+    "dialogue_chars_pct": 42.7,
+    "dialogue_para_pct": 77.2,
+    "interiority_para_pct": 6.5,
+    "narration_para_pct": 16.4,
+    "turn_under20_pct": 77.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.4,
+    "attr_adv_pct": 16.6,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 5.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "协议的争夺",
+      "chars": 1934,
+      "score": 96.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字笔的较量",
+      "chars": 1904,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "签字笔的较量",
+      "chars": 2181,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "证件的消失",
+      "chars": 1971,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "身份证复印件的重现",
+      "chars": 1894,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "撕碎的纸片对决",
+      "chars": 1711,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "指纹的对峙",
+      "chars": 1824,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 8,
+      "title": "身份证复印件的对峙",
+      "chars": 2128,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 9,
+      "title": "贷款审批表的改动",
+      "chars": 1947,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "印章的宣告",
+      "chars": 2329,
+      "score": 36.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「王建国的」×4、「李国强的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「王建国的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「李国强的」×3",
+      "[observe] attr_adv_pct 29.2 > 25.0（结构塌缩）",
+      "[observe] 标题重复：「签字笔的较量」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强的」×5、「王建国的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「王建国的」×6、「李国强的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强站在」×3、「他知道自己」×3、「李国强的」×3",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ],
+    "7": [
+      "attr_adv_pct 13.0 高于目标 12.0"
+    ],
+    "8": [
+      "单条套路句式超限：「李国强的」×5、「王建国的」×3",
+      "[observe] 章内自我复读 2 句（如「那你是不是也应该遵守一些基本规则呢？比如别随便涂…」）",
+      "[observe] 标题与《身份证复印件的重现》近似 0.78 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "9": [
+      "单条套路句式超限：「他知道这」×3",
+      "[observe] attr_adv_pct 35.0 > 25.0（结构塌缩）"
+    ],
+    "10": [
+      "单条套路句式超限：「李国强的」×5、「他知道自己」×4、「点了点头」×3",
+      "[observe] attr_adv_pct 28.6 > 25.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 435.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T18:06:51"
+}

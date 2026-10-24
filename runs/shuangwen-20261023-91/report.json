@@ -1,0 +1,150 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-91",
+  "profile": "爽文",
+  "title": "旧规副本",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 17754,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 16861,
+    "chapter_chars_mean": 1686,
+    "chapter_chars_median": 1644,
+    "chapter_chars_cv": 0.14,
+    "paragraphs_mean": 37,
+    "dialogue_chars_pct": 47.3,
+    "dialogue_para_pct": 84.7,
+    "interiority_para_pct": 3.7,
+    "narration_para_pct": 11.6,
+    "turn_under20_pct": 69.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.2,
+    "attr_adv_pct": 4.4,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 7.5,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜器雕花",
+      "chars": 1668,
+      "score": 97.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "划破时光的裂痕",
+      "chars": 1735,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "签字表翻飞",
+      "chars": 1595,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "刻痕之争",
+      "chars": 1932,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "签字颤抖",
+      "chars": 1727,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "争执中的铜器打磨",
+      "chars": 1798,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 7,
+      "title": "裂纹显现",
+      "chars": 1565,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 8,
+      "title": "签字与旧规对谈",
+      "chars": 1471,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "铜器划痕",
+      "chars": 1942,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 10,
+      "title": "划痕争议",
+      "chars": 2311,
+      "score": 92.1,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "6": [
+      "narration_para_pct 4.2 低于目标 5.0",
+      "attr_adv_pct 14.3 高于目标 12.0"
+    ],
+    "8": [
+      "narration_para_pct 0.0 低于目标 5.0"
+    ],
+    "10": [
+      "attr_adv_pct 13.0 高于目标 12.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 406.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T15:43:27"
+}

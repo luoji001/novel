@@ -1,0 +1,178 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-106",
+  "profile": "爽文",
+  "title": "药谱",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19280,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18280,
+    "chapter_chars_mean": 1828,
+    "chapter_chars_median": 1759,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 42.6,
+    "dialogue_chars_pct": 44.6,
+    "dialogue_para_pct": 81.6,
+    "interiority_para_pct": 5.5,
+    "narration_para_pct": 12.9,
+    "turn_under20_pct": 70.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.3,
+    "attr_adv_pct": 7.2,
+    "scenes_per_chapter": 2.1,
+    "dialogue_run_mean": 7.3,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药包称重",
+      "chars": 1924,
+      "score": 39.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "铅笔划线",
+      "chars": 2008,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "药秤倒出当归",
+      "chars": 1695,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "药秤倒出当归",
+      "chars": 1767,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铅笔划线",
+      "chars": 1890,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "药秤卡住",
+      "chars": 1552,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "药秤倒出当归",
+      "chars": 1929,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 8,
+      "title": "药谱摊开",
+      "chars": 1558,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 9,
+      "title": "药秤倒出当归",
+      "chars": 1892,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 10,
+      "title": "药秤倒出当归",
+      "chars": 3055,
+      "score": 91.6,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 15.4 高于目标 12.0",
+      "[observe] 章内自我复读 3 句（如「李三望着王怀远离去的身影，默默地收起那份药谱手抄…」）"
+    ],
+    "2": [
+      "narration_para_pct 4.9 低于目标 5.0",
+      "dialogue_run_mean 19.5 高于目标 14.0"
+    ],
+    "3": [
+      "命中套话收尾句"
+    ],
+    "4": [
+      "[observe] 标题重复：「药秤倒出当归」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「“李三你」×3、「李三点点」×3",
+      "[observe] 标题重复：「铅笔划线」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「王怀远的」×3"
+    ],
+    "7": [
+      "命中套话收尾句",
+      "单条套路句式超限：「他知道这」×4、「“李三你」×4",
+      "[observe] 标题重复：「药秤倒出当归」已存在"
+    ],
+    "8": [
+      "attr_adv_pct 15.4 高于目标 12.0"
+    ],
+    "9": [
+      "单条套路句式超限：「“李三你」×3",
+      "[observe] 标题重复：「药秤倒出当归」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「王怀远的」×3、「他知道这」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "[observe] 标题重复：「药秤倒出当归」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 444.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T16:51:15"
+}

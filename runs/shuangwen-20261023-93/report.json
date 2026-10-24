@@ -1,0 +1,191 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-93",
+  "profile": "爽文",
+  "title": "账本残页",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 19549,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 18550,
+    "chapter_chars_mean": 1855,
+    "chapter_chars_median": 1796,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 42.2,
+    "dialogue_chars_pct": 56.8,
+    "dialogue_para_pct": 92.0,
+    "interiority_para_pct": 2.5,
+    "narration_para_pct": 5.5,
+    "turn_under20_pct": 70.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.9,
+    "attr_adv_pct": 13.7,
+    "scenes_per_chapter": 2.4,
+    "dialogue_run_mean": 21.9,
+    "turn_len_median": 14
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "账本残页的指痕",
+      "chars": 1873,
+      "score": 98.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "签字权的较量",
+      "chars": 2299,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "残页上的指纹痕迹",
+      "chars": 1750,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "令牌与名册之争",
+      "chars": 2068,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "红印揭开名册谜",
+      "chars": 1696,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "残页轻触红印",
+      "chars": 2211,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "残页轻触红印",
+      "chars": 1875,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 8,
+      "title": "残页轻触红印",
+      "chars": 1632,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 9,
+      "title": "残页轻触红印",
+      "chars": 1894,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 10,
+      "title": "残页轻触红印",
+      "chars": 2241,
+      "score": 90.2,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李怀安的」×6、「供奉堂」×3"
+    ],
+    "2": [
+      "dialogue_run_mean 15.7 高于目标 14.0",
+      "[observe] attr_adv_pct 41.4 > 25.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「供奉堂」×3",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "dialogue_run_mean 17 高于目标 14.0",
+      "[observe] 标题与《账本残页的指痕》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 40 高于目标 14.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李怀安的」×5",
+      "narration_para_pct 2.6 低于目标 5.0",
+      "attr_adv_pct 25.0 高于目标 12.0",
+      "dialogue_run_mean 37 高于目标 14.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李怀安的」×3"
+    ],
+    "7": [
+      "单条套路句式超限：「李怀安的」×6",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "attr_adv_pct 15.8 高于目标 12.0",
+      "dialogue_run_mean 40 高于目标 14.0",
+      "[observe] 标题重复：「残页轻触红印」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「李怀安的」×3、「供奉堂」×3",
+      "attr_adv_pct 12.5 高于目标 12.0",
+      "dialogue_run_mean 15.5 高于目标 14.0",
+      "[observe] 标题重复：「残页轻触红印」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「供奉堂」×4",
+      "narration_para_pct 0.0 低于目标 5.0",
+      "dialogue_run_mean 16.5 高于目标 14.0",
+      "[observe] 标题重复：「残页轻触红印」已存在"
+    ],
+    "10": [
+      "单条套路句式超限：「李怀安的」×4、「供奉堂」×4",
+      "narration_para_pct 2.3 低于目标 5.0",
+      "dialogue_run_mean 21.5 高于目标 14.0",
+      "[observe] 标题重复：「残页轻触红印」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 453.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T15:52:50"
+}

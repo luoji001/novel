@@ -1,0 +1,183 @@
+{
+  "consistency": "未发现",
+  "slug": "shuangwen-20261023-47",
+  "profile": "爽文",
+  "title": "旧账单",
+  "gate_mode": "observe",
+  "chapters": 10,
+  "total_chars": 20472,
+  "book_metrics": {
+    "chapters": 10,
+    "total_chars": 19420,
+    "chapter_chars_mean": 1942,
+    "chapter_chars_median": 1961,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 45.6,
+    "dialogue_chars_pct": 47.4,
+    "dialogue_para_pct": 82.2,
+    "interiority_para_pct": 6.4,
+    "narration_para_pct": 11.4,
+    "turn_under20_pct": 73.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.6,
+    "attr_adv_pct": 16.2,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 5.7,
+    "turn_len_median": 13
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "春联边角卷曲",
+      "chars": 2564,
+      "score": 39.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "算珠拨动",
+      "chars": 1736,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "墨水泼向账单",
+      "chars": 2358,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "墨水泼向账单",
+      "chars": 2167,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "账单压住族谱",
+      "chars": 2249,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "墨水显影",
+      "chars": 1495,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 7,
+      "title": "墨水显影",
+      "chars": 1967,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 8,
+      "title": "墨水显影",
+      "chars": 1946,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 9,
+      "title": "墨水瓶揭开",
+      "chars": 1814,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 10,
+      "title": "账单压族谱",
+      "chars": 2166,
+      "score": 92.4,
+      "scale": "long",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「苏怀远的」×6",
+      "[observe] attr_adv_pct 27.8 > 25.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「苏怀远的」×8",
+      "情节与已写章节重复 0.74 ≥ 0.7（撞上「林秋实拿出父亲留下的账单，揭露族长挪用公款，引发家族内部…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「苏怀远的」×7、「他知道自己」×3",
+      "情节与已写章节重复 0.75 ≥ 0.7（撞上「林秋实拿出父亲留下的账单，揭露苏怀远多次挪用公款，引发家…」）"
+    ],
+    "4": [
+      "情节与已写章节重复 0.71 ≥ 0.7（撞上「林秋实拿出父亲留下的账单揭露苏怀远贪污真相，引发家族内部…」）",
+      "attr_adv_pct 23.5 高于目标 12.0",
+      "[observe] 标题重复：「墨水泼向账单」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「苏怀远的」×9",
+      "[observe] attr_adv_pct 33.3 > 25.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「他知道自己」×3"
+    ],
+    "7": [
+      "attr_adv_pct 16.7 高于目标 12.0",
+      "[observe] 标题重复：「墨水显影」已存在"
+    ],
+    "8": [
+      "单条套路句式超限：「苏怀远的」×6、「林秋实的」×5、「他知道自己」×3",
+      "[observe] 标题重复：「墨水显影」已存在"
+    ],
+    "9": [
+      "单条套路句式超限：「苏怀远的」×5",
+      "情节与已写章节重复 0.71 ≥ 0.7（撞上「林秋实拿出父亲留下的账单揭露苏怀远贪污真相，引发家族内部…」）",
+      "attr_adv_pct 18.2 高于目标 12.0"
+    ],
+    "10": [
+      "单条套路句式超限：「苏怀远的」×4",
+      "情节与已写章节重复 0.75 ≥ 0.7（撞上「林秋实拿出父亲留下的账单揭露苏怀远贪污真相，引发家族内部…」）",
+      "attr_adv_pct 14.3 高于目标 12.0",
+      "[observe] 标题与《账单压住族谱》近似 0.91 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 97,
+    "calls_counted": 97,
+    "llm_seconds": 457.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-23T12:23:38"
+}
