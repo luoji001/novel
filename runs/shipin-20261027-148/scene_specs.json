@@ -1,0 +1,219 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "冰台",
+      "present": [
+        "老李"
+      ],
+      "driver": "老李左手护住信，右手紧握鱼秤",
+      "entry_state": "冰台表面结着薄霜",
+      "outcome": "信被老李压在冰台边缘，鱼秤倾斜",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "冰台",
+      "present": [
+        "老李"
+      ],
+      "driver": "老李将信塞回冰台夹缝，鱼秤归位",
+      "entry_state": "信被塞进冰台夹缝，鱼秤归位",
+      "outcome": "冰台夹缝处露出信角，鱼秤恢复平衡",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "王婶",
+        "老李"
+      ],
+      "driver": "王婶脚踩塑料袋，伸手抢信",
+      "entry_state": "王婶脚踩塑料袋",
+      "outcome": "塑料袋被王婶踩扁",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "王婶",
+        "老李"
+      ],
+      "driver": "王婶将塑料袋拽向自己，袋口撕裂",
+      "entry_state": "塑料袋被踩扁",
+      "outcome": "塑料袋袋口撕裂",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "王婶",
+        "老李"
+      ],
+      "driver": "王婶将撕裂的塑料袋塞进围裙口袋",
+      "entry_state": "塑料袋袋口撕裂",
+      "outcome": "塑料袋被塞进围裙口袋",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "鱼秤",
+        "旧铜镯"
+      ],
+      "driver": "老李左手护住信，右手捏着鱼秤",
+      "entry_state": "鱼秤在老李手中，鱼未称重",
+      "outcome": "鱼秤被老李握紧，鱼尚未称重",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "鱼",
+        "鱼秤"
+      ],
+      "driver": "老李将鱼放在秤上，铜镯擦过鱼鳞",
+      "entry_state": "鱼在秤上，秤未归零",
+      "outcome": "鱼被放在秤上，秤盘有鱼鳞残留",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "鱼",
+        "鱼秤"
+      ],
+      "driver": "老李突然松手，鱼掉进塑料袋",
+      "entry_state": "鱼在秤上，秤盘有鱼鳞残留",
+      "outcome": "鱼掉入塑料袋，秤盘空无一物",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "冰台",
+      "present": [
+        "老李",
+        "王婶"
+      ],
+      "driver": "老李左手护住信，右手抓着鱼秤",
+      "entry_state": "冰台表面结着薄霜",
+      "outcome": "冰台边缘被老李的铜镯刮出一道划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "冰台",
+      "present": [
+        "老李",
+        "王婶"
+      ],
+      "driver": "王婶踮脚张望，冰台被她踩出凹陷",
+      "entry_state": "冰台边缘有道划痕",
+      "outcome": "冰台一角被王婶的球鞋踩碎",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "冰台",
+      "present": [
+        "老李",
+        "王婶"
+      ],
+      "driver": "老李将冰台推向王婶，冰台滑落至地面",
+      "entry_state": "冰台一角被踩碎",
+      "outcome": "冰台彻底碎裂，碎片散落一地",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "鱼市场",
+      "present": [
+        "小赵",
+        "对讲机"
+      ],
+      "driver": "小赵举起对讲机，对着冰台喊话",
+      "entry_state": "市场安静，鱼摊未开始交易",
+      "outcome": "对讲机发出刺耳的蜂鸣声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼市场",
+      "present": [
+        "小赵",
+        "对讲机"
+      ],
+      "driver": "小赵将对讲机放回腰间，低头看冰台",
+      "entry_state": "对讲机发出刺耳的蜂鸣声",
+      "outcome": "对讲机屏幕显示‘信号弱’",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼市场",
+      "present": [
+        "小赵",
+        "对讲机"
+      ],
+      "driver": "小赵拿起对讲机，按下通话键，对讲机掉落地上",
+      "entry_state": "对讲机屏幕显示‘信号弱’",
+      "outcome": "对讲机摔裂，屏幕碎裂",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "信"
+      ],
+      "driver": "老李左手紧握信，右手抓着鱼秤",
+      "entry_state": "信在老李左手，未拆封",
+      "outcome": "信保持原状，老李左手紧握",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "信"
+      ],
+      "driver": "老李用左手展开信，手指划过字迹",
+      "entry_state": "信在老李左手，未拆封",
+      "outcome": "信被展开，露出部分字迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "信"
+      ],
+      "driver": "老李将信塞回口袋，右手上铜镯擦过信角",
+      "entry_state": "信被展开，露出部分字迹",
+      "outcome": "信被收起，右手上铜镯与信角接触",
+      "target_chars": 527
+    }
+  ]
+}

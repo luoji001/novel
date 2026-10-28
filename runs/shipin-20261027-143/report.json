@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-143",
+  "profile": "视频分镜",
+  "title": "二维码卡",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6157,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5733,
+    "chapter_chars_mean": 956,
+    "chapter_chars_median": 1038,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 28.2,
+    "dialogue_chars_pct": 24.8,
+    "dialogue_para_pct": 60.2,
+    "interiority_para_pct": 0.9,
+    "narration_para_pct": 38.9,
+    "turn_under20_pct": 94.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 45.7,
+    "attr_adv_pct": 1.8,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手电筒照亮归途",
+      "chars": 749,
+      "score": 96.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铁皮盒轻响",
+      "chars": 1087,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "卡片落地",
+      "chars": 1110,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "二维码密码箱",
+      "chars": 1115,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "银耳环轻晃",
+      "chars": 1109,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "抓起空袋子",
+      "chars": 981,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 31.6 低于目标 35.0",
+      "dialogue_run_mean 4.3 高于目标 4.0"
+    ],
+    "3": [
+      "单条套路句式超限：「陈阿强的」×4",
+      "narration_para_pct 31.8 低于目标 35.0"
+    ],
+    "4": [
+      "narration_para_pct 27.6 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 144.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:03:34"
+}

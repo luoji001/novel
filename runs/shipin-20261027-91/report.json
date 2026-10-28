@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-91",
+  "profile": "视频分镜",
+  "title": "箱中票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5900,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5515,
+    "chapter_chars_mean": 919,
+    "chapter_chars_median": 976,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 24.2,
+    "dialogue_chars_pct": 22.6,
+    "dialogue_para_pct": 56.6,
+    "interiority_para_pct": 4.2,
+    "narration_para_pct": 39.1,
+    "turn_under20_pct": 98.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "黑皮箱的裂痕",
+      "chars": 442,
+      "score": 38.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "箱子的裂痕",
+      "chars": 896,
+      "score": 38.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "身份证与箱子的对峙",
+      "chars": 1152,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "火车票上的名字",
+      "chars": 1288,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "红围巾的温度",
+      "chars": 1207,
+      "score": 13.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "钢笔坠地三响",
+      "chars": 909,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 412 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 27.3 低于目标 35.0",
+      "[observe] 章节过短 837 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《黑皮箱的裂痕》近似 0.73 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "narration_para_pct 25.5 低于目标 35.0"
+    ],
+    "5": [
+      "interiority_para_pct 13.8 高于目标 6.0",
+      "narration_para_pct 31.0 低于目标 35.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 4.9 低于目标 5.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 122.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:37:56"
+}

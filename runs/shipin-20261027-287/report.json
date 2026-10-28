@@ -1,0 +1,122 @@
+{
+  "consistency": "1. 第二章提到老周守护的是“神秘铁柜”，但第一章李文发现的是“铁柜”，未明确是否为同一铁柜。  \n2. 第五章与第六章标题重复，内容也重复，导致章节混乱。  \n3. 第五章提到李文“被老周夺走照片并离开”，但第六章又说李文“用父亲留下的照片开启铁柜”，暗示照片仍在他手中，前后矛盾。  \n4. 第六章提到“发现里面藏着家族秘密”，但前文未交代铁柜内有何物，缺乏铺垫。  \n5. 第三章提到小林“留意到寄存处争吵的两人”，但前文未明确说明李文和老周在寄存处争吵。  \n6. 第四章提到老周“交出钥匙”，但第五章提到李文“试图用照片打开铁柜”，暗示钥匙未被使用，前后矛盾。",
+  "slug": "shipin-20261027-287",
+  "profile": "视频分镜",
+  "title": "铁柜的锁孔",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5797,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5340,
+    "chapter_chars_mean": 890,
+    "chapter_chars_median": 984,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 29.3,
+    "dialogue_chars_pct": 17.2,
+    "dialogue_para_pct": 44.3,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 55.2,
+    "turn_under20_pct": 96.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 50.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁柜的凹痕",
+      "chars": 483,
+      "score": 23.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "登记簿的边缘",
+      "chars": 1108,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "扫帚与碎纸",
+      "chars": 1120,
+      "score": 20.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙的争夺",
+      "chars": 936,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "照片嵌入锁孔",
+      "chars": 1018,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "照片嵌入锁孔",
+      "chars": 1126,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 414 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 26.1 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 3.9 低于目标 5.0",
+      "[observe] 章内自我复读 5 句（如「他转身往反方向走，扫帚在身后晃动了几下，最终稳稳…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「李文站在」×3",
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 章节过短 851 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "单条套路句式超限：「李文站在」×3"
+    ],
+    "6": [
+      "[observe] 标题重复：「照片嵌入锁孔」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 122.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:56:48"
+}

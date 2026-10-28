@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-92",
+  "profile": "视频分镜",
+  "title": "信封的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5632,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5288,
+    "chapter_chars_mean": 881,
+    "chapter_chars_median": 901,
+    "chapter_chars_cv": 0.44,
+    "paragraphs_mean": 20.8,
+    "dialogue_chars_pct": 20.0,
+    "dialogue_para_pct": 54.6,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 45.4,
+    "turn_under20_pct": 94.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 50.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "信封坠地",
+      "chars": 644,
+      "score": 21.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "执法记录仪的蓝光",
+      "chars": 410,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "鱼鳞入袋的响动",
+      "chars": 1152,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "鱼鳞入袋的响动",
+      "chars": 1398,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "鱼鳞入袋的响动",
+      "chars": 1260,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "鱼鳞入袋的响动",
+      "chars": 764,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 596 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 352 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 标题重复：「鱼鳞入袋的响动」已存在"
+    ],
+    "5": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 标题重复：「鱼鳞入袋的响动」已存在"
+    ],
+    "6": [
+      "[observe] 章节过短 709 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「鱼鳞入袋的响动」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 124.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:39:26"
+}

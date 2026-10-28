@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-49",
+  "profile": "视频分镜",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6012,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5531,
+    "chapter_chars_mean": 922,
+    "chapter_chars_median": 912,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 32.8,
+    "dialogue_chars_pct": 20.7,
+    "dialogue_para_pct": 42.0,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 57.7,
+    "turn_under20_pct": 98.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.0,
+    "attr_adv_pct": 10.1,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "箱子上的签名",
+      "chars": 660,
+      "score": 38.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "登记簿的裂痕",
+      "chars": 1178,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "热水浇铁门",
+      "chars": 1024,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "钥匙划破暮色",
+      "chars": 1252,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "红绳轻晃",
+      "chars": 985,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙撞击锁孔",
+      "chars": 907,
+      "score": 16.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 592 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 32.3 低于目标 35.0",
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "4": [
+      "单条套路句式超限：「李建国的」×4"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国站在」×3",
+      "dialogue_chars_pct 3.5 低于目标 5.0",
+      "[observe] 章节过短 855 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 141.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:31:33"
+}

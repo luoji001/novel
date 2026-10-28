@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-387",
+  "profile": "视频分镜",
+  "title": "钥匙风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7609,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 7066,
+    "chapter_chars_mean": 1178,
+    "chapter_chars_median": 1100,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 37.2,
+    "dialogue_chars_pct": 19.6,
+    "dialogue_para_pct": 50.9,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 47.6,
+    "turn_under20_pct": 92.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.6,
+    "attr_adv_pct": 3.8,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "螺丝刀逼近便利店",
+      "chars": 652,
+      "score": 39.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙锁住货架",
+      "chars": 1113,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "螺丝刀抵住柜门",
+      "chars": 1203,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "螺丝刀划破夜色",
+      "chars": 2047,
+      "score": 38.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "螺丝刀撬动柜门",
+      "chars": 1385,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "螺丝刀挑起饮料瓶",
+      "chars": 1203,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 586 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "[observe] 章内自我复读 2 句（如「黑色轿车引擎熄火，静止在远处，像一只等待猎食的野…」）"
+    ],
+    "4": [
+      "narration_para_pct 22.0 低于目标 35.0",
+      "dialogue_run_mean 4.6 高于目标 4.0",
+      "[observe] 章内自我复读 1 句（如「他说，语气平静但带着一丝警惕…」）"
+    ],
+    "5": [
+      "[observe] 标题与《螺丝刀抵住柜门》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「小林站在」×3",
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:36:22"
+}

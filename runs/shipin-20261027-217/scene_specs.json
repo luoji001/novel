@@ -1,0 +1,214 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "李国强"
+      ],
+      "driver": "李国强右手按住皮箱拉杆，铁门纹丝不动",
+      "entry_state": "铁门紧闭，李国强站在铁门前",
+      "outcome": "铁门保持紧闭，李国强未成功打开",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "李国强"
+      ],
+      "driver": "李国强用右肩顶住铁门，试图强行推开",
+      "entry_state": "铁门紧闭，李国强用右肩顶住铁门",
+      "outcome": "铁门依然紧闭，李国强身体前倾",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "陈师傅",
+        "登记簿"
+      ],
+      "driver": "陈师傅用右手翻开登记簿的第一页",
+      "entry_state": "登记簿平放在桌上",
+      "outcome": "登记簿被翻开至第一页",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "陈师傅",
+        "登记簿"
+      ],
+      "driver": "陈师傅用左手将登记簿推到自己面前",
+      "entry_state": "登记簿被翻开至第一页",
+      "outcome": "登记簿被推到陈师傅面前",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "第三候车厅",
+      "present": [
+        "陈师傅",
+        "登记簿"
+      ],
+      "driver": "陈师傅用右手将登记簿合上并放回桌面",
+      "entry_state": "登记簿被推到陈师傅面前",
+      "outcome": "登记簿被合上并放回桌面",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "李国强",
+        "铁门"
+      ],
+      "driver": "李国强将红色钥匙插入铁门锁孔",
+      "entry_state": "铁门锁孔露出钥匙孔",
+      "outcome": "钥匙插入锁孔，铁门未动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "李国强",
+        "红色钥匙"
+      ],
+      "driver": "李国强转动红色钥匙，钥匙发出咔嗒声",
+      "entry_state": "钥匙插入锁孔",
+      "outcome": "钥匙转动半圈，铁门仍紧闭",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "第三候车厅",
+      "present": [
+        "李国强",
+        "红色钥匙"
+      ],
+      "driver": "李国强将红色钥匙收回口袋，钥匙尖端磨损",
+      "entry_state": "钥匙转动半圈",
+      "outcome": "钥匙磨损，李国强收回钥匙",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "陈师傅"
+      ],
+      "driver": "陈师傅用右手按住铁门把手",
+      "entry_state": "铁门紧闭",
+      "outcome": "铁门把手被按住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "陈师傅"
+      ],
+      "driver": "陈师傅用无名指擦过疤痕",
+      "entry_state": "铁门把手被按住",
+      "outcome": "疤痕被擦亮",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "第三候车厅",
+      "present": [
+        "陈师傅"
+      ],
+      "driver": "陈师傅将疤痕按在登记簿上",
+      "entry_state": "疤痕被擦亮",
+      "outcome": "疤痕贴在登记簿上",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "李国强",
+        "蓝色皮箱"
+      ],
+      "driver": "李国强右肩挂着蓝色皮箱，试图推开铁门",
+      "entry_state": "蓝色皮箱紧贴铁门，李国强右肩挂着它",
+      "outcome": "蓝色皮箱被李国强推离铁门边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "李国强",
+        "蓝色皮箱"
+      ],
+      "driver": "李国强左手握紧蓝色皮箱，向铁门方向挪动",
+      "entry_state": "蓝色皮箱被推离铁门边缘",
+      "outcome": "蓝色皮箱滑向铁门底部，李国强左手紧握它",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "第三候车厅",
+      "present": [
+        "李国强",
+        "蓝色皮箱"
+      ],
+      "driver": "李国强右肩重新挂起蓝色皮箱，向铁门靠近",
+      "entry_state": "蓝色皮箱滑向铁门底部",
+      "outcome": "蓝色皮箱被李国强重新挂上肩头",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "李国强",
+        "旧身份证"
+      ],
+      "driver": "李国强从口袋掏出旧身份证",
+      "entry_state": "旧身份证在李国强手中",
+      "outcome": "旧身份证被递给陈师傅",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "陈师傅",
+        "旧身份证"
+      ],
+      "driver": "陈师傅接过旧身份证检查",
+      "entry_state": "旧身份证在陈师傅手中",
+      "outcome": "旧身份证被陈师傅翻看",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "第三候车厅",
+      "present": [
+        "李国强",
+        "陈师傅",
+        "旧身份证"
+      ],
+      "driver": "李国强夺回旧身份证",
+      "entry_state": "旧身份证在陈师傅手中",
+      "outcome": "旧身份证回到李国强手中",
+      "target_chars": 527
+    }
+  ]
+}

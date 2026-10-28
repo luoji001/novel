@@ -1,0 +1,216 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "李国强",
+        "硬币"
+      ],
+      "driver": "李国强弯腰捡起副驾驶座上的硬币",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被李国强拿到手中",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "李国强"
+      ],
+      "driver": "李国强将硬币放回副驾驶座并锁上车门",
+      "entry_state": "硬币在李国强手中",
+      "outcome": "硬币回到副驾驶座",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远",
+        "记账本"
+      ],
+      "driver": "陈志远翻开记账本，纸页哗啦作响",
+      "entry_state": "记账本平放在办公桌上",
+      "outcome": "记账本被翻开，露出内页",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远",
+        "记账本"
+      ],
+      "driver": "陈志远用铅笔在记账本上划出一道线",
+      "entry_state": "记账本内页有空白处",
+      "outcome": "记账本内页被划出一道线",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远",
+        "记账本"
+      ],
+      "driver": "陈志远将记账本合上并塞进抽屉",
+      "entry_state": "记账本内页被划出一道线",
+      "outcome": "记账本被收进抽屉，不再外露",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李国强",
+        "教练车钥匙"
+      ],
+      "driver": "李国强将钥匙插进锁孔又拔出",
+      "entry_state": "钥匙在副驾驶座上",
+      "outcome": "钥匙被移出原位",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李国强",
+        "教练车钥匙"
+      ],
+      "driver": "李国强用拇指摩挲钥匙齿纹",
+      "entry_state": "钥匙被移出原位",
+      "outcome": "钥匙留在李国强掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李国强"
+      ],
+      "driver": "李国强将钥匙放回原位",
+      "entry_state": "钥匙留在李国强掌心",
+      "outcome": "钥匙回到副驾驶座上",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "林小雨",
+        "学员手机"
+      ],
+      "driver": "林小雨从口袋掏出手机，解锁屏幕",
+      "entry_state": "手机在林小雨手中，屏幕亮起",
+      "outcome": "手机屏幕显示时间7:30，林小雨低头查看",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "林小雨",
+        "学员手机"
+      ],
+      "driver": "林小雨将手机放回口袋，转身看向教练车",
+      "entry_state": "手机在林小雨口袋，屏幕熄灭",
+      "outcome": "手机回到林小雨口袋，她望向教练车副驾驶座",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "林小雨",
+        "学员手机"
+      ],
+      "driver": "林小雨从口袋取出手机，按下发送键",
+      "entry_state": "手机在林小雨口袋，屏幕熄灭",
+      "outcome": "手机屏幕亮起，显示短信发送成功",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远",
+        "学员身份证"
+      ],
+      "driver": "陈志远拿起身份证核对信息",
+      "entry_state": "身份证平放在桌面",
+      "outcome": "身份证被陈志远拿起并翻看",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远",
+        "学员身份证"
+      ],
+      "driver": "陈志远用手指擦拭身份证表面",
+      "entry_state": "身份证被翻看",
+      "outcome": "身份证表面被擦拭干净",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远",
+        "学员身份证"
+      ],
+      "driver": "陈志远将身份证放回抽屉",
+      "entry_state": "身份证表面被擦拭干净",
+      "outcome": "身份证被放回抽屉",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李国强",
+        "硬币"
+      ],
+      "driver": "李国强用左手摸硬币，确认位置未动",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币仍留在副驾驶座上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李国强",
+        "硬币"
+      ],
+      "driver": "李国强用右手捡起硬币，检查边缘磨损",
+      "entry_state": "硬币留在副驾驶座上",
+      "outcome": "硬币被李国强捡起并检查",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李国强",
+        "硬币"
+      ],
+      "driver": "李国强将硬币放回原位，转身离开",
+      "entry_state": "硬币被李国强捡起并检查",
+      "outcome": "硬币回到副驾驶座上",
+      "target_chars": 527
+    }
+  ]
+}

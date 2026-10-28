@@ -1,0 +1,214 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "清晨的楼道",
+      "present": [
+        "陈秀兰",
+        "垃圾桶"
+      ],
+      "driver": "陈秀兰用扫帚敲击垃圾桶盖",
+      "entry_state": "垃圾桶静止在楼道角落",
+      "outcome": "垃圾桶盖被敲出凹痕",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "清晨的楼道",
+      "present": [
+        "陈秀兰",
+        "垃圾桶"
+      ],
+      "driver": "陈秀兰将雨靴拖到自己脚边",
+      "entry_state": "垃圾桶盖有凹痕",
+      "outcome": "垃圾桶旁出现一双黑色雨靴",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "电梯口",
+      "present": [
+        "周志远",
+        "电梯控制面板"
+      ],
+      "driver": "周志远用手指敲击电梯控制面板",
+      "entry_state": "电梯控制面板静止在原位",
+      "outcome": "电梯控制面板开始发出微弱的嗡鸣声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电梯口",
+      "present": [
+        "周志远",
+        "电梯控制面板"
+      ],
+      "driver": "周志远将电梯控制面板向右滑动半寸",
+      "entry_state": "电梯控制面板发出微弱的嗡鸣声",
+      "outcome": "电梯控制面板的指示灯闪烁红光",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电梯口",
+      "present": [
+        "周志远",
+        "电梯控制面板"
+      ],
+      "driver": "周志远用左手按住控制面板，右手用力拍打面板边缘",
+      "entry_state": "电梯控制面板的指示灯闪烁红光",
+      "outcome": "电梯控制面板的指示灯全部熄灭",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "周志远"
+      ],
+      "driver": "陈秀兰将钥匙递到周志远掌心",
+      "entry_state": "钥匙在陈秀兰手中",
+      "outcome": "钥匙从陈秀兰手中转移到周志远手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "楼道",
+      "present": [
+        "周志远"
+      ],
+      "driver": "周志远用钥匙敲击电梯控制面板",
+      "entry_state": "钥匙在周志远手中",
+      "outcome": "钥匙在周志远手中并敲击电梯控制面板",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "楼道",
+      "present": [
+        "周志远"
+      ],
+      "driver": "周志远将钥匙放回工具包",
+      "entry_state": "钥匙在周志远手中",
+      "outcome": "钥匙被放入周志远的工具包",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "办公室",
+      "present": [
+        "周志远",
+        "维修通知"
+      ],
+      "driver": "周志远抽出维修通知纸条",
+      "entry_state": "维修通知在办公桌上",
+      "outcome": "维修通知被周志远抽出",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "办公室",
+      "present": [
+        "周志远"
+      ],
+      "driver": "周志远用手指摩挲纸条边缘",
+      "entry_state": "维修通知在周志远手中",
+      "outcome": "维修通知边缘被手指摩挲",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "办公室",
+      "present": [
+        "周志远"
+      ],
+      "driver": "周志远将维修通知纸条对折塞入工具包",
+      "entry_state": "维修通知在周志远手中",
+      "outcome": "维修通知被塞入工具包",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "雨靴"
+      ],
+      "driver": "陈秀兰弯腰捡起雨靴，靴底有磨损痕迹",
+      "entry_state": "雨靴躺在楼道中央，陈秀兰蹲下身",
+      "outcome": "雨靴被陈秀兰捡起，靴底磨损痕迹清晰可见",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "雨靴"
+      ],
+      "driver": "陈秀兰用左手握着钥匙，将雨靴往自己脚边拖",
+      "entry_state": "雨靴被陈秀兰捡起，靴底磨损痕迹清晰可见",
+      "outcome": "雨靴被拖近陈秀兰脚边，钥匙在她左手",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "雨靴"
+      ],
+      "driver": "陈秀兰用右脚踩住雨靴，靴子被她拽向自己",
+      "entry_state": "雨靴被拖近陈秀兰脚边，钥匙在她左手",
+      "outcome": "雨靴被陈秀兰拽向自己，靴子开始向她靠近",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "垃圾桶"
+      ],
+      "driver": "陈秀兰将雨靴挪到垃圾桶边沿",
+      "entry_state": "垃圾桶静止在楼道角落",
+      "outcome": "垃圾桶边沿出现一双黑色雨靴",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "垃圾桶"
+      ],
+      "driver": "陈秀兰用扫帚敲击垃圾桶盖",
+      "entry_state": "垃圾桶边沿有黑色雨靴",
+      "outcome": "垃圾桶盖发出沉闷声响",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "垃圾桶"
+      ],
+      "driver": "陈秀兰将垃圾桶推至楼梯口",
+      "entry_state": "垃圾桶盖发出沉闷声响",
+      "outcome": "垃圾桶被推至楼梯口，雨靴留在原地",
+      "target_chars": 527
+    }
+  ]
+}

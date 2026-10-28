@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-225",
+  "profile": "视频分镜",
+  "title": "钞票与火车票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6483,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6129,
+    "chapter_chars_mean": 1022,
+    "chapter_chars_median": 1104,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 21.8,
+    "dialogue_chars_pct": 15.4,
+    "dialogue_para_pct": 55.1,
+    "interiority_para_pct": 3.4,
+    "narration_para_pct": 41.5,
+    "turn_under20_pct": 98.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "蛇皮袋与铁钳",
+      "chars": 597,
+      "score": 39.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜铃与火车票",
+      "chars": 1055,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "火车票与铜铃铛",
+      "chars": 1163,
+      "score": 21.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "火车票与铁钳",
+      "chars": 1307,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "火车票与铜铃铛",
+      "chars": 1193,
+      "score": 85.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "铁钳与火车票",
+      "chars": 1162,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 539 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「你拿走的钱，我一分钱都不要…」）"
+    ],
+    "4": [
+      "narration_para_pct 30.4 低于目标 35.0",
+      "[observe] 标题与《火车票与铜铃铛》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「李小满的」×4",
+      "interiority_para_pct 9.5 高于目标 6.0",
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 标题重复：「火车票与铜铃铛」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李小满的」×3",
+      "[observe] 章内自我复读 1 句（如「远处传来几声犬吠，混着某个窗口飘来的炖菜香气…」）",
+      "[observe] 标题与《铜铃与火车票》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 148.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:18:05"
+}

@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-325",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6584,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6202,
+    "chapter_chars_mean": 1034,
+    "chapter_chars_median": 1170,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 23.3,
+    "dialogue_chars_pct": 19.5,
+    "dialogue_para_pct": 58.4,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 40.2,
+    "turn_under20_pct": 94.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码遮住炒粉锅",
+      "chars": 319,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "二维码遮住炒粉锅",
+      "chars": 1292,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "二维码遮住炒粉锅",
+      "chars": 1115,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "二维码遮住炒粉锅",
+      "chars": 1209,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "二维码遮住炒粉锅",
+      "chars": 1266,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "二维码遮住炒粉锅",
+      "chars": 1377,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 287 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 27.6 低于目标 35.0",
+      "[observe] 标题重复：「二维码遮住炒粉锅」已存在"
+    ],
+    "3": [
+      "[observe] 标题重复：「二维码遮住炒粉锅」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「陈志远的」×3",
+      "[observe] 标题重复：「二维码遮住炒粉锅」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李阿婆的」×4",
+      "[observe] 标题重复：「二维码遮住炒粉锅」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李阿婆的」×6",
+      "interiority_para_pct 6.9 高于目标 6.0",
+      "[observe] 标题重复：「二维码遮住炒粉锅」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:59:48"
+}

@@ -1,0 +1,125 @@
+{
+  "consistency": "1. 第二章与第四章均提到“李芳为丈夫的用药问题与护士陈雪梅发生争执”，但第四章明确提到“李芳试图抢夺张伟的药瓶”，而第二章未提及“张伟”这一人物，导致人物关系不一致。\n\n2. 第四章提到“李芳得知丈夫已出院”，但第六章再次提到“李芳误以为丈夫仍在医院”，前后矛盾，未交代清楚李芳如何得知丈夫已出院，导致逻辑断裂。\n\n3. 第五章提到“李芳误拿张伟的药水”，但第四章提到“李芳试图抢夺张伟的药瓶”，两者均为“张伟”的物品，但“药瓶”与“药水”为不同物品，存在物品混淆。\n\n4. 第六章提到“李芳与陈雪梅争执药瓶归属”，但第四章提到“李芳试图抢夺张伟的药瓶”，而陈雪梅作为护士长，未在第四章中被明确提及与张伟的药瓶发生直接冲突，导致人物行为不一致。",
+  "slug": "shipin-20261027-98",
+  "profile": "视频分镜",
+  "title": "药瓶之争",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6422,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6021,
+    "chapter_chars_mean": 1004,
+    "chapter_chars_median": 1047,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 25.5,
+    "dialogue_chars_pct": 25.9,
+    "dialogue_para_pct": 60.1,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 39.5,
+    "turn_under20_pct": 87.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 52.0,
+    "attr_adv_pct": 23.6,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "体温计落地瞬间",
+      "chars": 640,
+      "score": 38.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "体温计落地瞬间",
+      "chars": 1185,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "推椅子的瞬间",
+      "chars": 912,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "体温计落地瞬间",
+      "chars": 1402,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "消毒棉球的消失",
+      "chars": 1248,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "药瓶的归属争议",
+      "chars": 1029,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 587 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「陈雪梅的」×4",
+      "[observe] 标题重复：「体温计落地瞬间」已存在"
+    ],
+    "3": [
+      "[observe] 章节过短 826 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈雪梅的」×3",
+      "narration_para_pct 31.2 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「你现在这样，是在害张伟…」）",
+      "[observe] 标题重复：「体温计落地瞬间」已存在"
+    ],
+    "5": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "dialogue_run_mean 4.7 高于目标 4.0",
+      "[observe] attr_adv_pct 100.0 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "单条套路句式超限：「陈雪梅的」×4",
+      "narration_para_pct 31.8 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:48:33"
+}

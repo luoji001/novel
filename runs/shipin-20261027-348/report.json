@@ -1,0 +1,113 @@
+{
+  "consistency": "1. 王强在第一章和第六章都提到“在练车场发现一枚神秘硬币”，但第六章提到“反复确认后仍无法确定其来源”，而第一章提到“仔细比对后将其收起”，前后对硬币的处理方式不一致，缺乏合理解释。  \n2. 第六章提到“王强在练车场发现一枚神秘硬币”，与第一章内容重复，但未说明是否为同一枚硬币，存在信息重复但未明确关联的问题。  \n3. 第二章提到“陈志发现教练车副驾驶座上有枚硬币”，但第一章提到“王强在清晨的练车场发现一枚神秘硬币”，未说明硬币是否为同一枚，缺乏明确联系。  \n4. 第五章提到“林雪借身份证接近王强”，但前文未提及林雪与王强有直接关联或动机，人物行为缺乏铺垫。  \n5. 第四章提到“陈志在办公室翻看记账本，发现一张泛黄照片”，但未说明该照片与后续情节（如硬币、监控等）有任何关联，埋下伏笔但未展开。",
+  "slug": "shipin-20261027-348",
+  "profile": "视频分镜",
+  "title": "硬币密码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5753,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5360,
+    "chapter_chars_mean": 893,
+    "chapter_chars_median": 986,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 24.5,
+    "dialogue_chars_pct": 11.1,
+    "dialogue_para_pct": 33.3,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 65.3,
+    "turn_under20_pct": 97.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 71.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币与手帕的对峙",
+      "chars": 710,
+      "score": 15.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "副驾驶座的反光",
+      "chars": 1287,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "手机屏幕的蓝光",
+      "chars": 1100,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "墨迹在纸面拖行",
+      "chars": 517,
+      "score": 16.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "身份证的指纹纹路",
+      "chars": 1107,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "硬币与指纹的重叠",
+      "chars": 1026,
+      "score": 58.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 1.6 低于目标 5.0",
+      "narration_para_pct 90.9 高于目标 90.0",
+      "[observe] 章内自我复读 2 句（如「他皱了皱眉，像是确认了一下，又轻轻把它捏进掌心…」）"
+    ],
+    "4": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 466 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "narration_para_pct 29.0 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 122.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:35:32"
+}

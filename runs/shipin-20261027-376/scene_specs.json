@@ -1,0 +1,214 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "张建国"
+      ],
+      "driver": "张建国将钥匙插入点火孔",
+      "entry_state": "钥匙在点火孔",
+      "outcome": "钥匙开始转动",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "张建国"
+      ],
+      "driver": "张建国将钥匙拔出并握在手中",
+      "entry_state": "钥匙在张建国手中",
+      "outcome": "钥匙停止转动",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "练车场副驾驶座",
+      "present": [
+        "李浩",
+        "1元硬币"
+      ],
+      "driver": "李浩将硬币塞进副驾驶座缝隙",
+      "entry_state": "硬币在副驾驶座缝隙",
+      "outcome": "硬币嵌入缝隙无法取出",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场副驾驶座",
+      "present": [
+        "李浩",
+        "1元硬币"
+      ],
+      "driver": "李浩低头查看计时器",
+      "entry_state": "硬币嵌入缝隙",
+      "outcome": "硬币被计时器遮挡",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场副驾驶座",
+      "present": [
+        "李浩",
+        "1元硬币"
+      ],
+      "driver": "李浩试图用手指抠出硬币",
+      "entry_state": "硬币被计时器遮挡",
+      "outcome": "硬币滑落至座椅下方",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "练车场收费窗口",
+      "present": [
+        "陈晓梅",
+        "收费单"
+      ],
+      "driver": "陈晓梅用钢笔在收费单上签字",
+      "entry_state": "收费单平放在桌面",
+      "outcome": "收费单右上角有钢笔压痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场收费窗口",
+      "present": [
+        "陈晓梅",
+        "收费单"
+      ],
+      "driver": "陈晓梅将收费单夹进文件夹",
+      "entry_state": "收费单右上角有钢笔压痕",
+      "outcome": "收费单被文件夹夹住，边缘翘起",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场收费窗口",
+      "present": [
+        "陈晓梅",
+        "收费单"
+      ],
+      "driver": "陈晓梅撕下收费单一角",
+      "entry_state": "收费单被文件夹夹住，边缘翘起",
+      "outcome": "收费单一角被撕下，露出纸张内层",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "张建国",
+        "李浩"
+      ],
+      "driver": "张建国将钥匙递到李浩掌心",
+      "entry_state": "钥匙在张建国手中",
+      "outcome": "钥匙进入李浩手掌",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "李浩"
+      ],
+      "driver": "李浩用拇指摩挲钥匙齿纹",
+      "entry_state": "钥匙在李浩手掌",
+      "outcome": "钥匙被李浩握紧",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "李浩"
+      ],
+      "driver": "李浩将钥匙放回张建国口袋",
+      "entry_state": "钥匙在李浩手掌",
+      "outcome": "钥匙回到张建国口袋",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场教练车副驾驶座",
+      "present": [
+        "李浩",
+        "计时器"
+      ],
+      "driver": "李浩将计时器拨回7:00",
+      "entry_state": "计时器显示6:59",
+      "outcome": "计时器显示7:00",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场教练车副驾驶座",
+      "present": [
+        "李浩",
+        "计时器"
+      ],
+      "driver": "李浩用拇指按压计时器表面",
+      "entry_state": "计时器显示7:00",
+      "outcome": "计时器表面出现凹痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场教练车副驾驶座",
+      "present": [
+        "李浩",
+        "计时器"
+      ],
+      "driver": "李浩将计时器塞进外套口袋",
+      "entry_state": "计时器表面有凹痕",
+      "outcome": "计时器消失在李浩外套口袋",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场副驾驶座",
+      "present": [
+        "张建国",
+        "1元硬币"
+      ],
+      "driver": "张建国用拇指顶起硬币边缘",
+      "entry_state": "硬币卡在副驾驶座缝隙",
+      "outcome": "硬币滑到张建国掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场计时器旁",
+      "present": [
+        "张建国",
+        "1元硬币"
+      ],
+      "driver": "张建国将硬币按在计时器表面",
+      "entry_state": "硬币在张建国掌心",
+      "outcome": "硬币贴着计时器边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场副驾驶座",
+      "present": [
+        "张建国",
+        "1元硬币"
+      ],
+      "driver": "张建国把硬币塞回副驾驶座缝隙",
+      "entry_state": "硬币贴着计时器边缘",
+      "outcome": "硬币重新卡在副驾驶座缝隙",
+      "target_chars": 527
+    }
+  ]
+}

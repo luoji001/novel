@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-299",
+  "profile": "视频分镜",
+  "title": "雨靴留痕",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6187,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5693,
+    "chapter_chars_mean": 949,
+    "chapter_chars_median": 921,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 30.7,
+    "dialogue_chars_pct": 20.8,
+    "dialogue_para_pct": 50.1,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 48.8,
+    "turn_under20_pct": 89.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 46.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "雨靴上的破洞",
+      "chars": 794,
+      "score": 95.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钥匙与雪片共舞",
+      "chars": 997,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙贴着皮肤发热",
+      "chars": 935,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙贴着皮肤发热",
+      "chars": 1309,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "雨靴与铁皮盒相触",
+      "chars": 944,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙贴着皮肤发热",
+      "chars": 1202,
+      "score": 49.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 26.7 低于目标 35.0"
+    ],
+    "3": [
+      "narration_para_pct 26.3 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「钥匙贴着皮肤发热」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「钥匙贴着皮肤发热」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:15:45"
+}

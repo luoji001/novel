@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-234",
+  "profile": "视频分镜",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5429,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5072,
+    "chapter_chars_mean": 845,
+    "chapter_chars_median": 818,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 21.2,
+    "dialogue_chars_pct": 22.8,
+    "dialogue_para_pct": 56.8,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 43.2,
+    "turn_under20_pct": 90.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.5,
+    "attr_adv_pct": 5.4,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙震动的瞬间",
+      "chars": 540,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙震颤的刹那",
+      "chars": 634,
+      "score": 23.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙按在登记本上",
+      "chars": 1003,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙与耳钉相触",
+      "chars": 761,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙敲击桌面",
+      "chars": 1341,
+      "score": 34.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "钥匙划破纸面",
+      "chars": 1144,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 485 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 589 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 6 句（如「她没有回头，只是把记号笔收回口袋，轻声道：“我只…」）"
+    ],
+    "4": [
+      "[observe] 章节过短 700 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "narration_para_pct 17.4 低于目标 35.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "dialogue_run_mean 4.8 高于目标 4.0",
+      "[observe] 章内自我复读 3 句（如「当时有个男人，拿着把和你现在一样的钥匙来找我…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 128.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:32:24"
+}

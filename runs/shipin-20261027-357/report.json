@@ -1,0 +1,123 @@
+{
+  "consistency": "1. 第二章《钥匙串坠入锁扣缝隙》提到李建国找回三年前寄存的红色皮箱，但第三章《报纸裂痕映出日期》提到李建国为争夺一个装有旧报纸的箱子与工作人员发生争执，暗示箱子并非红色皮箱，存在箱子类型不一致的问题。\n\n2. 第六章《钥匙串坠入锁扣缝隙》提到李建国在车站寄存处取回母亲留下的旧皮箱，但第二章提到箱子已被他人领取，存在箱子归属矛盾。\n\n3. 第五章《红袖章悬在胸前》提到李建国说出母亲曾在此工作的真相，但第四章《手电筒照见旧报纸》提到李建国在旧报纸中找到母亲生前的线索，暗示母亲可能已去世，与第五章中“母亲曾在此工作”的说法存在时间线矛盾。",
+  "slug": "shipin-20261027-357",
+  "profile": "视频分镜",
+  "title": "红袖章",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5877,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5434,
+    "chapter_chars_mean": 906,
+    "chapter_chars_median": 948,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 28.3,
+    "dialogue_chars_pct": 23.6,
+    "dialogue_para_pct": 56.6,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 42.4,
+    "turn_under20_pct": 94.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 63.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "报纸上的铅笔印记",
+      "chars": 470,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙串坠入锁扣缝隙",
+      "chars": 975,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "报纸裂痕映出日期",
+      "chars": 927,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "手电筒照见旧报纸",
+      "chars": 1049,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "红袖章悬在胸前",
+      "chars": 1132,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "钥匙串坠入锁扣缝隙",
+      "chars": 1318,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 416 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李建国的」×5"
+    ],
+    "3": [
+      "[observe] 章节过短 837 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "单条套路句式超限：「李建国的」×3",
+      "narration_para_pct 31.0 低于目标 35.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国站在」×3",
+      "narration_para_pct 23.3 低于目标 35.0",
+      "dialogue_run_mean 4.6 高于目标 4.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国站在」×3",
+      "narration_para_pct 30.6 低于目标 35.0",
+      "[observe] 标题重复：「钥匙串坠入锁扣缝隙」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 131.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:48:30"
+}

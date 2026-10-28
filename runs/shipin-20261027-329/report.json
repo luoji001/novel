@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-329",
+  "profile": "视频分镜",
+  "title": "指纹",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5572,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5201,
+    "chapter_chars_mean": 867,
+    "chapter_chars_median": 910,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 20.5,
+    "dialogue_chars_pct": 19.4,
+    "dialogue_para_pct": 47.4,
+    "interiority_para_pct": 2.8,
+    "narration_para_pct": 49.8,
+    "turn_under20_pct": 84.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.4,
+    "attr_adv_pct": 6.2,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "锈蚀钥匙入锁孔",
+      "chars": 375,
+      "score": 37.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙串上的铜锈",
+      "chars": 1159,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "手电筒扫过登记簿",
+      "chars": 806,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "报纸边缘的指纹",
+      "chars": 1045,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "对讲机里的声音",
+      "chars": 1314,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "指纹覆锁孔",
+      "chars": 867,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 334 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 27.3 低于目标 35.0",
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「李建国的」×3",
+      "[observe] 章节过短 754 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "interiority_para_pct 6.7 高于目标 6.0"
+    ],
+    "6": [
+      "[observe] 章节过短 820 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 123.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:06:05"
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "no": 1,
+    "title": "清晨六点，理发区",
+    "beat": "清晨六点，理发区：老张将铜质推子放在理发椅上，开始为第一位顾客剪发",
+    "target_chars": 1087,
+    "scale": "short",
+    "must_object": "铜质推子",
+    "speakers": [
+      "老张"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "上午八点，等候区",
+    "beat": "上午八点，等候区：小李用电动推子给第二位顾客剪发，老张站在一旁观察",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "电动推子",
+    "speakers": [
+      "小李",
+      "老张"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "中午十二点，休息室",
+    "beat": "中午十二点，休息室：陈老板翻阅账本，记录顾客信息",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "账本",
+    "speakers": [
+      "陈老板"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "下午三点，理发区",
+    "beat": "下午三点，理发区：老张和小李因铜质推子产生争执",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "铜质推子",
+    "speakers": [
+      "老张",
+      "小李"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "傍晚六点，等候区",
+    "beat": "傍晚六点，等候区：小李用电动推子为顾客剪发，老张愤怒地离开",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "电动推子",
+    "speakers": [
+      "小李",
+      "老张"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "晚上九点，休息室",
+    "beat": "晚上九点，休息室：陈老板翻阅账本，看到老张留下的铜质推子",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "账本",
+    "speakers": [
+      "陈老板"
+    ]
+  }
+]

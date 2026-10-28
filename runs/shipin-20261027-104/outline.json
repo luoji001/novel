@@ -1,0 +1,71 @@
+[
+  {
+    "no": 1,
+    "title": "应急灯亮起",
+    "beat": "晚上七点，教室：李老师打开应急灯，照亮黑板，王小明从座位上站起来，将铅笔盒塞进怀里",
+    "target_chars": 1087,
+    "scale": "short",
+    "must_object": "应急灯",
+    "speakers": [
+      "李国强",
+      "王小明"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "铅笔盒藏匿",
+    "beat": "晚上七点十五分，教室：王小明将铅笔盒藏在课桌下，用数学试卷遮住脸，打开应急灯",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "铅笔盒",
+    "speakers": [
+      "王小明"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "粉笔划光",
+    "beat": "晚上七点二十五分，教室：李老师用粉笔在黑板上画出一道道光束，试图驱散黑暗",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "粉笔",
+    "speakers": [
+      "李国强"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "橡皮摩擦",
+    "beat": "晚上八点，教室：王小明用橡皮在桌上摩擦，发出声响，引起李老师的注意",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "橡皮",
+    "speakers": [
+      "王小明",
+      "李国强"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "校长来电",
+    "beat": "晚上八点十五分，校长办公室：陈校长接到电话，得知教室停电，开始用手机电筒照向教室窗户",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "手机电筒",
+    "speakers": [
+      "陈校长"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "灯光熄灭",
+    "beat": "晚上九点，教室：应急灯因电量耗尽熄灭，李老师和王小明都陷入黑暗中",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "应急灯",
+    "speakers": [
+      "李国强",
+      "王小明"
+    ]
+  }
+]

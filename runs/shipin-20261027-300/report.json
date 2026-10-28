@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-300",
+  "profile": "视频分镜",
+  "title": "应急灯的光",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6410,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5880,
+    "chapter_chars_mean": 980,
+    "chapter_chars_median": 1004,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 34.8,
+    "dialogue_chars_pct": 22.4,
+    "dialogue_para_pct": 50.5,
+    "interiority_para_pct": 1.6,
+    "narration_para_pct": 47.9,
+    "turn_under20_pct": 99.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 60.7,
+    "attr_adv_pct": 6.5,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯的光圈",
+      "chars": 665,
+      "score": 93.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铅笔盒的裂痕",
+      "chars": 1200,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "擦灯罩的手势",
+      "chars": 1280,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "铅笔划破试卷",
+      "chars": 1142,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铅笔划过课本",
+      "chars": 1091,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "应急灯的开关",
+      "chars": 1026,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "单条套路句式超限：「李国强站在」×3",
+      "narration_para_pct 23.3 低于目标 35.0",
+      "dialogue_run_mean 5.8 高于目标 4.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强站在」×3",
+      "narration_para_pct 28.6 低于目标 35.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强的」×4",
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）",
+      "[observe] 标题与《应急灯的光圈》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 140.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:17:22"
+}

@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-97",
+  "profile": "视频分镜",
+  "title": "铁锹",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7366,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6761,
+    "chapter_chars_mean": 1127,
+    "chapter_chars_median": 1156,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 42.7,
+    "dialogue_chars_pct": 29.3,
+    "dialogue_para_pct": 59.6,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 40.4,
+    "turn_under20_pct": 97.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.2,
+    "attr_adv_pct": 5.7,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "暖宝宝的温度",
+      "chars": 919,
+      "score": 96.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "暖宝宝的重量",
+      "chars": 1490,
+      "score": 95.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "雪地里的金属碰撞",
+      "chars": 1100,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "暖宝宝的温度",
+      "chars": 1361,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铁锹与雪铲的较量",
+      "chars": 1222,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙的裂痕",
+      "chars": 1268,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 24.0 低于目标 35.0",
+      "[observe] 标题与《暖宝宝的温度》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 6 句（如「周磊怒吼，“这车值多少钱你知道吗…」）",
+      "[observe] 标题重复：「暖宝宝的温度」已存在"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "情节与已写章节重复 0.65 ≥ 0.62（撞上「陈浩为夺回备用钥匙与周磊在停车场激烈对峙，最终用雪掩护找…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:47:02"
+}

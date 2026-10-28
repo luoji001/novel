@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-185",
+  "profile": "视频分镜",
+  "title": "扫码风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6280,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5775,
+    "chapter_chars_mean": 962,
+    "chapter_chars_median": 991,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 34.2,
+    "dialogue_chars_pct": 27.8,
+    "dialogue_para_pct": 58.2,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 41.8,
+    "turn_under20_pct": 95.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 54.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙碰响手机屏",
+      "chars": 853,
+      "score": 99.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "警示牌摇晃",
+      "chars": 938,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "手机壳翻转时刻度",
+      "chars": 1192,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "硬币碰撞清脆声",
+      "chars": 1032,
+      "score": 96.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙触碰饭盒边缘",
+      "chars": 1150,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "硬币入袋瞬间",
+      "chars": 1109,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章节过短 843 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈阿婆的」×4"
+    ],
+    "4": [
+      "narration_para_pct 32.4 低于目标 35.0"
+    ],
+    "5": [
+      "narration_para_pct 28.0 低于目标 35.0"
+    ],
+    "6": [
+      "narration_para_pct 28.6 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「我儿子寄来的钱，总得存进银行…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:10:45"
+}

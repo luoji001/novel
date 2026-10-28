@@ -1,0 +1,105 @@
+{
+  "consistency": "1. 第一章和第六章均出现“钥匙下的微光”，但前者是林浩在风雪中找到车钥匙，后者是监控员发现周凯偷盗红色轿车钥匙，两者描述的“钥匙”和场景不一致，存在混淆。\n\n2. 第二章提到林浩留下并承认车钥匙仍在车上，但第一章已描述林浩找到车钥匙，逻辑上存在矛盾。\n\n3. 第六章提到“红色轿车钥匙”，但前文未提及“红色轿车”或“红色钥匙”，属于新增信息未提前铺垫。",
+  "slug": "shipin-20261027-69",
+  "profile": "视频分镜",
+  "title": "钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6466,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5953,
+    "chapter_chars_mean": 992,
+    "chapter_chars_median": 984,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 31.7,
+    "dialogue_chars_pct": 16.8,
+    "dialogue_para_pct": 41.6,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 57.4,
+    "turn_under20_pct": 97.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 60.0,
+    "attr_adv_pct": 13.2,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙下的微光",
+      "chars": 811,
+      "score": 96.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "杯底冰晶",
+      "chars": 1091,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "信用卡撬开储物格",
+      "chars": 1245,
+      "score": 95.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "手机屏幕亮起",
+      "chars": 1377,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "箱子上的指纹",
+      "chars": 1058,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙下的微光",
+      "chars": 878,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "6": [
+      "[observe] 章节过短 788 < 870（本章目标 1582 字的 55%）",
+      "[observe] attr_adv_pct 100.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「钥匙下的微光」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:02:58"
+}

@@ -1,0 +1,220 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "清晨六点，教练车副驾驶座",
+      "present": [
+        "银色的五角硬币",
+        "李建国",
+        "张浩"
+      ],
+      "driver": "硬币在副驾驶座上反光，李建国伸手去拿",
+      "entry_state": "硬币在副驾驶座上反光",
+      "outcome": "硬币被李建国的右手触碰",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "清晨六点，教练车副驾驶座",
+      "present": [
+        "银色的五角硬币",
+        "李建国",
+        "张浩"
+      ],
+      "driver": "张浩突然伸手抢夺硬币，硬币滚落",
+      "entry_state": "硬币被李建国的右手触碰",
+      "outcome": "硬币滚落在地",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "李建国将铜钥匙插入锁孔",
+      "entry_state": "铜钥匙在锁孔中",
+      "outcome": "铜钥匙开始转动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "张浩伸手抢夺铜钥匙",
+      "entry_state": "铜钥匙在锁孔中",
+      "outcome": "铜钥匙被张浩拽出锁孔",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "李建国抓住铜钥匙手腕",
+      "entry_state": "铜钥匙在张浩手中",
+      "outcome": "铜钥匙从张浩手中滑落",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "教练车前座",
+      "present": [
+        "张浩",
+        "李建国"
+      ],
+      "driver": "张浩将训练表揉成一团扔在地上",
+      "entry_state": "训练表在张浩手中",
+      "outcome": "训练表散落在地，张浩右手握拳",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车前座",
+      "present": [
+        "张浩",
+        "李建国"
+      ],
+      "driver": "李建国用左脚将训练表踢到车门边",
+      "entry_state": "训练表散落在地",
+      "outcome": "训练表靠车门边，张浩右手伸向副驾驶座",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车前座",
+      "present": [
+        "张浩",
+        "李建国"
+      ],
+      "driver": "张浩用右脚踩住训练表，右手抢夺硬币",
+      "entry_state": "训练表靠车门边",
+      "outcome": "训练表被踩住，硬币即将被张浩夺走",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "李建国弯腰捡起铜钥匙",
+      "entry_state": "铜钥匙在李建国手中",
+      "outcome": "铜钥匙从李建国手中滑落",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "张浩伸手接住铜钥匙",
+      "entry_state": "铜钥匙在张浩手中",
+      "outcome": "铜钥匙被张浩握紧",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "李建国伸手夺回铜钥匙",
+      "entry_state": "铜钥匙在张浩手中",
+      "outcome": "铜钥匙回到李建国手中",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "陈晓芸的办公室",
+      "present": [
+        "陈晓芸",
+        "黑色钢笔"
+      ],
+      "driver": "陈晓芸将钢笔轻轻放在文件堆上",
+      "entry_state": "黑色钢笔在文件堆上",
+      "outcome": "黑色钢笔被文件遮住一半",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "陈晓芸的办公室",
+      "present": [
+        "陈晓芸",
+        "黑色钢笔"
+      ],
+      "driver": "陈晓芸用钢笔尖挑起一张纸片",
+      "entry_state": "黑色钢笔被文件遮住一半",
+      "outcome": "黑色钢笔尖沾上了一点墨水",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "陈晓芸的办公室",
+      "present": [
+        "陈晓芸",
+        "黑色钢笔"
+      ],
+      "driver": "陈晓芸将钢笔插回笔筒，笔帽盖上",
+      "entry_state": "黑色钢笔尖沾上了一点墨水",
+      "outcome": "黑色钢笔被收进笔筒",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "李建国将铜钥匙插入锁孔",
+      "entry_state": "铜钥匙在锁孔中",
+      "outcome": "锁孔发出轻微咔嗒声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "张浩伸手抢夺钥匙",
+      "entry_state": "铜钥匙在锁孔中",
+      "outcome": "钥匙从锁孔滑出掉在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车后备箱锁孔前",
+      "present": [
+        "李建国",
+        "张浩"
+      ],
+      "driver": "李建国弯腰捡起钥匙",
+      "entry_state": "钥匙在地面",
+      "outcome": "钥匙回到李建国手中",
+      "target_chars": 527
+    }
+  ]
+}

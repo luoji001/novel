@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-254",
+  "profile": "视频分镜",
+  "title": "老式推子",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5863,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5417,
+    "chapter_chars_mean": 903,
+    "chapter_chars_median": 896,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 27.7,
+    "dialogue_chars_pct": 18.6,
+    "dialogue_para_pct": 38.9,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 60.1,
+    "turn_under20_pct": 93.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.7,
+    "attr_adv_pct": 7.6,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "擦拭账本的手指",
+      "chars": 523,
+      "score": 21.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "触摸箱沿的指尖",
+      "chars": 1185,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "抚摸镜框的指尖",
+      "chars": 991,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "擦拭账本的手指",
+      "chars": 1375,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "触碰账本的指尖",
+      "chars": 934,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "触摸箱沿的指尖",
+      "chars": 849,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.8 低于目标 5.0",
+      "narration_para_pct 92.9 高于目标 90.0",
+      "[observe] 章节过短 480 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 2 句（如「师父，我想把箱子收起来…」）"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "4": [
+      "[observe] 标题重复：「擦拭账本的手指」已存在"
+    ],
+    "5": [
+      "[observe] 章节过短 867 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "[observe] 章节过短 772 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「触摸箱沿的指尖」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 125.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:04:18"
+}

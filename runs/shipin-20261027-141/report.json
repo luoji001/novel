@@ -1,0 +1,114 @@
+{
+  "consistency": "1. 第二章提到陈国强发现并保管了一个来历不明的旧皮箱，但第三章中王翠兰提到的“丈夫遗物”并未明确与该皮箱关联，前后缺乏直接联系。\n\n2. 第四章提到王翠兰与李建军约定当晚在“老火车站”见面，但第六章中陈国强与“神秘女子王翠兰”对峙的地点未明确是否为“老火车站”，存在地点不一致的可能。\n\n3. 第五章提到李建军与王翠兰因一张车票对峙，但前文未提及该车票的来源或与两人冲突的直接关联，显得突兀。\n\n4. 第六章中出现“神秘女子王翠兰”，但前文所有提及的王翠兰均为车站售票员，称呼不一致，存在人物身份混淆的可能。",
+  "slug": "shipin-20261027-141",
+  "profile": "视频分镜",
+  "title": "蛇皮袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6373,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5921,
+    "chapter_chars_mean": 987,
+    "chapter_chars_median": 1066,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 30.2,
+    "dialogue_chars_pct": 20.6,
+    "dialogue_para_pct": 49.6,
+    "interiority_para_pct": 2.2,
+    "narration_para_pct": 48.2,
+    "turn_under20_pct": 92.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫帚击窗框",
+      "chars": 693,
+      "score": 95.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "皮箱压蛇皮袋",
+      "chars": 1216,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "毛线帽缠手腕",
+      "chars": 1206,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "身份证撞蛇皮袋",
+      "chars": 1086,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "车票摩擦裤袋",
+      "chars": 1212,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "电子表按停止",
+      "chars": 954,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 32.3 低于目标 35.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李建军的」×4"
+    ],
+    "5": [
+      "单条套路句式超限：「王翠兰的」×3、「李建军的」×3",
+      "interiority_para_pct 6.7 高于目标 6.0",
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "6": [
+      "[observe] 章节过短 860 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:00:21"
+}

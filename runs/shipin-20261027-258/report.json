@@ -1,0 +1,122 @@
+{
+  "consistency": "1. 第一章和第三章均出现“铅笔敲击桌面”，但未说明是否为同一事件或同一人物行为，存在重复描述但未明确关联。  \n2. 第二章和第四章均提到“保温杯蒸气连接窗外”，但未说明是否为同一事件或同一人物行为，存在重复描述但未明确关联。  \n3. 第六章提到“烧伤疤痕”，但前文未提及小林有烧伤经历，属于人物特征突兀出现。  \n4. 第四章提到“吊坠”，但前文未提及陈秀兰拥有吊坠或相关背景，属于物件突兀出现。  \n5. 第三章和第五章均提到“灯光下”，但未说明是否为同一光源或同一场景，存在描述重复但未明确关联。  \n6. 第五章提到“深夜的教室”，但第六章提到“深夜教室”时未说明是否为同一场景，存在时间与场景重复但未明确关联。",
+  "slug": "shipin-20261027-258",
+  "profile": "视频分镜",
+  "title": "灯下",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6482,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5898,
+    "chapter_chars_mean": 983,
+    "chapter_chars_median": 1062,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 34.8,
+    "dialogue_chars_pct": 9.4,
+    "dialogue_para_pct": 24.2,
+    "interiority_para_pct": 1.7,
+    "narration_para_pct": 74.2,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 74.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.2,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铅笔敲击桌面",
+      "chars": 632,
+      "score": 22.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "保温杯蒸气连接窗外",
+      "chars": 1055,
+      "score": 52.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "铅笔敲击桌面",
+      "chars": 1389,
+      "score": 48.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "保温杯蒸气连接窗外",
+      "chars": 1011,
+      "score": 17.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "应急灯照亮试卷",
+      "chars": 1195,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "竹椅倾斜",
+      "chars": 1194,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 554 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 1.8 低于目标 5.0"
+    ],
+    "3": [
+      "单条套路句式超限：「李国强站在」×3",
+      "dialogue_chars_pct 2.1 低于目标 5.0",
+      "narration_para_pct 90.9 高于目标 90.0",
+      "[observe] 标题重复：「铅笔敲击桌面」已存在"
+    ],
+    "4": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 96.4 高于目标 90.0",
+      "[observe] 章节过短 838 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「保温杯蒸气连接窗外」已存在"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「他说，语气平静但不容置疑…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:10:52"
+}

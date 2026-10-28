@@ -1,0 +1,104 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-67",
+  "profile": "视频分镜",
+  "title": "铜耳环的反光",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6786,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6391,
+    "chapter_chars_mean": 1065,
+    "chapter_chars_median": 1133,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 25.2,
+    "dialogue_chars_pct": 22.2,
+    "dialogue_para_pct": 49.5,
+    "interiority_para_pct": 4.9,
+    "narration_para_pct": 45.6,
+    "turn_under20_pct": 86.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "擦拭镜头的手指",
+      "chars": 653,
+      "score": 94.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "砸向放映机的公文包",
+      "chars": 1359,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "抚票寻旧影",
+      "chars": 1164,
+      "score": 59.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "擦耳环见字迹",
+      "chars": 1221,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "拾衣认祖名",
+      "chars": 1038,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "擦拭镜头的手指",
+      "chars": 1345,
+      "score": 52.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "6": [
+      "interiority_para_pct 10.3 高于目标 6.0",
+      "[observe] 标题重复：「擦拭镜头的手指」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:59:57"
+}

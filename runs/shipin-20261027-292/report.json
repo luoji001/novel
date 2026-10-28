@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-292",
+  "profile": "视频分镜",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6451,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6013,
+    "chapter_chars_mean": 1002,
+    "chapter_chars_median": 1100,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 28.3,
+    "dialogue_chars_pct": 16.0,
+    "dialogue_para_pct": 43.9,
+    "interiority_para_pct": 0.9,
+    "narration_para_pct": 55.1,
+    "turn_under20_pct": 96.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜币与红绳的触碰",
+      "chars": 465,
+      "score": 22.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "手机镜头对准铜币",
+      "chars": 1207,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "登记簿边缘的指纹",
+      "chars": 1325,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铜铃铛的震颤",
+      "chars": 998,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手机屏幕的闪光",
+      "chars": 1120,
+      "score": 54.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铜铃铛落地无声",
+      "chars": 1330,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 433 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "dialogue_chars_pct 3.9 低于目标 5.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 4.2 低于目标 5.0"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「林小满没有回应，只是继续盯着手机屏幕…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:04:30"
+}

@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-60",
+  "profile": "视频分镜",
+  "title": "船票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6505,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6086,
+    "chapter_chars_mean": 1014,
+    "chapter_chars_median": 1078,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 26.3,
+    "dialogue_chars_pct": 26.4,
+    "dialogue_para_pct": 54.2,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 45.8,
+    "turn_under20_pct": 91.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 55.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钥匙与旧船票",
+      "chars": 624,
+      "score": 38.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜钥匙的裂痕",
+      "chars": 1135,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "烟斗与红绳",
+      "chars": 1003,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "收音机的电流声",
+      "chars": 1357,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "铜钥匙与旧船票",
+      "chars": 1203,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "铜钥匙的重量",
+      "chars": 1177,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 555 < 597（本章目标 1087 字的 55%）"
+    ],
+    "5": [
+      "单条套路句式超限：「林小满的」×3",
+      "[observe] 标题重复：「铜钥匙与旧船票」已存在"
+    ],
+    "6": [
+      "[observe] 标题与《铜钥匙的裂痕》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:49:13"
+}

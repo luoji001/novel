@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-392",
+  "profile": "视频分镜",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5518,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5162,
+    "chapter_chars_mean": 860,
+    "chapter_chars_median": 916,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 21.5,
+    "dialogue_chars_pct": 26.8,
+    "dialogue_para_pct": 65.2,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 34.0,
+    "turn_under20_pct": 94.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.9,
+    "attr_adv_pct": 1.8,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶与登记本对峙",
+      "chars": 569,
+      "score": 38.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "登记本上的裂痕",
+      "chars": 961,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "注射器划破玻璃",
+      "chars": 994,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "药瓶滚落输液椅",
+      "chars": 1028,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "病历卡在光斑里",
+      "chars": 1090,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "药瓶与病历卡对峙",
+      "chars": 870,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 523 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「陈雪梅的」×3",
+      "narration_para_pct 30.4 低于目标 35.0",
+      "dialogue_run_mean 5.3 高于目标 4.0"
+    ],
+    "3": [
+      "narration_para_pct 34.8 低于目标 35.0"
+    ],
+    "5": [
+      "narration_para_pct 29.2 低于目标 35.0"
+    ],
+    "6": [
+      "narration_para_pct 28.6 低于目标 35.0",
+      "[observe] 章节过短 812 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《药瓶与登记本对峙》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 123.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:44:12"
+}

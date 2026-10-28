@@ -1,0 +1,219 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "林小满",
+        "周雪梅"
+      ],
+      "driver": "林小满伸手抓输液架上的药瓶",
+      "entry_state": "输液架静止在原位",
+      "outcome": "输液架被林小满的手抓住",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "林小满",
+        "周雪梅"
+      ],
+      "driver": "周雪梅用右手按住输液架扶手",
+      "entry_state": "输液架被林小满抓住",
+      "outcome": "输液架被周雪梅按住",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "林小满"
+      ],
+      "driver": "周雪梅右手按住输液椅扶手",
+      "entry_state": "周雪梅右手按住输液椅扶手",
+      "outcome": "消毒液瓶在周雪梅手中闪烁",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "林小满"
+      ],
+      "driver": "林小满伸手去抢输液架上的药瓶",
+      "entry_state": "消毒液瓶在周雪梅手中闪烁",
+      "outcome": "消毒液瓶从周雪梅手中滑落",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "林小满"
+      ],
+      "driver": "林小满用左手接住滑落的消毒液瓶",
+      "entry_state": "消毒液瓶从周雪梅手中滑落",
+      "outcome": "林小满手中握着消毒液瓶",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "陈志远",
+        "林小满"
+      ],
+      "driver": "陈志远将药瓶递给林小满",
+      "entry_state": "林小满攥着病历本站在药房门口",
+      "outcome": "林小满接过药瓶，病历本仍攥在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "陈志远",
+        "林小满"
+      ],
+      "driver": "林小满将病历本展开在掌心",
+      "entry_state": "林小满攥着病历本站在药房门口",
+      "outcome": "病历本被展开，露出上面的字迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "药房",
+      "present": [
+        "陈志远",
+        "林小满"
+      ],
+      "driver": "林小满将病历本折起塞入口袋",
+      "entry_state": "病历本被展开，露出上面的字迹",
+      "outcome": "林小满将病历本折起塞入口袋",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "林小满",
+        "护士长",
+        "陈志远"
+      ],
+      "driver": "林小满右耳银色耳钉在灯光下泛着微光",
+      "entry_state": "耳钉在林小满右耳，微光闪烁",
+      "outcome": "耳钉反射出微弱光芒",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "林小满",
+        "护士长"
+      ],
+      "driver": "林小满低头擦拭耳钉，光斑变暗",
+      "entry_state": "耳钉光斑变暗",
+      "outcome": "耳钉表面被擦拭，光斑减弱",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "林小满",
+        "护士长"
+      ],
+      "driver": "林小满将耳钉塞进口袋，消失不见",
+      "entry_state": "耳钉被擦拭后变暗",
+      "outcome": "耳钉从林小满耳上消失",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "林小满"
+      ],
+      "driver": "周雪梅左手举起银色十字架胸牌挡住林小满视线",
+      "entry_state": "周雪梅站在护士站柜台后",
+      "outcome": "胸牌从周雪梅胸前移至手心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "林小满"
+      ],
+      "driver": "周雪梅用右手将胸牌按在输液椅扶手上",
+      "entry_state": "胸牌在周雪梅手心",
+      "outcome": "胸牌从周雪梅手中滑落至输液椅扶手上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "林小满"
+      ],
+      "driver": "周雪梅弯腰捡起胸牌并重新别回胸前",
+      "entry_state": "胸牌在输液椅扶手上",
+      "outcome": "胸牌回到周雪梅左胸位置",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "林小满",
+        "输液椅"
+      ],
+      "driver": "输液椅空着，林小满站在输液架前",
+      "entry_state": "输液椅空着",
+      "outcome": "输液椅空着",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "林小满",
+        "输液椅"
+      ],
+      "driver": "林小满伸手去够输液椅扶手",
+      "entry_state": "输液椅空着",
+      "outcome": "输液椅扶手被林小满触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "林小满",
+        "输液椅"
+      ],
+      "driver": "输液椅被林小满推到角落",
+      "entry_state": "输液椅扶手被触碰",
+      "outcome": "输液椅被推到角落",
+      "target_chars": 527
+    }
+  ]
+}

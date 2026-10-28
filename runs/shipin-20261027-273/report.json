@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-273",
+  "profile": "视频分镜",
+  "title": "铜钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6550,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5935,
+    "chapter_chars_mean": 989,
+    "chapter_chars_median": 1075,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 41.5,
+    "dialogue_chars_pct": 21.6,
+    "dialogue_para_pct": 41.3,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 58.1,
+    "turn_under20_pct": 92.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "玻璃碎光",
+      "chars": 768,
+      "score": 96.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "撕碎的寄存单",
+      "chars": 1135,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙坠入阴影",
+      "chars": 1252,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "箱子上的划痕",
+      "chars": 1215,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "红袖章的重量",
+      "chars": 1181,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙与红布条",
+      "chars": 993,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「李建国站在」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「李建国站在」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国站在」×3"
+    ],
+    "6": [
+      "[observe] 章内自我复读 5 句（如「她伸手抚了抚制服领口，铜制工牌在灯光下微微反光…」）",
+      "[observe] 章节过短 844 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:34:28"
+}

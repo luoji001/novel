@@ -1,0 +1,221 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "镇长将胶片盒搬到角落，老李紧握边缘",
+      "entry_state": "胶片盒在角落，老李紧握边缘",
+      "outcome": "胶片盒被搬到角落，老李紧握边缘",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "老李将胶片盒推回中央，镇长后退半步",
+      "entry_state": "胶片盒在中央，镇长后退半步",
+      "outcome": "胶片盒回到中央，镇长后退半步",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "陈美兰",
+        "周振国"
+      ],
+      "driver": "陈美兰将毯子盖住放映机",
+      "entry_state": "放映机未被遮盖",
+      "outcome": "放映机被毯子完全覆盖",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "陈美兰",
+        "周振国"
+      ],
+      "driver": "周振国试图拉下毯子，被陈美兰挡住",
+      "entry_state": "放映机被毯子完全覆盖",
+      "outcome": "毯子部分被掀起，露出放映机顶部",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "陈美兰",
+        "周振国"
+      ],
+      "driver": "陈美兰将旧沙发推向一旁，露出地面",
+      "entry_state": "毯子部分被掀起，露出放映机顶部",
+      "outcome": "旧沙发被移开，露出地面",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "老李用手指捏住胶片盒边缘，缓缓打开",
+      "entry_state": "胶片盒在老李手中，完好无损",
+      "outcome": "胶片盒被老李打开，露出内部空洞",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "周振国用钢笔尖戳向胶片盒，墨水滴落在标签上",
+      "entry_state": "胶片盒被老李打开，露出内部空洞",
+      "outcome": "胶片盒标签被墨水污染，部分字迹模糊",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "老李撕开胶片盒底部封口，露出撕毁的标签",
+      "entry_state": "胶片盒标签被墨水污染，部分字迹模糊",
+      "outcome": "胶片盒底部封口被撕开，标签完全撕毁",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "周振国用公文包砸向放映机",
+      "entry_state": "放映机完好地立在墙角",
+      "outcome": "放映机外壳出现裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "老李用身体挡住放映机",
+      "entry_state": "放映机外壳有裂痕",
+      "outcome": "放映机被推至墙边",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "周振国再次砸向放映机",
+      "entry_state": "放映机被推至墙边",
+      "outcome": "放映机彻底损坏，幕布破损",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "陈美兰",
+        "周振国"
+      ],
+      "driver": "老李将胶片塞进沙发缝隙",
+      "entry_state": "胶片被藏入沙发缝隙",
+      "outcome": "胶片消失在沙发夹层中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "陈美兰",
+        "周振国"
+      ],
+      "driver": "陈美兰用红围巾裹住放映机",
+      "entry_state": "胶片消失在沙发夹层中",
+      "outcome": "放映机被红围巾遮盖",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "周振国",
+        "老李"
+      ],
+      "driver": "镇长的钢笔掉落在地",
+      "entry_state": "放映机被红围巾遮盖",
+      "outcome": "钢笔滚落在地",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "陈美兰",
+        "周振国",
+        "老李"
+      ],
+      "driver": "陈美兰从沙发缝隙抽出胶片盒",
+      "entry_state": "胶片盒在陈美兰手中",
+      "outcome": "胶片盒被陈美兰取出",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "陈美兰",
+        "周振国",
+        "老李"
+      ],
+      "driver": "周振国用钢笔在胶片盒上涂抹",
+      "entry_state": "胶片盒在陈美兰手中",
+      "outcome": "胶片盒被周振国涂改",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周振国"
+      ],
+      "driver": "老李捡起地上的耳钉，走向胶片盒",
+      "entry_state": "胶片盒在周振国手中",
+      "outcome": "胶片盒被老李夺回",
+      "target_chars": 527
+    }
+  ]
+}

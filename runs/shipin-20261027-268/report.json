@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-268",
+  "profile": "视频分镜",
+  "title": "推子",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6674,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6250,
+    "chapter_chars_mean": 1042,
+    "chapter_chars_median": 1114,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 28.6,
+    "dialogue_para_pct": 58.5,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 40.8,
+    "turn_under20_pct": 90.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 37.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "抚摸推子纹路",
+      "chars": 452,
+      "score": 23.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "推子与账本对话",
+      "chars": 1282,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "铅笔点数账本",
+      "chars": 1099,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "擦镜裂痕",
+      "chars": 1079,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "推子与老式推子对话",
+      "chars": 1344,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "擦拭推子柄纹路",
+      "chars": 1412,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 25.0 低于目标 35.0",
+      "[observe] 章节过短 422 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 32.4 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 标题与《推子与账本对话》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 34.5 低于目标 35.0",
+      "[observe] 标题与《抚摸推子纹路》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 132.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:26:33"
+}

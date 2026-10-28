@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-54",
+  "profile": "视频分镜",
+  "title": "副驾驶座",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5480,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 4986,
+    "chapter_chars_mean": 831,
+    "chapter_chars_median": 914,
+    "chapter_chars_cv": 0.4,
+    "paragraphs_mean": 32.7,
+    "dialogue_chars_pct": 18.0,
+    "dialogue_para_pct": 39.1,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 60.9,
+    "turn_under20_pct": 90.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 59.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币的凉意",
+      "chars": 295,
+      "score": 17.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "手机屏幕的光",
+      "chars": 1308,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "钥匙的重量",
+      "chars": 998,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "金属片的反光",
+      "chars": 771,
+      "score": 38.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "硬币的凉意",
+      "chars": 1114,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "手机屏幕的光",
+      "chars": 988,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 256 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章节过短 679 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "dialogue_chars_pct 4.8 低于目标 5.0",
+      "narration_para_pct 92.2 高于目标 90.0",
+      "[observe] 标题重复：「硬币的凉意」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「手机屏幕的光」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 114.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:39:47"
+}

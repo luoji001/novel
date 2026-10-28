@@ -1,0 +1,224 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李志远",
+        "数学试卷"
+      ],
+      "driver": "李志远将数学试卷摊在桌上",
+      "entry_state": "数学试卷摊在桌上",
+      "outcome": "数学试卷摊在桌上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李志远",
+        "数学试卷"
+      ],
+      "driver": "李志远用粉笔在黑板上画出一道光的轨迹",
+      "entry_state": "数学试卷摊在桌上",
+      "outcome": "数学试卷仍在桌上，黑板上出现光的轨迹",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "走廊",
+      "present": [
+        "陈阿婆",
+        "扫帚",
+        "碎玻璃"
+      ],
+      "driver": "陈阿婆握着扫帚靠近碎玻璃",
+      "entry_state": "陈阿婆站在走廊尽头",
+      "outcome": "扫帚靠近碎玻璃",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "走廊",
+      "present": [
+        "陈阿婆",
+        "扫帚",
+        "碎玻璃"
+      ],
+      "driver": "陈阿婆用扫帚挑起一块碎玻璃",
+      "entry_state": "扫帚靠近碎玻璃",
+      "outcome": "扫帚挑起一块碎玻璃",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "走廊",
+      "present": [
+        "陈阿婆",
+        "扫帚",
+        "碎玻璃"
+      ],
+      "driver": "陈阿婆用扫帚扫走碎玻璃",
+      "entry_state": "扫帚挑起一块碎玻璃",
+      "outcome": "扫帚扫走碎玻璃",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李志远",
+        "应急灯"
+      ],
+      "driver": "李志远举起应急灯，光束照向黑板",
+      "entry_state": "应急灯在李志远手中，未开启",
+      "outcome": "应急灯开启，光束投射在黑板上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李志远",
+        "应急灯"
+      ],
+      "driver": "李志远用粉笔在黑板上画出一道光的轨迹",
+      "entry_state": "应急灯的光束投射在黑板上",
+      "outcome": "粉笔在黑板上留下一道光的轨迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "李志远",
+        "应急灯"
+      ],
+      "driver": "李志远将应急灯放回讲台，光束熄灭",
+      "entry_state": "粉笔在黑板上留下一道光的轨迹",
+      "outcome": "应急灯熄灭，光束消失",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "教室地板",
+      "present": [
+        "王小满",
+        "铅笔盒",
+        "地板"
+      ],
+      "driver": "王小满用铅笔盒敲击地板",
+      "entry_state": "铅笔盒在王小满手中",
+      "outcome": "铅笔盒开始敲击地板",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室地板",
+      "present": [
+        "王小满",
+        "铅笔盒",
+        "地板"
+      ],
+      "driver": "铅笔盒被王小满抛向空中",
+      "entry_state": "铅笔盒开始敲击地板",
+      "outcome": "铅笔盒在空中翻转",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室地板",
+      "present": [
+        "王小满",
+        "铅笔盒",
+        "地板"
+      ],
+      "driver": "铅笔盒落地后滚向教室角落",
+      "entry_state": "铅笔盒在空中翻转",
+      "outcome": "铅笔盒滚向教室角落",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "楼梯间",
+      "present": [
+        "王小满",
+        "旧书包"
+      ],
+      "driver": "王小满背着旧书包踏上台阶",
+      "entry_state": "旧书包挂在王小满肩上",
+      "outcome": "旧书包随脚步声晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "楼梯间",
+      "present": [
+        "王小满",
+        "旧书包"
+      ],
+      "driver": "王小满将旧书包放在楼梯拐角",
+      "entry_state": "旧书包随脚步声晃动",
+      "outcome": "旧书包停在楼梯拐角处",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "楼梯间",
+      "present": [
+        "王小满",
+        "旧书包"
+      ],
+      "driver": "王小满提起旧书包往楼上走",
+      "entry_state": "旧书包停在楼梯拐角处",
+      "outcome": "旧书包被王小满背起",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李志远",
+        "王小满"
+      ],
+      "driver": "李志远将粉笔放在黑板边缘，开始划线",
+      "entry_state": "粉笔在黑板边缘，李志远手持粉笔",
+      "outcome": "粉笔开始在黑板上划出一条直线",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李志远",
+        "王小满"
+      ],
+      "driver": "王小满捡起粉笔，将它丢进书包",
+      "entry_state": "粉笔在王小满手中，黑板上有一条线",
+      "outcome": "粉笔被放入书包，黑板上的线未被破坏",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "李志远",
+        "王小满"
+      ],
+      "driver": "李志远从书包中取出粉笔，继续划线",
+      "entry_state": "粉笔在王小满书包中，黑板上有一条线",
+      "outcome": "粉笔被取出并继续在黑板上划线",
+      "target_chars": 527
+    }
+  ]
+}

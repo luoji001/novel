@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-105",
+  "profile": "视频分镜",
+  "title": "撕凭证",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6119,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5704,
+    "chapter_chars_mean": 951,
+    "chapter_chars_median": 889,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 28.8,
+    "dialogue_chars_pct": 19.5,
+    "dialogue_para_pct": 51.1,
+    "interiority_para_pct": 2.6,
+    "narration_para_pct": 46.3,
+    "turn_under20_pct": 98.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.5,
+    "attr_adv_pct": 17.7,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "拖箱",
+      "chars": 766,
+      "score": 99.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "敲杯",
+      "chars": 1318,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "擦手",
+      "chars": 790,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "摸蓝布条",
+      "chars": 1302,
+      "score": 85.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "撕凭证",
+      "chars": 947,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "拖箱",
+      "chars": 990,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 6.2 高于目标 6.0"
+    ],
+    "3": [
+      "narration_para_pct 22.2 低于目标 35.0",
+      "[observe] 章节过短 744 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "interiority_para_pct 8.3 高于目标 6.0",
+      "narration_para_pct 25.0 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 100.0 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "[observe] 标题重复：「拖箱」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 128.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:59:24"
+}

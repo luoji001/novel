@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-191",
+  "profile": "视频分镜",
+  "title": "裂纹",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5996,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5553,
+    "chapter_chars_mean": 926,
+    "chapter_chars_median": 942,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 28.3,
+    "dialogue_chars_pct": 6.1,
+    "dialogue_para_pct": 26.8,
+    "interiority_para_pct": 2.9,
+    "narration_para_pct": 70.2,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 0.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.1,
+    "turn_len_median": 6
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲击收银机的节奏",
+      "chars": 637,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铁锹插进警示牌",
+      "chars": 866,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "自动门上的冰霜",
+      "chars": 787,
+      "score": 22.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙串上的裂痕",
+      "chars": 1181,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手指触碰收银机边缘",
+      "chars": 1205,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手指触碰屏幕裂痕",
+      "chars": 1314,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 555 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 751 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "dialogue_chars_pct 4.1 低于目标 5.0",
+      "[observe] 章节过短 736 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "dialogue_chars_pct 4.4 低于目标 5.0",
+      "interiority_para_pct 6.2 高于目标 6.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 4.8 低于目标 5.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:20:13"
+}

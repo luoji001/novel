@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-288",
+  "profile": "视频分镜",
+  "title": "鱼箱底的信",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6702,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6296,
+    "chapter_chars_mean": 1049,
+    "chapter_chars_median": 1078,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 25.7,
+    "dialogue_chars_pct": 22.5,
+    "dialogue_para_pct": 61.4,
+    "interiority_para_pct": 1.8,
+    "narration_para_pct": 36.8,
+    "turn_under20_pct": 93.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 47.1,
+    "attr_adv_pct": 3.7,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "信封与鱼箱对峙",
+      "chars": 877,
+      "score": 37.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "信封坠入鱼箱裂痕",
+      "chars": 1208,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "信封与鱼箱对峙",
+      "chars": 1151,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "算盘滚落鱼箱边",
+      "chars": 1227,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "鱼箱裂痕中的信封",
+      "chars": 1091,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "信封与鱼箱对峙",
+      "chars": 1142,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 28.0 低于目标 35.0",
+      "[observe] attr_adv_pct 28.6 > 18.0（结构塌缩）"
+    ],
+    "2": [
+      "narration_para_pct 30.4 低于目标 35.0"
+    ],
+    "3": [
+      "narration_para_pct 27.3 低于目标 35.0",
+      "[observe] 标题重复：「信封与鱼箱对峙」已存在"
+    ],
+    "5": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "6": [
+      "[observe] 标题重复：「信封与鱼箱对峙」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 147.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:58:27"
+}

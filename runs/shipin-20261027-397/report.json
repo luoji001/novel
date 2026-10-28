@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-397",
+  "profile": "视频分镜",
+  "title": "铁钳与报纸",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7054,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6651,
+    "chapter_chars_mean": 1108,
+    "chapter_chars_median": 1183,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 25.7,
+    "dialogue_chars_pct": 24.2,
+    "dialogue_para_pct": 56.6,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 43.4,
+    "turn_under20_pct": 92.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.8,
+    "attr_adv_pct": 2.3,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁钳卡门瞬间",
+      "chars": 675,
+      "score": 95.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "报纸覆盖的台阶",
+      "chars": 1277,
+      "score": 38.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "铁钳与雨靴之争",
+      "chars": 1249,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "报纸覆盖的台阶",
+      "chars": 1360,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铁钳抵住电梯门",
+      "chars": 1340,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铁钳抵住电梯门",
+      "chars": 1147,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「张叔的手指收紧了些，报纸边缘开始卷起一丝丝毛边…」）"
+    ],
+    "4": [
+      "[observe] 标题重复：「报纸覆盖的台阶」已存在"
+    ],
+    "5": [
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "6": [
+      "[observe] 标题重复：「铁钳抵住电梯门」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:52:09"
+}

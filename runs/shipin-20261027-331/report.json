@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-331",
+  "profile": "视频分镜",
+  "title": "铜牌",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6171,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5712,
+    "chapter_chars_mean": 952,
+    "chapter_chars_median": 1068,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 29.8,
+    "dialogue_chars_pct": 18.4,
+    "dialogue_para_pct": 49.5,
+    "interiority_para_pct": 2.5,
+    "narration_para_pct": 48.0,
+    "turn_under20_pct": 97.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 52.8,
+    "attr_adv_pct": 2.7,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红色光芒照向录像带",
+      "chars": 427,
+      "score": 20.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙串落前的红光",
+      "chars": 1080,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "遥控器按下的瞬间",
+      "chars": 785,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "螺丝刀断成两截",
+      "chars": 1284,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "工牌坠落的瞬间",
+      "chars": 1244,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "遥控器倾斜十五度",
+      "chars": 1345,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 6.2 高于目标 6.0",
+      "[observe] 章节过短 378 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "命中套话收尾句",
+      "单条套路句式超限：「小林站在」×3"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "情节与已写章节重复 0.66 ≥ 0.62（撞上「小林在深夜便利店门口与神秘黑车司机对峙，阻止其获取公司录…」）",
+      "[observe] 章节过短 701 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈志远的」×5",
+      "narration_para_pct 33.3 低于目标 35.0",
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "6": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 128.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:09:13"
+}

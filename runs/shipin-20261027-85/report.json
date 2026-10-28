@@ -1,0 +1,114 @@
+{
+  "consistency": "1. 第二章提到陈美兰“揭开了他隐藏的罪行”，但第三章提到王德贵“带着已故妻子的车票和遗物找李建军对峙”，暗示王德贵并非罪犯，与第二章矛盾。\n\n2. 第五章提到“李建军发现一个蛇皮袋，内有车票”，而第六章提到“李建军在汽车站发现一个带有女性缝合痕迹的蛇皮袋”，前后两次出现蛇皮袋，但未说明是否为同一蛇皮袋，存在对象不一致。\n\n3. 第六章提到“蛇皮袋与失踪的妻子林秀兰有关”，但第一章提到“一袋疑似亡妻遗物的垃圾”，未明确林秀兰是否为王德贵妻子，人物关系不一致。",
+  "slug": "shipin-20261027-85",
+  "profile": "视频分镜",
+  "title": "蛇皮袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6652,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6213,
+    "chapter_chars_mean": 1036,
+    "chapter_chars_median": 1124,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 28.5,
+    "dialogue_chars_pct": 21.0,
+    "dialogue_para_pct": 51.6,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 48.4,
+    "turn_under20_pct": 94.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 45.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫帚杆砸向蛇皮袋",
+      "chars": 690,
+      "score": 94.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "热水瓶递出的温度",
+      "chars": 1245,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "车票摊在水泥地",
+      "chars": 1139,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红绳缠绕手腕",
+      "chars": 1284,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手电筒照出蛇皮袋",
+      "chars": 891,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "蛇皮袋被抱紧",
+      "chars": 1397,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「王德贵的」×4"
+    ],
+    "3": [
+      "单条套路句式超限：「王德贵的」×4",
+      "narration_para_pct 23.8 低于目标 35.0"
+    ],
+    "4": [
+      "单条套路句式超限：「王德贵的」×4、「李建军站在」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「王德贵的」×3",
+      "[observe] 章节过短 813 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:28:20"
+}

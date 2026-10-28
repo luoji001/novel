@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-157",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6566,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6187,
+    "chapter_chars_mean": 1031,
+    "chapter_chars_median": 1052,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 23.8,
+    "dialogue_chars_pct": 18.2,
+    "dialogue_para_pct": 46.2,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 52.8,
+    "turn_under20_pct": 94.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 31.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲打收银机",
+      "chars": 885,
+      "score": 39.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "二维码边缘的裂纹",
+      "chars": 1193,
+      "score": 95.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "银环坠入屏幕光影",
+      "chars": 1209,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "擦拭炒粉锅",
+      "chars": 1067,
+      "score": 51.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "红胶布缠绕手腕",
+      "chars": 1150,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "竹签落地声响",
+      "chars": 1056,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 2 句（如「我靠，这天都快黑透了…」）"
+    ],
+    "2": [
+      "narration_para_pct 21.1 低于目标 35.0",
+      "dialogue_run_mean 5 高于目标 4.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 0.9 低于目标 5.0",
+      "interiority_para_pct 6.2 高于目标 6.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 141.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:25:43"
+}

@@ -1,0 +1,119 @@
+{
+  "consistency": "1. 第二章提到李小红“发现那是张三的”，但第三章才首次提到“李小红是张三的妹妹”，前后信息不一致，缺乏合理过渡。\n\n2. 第五章提到“张三已去世并办理了出院手续”，但第六章又提到“陈药师拒绝给李小红弟弟用药，揭示他已出院”，此处“弟弟”与“张三”指代不一致，逻辑混乱。\n\n3. 第五章提到“李小红为寻找失踪的弟弟张三”，但第六章又说“张三已去世并办理了出院手续”，前后矛盾，张三身份不一致。\n\n4. 第三章提到“确认李小红是张三的妹妹并签署领药手续”，但第五章又说“张三已去世”，导致李小红与张三的关系前后矛盾。\n\n5. 第六章提到“陈药师拒绝给李小红弟弟用药”，但前文从未明确李小红是否有“弟弟”，逻辑不连贯。",
+  "slug": "shipin-20261027-84",
+  "profile": "视频分镜",
+  "title": "药瓶的归属",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6370,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5950,
+    "chapter_chars_mean": 992,
+    "chapter_chars_median": 1000,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 26.3,
+    "dialogue_chars_pct": 20.8,
+    "dialogue_para_pct": 53.7,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 45.2,
+    "turn_under20_pct": 89.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.3,
+    "attr_adv_pct": 9.1,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶被拉回手中",
+      "chars": 436,
+      "score": 22.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "红绳坠地",
+      "chars": 1636,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "药瓶与红绳交缠",
+      "chars": 975,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "红绳缠绕药瓶",
+      "chars": 1069,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "注射器碰触红绳",
+      "chars": 1091,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "药瓶与红绳交缠",
+      "chars": 1157,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 2.1 低于目标 5.0",
+      "interiority_para_pct 6.2 高于目标 6.0",
+      "[observe] 章节过短 389 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李小红的」×3",
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李小红的」×3"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "narration_para_pct 31.6 低于目标 35.0",
+      "[observe] 标题重复：「药瓶与红绳交缠」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 128.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:26:41"
+}

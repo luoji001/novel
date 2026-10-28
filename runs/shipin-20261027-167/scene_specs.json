@@ -1,0 +1,219 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "服务区停车场",
+      "present": [
+        "李志远",
+        "王海生"
+      ],
+      "driver": "李志远举起雪铲抵住车门缝隙",
+      "entry_state": "雪铲横架在车门上",
+      "outcome": "车门缝隙被雪铲顶住无法开启",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "服务区停车场",
+      "present": [
+        "李志远",
+        "王海生"
+      ],
+      "driver": "李志远用雪铲撬动车门底部铰链",
+      "entry_state": "雪铲抵住车门缝隙",
+      "outcome": "车门开始发出吱呀声响",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "王海生举起手电筒照向李志远的手臂",
+      "entry_state": "手电筒在王海生手中",
+      "outcome": "手电筒光束照射在李志远手臂上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "李志远低头避开手电筒光束",
+      "entry_state": "手电筒光束照射在李志远手臂上",
+      "outcome": "手电筒光束移至李志远面部",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "王海生将手电筒丢向地面",
+      "entry_state": "手电筒光束移至李志远面部",
+      "outcome": "手电筒摔碎在雪地上",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "服务区停车场",
+      "present": [
+        "陈晓峰",
+        "李志远",
+        "王海生"
+      ],
+      "driver": "陈晓峰举起保温杯敲击地面",
+      "entry_state": "保温杯在陈晓峰手中",
+      "outcome": "保温杯敲击地面发出声响",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "服务区停车场",
+      "present": [
+        "陈晓峰",
+        "李志远",
+        "王海生"
+      ],
+      "driver": "李志远伸手抢夺保温杯",
+      "entry_state": "保温杯在陈晓峰手中",
+      "outcome": "保温杯被李志远夺走并摔在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "服务区停车场",
+      "present": [
+        "李志远",
+        "王海生"
+      ],
+      "driver": "王海生用脚踩住保温杯",
+      "entry_state": "保温杯在地上",
+      "outcome": "保温杯被王海生踩住无法移动",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "王海生用身体压住公文包",
+      "entry_state": "公文包被王海生压在车底",
+      "outcome": "公文包卡在车底无法取出",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "李志远用雪铲撬动车底",
+      "entry_state": "公文包卡在车底无法取出",
+      "outcome": "公文包开始松动滑向车外",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "王海生用脚顶住公文包",
+      "entry_state": "公文包开始松动滑向车外",
+      "outcome": "公文包被王海生顶回车底",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "王海生用绷带缠住公文包",
+      "entry_state": "公文包被绷带缠绕",
+      "outcome": "公文包被绷带固定在车座上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "王海生将绷带绕过自己手腕",
+      "entry_state": "绷带缠绕在公文包上",
+      "outcome": "绷带从公文包转移到王海生手腕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "服务区停车场",
+      "present": [
+        "王海生",
+        "李志远"
+      ],
+      "driver": "王海生撕断绷带扔向李志远",
+      "entry_state": "绷带缠绕在王海生手腕",
+      "outcome": "绷带断裂并飞向李志远",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "服务区停车场",
+      "present": [
+        "李志远",
+        "王海生"
+      ],
+      "driver": "李志远举起雪铲抵住车门",
+      "entry_state": "李志远举起雪铲抵住车门",
+      "outcome": "雪铲尖端顶住车门缝隙",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "服务区停车场",
+      "present": [
+        "李志远",
+        "王海生"
+      ],
+      "driver": "李志远用雪铲撬动车门把手",
+      "entry_state": "雪铲尖端顶住车门缝隙",
+      "outcome": "雪铲滑入车门缝隙，车门未动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "服务区停车场",
+      "present": [
+        "李志远"
+      ],
+      "driver": "李志远将雪铲丢在地上",
+      "entry_state": "雪铲滑入车门缝隙，车门未动",
+      "outcome": "雪铲躺在雪地上，李志远转身离开",
+      "target_chars": 527
+    }
+  ]
+}

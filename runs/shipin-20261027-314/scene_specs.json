@@ -1,0 +1,210 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "教室门缝",
+      "present": [
+        "王小明"
+      ],
+      "driver": "王小明用脚尖顶开门缝塞入试卷",
+      "entry_state": "试卷被塞入书包",
+      "outcome": "试卷进入书包内",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教室门缝",
+      "present": [
+        "王小明"
+      ],
+      "driver": "王小明将试卷压在书包夹层",
+      "entry_state": "试卷被压入书包夹层",
+      "outcome": "试卷被完全藏入书包",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "教室讲台",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "李秀兰将应急灯推向讲台中央",
+      "entry_state": "应急灯在讲台边缘，王小明站在旁边",
+      "outcome": "应急灯移到讲台中央，王小明后退半步",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室讲台",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "王小明伸手去抢应急灯，李秀兰按住他肩膀",
+      "entry_state": "应急灯在讲台中央，王小明伸手",
+      "outcome": "应急灯被李秀兰按住，王小明缩回手",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室讲台",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "李秀兰将应急灯彻底推到讲台上方",
+      "entry_state": "应急灯被按住，王小明缩回手",
+      "outcome": "应急灯完全移到讲台上方，王小明低头",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "办公室窗边",
+      "present": [
+        "陈校长"
+      ],
+      "driver": "陈校长用钥匙敲打门框，金属声清脆",
+      "entry_state": "钥匙在陈校长手中，完整无损",
+      "outcome": "钥匙在陈校长手中，完整无损",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "办公室窗边",
+      "present": [
+        "陈校长"
+      ],
+      "driver": "陈校长把钥匙插进锁孔，轻轻转动",
+      "entry_state": "钥匙在陈校长手中，完整无损",
+      "outcome": "钥匙在锁孔中，微微转动半圈",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "办公室窗边",
+      "present": [
+        "陈校长"
+      ],
+      "driver": "陈校长将钥匙丢在桌上，转身望向电线杆",
+      "entry_state": "钥匙在锁孔中，微微转动半圈",
+      "outcome": "钥匙躺在桌上，被灰尘覆盖",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "教室走廊",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "李秀兰将应急灯推向讲台中央",
+      "entry_state": "应急灯在讲台边缘摇晃",
+      "outcome": "应急灯稳固地立在讲台中央",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室走廊",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "王小明试图抽走应急灯但被李秀兰按住肩膀",
+      "entry_state": "应急灯稳固地立在讲台中央",
+      "outcome": "应急灯被李秀兰牢牢控制在讲台上方",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室走廊",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "李秀兰将应急灯彻底推至讲台后方",
+      "entry_state": "应急灯被李秀兰牢牢控制在讲台上方",
+      "outcome": "应急灯完全移出王小明的视线范围",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "校门口",
+      "present": [
+        "王小明"
+      ],
+      "driver": "王小明将铅笔盒塞进书包夹层",
+      "entry_state": "铅笔盒在书包夹层",
+      "outcome": "铅笔盒进入书包夹层",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "校门口",
+      "present": [
+        "王小明"
+      ],
+      "driver": "王小明用脚尖顶开教室门缝",
+      "entry_state": "铅笔盒在书包夹层",
+      "outcome": "铅笔盒留在书包夹层，门缝被顶开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "校门口",
+      "present": [
+        "王小明"
+      ],
+      "driver": "王小明将铅笔盒从书包取出放在地上",
+      "entry_state": "铅笔盒在书包夹层",
+      "outcome": "铅笔盒被放置在地面",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教室门口",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "李秀兰将应急灯推向讲台中央",
+      "entry_state": "应急灯在讲台中央，王小明站在门口",
+      "outcome": "应急灯被推至讲台中央",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室门口",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "王小明试图将应急灯拉回自己手中",
+      "entry_state": "应急灯在讲台中央，王小明伸手拉扯",
+      "outcome": "应急灯被李秀兰按住未动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室门口",
+      "present": [
+        "李秀兰",
+        "王小明"
+      ],
+      "driver": "李秀兰用左手按住王小明肩膀，右手紧握应急灯",
+      "entry_state": "应急灯在李秀兰手中，王小明被按住肩膀",
+      "outcome": "应急灯被李秀兰完全掌控",
+      "target_chars": 527
+    }
+  ]
+}

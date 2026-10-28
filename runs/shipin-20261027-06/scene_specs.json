@@ -1,0 +1,221 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强按下应急灯开关，红色指示灯亮起",
+      "entry_state": "应急灯红色指示灯亮起",
+      "outcome": "应急灯红色指示灯亮起",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强将应急灯放在讲台上，转身离开",
+      "entry_state": "应急灯放在讲台上",
+      "outcome": "应急灯放在讲台上",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "王小雨用铅笔敲击桌面，铅笔尖端泛起白霜",
+      "entry_state": "铅笔在王小雨手中，铅笔尖端有白霜",
+      "outcome": "铅笔留在桌面，铅笔尖端有白霜",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "李国强伸手去抢铅笔，铅笔滚到桌角",
+      "entry_state": "铅笔留在桌面，铅笔尖端有白霜",
+      "outcome": "铅笔滚到桌角，铅笔尖端有白霜",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "王小雨捡起铅笔，铅笔断成两截",
+      "entry_state": "铅笔滚到桌角，铅笔尖端有白霜",
+      "outcome": "铅笔断成两截，铅笔尖端有白霜",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "王小雨书包铜铃在桌角轻轻摇晃",
+      "entry_state": "书包挂在王小雨右肩",
+      "outcome": "书包铜铃开始发出细微声响",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "李国强伸手去碰书包铜铃，铃声戛然而止",
+      "entry_state": "书包铜铃发出细微声响",
+      "outcome": "书包铜铃被李国强触碰后停止摇晃",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "王小雨将书包从肩上取下，放在桌面上",
+      "entry_state": "书包铜铃停止摇晃",
+      "outcome": "书包被放置在桌面上",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "校长办公室",
+      "present": [
+        "陈秀兰",
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "陈秀兰将保温杯放在桌上，杯盖朝下",
+      "entry_state": "保温杯在桌上，杯盖朝下",
+      "outcome": "保温杯静止在桌上，未被触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "校长办公室",
+      "present": [
+        "陈秀兰",
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "陈秀兰用保温杯盖子敲击桌面，发出清脆声响",
+      "entry_state": "保温杯静止在桌上，未被触碰",
+      "outcome": "保温杯盖子与桌面碰撞，发出声响",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "校长办公室",
+      "present": [
+        "陈秀兰",
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "陈秀兰将保温杯递还给李国强，杯身有轻微划痕",
+      "entry_state": "保温杯盖子与桌面碰撞，发出声响",
+      "outcome": "保温杯被递还，杯身有轻微划痕",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "王小雨将试卷从书包里抽出",
+      "entry_state": "试卷在王小雨手中",
+      "outcome": "试卷被抽出并展开在桌上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "李国强接过试卷并翻阅",
+      "entry_state": "试卷在李国强手中",
+      "outcome": "试卷被李国强仔细查看",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "李国强"
+      ],
+      "driver": "王小雨将试卷折成一角塞回书包",
+      "entry_state": "试卷在李国强手中",
+      "outcome": "试卷被折角并放回书包",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强将应急灯放在讲台上",
+      "entry_state": "应急灯在讲台上",
+      "outcome": "应急灯在讲台上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强用手指按压应急灯开关",
+      "entry_state": "应急灯在讲台上",
+      "outcome": "应急灯红色指示灯闪烁",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强将应急灯抱起走向门口",
+      "entry_state": "应急灯红色指示灯闪烁",
+      "outcome": "应急灯熄灭",
+      "target_chars": 527
+    }
+  ]
+}

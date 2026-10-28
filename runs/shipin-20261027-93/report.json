@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第一章提到小林“深夜潜入便利店监控室”，但第六章提到小林“发现便利店油箱被人为改动”，暗示小林有权限进入便利店内部区域，与“潜入”矛盾。\n\n2. 第二章提到陈浩“骑着摩托车消失在夜色中”，但第六章提到小林“通过电话联系陈浩确认其偷油行为”，暗示陈浩在案发后仍能被联系到，与“消失在夜色中”矛盾。\n\n3. 第三章提到“老张发现监控异常”，但第一章提到小林“发现一辆黑车每天定时加油”，而第四章提到小林“发现监控中一辆黑车每晚三点出现”，前后对黑车的描述不一致，且未说明监控异常与黑车的关系。\n\n4. 第五章提到小林“试图查看车牌却遭老张阻止”，但第六章提到小林“发现便利店油箱被人为改动”，未交代小林如何得知油箱被改动，也未说明与车牌查看之间的关联。\n\n5. 第四章提到小林“通过电话联系陈浩确认其偷油行为”，但第二章提到陈浩“被监控拍到”，且“骑着摩托车消失在夜色中”，未说明陈浩是否在案发后仍能被联系到。",
+  "slug": "shipin-20261027-93",
+  "profile": "视频分镜",
+  "title": "油枪",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5652,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5277,
+    "chapter_chars_mean": 880,
+    "chapter_chars_median": 937,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 24.3,
+    "dialogue_chars_pct": 21.4,
+    "dialogue_para_pct": 40.3,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 59.1,
+    "turn_under20_pct": 96.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.9,
+    "attr_adv_pct": 9.1,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙转动声",
+      "chars": 384,
+      "score": 23.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "油枪碰撞声",
+      "chars": 816,
+      "score": 22.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "踩碎监控屏幕",
+      "chars": 822,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙转动声",
+      "chars": 1214,
+      "score": 38.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "窥视油箱",
+      "chars": 1226,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "撬油箱盖",
+      "chars": 1184,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 349 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 785 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章节过短 788 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "narration_para_pct 27.3 低于目标 35.0",
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「钥匙转动声」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:40:59"
+}

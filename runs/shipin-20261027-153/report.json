@@ -1,0 +1,113 @@
+{
+  "consistency": "1. 第二章与第三章标题相同，内容重复，导致章节混乱。  \n2. 第四章提到“父亲遗留的充电宝”，但前文未提及充电宝的存在。  \n3. 第五章提到“父亲遗言”，但前文仅提到“父亲遗书”，表述不一致。  \n4. 第六章与第五章标题相同，内容重复，导致章节混乱。",
+  "slug": "shipin-20261027-153",
+  "profile": "视频分镜",
+  "title": "手电筒光",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6627,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6110,
+    "chapter_chars_mean": 1018,
+    "chapter_chars_median": 1113,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 35.7,
+    "dialogue_chars_pct": 16.3,
+    "dialogue_para_pct": 41.3,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 58.3,
+    "turn_under20_pct": 99.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 41.3,
+    "attr_adv_pct": 4.4,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手电筒照车牌",
+      "chars": 541,
+      "score": 39.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "公文包落地",
+      "chars": 1164,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "公文包落地",
+      "chars": 1051,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "充电宝坠地",
+      "chars": 1334,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "公文包脱手而出",
+      "chars": 1270,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "公文包脱手而出",
+      "chars": 1261,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 501 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 28.6 低于目标 35.0",
+      "[observe] 标题重复：「公文包落地」已存在"
+    ],
+    "4": [
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "[observe] 标题重复：「公文包脱手而出」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:19:24"
+}

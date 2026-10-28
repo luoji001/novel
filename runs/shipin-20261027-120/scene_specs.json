@@ -1,0 +1,220 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "李大山",
+        "王老二"
+      ],
+      "driver": "李大山左手伸向冰台，信封微微晃动",
+      "entry_state": "冰台静止，信封未动",
+      "outcome": "信封被李大山手指触碰，冰台表面有水渍",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "李大山",
+        "王老二"
+      ],
+      "driver": "王老二右脚猛踢冰台，信封飞向水桶",
+      "entry_state": "信封被触碰，冰台有水渍",
+      "outcome": "信封落入水桶，冰台边缘有裂痕",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "鱼摊前",
+      "present": [
+        "王老二",
+        "李大山"
+      ],
+      "driver": "王老二右脚踢向冰台，信封滑向水桶",
+      "entry_state": "信封滑向水桶",
+      "outcome": "信封落入水桶，漂在水面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊前",
+      "present": [
+        "王老二",
+        "李大山"
+      ],
+      "driver": "李大山左手抢信封，鱼鳞从水桶飘出",
+      "entry_state": "信封落入水桶",
+      "outcome": "鱼鳞漂在水面，被李大山捞起",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊前",
+      "present": [
+        "王老二",
+        "李大山"
+      ],
+      "driver": "王老二用右脚踢鱼鳞，鱼鳞掉进水桶",
+      "entry_state": "鱼鳞漂在水面",
+      "outcome": "鱼鳞落入水桶，水波荡起",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "杂货铺前",
+      "present": [
+        "陈阿婆",
+        "鱼鳞",
+        "铜铃"
+      ],
+      "driver": "陈阿婆用竹竿挑起鱼鳞，铜铃随动作晃动",
+      "entry_state": "铜铃悬挂在陈阿婆脖子上",
+      "outcome": "铜铃从陈阿婆脖子上滑落至地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "杂货铺前",
+      "present": [
+        "陈阿婆",
+        "铜铃"
+      ],
+      "driver": "陈阿婆弯腰捡起铜铃，用手指拨动铃舌",
+      "entry_state": "铜铃躺在地上",
+      "outcome": "铜铃发出一声清脆响声，被陈阿婆握在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "杂货铺前",
+      "present": [
+        "陈阿婆",
+        "铜铃"
+      ],
+      "driver": "陈阿婆将铜铃系在竹竿顶端，高高举起",
+      "entry_state": "铜铃在陈阿婆掌心",
+      "outcome": "铜铃悬挂在竹竿上，随风轻响",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "鱼摊前",
+      "present": [
+        "李大山",
+        "王老二"
+      ],
+      "driver": "李大山左手探向冰台，信封边缘泛白",
+      "entry_state": "信封在冰台上，未被触碰",
+      "outcome": "信封被李大山左手指尖轻轻捏住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊前",
+      "present": [
+        "李大山",
+        "王老二"
+      ],
+      "driver": "王老二右脚猛踢冰台，信封滑向水桶边缘",
+      "entry_state": "信封被李大山捏住",
+      "outcome": "信封滑到水桶边缘，半浸水中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊前",
+      "present": [
+        "李大山",
+        "王老二"
+      ],
+      "driver": "李大山右手握秤杆横挡，信封被夹在两人之间",
+      "entry_state": "信封滑到水桶边缘",
+      "outcome": "信封被夹在两人之间，无法移动",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "鱼摊前",
+      "present": [
+        "王老二",
+        "李大山"
+      ],
+      "driver": "王老二右脚踢向冰台，塑料袋飘落",
+      "entry_state": "塑料袋飘落在冰台边缘",
+      "outcome": "塑料袋落在冰台边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊前",
+      "present": [
+        "王老二",
+        "李大山"
+      ],
+      "driver": "李大山左手抢起塑料袋，信封滑出",
+      "entry_state": "塑料袋在李大山手中",
+      "outcome": "信封从塑料袋中滑出",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊前",
+      "present": [
+        "王老二",
+        "李大山"
+      ],
+      "driver": "王老二右脚踩住塑料袋，信封被压入水桶",
+      "entry_state": "信封在李大山手中",
+      "outcome": "信封被压入水桶",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "鱼摊前",
+      "present": [
+        "李大山",
+        "王老二",
+        "陈阿婆"
+      ],
+      "driver": "李大山左手伸向冰台，秤杆横在掌心",
+      "entry_state": "秤杆横在李大山掌心",
+      "outcome": "秤杆被李大山握在左手",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊前",
+      "present": [
+        "李大山",
+        "王老二"
+      ],
+      "driver": "王老二右脚猛踢冰台，秤杆脱手坠地",
+      "entry_state": "秤杆坠地",
+      "outcome": "秤杆躺在鱼摊地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊前",
+      "present": [
+        "李大山",
+        "王老二"
+      ],
+      "driver": "李大山弯腰捡起秤杆，左臂红布条擦过地面",
+      "entry_state": "秤杆被李大山捡起",
+      "outcome": "秤杆回到李大山手中",
+      "target_chars": 527
+    }
+  ]
+}

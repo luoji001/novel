@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-139",
+  "profile": "视频分镜",
+  "title": "钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6249,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5832,
+    "chapter_chars_mean": 972,
+    "chapter_chars_median": 987,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 26,
+    "dialogue_chars_pct": 18.9,
+    "dialogue_para_pct": 51.2,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 47.7,
+    "turn_under20_pct": 95.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙与父亲的遗言",
+      "chars": 879,
+      "score": 95.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "保温杯边缘的冰碴",
+      "chars": 888,
+      "score": 38.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "保温杯边缘的冰碴",
+      "chars": 1274,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "钥匙与父亲的遗言",
+      "chars": 1202,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "军用背包里的小铁盒",
+      "chars": 812,
+      "score": 19.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "手电筒照亮的车门缝隙",
+      "chars": 1188,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 31.2 低于目标 35.0",
+      "[observe] 章节过短 840 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「林浩站在」×3",
+      "narration_para_pct 20.5 低于目标 35.0",
+      "dialogue_run_mean 4.1 高于目标 4.0",
+      "[observe] 标题重复：「保温杯边缘的冰碴」已存在"
+    ],
+    "4": [
+      "[observe] 章内自我复读 3 句（如「三年前的票根，说明你们父子见面了…」）",
+      "[observe] 标题重复：「钥匙与父亲的遗言」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 2.5 低于目标 5.0",
+      "narration_para_pct 94.1 高于目标 90.0",
+      "[observe] 章节过短 727 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 141.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:57:01"
+}

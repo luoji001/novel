@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-16",
+  "profile": "视频分镜",
+  "title": "剪刀的刃口",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5765,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5398,
+    "chapter_chars_mean": 900,
+    "chapter_chars_median": 975,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 22.3,
+    "dialogue_chars_pct": 18.3,
+    "dialogue_para_pct": 34.6,
+    "interiority_para_pct": 3.2,
+    "narration_para_pct": 62.1,
+    "turn_under20_pct": 90.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 85.1,
+    "attr_adv_pct": 22.1,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "推子的缺口",
+      "chars": 507,
+      "score": 37.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "摸账本的指尖",
+      "chars": 1075,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "镜子裂痕映童年",
+      "chars": 1147,
+      "score": 17.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "抚椅上的岁月痕迹",
+      "chars": 1184,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "剪刀与锈蚀的推子",
+      "chars": 993,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "摩挲镜框的手指",
+      "chars": 853,
+      "score": 20.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 448 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "interiority_para_pct 11.1 高于目标 6.0",
+      "[observe] attr_adv_pct 100.0 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "[observe] 章节过短 802 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 120.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:41:12"
+}

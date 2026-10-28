@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-37",
+  "profile": "视频分镜",
+  "title": "饮料箱的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6066,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5535,
+    "chapter_chars_mean": 922,
+    "chapter_chars_median": 900,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 32.3,
+    "dialogue_chars_pct": 15.1,
+    "dialogue_para_pct": 44.7,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 54.2,
+    "turn_under20_pct": 99.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.7,
+    "attr_adv_pct": 12.1,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "监控屏幕的裂痕",
+      "chars": 632,
+      "score": 17.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "触摸冷藏柜的裂痕",
+      "chars": 1190,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "触碰冷藏柜的凹陷",
+      "chars": 1426,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "触碰绷带的指尖",
+      "chars": 844,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "对讲机的电流声",
+      "chars": 972,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "紧握饮料箱的手",
+      "chars": 996,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 97.7 高于目标 90.0",
+      "[observe] 章节过短 486 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「小林站在」×3",
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）",
+      "[observe] 标题与《触摸冷藏柜的裂痕》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章节过短 757 < 870（本章目标 1582 字的 55%）",
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 119.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:12:32"
+}

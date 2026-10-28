@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-317",
+  "profile": "视频分镜",
+  "title": "红瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6429,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6019,
+    "chapter_chars_mean": 1003,
+    "chapter_chars_median": 1058,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 25.7,
+    "dialogue_chars_pct": 12.6,
+    "dialogue_para_pct": 48.2,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 50.3,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手电筒的光柱摇晃",
+      "chars": 619,
+      "score": 38.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "蓝色金属打火机的温度",
+      "chars": 1142,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "手电筒照出空位",
+      "chars": 1155,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "打火机熄灭的瞬间",
+      "chars": 1378,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手电筒照出空位",
+      "chars": 1102,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "写入记事本的时刻",
+      "chars": 1027,
+      "score": 54.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 545 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「陈志远的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「小林站在」×3"
+    ],
+    "4": [
+      "narration_para_pct 23.3 低于目标 35.0"
+    ],
+    "5": [
+      "单条套路句式超限：「陈志远的」×3",
+      "[observe] 标题重复：「手电筒照出空位」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 123.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:47:07"
+}

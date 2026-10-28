@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-279",
+  "profile": "视频分镜",
+  "title": "锁扣",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6330,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5902,
+    "chapter_chars_mean": 984,
+    "chapter_chars_median": 966,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 21.3,
+    "dialogue_para_pct": 51.2,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 47.5,
+    "turn_under20_pct": 94.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 59.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手电筒滚落冰面",
+      "chars": 768,
+      "score": 95.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "保温杯底部的平安",
+      "chars": 947,
+      "score": 23.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "保温杯底部的平安",
+      "chars": 1222,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铁盒弹开的瞬间",
+      "chars": 1309,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "手机屏幕的裂痕",
+      "chars": 950,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铁盒滚落的轨迹",
+      "chars": 1128,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章节过短 865 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "[observe] 标题重复：「保温杯底部的平安」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李岩和张强」×3"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「我在监控里看到了全过程…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:43:43"
+}

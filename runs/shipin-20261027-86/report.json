@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-86",
+  "profile": "视频分镜",
+  "title": "镜中剪影",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6060,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5651,
+    "chapter_chars_mean": 942,
+    "chapter_chars_median": 1010,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 25.8,
+    "dialogue_chars_pct": 23.0,
+    "dialogue_para_pct": 51.5,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 48.1,
+    "turn_under20_pct": 86.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 47.8,
+    "attr_adv_pct": 2.3,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "推子划过弧度",
+      "chars": 556,
+      "score": 38.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "碎镜贴肤",
+      "chars": 1228,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "账本上的乌云",
+      "chars": 1072,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "蓝布条的重量",
+      "chars": 1132,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "推子划过弧度",
+      "chars": 1008,
+      "score": 59.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "镜子贴头皮",
+      "chars": 1058,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 31.6 低于目标 35.0",
+      "dialogue_run_mean 4.3 高于目标 4.0",
+      "[observe] 章节过短 504 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 4 句（如「小林蹲下身子，手指轻轻拂过那些锋利的边缘，像是在…」）"
+    ],
+    "4": [
+      "attr_adv_pct 12.5 高于目标 10.0"
+    ],
+    "5": [
+      "[observe] 标题重复：「推子划过弧度」已存在"
+    ],
+    "6": [
+      "narration_para_pct 30.0 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:29:49"
+}

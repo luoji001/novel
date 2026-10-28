@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-251",
+  "profile": "视频分镜",
+  "title": "锁扣",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6349,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5770,
+    "chapter_chars_mean": 962,
+    "chapter_chars_median": 1028,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 40.7,
+    "dialogue_chars_pct": 20.8,
+    "dialogue_para_pct": 44.4,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 54.6,
+    "turn_under20_pct": 99.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 51.7,
+    "attr_adv_pct": 2.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "皮箱的重量",
+      "chars": 477,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "热饮杯的指纹痕迹",
+      "chars": 1143,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "锁扣的裂痕",
+      "chars": 1196,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "手机照亮的拉链",
+      "chars": 1443,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "皮箱的裂纹",
+      "chars": 1097,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手机照亮的拉链",
+      "chars": 987,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 412 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "4": [
+      "narration_para_pct 30.8 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 标题与《皮箱的重量》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 章节过短 868 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「手机照亮的拉链」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 121.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:59:31"
+}

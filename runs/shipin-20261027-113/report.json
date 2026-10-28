@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-113",
+  "profile": "视频分镜",
+  "title": "蛇皮袋的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6954,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6361,
+    "chapter_chars_mean": 1060,
+    "chapter_chars_median": 1052,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 38,
+    "dialogue_chars_pct": 24.3,
+    "dialogue_para_pct": 52.9,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 46.4,
+    "turn_under20_pct": 97.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手电筒的光柱延伸",
+      "chars": 885,
+      "score": 93.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "报纸撕裂的瞬间",
+      "chars": 1487,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "塑料凳的阴影",
+      "chars": 1061,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "塑料凳的阴影",
+      "chars": 937,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "蛇皮袋的裂痕",
+      "chars": 1296,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "蛇皮袋的裂痕",
+      "chars": 1282,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「王小红的」×3",
+      "narration_para_pct 12.8 低于目标 35.0",
+      "dialogue_run_mean 6.8 高于目标 4.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「我娘走的时候，就是坐这个凳子离开的…」）",
+      "[observe] 章节过短 819 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「塑料凳的阴影」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国的」×3",
+      "[observe] 标题重复：「蛇皮袋的裂痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:11:50"
+}

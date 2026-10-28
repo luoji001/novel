@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-333",
+  "profile": "视频分镜",
+  "title": "胶片的余光",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6531,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6043,
+    "chapter_chars_mean": 1007,
+    "chapter_chars_median": 1010,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 30.8,
+    "dialogue_chars_pct": 25.4,
+    "dialogue_para_pct": 54.7,
+    "interiority_para_pct": 1.9,
+    "narration_para_pct": 43.3,
+    "turn_under20_pct": 94.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 53.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "胶片盒的微光",
+      "chars": 511,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "公文包敲击放映机",
+      "chars": 1408,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "电影票的裂痕",
+      "chars": 1205,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "红袖章的震颤",
+      "chars": 932,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "银质耳环的反光",
+      "chars": 1016,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "胶片盒的微光",
+      "chars": 1453,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 473 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「周国强的」×3",
+      "narration_para_pct 32.0 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 章节过短 858 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "interiority_para_pct 6.2 高于目标 6.0",
+      "narration_para_pct 34.4 低于目标 35.0",
+      "[observe] 标题重复：「胶片盒的微光」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:12:13"
+}

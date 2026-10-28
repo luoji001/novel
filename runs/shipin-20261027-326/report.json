@@ -1,0 +1,126 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-326",
+  "profile": "视频分镜",
+  "title": "手写船票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5657,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5193,
+    "chapter_chars_mean": 866,
+    "chapter_chars_median": 838,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 30.3,
+    "dialogue_chars_pct": 24.9,
+    "dialogue_para_pct": 52.0,
+    "interiority_para_pct": 3.2,
+    "narration_para_pct": 44.8,
+    "turn_under20_pct": 95.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.3,
+    "attr_adv_pct": 4.5,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 3.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钥匙抵住门板",
+      "chars": 503,
+      "score": 21.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "手机屏幕的光",
+      "chars": 1274,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "系红绳的清晨",
+      "chars": 790,
+      "score": 19.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "铜钥匙叩木门",
+      "chars": 1208,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "帆布包里的船票",
+      "chars": 934,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "收音机动辄三分钟",
+      "chars": 942,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 440 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 6.2 低于目标 35.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "dialogue_run_mean 9.7 高于目标 4.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 94.7 高于目标 90.0",
+      "[observe] 章内自我复读 1 句（如「灰尘扬起，在晨光中飘散…」）",
+      "[observe] 章节过短 738 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "interiority_para_pct 7.7 高于目标 6.0",
+      "narration_para_pct 23.1 低于目标 35.0",
+      "[observe] 标题与《铜钥匙抵住门板》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「晨光洒在江面上，波光粼粼…」）",
+      "[observe] 章节过短 831 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "[observe] 章节过短 846 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:01:14"
+}

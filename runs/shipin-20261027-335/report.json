@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-335",
+  "profile": "视频分镜",
+  "title": "充电枪",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6812,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6208,
+    "chapter_chars_mean": 1035,
+    "chapter_chars_median": 1020,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 40.2,
+    "dialogue_chars_pct": 27.7,
+    "dialogue_para_pct": 56.1,
+    "interiority_para_pct": 1.6,
+    "narration_para_pct": 42.3,
+    "turn_under20_pct": 92.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.0,
+    "attr_adv_pct": 5.6,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "雪铲与充电桩的争执",
+      "chars": 722,
+      "score": 97.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "红色停车牌的争夺",
+      "chars": 1075,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "防滑链与充电枪的对峙",
+      "chars": 1397,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "对讲机的警告",
+      "chars": 1304,
+      "score": 35.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 5,
+      "title": "警示锥的边界",
+      "chars": 1174,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "雪铲与充电枪的较量",
+      "chars": 1134,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "4": [
+      "单条套路句式超限：「说道“我」×4",
+      "narration_para_pct 25.8 低于目标 35.0",
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "dialogue_run_mean 7.3 高于目标 4.0",
+      "[observe] 章内自我复读 2 句（如「刘建国没有理会他的挑衅，继续说道：“我给你们五分…」）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 2 句（如「你要是敢动它，我就报警…」）",
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 2 句（如「等等！你不能这么做！…」）",
+      "[observe] 标题与《雪铲与充电桩的争执》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 140.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:15:13"
+}

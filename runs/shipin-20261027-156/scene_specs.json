@@ -1,0 +1,220 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "理发椅前",
+      "present": [
+        "老周",
+        "剪刀"
+      ],
+      "driver": "老周用剪刀修整顾客鬓角",
+      "entry_state": "剪刀在老周手中",
+      "outcome": "剪刀从老周手中滑落至地面",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "理发椅前",
+      "present": [
+        "老周",
+        "剪刀"
+      ],
+      "driver": "老周弯腰捡起剪刀",
+      "entry_state": "剪刀在地面",
+      "outcome": "剪刀回到老周手中",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "柜台后",
+      "present": [
+        "小林",
+        "账本"
+      ],
+      "driver": "小林翻开账本，手指划过某页数字",
+      "entry_state": "账本摊开在小林手中",
+      "outcome": "账本被小林摊开在桌上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "柜台后",
+      "present": [
+        "小林",
+        "账本"
+      ],
+      "driver": "小林将账本合上，夹进工装口袋",
+      "entry_state": "账本在小林手中",
+      "outcome": "账本被小林收进口袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "柜台后",
+      "present": [
+        "小林",
+        "账本"
+      ],
+      "driver": "小林抽出账本，用力拍在柜台上",
+      "entry_state": "账本在小林口袋里",
+      "outcome": "账本被拍在柜台上",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "柜台后",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周用布巾裹住镜子边缘",
+      "entry_state": "镜子立在原位，未动",
+      "outcome": "镜子边缘被布巾裹住，位置未变",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "柜台后",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周将镜子往柜台后挪动半步",
+      "entry_state": "镜子边缘被布巾裹住，位置未变",
+      "outcome": "镜子向后挪动半步，布巾仍裹着边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "柜台后",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周将镜子完全推至柜台后方",
+      "entry_state": "镜子向后挪动半步，布巾仍裹着边缘",
+      "outcome": "镜子完全推至柜台后方，布巾裹住边缘",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "理发椅前",
+      "present": [
+        "陈老板",
+        "电推子",
+        "顾客"
+      ],
+      "driver": "陈老板将电推子贴近顾客后颈",
+      "entry_state": "电推子在陈老板手中",
+      "outcome": "电推子开始发出嗡鸣声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "理发椅前",
+      "present": [
+        "陈老板",
+        "小林",
+        "电推子"
+      ],
+      "driver": "小林伸手去抢电推子",
+      "entry_state": "电推子在陈老板手中",
+      "outcome": "电推子从陈老板手中滑落至地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "理发椅前",
+      "present": [
+        "小林",
+        "电推子"
+      ],
+      "driver": "小林捡起电推子并放回原位",
+      "entry_state": "电推子在地面",
+      "outcome": "电推子回到陈老板手中",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "墙角",
+      "present": [
+        "抹布",
+        "镜子"
+      ],
+      "driver": "小林用抹布擦掉镜子上的裂痕",
+      "entry_state": "抹布在墙角，沾着灰尘",
+      "outcome": "抹布沾满灰尘，开始擦拭镜子",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "理发椅旁",
+      "present": [
+        "抹布",
+        "小林"
+      ],
+      "driver": "小林将抹布递到镜子前",
+      "entry_state": "抹布沾满灰尘，开始擦拭镜子",
+      "outcome": "抹布在小林手中，沾满灰尘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镜子前",
+      "present": [
+        "抹布",
+        "小林"
+      ],
+      "driver": "小林用抹布擦掉镜子上的裂痕",
+      "entry_state": "抹布在小林手中，沾满灰尘",
+      "outcome": "抹布变干净，镜子上的裂痕被擦掉",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "柜台后",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周用布巾裹住镜子边缘",
+      "entry_state": "镜子在原位，未动",
+      "outcome": "镜子被布巾裹住，移至柜台后",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "柜台后",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周将镜子轻轻推到墙角",
+      "entry_state": "镜子被布巾裹住，移至柜台后",
+      "outcome": "镜子被推至墙角，布巾滑落",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "柜台后",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周伸手摸到镜子背后的补丁",
+      "entry_state": "镜子被推至墙角，布巾滑落",
+      "outcome": "镜子被放回原位，补丁显露",
+      "target_chars": 527
+    }
+  ]
+}

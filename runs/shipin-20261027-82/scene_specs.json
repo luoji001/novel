@@ -1,0 +1,212 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场停车场",
+      "present": [
+        "林海",
+        "1元硬币"
+      ],
+      "driver": "林海伸手触碰副驾驶座上的硬币",
+      "entry_state": "林海发现副驾驶座上有硬币",
+      "outcome": "硬币被林海捡起放入口袋",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场停车场",
+      "present": [
+        "林海"
+      ],
+      "driver": "林海将硬币放在掌心仔细端详",
+      "entry_state": "硬币被林海放入口袋",
+      "outcome": "硬币留在林海掌心",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "教练车内部",
+      "present": [
+        "林海",
+        "教练车钥匙"
+      ],
+      "driver": "林海将钥匙插进锁孔转动一圈",
+      "entry_state": "钥匙在锁孔中转动后回到掌心",
+      "outcome": "钥匙留在林海掌心，副驾驶座空无一物",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车内部",
+      "present": [
+        "林海",
+        "教练车钥匙"
+      ],
+      "driver": "林海用钥匙敲击副驾驶座边缘三下",
+      "entry_state": "钥匙敲击后发出清脆声响",
+      "outcome": "钥匙仍握在林海手中，副驾驶座仍空无一物",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车内部",
+      "present": [
+        "林海",
+        "教练车钥匙"
+      ],
+      "driver": "林海将钥匙放回口袋，转身走向车门",
+      "entry_state": "钥匙回到林海口袋，车门打开",
+      "outcome": "钥匙消失在林海口袋，副驾驶座仍空无一物",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "苏晴"
+      ],
+      "driver": "苏晴将身份证放在帆布包上",
+      "entry_state": "身份证在帆布包上",
+      "outcome": "身份证在帆布包上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "苏晴"
+      ],
+      "driver": "苏晴从帆布包取出身份证",
+      "entry_state": "身份证在苏晴手中",
+      "outcome": "身份证在苏晴手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "苏晴"
+      ],
+      "driver": "苏晴将身份证放回帆布包夹层",
+      "entry_state": "身份证在帆布包夹层",
+      "outcome": "身份证在帆布包夹层",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远",
+        "练车场计时器"
+      ],
+      "driver": "陈志远将计时器从桌上拿起",
+      "entry_state": "计时器在桌上",
+      "outcome": "计时器被陈志远拿在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远"
+      ],
+      "driver": "陈志远将计时器放在文件堆上",
+      "entry_state": "计时器在陈志远手中",
+      "outcome": "计时器被放在文件堆上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "陈志远"
+      ],
+      "driver": "陈志远用手指拨动计时器表面",
+      "entry_state": "计时器在文件堆上",
+      "outcome": "计时器表面被拨动",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场停车场",
+      "present": [
+        "苏晴",
+        "黑色帆布包"
+      ],
+      "driver": "苏晴将帆布包放在教练车尾箱上",
+      "entry_state": "黑色帆布包在教练车尾箱上",
+      "outcome": "黑色帆布包被放在教练车尾箱上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场停车场",
+      "present": [
+        "苏晴",
+        "黑色帆布包"
+      ],
+      "driver": "苏晴打开帆布包取出硬币放入内袋",
+      "entry_state": "黑色帆布包在教练车尾箱上",
+      "outcome": "黑色帆布包内袋藏有硬币",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场停车场",
+      "present": [
+        "苏晴",
+        "黑色帆布包"
+      ],
+      "driver": "苏晴将帆布包背在肩上离开停车场",
+      "entry_state": "黑色帆布包内袋藏有硬币",
+      "outcome": "黑色帆布包被苏晴背离停车场",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教练车内部",
+      "present": [
+        "林海",
+        "1元硬币"
+      ],
+      "driver": "林海伸手摸了摸副驾驶座上的硬币",
+      "entry_state": "硬币仍留在副驾驶座上",
+      "outcome": "硬币未被移动，位置未变",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车内部",
+      "present": [
+        "林海",
+        "1元硬币"
+      ],
+      "driver": "林海用拇指轻轻转动硬币，观察其边缘",
+      "entry_state": "硬币未被移动，位置未变",
+      "outcome": "硬币表面有轻微磨损痕迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车内部",
+      "present": [
+        "林海",
+        "1元硬币"
+      ],
+      "driver": "林海将硬币放入掌心，准备带走",
+      "entry_state": "硬币表面有轻微磨损痕迹",
+      "outcome": "硬币被林海握在手中",
+      "target_chars": 527
+    }
+  ]
+}

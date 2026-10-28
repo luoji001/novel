@@ -1,0 +1,221 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "一楼大厅",
+      "present": [
+        "李秀兰",
+        "王强"
+      ],
+      "driver": "李秀兰用拐杖敲击地面，雨靴在她左手中",
+      "entry_state": "李秀兰用拐杖敲击地面，雨靴在她左手中",
+      "outcome": "王强低头看雨靴，手伸向铁皮挂钩",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "一楼大厅",
+      "present": [
+        "李秀兰",
+        "王强"
+      ],
+      "driver": "王强用钥匙串敲打铁皮挂钩，雨靴掉在地上",
+      "entry_state": "王强用钥匙串敲打铁皮挂钩，雨靴掉在地上",
+      "outcome": "李秀兰弯腰捡起雨靴，左耳银环擦过地面",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "二楼楼梯间",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强用钥匙敲打铁皮挂钩",
+      "entry_state": "钥匙挂在挂钩上",
+      "outcome": "钥匙开始晃动并发出声响",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "二楼楼梯间",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强用钥匙勾住钥匙串",
+      "entry_state": "钥匙晃动并发出声响",
+      "outcome": "钥匙串从挂钩上滑落",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "二楼楼梯间",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强用钥匙撬开铁皮挂钩",
+      "entry_state": "钥匙串从挂钩上滑落",
+      "outcome": "钥匙被王强拿到手中",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "七楼电梯井",
+      "present": [
+        "陈师傅",
+        "王强",
+        "李秀兰"
+      ],
+      "driver": "陈师傅举起工具箱挡住雨靴",
+      "entry_state": "工具箱在陈师傅手中",
+      "outcome": "工具箱挡住雨靴，三人僵持",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "七楼电梯井",
+      "present": [
+        "陈师傅",
+        "王强",
+        "李秀兰"
+      ],
+      "driver": "陈师傅将工具箱靠在墙边",
+      "entry_state": "工具箱挡住雨靴",
+      "outcome": "工具箱靠墙，王强伸手去取雨靴",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "七楼电梯井",
+      "present": [
+        "陈师傅",
+        "王强",
+        "李秀兰"
+      ],
+      "driver": "陈师傅用工具箱砸向王强",
+      "entry_state": "工具箱靠墙",
+      "outcome": "工具箱砸中王强，三人散开",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "一楼大厅",
+      "present": [
+        "李秀兰",
+        "王强"
+      ],
+      "driver": "李秀兰将电费单摊在地面，露出泛黄的纸页",
+      "entry_state": "电费单在地面，李秀兰左手握着它",
+      "outcome": "电费单平铺在地面，李秀兰右手紧握",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼大厅",
+      "present": [
+        "李秀兰",
+        "王强"
+      ],
+      "driver": "王强弯腰捡起电费单，纸页边缘被揉皱",
+      "entry_state": "电费单被李秀兰紧握，纸页未被触碰",
+      "outcome": "电费单被王强捏皱，纸页边缘起毛",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼大厅",
+      "present": [
+        "李秀兰",
+        "王强"
+      ],
+      "driver": "李秀兰夺回电费单，纸页被撕出一道裂痕",
+      "entry_state": "电费单被王强捏皱，纸页边缘起毛",
+      "outcome": "电费单被撕出裂痕，李秀兰将它塞进口袋",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "二楼楼梯间",
+      "present": [
+        "王强",
+        "李秀兰"
+      ],
+      "driver": "王强用钥匙撬雨靴，泥渍脱落",
+      "entry_state": "泥渍从雨靴脱落",
+      "outcome": "泥渍掉在地上，王强捡起钥匙",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "二楼楼梯间",
+      "present": [
+        "王强",
+        "李秀兰"
+      ],
+      "driver": "李秀兰用拐杖挡钥匙，泥渍留在地上",
+      "entry_state": "泥渍掉在地上",
+      "outcome": "泥渍留在地上，李秀兰用拐杖挡住王强",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "二楼楼梯间",
+      "present": [
+        "王强",
+        "李秀兰"
+      ],
+      "driver": "王强弯腰捡泥渍，泥渍被李秀兰踢开",
+      "entry_state": "泥渍留在地上",
+      "outcome": "泥渍被踢开，王强站直身子",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "七楼电梯井",
+      "present": [
+        "李秀兰",
+        "王强",
+        "陈师傅"
+      ],
+      "driver": "陈师傅用工具箱挡住雨靴",
+      "entry_state": "工具箱挡住雨靴",
+      "outcome": "工具箱挡住雨靴",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "七楼电梯井",
+      "present": [
+        "李秀兰",
+        "王强",
+        "陈师傅"
+      ],
+      "driver": "王强用钥匙撬开工具箱",
+      "entry_state": "工具箱挡住雨靴",
+      "outcome": "工具箱被撬开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "七楼电梯井",
+      "present": [
+        "李秀兰",
+        "王强",
+        "陈师傅"
+      ],
+      "driver": "李秀兰把雨靴塞进工具箱",
+      "entry_state": "工具箱被撬开",
+      "outcome": "雨靴被留在工具箱中",
+      "target_chars": 527
+    }
+  ]
+}

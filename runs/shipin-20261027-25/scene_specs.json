@@ -1,0 +1,214 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老李将胶片推入放映机槽口",
+      "entry_state": "胶片被放入放映机",
+      "outcome": "胶片开始缓慢转动",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老李用拇指擦掉胶片边缘的灰",
+      "entry_state": "胶片在放映机内转动",
+      "outcome": "胶片边缘变得干净",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "电影海报"
+      ],
+      "driver": "周镇长将公文包放在柜台，拉开拉链",
+      "entry_state": "公文包在柜台，拉链拉开",
+      "outcome": "公文包内物品露出一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "电影海报",
+        "公文包"
+      ],
+      "driver": "周镇长抽出一张纸，捏皱扔进垃圾桶",
+      "entry_state": "公文包内物品露出一角",
+      "outcome": "公文包内纸张被揉皱丢弃",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "电影海报",
+        "公文包"
+      ],
+      "driver": "周镇长用皮鞋尖顶住公文包，将其推至墙角",
+      "entry_state": "公文包内纸张被揉皱丢弃",
+      "outcome": "公文包被推至墙角，靠近门框",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "观众席",
+      "present": [
+        "陈小满"
+      ],
+      "driver": "陈小满用脚尖勾起空座位上的塑料椅背",
+      "entry_state": "陈小满坐在空座位上，怀里抱着旧报纸",
+      "outcome": "塑料椅背被勾起，座椅倒地",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "观众席",
+      "present": [
+        "陈小满"
+      ],
+      "driver": "陈小满将塑料椅背搭在腿上，往角落缩了缩",
+      "entry_state": "塑料椅背倒地，陈小满坐在空座位上",
+      "outcome": "陈小满蜷缩在角落，座椅被椅子背支撑",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "观众席",
+      "present": [
+        "陈小满"
+      ],
+      "driver": "陈小满用膝盖压住座椅，将报纸塞进空座位",
+      "entry_state": "陈小满蜷缩在角落，座椅被椅子背支撑",
+      "outcome": "座椅被压住，报纸被塞进空座位",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "旧放映机"
+      ],
+      "driver": "老李用布满老茧的手攥紧放映机把手",
+      "entry_state": "放映机静止在桌面上",
+      "outcome": "放映机开始发出轻微的嗡鸣声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "旧放映机"
+      ],
+      "driver": "老李用脚尖拨动放映机侧面的开关",
+      "entry_state": "放映机发出轻微的嗡鸣声",
+      "outcome": "放映机的指示灯亮起，屏幕开始闪烁",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "旧放映机"
+      ],
+      "driver": "老李用右手按住放映机的暂停键",
+      "entry_state": "放映机的指示灯亮起，屏幕开始闪烁",
+      "outcome": "放映机停止运转，屏幕完全黑屏",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "放映室门口",
+      "present": [
+        "周镇长",
+        "老李"
+      ],
+      "driver": "镇长用皮鞋尖抵住门缝",
+      "entry_state": "镇长用皮鞋尖抵住门缝",
+      "outcome": "镇长右手握着黄铜钥匙",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室门口",
+      "present": [
+        "周镇长",
+        "老李"
+      ],
+      "driver": "镇长将钥匙插入锁孔",
+      "entry_state": "镇长右手握着黄铜钥匙",
+      "outcome": "钥匙插进锁孔，锁芯转动半圈",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室门口",
+      "present": [
+        "周镇长",
+        "老李"
+      ],
+      "driver": "镇长猛地抽回钥匙，钥匙断成两截",
+      "entry_state": "钥匙插进锁孔，锁芯转动半圈",
+      "outcome": "钥匙断成两截，散落在地",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "观众席",
+      "present": [
+        "陈小满"
+      ],
+      "driver": "陈小满用脚尖勾起空座位上的塑料椅背",
+      "entry_state": "空座位上的塑料椅背被勾起",
+      "outcome": "塑料椅背被陈小满提起",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "观众席",
+      "present": [
+        "陈小满"
+      ],
+      "driver": "陈小满将塑料椅背放在自己膝盖上",
+      "entry_state": "塑料椅背被提起",
+      "outcome": "塑料椅背被陈小满放在膝盖上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "观众席",
+      "present": [
+        "陈小满"
+      ],
+      "driver": "陈小满用右手捏住塑料椅背的边缘撕开",
+      "entry_state": "塑料椅背被放在膝盖上",
+      "outcome": "塑料椅背被撕开",
+      "target_chars": 527
+    }
+  ]
+}

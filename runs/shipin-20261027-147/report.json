@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-147",
+  "profile": "视频分镜",
+  "title": "血衣",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6517,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6040,
+    "chapter_chars_mean": 1007,
+    "chapter_chars_median": 1074,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 31.8,
+    "dialogue_chars_pct": 21.3,
+    "dialogue_para_pct": 48.2,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 51.8,
+    "turn_under20_pct": 79.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.7,
+    "attr_adv_pct": 13.9,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "箱子上的铭牌",
+      "chars": 652,
+      "score": 38.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙敲击登记簿",
+      "chars": 1389,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "冻窗上的霜花痕迹",
+      "chars": 1096,
+      "score": 18.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "撕碎的火车票",
+      "chars": 1295,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙敲击登记簿",
+      "chars": 1161,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铁门凹陷三指宽",
+      "chars": 918,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 578 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「G1236次列车即将恢复运行，请乘客注意听候车厅…」）"
+    ],
+    "4": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "5": [
+      "[observe] 标题重复：「钥匙敲击登记簿」已存在"
+    ],
+    "6": [
+      "[observe] 章节过短 789 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:10:02"
+}

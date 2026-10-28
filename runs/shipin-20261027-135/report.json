@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-135",
+  "profile": "视频分镜",
+  "title": "红带",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6623,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6197,
+    "chapter_chars_mean": 1033,
+    "chapter_chars_median": 1078,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 16.5,
+    "dialogue_para_pct": 41.1,
+    "interiority_para_pct": 1.7,
+    "narration_para_pct": 57.2,
+    "turn_under20_pct": 99.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "抓录像带的手",
+      "chars": 697,
+      "score": 97.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "抢夺录像带的对决",
+      "chars": 1209,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "撕破购物袋的瞬间",
+      "chars": 1289,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "收银机上的指纹",
+      "chars": 872,
+      "score": 23.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "钥匙划过绷带",
+      "chars": 1094,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "耳钉与钥匙相碰",
+      "chars": 1456,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「陈志远的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「小林站在」×3",
+      "dialogue_chars_pct 3.6 低于目标 5.0",
+      "[observe] 章节过短 813 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈志远的」×4"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:50:34"
+}

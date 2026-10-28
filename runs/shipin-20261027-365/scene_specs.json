@@ -1,0 +1,212 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "候车厅",
+      "present": [
+        "李建军",
+        "王翠兰"
+      ],
+      "driver": "李建军伸手去抓蛇皮袋，王翠兰护住袋子",
+      "entry_state": "蛇皮袋在王翠兰手中",
+      "outcome": "蛇皮袋被李建军抓住一角",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "候车厅",
+      "present": [
+        "李建军",
+        "王翠兰"
+      ],
+      "driver": "王翠兰将蛇皮袋往身后藏，李建军拽住不放",
+      "entry_state": "蛇皮袋被李建军拽住一角",
+      "outcome": "蛇皮袋被李建军完全夺走",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "售票窗口",
+      "present": [
+        "王翠兰",
+        "李建军"
+      ],
+      "driver": "王翠兰将旧报纸摊开在桌角",
+      "entry_state": "旧报纸摊开在桌角",
+      "outcome": "旧报纸摊开在桌角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票窗口",
+      "present": [
+        "王翠兰",
+        "李建军"
+      ],
+      "driver": "李建军伸手去抓旧报纸，被王翠兰挡回",
+      "entry_state": "旧报纸摊开在桌角",
+      "outcome": "旧报纸被李建军碰倒，纸页散落",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票窗口",
+      "present": [
+        "王翠兰",
+        "李建军"
+      ],
+      "driver": "王翠兰捡起旧报纸，压在蛇皮袋下",
+      "entry_state": "旧报纸散落在地",
+      "outcome": "旧报纸压在蛇皮袋下方",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长将登记本抵在窗框上",
+      "entry_state": "登记本抵在窗框上",
+      "outcome": "登记本抵在窗框上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长用登记本遮住半边脸",
+      "entry_state": "登记本抵在窗框上",
+      "outcome": "登记本遮住半边脸",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长将登记本翻到背面",
+      "entry_state": "登记本遮住半边脸",
+      "outcome": "登记本翻到背面",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "候车厅",
+      "present": [
+        "李建军",
+        "王翠兰"
+      ],
+      "driver": "李建军右袖红布条垂落至手腕",
+      "entry_state": "红布条垂落至手腕",
+      "outcome": "红布条垂落至手腕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "候车厅",
+      "present": [
+        "李建军",
+        "王翠兰"
+      ],
+      "driver": "王翠兰扯断红布条抛向空中",
+      "entry_state": "红布条垂落至手腕",
+      "outcome": "红布条被抛向空中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "候车厅",
+      "present": [
+        "李建军",
+        "王翠兰"
+      ],
+      "driver": "李建军接住红布条塞进裤兜",
+      "entry_state": "红布条被抛向空中",
+      "outcome": "红布条被塞进裤兜",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "候车厅",
+      "present": [
+        "李建军",
+        "王翠兰"
+      ],
+      "driver": "李建军右手伸向蛇皮袋，银环在耳垂闪动",
+      "entry_state": "银环在李建军耳垂，完好无损",
+      "outcome": "银环从李建军耳垂滑落至地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "候车厅",
+      "present": [
+        "李建军",
+        "王翠兰"
+      ],
+      "driver": "王翠兰弯腰拾起银环，贴在掌心摩挲",
+      "entry_state": "银环在地面，未被拾起",
+      "outcome": "银环被王翠兰握在掌心，表面有细微划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "候车厅",
+      "present": [
+        "李建军",
+        "王翠兰"
+      ],
+      "driver": "李建军突然抓住王翠兰手腕，银环从她掌心掉落",
+      "entry_state": "银环在王翠兰掌心，有划痕",
+      "outcome": "银环从王翠兰掌心掉落，滚至李建军脚边",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长右手握铜钥匙，左手扶登记本",
+      "entry_state": "陈站长右手握铜钥匙，左手扶登记本",
+      "outcome": "铜钥匙在陈站长右手，登记本在左手",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长将铜钥匙移至左手，右手扶登记本",
+      "entry_state": "铜钥匙在陈站长右手，登记本在左手",
+      "outcome": "铜钥匙在陈站长左手，登记本在右手",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长将铜钥匙放登记本上，起身望外",
+      "entry_state": "铜钥匙在陈站长左手，登记本在右手",
+      "outcome": "铜钥匙在登记本上，陈站长望向候车厅",
+      "target_chars": 527
+    }
+  ]
+}

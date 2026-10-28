@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-256",
+  "profile": "视频分镜",
+  "title": "船票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6780,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6259,
+    "chapter_chars_mean": 1043,
+    "chapter_chars_median": 1122,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 31.7,
+    "dialogue_chars_pct": 20.7,
+    "dialogue_para_pct": 56.8,
+    "interiority_para_pct": 2.6,
+    "narration_para_pct": 40.5,
+    "turn_under20_pct": 92.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 44.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "暗格里的新船票",
+      "chars": 703,
+      "score": 94.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "旧票落尘",
+      "chars": 1114,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "触摸旧船票的指尖",
+      "chars": 1291,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "触摸旧船票的指尖",
+      "chars": 1534,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "抚摸帆布包的指腹",
+      "chars": 1291,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "触摸铜徽的指腹",
+      "chars": 841,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "情节与已写章节重复 0.71 ≥ 0.62（撞上「小林持一张十年旧船票求老周购票，却被拒，最终得知船已停运…」）",
+      "narration_para_pct 21.4 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「触摸旧船票的指尖」已存在"
+    ],
+    "6": [
+      "[observe] 章节过短 675 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:07:39"
+}

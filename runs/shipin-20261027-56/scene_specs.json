@@ -1,0 +1,216 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李红",
+        "药瓶"
+      ],
+      "driver": "李红右手按住药瓶，输液椅空着",
+      "entry_state": "输液椅空着",
+      "outcome": "输液椅空着",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李红",
+        "药瓶"
+      ],
+      "driver": "李红右手紧握药瓶，输液椅被她占据",
+      "entry_state": "输液椅被她占据",
+      "outcome": "输液椅被她占据",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "陈雪梅",
+        "病历本"
+      ],
+      "driver": "陈雪梅左手抓住输液椅扶手",
+      "entry_state": "陈雪梅站在护士站，手里拿着病历本",
+      "outcome": "病历本被陈雪梅握在左手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "陈雪梅",
+        "病历本"
+      ],
+      "driver": "陈雪梅将病历本翻到背面",
+      "entry_state": "病历本在陈雪梅左手中",
+      "outcome": "病历本的背面朝向观众",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "陈雪梅",
+        "病历本"
+      ],
+      "driver": "陈雪梅将病历本递给李红",
+      "entry_state": "病历本在陈雪梅左手中",
+      "outcome": "病历本被李红接住",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "周志远"
+      ],
+      "driver": "周志远左手推着药车向输液室移动",
+      "entry_state": "药车停在药房门口",
+      "outcome": "药车开始向输液室方向移动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "周志远"
+      ],
+      "driver": "周志远将体温计放入蓝色布袋",
+      "entry_state": "药车向输液室方向移动",
+      "outcome": "体温计被放入蓝色布袋中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "周志远"
+      ],
+      "driver": "周志远将药车停在输液室门口",
+      "entry_state": "体温计被放入蓝色布袋中",
+      "outcome": "药车停在输液室门口",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李红",
+        "护士长"
+      ],
+      "driver": "李红右手按住药瓶，注射器在她掌心",
+      "entry_state": "李红右手按住药瓶，注射器在她掌心",
+      "outcome": "注射器被李红握在右手，药瓶未动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李红",
+        "护士长"
+      ],
+      "driver": "李红将注射器抵住药瓶，护士长伸手阻拦",
+      "entry_state": "注射器被李红握在右手，药瓶未动",
+      "outcome": "注射器抵住药瓶，护士长伸手阻拦",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "李红",
+        "护士长"
+      ],
+      "driver": "李红用注射器挑起药瓶，护士长夺过注射器",
+      "entry_state": "注射器抵住药瓶，护士长伸手阻拦",
+      "outcome": "注射器被护士长夺走，药瓶仍被李红按住",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "周志远",
+        "体温计",
+        "蓝色布袋"
+      ],
+      "driver": "周志远左手推药车，体温计从布袋滑出",
+      "entry_state": "体温计在布袋中",
+      "outcome": "体温计滑落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "周志远",
+        "体温计"
+      ],
+      "driver": "周志远弯腰捡起体温计，用左手捏住",
+      "entry_state": "体温计在地面",
+      "outcome": "体温计被周志远握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "周志远",
+        "体温计"
+      ],
+      "driver": "周志远将体温计放入药车，推车向输液室移动",
+      "entry_state": "体温计在周志远手中",
+      "outcome": "体温计被放入药车",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李红",
+        "陈雪梅"
+      ],
+      "driver": "输液椅向右倾斜，陈雪梅左手抓扶手",
+      "entry_state": "输液椅直立，李红站在输液椅前",
+      "outcome": "输液椅向右倾斜，陈雪梅左手抓扶手",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李红",
+        "陈雪梅"
+      ],
+      "driver": "李红右手按住药瓶，输液椅扶手滑落",
+      "entry_state": "输液椅向右倾斜，陈雪梅左手抓扶手",
+      "outcome": "输液椅扶手滑落，李红右手按住药瓶",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "李红",
+        "陈雪梅"
+      ],
+      "driver": "陈雪梅右手抓住输液椅，输液椅完全倒下",
+      "entry_state": "输液椅扶手滑落，李红右手按住药瓶",
+      "outcome": "输液椅完全倒下，陈雪梅右手抓住输液椅",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "钥匙板"
+      ],
+      "driver": "林小满伸手触碰钥匙板上的异物",
+      "entry_state": "钥匙板保持原状",
+      "outcome": "钥匙板上多出一把陌生钥匙",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "钥匙板"
+      ],
+      "driver": "林小满用左手按住钥匙板防止钥匙掉落",
+      "entry_state": "钥匙板上有陌生钥匙",
+      "outcome": "钥匙板被林小满按住",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "苏婉清"
+      ],
+      "driver": "林小满伸手去抓钥匙板上的钥匙",
+      "entry_state": "钥匙在钥匙板上",
+      "outcome": "钥匙被林小满指尖触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "苏婉清"
+      ],
+      "driver": "苏婉清用左手按住钥匙，右手背朝向林小满",
+      "entry_state": "钥匙被林小满指尖触碰",
+      "outcome": "钥匙被苏婉清按住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "苏婉清"
+      ],
+      "driver": "林小满将钥匙按在苏婉清掌心，钥匙滑落至地面",
+      "entry_state": "钥匙被苏婉清按住",
+      "outcome": "钥匙掉落在地面",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "苏婉清"
+      ],
+      "driver": "林小满伸手去抓钥匙板上的钥匙",
+      "entry_state": "钥匙在钥匙板上",
+      "outcome": "钥匙被林小满捏住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "苏婉清"
+      ],
+      "driver": "苏婉清弯腰去捡钥匙板下方的钥匙",
+      "entry_state": "钥匙在林小满手中",
+      "outcome": "钥匙滑落至钥匙板下方",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "苏婉清"
+      ],
+      "driver": "苏婉清伸手将钥匙从钥匙板下方抽出",
+      "entry_state": "钥匙在钥匙板下方",
+      "outcome": "钥匙被苏婉清拿到手中",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "钥匙板"
+      ],
+      "driver": "林小满伸手触碰钥匙板下方凹陷处",
+      "entry_state": "钥匙板贴在墙上的原位",
+      "outcome": "钥匙板下方留下一道浅浅的划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "钥匙板"
+      ],
+      "driver": "林小满用左手扶住钥匙板边缘向右滑动",
+      "entry_state": "钥匙板下方有划痕",
+      "outcome": "钥匙板被林小满移至靠近门口的位置",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "钥匙板"
+      ],
+      "driver": "林小满将钥匙板推回原位后松开手",
+      "entry_state": "钥匙板移至门口位置",
+      "outcome": "钥匙板回到墙上的原位，林小满松开手",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "记账本"
+      ],
+      "driver": "林小满抽出记账本，翻到第37页",
+      "entry_state": "记账本在林小满手中，第37页摊开",
+      "outcome": "记账本第37页被翻到，露出未记录的房费",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "记账本"
+      ],
+      "driver": "林小满用左手按住记账本，右手捏住撕页边缘",
+      "entry_state": "记账本第37页摊开，林小满按住本子",
+      "outcome": "记账本第37页被撕下，纸张边缘卷起",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "记账本"
+      ],
+      "driver": "林小满将撕下的纸页塞进抽屉，合上抽屉",
+      "entry_state": "记账本第37页被撕下，林小满按住抽屉把手",
+      "outcome": "记账本第37页消失，抽屉闭合",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "钥匙"
+      ],
+      "driver": "林小满伸手去抓钥匙板上的钥匙",
+      "entry_state": "钥匙在钥匙板上",
+      "outcome": "钥匙被林小满捏住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "陈志远"
+      ],
+      "driver": "陈志远用脚尖踢开空椅子，钥匙掉落",
+      "entry_state": "钥匙被林小满捏住",
+      "outcome": "钥匙掉落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼大厅",
+      "present": [
+        "林小满",
+        "陈志远"
+      ],
+      "driver": "陈志远弯腰捡起钥匙，钥匙进入他掌心",
+      "entry_state": "钥匙掉落在地",
+      "outcome": "钥匙被陈志远握在手中",
+      "target_chars": 527
+    }
+  ]
+}

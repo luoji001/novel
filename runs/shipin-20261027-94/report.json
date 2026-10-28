@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-94",
+  "profile": "视频分镜",
+  "title": "铜匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5564,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5162,
+    "chapter_chars_mean": 860,
+    "chapter_chars_median": 912,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 24.5,
+    "dialogue_chars_pct": 15.5,
+    "dialogue_para_pct": 39.0,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 60.4,
+    "turn_under20_pct": 98.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙与地图的对峙",
+      "chars": 270,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙的低语",
+      "chars": 997,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙上的裂痕",
+      "chars": 962,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "玻璃瓶里的贝壳",
+      "chars": 1215,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "玻璃罐的刻痕",
+      "chars": 1143,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙与红绳对峙",
+      "chars": 971,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 232 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 21.1 低于目标 35.0",
+      "[observe] 章内自我复读 4 句（如「因为你不是第一个发现它的人…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 5 句（如「林晓阳慢慢抬起头，透过门缝望向走廊尽头，那里站着…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「周德昌的」×5",
+      "[observe] 标题与《钥匙与地图的对峙》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 124.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:42:24"
+}

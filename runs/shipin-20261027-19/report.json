@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-19",
+  "profile": "视频分镜",
+  "title": "雨靴",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6277,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5814,
+    "chapter_chars_mean": 969,
+    "chapter_chars_median": 969,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 28,
+    "dialogue_chars_pct": 19.0,
+    "dialogue_para_pct": 46.5,
+    "interiority_para_pct": 2.5,
+    "narration_para_pct": 50.9,
+    "turn_under20_pct": 94.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫帚与拐杖",
+      "chars": 481,
+      "score": 39.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙与锁孔",
+      "chars": 908,
+      "score": 20.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "报纸的折痕",
+      "chars": 880,
+      "score": 23.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "雨靴与拐杖",
+      "chars": 1412,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "保温杯与烧伤疤痕",
+      "chars": 1403,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "雨靴与耳环",
+      "chars": 1187,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 438 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "dialogue_chars_pct 1.2 低于目标 5.0",
+      "interiority_para_pct 6.7 高于目标 6.0",
+      "[observe] 章节过短 810 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 9 句（如「她站起身，拿起对讲机，报纸随着她的动作飘落到地上…」）",
+      "[observe] 章节过短 794 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "[observe] 标题与《扫帚与拐杖》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 31.0 低于目标 35.0"
+    ],
+    "6": [
+      "narration_para_pct 30.4 低于目标 35.0",
+      "[observe] 标题与《雨靴与拐杖》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:46:00"
+}

@@ -1,0 +1,216 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "李国强将应急灯固定在讲台中央",
+      "entry_state": "应急灯被固定在讲台中央",
+      "outcome": "应急灯稳定地立在讲台中央",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "王小雨伸手将应急灯抱到胸前",
+      "entry_state": "应急灯被抱在王小雨胸前",
+      "outcome": "应急灯从讲台移至王小雨胸前",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "石板路",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "王小雨抱着应急灯向村口移动",
+      "entry_state": "石板路空无一人",
+      "outcome": "王小雨抱着应急灯走向村口",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "石板路",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "李国强用脚踩住石板路边缘",
+      "entry_state": "王小雨抱着应急灯走向村口",
+      "outcome": "李国强用脚踩住石板路边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "石板路",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "王小雨将应急灯放在石板路上",
+      "entry_state": "李国强用脚踩住石板路边缘",
+      "outcome": "应急灯被放在石板路上",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "老槐树下",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "李国强伸手去抢应急灯，王小雨抱紧灯不放",
+      "entry_state": "老槐树下，应急灯在王小雨怀里",
+      "outcome": "应急灯从王小雨怀里滑落，掉在石板路上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "老槐树下",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "王小雨用脚踩住应急灯，李国强弯腰去捡",
+      "entry_state": "应急灯在石板路上，王小雨脚踩着它",
+      "outcome": "李国强捡起应急灯，王小雨松开脚",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "老槐树下",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "王小雨将应急灯抱到老槐树下，树根处有裂痕",
+      "entry_state": "李国强拿着应急灯，王小雨站在原地",
+      "outcome": "老槐树树根处有裂痕，应急灯被王小雨放在树下",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "村卫生室",
+      "present": [
+        "王小雨",
+        "陈阿婆"
+      ],
+      "driver": "王小雨将试卷放在门框上",
+      "entry_state": "村卫生室门口空无一物",
+      "outcome": "试卷被放在门框上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "村卫生室",
+      "present": [
+        "王小雨",
+        "陈阿婆"
+      ],
+      "driver": "陈阿婆用竹筒接住掉落的试卷",
+      "entry_state": "试卷被放在门框上",
+      "outcome": "试卷被竹筒接住并留在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "村卫生室",
+      "present": [
+        "王小雨",
+        "陈阿婆"
+      ],
+      "driver": "陈阿婆用拐杖敲击地面，示意王小雨离开",
+      "entry_state": "试卷被竹筒接住并留在地上",
+      "outcome": "陈阿婆用拐杖敲击地面，示意王小雨离开",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "山崖边",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强将应急灯放在地上，转身面对山崖",
+      "entry_state": "山崖边无任何物件",
+      "outcome": "应急灯被放置在山崖边",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "山崖边",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强弯腰捡起应急灯，握在手中",
+      "entry_state": "应急灯被放置在山崖边",
+      "outcome": "应急灯被李国强握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "山崖边",
+      "present": [
+        "李国强"
+      ],
+      "driver": "李国强将应急灯推向山崖边缘，准备丢弃",
+      "entry_state": "应急灯被李国强握在手中",
+      "outcome": "应急灯被推向山崖边缘",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "李国强将应急灯按在讲台边缘",
+      "entry_state": "应急灯在讲台边缘",
+      "outcome": "应急灯固定在讲台边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "陈阿婆"
+      ],
+      "driver": "陈阿婆用拐杖敲击教室门框",
+      "entry_state": "应急灯固定在讲台边缘",
+      "outcome": "应急灯被陈阿婆移出教室",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "王小雨"
+      ],
+      "driver": "王小雨将试卷塞进书包",
+      "entry_state": "应急灯被移出教室",
+      "outcome": "试卷被塞进书包",
+      "target_chars": 527
+    }
+  ]
+}

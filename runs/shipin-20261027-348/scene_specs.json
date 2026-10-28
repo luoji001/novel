@@ -1,0 +1,213 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "王强",
+        "教练车钥匙"
+      ],
+      "driver": "王强右手伸向副驾驶座捡硬币",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被王强右手捏住",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "王强",
+        "硬币"
+      ],
+      "driver": "王强将硬币放进口袋",
+      "entry_state": "硬币被王强右手捏住",
+      "outcome": "硬币进入王强口袋",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "练车场监控室",
+      "present": [
+        "陈志",
+        "监控摄像头"
+      ],
+      "driver": "陈志伸手调整摄像头角度",
+      "entry_state": "监控摄像头固定在墙上",
+      "outcome": "监控摄像头被陈志移到桌面中央",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场监控室",
+      "present": [
+        "陈志",
+        "监控摄像头"
+      ],
+      "driver": "陈志用手指擦拭摄像头表面",
+      "entry_state": "监控摄像头在桌面中央",
+      "outcome": "监控摄像头表面被擦干净",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场监控室",
+      "present": [
+        "陈志",
+        "监控摄像头"
+      ],
+      "driver": "陈志将摄像头插回墙内插座",
+      "entry_state": "监控摄像头表面干净",
+      "outcome": "监控摄像头恢复原位",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "学员休息室",
+      "present": [
+        "林雪",
+        "手机"
+      ],
+      "driver": "林雪举起手机对准监控屏幕",
+      "entry_state": "手机屏幕显示监控画面",
+      "outcome": "手机屏幕出现硬币被捡起的画面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员休息室",
+      "present": [
+        "林雪",
+        "手机"
+      ],
+      "driver": "林雪将手机贴在胸口调整角度",
+      "entry_state": "手机屏幕出现硬币被捡起的画面",
+      "outcome": "手机屏幕开始出现模糊的指纹痕迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员休息室",
+      "present": [
+        "林雪",
+        "手机"
+      ],
+      "driver": "林雪把手机塞进连帽衫口袋",
+      "entry_state": "手机屏幕开始出现模糊的指纹痕迹",
+      "outcome": "手机从林雪手中消失",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "教练办公室",
+      "present": [
+        "陈志",
+        "记账本"
+      ],
+      "driver": "陈志将记账本摊开在桌上",
+      "entry_state": "记账本平放在桌面",
+      "outcome": "记账本被钢笔尖轻轻点了一下",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练办公室",
+      "present": [
+        "陈志",
+        "记账本"
+      ],
+      "driver": "陈志用钢笔在记账本上划出一道线",
+      "entry_state": "记账本被钢笔尖点过",
+      "outcome": "记账本上出现了一道浅浅的划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练办公室",
+      "present": [
+        "陈志",
+        "记账本"
+      ],
+      "driver": "陈志把记账本合上并塞进抽屉",
+      "entry_state": "记账本有划痕",
+      "outcome": "记账本被收进抽屉，不再出现在桌面",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "学员休息室",
+      "present": [
+        "林雪",
+        "王强"
+      ],
+      "driver": "林雪将学员身份证推到王强面前",
+      "entry_state": "身份证在林雪手中",
+      "outcome": "身份证滑到王强掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员休息室",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强用拇指擦掉身份证上的指纹",
+      "entry_state": "身份证在王强掌心",
+      "outcome": "身份证被抹上机油",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员休息室",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强把身份证塞进教练车钥匙夹层",
+      "entry_state": "身份证被抹上机油",
+      "outcome": "身份证消失在钥匙夹层",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强伸手去捡副驾驶座上的硬币",
+      "entry_state": "硬币仍在副驾驶座上",
+      "outcome": "硬币被王强指尖触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强将硬币放进口袋",
+      "entry_state": "硬币被王强指尖触碰",
+      "outcome": "硬币进入王强口袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强从口袋掏出硬币放在掌心",
+      "entry_state": "硬币进入王强口袋",
+      "outcome": "硬币回到王强掌心",
+      "target_chars": 527
+    }
+  ]
+}

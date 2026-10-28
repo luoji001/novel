@@ -1,0 +1,108 @@
+{
+  "consistency": "1. 第二章与第三章均出现“钥匙擦过掌心”，但第二章描述的是小林在办公室发现钥匙，第三章描述的是老张在102房间发现钥匙，二者出现同一钥匙却由不同人物发现，缺乏合理交代。  \n2. 第三章提到老张在102房间发现“异常便签和钥匙”，但第四章中老张与小林争夺的钥匙是“写着102的钥匙”，而第三章中发现的钥匙未明确是否为同一把，存在信息不一致。  \n3. 第五章提到“通过房号线索达成暂时和解”，但前文未明确提及房号线索的来源，缺乏铺垫。  \n4. 第六章提到小林“找回客人遗落的钥匙”，但前文未提及该钥匙的遗落过程，也未说明与102房间或失踪男子的关联，信息断裂。",
+  "slug": "shipin-20261027-24",
+  "profile": "视频分镜",
+  "title": "钥匙孔里的光",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6285,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5789,
+    "chapter_chars_mean": 965,
+    "chapter_chars_median": 956,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 33.7,
+    "dialogue_chars_pct": 28.3,
+    "dialogue_para_pct": 54.7,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 44.3,
+    "turn_under20_pct": 90.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.0,
+    "attr_adv_pct": 4.3,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙划过金属边缘",
+      "chars": 829,
+      "score": 95.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钥匙擦过掌心",
+      "chars": 1009,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "钥匙擦过掌心",
+      "chars": 1070,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙划过掌心",
+      "chars": 1250,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "钥匙落回桌面",
+      "chars": 1155,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙摩挲刻痕",
+      "chars": 966,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「钥匙擦过掌心」已存在"
+    ],
+    "4": [
+      "narration_para_pct 25.9 低于目标 35.0",
+      "[observe] 标题与《钥匙擦过掌心》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 132.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:53:46"
+}

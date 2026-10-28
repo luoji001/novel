@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-53",
+  "profile": "视频分镜",
+  "title": "红布条",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6811,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6399,
+    "chapter_chars_mean": 1066,
+    "chapter_chars_median": 1152,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 26.2,
+    "dialogue_chars_pct": 21.0,
+    "dialogue_para_pct": 46.2,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 53.4,
+    "turn_under20_pct": 82.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 69.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "放映胶片的划痕",
+      "chars": 693,
+      "score": 36.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钢笔戳票根",
+      "chars": 1048,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "擦拭灯泡的午后",
+      "chars": 1163,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "擦拭镜头的午后",
+      "chars": 1295,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲铜徽章的黄昏",
+      "chars": 1273,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "转动生锈的钥匙",
+      "chars": 1333,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 96.3 高于目标 90.0"
+    ],
+    "4": [
+      "[observe] 标题与《擦拭灯泡的午后》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「老张站在」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:38:26"
+}

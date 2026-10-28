@@ -1,0 +1,114 @@
+{
+  "consistency": "1. 第二章与第四章均标题为《推子划破镜面》，内容重复，标题重复但内容未明确区分，存在标题与内容重复的问题。  \n2. 第三章提到老周将师父留下的旧账本和推子交给小李，但第五章中陈师傅出示旧账本揭开真相，暗示旧账本并未被老周交给小李，前后矛盾。  \n3. 第六章提到小李为参加比赛争抢师父留下的铜质推子，但第一章已提到老周不愿将祖传推子交给小李，而第三章提到老周将推子交给小李，前后矛盾。  \n4. 第六章提到“在陈师傅调解下暂时平息”，但第一章中陈师傅已责令清理现场，未明确是否为同一事件，存在时间线不清晰的问题。",
+  "slug": "shipin-20261027-282",
+  "profile": "视频分镜",
+  "title": "推子",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6574,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6106,
+    "chapter_chars_mean": 1018,
+    "chapter_chars_median": 1088,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 30.7,
+    "dialogue_chars_pct": 25.2,
+    "dialogue_para_pct": 49.2,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 50.0,
+    "turn_under20_pct": 91.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 50.3,
+    "attr_adv_pct": 14.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "推子磕响桌面",
+      "chars": 546,
+      "score": 37.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "推子划破镜面",
+      "chars": 1136,
+      "score": 57.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "摩挲账本的指尖",
+      "chars": 1204,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "推子划破镜面",
+      "chars": 1148,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "旧账本哗啦落地",
+      "chars": 1189,
+      "score": 23.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "推子磕响桌面",
+      "chars": 1345,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 500 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 标题重复：「推子划破镜面」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「这不是你们该争论的地方…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「老周站在」×3",
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「推子磕响桌面」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:48:31"
+}

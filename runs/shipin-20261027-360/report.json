@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-360",
+  "profile": "视频分镜",
+  "title": "钥匙背面",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6278,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5852,
+    "chapter_chars_mean": 975,
+    "chapter_chars_median": 1008,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 25.5,
+    "dialogue_chars_pct": 24.8,
+    "dialogue_para_pct": 62.7,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 37.3,
+    "turn_under20_pct": 91.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙上的薄霜",
+      "chars": 838,
+      "score": 96.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钥匙背面的刻痕",
+      "chars": 1003,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙滑落瞬间",
+      "chars": 1235,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙板下的硬物",
+      "chars": 1197,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "撕页与新页",
+      "chars": 868,
+      "score": 17.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "钥匙滑落瞬间",
+      "chars": 1131,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「林小满的」×4",
+      "narration_para_pct 29.4 低于目标 35.0",
+      "[observe] 章内自我复读 5 句（如「我每天都在这里工作，没看见过这把钥匙…」）"
+    ],
+    "3": [
+      "narration_para_pct 29.6 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「这是新来的客人落在这里的吧？…」）"
+    ],
+    "4": [
+      "narration_para_pct 32.0 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「笔尖停顿片刻，又补上一行小字…」）",
+      "[observe] 章节过短 742 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "narration_para_pct 25.9 低于目标 35.0",
+      "[observe] 标题重复：「钥匙滑落瞬间」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:53:08"
+}

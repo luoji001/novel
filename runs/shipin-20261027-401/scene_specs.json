@@ -1,0 +1,218 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "货架区",
+      "present": [
+        "小林",
+        "未标注品牌的啤酒"
+      ],
+      "driver": "小林用钥匙卡住啤酒罐的盖子",
+      "entry_state": "啤酒罐被钥匙卡住",
+      "outcome": "啤酒罐盖子无法打开",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "货架区",
+      "present": [
+        "小林",
+        "未标注品牌的啤酒"
+      ],
+      "driver": "小林将啤酒罐放回货架最底层",
+      "entry_state": "啤酒罐盖子无法打开",
+      "outcome": "啤酒罐被移出视线",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "监控室",
+      "present": [
+        "陈慧",
+        "监控屏幕"
+      ],
+      "driver": "陈慧将鼠标移至屏幕右下角",
+      "entry_state": "监控屏幕处于正常工作状态",
+      "outcome": "监控屏幕右下角出现一个光标",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "监控室",
+      "present": [
+        "陈慧",
+        "监控屏幕"
+      ],
+      "driver": "陈慧用左手扶住屏幕边缘",
+      "entry_state": "监控屏幕右下角有光标",
+      "outcome": "监控屏幕边缘轻微晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "监控室",
+      "present": [
+        "陈慧",
+        "监控屏幕"
+      ],
+      "driver": "陈慧用右手按住屏幕表面",
+      "entry_state": "监控屏幕边缘轻微晃动",
+      "outcome": "监控屏幕表面被按出一道浅痕",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "停车场",
+      "present": [
+        "周正",
+        "黑色轿车"
+      ],
+      "driver": "周正伸手触碰车窗，指节泛白",
+      "entry_state": "周正坐在车内，车窗半开",
+      "outcome": "车窗玻璃出现一道细小裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "停车场",
+      "present": [
+        "周正",
+        "黑色轿车"
+      ],
+      "driver": "周正将羊毛大衣搭在椅背，露出袖口磨损",
+      "entry_state": "车窗有裂痕，大衣搭在椅背",
+      "outcome": "大衣袖口露出内衬的补丁",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "停车场",
+      "present": [
+        "周正",
+        "黑色轿车"
+      ],
+      "driver": "周正用皮夹敲击车窗，金属刮出刺响",
+      "entry_state": "大衣袖口有补丁，车窗有裂痕",
+      "outcome": "皮夹边缘出现一道浅浅划痕",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "红色收银机"
+      ],
+      "driver": "小林用钥匙卡住收银机的红色按钮",
+      "entry_state": "红色收银机的红色按钮被钥匙卡住",
+      "outcome": "红色收银机的红色按钮被钥匙卡住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "红色收银机"
+      ],
+      "driver": "小林将钥匙插入收银机侧面的插槽",
+      "entry_state": "红色收银机的侧面插槽有钥匙",
+      "outcome": "红色收银机的侧面插槽有钥匙",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "红色收银机"
+      ],
+      "driver": "小林用钥匙撬开收银机的后盖",
+      "entry_state": "红色收银机的后盖被撬开",
+      "outcome": "红色收银机的后盖被撬开",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "收银台",
+      "present": [
+        "周正",
+        "红色收银机"
+      ],
+      "driver": "周正将皮夹贴近收银机表面",
+      "entry_state": "皮夹贴着收银机表面",
+      "outcome": "皮夹边缘与收银机发生轻微摩擦",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "收银台",
+      "present": [
+        "周正",
+        "红色收银机"
+      ],
+      "driver": "周正用皮夹边缘敲击收银机侧面",
+      "entry_state": "皮夹边缘与收银机发生轻微摩擦",
+      "outcome": "皮夹一角出现细微裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "收银台",
+      "present": [
+        "周正",
+        "红色收银机"
+      ],
+      "driver": "周正将皮夹完全按在收银机上",
+      "entry_state": "皮夹一角出现细微裂痕",
+      "outcome": "皮夹完全贴住收银机表面",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "便利店钥匙"
+      ],
+      "driver": "小林将钥匙插入啤酒罐盖子",
+      "entry_state": "钥匙插进盖子",
+      "outcome": "钥匙卡住盖子",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "便利店钥匙"
+      ],
+      "driver": "小林用钥匙撬开啤酒罐盖子",
+      "entry_state": "钥匙卡住盖子",
+      "outcome": "钥匙撬开盖子",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "便利店钥匙"
+      ],
+      "driver": "小林将钥匙放回胸前口袋",
+      "entry_state": "钥匙撬开盖子",
+      "outcome": "钥匙回到口袋",
+      "target_chars": 527
+    }
+  ]
+}

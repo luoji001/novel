@@ -1,0 +1,107 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-389",
+  "profile": "视频分镜",
+  "title": "手套",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6220,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5819,
+    "chapter_chars_mean": 970,
+    "chapter_chars_median": 997,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 24.7,
+    "dialogue_chars_pct": 20.2,
+    "dialogue_para_pct": 39.3,
+    "interiority_para_pct": 2.4,
+    "narration_para_pct": 58.3,
+    "turn_under20_pct": 96.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.8,
+    "attr_adv_pct": 19.9,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙转动的瞬间",
+      "chars": 756,
+      "score": 93.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "砸碎公文夹",
+      "chars": 969,
+      "score": 58.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "整理胶片的午后",
+      "chars": 1014,
+      "score": 58.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "钥匙转动的瞬间",
+      "chars": 1106,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手套与胶片的对峙",
+      "chars": 1147,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "胶片滑入黑暗的瞬间",
+      "chars": 1222,
+      "score": 34.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "4": [
+      "[observe] 标题重复：「钥匙转动的瞬间」已存在"
+    ],
+    "6": [
+      "interiority_para_pct 8.7 高于目标 6.0",
+      "[observe] attr_adv_pct 100.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:39:26"
+}

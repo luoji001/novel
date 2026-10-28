@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-398",
+  "profile": "视频分镜",
+  "title": "灯芯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7214,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6742,
+    "chapter_chars_mean": 1124,
+    "chapter_chars_median": 1242,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 31.8,
+    "dialogue_chars_pct": 22.9,
+    "dialogue_para_pct": 57.8,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 41.0,
+    "turn_under20_pct": 93.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 29.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "灯光的争夺",
+      "chars": 815,
+      "score": 94.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铅笔与折痕",
+      "chars": 1306,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "应急灯的争夺",
+      "chars": 1515,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "书包的拉链声",
+      "chars": 1356,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "矿泉水瓶的裂痕",
+      "chars": 882,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铅笔的折痕",
+      "chars": 1334,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「”王小明低」×3"
+    ],
+    "2": [
+      "[observe] 章内自我复读 4 句（如「那只断了笔芯的铅笔，此刻正在纸上刻出一道深深的痕…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「李国强站在」×3、「王小明的」×3、「李国强的」×3",
+      "narration_para_pct 22.6 低于目标 35.0",
+      "dialogue_run_mean 4.8 高于目标 4.0",
+      "[observe] 标题与《灯光的争夺》近似 0.73 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「王小明的」×3"
+    ],
+    "5": [
+      "[observe] 章节过短 817 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "[observe] 标题与《铅笔与折痕》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 140.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:53:47"
+}

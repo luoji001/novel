@@ -1,0 +1,219 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "输液椅",
+        "药瓶"
+      ],
+      "driver": "李秀兰伸手去够输液椅上的药瓶",
+      "entry_state": "输液椅空着，药瓶挂在输液椅上",
+      "outcome": "李秀兰的手触碰到药瓶",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "输液椅",
+        "药瓶"
+      ],
+      "driver": "李秀兰拽着输液椅向自己靠近",
+      "entry_state": "李秀兰的手触碰到药瓶",
+      "outcome": "输液椅向李秀兰方向移动",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "护士长办公室",
+      "present": [
+        "周慧敏",
+        "李秀兰"
+      ],
+      "driver": "周慧敏胸前红色胸牌贴着胸口",
+      "entry_state": "周慧敏胸前红色胸牌贴着胸口",
+      "outcome": "红色胸牌贴在周慧敏胸前",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士长办公室",
+      "present": [
+        "周慧敏",
+        "李秀兰"
+      ],
+      "driver": "周慧敏用右手按住输液椅扶手",
+      "entry_state": "红色胸牌贴在周慧敏胸前",
+      "outcome": "红色胸牌从周慧敏胸前滑落",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士长办公室",
+      "present": [
+        "周慧敏",
+        "李秀兰"
+      ],
+      "driver": "周慧敏用左手接住掉落的红色胸牌",
+      "entry_state": "红色胸牌从周慧敏胸前滑落",
+      "outcome": "红色胸牌被周慧敏左手握在掌心",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "赵志远"
+      ],
+      "driver": "赵志远左手推药车穿过玻璃窗",
+      "entry_state": "玻璃窗未被触碰",
+      "outcome": "玻璃窗被药车擦出一道裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "赵志远"
+      ],
+      "driver": "赵志远用左手扶住玻璃窗边缘",
+      "entry_state": "玻璃窗有裂痕",
+      "outcome": "玻璃窗边缘被赵志远手指压出凹陷",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "药房",
+      "present": [
+        "赵志远"
+      ],
+      "driver": "赵志远将药车停在玻璃窗内侧",
+      "entry_state": "玻璃窗边缘有凹陷",
+      "outcome": "玻璃窗内侧留下药车轮印",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "赵志远"
+      ],
+      "driver": "赵志远将药瓶放在药架最底层",
+      "entry_state": "药架底层有药瓶",
+      "outcome": "药架底层有药瓶",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "赵志远"
+      ],
+      "driver": "赵志远用左手扶住药架边缘",
+      "entry_state": "药架底层有药瓶",
+      "outcome": "药架边缘被赵志远扶住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "药房",
+      "present": [
+        "赵志远"
+      ],
+      "driver": "赵志远将药架推到药房角落",
+      "entry_state": "药架边缘被扶住",
+      "outcome": "药架被推到药房角落",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "输液椅",
+        "药瓶"
+      ],
+      "driver": "李秀兰伸手去够输液椅上的药瓶",
+      "entry_state": "输液椅空着，药瓶挂在椅背上",
+      "outcome": "李秀兰的手指触碰到药瓶边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "输液椅",
+        "护士长"
+      ],
+      "driver": "护士长用右手按住输液椅扶手阻止李秀兰靠近",
+      "entry_state": "李秀兰的手指触碰到药瓶边缘",
+      "outcome": "输液椅扶手被护士长按住，药瓶晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "输液椅",
+        "护士长"
+      ],
+      "driver": "李秀兰用左手拽住输液椅底部试图拉近药瓶",
+      "entry_state": "输液椅扶手被护士长按住，药瓶晃动",
+      "outcome": "输液椅被李秀兰拽动，药瓶摇晃更剧烈",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "输液椅",
+        "药瓶"
+      ],
+      "driver": "李秀兰伸手去够输液椅上的药瓶",
+      "entry_state": "输液椅空着，药瓶挂在上面",
+      "outcome": "李秀兰的手触碰到药瓶",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "输液椅",
+        "护士长"
+      ],
+      "driver": "护士长用右手按住输液椅扶手阻止李秀兰靠近",
+      "entry_state": "李秀兰的手触碰到药瓶",
+      "outcome": "输液椅扶手被按住，药瓶未被拿走",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "输液椅"
+      ],
+      "driver": "李秀兰松开手，输液椅回到原位",
+      "entry_state": "输液椅扶手被按住，药瓶未被拿走",
+      "outcome": "李秀兰左手攥着住院卡，输液椅空着",
+      "target_chars": 527
+    }
+  ]
+}

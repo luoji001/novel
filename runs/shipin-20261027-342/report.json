@@ -1,0 +1,111 @@
+{
+  "consistency": "1. 第二章与第五章中，王小雨承认抄袭答案，但第三章中她却在灯光下坦白自己不懂，前后矛盾。  \n2. 第四章与第一章中，王小雨抢夺应急灯的行为被描述为“因想看答案”，但第一章中李国强阻止她偷看手机，说明她抢夺应急灯的动机与第四章不一致。  \n3. 第三章与第六章中，“铜铃轻响”出现两次，但未说明铜铃的来源或是否为同一场景，存在重复描述但未明确关联。  \n4. 第六章中陈志远“准备去接他”中的“他”指代不明确，前文未明确陈志远是否曾接人，导致指代混乱。  \n5. 第五章中王小雨“在老师指导下学会了正确解题方法”，但前文未提及李国强是否担任指导角色，人物立场转换无依据。",
+  "slug": "shipin-20261027-342",
+  "profile": "视频分镜",
+  "title": "应急灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7087,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6571,
+    "chapter_chars_mean": 1095,
+    "chapter_chars_median": 1133,
+    "chapter_chars_cv": 0.12,
+    "paragraphs_mean": 34,
+    "dialogue_chars_pct": 15.3,
+    "dialogue_para_pct": 38.7,
+    "interiority_para_pct": 1.7,
+    "narration_para_pct": 59.5,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.7,
+    "attr_adv_pct": 1.6,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "争夺应急灯",
+      "chars": 1018,
+      "score": 95.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "应急灯闪烁的红光",
+      "chars": 1115,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "铜铃轻响",
+      "chars": 1247,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "应急灯争夺战",
+      "chars": 1248,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手机裂痕",
+      "chars": 1165,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "铜铃轻响",
+      "chars": 1288,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "4": [
+      "[observe] 章内自我复读 1 句（如「他用力拽了拽，灯光晃得人睁不开眼…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「王小雨的」×4",
+      "narration_para_pct 34.3 低于目标 35.0",
+      "[observe] 章内自我复读 1 句（如「王小雨说，语气有点犹豫…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「铜铃轻响」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 146.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:26:12"
+}

@@ -1,0 +1,108 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-27",
+  "profile": "视频分镜",
+  "title": "红绳",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5558,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 4943,
+    "chapter_chars_mean": 824,
+    "chapter_chars_median": 948,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 38.8,
+    "dialogue_chars_pct": 25.0,
+    "dialogue_para_pct": 42.1,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 57.4,
+    "turn_under20_pct": 91.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "雪铲撬后备箱",
+      "chars": 402,
+      "score": 38.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "扳手敲引擎盖",
+      "chars": 1036,
+      "score": 96.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "对讲机呼救援",
+      "chars": 1119,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "轮胎滚落雪地",
+      "chars": 1056,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "红绳缠手腕",
+      "chars": 1171,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "手机屏幕亮起",
+      "chars": 768,
+      "score": 20.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 364 < 597（本章目标 1087 字的 55%）"
+    ],
+    "6": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 562 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 114.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:58:13"
+}

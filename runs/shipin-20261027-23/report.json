@@ -1,0 +1,115 @@
+{
+  "consistency": "1. 第三章提到陈浩“意外发现与亡妻有关的画面”，但第六章提到“钥匙背后的秘密”，未明确说明钥匙与亡妻画面之间的关联，导致线索断裂。\n\n2. 第五章提到“红色红绳的低语”，但前文（如第二章）提到的是“红色防盗锁”，两者均为红色但指代不同物品，可能造成混淆。\n\n3. 第四章提到“指纹触碰手套表面”，但未提及手套的来源或与谁有关，导致线索无着落。\n\n4. 第六章提到“钥匙触碰屏幕瞬间”，但前文（如第三章）提到的是“钥匙触碰插槽”，两者为不同动作，可能造成混淆。",
+  "slug": "shipin-20261027-23",
+  "profile": "视频分镜",
+  "title": "红手套",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6650,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6005,
+    "chapter_chars_mean": 1001,
+    "chapter_chars_median": 1084,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 40.7,
+    "dialogue_chars_pct": 18.2,
+    "dialogue_para_pct": 36.1,
+    "interiority_para_pct": 0.9,
+    "narration_para_pct": 62.9,
+    "turn_under20_pct": 91.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 4,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "U盘插入接口瞬间",
+      "chars": 609,
+      "score": 16.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "红色防盗锁的碰撞",
+      "chars": 1156,
+      "score": 17.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙触碰插槽瞬间",
+      "chars": 1275,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "指纹触碰手套表面",
+      "chars": 1047,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "红色红绳的低语",
+      "chars": 1302,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙触碰屏幕瞬间",
+      "chars": 1255,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 90.7 高于目标 90.0",
+      "[observe] 章节过短 468 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "dialogue_chars_pct 1.9 低于目标 5.0",
+      "narration_para_pct 94.2 高于目标 90.0",
+      "[observe] 章内自我复读 7 句（如「小林的手指微微发颤，但还是稳稳地握住了红色防盗锁…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「小林站在」×3"
+    ],
+    "6": [
+      "[observe] 标题与《钥匙触碰插槽瞬间》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 121.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:52:11"
+}

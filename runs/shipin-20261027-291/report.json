@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-291",
+  "profile": "视频分镜",
+  "title": "铜钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6924,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6422,
+    "chapter_chars_mean": 1070,
+    "chapter_chars_median": 1090,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 34.3,
+    "dialogue_chars_pct": 17.9,
+    "dialogue_para_pct": 39.2,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 59.9,
+    "turn_under20_pct": 94.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 55.0,
+    "attr_adv_pct": 8.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "贴标签纸",
+      "chars": 786,
+      "score": 95.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "电话线缠绕手腕",
+      "chars": 1138,
+      "score": 21.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "胶片盒的标签纸",
+      "chars": 1312,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "胶片缓缓入槽",
+      "chars": 1385,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "贴标签纸",
+      "chars": 1207,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙与照片的重量",
+      "chars": 1090,
+      "score": 59.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 章内自我复读 1 句（如「小林，把老周那份档案调出来…」）"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 28.6 > 18.0（结构塌缩）"
+    ],
+    "5": [
+      "[observe] 标题重复：「贴标签纸」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:03:03"
+}

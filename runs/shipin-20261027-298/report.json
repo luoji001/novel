@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第二章与第六章均出现“船票贴胸口”的情节，但第二章描述老周将船票收进抽屉，第六章却描述年轻人试图用已过期的旧船票登船，前后不一致。\n\n2. 第五章提到“怀表”作为回忆与对话的媒介，但前文未提及怀表的出现或相关伏笔。\n\n3. 第三章提到“公文包里的名字”与老周的往事，但未明确说明公文包与老周之间的关联，导致人物动机不清晰。\n\n4. 第四章提到“老周决定为他打开一扇门”，但未明确说明“门”指什么，也未在后文交代该“门”是否开启或如何开启。",
+  "slug": "shipin-20261027-298",
+  "profile": "视频分镜",
+  "title": "船票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6300,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5861,
+    "chapter_chars_mean": 977,
+    "chapter_chars_median": 1040,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 29.2,
+    "dialogue_chars_pct": 23.3,
+    "dialogue_para_pct": 56.5,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 42.7,
+    "turn_under20_pct": 94.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 58.9,
+    "attr_adv_pct": 2.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕裂的船票",
+      "chars": 481,
+      "score": 21.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "船票贴胸口",
+      "chars": 1140,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "公文包里的名字",
+      "chars": 1188,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "铜钥匙敲铁门",
+      "chars": 869,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与旧船票",
+      "chars": 1505,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "船票贴胸口",
+      "chars": 1111,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 438 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「我送走的每一个人都该有份念想…」）"
+    ],
+    "4": [
+      "[observe] 章节过短 809 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "narration_para_pct 24.2 低于目标 35.0"
+    ],
+    "6": [
+      "attr_adv_pct 11.1 高于目标 10.0",
+      "[observe] 标题重复：「船票贴胸口」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:14:06"
+}

@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-104",
+  "profile": "视频分镜",
+  "title": "粉笔划光",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6788,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6202,
+    "chapter_chars_mean": 1034,
+    "chapter_chars_median": 1115,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 36.8,
+    "dialogue_chars_pct": 17.4,
+    "dialogue_para_pct": 35.8,
+    "interiority_para_pct": 2.4,
+    "narration_para_pct": 61.8,
+    "turn_under20_pct": 94.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铅笔盒闪光",
+      "chars": 665,
+      "score": 22.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铅笔盒藏匿",
+      "chars": 1420,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "粉笔划光",
+      "chars": 972,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "橡皮裂痕",
+      "chars": 1261,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手机电筒闪烁",
+      "chars": 1097,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "粉笔划光",
+      "chars": 1367,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 590 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 标题与《铅笔盒闪光》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "narration_para_pct 92.2 高于目标 90.0",
+      "[observe] 章节过短 744 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 5 句（如「他站起身，慢慢走到王小明面前，影子投在地上，像一…」）"
+    ],
+    "5": [
+      "interiority_para_pct 7.4 高于目标 6.0"
+    ],
+    "6": [
+      "[observe] 标题重复：「粉笔划光」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:57:53"
+}

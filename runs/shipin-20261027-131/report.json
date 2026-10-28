@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-131",
+  "profile": "视频分镜",
+  "title": "雨靴",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6242,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5809,
+    "chapter_chars_mean": 968,
+    "chapter_chars_median": 1006,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 29,
+    "dialogue_chars_pct": 29.5,
+    "dialogue_para_pct": 58.1,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 41.9,
+    "turn_under20_pct": 91.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.0,
+    "attr_adv_pct": 3.8,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "面粉的较量",
+      "chars": 732,
+      "score": 38.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙撬门",
+      "chars": 1057,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "雨靴与电费单",
+      "chars": 1263,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "面粉的较量",
+      "chars": 961,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙揭开门缝",
+      "chars": 1108,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "面粉的较量",
+      "chars": 1115,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "2": [
+      "单条套路句式超限：「李婶站在」×3",
+      "narration_para_pct 34.6 低于目标 35.0",
+      "[observe] 章内自我复读 1 句（如「你儿子死了三年，你还在这里搞这套？…」）"
+    ],
+    "3": [
+      "narration_para_pct 29.6 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「面粉的较量」已存在"
+    ],
+    "5": [
+      "[observe] 标题与《钥匙撬门》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题重复：「面粉的较量」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 137.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:44:17"
+}

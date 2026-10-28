@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-109",
+  "profile": "视频分镜",
+  "title": "胶片标签",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6421,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6031,
+    "chapter_chars_mean": 1005,
+    "chapter_chars_median": 1062,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 23.2,
+    "dialogue_chars_pct": 16.8,
+    "dialogue_para_pct": 44.1,
+    "interiority_para_pct": 2.2,
+    "narration_para_pct": 53.7,
+    "turn_under20_pct": 90.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 45.5,
+    "attr_adv_pct": 2.9,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "胶片盒上的指纹",
+      "chars": 654,
+      "score": 97.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "摩挲公文包边缘",
+      "chars": 1223,
+      "score": 39.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲电影票根",
+      "chars": 1077,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "摩挲胶片盒边缘",
+      "chars": 1008,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "摩挲银质耳环",
+      "chars": 1193,
+      "score": 86.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "摩挲胶片盒边缘",
+      "chars": 1260,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "dialogue_chars_pct 4.7 低于目标 5.0"
+    ],
+    "5": [
+      "narration_para_pct 17.9 低于目标 35.0",
+      "attr_adv_pct 15.8 高于目标 10.0",
+      "dialogue_run_mean 5.8 高于目标 4.0"
+    ],
+    "6": [
+      "[observe] 标题重复：「摩挲胶片盒边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:05:25"
+}

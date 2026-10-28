@@ -1,0 +1,223 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场门口",
+      "present": [
+        "沈雨桐",
+        "铁门",
+        "硬币"
+      ],
+      "driver": "沈雨桐伸手接住铁门边掉落的硬币",
+      "entry_state": "硬币在沈雨桐手中",
+      "outcome": "硬币从铁门边掉落至沈雨桐掌心",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场门口",
+      "present": [
+        "沈雨桐",
+        "铁门",
+        "硬币"
+      ],
+      "driver": "沈雨桐将硬币放回铁门边",
+      "entry_state": "硬币在沈雨桐掌心",
+      "outcome": "硬币回到铁门边",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "李建国",
+        "教练车钥匙"
+      ],
+      "driver": "李建国从抽屉取出教练车钥匙",
+      "entry_state": "钥匙在李建国手中",
+      "outcome": "钥匙被放入外套内袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "李建国",
+        "教练车钥匙"
+      ],
+      "driver": "李建国将钥匙放在桌上，转身走向门口",
+      "entry_state": "钥匙在桌上",
+      "outcome": "钥匙被李建国带出办公室",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场门口",
+      "present": [
+        "李建国",
+        "教练车钥匙"
+      ],
+      "driver": "李建国将钥匙插入锁孔，打开铁门",
+      "entry_state": "钥匙在锁孔中",
+      "outcome": "钥匙转动后铁门开启",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "监控室",
+      "present": [
+        "陈志远",
+        "对讲机",
+        "监控屏幕"
+      ],
+      "driver": "陈志远按下红色警报灯按钮",
+      "entry_state": "红色警报灯未亮起",
+      "outcome": "红色警报灯亮起",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "监控室",
+      "present": [
+        "陈志远",
+        "对讲机",
+        "红色警报灯"
+      ],
+      "driver": "陈志远用右臂擦去警报灯上的雾气",
+      "entry_state": "红色警报灯亮起",
+      "outcome": "红色警报灯表面清晰可见",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "监控室",
+      "present": [
+        "陈志远",
+        "对讲机",
+        "红色警报灯"
+      ],
+      "driver": "陈志远扯断警报灯电源线",
+      "entry_state": "红色警报灯表面清晰可见",
+      "outcome": "红色警报灯熄灭",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "练车场门口",
+      "present": [
+        "李建国",
+        "铁门"
+      ],
+      "driver": "李建国伸手去副驾驶座拿硬币",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被李建国拿到手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场门口",
+      "present": [
+        "李建国",
+        "沈雨桐"
+      ],
+      "driver": "沈雨桐伸手去接硬币",
+      "entry_state": "硬币在李建国手中",
+      "outcome": "硬币被沈雨桐夺走",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场门口",
+      "present": [
+        "李建国",
+        "沈雨桐"
+      ],
+      "driver": "李建国将硬币放回副驾驶座",
+      "entry_state": "硬币在沈雨桐手中",
+      "outcome": "硬币回到副驾驶座",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场门口",
+      "present": [
+        "沈雨桐",
+        "铁门"
+      ],
+      "driver": "沈雨桐用右手推铁门，门缝渗出寒气",
+      "entry_state": "铁门紧闭",
+      "outcome": "铁门未动，沈雨桐的手背泛起青筋",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场门口",
+      "present": [
+        "沈雨桐",
+        "铁门"
+      ],
+      "driver": "沈雨桐用左手扶住门框，右手指尖擦过锈迹",
+      "entry_state": "铁门未动",
+      "outcome": "铁门边缘有细微划痕，沈雨桐的手套沾上铁锈",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场门口",
+      "present": [
+        "沈雨桐",
+        "铁门"
+      ],
+      "driver": "沈雨桐用脚蹬住门把，铁门发出刺耳摩擦声",
+      "entry_state": "铁门有划痕",
+      "outcome": "铁门被推开一寸，露出门内暗红色铁锈",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "李建国",
+        "记账本"
+      ],
+      "driver": "李建国抽出记账本，翻开第一页",
+      "entry_state": "记账本平放在办公桌上",
+      "outcome": "记账本被李建国抽出并翻开",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "李建国",
+        "记账本"
+      ],
+      "driver": "李建国用左手捏住记账本边缘，翻到中间页",
+      "entry_state": "记账本被翻开第一页",
+      "outcome": "记账本被翻到中间页，纸张略有褶皱",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "李建国",
+        "记账本"
+      ],
+      "driver": "李建国将记账本合上，塞回抽屉",
+      "entry_state": "记账本被翻到中间页",
+      "outcome": "记账本被合上并放回抽屉",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "便利店",
+      "present": [
+        "小林",
+        "便利店钥匙"
+      ],
+      "driver": "小林用左手插入锁孔转动钥匙",
+      "entry_state": "便利店钥匙在锁孔中转动",
+      "outcome": "便利店钥匙插入锁孔并转动",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "监控室",
+      "present": [
+        "小林",
+        "便利店钥匙"
+      ],
+      "driver": "小林将钥匙插入监控室门锁并拧开",
+      "entry_state": "便利店钥匙在监控室门锁中",
+      "outcome": "便利店钥匙拧开监控室门锁",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "加油区",
+      "present": [
+        "陈浩",
+        "油枪"
+      ],
+      "driver": "陈浩将油枪插入油箱",
+      "entry_state": "油枪插入油箱",
+      "outcome": "油枪开始抽油",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "加油区",
+      "present": [
+        "陈浩",
+        "油枪"
+      ],
+      "driver": "陈浩迅速拔出油枪塞进工具包",
+      "entry_state": "油枪被塞进工具包",
+      "outcome": "油枪消失在工具包中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "加油区",
+      "present": [
+        "陈浩"
+      ],
+      "driver": "陈浩戴上帽子，踩上摩托车后座",
+      "entry_state": "油枪在工具包中",
+      "outcome": "陈浩骑车驶离加油区",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "监控室",
+      "present": [
+        "老张",
+        "对讲机"
+      ],
+      "driver": "老张将对讲机贴在耳边呼叫巡逻车",
+      "entry_state": "对讲机在老张手中",
+      "outcome": "对讲机发出刺耳的蜂鸣声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "监控室",
+      "present": [
+        "老张",
+        "对讲机"
+      ],
+      "driver": "老张把对讲机放在桌上，转身走向门口",
+      "entry_state": "对讲机在桌上",
+      "outcome": "对讲机屏幕闪烁红光",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "监控室",
+      "present": [
+        "老张",
+        "对讲机"
+      ],
+      "driver": "老张拿起对讲机砸向监控屏幕",
+      "entry_state": "对讲机在老张手中",
+      "outcome": "对讲机外壳裂开，屏幕碎裂",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "监控室",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "小林将钥匙插入锁孔，打开监控室门",
+      "entry_state": "监控屏幕处于关闭状态",
+      "outcome": "监控屏幕亮起，显示黑色轿车",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "监控室",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "老张夺过遥控器，调低屏幕亮度",
+      "entry_state": "监控屏幕亮度较高",
+      "outcome": "监控屏幕亮度降低，画面模糊",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "监控室",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "小林按下回放键，屏幕切换至凌晨三点画面",
+      "entry_state": "监控屏幕显示当前画面",
+      "outcome": "监控屏幕显示凌晨三点的黑色轿车",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "便利店",
+      "present": [
+        "小林",
+        "便利店收银机"
+      ],
+      "driver": "小林用左手按住收银机侧面的按钮",
+      "entry_state": "收银机屏幕显示着便利店的营业时间",
+      "outcome": "收银机屏幕切换成监控画面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店",
+      "present": [
+        "小林",
+        "便利店收银机"
+      ],
+      "driver": "小林右手滑动屏幕，放大画面角落的车牌",
+      "entry_state": "收银机屏幕显示着监控画面",
+      "outcome": "收银机屏幕右下角出现一串数字",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店",
+      "present": [
+        "小林",
+        "便利店收银机"
+      ],
+      "driver": "小林将便利店收银机推到墙边，转身离开",
+      "entry_state": "收银机屏幕右下角出现一串数字",
+      "outcome": "便利店收银机被移动到墙边",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "加油区",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "小林将便利店钥匙插进油箱盖缝隙",
+      "entry_state": "油箱盖紧闭",
+      "outcome": "油箱盖被撬开，露出锈迹斑斑的金属表面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "加油区",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "老张用脚踩住油箱边缘，阻止小林靠近",
+      "entry_state": "油箱盖被撬开",
+      "outcome": "油箱边缘被踩出凹痕，油箱盖仍保持开启状态",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "加油区",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "小林用左手扶住油箱，右手将油枪插入油箱口",
+      "entry_state": "油箱边缘被踩出凹痕",
+      "outcome": "油箱口被油枪堵住，油箱内传出细微的滴答声",
+      "target_chars": 527
+    }
+  ]
+}

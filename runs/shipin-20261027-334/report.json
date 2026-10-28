@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-334",
+  "profile": "视频分镜",
+  "title": "硬币密码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5840,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5318,
+    "chapter_chars_mean": 886,
+    "chapter_chars_median": 945,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 30.8,
+    "dialogue_chars_pct": 10.8,
+    "dialogue_para_pct": 34.3,
+    "interiority_para_pct": 1.9,
+    "narration_para_pct": 63.8,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "捡起硬币的清晨",
+      "chars": 614,
+      "score": 37.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摩挲硬币的清晨",
+      "chars": 1045,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "回放硬币的时刻",
+      "chars": 932,
+      "score": 23.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "摩挲钥匙串的清晨",
+      "chars": 1109,
+      "score": 95.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "摩挲停车牌的清晨",
+      "chars": 964,
+      "score": 59.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲硬币的清晨",
+      "chars": 1170,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 7.1 高于目标 6.0",
+      "[observe] 章节过短 571 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 标题与《捡起硬币的清晨》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "dialogue_chars_pct 4.0 低于目标 5.0",
+      "narration_para_pct 94.4 高于目标 90.0",
+      "[observe] 章节过短 721 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "narration_para_pct 28.6 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0",
+      "[observe] 标题与《摩挲硬币的清晨》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 标题与《摩挲硬币的清晨》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "dialogue_chars_pct 4.5 低于目标 5.0",
+      "[observe] 标题重复：「摩挲硬币的清晨」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 122.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:13:38"
+}

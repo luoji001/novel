@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-41",
+  "profile": "视频分镜",
+  "title": "锁匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6672,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6233,
+    "chapter_chars_mean": 1039,
+    "chapter_chars_median": 1090,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 28.5,
+    "dialogue_chars_pct": 18.0,
+    "dialogue_para_pct": 51.1,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 48.4,
+    "turn_under20_pct": 99.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.2,
+    "attr_adv_pct": 4.6,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "保温杯与钥匙相触",
+      "chars": 762,
+      "score": 94.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "保温杯上的裂痕",
+      "chars": 1083,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙与保温杯相触",
+      "chars": 1303,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "保温杯里的血迹",
+      "chars": 1224,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "纸币上的名字",
+      "chars": 1350,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "保温杯坠入雪地",
+      "chars": 944,
+      "score": 54.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 25.0 低于目标 35.0",
+      "dialogue_run_mean 5 高于目标 4.0"
+    ],
+    "3": [
+      "[observe] 标题与《保温杯与钥匙相触》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「林浩站在」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:18:39"
+}

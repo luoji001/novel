@@ -1,0 +1,117 @@
+{
+  "consistency": "1. 第五章与第六章标题重复为《刀锋贴喉》，存在标题重复问题。  \n2. 第二章提到“因秤杆暗格引发冲突”，但第三章和第四章均未提及“秤杆暗格”这一关键物件，前后不一致。  \n3. 第六章提到“信中鱼鳞与她手腕红绳相连”，但前文从未提及王婶有“手腕红绳”，属于新增信息未提前铺垫。  \n4. 第五章提到“两人在风中达成某种默契”，但前文未有任何铺垫或暗示两人关系有转变，人物立场无理由翻转。",
+  "slug": "shipin-20261027-344",
+  "profile": "视频分镜",
+  "title": "鱼鳞",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5843,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5469,
+    "chapter_chars_mean": 912,
+    "chapter_chars_median": 952,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 24.7,
+    "dialogue_chars_pct": 24.1,
+    "dialogue_para_pct": 60.1,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 38.4,
+    "turn_under20_pct": 98.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.4,
+    "attr_adv_pct": 4.8,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "信纸飘落",
+      "chars": 486,
+      "score": 39.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铁锈暗格",
+      "chars": 1253,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "鱼鳞飞溅",
+      "chars": 1139,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "刀锋贴喉",
+      "chars": 1052,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "刀锋贴喉",
+      "chars": 963,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "刀锋贴喉",
+      "chars": 944,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 444 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 34.5 低于目标 35.0"
+    ],
+    "3": [
+      "narration_para_pct 17.1 低于目标 35.0",
+      "dialogue_run_mean 5.8 高于目标 4.0",
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "5": [
+      "[observe] 标题重复：「刀锋贴喉」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「刀锋贴喉」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:29:25"
+}

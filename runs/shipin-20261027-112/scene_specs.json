@@ -1,0 +1,216 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李娟"
+      ],
+      "driver": "李娟左手攥着病历本，右手握着体温计",
+      "entry_state": "输液椅空着",
+      "outcome": "输液椅被李娟坐上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李娟"
+      ],
+      "driver": "李娟将体温计按在输液椅扶手上",
+      "entry_state": "输液椅被李娟坐上",
+      "outcome": "输液椅扶手被体温计按出凹痕",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "李娟"
+      ],
+      "driver": "周雪梅右手持注射器抵住药瓶",
+      "entry_state": "药瓶静止在护士站桌面",
+      "outcome": "注射器尖端抵住药瓶瓶口",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "李娟"
+      ],
+      "driver": "李娟左手攥着病历本向前伸",
+      "entry_state": "注射器尖端抵住药瓶瓶口",
+      "outcome": "李娟的病历本滑落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "周雪梅",
+        "李娟"
+      ],
+      "driver": "周雪梅左手按住输液椅扶手，注射器移至李娟面前",
+      "entry_state": "李娟的病历本滑落在地",
+      "outcome": "注射器从周雪梅手中移至李娟面前",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "陈志远",
+        "李娟"
+      ],
+      "driver": "陈志远将药瓶举到李娟面前",
+      "entry_state": "药瓶在陈志远手中",
+      "outcome": "药瓶被陈志远举到李娟面前",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "陈志远",
+        "李娟"
+      ],
+      "driver": "陈志远用签字笔敲打药瓶标签",
+      "entry_state": "药瓶在陈志远手中",
+      "outcome": "药瓶标签被敲出裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "药房",
+      "present": [
+        "陈志远",
+        "李娟"
+      ],
+      "driver": "李娟伸手抢过药瓶并攥紧",
+      "entry_state": "药瓶标签有裂痕",
+      "outcome": "药瓶被李娟抢走并攥紧",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李娟",
+        "周雪梅"
+      ],
+      "driver": "李娟伸手抢药瓶，周雪梅用注射器抵住药瓶",
+      "entry_state": "药瓶在周雪梅手中",
+      "outcome": "药瓶被周雪梅按在输液架上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李娟",
+        "周雪梅"
+      ],
+      "driver": "李娟用体温计砸向药瓶，药瓶滚到地上",
+      "entry_state": "药瓶在输液架上",
+      "outcome": "药瓶掉落在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "李娟",
+        "周雪梅"
+      ],
+      "driver": "周雪梅用注射器刺穿药瓶，药水滴落",
+      "entry_state": "药瓶在地上",
+      "outcome": "药水从破裂的药瓶中滴落",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "陈志远",
+        "李娟"
+      ],
+      "driver": "陈志远左手递出药瓶，右手握笔示意",
+      "entry_state": "药瓶在陈志远手中",
+      "outcome": "药瓶被递到李娟面前",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "李娟",
+        "陈志远"
+      ],
+      "driver": "李娟伸手接过药瓶，体温计贴在瓶身",
+      "entry_state": "药瓶在李娟手中",
+      "outcome": "药瓶被李娟握紧",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "药房",
+      "present": [
+        "李娟",
+        "陈志远"
+      ],
+      "driver": "李娟突然松手，药瓶滚落至地面",
+      "entry_state": "药瓶在李娟手中",
+      "outcome": "药瓶掉在地上",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李娟",
+        "周雪梅"
+      ],
+      "driver": "周雪梅用注射器抵住药瓶",
+      "entry_state": "注射器抵住药瓶",
+      "outcome": "注射器尖端抵住药瓶玻璃面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李娟",
+        "周雪梅"
+      ],
+      "driver": "李娟用体温计敲击注射器",
+      "entry_state": "注射器尖端抵住药瓶玻璃面",
+      "outcome": "注射器滑落至周雪梅掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "李娟",
+        "周雪梅"
+      ],
+      "driver": "周雪梅将注射器插入药瓶",
+      "entry_state": "注射器在周雪梅掌心",
+      "outcome": "注射器刺穿药瓶橡胶塞",
+      "target_chars": 527
+    }
+  ]
+}

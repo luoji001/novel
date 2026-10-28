@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-133",
+  "profile": "视频分镜",
+  "title": "皮箱的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6433,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5938,
+    "chapter_chars_mean": 990,
+    "chapter_chars_median": 1054,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 28.5,
+    "dialogue_chars_pct": 21.3,
+    "dialogue_para_pct": 51.1,
+    "interiority_para_pct": 3.8,
+    "narration_para_pct": 45.0,
+    "turn_under20_pct": 94.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记表上的名字",
+      "chars": 553,
+      "score": 38.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙孔的微光",
+      "chars": 1182,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "保温杯的敲击",
+      "chars": 1172,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "保温杯的温度",
+      "chars": 1089,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与登记表",
+      "chars": 1141,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙上的刻痕",
+      "chars": 1290,
+      "score": 27.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 500 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "命中套话收尾句"
+    ],
+    "3": [
+      "narration_para_pct 28.0 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 标题与《保温杯的敲击》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「陈志远的」×3",
+      "interiority_para_pct 12.5 高于目标 6.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:47:22"
+}

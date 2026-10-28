@@ -1,0 +1,71 @@
+[
+  {
+    "no": 1,
+    "title": "鱼箱上的信封",
+    "beat": "早上五点，市场东侧鱼摊：老李用左手握着鱼钩，右手提着塑料秤，把信封从冰台上捞起",
+    "target_chars": 1087,
+    "scale": "short",
+    "must_object": "鱼箱",
+    "speakers": [
+      "老李"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "王婶的旧皮箱",
+    "beat": "早上五点，市场东侧鱼摊：王婶用右肩挎着旧皮箱，把信封按在地上",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "旧皮箱",
+    "speakers": [
+      "王婶"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "小赵的对讲机",
+    "beat": "早上五点，市场东侧鱼摊：小赵用右腕戴的黑色橡胶手套，拿着对讲机喊话让两人放下信封",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "对讲机",
+    "speakers": [
+      "小赵"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "鱼钩与旧皮箱的较量",
+    "beat": "早上五点，市场东侧鱼摊：老李用鱼钩勾住信封往冰台鱼箱上甩，王婶用旧皮箱压住信封往地上按",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "鱼钩",
+    "speakers": [
+      "老李",
+      "王婶"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "信封被夹在鱼箱与旧皮箱之间",
+    "beat": "早上五点，市场东侧鱼摊：信封被夹在鱼箱和旧皮箱之间，无法取出",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "信封",
+    "speakers": [
+      "老李",
+      "王婶"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "信封最终落入冰台鱼箱",
+    "beat": "早上五点，市场东侧鱼摊：信封最终落入冰台鱼箱，被水淹没",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "鱼箱",
+    "speakers": [
+      "老李",
+      "王婶"
+    ]
+  }
+]

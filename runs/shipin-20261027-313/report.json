@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-313",
+  "profile": "视频分镜",
+  "title": "雨靴风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6213,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5768,
+    "chapter_chars_mean": 961,
+    "chapter_chars_median": 1002,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 29.7,
+    "dialogue_chars_pct": 29.7,
+    "dialogue_para_pct": 64.2,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 34.4,
+    "turn_under20_pct": 95.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "桶中水映旧靴",
+      "chars": 666,
+      "score": 38.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "纸条上的数字",
+      "chars": 881,
+      "score": 22.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙转动的刹那",
+      "chars": 1246,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "靴子与水桶对峙",
+      "chars": 1260,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "水桶撞向铁门",
+      "chars": 943,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "水痕下的纸条",
+      "chars": 1211,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「水缓缓流出，在台阶上汇成一个小坑，映出她的脸…」）"
+    ],
+    "2": [
+      "[observe] 章节过短 837 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈秀兰的」×5",
+      "interiority_para_pct 6.9 高于目标 6.0",
+      "narration_para_pct 20.7 低于目标 35.0"
+    ],
+    "4": [
+      "narration_para_pct 31.1 低于目标 35.0",
+      "dialogue_run_mean 5.2 高于目标 4.0"
+    ],
+    "5": [
+      "narration_para_pct 32.3 低于目标 35.0"
+    ],
+    "6": [
+      "narration_para_pct 25.0 低于目标 35.0",
+      "dialogue_run_mean 4.8 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 131.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:40:42"
+}

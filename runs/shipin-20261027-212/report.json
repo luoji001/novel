@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-212",
+  "profile": "视频分镜",
+  "title": "铜镜风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6482,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6022,
+    "chapter_chars_mean": 1004,
+    "chapter_chars_median": 1106,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 31,
+    "dialogue_chars_pct": 20.8,
+    "dialogue_para_pct": 48.4,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 50.6,
+    "turn_under20_pct": 95.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜质推子震颤",
+      "chars": 474,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "铜推子轻颤",
+      "chars": 1317,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "铜质推子争夺",
+      "chars": 1080,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铜推子争夺",
+      "chars": 1237,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "镜子裂痕映心肠",
+      "chars": 1170,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "镜子裂痕",
+      "chars": 1198,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 4.5 低于目标 5.0",
+      "narration_para_pct 90.5 高于目标 90.0",
+      "[observe] 章节过短 418 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李师傅的」×4、「老张站在」×3",
+      "narration_para_pct 16.1 低于目标 35.0",
+      "dialogue_run_mean 6.5 高于目标 4.0",
+      "[observe] 标题与《铜质推子震颤》近似 0.73 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 标题与《铜质推子震颤》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 标题与《铜质推子争夺》近似 0.91 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题与《镜子裂痕映心肠》近似 0.73 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 140.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:57:17"
+}

@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-318",
+  "profile": "视频分镜",
+  "title": "钥匙的归宿",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5381,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 4994,
+    "chapter_chars_mean": 832,
+    "chapter_chars_median": 882,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 23.5,
+    "dialogue_chars_pct": 18.2,
+    "dialogue_para_pct": 49.2,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 49.6,
+    "turn_under20_pct": 96.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲钥匙的指尖",
+      "chars": 712,
+      "score": 90.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙卡入锁孔",
+      "chars": 1190,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "账本坠入床底",
+      "chars": 415,
+      "score": 16.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "茶渍晕染的登记表",
+      "chars": 1130,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "徽章贴胸的瞬间",
+      "chars": 880,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙环坠地声",
+      "chars": 1048,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 8.3 高于目标 6.0"
+    ],
+    "2": [
+      "单条套路句式超限：「沈国强的」×3"
+    ],
+    "3": [
+      "dialogue_chars_pct 1.7 低于目标 5.0",
+      "narration_para_pct 94.7 高于目标 90.0",
+      "[observe] 章节过短 363 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "narration_para_pct 25.0 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 章节过短 780 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 125.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:48:36"
+}

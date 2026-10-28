@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-206",
+  "profile": "视频分镜",
+  "title": "铜匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6111,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5727,
+    "chapter_chars_mean": 954,
+    "chapter_chars_median": 998,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 23.7,
+    "dialogue_chars_pct": 23.4,
+    "dialogue_para_pct": 57.5,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 42.5,
+    "turn_under20_pct": 94.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 90.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙板滑落桌面",
+      "chars": 672,
+      "score": 95.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钥匙滑落桌面",
+      "chars": 1114,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "水壶裂痕与钥匙凹痕",
+      "chars": 1069,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙滑落桌面",
+      "chars": 1213,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "房卡边缘的划痕",
+      "chars": 1063,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "擦拭玻璃上的雾气",
+      "chars": 974,
+      "score": 42.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 29.0 低于目标 35.0",
+      "[observe] 标题与《钥匙板滑落桌面》近似 0.92 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 2 句（如「下午三点之后就没客人了…」）"
+    ],
+    "4": [
+      "narration_para_pct 21.7 低于目标 35.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "[observe] 标题重复：「钥匙滑落桌面」已存在"
+    ],
+    "5": [
+      "narration_para_pct 18.2 低于目标 35.0",
+      "dialogue_run_mean 6 高于目标 4.0"
+    ],
+    "6": [
+      "dialogue_chars_pct 0.9 低于目标 5.0",
+      "narration_para_pct 95.2 高于目标 90.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 137.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:47:35"
+}

@@ -1,0 +1,108 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-270",
+  "profile": "视频分镜",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6225,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5768,
+    "chapter_chars_mean": 961,
+    "chapter_chars_median": 1052,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 30,
+    "dialogue_chars_pct": 23.4,
+    "dialogue_para_pct": 58.1,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 41.3,
+    "turn_under20_pct": 97.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钥匙的温度",
+      "chars": 494,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙与锈迹的对话",
+      "chars": 1191,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "扫码与锈迹对话",
+      "chars": 1061,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "钥匙转动的瞬间",
+      "chars": 1091,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "铜币落铁架",
+      "chars": 1170,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "船票上的日期",
+      "chars": 1212,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 446 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 20.8 低于目标 35.0",
+      "dialogue_run_mean 4.8 高于目标 4.0",
+      "[observe] 标题与《钥匙与锈迹的对话》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:29:48"
+}

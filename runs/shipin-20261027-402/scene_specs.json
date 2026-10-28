@@ -1,0 +1,223 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "前台",
+      "present": [
+        "林晓雨",
+        "铜钥匙"
+      ],
+      "driver": "林晓雨左手按住钥匙，右手推搡老张",
+      "entry_state": "铜钥匙在林晓雨手中",
+      "outcome": "铜钥匙从林晓雨手中滑落至柜台",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "前台",
+      "present": [
+        "林晓雨",
+        "铜钥匙",
+        "老张"
+      ],
+      "driver": "老张右手抓住钥匙，左手按住柜台",
+      "entry_state": "铜钥匙在老张手中",
+      "outcome": "铜钥匙被老张握紧，林晓雨后退一步",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "保安室",
+      "present": [
+        "陈建国",
+        "林晓雨"
+      ],
+      "driver": "陈建国将房卡推到林晓雨面前",
+      "entry_state": "房卡在陈建国手中",
+      "outcome": "房卡被林晓雨接住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "保安室",
+      "present": [
+        "陈建国",
+        "林晓雨"
+      ],
+      "driver": "林晓雨将房卡夹进登记簿",
+      "entry_state": "房卡在林晓雨手中",
+      "outcome": "房卡被夹入登记簿",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "保安室",
+      "present": [
+        "陈建国",
+        "林晓雨"
+      ],
+      "driver": "陈建国夺回房卡摔在地上",
+      "entry_state": "房卡在林晓雨手中",
+      "outcome": "房卡被陈建国摔在地上",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "客房走廊",
+      "present": [
+        "林晓雨",
+        "陈建国"
+      ],
+      "driver": "林晓雨将便签纸贴在钥匙上",
+      "entry_state": "便签纸贴在钥匙上",
+      "outcome": "便签纸被陈建国撕下半张",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "客房走廊",
+      "present": [
+        "林晓雨",
+        "陈建国"
+      ],
+      "driver": "陈建国将半张便签纸揉成团",
+      "entry_state": "便签纸被揉成团",
+      "outcome": "便签纸掉落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "客房走廊",
+      "present": [
+        "林晓雨",
+        "陈建国"
+      ],
+      "driver": "林晓雨弯腰捡起便签纸",
+      "entry_state": "便签纸掉落在地",
+      "outcome": "便签纸回到林晓雨手中",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "办公室",
+      "present": [
+        "周美玲",
+        "林晓雨",
+        "陈建国"
+      ],
+      "driver": "周美玲将登记簿推到桌边",
+      "entry_state": "登记簿在周美玲手中",
+      "outcome": "登记簿滑到桌面中央",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "办公室",
+      "present": [
+        "周美玲",
+        "林晓雨",
+        "陈建国"
+      ],
+      "driver": "林晓雨用手指翻开登记簿第37页",
+      "entry_state": "登记簿在桌面中央",
+      "outcome": "登记簿第37页被手指掀开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "办公室",
+      "present": [
+        "周美玲",
+        "林晓雨",
+        "陈建国"
+      ],
+      "driver": "陈建国用右手按住登记簿封面",
+      "entry_state": "登记簿第37页被掀开",
+      "outcome": "登记簿被按住无法翻页",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "前台",
+      "present": [
+        "林晓雨",
+        "铜钥匙"
+      ],
+      "driver": "林晓雨左手按住钥匙，右手推搡老张",
+      "entry_state": "铜钥匙在林晓雨手中",
+      "outcome": "铜钥匙被林晓雨握紧",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "前台",
+      "present": [
+        "林晓雨",
+        "铜钥匙"
+      ],
+      "driver": "林晓雨将钥匙放在柜台，转身走向保安室",
+      "entry_state": "铜钥匙在林晓雨手中",
+      "outcome": "铜钥匙被放在前台柜台",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "保安室",
+      "present": [
+        "林晓雨",
+        "陈建国",
+        "铜钥匙"
+      ],
+      "driver": "陈建国抓住钥匙，林晓雨试图夺回",
+      "entry_state": "铜钥匙在前台柜台",
+      "outcome": "铜钥匙被陈建国握在手中",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "保安室",
+      "present": [
+        "陈建国",
+        "林晓雨"
+      ],
+      "driver": "陈建国将登记簿推到林晓雨面前",
+      "entry_state": "登记簿躺在陈建国桌上",
+      "outcome": "登记簿移至林晓雨手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "保安室",
+      "present": [
+        "陈建国",
+        "林晓雨"
+      ],
+      "driver": "林晓雨用指甲划过登记簿第37页",
+      "entry_state": "登记簿在林晓雨手中",
+      "outcome": "登记簿第37页被划出一道浅痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "保安室",
+      "present": [
+        "陈建国",
+        "林晓雨"
+      ],
+      "driver": "林晓雨将登记簿合上夹进制服口袋",
+      "entry_state": "登记簿在林晓雨手中",
+      "outcome": "登记簿消失在林晓雨口袋",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "consistency": "1. 第一章与第四章、第六章重复描述李建国在教练车副驾驶座发现硬币的情节，属于内容重复，可能造成读者混淆。  \n2. 第二章与第五章均提到林小满在休息室进行试探性动作，但未明确说明两者是否为同一事件或不同时间点发生，存在时间线不清晰的问题。  \n3. 第四章提到李建国遭遇神秘人对峙，揭示与他身份和过往有关的秘密，但前文未提及李建国有特殊身份或过往，导致人物动机突兀。  \n4. 第三章提到陈志强发现记账本上的异常凹陷，但未说明该凹陷与硬币或其它情节的关联，导致线索断裂。  \n5. 第六章再次出现“硬币贴在耳边倾听”的描述，与第一章、第四章重复，造成情节重复，影响叙事连贯性。",
+  "slug": "shipin-20261027-152",
+  "profile": "视频分镜",
+  "title": "硬币风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6234,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5736,
+    "chapter_chars_mean": 956,
+    "chapter_chars_median": 937,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 33,
+    "dialogue_chars_pct": 11.2,
+    "dialogue_para_pct": 31.6,
+    "interiority_para_pct": 2.5,
+    "narration_para_pct": 65.9,
+    "turn_under20_pct": 97.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 57.4,
+    "attr_adv_pct": 6.4,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.2,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币贴在耳边倾听",
+      "chars": 608,
+      "score": 20.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "椅子轻移半步",
+      "chars": 965,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "钢笔敲击记账本",
+      "chars": 949,
+      "score": 53.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "硬币贴在耳边倾听",
+      "chars": 1256,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "钥匙串绕过椅子",
+      "chars": 1343,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "硬币贴在耳边倾听",
+      "chars": 1107,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 540 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "interiority_para_pct 6.1 高于目标 6.0",
+      "[observe] 章内自我复读 2 句（如「阳光从窗户斜射进来，照在他脸上，露出一道若隐若现…」）",
+      "[observe] 标题重复：「硬币贴在耳边倾听」已存在"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「硬币贴在耳边倾听」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:17:38"
+}

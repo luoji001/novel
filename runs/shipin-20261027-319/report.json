@@ -1,0 +1,117 @@
+{
+  "consistency": "1. 第一章提到老周“锁上铁盒离开空荡的放映室”，但第六章提到老周“带着铁盒与镇长对峙”，说明铁盒在第一章后并未被锁上或遗失，存在前后矛盾。\n\n2. 第三章提到老周“选择留下”，但第六章提到老周“带着铁盒与镇长对峙”，说明老周在第三章后并未真正留下，存在立场变化无明确交代。\n\n3. 第四章提到“小林与他一同探寻其中的秘密”，但第三章未提及小林出现，且小林在第五章才被提及，存在人物出场时间线错乱。",
+  "slug": "shipin-20261027-319",
+  "profile": "视频分镜",
+  "title": "胶片的归宿",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5186,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 4695,
+    "chapter_chars_mean": 782,
+    "chapter_chars_median": 816,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 29.8,
+    "dialogue_chars_pct": 18.3,
+    "dialogue_para_pct": 38.4,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 60.5,
+    "turn_under20_pct": 91.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 37.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "贴标签",
+      "chars": 325,
+      "score": 18.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "钥匙与铁盒",
+      "chars": 1029,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "红布条划过夕阳",
+      "chars": 1239,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "放映机的光痕",
+      "chars": 795,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与胶片",
+      "chars": 1036,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "铁盒坠地碎 glass",
+      "chars": 756,
+      "score": 15.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 263 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章节过短 737 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "[observe] 标题与《钥匙与铁盒》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 97.1 高于目标 90.0",
+      "[observe] 章节过短 669 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 122.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:50:09"
+}

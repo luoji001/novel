@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-379",
+  "profile": "视频分镜",
+  "title": "蛇皮袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6991,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6529,
+    "chapter_chars_mean": 1088,
+    "chapter_chars_median": 1132,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 30,
+    "dialogue_chars_pct": 18.5,
+    "dialogue_para_pct": 51.8,
+    "interiority_para_pct": 3.1,
+    "narration_para_pct": 45.1,
+    "turn_under20_pct": 99.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "蛇皮袋在两人间晃荡",
+      "chars": 709,
+      "score": 95.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "水壶砸碎玻璃窗",
+      "chars": 1418,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙串撞碎玻璃窗",
+      "chars": 1162,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "笔记本压在香烟下",
+      "chars": 1110,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "香烟坠入尘埃中",
+      "chars": 1355,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "铁皮饭盒敲响地面",
+      "chars": 1231,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "interiority_para_pct 6.4 高于目标 6.0",
+      "[observe] 章内自我复读 1 句（如「李建国没有回应，只是低头看着自己沾满泥污的手，像…」）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 4 句（如「他向前走了一步，背影有些佝偻，却依然保持着一种固…」）"
+    ],
+    "4": [
+      "interiority_para_pct 8.3 高于目标 6.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:23:13"
+}

@@ -1,0 +1,115 @@
+{
+  "consistency": "1. 第一章和第五章都名为《数零钱》，但内容和人物不同，存在标题重复但内容不一致的问题。  \n2. 第六章提到“铁皮秤被调包”，但前文（第二章、第四章）只提到陈阿婆使用铁皮秤称粉，并未提及秤具被调包的情节，前后缺乏铺垫。  \n3. 第五章提到“墙上写着欢迎光临的标语”，但前文未有相关描写，属于突然出现的细节，缺乏铺垫。  \n4. 第三章提到“二维码贴纸断裂声”，但前文未提及陈阿婆使用二维码贴纸，属于突然引入的新元素，缺乏铺垫。  \n5. 第六章提到“蓝帽男子”，但前文未有此人出现，属于突然引入的新角色，缺乏铺垫。",
+  "slug": "shipin-20261027-171",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6207,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5741,
+    "chapter_chars_mean": 957,
+    "chapter_chars_median": 1062,
+    "chapter_chars_cv": 0.41,
+    "paragraphs_mean": 31.5,
+    "dialogue_chars_pct": 18.4,
+    "dialogue_para_pct": 49.1,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 50.4,
+    "turn_under20_pct": 92.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 10.0,
+    "attr_adv_pct": 4.1,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "数零钱",
+      "chars": 275,
+      "score": 33.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "铁皮秤上的刻度线",
+      "chars": 912,
+      "score": 37.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "二维码贴纸断裂声",
+      "chars": 1374,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "称粉",
+      "chars": 1355,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "数零钱",
+      "chars": 1079,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铁皮秤上的数字停住",
+      "chars": 1206,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 246 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 2 句（如「老李，帮我看看有没有缺货…」）",
+      "[observe] 章节过短 804 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "[observe] 标题重复：「数零钱」已存在"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 141.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:48:22"
+}

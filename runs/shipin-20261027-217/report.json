@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 李国强主张用右手按住皮箱拉杆，但第三章提到他试图用红色钥匙打开铁门，未提及皮箱拉杆的使用。  \n2. 陈师傅主张用左手扶住登记簿，但第二章提到他发现登记簿上的空白页，未提及左手扶住登记簿的具体动作。  \n3. 火车站行李寄存处主张保持铁门紧闭状态，但第一章提到李国强试图打开铁门，且第五章提到李国强在第三候车厅发现箱子，暗示铁门可能未完全紧闭。  \n4. 第三候车厅主张维持铁门紧闭状态，但第五章提到李国强在第三候车厅发现箱子，暗示铁门可能未完全紧闭。  \n5. 第二章提到陈师傅发现三年前寄存的箱子，但第三章提到李国强试图取回三年前寄存的箱子，却被告知箱子早已不属于他，前后对“三年前寄存的箱子”归属存在矛盾。  \n6. 第五章提到李国强在第三候车厅发现一个与自己寄存三年的箱子一模一样的箱子，但第六章提到他回到火车站取回寄存的箱子，暗示箱子可能不止一个，但未明确交代箱子数量变化。  \n7. 第六章提到李国强出示旧照才解开谜团，但前文未提及旧照的存在或相关线索。",
+  "slug": "shipin-20261027-217",
+  "profile": "视频分镜",
+  "title": "蓝箱",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6824,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6391,
+    "chapter_chars_mean": 1065,
+    "chapter_chars_median": 1134,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 28.7,
+    "dialogue_chars_pct": 20.4,
+    "dialogue_para_pct": 49.8,
+    "interiority_para_pct": 0.9,
+    "narration_para_pct": 49.3,
+    "turn_under20_pct": 92.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.9,
+    "attr_adv_pct": 6.8,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "推门无果",
+      "chars": 649,
+      "score": 15.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "登记簿上的空白页",
+      "chars": 1192,
+      "score": 96.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "钥匙在锁孔颤动",
+      "chars": 1285,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "钥匙卡进锁孔",
+      "chars": 1166,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "箱子上的指纹",
+      "chars": 1325,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铁门轻颤",
+      "chars": 1201,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 573 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 章内自我复读 1 句（如「他站起身，眉头皱得更紧了些…」）",
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ],
+    "4": [
+      "[observe] 标题与《钥匙在锁孔颤动》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈师傅的」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:05:18"
+}

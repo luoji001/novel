@@ -1,0 +1,226 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "冰台",
+      "present": [
+        "老张",
+        "鱼箱"
+      ],
+      "driver": "老张用鱼刀割开鱼箱底部塑料布",
+      "entry_state": "鱼箱底部塑料布被割开",
+      "outcome": "鱼箱底部塑料布被割开",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "冰台",
+      "present": [
+        "老张",
+        "鱼箱"
+      ],
+      "driver": "老张将鱼箱翻转露出信封",
+      "entry_state": "鱼箱底部塑料布被割开",
+      "outcome": "鱼箱翻转露出信封",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老张",
+        "李婶",
+        "鱼箱"
+      ],
+      "driver": "李婶用脚踢鱼箱侧面，箱盖微微弹起",
+      "entry_state": "鱼箱静止在冰台上，未被触碰",
+      "outcome": "鱼箱侧边被踢出一道裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老张",
+        "李婶",
+        "鱼箱"
+      ],
+      "driver": "老张用鱼刀划开鱼箱底部塑料布，露出内层",
+      "entry_state": "鱼箱侧边有裂痕，箱盖弹起",
+      "outcome": "鱼箱底部塑料布被割开，露出内部",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老张",
+        "李婶",
+        "鱼箱"
+      ],
+      "driver": "李婶伸手探入鱼箱，摸到信的边缘",
+      "entry_state": "鱼箱底部塑料布被割开，露出内部",
+      "outcome": "鱼箱内部被李婶的手探入，信被触碰",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老张",
+        "李婶"
+      ],
+      "driver": "老张将鱼秤压在鱼箱边缘",
+      "entry_state": "鱼秤压在鱼箱边缘",
+      "outcome": "鱼秤边缘沾着冰碴",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老张",
+        "李婶"
+      ],
+      "driver": "李婶用竹篮接住掉落的鱼",
+      "entry_state": "鱼秤边缘沾着冰碴",
+      "outcome": "鱼秤滑落至冰台表面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老张",
+        "李婶"
+      ],
+      "driver": "老张用鱼刀挑起鱼秤",
+      "entry_state": "鱼秤滑落至冰台表面",
+      "outcome": "鱼秤被鱼刀挑起并悬空",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "市场管理员办公室",
+      "present": [
+        "陈主任",
+        "老张",
+        "李婶"
+      ],
+      "driver": "陈主任用皮尺量鱼箱底部",
+      "entry_state": "皮尺平放在桌面，未被触碰",
+      "outcome": "皮尺被陈主任拿起，开始丈量鱼箱",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "市场管理员办公室",
+      "present": [
+        "陈主任",
+        "老张",
+        "李婶"
+      ],
+      "driver": "老张用鱼刀割开鱼箱塑料布",
+      "entry_state": "皮尺在陈主任手中，测量中",
+      "outcome": "皮尺掉落在地，被李婶捡起",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "市场管理员办公室",
+      "present": [
+        "陈主任",
+        "老张",
+        "李婶"
+      ],
+      "driver": "李婶用皮尺量鱼箱高度",
+      "entry_state": "皮尺在李婶手中，沾有鱼腥味",
+      "outcome": "皮尺被陈主任夺回，重新放回桌面",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "鱼摊前",
+      "present": [
+        "老张",
+        "李婶",
+        "陈主任"
+      ],
+      "driver": "老张用鱼刀割开鱼箱底部塑料布",
+      "entry_state": "信夹在鱼箱底部",
+      "outcome": "信被露出一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊前",
+      "present": [
+        "老张",
+        "李婶"
+      ],
+      "driver": "李婶用脚踢鱼箱掀开盖子",
+      "entry_state": "信被露出一角",
+      "outcome": "信掉落在冰台上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊前",
+      "present": [
+        "老张",
+        "李婶",
+        "陈主任"
+      ],
+      "driver": "陈主任用皮尺丈量信封尺寸",
+      "entry_state": "信掉落在冰台上",
+      "outcome": "信被陈主任捡起",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "冰台",
+      "present": [
+        "老张",
+        "李婶",
+        "陈主任"
+      ],
+      "driver": "老张用鱼刀割开鱼箱底部塑料布",
+      "entry_state": "冰台边缘有鱼箱碎片",
+      "outcome": "鱼箱底部塑料布被割破，露出信",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "冰台",
+      "present": [
+        "李婶",
+        "陈主任"
+      ],
+      "driver": "李婶用脚踢鱼箱，冰台边缘出现凹痕",
+      "entry_state": "鱼箱底部塑料布被割破，露出信",
+      "outcome": "冰台边缘凹陷，鱼箱倾斜",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "冰台",
+      "present": [
+        "陈主任"
+      ],
+      "driver": "陈主任用皮尺丈量鱼箱，冰台表面留下刻痕",
+      "entry_state": "冰台边缘凹陷，鱼箱倾斜",
+      "outcome": "冰台表面有刻痕，鱼箱被固定",
+      "target_chars": 527
+    }
+  ]
+}

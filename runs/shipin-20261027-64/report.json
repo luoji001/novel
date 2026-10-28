@@ -1,0 +1,113 @@
+{
+  "consistency": "1. 第二章提到“信的内容竟与老张的账单有关”，但第四章提到“信件竟是李婶儿子所写”，两者信件来源和内容不一致，存在矛盾。\n\n2. 第六章提到“信件落入李婶手中”，但第五章提到“老张决定归还信件”，前后信件归属不一致，存在矛盾。",
+  "slug": "shipin-20261027-64",
+  "profile": "视频分镜",
+  "title": "冰台",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6619,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6096,
+    "chapter_chars_mean": 1016,
+    "chapter_chars_median": 1063,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 36.7,
+    "dialogue_chars_pct": 18.6,
+    "dialogue_para_pct": 43.5,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 55.0,
+    "turn_under20_pct": 99.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 72.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "冰台碎裂",
+      "chars": 551,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铁秤与信纸",
+      "chars": 1049,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "冰台划痕",
+      "chars": 1105,
+      "score": 39.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "鱼肚里的信笺",
+      "chars": 1394,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "信纸轻触冰台",
+      "chars": 1307,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "信纸飘落",
+      "chars": 1207,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 495 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "dialogue_chars_pct 2.3 低于目标 5.0",
+      "narration_para_pct 95.7 高于目标 90.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「老张的手指无意识地摩挲着秤台边缘，那里留有一道浅…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「老张站在」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:55:26"
+}

@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-165",
+  "profile": "视频分镜",
+  "title": "胶片",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6823,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6413,
+    "chapter_chars_mean": 1069,
+    "chapter_chars_median": 1147,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 26.7,
+    "dialogue_chars_pct": 25.3,
+    "dialogue_para_pct": 51.3,
+    "interiority_para_pct": 2.5,
+    "narration_para_pct": 46.2,
+    "turn_under20_pct": 84.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 47.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.7,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "抚摸铜耳环",
+      "chars": 523,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "触碰放映机裂痕",
+      "chars": 1378,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "触碰放映机裂痕",
+      "chars": 1136,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "触碰放映机裂痕",
+      "chars": 1366,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "擦拭螺丝刀",
+      "chars": 1229,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "触碰铜耳环",
+      "chars": 1185,
+      "score": 7.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 486 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "[observe] 标题重复：「触碰放映机裂痕」已存在"
+    ],
+    "4": [
+      "[observe] 标题重复：「触碰放映机裂痕」已存在"
+    ],
+    "6": [
+      "interiority_para_pct 14.3 高于目标 6.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "[observe] 标题与《抚摸铜耳环》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 130.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:38:30"
+}

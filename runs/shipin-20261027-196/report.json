@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-196",
+  "profile": "视频分镜",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6753,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6270,
+    "chapter_chars_mean": 1045,
+    "chapter_chars_median": 1142,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 31.3,
+    "dialogue_chars_pct": 17.3,
+    "dialogue_para_pct": 47.4,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 52.6,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 45.6,
+    "attr_adv_pct": 3.8,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶与红袖章",
+      "chars": 618,
+      "score": 38.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "挂号单撕开褶痕",
+      "chars": 1115,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "登记本擦过手背",
+      "chars": 1252,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "药瓶与红袖章",
+      "chars": 1273,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "耳环坠入药瓶光影",
+      "chars": 1216,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "登记本侧的凹槽",
+      "chars": 1273,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李秀兰的」×4",
+      "[observe] 章节过短 576 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「王春梅的」×4"
+    ],
+    "3": [
+      "单条套路句式超限：「李秀兰的」×3"
+    ],
+    "4": [
+      "narration_para_pct 34.4 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「你女儿的名字是张小红？…」）",
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「药瓶与红袖章」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「王春梅的」×3",
+      "[observe] 章内自我复读 2 句（如「李秀兰听见这句话，身形猛地向前冲了半步，撞得铁皮…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「李秀兰的」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 146.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:27:54"
+}

@@ -1,0 +1,223 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张用布满老茧的手擦拭放映机镜头",
+      "entry_state": "放映机镜头被擦拭得发亮",
+      "outcome": "放映机镜头恢复光泽",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老张将贴标签的胶片放入胶片槽",
+      "entry_state": "胶片被放入胶片槽",
+      "outcome": "胶片槽内出现一盘贴标签的胶片",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "售票厅",
+      "present": [
+        "周国强",
+        "放映机"
+      ],
+      "driver": "周国强举起公文包走向放映机",
+      "entry_state": "公文包在周国强手中",
+      "outcome": "公文包靠近放映机",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票厅",
+      "present": [
+        "周国强",
+        "公文包",
+        "放映机"
+      ],
+      "driver": "周国强用公文包砸向放映机",
+      "entry_state": "公文包靠近放映机",
+      "outcome": "公文包砸向放映机",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票厅",
+      "present": [
+        "周国强",
+        "公文包",
+        "放映机"
+      ],
+      "driver": "周国强捡起公文包，金属扣掉落",
+      "entry_state": "公文包砸向放映机",
+      "outcome": "公文包金属扣掉落",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "观众席",
+      "present": [
+        "林小雨",
+        "旧票务登记本"
+      ],
+      "driver": "林小雨将泛黄电影票塞入登记本缝隙",
+      "entry_state": "登记本静止在座位下方",
+      "outcome": "登记本纸页被压出褶皱",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "观众席",
+      "present": [
+        "林小雨",
+        "旧票务登记本"
+      ],
+      "driver": "林小雨用蓝布衫角擦拭登记本边缘",
+      "entry_state": "登记本纸页有轻微褶皱",
+      "outcome": "登记本表面沾染布料纤维",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "观众席",
+      "present": [
+        "林小雨",
+        "旧票务登记本"
+      ],
+      "driver": "林小雨将登记本夹进蓝布衫内袋",
+      "entry_state": "登记本表面沾染布料纤维",
+      "outcome": "登记本被收进林小雨衣物",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "铜制耳环",
+        "胶片"
+      ],
+      "driver": "老张摘下左耳铜制耳环擦拭",
+      "entry_state": "铜制耳环在老张耳上",
+      "outcome": "铜制耳环被摘下并擦拭",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "铜制耳环",
+        "胶片"
+      ],
+      "driver": "老张将铜制耳环放在放映机上",
+      "entry_state": "铜制耳环被摘下并擦拭",
+      "outcome": "铜制耳环被放置在放映机上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "铜制耳环",
+        "胶片"
+      ],
+      "driver": "老张用铜制耳环刮擦胶片标签",
+      "entry_state": "铜制耳环被放置在放映机上",
+      "outcome": "铜制耳环刮擦胶片标签",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "观众席",
+      "present": [
+        "林小雨"
+      ],
+      "driver": "林小雨将蓝布衫搭在椅背，褶皱随动作展开",
+      "entry_state": "蓝布衫搭在椅背上，褶皱展开",
+      "outcome": "蓝布衫在椅背上，褶皱清晰可见",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "观众席",
+      "present": [
+        "林小雨",
+        "老张"
+      ],
+      "driver": "林小雨将蓝布衫递向老张，衣袖露出磨损痕迹",
+      "entry_state": "蓝布衫在老张手中，衣袖磨损",
+      "outcome": "蓝布衫在老张手中，衣袖磨损",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "观众席",
+      "present": [
+        "林小雨",
+        "老张"
+      ],
+      "driver": "林小雨将蓝布衫塞入老张怀中，衣角被攥皱",
+      "entry_state": "蓝布衫在老张怀中，衣角被攥皱",
+      "outcome": "蓝布衫在老张怀中，衣角被攥皱",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张用布满老茧的手反复擦拭放映机镜头",
+      "entry_state": "放映机镜头蒙尘",
+      "outcome": "放映机镜头恢复清晰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张将胶片插入放映机槽口",
+      "entry_state": "放映机镜头清晰",
+      "outcome": "胶片开始缓缓转动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张按下启动键，光束投射在墙上",
+      "entry_state": "胶片缓缓转动",
+      "outcome": "光束在墙上形成模糊画面",
+      "target_chars": 527
+    }
+  ]
+}

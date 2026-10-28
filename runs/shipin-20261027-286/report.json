@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第一章和第六章均名为《应急灯的归属》，但内容不一致，存在标题重复但内容不一致的问题。  \n2. 第二章和第六章均名为《应急灯的温度》，但内容不一致，存在标题重复但内容不一致的问题。  \n3. 第三章提到“保温杯”，但前文未出现保温杯的相关信息，属于物件未提前交代。  \n4. 第五章提到“书包”，但前文未出现书包的相关信息，属于物件未提前交代。  \n5. 王小满在第一章请求借用应急灯，但未提及母亲生病，而第六章提到“照顾失明母亲”，前后信息不一致。  \n6. 李国强在第一章主张用教鞭敲击讲台，试图让王小满离开教室，但在第二章和第六章却表现出帮助王小满的态度，立场发生无理由翻转。  \n7. 陈秀兰在第三章试图缓和气氛，但前文未提及陈秀兰与王小满或李国强有互动，属于人物出场无铺垫。",
+  "slug": "shipin-20261027-286",
+  "profile": "视频分镜",
+  "title": "灯芯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7153,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6667,
+    "chapter_chars_mean": 1111,
+    "chapter_chars_median": 1129,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 32,
+    "dialogue_chars_pct": 17.5,
+    "dialogue_para_pct": 41.4,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 57.7,
+    "turn_under20_pct": 96.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯的归属",
+      "chars": 675,
+      "score": 93.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "应急灯的温度",
+      "chars": 1155,
+      "score": 59.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "保温杯的归属",
+      "chars": 1223,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "橡皮擦掉最后一道题",
+      "chars": 1277,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "应急灯的归属",
+      "chars": 1622,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "应急灯的温度",
+      "chars": 1195,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「李国强的」×3",
+      "[observe] 标题与《应急灯的归属》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强站在」×3、「王小满的」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「李国强站在」×3、「”王小满低」×3",
+      "narration_para_pct 31.6 低于目标 35.0",
+      "[observe] 标题重复：「应急灯的归属」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「王小满的」×3",
+      "[observe] 标题重复：「应急灯的温度」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 147.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:55:22"
+}

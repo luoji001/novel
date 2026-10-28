@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-378",
+  "profile": "视频分镜",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6046,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5598,
+    "chapter_chars_mean": 933,
+    "chapter_chars_median": 1008,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 29,
+    "dialogue_chars_pct": 21.0,
+    "dialogue_para_pct": 52.3,
+    "interiority_para_pct": 0.9,
+    "narration_para_pct": 46.8,
+    "turn_under20_pct": 97.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.2,
+    "attr_adv_pct": 8.6,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "紧握药瓶的颤抖",
+      "chars": 383,
+      "score": 23.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "红色胸牌的压制",
+      "chars": 1030,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "保温杯与药瓶相碰",
+      "chars": 1013,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "银环与电子秤的碰撞",
+      "chars": 1123,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "红绳与胸牌的对峙",
+      "chars": 1233,
+      "score": 56.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "保温杯撞向药瓶",
+      "chars": 1258,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 344 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 2 句（如「你现在这个样子，比那时候还糟糕…」）"
+    ],
+    "4": [
+      "narration_para_pct 32.1 低于目标 35.0",
+      "[observe] 章内自我复读 1 句（如「女人攥着围裙边缘，脸色发白…」）"
+    ],
+    "6": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 标题与《保温杯与药瓶相碰》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 123.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:21:37"
+}

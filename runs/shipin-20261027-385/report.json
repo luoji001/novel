@@ -1,0 +1,126 @@
+{
+  "consistency": "1. 第二章与第三章均提到“李建国为取父亲遗留的箱子与老张发生争执”，但第三章明确指出“最终发现箱子已被处理”，而第六章却提到“李建国坚持认为箱子属于他”，未交代箱子是否被处理后的后续处理结果，存在逻辑断层。\n\n2. 第四章提到“小刘在广播室按下红色按钮”，但未说明该按钮与李建国、老张或皮箱之间的关联，导致事件动机不明，缺乏合理铺垫。\n\n3. 第五章提到“李建国为夺回父亲遗留的皮箱与寄存处发生冲突”，但未提及之前章节中提到的“钥匙”与“疤痕”是否仍有效，导致人物行为动机不连贯。",
+  "slug": "shipin-20261027-385",
+  "profile": "视频分镜",
+  "title": "皮箱",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6230,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5636,
+    "chapter_chars_mean": 939,
+    "chapter_chars_median": 878,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 39.8,
+    "dialogue_chars_pct": 24.9,
+    "dialogue_para_pct": 42.7,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 55.9,
+    "turn_under20_pct": 95.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 63.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "拉链的重量",
+      "chars": 738,
+      "score": 54.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙与疤痕",
+      "chars": 1117,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙与疤痕",
+      "chars": 1493,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红色按钮",
+      "chars": 945,
+      "score": 15.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "钥匙与锁孔",
+      "chars": 945,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "钥匙与锁孔",
+      "chars": 986,
+      "score": 56.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「李建国的」×6"
+    ],
+    "3": [
+      "单条套路句式超限：「李建国的」×4",
+      "[observe] 标题重复：「钥匙与疤痕」已存在"
+    ],
+    "4": [
+      "dialogue_chars_pct 3.8 低于目标 5.0",
+      "narration_para_pct 93.6 高于目标 90.0",
+      "[observe] 章节过短 806 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国的」×3",
+      "[observe] 章节过短 840 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《钥匙与疤痕》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国的」×5",
+      "narration_para_pct 31.0 低于目标 35.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "[observe] 标题重复：「钥匙与锁孔」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:33:09"
+}

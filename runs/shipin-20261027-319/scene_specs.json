@@ -1,0 +1,220 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "装满胶片的铁盒"
+      ],
+      "driver": "老周打开铁盒，抽出一卷胶片",
+      "entry_state": "铁盒敞开，胶片被抽出",
+      "outcome": "铁盒半开，胶片在手心",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "装满胶片的铁盒"
+      ],
+      "driver": "老周将胶片贴上标签放回铁盒",
+      "entry_state": "胶片在手心",
+      "outcome": "铁盒闭合，胶片贴上标签",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周"
+      ],
+      "driver": "镇长举起文件夹挡住老周去路",
+      "entry_state": "镇长站在门口，文件夹展开",
+      "outcome": "文件夹完全展开，挡住老周去路",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周"
+      ],
+      "driver": "镇长将电影票根夹进文件夹",
+      "entry_state": "文件夹完全展开，挡住老周去路",
+      "outcome": "电影票根被夹入文件夹，不再显眼",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周"
+      ],
+      "driver": "镇长将文件夹扔在地上，票根滑出",
+      "entry_state": "电影票根被夹入文件夹，不再显眼",
+      "outcome": "电影票根滑出文件夹，散落在地",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "镇长"
+      ],
+      "driver": "老周举起红布条，指向铁盒上的标签",
+      "entry_state": "老周握着铁盒，红布条在手中晃动",
+      "outcome": "红布条被老周高高举起，吸引观众注意",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "镇长",
+        "小林"
+      ],
+      "driver": "老周将钥匙抛给小林，钥匙在空中划出弧线",
+      "entry_state": "小林接过钥匙，钥匙表面生锈发亮",
+      "outcome": "小林握着钥匙，钥匙从老周手中脱离",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "观众席",
+      "present": [
+        "老周",
+        "小林"
+      ],
+      "driver": "老周夺回钥匙，钥匙在掌心发出金属摩擦声",
+      "entry_state": "老周紧握钥匙，钥匙表面有细微划痕",
+      "outcome": "老周将钥匙重新握在手中，钥匙状态发生改变",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老式放映机",
+        "小林",
+        "胶片标签"
+      ],
+      "driver": "小林弯腰捡起地上的胶片标签",
+      "entry_state": "小林弯腰捡起地上的胶片标签",
+      "outcome": "胶片标签被小林捡起并握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老式放映机",
+        "小林",
+        "胶片标签"
+      ],
+      "driver": "小林用相机对焦胶片标签",
+      "entry_state": "胶片标签被小林捡起并握在手中",
+      "outcome": "小林用相机对焦胶片标签",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老式放映机",
+        "小林",
+        "胶片标签"
+      ],
+      "driver": "小林按下快门拍摄胶片标签",
+      "entry_state": "小林用相机对焦胶片标签",
+      "outcome": "小林按下快门拍摄胶片标签",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周"
+      ],
+      "driver": "镇长摘下金表链，递给老周",
+      "entry_state": "镇长手中金表链消失",
+      "outcome": "镇长金表链被老周接过",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周"
+      ],
+      "driver": "老周将钥匙放入口袋，钥匙消失",
+      "entry_state": "老周手中钥匙消失",
+      "outcome": "钥匙进入老周口袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周"
+      ],
+      "driver": "镇长弯腰拾起钥匙，钥匙在手中转动",
+      "entry_state": "镇长手中钥匙转动",
+      "outcome": "钥匙被镇长握在手中",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "镇长"
+      ],
+      "driver": "老周抓起铁盒冲向门口",
+      "entry_state": "铁盒在老周手中",
+      "outcome": "铁盒离开放映室",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "观众席",
+      "present": [
+        "老周"
+      ],
+      "driver": "老周将铁盒放在放映机旁",
+      "entry_state": "铁盒在老周手中",
+      "outcome": "铁盒靠近放映机",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "观众席",
+      "present": [
+        "老周"
+      ],
+      "driver": "老周将胶片放入放映机",
+      "entry_state": "铁盒靠近放映机",
+      "outcome": "胶片开始放映",
+      "target_chars": 527
+    }
+  ]
+}

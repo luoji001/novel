@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-297",
+  "profile": "视频分镜",
+  "title": "争码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6961,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6503,
+    "chapter_chars_mean": 1084,
+    "chapter_chars_median": 1061,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 31.5,
+    "dialogue_chars_pct": 21.6,
+    "dialogue_para_pct": 53.7,
+    "interiority_para_pct": 1.6,
+    "narration_para_pct": 44.6,
+    "turn_under20_pct": 91.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.8,
+    "attr_adv_pct": 4.1,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫码之争",
+      "chars": 903,
+      "score": 98.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "撕二维码",
+      "chars": 1236,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "拍打车筐",
+      "chars": 1655,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "撕二维码",
+      "chars": 1385,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "撕二维码",
+      "chars": 1074,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "警报响起时",
+      "chars": 702,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「陈阿婆的」×4",
+      "narration_para_pct 24.1 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "3": [
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "4": [
+      "narration_para_pct 27.0 低于目标 35.0",
+      "[observe] 标题重复：「撕二维码」已存在"
+    ],
+    "5": [
+      "[observe] 标题重复：「撕二维码」已存在"
+    ],
+    "6": [
+      "[observe] 章节过短 659 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:12:26"
+}

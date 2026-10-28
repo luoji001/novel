@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-229",
+  "profile": "视频分镜",
+  "title": "雨靴",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6362,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5910,
+    "chapter_chars_mean": 985,
+    "chapter_chars_median": 1060,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 27.2,
+    "dialogue_chars_pct": 21.1,
+    "dialogue_para_pct": 55.2,
+    "interiority_para_pct": 2.1,
+    "narration_para_pct": 42.6,
+    "turn_under20_pct": 80.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 22.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "争夺雨靴",
+      "chars": 702,
+      "score": 96.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钥匙与雨靴之争",
+      "chars": 1211,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "电费单上的姓名",
+      "chars": 1159,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "红布条的温度",
+      "chars": 1079,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "蹬鞋的动作",
+      "chars": 1320,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "抱靴入怀",
+      "chars": 885,
+      "score": 17.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「张素芬站在」×3"
+    ],
+    "3": [
+      "narration_para_pct 10.5 低于目标 35.0",
+      "dialogue_run_mean 8.5 高于目标 4.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李建国的」×4",
+      "[observe] 章内自我复读 1 句（如「你……你怎么知道的？…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "6": [
+      "[observe] 章内自我复读 4 句（如「靴子边缘有些磨损，却格外干净…」）",
+      "[observe] 章节过短 726 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:24:24"
+}

@@ -1,0 +1,218 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "药水架"
+      ],
+      "driver": "李秀兰伸手去够药水架上的药瓶",
+      "entry_state": "药水架静止在原位",
+      "outcome": "药水架上的药瓶被李秀兰的手指轻轻碰动",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李秀兰",
+        "药水架"
+      ],
+      "driver": "李秀兰用左臂红袖章抵住药水架",
+      "entry_state": "药水架被碰动",
+      "outcome": "药水架被李秀兰的红袖章压住",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "王春梅",
+        "挂号单"
+      ],
+      "driver": "王春梅将挂号单展开在掌心",
+      "entry_state": "挂号单平铺在王春梅掌心",
+      "outcome": "挂号单被王春梅展开在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "王春梅",
+        "挂号单"
+      ],
+      "driver": "王春梅用左手捏起挂号单一角",
+      "entry_state": "挂号单平铺在王春梅掌心",
+      "outcome": "挂号单被王春梅捏起一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "王春梅",
+        "挂号单"
+      ],
+      "driver": "王春梅将挂号单塞进外套口袋",
+      "entry_state": "挂号单被王春梅捏起一角",
+      "outcome": "挂号单被王春梅塞入外套口袋",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "陈护士"
+      ],
+      "driver": "陈护士用登记本挡住药水架",
+      "entry_state": "登记本横在药水架前",
+      "outcome": "登记本挡住药水架",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "陈护士"
+      ],
+      "driver": "陈护士将登记本翻到背面",
+      "entry_state": "登记本横在药水架前",
+      "outcome": "登记本背面朝向药水架",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "陈护士"
+      ],
+      "driver": "陈护士把登记本夹进药水架缝隙",
+      "entry_state": "登记本背面朝向药水架",
+      "outcome": "登记本卡在药水架与登记本之间",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "住院部走廊",
+      "present": [
+        "李秀兰",
+        "长椅"
+      ],
+      "driver": "李秀兰左手攥住长椅扶手，右臂红袖章擦过药瓶",
+      "entry_state": "长椅扶手被李秀兰攥住",
+      "outcome": "长椅扶手被李秀兰攥住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "住院部走廊",
+      "present": [
+        "李秀兰",
+        "长椅"
+      ],
+      "driver": "李秀兰用右臂红袖章勾住长椅横栏",
+      "entry_state": "长椅扶手被李秀兰攥住",
+      "outcome": "长椅横栏被李秀兰勾住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "住院部走廊",
+      "present": [
+        "李秀兰",
+        "长椅"
+      ],
+      "driver": "李秀兰将长椅整个压向药水架",
+      "entry_state": "长椅横栏被李秀兰勾住",
+      "outcome": "长椅被李秀兰压向药水架",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "王春梅",
+        "陈护士"
+      ],
+      "driver": "王春梅用脚尖顶开李秀兰的腿",
+      "entry_state": "王春梅左耳银质耳环垂在颈侧",
+      "outcome": "耳环滑落至王春梅手心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "王春梅",
+        "陈护士"
+      ],
+      "driver": "王春梅将耳环夹进毛线外套口袋",
+      "entry_state": "耳环在王春梅手心",
+      "outcome": "耳环消失在深蓝色外套内袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "王春梅",
+        "陈护士"
+      ],
+      "driver": "王春梅用耳环抵住药瓶瓶口",
+      "entry_state": "耳环在王春梅内袋",
+      "outcome": "耳环卡在药瓶瓶口",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "陈护士",
+        "药水架",
+        "登记本"
+      ],
+      "driver": "陈护士用登记本挡住药水架",
+      "entry_state": "登记本被陈护士用左手挡住药水架",
+      "outcome": "登记本挡住药水架，药水架无法被直接触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "陈护士",
+        "药水架",
+        "登记本"
+      ],
+      "driver": "陈护士将登记本翻到背面，露出登记页",
+      "entry_state": "登记本被翻到背面，露出登记页",
+      "outcome": "登记本背面的登记页被陈护士展示给两人",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "陈护士",
+        "药水架",
+        "登记本"
+      ],
+      "driver": "陈护士将登记本夹进药水架缝隙，固定位置",
+      "entry_state": "登记本被夹进药水架缝隙",
+      "outcome": "登记本固定在药水架上，无法被移动",
+      "target_chars": 527
+    }
+  ]
+}

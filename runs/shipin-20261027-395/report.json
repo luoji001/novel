@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-395",
+  "profile": "视频分镜",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6488,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6028,
+    "chapter_chars_mean": 1005,
+    "chapter_chars_median": 1072,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 28,
+    "dialogue_chars_pct": 21.2,
+    "dialogue_para_pct": 48.0,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 50.5,
+    "turn_under20_pct": 90.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 50.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码的日期",
+      "chars": 566,
+      "score": 38.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "二维码贴纸的温度",
+      "chars": 1159,
+      "score": 23.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "扫帚拂过二维码",
+      "chars": 1123,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "二维码贴纸坠地",
+      "chars": 1269,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "二维码贴纸的褶皱",
+      "chars": 1092,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙绕手腕",
+      "chars": 1273,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 510 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「陈阿婆的」×5、「周志远的」×4",
+      "[observe] 章内自我复读 1 句（如「夜市入口处的临时收银台泛着冷光…」）"
+    ],
+    "4": [
+      "[observe] 标题与《二维码贴纸的温度》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 标题与《二维码贴纸的温度》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:49:00"
+}

@@ -1,0 +1,106 @@
+{
+  "consistency": "1. 第二章提到“一张收据”，但第六章提到“鱼市清洁工工牌”，未明确说明两者是否为同一物件，存在物件未交代清楚的问题。  \n2. 第五章提到“陈秀兰阻止李大勇和老张争夺一封重要信件”，但前文（第一章、第二章、第三章、第四章）均未明确说明信件是否为同一封，存在信件来源和内容不一致的问题。  \n3. 第六章提到“身份误会”，但前文未明确交代李大勇和老张的身份信息，导致身份误会缺乏铺垫。  \n4. 第三章和第四章均提到“争夺一封寄给陈秀兰的信”，但第二章提到“署名‘寄给陈秀兰’的信”，未明确是否为同一封信，存在信件一致性问题。  \n5. 第五章提到“对讲机坠入冰面”，但前文未提及陈秀兰持有对讲机，导致对讲机出现无前因。",
+  "slug": "shipin-20261027-22",
+  "profile": "视频分镜",
+  "title": "信中红印",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6672,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6302,
+    "chapter_chars_mean": 1050,
+    "chapter_chars_median": 1132,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 23.2,
+    "dialogue_chars_pct": 13.9,
+    "dialogue_para_pct": 48.9,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 50.6,
+    "turn_under20_pct": 99.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕信封",
+      "chars": 627,
+      "score": 37.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "冰台下的收据一角",
+      "chars": 1203,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "称砣上的刻痕",
+      "chars": 1128,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "争夺鱼贩的秤砣",
+      "chars": 1285,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "对讲机坠入冰面",
+      "chars": 1237,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "冰台边缘的工牌",
+      "chars": 1186,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 580 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李大勇的」×5"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 150.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:50:45"
+}

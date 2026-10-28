@@ -1,0 +1,107 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-186",
+  "profile": "视频分镜",
+  "title": "铜匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5939,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5408,
+    "chapter_chars_mean": 901,
+    "chapter_chars_median": 1004,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 34.3,
+    "dialogue_chars_pct": 20.2,
+    "dialogue_para_pct": 43.3,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 55.2,
+    "turn_under20_pct": 96.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 68.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲玻璃的第七下",
+      "chars": 397,
+      "score": 36.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "扫码时的玻璃碎光",
+      "chars": 1235,
+      "score": 95.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "酱油罐的微响",
+      "chars": 1024,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "摩挲船票的指尖",
+      "chars": 991,
+      "score": 19.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "拾起破碎的纸片",
+      "chars": 1166,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "敲击玻璃的铜钥",
+      "chars": 1120,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 2.3 低于目标 5.0",
+      "[observe] 章节过短 342 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章节过短 854 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 124.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:12:17"
+}

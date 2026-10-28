@@ -1,0 +1,126 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-07",
+  "profile": "视频分镜",
+  "title": "蓝箱",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7033,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6494,
+    "chapter_chars_mean": 1082,
+    "chapter_chars_median": 1181,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 32.2,
+    "dialogue_chars_pct": 21.1,
+    "dialogue_para_pct": 49.3,
+    "interiority_para_pct": 2.3,
+    "narration_para_pct": 48.4,
+    "turn_under20_pct": 92.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 44.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙串上的冰霜",
+      "chars": 571,
+      "score": 17.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "蓝色皮箱的日期",
+      "chars": 1304,
+      "score": 95.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "敲打箱锁的节奏",
+      "chars": 1481,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "红笔圈出的日期",
+      "chars": 1267,
+      "score": 33.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "敲击箱角的节奏",
+      "chars": 1097,
+      "score": 31.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "钥匙串坠入冰霜",
+      "chars": 1307,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 2.0 低于目标 5.0",
+      "narration_para_pct 95.0 高于目标 90.0",
+      "[observe] 章节过短 500 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「李建国的」×3",
+      "narration_para_pct 19.0 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "4": [
+      "interiority_para_pct 8.8 高于目标 6.0",
+      "[observe] 章内自我复读 10 句（如「老周低头继续翻动记账本，纸页发出沙沙声，像风穿过…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 1.6 低于目标 5.0",
+      "narration_para_pct 92.3 高于目标 90.0",
+      "[observe] 标题与《敲打箱锁的节奏》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 22.2 低于目标 35.0",
+      "[observe] 标题与《钥匙串上的冰霜》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 137.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:26:29"
+}

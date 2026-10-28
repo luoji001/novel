@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-177",
+  "profile": "视频分镜",
+  "title": "录像带",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7755,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 7140,
+    "chapter_chars_mean": 1190,
+    "chapter_chars_median": 1168,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 39.2,
+    "dialogue_chars_pct": 28.6,
+    "dialogue_para_pct": 56.8,
+    "interiority_para_pct": 2.3,
+    "narration_para_pct": 41.0,
+    "turn_under20_pct": 87.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 69.6,
+    "attr_adv_pct": 2.1,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "监控录像带的重量",
+      "chars": 766,
+      "score": 95.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铜钥匙撬开的裂缝",
+      "chars": 1189,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "薄荷糖的余味",
+      "chars": 1332,
+      "score": 95.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "门禁卡与电线交锋",
+      "chars": 1159,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "门禁卡的最后一步",
+      "chars": 1906,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "擦拭铜钥匙的红围巾",
+      "chars": 1397,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "narration_para_pct 20.8 低于目标 35.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "dialogue_run_mean 4.6 高于目标 4.0"
+    ],
+    "4": [
+      "命中套话收尾句"
+    ],
+    "6": [
+      "interiority_para_pct 8.0 高于目标 6.0",
+      "[observe] 章内自我复读 2 句（如「我儿子丢了之前，家里那只猫总是半夜跑出去。后来它…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 141.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:57:57"
+}

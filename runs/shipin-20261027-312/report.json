@@ -1,0 +1,119 @@
+{
+  "consistency": "1. 第二章提到林小满带着“祖传的纸条”找老周兑换船票，但第一章明确说她持的是“祖父留下的船票”找老周兑换，二者不一致。\n\n2. 第三章提到林小满用“一张泛黄的纸条”换乘旧货船，但第二章已说明她带着“祖传的纸条”找老周兑换，二者不一致。\n\n3. 第五章提到陈师傅与林小满在渡口回忆起她爷爷曾带他来此，但第四章提到老周与林小满讨论“爷爷是否曾来过这里”，暗示老周并不清楚林小满爷爷是否来过，与第五章陈师傅的回忆冲突。",
+  "slug": "shipin-20261027-312",
+  "profile": "视频分镜",
+  "title": "纸条",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5535,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5056,
+    "chapter_chars_mean": 843,
+    "chapter_chars_median": 925,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 32,
+    "dialogue_chars_pct": 24.3,
+    "dialogue_para_pct": 51.9,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 47.7,
+    "turn_under20_pct": 95.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.5,
+    "attr_adv_pct": 4.6,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜币撞玻璃",
+      "chars": 400,
+      "score": 38.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜币碰纸条",
+      "chars": 916,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "雨中递纸条",
+      "chars": 1186,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "铜币碰玻璃",
+      "chars": 858,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "伞骨轻点水面",
+      "chars": 1053,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铜币擦玻璃",
+      "chars": 1116,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 351 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 23.5 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「我爷爷说过，它能送我去任何我想去的地方…」）",
+      "[observe] 章节过短 869 < 870（本章目标 1582 字的 55%）",
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "4": [
+      "[observe] 章节过短 791 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《铜币撞玻璃》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "6": [
+      "[observe] 标题与《铜币碰玻璃》近似 0.80 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 179.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:39:09"
+}

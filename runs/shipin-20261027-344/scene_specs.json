@@ -1,0 +1,224 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "冷冻区",
+      "present": [
+        "老张",
+        "王婶"
+      ],
+      "driver": "老张伸手去够冰台上的信",
+      "entry_state": "冰台表面结着薄霜",
+      "outcome": "信被老张指尖碰到，冰台边缘有划痕",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "冷冻区",
+      "present": [
+        "老张",
+        "王婶"
+      ],
+      "driver": "王婶用身体挡住冰台，信滑落至地面",
+      "entry_state": "信滑落至地面，冰台边缘有划痕",
+      "outcome": "信掉在冰台边缘，王婶弯腰去捡",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "冷冻区",
+      "present": [
+        "王婶",
+        "老张"
+      ],
+      "driver": "王婶举起铁皮秤杆，挑起老张的手臂",
+      "entry_state": "铁皮秤杆在王婶手中，挑起老张手臂",
+      "outcome": "老张手臂被挑起，铁皮秤杆紧贴身体",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "冷冻区",
+      "present": [
+        "王婶",
+        "老张"
+      ],
+      "driver": "老张试图夺回铁皮秤杆，王婶将秤杆压在掌心",
+      "entry_state": "铁皮秤杆在王婶掌心，紧贴身体",
+      "outcome": "铁皮秤杆被压在掌心，老张手臂僵直",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "冷冻区",
+      "present": [
+        "王婶",
+        "老张"
+      ],
+      "driver": "王婶将铁皮秤杆丢向地面，秤杆断裂",
+      "entry_state": "铁皮秤杆在王婶掌心，紧贴身体",
+      "outcome": "铁皮秤杆断裂，散落在地",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "市场门口",
+      "present": [
+        "老张",
+        "王婶",
+        "小林"
+      ],
+      "driver": "小林举起执法记录仪对准两人",
+      "entry_state": "执法记录仪在小林手中",
+      "outcome": "执法记录仪开始录像",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "市场门口",
+      "present": [
+        "老张",
+        "王婶",
+        "小林"
+      ],
+      "driver": "小林将执法记录仪递给王婶",
+      "entry_state": "执法记录仪在小林手中",
+      "outcome": "执法记录仪在王婶手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "市场门口",
+      "present": [
+        "老张",
+        "王婶",
+        "小林"
+      ],
+      "driver": "小林夺回执法记录仪并按下停止键",
+      "entry_state": "执法记录仪在王婶手中",
+      "outcome": "执法记录仪停止录像",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "冷冻区",
+      "present": [
+        "老张",
+        "王婶"
+      ],
+      "driver": "老张将冻鱼刀尖抵在王婶胸口",
+      "entry_state": "冻鱼刀贴着王婶胸口",
+      "outcome": "冻鱼刀刀刃压进王婶毛衣褶皱",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "冷冻区",
+      "present": [
+        "老张",
+        "王婶"
+      ],
+      "driver": "王婶用左手指甲抠住冻鱼刀刃",
+      "entry_state": "冻鱼刀刀刃压进王婶毛衣褶皱",
+      "outcome": "冻鱼刀刀柄滑到老张掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "冷冻区",
+      "present": [
+        "老张",
+        "王婶"
+      ],
+      "driver": "老张用冻鱼刀挑起王婶下巴",
+      "entry_state": "冻鱼刀刀柄滑到老张掌心",
+      "outcome": "冻鱼刀刀刃划破王婶下巴",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "市场门口",
+      "present": [
+        "老张",
+        "王婶",
+        "小林"
+      ],
+      "driver": "老张将信塞进塑料袋，塑料袋鼓起一角",
+      "entry_state": "塑料袋在老张手中，鼓起一角",
+      "outcome": "塑料袋鼓起一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "市场门口",
+      "present": [
+        "老张",
+        "王婶",
+        "小林"
+      ],
+      "driver": "王婶夺回塑料袋，塑料袋掉落在地",
+      "entry_state": "塑料袋掉落在地",
+      "outcome": "塑料袋掉落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "市场门口",
+      "present": [
+        "老张",
+        "王婶",
+        "小林"
+      ],
+      "driver": "老张弯腰捡起塑料袋，塑料袋裂开一道口子",
+      "entry_state": "塑料袋掉落在地",
+      "outcome": "塑料袋裂开一道口子",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "冷冻区",
+      "present": [
+        "王婶",
+        "老张"
+      ],
+      "driver": "王婶用左手拾起鱼鳞，放在信上",
+      "entry_state": "鱼鳞在信上",
+      "outcome": "鱼鳞被王婶放在信上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "冷冻区",
+      "present": [
+        "王婶",
+        "老张"
+      ],
+      "driver": "老张伸手去抓鱼鳞，被王婶用秤杆挡开",
+      "entry_state": "鱼鳞在信上",
+      "outcome": "鱼鳞从信上被推开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "冷冻区",
+      "present": [
+        "王婶",
+        "老张"
+      ],
+      "driver": "王婶将鱼鳞收入塑料袋，转身离开",
+      "entry_state": "鱼鳞从信上被推开",
+      "outcome": "鱼鳞被王婶收进塑料袋",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-125",
+  "profile": "视频分镜",
+  "title": "纸条",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7020,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6585,
+    "chapter_chars_mean": 1098,
+    "chapter_chars_median": 1087,
+    "chapter_chars_cv": 0.1,
+    "paragraphs_mean": 29.3,
+    "dialogue_chars_pct": 22.7,
+    "dialogue_para_pct": 60.4,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 38.4,
+    "turn_under20_pct": 98.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "车门裂纹",
+      "chars": 990,
+      "score": 95.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "争抢雨伞",
+      "chars": 1112,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "方便面碎屑飘落",
+      "chars": 1241,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "纸片飘雪",
+      "chars": 1144,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "纸条撕破寒夜",
+      "chars": 1212,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙触雪",
+      "chars": 1315,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 19.2 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "6": [
+      "narration_para_pct 20.8 低于目标 35.0",
+      "dialogue_run_mean 6.3 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 160.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:31:31"
+}

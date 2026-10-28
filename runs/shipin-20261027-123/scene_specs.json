@@ -1,0 +1,212 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张用袖口擦去镜头上的灰尘",
+      "entry_state": "放映机镜头干净",
+      "outcome": "镜头反射出老张的倒影",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张将胶片推进放映机槽口",
+      "entry_state": "镜头反射出老张的倒影",
+      "outcome": "胶片卡入槽口，发出轻微咔嗒声",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "周振国",
+        "老张"
+      ],
+      "driver": "周振国将公文包砸向控制台",
+      "entry_state": "公文包躺在控制台上",
+      "outcome": "公文包裂开一道口子",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "周振国"
+      ],
+      "driver": "周振国抓起公文包撕碎文件",
+      "entry_state": "公文包裂开一道口子",
+      "outcome": "公文包内文件散落一地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "周振国"
+      ],
+      "driver": "周振国将公文包扔向老张",
+      "entry_state": "公文包内文件散落一地",
+      "outcome": "公文包砸在老张脚边",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "电影院门口",
+      "present": [
+        "林小满"
+      ],
+      "driver": "林小满攥着电影票在雪地里跺脚",
+      "entry_state": "电影票在林小满手中",
+      "outcome": "电影票被冻得发脆",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院门口",
+      "present": [
+        "林小满",
+        "老张"
+      ],
+      "driver": "老张接过电影票仔细端详",
+      "entry_state": "电影票被冻得发脆",
+      "outcome": "电影票边缘出现裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院门口",
+      "present": [
+        "林小满",
+        "老张"
+      ],
+      "driver": "林小满将电影票塞进老张衣袋",
+      "entry_state": "电影票边缘出现裂痕",
+      "outcome": "电影票消失在老张衣袋中",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "褪色的红绳缠绕的钥匙"
+      ],
+      "driver": "老张将钥匙插入保险箱锁孔",
+      "entry_state": "钥匙在老张手中",
+      "outcome": "保险箱锁孔开始转动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "褪色的红绳缠绕的钥匙"
+      ],
+      "driver": "老张用红绳缠绕的钥匙撬开保险箱抽屉",
+      "entry_state": "钥匙在老张手中",
+      "outcome": "保险箱抽屉被打开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "褪色的红绳缠绕的钥匙"
+      ],
+      "driver": "老张将钥匙丢在地上，红绳散开",
+      "entry_state": "钥匙在老张手中",
+      "outcome": "钥匙掉在地上，红绳散开",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "周振国"
+      ],
+      "driver": "周振国将银戒按在桌面，手指微微发颤",
+      "entry_state": "银戒贴着桌面，周振国戴着墨绿色毛线帽",
+      "outcome": "银戒贴在桌面，周振国的毛线帽滑落半边",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "周振国"
+      ],
+      "driver": "周振国用左手捏起银戒，右手攥紧毛线帽",
+      "entry_state": "银戒贴在桌面，周振国的毛线帽滑落半边",
+      "outcome": "银戒被捏在周振国左手，毛线帽被攥皱",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "周振国"
+      ],
+      "driver": "周振国将银戒塞进公文包，毛线帽重新戴正",
+      "entry_state": "银戒被捏在周振国左手，毛线帽被攥皱",
+      "outcome": "银戒被塞进公文包，毛线帽重新戴正",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "电影院门口",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张用布满老茧的手扶正放映机",
+      "entry_state": "放映机歪斜地靠在墙边",
+      "outcome": "放映机恢复直立状态",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院门口",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张用袖口擦去放映机上的灰尘",
+      "entry_state": "放映机表面沾有灰尘",
+      "outcome": "放映机表面干净无尘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院门口",
+      "present": [
+        "老张",
+        "放映机"
+      ],
+      "driver": "老张将放映机推到影子尽头",
+      "entry_state": "放映机位于老张脚边",
+      "outcome": "放映机被推至影子末端",
+      "target_chars": 527
+    }
+  ]
+}

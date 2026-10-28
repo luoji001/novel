@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-50",
+  "profile": "视频分镜",
+  "title": "鱼钩",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6208,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5797,
+    "chapter_chars_mean": 966,
+    "chapter_chars_median": 1058,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 26.2,
+    "dialogue_chars_pct": 16.5,
+    "dialogue_para_pct": 46.2,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 53.8,
+    "turn_under20_pct": 93.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 45.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "鱼钩勾起信封",
+      "chars": 319,
+      "score": 21.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "信封与鱼箱较量",
+      "chars": 1012,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "信封坠入鱼箱缝隙",
+      "chars": 1331,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "鱼钩勾住信封边缘",
+      "chars": 1287,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜纽扣的寒光",
+      "chars": 1068,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "鱼钩勾住信封边缘",
+      "chars": 1185,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 3.2 低于目标 5.0",
+      "narration_para_pct 91.7 高于目标 90.0",
+      "[observe] 章节过短 281 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 标题与《鱼钩勾起信封》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 29.6 低于目标 35.0",
+      "[observe] 章内自我复读 1 句（如「那是我爸最后的手迹！…」）",
+      "[observe] 标题重复：「鱼钩勾住信封边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 155.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:33:16"
+}

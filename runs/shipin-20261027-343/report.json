@@ -1,0 +1,118 @@
+{
+  "consistency": "1. 第二章提到“保管员王建国”，而第一章和第三章使用“管理员”称呼，第四章使用“王建国”称呼，称呼不一致。  \n2. 第六章提到“仓库管理员”，而第一章和第二章使用“管理员”称呼，第四章使用“王建国”称呼，称呼不一致。  \n3. 第二章提到“李国强为取回母亲遗物与保管员王建国争执”，而第四章提到“李国强与王建国因一张泛黄的寄存单产生争执”，前后对王建国身份称呼不一致。  \n4. 第三章提到“陈雪梅协助他寻找线索，发现一张撕碎的邮票”，但后续章节未再提及该邮票或线索，物件未交代。  \n5. 第五章提到“王建国将母亲留给李国强的钥匙交还”，但前文未提及钥匙的存在或母亲与李国强的关系，人物立场无理由翻转。  \n6. 第六章提到“李国强为争夺超期三年的遗物皮箱与仓库管理员发生冲突”，但前文称其为“母亲遗物”，逻辑矛盾。",
+  "slug": "shipin-20261027-343",
+  "profile": "视频分镜",
+  "title": "铜锁",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6458,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6047,
+    "chapter_chars_mean": 1008,
+    "chapter_chars_median": 1083,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 26.3,
+    "dialogue_chars_pct": 24.5,
+    "dialogue_para_pct": 58.8,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 39.8,
+    "turn_under20_pct": 92.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 63.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "皮箱与铁门对峙",
+      "chars": 538,
+      "score": 38.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "皮箱与铁门对峙",
+      "chars": 1366,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "扫帚与皮箱对峙",
+      "chars": 1176,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "手指抚过泛黄纸页",
+      "chars": 1348,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜钥匙的温度",
+      "chars": 879,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铜钥匙的温度",
+      "chars": 1145,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 493 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李国强的」×5、「王建国的」×3",
+      "[observe] 标题重复：「皮箱与铁门对峙」已存在"
+    ],
+    "4": [
+      "narration_para_pct 25.0 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 章节过短 831 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强的」×4",
+      "narration_para_pct 25.0 低于目标 35.0",
+      "[observe] 标题重复：「铜钥匙的温度」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:27:49"
+}

@@ -1,0 +1,219 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "便利店",
+      "present": [
+        "小林",
+        "监控屏幕"
+      ],
+      "driver": "小林用左手扶住咖啡杯，右手轻触屏幕边缘",
+      "entry_state": "监控屏幕显示便利店内空无一人",
+      "outcome": "监控屏幕出现一辆黑色轿车的轮廓",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "便利店",
+      "present": [
+        "小林",
+        "监控屏幕",
+        "黑色轿车"
+      ],
+      "driver": "小林用记账本挡住屏幕一角，轿车司机伸手按压屏幕",
+      "entry_state": "监控屏幕显示黑色轿车占据画面中心",
+      "outcome": "监控屏幕被小林的记账本遮挡一部分",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "咖啡杯"
+      ],
+      "driver": "小林将咖啡杯倾斜，遮住监控屏幕一角",
+      "entry_state": "咖啡杯倾斜着靠在收银机边沿",
+      "outcome": "咖啡杯倾斜状态保持不变",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "咖啡杯"
+      ],
+      "driver": "小林用左手扶住咖啡杯，防止其滑落",
+      "entry_state": "咖啡杯倾斜着靠在收银机边沿",
+      "outcome": "咖啡杯稳稳立在收银机上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "收银台",
+      "present": [
+        "小林",
+        "咖啡杯"
+      ],
+      "driver": "小林用右手拿起咖啡杯，遮挡监控屏幕",
+      "entry_state": "咖啡杯稳稳立在收银机上",
+      "outcome": "咖啡杯被小林拿在手中，遮挡了监控屏幕",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "停车场",
+      "present": [
+        "陈默",
+        "监控屏幕"
+      ],
+      "driver": "陈默用黑色手环轻擦屏幕边缘",
+      "entry_state": "手环贴着屏幕边缘",
+      "outcome": "屏幕边缘留下一道浅痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "停车场",
+      "present": [
+        "陈默",
+        "监控屏幕"
+      ],
+      "driver": "陈默将手环绕在左手腕上",
+      "entry_state": "手环贴着屏幕边缘",
+      "outcome": "手环从屏幕边缘移开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "停车场",
+      "present": [
+        "陈默",
+        "监控屏幕"
+      ],
+      "driver": "陈默用手环刮擦屏幕右下角",
+      "entry_state": "手环在左腕",
+      "outcome": "屏幕右下角出现一道细裂",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "监控室",
+      "present": [
+        "小林",
+        "记账本",
+        "监控屏幕"
+      ],
+      "driver": "小林将记账本平放在屏幕边缘",
+      "entry_state": "记账本位于屏幕边缘",
+      "outcome": "记账本遮住了屏幕左下角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "监控室",
+      "present": [
+        "小林",
+        "记账本",
+        "监控屏幕"
+      ],
+      "driver": "小林用左手捏住记账本一角向右滑动",
+      "entry_state": "记账本遮住屏幕左下角",
+      "outcome": "记账本移至屏幕中央偏左",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "监控室",
+      "present": [
+        "小林",
+        "记账本",
+        "监控屏幕"
+      ],
+      "driver": "小林将记账本翻到背面并按在屏幕上",
+      "entry_state": "记账本移至屏幕中央偏左",
+      "outcome": "记账本背面贴紧屏幕，遮挡了大部分画面",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "便利店",
+      "present": [
+        "陈默",
+        "小林"
+      ],
+      "driver": "陈默低头调整墨镜位置",
+      "entry_state": "墨镜滑落至鼻梁下方",
+      "outcome": "墨镜滑落至鼻梁下方",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店",
+      "present": [
+        "陈默"
+      ],
+      "driver": "陈默用左手扶住墨镜边缘",
+      "entry_state": "墨镜滑落至鼻梁下方",
+      "outcome": "墨镜边缘被手指扶正",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店",
+      "present": [
+        "陈默"
+      ],
+      "driver": "陈默摘下墨镜放在掌心",
+      "entry_state": "墨镜边缘被手指扶正",
+      "outcome": "墨镜脱离视线，被掌心托住",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "便利店",
+      "present": [
+        "周慧",
+        "小林"
+      ],
+      "driver": "周慧弯腰取保险柜钥匙，钥匙串滑落至地面",
+      "entry_state": "钥匙串躺在便利店地面中央",
+      "outcome": "钥匙串躺在便利店地面中央",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店",
+      "present": [
+        "小林"
+      ],
+      "driver": "小林蹲下身，用左手捏起钥匙串",
+      "entry_state": "钥匙串被小林握在左手掌心",
+      "outcome": "钥匙串被小林握在左手掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店",
+      "present": [
+        "小林",
+        "周慧"
+      ],
+      "driver": "小林将钥匙串递给周慧，钥匙串从指间滑落",
+      "entry_state": "钥匙串从指间滑落至周慧掌心",
+      "outcome": "钥匙串从指间滑落至周慧掌心",
+      "target_chars": 527
+    }
+  ]
+}

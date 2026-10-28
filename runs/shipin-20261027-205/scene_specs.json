@@ -1,0 +1,218 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "监控屏幕"
+      ],
+      "driver": "小林用左手按住监控屏幕的电源键",
+      "entry_state": "监控屏幕显示停车场画面",
+      "outcome": "监控屏幕画面开始闪烁红光",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "监控屏幕"
+      ],
+      "driver": "小林用右手拿起监控屏幕的遥控器",
+      "entry_state": "监控屏幕画面闪烁红光",
+      "outcome": "监控屏幕画面切换至便利店内部",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "便利店收银台",
+      "present": [
+        "小林",
+        "收银机"
+      ],
+      "driver": "小林将钥匙插入收银机锁孔",
+      "entry_state": "收银机未锁",
+      "outcome": "收银机锁上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店收银台",
+      "present": [
+        "小林",
+        "收银机"
+      ],
+      "driver": "小林用左手握住收银机钥匙",
+      "entry_state": "收银机锁上",
+      "outcome": "钥匙留在锁孔中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店收银台",
+      "present": [
+        "小林",
+        "收银机"
+      ],
+      "driver": "小林将钥匙放回胸前钥匙串",
+      "entry_state": "钥匙留在锁孔中",
+      "outcome": "收银机锁上",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "便利店停车场",
+      "present": [
+        "沈志远",
+        "黑色剪刀"
+      ],
+      "driver": "沈志远将黑色剪刀抵在监控室门锁上",
+      "entry_state": "黑色剪刀紧贴门锁",
+      "outcome": "门锁开始发出轻微震动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店停车场",
+      "present": [
+        "沈志远",
+        "黑色剪刀"
+      ],
+      "driver": "沈志远用剪刀尖挑起门锁的金属片",
+      "entry_state": "门锁被挑起",
+      "outcome": "剪刀刃口出现一道细小裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店停车场",
+      "present": [
+        "沈志远",
+        "黑色剪刀"
+      ],
+      "driver": "沈志远将断裂的剪刀丢向地面",
+      "entry_state": "剪刀断裂",
+      "outcome": "剪刀躺在地上，金属片散落",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "便利店监控室",
+      "present": [
+        "陈永康",
+        "对讲机"
+      ],
+      "driver": "陈永康举起对讲机按住通话键",
+      "entry_state": "对讲机在陈永康手中",
+      "outcome": "对讲机开始发出微弱的电流声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店监控室",
+      "present": [
+        "陈永康",
+        "对讲机"
+      ],
+      "driver": "陈永康将对讲机贴近耳朵按下通话键",
+      "entry_state": "对讲机发出电流声",
+      "outcome": "对讲机屏幕亮起，显示‘呼叫中’",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店监控室",
+      "present": [
+        "陈永康",
+        "对讲机"
+      ],
+      "driver": "陈永康将对讲机摔在地上，按键断裂",
+      "entry_state": "对讲机屏幕显示‘呼叫中’",
+      "outcome": "对讲机停止工作，按键断裂",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "便利店监控室",
+      "present": [
+        "红色警报灯",
+        "小林"
+      ],
+      "driver": "红色警报灯突然亮起，照在小林脸上",
+      "entry_state": "红色警报灯亮起",
+      "outcome": "红色警报灯持续闪烁",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店监控室",
+      "present": [
+        "红色警报灯",
+        "小林"
+      ],
+      "driver": "小林伸手按住警报灯开关，灯灭了",
+      "entry_state": "红色警报灯闪烁",
+      "outcome": "红色警报灯熄灭",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店监控室",
+      "present": [
+        "红色警报灯",
+        "小林"
+      ],
+      "driver": "小林拿起警报灯，走向监控屏幕",
+      "entry_state": "红色警报灯熄灭",
+      "outcome": "红色警报灯被小林拿走",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "监控录像带"
+      ],
+      "driver": "小林将钥匙插入锁孔，转动至闭锁状态",
+      "entry_state": "监控录像带静止在监控室桌面上",
+      "outcome": "监控录像带被移动到小林身后",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "监控录像带"
+      ],
+      "driver": "小林伸手去抓录像带，却被沈志远抢走",
+      "entry_state": "监控录像带被移动到小林身后",
+      "outcome": "监控录像带被沈志远握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店监控室",
+      "present": [
+        "沈志远",
+        "监控录像带"
+      ],
+      "driver": "沈志远将录像带塞进外套口袋，转身离开",
+      "entry_state": "监控录像带被沈志远握在手中",
+      "outcome": "监控录像带消失在沈志远的口袋中",
+      "target_chars": 527
+    }
+  ]
+}

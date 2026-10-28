@@ -1,0 +1,112 @@
+{
+  "consistency": "1. 第二章提到“七号楼”，但第三章、第五章使用“七楼”而非“七号楼”，称呼不一致。  \n2. 第六章提到“刘德昌在办公室发现一份旧房产证”，但前文未提及刘德昌有办公室。  \n3. 第三章提到“刘德昌与李阿姨因一串旧物展开对过去居住权的争执”，但前文未明确交代刘德昌与李阿姨之间有直接关联。  \n4. 第五章提到“周建国用一把生锈的钥匙打开了尘封多年的老房子”，但第二章已提到“周建国用生锈的钥匙打开七号楼的旧门”，前后重复且未说明“老房子”与“七号楼”是否为同一地点。  \n5. 第六章提到“将它归还给李阿姨”，但前文未明确交代“它”指代何物，导致指代不明。",
+  "slug": "shipin-20261027-75",
+  "profile": "视频分镜",
+  "title": "雨靴的归属",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6640,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6076,
+    "chapter_chars_mean": 1013,
+    "chapter_chars_median": 1131,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 34.7,
+    "dialogue_chars_pct": 20.7,
+    "dialogue_para_pct": 44.8,
+    "interiority_para_pct": 1.6,
+    "narration_para_pct": 53.6,
+    "turn_under20_pct": 96.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.0,
+    "attr_adv_pct": 8.1,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "雨靴的归属",
+      "chars": 595,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙转动的瞬间",
+      "chars": 1204,
+      "score": 55.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "铁皮盒子的刻痕",
+      "chars": 1297,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "雨靴裂开缝隙",
+      "chars": 1275,
+      "score": 86.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "钥匙划过门框",
+      "chars": 1219,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙与老照片",
+      "chars": 1044,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 532 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "4": [
+      "dialogue_chars_pct 50.2 高于目标 45.0",
+      "narration_para_pct 14.0 低于目标 35.0",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "dialogue_run_mean 9.2 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:12:31"
+}

@@ -1,0 +1,114 @@
+{
+  "consistency": "1. 第二章提到李海在火车站找回父亲遗留的黑色皮箱，第三章又说在候车厅找回，地点不一致。  \n2. 第三章提到用一块蓝布换取箱子归还，但小林的道具是蓝色登记簿，未提及蓝布。  \n3. 第五章提到李海为带走箱子与老周争执，但第四章和第六章均提到李海为找回箱子与老周对峙，逻辑重复且时间线混乱。  \n4. 第六章提到在阳光下打开箱子，但前文未交代箱子是否被锁或是否已归还。  \n5. 第二章提到发现遗书，但第三章提到箱子被要求处理，未交代遗书是否被保留或处理。",
+  "slug": "shipin-20261027-245",
+  "profile": "视频分镜",
+  "title": "蓝布",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5985,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5580,
+    "chapter_chars_mean": 930,
+    "chapter_chars_median": 988,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 25.8,
+    "dialogue_chars_pct": 25.1,
+    "dialogue_para_pct": 52.4,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 46.9,
+    "turn_under20_pct": 95.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 55.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手电筒照亮登记簿",
+      "chars": 744,
+      "score": 94.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "皮箱坠地",
+      "chars": 669,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "皮箱夹层信纸",
+      "chars": 1103,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "手电筒照亮登记簿",
+      "chars": 1167,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "皮箱撞车厢门",
+      "chars": 1256,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手电筒照亮登记簿",
+      "chars": 1040,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章节过短 622 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "narration_para_pct 19.2 低于目标 35.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "[observe] 标题重复：「手电筒照亮登记簿」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 4 句（如「我父亲临终前说过，只有找到这个箱子，才能解开他的…」）"
+    ],
+    "6": [
+      "[observe] 标题重复：「手电筒照亮登记簿」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:50:09"
+}

@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第二章提到“手机与秤砣对决”，但第一章和第三章均提到“信封与秤砣对决”，前后称谓不一致，可能混淆了信件的载体（信封 vs 手机）。\n\n2. 第四章提到“执法记录仪与秤砣”，但其他章节均未提及执法记录仪的出现或使用，前后不一致。\n\n3. 第五章提到“父亲妥协，允许他去找母亲”，但前文从未提及母亲是否还活着，逻辑上存在矛盾。\n\n4. 第六章再次出现“信封与秤砣对峙”，但前文已多次出现“信封与秤砣对决”，称谓不一致，可能混淆了信件的载体。",
+  "slug": "shipin-20261027-176",
+  "profile": "视频分镜",
+  "title": "冰台",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6019,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5602,
+    "chapter_chars_mean": 934,
+    "chapter_chars_median": 908,
+    "chapter_chars_cv": 0.11,
+    "paragraphs_mean": 26.7,
+    "dialogue_chars_pct": 23.1,
+    "dialogue_para_pct": 49.3,
+    "interiority_para_pct": 1.3,
+    "narration_para_pct": 49.4,
+    "turn_under20_pct": 95.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "信封与秤砣对决",
+      "chars": 845,
+      "score": 96.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "手机与秤砣对决",
+      "chars": 1162,
+      "score": 55.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "信封与秤砣对峙",
+      "chars": 947,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "执法记录仪与秤砣",
+      "chars": 1003,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手机与秤砣对峙",
+      "chars": 952,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "信封与秤砣对峙",
+      "chars": 1104,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 标题与《信封与秤砣对决》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 2 句（如「那你现在呢？是不是也想着跟她多说几句？…」）",
+      "[observe] 标题与《信封与秤砣对决》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「她后来走了，带走了一切…」）"
+    ],
+    "5": [
+      "[observe] 标题与《手机与秤砣对决》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题重复：「信封与秤砣对峙」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:56:19"
+}

@@ -1,0 +1,217 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "王建国",
+        "硬币"
+      ],
+      "driver": "王建国伸手去抓副驾驶座上的硬币",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被王建国握在右手掌心",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "王建国",
+        "硬币"
+      ],
+      "driver": "王建国将硬币放回副驾驶座",
+      "entry_state": "硬币在王建国掌心",
+      "outcome": "硬币回到副驾驶座上",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "陈默",
+        "学员登记表"
+      ],
+      "driver": "陈默用脚尖踢开长椅上的学员登记表",
+      "entry_state": "学员登记表躺在长椅上",
+      "outcome": "学员登记表被踢到一旁",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "陈默",
+        "学员登记表"
+      ],
+      "driver": "陈默弯腰捡起学员登记表",
+      "entry_state": "学员登记表被踢到一旁",
+      "outcome": "学员登记表被陈默握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "陈默"
+      ],
+      "driver": "陈默撕碎学员登记表",
+      "entry_state": "学员登记表被陈默握在手中",
+      "outcome": "学员登记表变成碎片",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "周晓芸"
+      ],
+      "driver": "周晓芸用手指划过玻璃窗上的霜花",
+      "entry_state": "玻璃窗上有霜花",
+      "outcome": "玻璃窗上的霜花被手指擦掉一部分",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "周晓芸"
+      ],
+      "driver": "周晓芸用袖口擦拭玻璃窗残留的霜花",
+      "entry_state": "玻璃窗部分霜花被擦掉",
+      "outcome": "玻璃窗残留霜花被袖口抹平",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "周晓芸"
+      ],
+      "driver": "周晓芸将玻璃窗上的霜花全部抹净",
+      "entry_state": "玻璃窗残留霜花被抹平",
+      "outcome": "玻璃窗完全干净",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "王建国",
+        "陈默"
+      ],
+      "driver": "王建国伸手去抓副驾驶座上的硬币",
+      "entry_state": "王建国站在副驾驶座前",
+      "outcome": "教练车钥匙掉在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "王建国",
+        "陈默"
+      ],
+      "driver": "陈默用脚尖踢开钥匙",
+      "entry_state": "教练车钥匙在地面滚动",
+      "outcome": "钥匙被陈默捡起并握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "王建国",
+        "陈默"
+      ],
+      "driver": "王建国用脚踩住钥匙防止其移动",
+      "entry_state": "陈默握着钥匙",
+      "outcome": "钥匙被王建国用脚压住无法动弹",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "周晓芸",
+        "学员登记表"
+      ],
+      "driver": "周晓芸伸手抽走登记表",
+      "entry_state": "登记表在周晓芸手中",
+      "outcome": "登记表被周晓芸抽出",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "周晓芸",
+        "学员登记表"
+      ],
+      "driver": "周晓芸将登记表摊开在长椅上",
+      "entry_state": "登记表在周晓芸手中",
+      "outcome": "登记表摊开在长椅上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "周晓芸",
+        "学员登记表"
+      ],
+      "driver": "周晓芸用手指指着登记表上的名字",
+      "entry_state": "登记表摊开在长椅上",
+      "outcome": "登记表被周晓芸指着名字",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "王建国",
+        "陈默",
+        "周晓芸"
+      ],
+      "driver": "王建国伸手去抓副驾驶座上的硬币",
+      "entry_state": "硬币在副驾驶座上，三人对峙",
+      "outcome": "硬币被王建国握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "王建国",
+        "陈默",
+        "周晓芸"
+      ],
+      "driver": "陈默用脚尖踢开长椅上的学员登记表",
+      "entry_state": "硬币在王建国手中，陈默靠近",
+      "outcome": "硬币从王建国手中滑落，掉在地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "王建国",
+        "陈默",
+        "周晓芸"
+      ],
+      "driver": "周晓芸用手指捡起地上的硬币",
+      "entry_state": "硬币在地面，周晓芸弯腰",
+      "outcome": "硬币被周晓芸握在手中",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "consistency": "1. 第一章提到李国庆与张伟发生冲突，但第二章中张伟出示的照片揭开了李国庆父亲与箱子的真相，暗示张伟可能早知箱子归属，与第一章冲突行为矛盾。\n\n2. 第三章提到陈晓燕透露箱子曾被寄存，并出示相关档案，但第五章中张伟暗示可能需要联系陈晓燕，前后对陈晓燕的知情程度描述不一致。\n\n3. 第四章提到李国庆在小卖部拿到父亲遗留的箱子钥匙，但第五章中张伟暗示需付费才能取回，前后对箱子取回方式的描述不一致。\n\n4. 第五章提到李国庆发现寄存箱上的名字与自己不符，质疑是否被换走，但第六章中神秘人声称箱子是他父亲的，与李国庆的质疑形成矛盾，未明确说明箱子归属是否被调换。",
+  "slug": "shipin-20261027-161",
+  "profile": "视频分镜",
+  "title": "黑箱",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6116,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5718,
+    "chapter_chars_mean": 953,
+    "chapter_chars_median": 1018,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 25.5,
+    "dialogue_chars_pct": 28.1,
+    "dialogue_para_pct": 58.9,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 40.3,
+    "turn_under20_pct": 91.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "皮箱裂痕",
+      "chars": 551,
+      "score": 38.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "登记本最后一页",
+      "chars": 1169,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "手电筒照亮铁皮柜",
+      "chars": 1000,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铜纽扣上的名字",
+      "chars": 1060,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "摩挲皮箱编号",
+      "chars": 1201,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "撕裂皮箱边缘",
+      "chars": 1129,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 505 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李国庆的」×4",
+      "narration_para_pct 29.2 低于目标 35.0"
+    ],
+    "3": [
+      "narration_para_pct 22.7 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "5": [
+      "narration_para_pct 32.1 低于目标 35.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李国庆的」×3",
+      "[observe] 章内自我复读 1 句（如「金属碰撞发出清脆响声…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 147.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:32:16"
+}

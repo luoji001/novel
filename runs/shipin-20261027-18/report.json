@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-18",
+  "profile": "视频分镜",
+  "title": "船票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6433,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6012,
+    "chapter_chars_mean": 1002,
+    "chapter_chars_median": 1020,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 26.8,
+    "dialogue_chars_pct": 25.0,
+    "dialogue_para_pct": 62.9,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 36.7,
+    "turn_under20_pct": 88.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "捡起一枚铜板",
+      "chars": 751,
+      "score": 97.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜铃与船票",
+      "chars": 1279,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "算珠落地",
+      "chars": 1119,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "蓝漆陶碗",
+      "chars": 1186,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜铃上的裂痕",
+      "chars": 1030,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "船票上的字迹",
+      "chars": 1062,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 31.0 低于目标 35.0"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "4": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 137.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:44:28"
+}

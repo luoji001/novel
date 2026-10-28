@@ -1,0 +1,215 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "清晨的停车场",
+      "present": [
+        "李建国",
+        "银色的5角硬币"
+      ],
+      "driver": "李建国右手按住硬币，试图藏进裤袋",
+      "entry_state": "硬币在李建国右手掌心",
+      "outcome": "硬币被李建国藏入裤袋",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "清晨的停车场",
+      "present": [
+        "李建国",
+        "银色的5角硬币"
+      ],
+      "driver": "李建国左手从裤袋掏出硬币，放在掌心",
+      "entry_state": "硬币在李建国裤袋中",
+      "outcome": "硬币回到李建国掌心",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "沈雪",
+        "李建国"
+      ],
+      "driver": "沈雪将纸条从口袋抽出",
+      "entry_state": "纸条从沈雪口袋抽出",
+      "outcome": "纸条出现在沈雪掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "沈雪",
+        "李建国"
+      ],
+      "driver": "沈雪将纸条压在硬币下方",
+      "entry_state": "纸条在沈雪掌心",
+      "outcome": "纸条被硬币压住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "沈雪",
+        "李建国"
+      ],
+      "driver": "沈雪将纸条塞进李建国裤袋",
+      "entry_state": "纸条被硬币压住",
+      "outcome": "纸条进入李建国裤袋",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "教练车内部",
+      "present": [
+        "李建国",
+        "沈雪"
+      ],
+      "driver": "李建国右手按住硬币，试图藏进裤袋",
+      "entry_state": "硬币在李建国右手掌心",
+      "outcome": "硬币滑落至方向盘缝隙",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车内部",
+      "present": [
+        "李建国",
+        "沈雪"
+      ],
+      "driver": "沈雪左手捏着纸条，将硬币抛向车窗",
+      "entry_state": "硬币卡在方向盘缝隙",
+      "outcome": "硬币弹到车窗玻璃上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车内部",
+      "present": [
+        "李建国",
+        "沈雪"
+      ],
+      "driver": "李建国伸手去接硬币，指尖沾着机油",
+      "entry_state": "硬币在车窗玻璃上",
+      "outcome": "硬币滚落到座椅下方",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强"
+      ],
+      "driver": "陈志强右手推门，钥匙落在桌角",
+      "entry_state": "钥匙在桌角",
+      "outcome": "钥匙躺在桌上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强"
+      ],
+      "driver": "陈志强弯腰捡起钥匙，钥匙在掌心转动",
+      "entry_state": "钥匙在掌心",
+      "outcome": "钥匙在陈志强手中转动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强"
+      ],
+      "driver": "陈志强将钥匙放回抽屉，钥匙消失不见",
+      "entry_state": "钥匙在抽屉",
+      "outcome": "钥匙被放入抽屉",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强",
+        "铁盒"
+      ],
+      "driver": "陈志强右手拎着铁盒走进办公室",
+      "entry_state": "铁盒被拎进办公室",
+      "outcome": "铁盒被放在办公桌上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强",
+        "铁盒"
+      ],
+      "driver": "陈志强左手打开铁盒，硬币哗啦啦掉出",
+      "entry_state": "铁盒被打开",
+      "outcome": "硬币从铁盒中掉落",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强",
+        "铁盒"
+      ],
+      "driver": "陈志强用右手将铁盒推到桌角",
+      "entry_state": "硬币掉出铁盒",
+      "outcome": "铁盒被推到桌角",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场停车场",
+      "present": [
+        "李建国",
+        "沈雪"
+      ],
+      "driver": "李建国右手按住硬币，硬币滑向掌心",
+      "entry_state": "硬币在李建国掌心",
+      "outcome": "硬币从李建国掌心滑落至地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场停车场",
+      "present": [
+        "李建国",
+        "沈雪"
+      ],
+      "driver": "沈雪左手捏着纸条，硬币滚到她脚边",
+      "entry_state": "硬币在地面",
+      "outcome": "沈雪弯腰捡起硬币，硬币贴着掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场停车场",
+      "present": [
+        "李建国",
+        "沈雪"
+      ],
+      "driver": "李建国右手伸向硬币，硬币被沈雪按在掌心",
+      "entry_state": "硬币贴着沈雪掌心",
+      "outcome": "硬币在沈雪掌心，李建国收回手",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-17",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6578,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6120,
+    "chapter_chars_mean": 1020,
+    "chapter_chars_median": 1146,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 27.7,
+    "dialogue_chars_pct": 25.0,
+    "dialogue_para_pct": 54.1,
+    "interiority_para_pct": 2.5,
+    "narration_para_pct": 43.4,
+    "turn_under20_pct": 83.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 7.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "贴二维码",
+      "chars": 416,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "贴二维码",
+      "chars": 1019,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "二维码贴纸摩擦声",
+      "chars": 1188,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "二维码贴纸摩擦声",
+      "chars": 1251,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "二维码撕扯声",
+      "chars": 1267,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "二维码撕扯声",
+      "chars": 1431,
+      "score": 22.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 374 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 标题重复：「贴二维码」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「陈阿婆的」×4",
+      "narration_para_pct 21.1 低于目标 35.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周志远的」×3",
+      "[observe] 标题重复：「二维码贴纸摩擦声」已存在"
+    ],
+    "5": [
+      "narration_para_pct 25.0 低于目标 35.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "[observe] 标题与《贴二维码》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "interiority_para_pct 7.3 高于目标 6.0",
+      "[observe] 章内自我复读 8 句（如「周志远沉默了一会儿，终于低声说道：“我知道你为什…」）",
+      "[observe] 标题重复：「二维码撕扯声」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:42:50"
+}

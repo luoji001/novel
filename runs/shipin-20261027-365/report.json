@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-365",
+  "profile": "视频分镜",
+  "title": "银环",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6950,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6480,
+    "chapter_chars_mean": 1080,
+    "chapter_chars_median": 1162,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 31.8,
+    "dialogue_chars_pct": 22.9,
+    "dialogue_para_pct": 54.2,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 45.3,
+    "turn_under20_pct": 96.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 55.0,
+    "attr_adv_pct": 6.7,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "夺袋",
+      "chars": 828,
+      "score": 97.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "报纸在窗边",
+      "chars": 1423,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "登记本在风中翻页",
+      "chars": 1227,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "红布条落地",
+      "chars": 915,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "银环滚落角落",
+      "chars": 1262,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "铜钥匙在掌心晃动",
+      "chars": 1289,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「王翠兰的」×3",
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ],
+    "3": [
+      "单条套路句式超限：「王翠兰的」×3"
+    ],
+    "4": [
+      "[observe] 章节过短 858 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "单条套路句式超限：「李建军的」×3",
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 140.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:00:54"
+}

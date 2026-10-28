@@ -1,0 +1,215 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "候车厅门口",
+      "present": [
+        "李建国",
+        "王翠兰"
+      ],
+      "driver": "李建国用铁钳夹住蛇皮袋提手向自己拉",
+      "entry_state": "蛇皮袋在李建国手中",
+      "outcome": "蛇皮袋被李建国拽向自己方向",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "候车厅门口",
+      "present": [
+        "李建国",
+        "王翠兰"
+      ],
+      "driver": "王翠兰用红布包裹住蛇皮袋向前抢",
+      "entry_state": "蛇皮袋在李建国手中",
+      "outcome": "蛇皮袋被王翠兰夺回并裹住",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长将钥匙串敲击桌面，发出清脆声响",
+      "entry_state": "钥匙串在陈站长手中，完整无损",
+      "outcome": "钥匙串开始在桌面与手之间来回敲击",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长用钥匙串划过桌面边缘，金属刮出细小火花",
+      "entry_state": "钥匙串在桌面与手之间来回敲击",
+      "outcome": "钥匙串部分齿尖磨损，掉落在桌面缝隙中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "站长办公室",
+      "present": [
+        "陈站长"
+      ],
+      "driver": "陈站长弯腰拾起钥匙串，将其收入黑皮手套中",
+      "entry_state": "钥匙串部分齿尖磨损，掉落在桌面缝隙中",
+      "outcome": "钥匙串被完全收进陈站长的黑皮手套",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "候车厅门口",
+      "present": [
+        "王翠兰",
+        "李建国"
+      ],
+      "driver": "王翠兰将红布包紧贴蛇皮袋",
+      "entry_state": "红布包紧贴蛇皮袋",
+      "outcome": "红布包与蛇皮袋紧密贴合",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "候车厅门口",
+      "present": [
+        "王翠兰",
+        "李建国"
+      ],
+      "driver": "李建国用铁钳夹住红布包边缘",
+      "entry_state": "红布包与蛇皮袋紧密贴合",
+      "outcome": "红布包边缘被铁钳夹住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "候车厅门口",
+      "present": [
+        "王翠兰",
+        "李建国"
+      ],
+      "driver": "王翠兰将红布包拽向自己怀里",
+      "entry_state": "红布包边缘被铁钳夹住",
+      "outcome": "红布包被拽入王翠兰怀中",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "售票窗口",
+      "present": [
+        "李建国",
+        "手机"
+      ],
+      "driver": "李建国掏出手机，屏幕亮起现金金额",
+      "entry_state": "手机屏幕亮起现金金额",
+      "outcome": "手机屏幕亮起现金金额",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票窗口",
+      "present": [
+        "李建国",
+        "手机"
+      ],
+      "driver": "李建国将手机放回口袋，手指摩挲铁钳",
+      "entry_state": "手机放回口袋",
+      "outcome": "手机放回口袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票窗口",
+      "present": [
+        "李建国",
+        "手机"
+      ],
+      "driver": "李建国用铁钳夹住手机，屏幕熄灭",
+      "entry_state": "手机放回口袋",
+      "outcome": "手机屏幕熄灭",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "候车厅门口",
+      "present": [
+        "王翠兰",
+        "李建国"
+      ],
+      "driver": "王翠兰将身份证从蛇皮袋抽出",
+      "entry_state": "身份证在王翠兰手中",
+      "outcome": "身份证被王翠兰握在右手掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "候车厅门口",
+      "present": [
+        "王翠兰",
+        "李建国"
+      ],
+      "driver": "李建国伸手抢夺身份证",
+      "entry_state": "身份证在王翠兰手中",
+      "outcome": "身份证从王翠兰手中滑落至地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "候车厅门口",
+      "present": [
+        "王翠兰",
+        "李建国"
+      ],
+      "driver": "王翠兰弯腰捡起身份证并展开",
+      "entry_state": "身份证在地面",
+      "outcome": "身份证被王翠兰展平并举向李建国",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "候车厅门口",
+      "present": [
+        "李建国",
+        "王翠兰"
+      ],
+      "driver": "李建国用铁钳夹住蛇皮袋提手",
+      "entry_state": "蛇皮袋在两人之间",
+      "outcome": "蛇皮袋被铁钳夹住提手",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "候车厅门口",
+      "present": [
+        "李建国",
+        "王翠兰"
+      ],
+      "driver": "王翠兰将火车票撕成两半",
+      "entry_state": "蛇皮袋被铁钳夹住提手",
+      "outcome": "火车票被撕成两半",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "候车厅门口",
+      "present": [
+        "李建国",
+        "王翠兰"
+      ],
+      "driver": "王翠兰将撕碎的火车票塞进布包",
+      "entry_state": "火车票被撕成两半",
+      "outcome": "火车票被塞入布包",
+      "target_chars": 527
+    }
+  ]
+}

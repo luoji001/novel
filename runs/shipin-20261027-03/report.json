@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-03",
+  "profile": "视频分镜",
+  "title": "铁勺",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5923,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5500,
+    "chapter_chars_mean": 917,
+    "chapter_chars_median": 996,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 23.2,
+    "dialogue_para_pct": 49.2,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 50.8,
+    "turn_under20_pct": 93.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 37.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁勺撞翻油锅",
+      "chars": 662,
+      "score": 95.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "手机屏幕贴住木板",
+      "chars": 1130,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙划亮黑暗",
+      "chars": 1098,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铁勺划地计数",
+      "chars": 1150,
+      "score": 94.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "二维码撕落瞬间",
+      "chars": 1016,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "米粒坠入尘埃",
+      "chars": 861,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「李阿婆的」×3"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「你们再吵下去，我就关上门了…」）"
+    ],
+    "6": [
+      "[observe] 章节过短 765 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:19:57"
+}

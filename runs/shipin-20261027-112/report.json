@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-112",
+  "profile": "视频分镜",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6388,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5997,
+    "chapter_chars_mean": 1000,
+    "chapter_chars_median": 1070,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 24.7,
+    "dialogue_chars_pct": 20.0,
+    "dialogue_para_pct": 59.0,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 41.0,
+    "turn_under20_pct": 97.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 44.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "体温计砸向扶手",
+      "chars": 570,
+      "score": 38.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "注射器逼近手腕",
+      "chars": 1179,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "药瓶与耳钉的对峙",
+      "chars": 1168,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "体温计砸向药瓶",
+      "chars": 1080,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "药瓶滚落地",
+      "chars": 1100,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "体温计坠地瞬间",
+      "chars": 1285,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 511 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 3 句（如「李娟的手指开始发抖，体温计从掌心滑落，在地上发出…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「李娟站在」×3",
+      "narration_para_pct 16.7 低于目标 35.0"
+    ],
+    "4": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 标题与《体温计砸向扶手》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「李娟站在」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:10:13"
+}

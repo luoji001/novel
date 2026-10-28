@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第二章提到“镜中看到陌生面容”，但未说明李建军为何会看到镜中陌生面容，缺乏合理铺垫。  \n2. 第三章提到“登记本被撕毁”，但未在前文提及登记本的存在或其重要性，导致情节突兀。  \n3. 第五章提到“彼此都是对方孩子的母亲”，但未在前文有任何伏笔或暗示，导致人物关系突转。  \n4. 第六章提到“两人母亲同名”，但未在前文提及母亲姓名或同名信息，导致逻辑断裂。  \n5. 第二章和第六章均提到“张秀兰”，但未明确张秀兰与李建军、王春梅的关系，导致人物关系混乱。  \n6. 第三章提到“替换了一个药瓶”，但未说明药瓶为何被替换，也未交代替换后的结果，情节不完整。  \n7. 第四章提到“为母亲争取治疗机会”，但未明确母亲是谁，与前文“张秀兰”是否有关联未明确。  \n8. 第五章提到“情感在冲突中悄然复苏”，但未说明情感为何复苏，缺乏情感铺垫。",
+  "slug": "shipin-20261027-154",
+  "profile": "视频分镜",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5865,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5422,
+    "chapter_chars_mean": 904,
+    "chapter_chars_median": 988,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 27.2,
+    "dialogue_chars_pct": 19.7,
+    "dialogue_para_pct": 54.5,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 44.7,
+    "turn_under20_pct": 95.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 48.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "夺瓶之争",
+      "chars": 516,
+      "score": 38.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "登记本掉落的瞬间",
+      "chars": 1112,
+      "score": 96.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "夺瓶之争",
+      "chars": 1080,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "握紧药瓶的瞬间",
+      "chars": 936,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "血痕与登记本",
+      "chars": 1114,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "撕碎的登记本",
+      "chars": 1101,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 482 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 28.0 低于目标 35.0"
+    ],
+    "3": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「夺瓶之争」已存在"
+    ],
+    "4": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李建军的」×7"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:20:57"
+}

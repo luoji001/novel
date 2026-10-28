@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-39",
+  "profile": "视频分镜",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5826,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5435,
+    "chapter_chars_mean": 906,
+    "chapter_chars_median": 900,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 23.2,
+    "dialogue_chars_pct": 10.8,
+    "dialogue_para_pct": 32.8,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 65.7,
+    "turn_under20_pct": 92.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 62.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "胶片袋上的铅笔字",
+      "chars": 551,
+      "score": 36.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙落锁",
+      "chars": 847,
+      "score": 21.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "胶片盒在摇晃",
+      "chars": 873,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铜铃在摇晃",
+      "chars": 1082,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "胶片盒在摇晃",
+      "chars": 1288,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "铜铃静止",
+      "chars": 1179,
+      "score": 55.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 5 句（如「老李转过头，看着风中摇摆的铜铃，手指不自觉地摩挲…」）",
+      "[observe] 章节过短 500 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 811 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章节过短 835 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "dialogue_chars_pct 4.9 低于目标 5.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周正国的」×3",
+      "narration_para_pct 26.5 低于目标 35.0",
+      "[observe] 标题重复：「胶片盒在摇晃」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「老李站在」×3",
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 95.8 高于目标 90.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 130.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:15:33"
+}

@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-295",
+  "profile": "视频分镜",
+  "title": "蛇皮袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6396,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5960,
+    "chapter_chars_mean": 993,
+    "chapter_chars_median": 1168,
+    "chapter_chars_cv": 0.42,
+    "paragraphs_mean": 28.7,
+    "dialogue_chars_pct": 23.8,
+    "dialogue_para_pct": 57.9,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 40.8,
+    "turn_under20_pct": 96.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 20.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙敲击蛇皮袋",
+      "chars": 216,
+      "score": 15.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "登记簿上的指纹",
+      "chars": 1275,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "竹篮砸蛇皮袋",
+      "chars": 1321,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "箱子的秘密",
+      "chars": 923,
+      "score": 57.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与钱包的对峙",
+      "chars": 1251,
+      "score": 38.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "塑料袋坠地",
+      "chars": 1404,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 187 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 28.1 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「你们两个都给我冷静点…」）"
+    ],
+    "3": [
+      "narration_para_pct 25.0 低于目标 35.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 4.6 低于目标 5.0"
+    ],
+    "5": [
+      "单条套路句式超限：「王翠兰的」×4",
+      "narration_para_pct 21.3 低于目标 35.0",
+      "dialogue_run_mean 4.1 高于目标 4.0",
+      "[observe] 章内自我复读 1 句（如「你是不是知道些什么？…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:09:17"
+}

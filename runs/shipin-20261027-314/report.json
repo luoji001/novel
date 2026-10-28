@@ -1,0 +1,123 @@
+{
+  "consistency": "1. 王小明在第一章《塞试卷》中“将一张皱巴巴的试卷塞进书包”，但第五章《铅笔盒坠地声》中提到他“偷藏铅笔盒逃离学校”，两者均涉及书包，但未明确说明铅笔盒是否在书包内，存在物件归属不清晰的问题。\n\n2. 第二章与第四章均名为《应急灯的重量》，内容重复，可能造成时间线混乱，且第四章提到“两人在教室中展开一场关于责任与自我的无声较量”，但未明确说明李秀兰与王小明是否在同一次事件中发生冲突。\n\n3. 第三章《钥匙落尘》提到陈校长“在黄昏时分独自回到办公室”，而第五章《铅笔盒坠地声》提到王小明“在黄昏时分偷藏铅笔盒逃离学校”，两者时间点相同，但人物行动未产生直接关联，逻辑上存在时间线错乱的可能。\n\n4. 第六章《应急灯的重量》提到“王小明因偷电而受伤”，但前文未提及王小明有偷电行为，属于人物行为无前因的突兀出现。",
+  "slug": "shipin-20261027-314",
+  "profile": "视频分镜",
+  "title": "应急灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6145,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5790,
+    "chapter_chars_mean": 965,
+    "chapter_chars_median": 976,
+    "chapter_chars_cv": 0.42,
+    "paragraphs_mean": 22.5,
+    "dialogue_chars_pct": 8.8,
+    "dialogue_para_pct": 29.8,
+    "interiority_para_pct": 1.7,
+    "narration_para_pct": 68.4,
+    "turn_under20_pct": 96.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 100.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.3,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "塞试卷",
+      "chars": 285,
+      "score": 23.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "应急灯的重量",
+      "chars": 1413,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙落尘",
+      "chars": 919,
+      "score": 52.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "应急灯的重量",
+      "chars": 1414,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铅笔盒坠地声",
+      "chars": 979,
+      "score": 87.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "应急灯的重量",
+      "chars": 1129,
+      "score": 59.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 254 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「王小明的」×3"
+    ],
+    "3": [
+      "dialogue_chars_pct 1.0 低于目标 5.0",
+      "narration_para_pct 92.9 高于目标 90.0"
+    ],
+    "4": [
+      "单条套路句式超限：「王小明的」×3",
+      "[observe] 标题重复：「应急灯的重量」已存在"
+    ],
+    "5": [
+      "dialogue_chars_pct 2.2 低于目标 5.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李秀兰的」×3",
+      "[observe] 标题重复：「应急灯的重量」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 128.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:42:18"
+}

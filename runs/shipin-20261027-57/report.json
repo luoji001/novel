@@ -1,0 +1,117 @@
+{
+  "consistency": "1. 第一章提到“装有丈夫遗物的蛇皮袋”，但第三章提到“装有丈夫遗物的红布包”，蛇皮袋与红布包混用，物品不一致。  \n2. 第三章提到“红布包”，但第六章又提到“蛇皮袋”，前后物品不一致。  \n3. 第五章提到“丈夫的身份证”，但前文未提及丈夫姓名，导致身份信息不明确。  \n4. 第六章提到“周志远”，但前文未提及此人姓名，导致人物身份不一致。  \n5. 第四章提到“一部手机”，但前文未提及手机的存在，属于未交代物件。  \n6. 第二章提到“蛇皮袋的神秘来历”，但未交代具体来历，属于未交代信息。  \n7. 第五章提到“在候车厅找到李建国”，但未交代李建国为何在候车厅，属于未交代场景。  \n8. 第六章提到“铁钳夹住红布包”，但前文未明确李建国使用铁钳，属于未交代行为。",
+  "slug": "shipin-20261027-57",
+  "profile": "视频分镜",
+  "title": "火车票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6087,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5617,
+    "chapter_chars_mean": 936,
+    "chapter_chars_median": 1026,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 27.7,
+    "dialogue_chars_pct": 23.5,
+    "dialogue_para_pct": 52.9,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 46.4,
+    "turn_under20_pct": 93.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "蛇皮袋的拉链声",
+      "chars": 370,
+      "score": 39.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙串的沉默时刻",
+      "chars": 1173,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "红布包与铁钳相争",
+      "chars": 1073,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铁钳与红布包对峙",
+      "chars": 1253,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "身份证的折痕",
+      "chars": 1204,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铁钳夹住红布包",
+      "chars": 1008,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 335 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 34.8 低于目标 35.0"
+    ],
+    "4": [
+      "单条套路句式超限：「王翠兰的」×3",
+      "narration_para_pct 30.4 低于目标 35.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "6": [
+      "情节与已写章节重复 0.64 ≥ 0.62（撞上「李建国与王翠兰争夺装有丈夫遗物的蛇皮袋，围绕火车票和三千…」）",
+      "[observe] 标题与《铁钳与红布包对峙》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:44:22"
+}

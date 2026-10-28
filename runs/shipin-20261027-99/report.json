@@ -1,0 +1,111 @@
+{
+  "consistency": "1. 第二章提到赵强在车站站务室发现一本登记本，但第三章和第四章中赵强与李芳争夺的是蛇皮袋，未提及登记本后续出现或被使用，存在物件未交代的矛盾。\n\n2. 第五章提到李芳在车站发现一张十年旧报纸，但第四章和第六章中李芳与赵强争夺的是蛇皮袋，未提及报纸后续出现或被使用，存在物件未交代的矛盾。\n\n3. 第五章提到李芳决定追寻记忆中的线索，但未明确说明这一决定与前文发现报纸或蛇皮袋之间的因果关系，存在动机与行为衔接不清晰的矛盾。\n\n4. 第六章提到赵强与李芳争夺蛇皮袋，但第四章已明确说明他们争夺的是装有父亲遗物的蛇皮袋，第六章重复此情节但未体现新的冲突或进展，存在情节重复但无新信息的矛盾。",
+  "slug": "shipin-20261027-99",
+  "profile": "视频分镜",
+  "title": "钥匙的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6011,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5583,
+    "chapter_chars_mean": 930,
+    "chapter_chars_median": 995,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 27.8,
+    "dialogue_chars_pct": 12.7,
+    "dialogue_para_pct": 35.0,
+    "interiority_para_pct": 3.5,
+    "narration_para_pct": 61.4,
+    "turn_under20_pct": 97.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撕开蛇皮袋的瞬间",
+      "chars": 482,
+      "score": 38.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "红绳缠绕登记本",
+      "chars": 1164,
+      "score": 0.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙转动的瞬间",
+      "chars": 1054,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "报纸揭开真相",
+      "chars": 1109,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "报纸揭开真相",
+      "chars": 865,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "蛇皮袋开口处",
+      "chars": 1331,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 426 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "dialogue_chars_pct 2.9 低于目标 5.0",
+      "[observe] interiority_para_pct 17.6 > 15.0（结构塌缩）"
+    ],
+    "5": [
+      "[observe] 章节过短 781 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「报纸揭开真相」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:50:04"
+}

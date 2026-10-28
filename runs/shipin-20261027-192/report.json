@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-192",
+  "profile": "视频分镜",
+  "title": "铜钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5646,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5310,
+    "chapter_chars_mean": 885,
+    "chapter_chars_median": 899,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 20,
+    "dialogue_chars_pct": 19.7,
+    "dialogue_para_pct": 49.5,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 49.9,
+    "turn_under20_pct": 90.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 47.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙板的新凹痕",
+      "chars": 868,
+      "score": 96.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "钥匙与血痕",
+      "chars": 1023,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "笔记本上的空白页",
+      "chars": 1116,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "水杯边缘的圆圈",
+      "chars": 674,
+      "score": 19.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "钥匙敲击门框声",
+      "chars": 897,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙板与墙缝数字",
+      "chars": 1062,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林晓雨的」×3",
+      "narration_para_pct 25.0 低于目标 35.0",
+      "dialogue_run_mean 6 高于目标 4.0"
+    ],
+    "4": [
+      "[observe] 章内自我复读 1 句（如「几滴水珠顺着杯壁滑落，在灯光下折射出细碎的光斑…」）",
+      "[observe] 章节过短 631 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "[observe] 章节过短 844 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 120.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:21:39"
+}

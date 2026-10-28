@@ -1,0 +1,221 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "清晨五点的鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "老李左手按住冰台边缘，挡在信前",
+      "entry_state": "冰台静止在鱼摊中央",
+      "outcome": "冰台边缘被老李按住，无法移动",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "清晨五点的鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "王叔用铁钩勾住冰台一角，试图拉下信",
+      "entry_state": "冰台边缘被按住，无法移动",
+      "outcome": "冰台一角被王叔勾住，开始倾斜",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "王叔拽着麻绳往冰台边缘拉",
+      "entry_state": "信平铺在冰台上",
+      "outcome": "信被麻绳勾起一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "老李左手按住冰台边缘，信滑向他怀里",
+      "entry_state": "信被麻绳勾起一角",
+      "outcome": "信半落在老李左臂上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊前的冰台",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "王叔用铁钩挑起信，老李右手抓向信尾",
+      "entry_state": "信半落在老李左臂上",
+      "outcome": "信被撕成两半",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "老李左肩的塑料袋垂到地面",
+      "entry_state": "塑料袋垂到地面",
+      "outcome": "塑料袋垂到地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "王叔用铁钩挑起塑料袋一角",
+      "entry_state": "塑料袋垂到地面",
+      "outcome": "塑料袋被挑起一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "老李用铁剪割断塑料袋提手",
+      "entry_state": "塑料袋被挑起一角",
+      "outcome": "塑料袋被割断提手",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔",
+        "小翠"
+      ],
+      "driver": "小翠举起木柄秤挡住两人视线",
+      "entry_state": "小翠举着木柄秤挡住视线",
+      "outcome": "秤被小翠举在头顶，挡住视线",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔",
+        "小翠"
+      ],
+      "driver": "老李用左手按住冰台边缘，右手握剪刀抵住秤杆",
+      "entry_state": "秤被小翠举在头顶，挡住视线",
+      "outcome": "秤杆被老李的剪刀抵住，开始倾斜",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔",
+        "小翠"
+      ],
+      "driver": "王叔用铁钩勾住秤杆，将秤拉向自己",
+      "entry_state": "秤杆被老李的剪刀抵住，开始倾斜",
+      "outcome": "秤完全倒下，秤盘砸在鱼摊地上",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "老李左肩塑料袋垂落，鱼鳞滑落至冰台边缘",
+      "entry_state": "鱼鳞在冰台边缘",
+      "outcome": "鱼鳞滑落至冰台边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "王叔用铁钩勾起鱼鳞，鱼鳞脱离塑料袋",
+      "entry_state": "鱼鳞在冰台边缘",
+      "outcome": "鱼鳞脱离塑料袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "老李用铁剪夹住鱼鳞，鱼鳞贴在左手掌心",
+      "entry_state": "鱼鳞脱离塑料袋",
+      "outcome": "鱼鳞贴在左手掌心",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "王叔右手拽麻绳，信从冰台滑出半寸",
+      "entry_state": "信滑出冰台边缘",
+      "outcome": "信部分露出冰台表面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "老李左手按住冰台，信被王叔拽到掌心",
+      "entry_state": "信在王叔掌心",
+      "outcome": "信被王叔攥住一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "老李",
+        "王叔"
+      ],
+      "driver": "王叔撕开信纸，信碎成三片飘落",
+      "entry_state": "信在王叔掌心",
+      "outcome": "信纸碎裂飘散",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-262",
+  "profile": "视频分镜",
+  "title": "铁盒",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 4106,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 3749,
+    "chapter_chars_mean": 625,
+    "chapter_chars_median": 571,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 22.2,
+    "dialogue_chars_pct": 24.6,
+    "dialogue_para_pct": 49.4,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 50.6,
+    "turn_under20_pct": 97.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 81.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙落回原位",
+      "chars": 739,
+      "score": 39.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "保险柜裂痕",
+      "chars": 494,
+      "score": 19.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙与房卡的对峙",
+      "chars": 991,
+      "score": 87.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "粉笔划过桌面",
+      "chars": 465,
+      "score": 13.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "钥匙坠入雨痕",
+      "chars": 507,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙坠入锁孔",
+      "chars": 904,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 27.8 低于目标 35.0",
+      "dialogue_run_mean 4.3 高于目标 4.0",
+      "[observe] 章内自我复读 2 句（如「这种老式钥匙，应该还有主人…」）"
+    ],
+    "2": [
+      "dialogue_chars_pct 0.9 低于目标 5.0",
+      "narration_para_pct 95.0 高于目标 90.0",
+      "[observe] 章节过短 441 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 15.4 低于目标 35.0",
+      "dialogue_run_mean 5.5 高于目标 4.0"
+    ],
+    "4": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 409 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "[observe] 章节过短 453 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "[observe] 章节过短 834 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《钥匙坠入雨痕》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 110.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:17:05"
+}

@@ -1,0 +1,71 @@
+[
+  {
+    "no": 1,
+    "title": "老式台灯亮起",
+    "beat": "清晨六点，放映室：老李打开老式台灯，开始整理胶片盒",
+    "target_chars": 1087,
+    "scale": "short",
+    "must_object": "老式台灯",
+    "speakers": [
+      "老李"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "公文包撞上放映机",
+    "beat": "上午九点，镇长办公室：陈镇长用公文包砸向放映机，老李挡在机器前",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "公文包",
+    "speakers": [
+      "老李",
+      "陈镇长"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "电影票遮住镜头",
+    "beat": "下午三点，电影院门口：小梅用电影票挡住放映机的镜头，老李愤怒地抓住她的手腕",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "电影票",
+    "speakers": [
+      "老李",
+      "小梅"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "胶片盒被塞进抽屉",
+    "beat": "傍晚五点，放映室：老李把胶片盒塞进抽屉，镇长闯入房间",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "胶片盒",
+    "speakers": [
+      "老李",
+      "陈镇长"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "铜钥匙掉落在地",
+    "beat": "晚上七点，电影院门口：老李从口袋掏出铜钥匙，钥匙掉落在地",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "铜钥匙",
+    "speakers": [
+      "老李"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "胶片盒被撕开",
+    "beat": "深夜十一点，放映室：镇长撕开胶片盒，胶片散落一地",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "胶片盒",
+    "speakers": [
+      "陈镇长"
+    ]
+  }
+]

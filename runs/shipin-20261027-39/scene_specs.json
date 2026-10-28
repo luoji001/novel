@@ -1,0 +1,219 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "电影院门口",
+      "present": [
+        "老李",
+        "铜铃"
+      ],
+      "driver": "老李将胶片盒插入放映机",
+      "entry_state": "铜铃悬挂在门框上",
+      "outcome": "铜铃被风吹响，发出清脆声响",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "电影院门口",
+      "present": [
+        "老李",
+        "铜铃"
+      ],
+      "driver": "老李伸手触碰铜铃，铃舌轻微晃动",
+      "entry_state": "铜铃被风吹响，发出清脆声响",
+      "outcome": "铜铃铃舌脱落，只剩空壳",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "周正国",
+        "钥匙"
+      ],
+      "driver": "周正国将钥匙插入锁孔，转动门把",
+      "entry_state": "钥匙在锁孔中",
+      "outcome": "门轴发出吱呀声，门缓缓开启",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "周正国",
+        "钥匙"
+      ],
+      "driver": "周正国将钥匙放在桌上，取出公文包",
+      "entry_state": "钥匙在桌上",
+      "outcome": "公文包被打开，露出文件和钢笔",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "周正国",
+        "钥匙"
+      ],
+      "driver": "周正国将钥匙丢进抽屉，用力合上抽屉",
+      "entry_state": "钥匙在抽屉中",
+      "outcome": "抽屉闭合，钥匙完全隐藏",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "胶片盒"
+      ],
+      "driver": "老李用布满老茧的手紧握胶片盒",
+      "entry_state": "胶片盒在老李手中",
+      "outcome": "胶片盒贴着标签静置在放映机旁",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "胶片盒"
+      ],
+      "driver": "老李将胶片盒从手中移开放在桌上",
+      "entry_state": "胶片盒在桌上",
+      "outcome": "胶片盒被老李轻轻推到桌边",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "胶片盒"
+      ],
+      "driver": "老李用手指摩挲胶片盒上的标签",
+      "entry_state": "胶片盒在桌边",
+      "outcome": "胶片盒上的标签被老李手指擦得发亮",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "售票处",
+      "present": [
+        "林秀兰",
+        "收银机"
+      ],
+      "driver": "林秀兰用围裙擦掉收银机上的灰尘",
+      "entry_state": "收银机表面干净",
+      "outcome": "收银机表面干净",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票处",
+      "present": [
+        "林秀兰",
+        "收银机"
+      ],
+      "driver": "林秀兰把收银机推到柜台边缘",
+      "entry_state": "收银机表面干净",
+      "outcome": "收银机被推到柜台边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票处",
+      "present": [
+        "林秀兰",
+        "收银机"
+      ],
+      "driver": "林秀兰用收银机按键敲出节奏",
+      "entry_state": "收银机被推到柜台边缘",
+      "outcome": "收银机发出节奏声",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "胶片盒"
+      ],
+      "driver": "老李将胶片盒推到桌边，手指摩挲标签",
+      "entry_state": "胶片盒在桌上，老李手触标签",
+      "outcome": "胶片盒在桌上，老李手触标签",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老李",
+        "周正国",
+        "胶片盒"
+      ],
+      "driver": "周正国夺过胶片盒，标签被撕下一角",
+      "entry_state": "胶片盒在桌上，老李手触标签",
+      "outcome": "胶片盒在周正国手中，标签被撕下一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "周正国",
+        "胶片盒"
+      ],
+      "driver": "周正国将胶片盒砸向放映机，玻璃碎裂",
+      "entry_state": "胶片盒在周正国手中，标签被撕下一角",
+      "outcome": "胶片盒碎裂在放映机旁，玻璃碎裂",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "电影院门口",
+      "present": [
+        "老李",
+        "铜铃"
+      ],
+      "driver": "铜铃在风中摇晃，发出清脆声响",
+      "entry_state": "铜铃悬挂在门框上",
+      "outcome": "铜铃被风吹动，铃舌轻微晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院门口",
+      "present": [
+        "老李",
+        "铜铃"
+      ],
+      "driver": "老李伸手触碰铜铃，指尖划过锈迹",
+      "entry_state": "铜铃被风吹动，铃舌轻微晃动",
+      "outcome": "铜铃被老李握在掌心，铃舌停止晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院门口",
+      "present": [
+        "老李",
+        "铜铃"
+      ],
+      "driver": "老李将铜铃放回原位，转身望向远方",
+      "entry_state": "铜铃被老李握在掌心，铃舌停止晃动",
+      "outcome": "铜铃重新悬挂在门框上，铃舌静止不动",
+      "target_chars": 527
+    }
+  ]
+}

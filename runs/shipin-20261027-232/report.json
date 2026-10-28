@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-232",
+  "profile": "视频分镜",
+  "title": "鱼鳞",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6418,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6008,
+    "chapter_chars_mean": 1001,
+    "chapter_chars_median": 1050,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 27.3,
+    "dialogue_chars_pct": 22.8,
+    "dialogue_para_pct": 52.4,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 47.0,
+    "turn_under20_pct": 97.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 57.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "鱼腹贴冰面",
+      "chars": 806,
+      "score": 95.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "鱼鳞入袋",
+      "chars": 1097,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "鱼鳞入袋",
+      "chars": 1266,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "信封飘落冰面",
+      "chars": 1142,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "鱼鳞入秤",
+      "chars": 928,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "鱼鳞入水",
+      "chars": 1173,
+      "score": 57.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "[observe] 标题重复：「鱼鳞入袋」已存在"
+    ],
+    "5": [
+      "[observe] 标题与《鱼鳞入袋》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题与《鱼鳞入袋》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:29:19"
+}

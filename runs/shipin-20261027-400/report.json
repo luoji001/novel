@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-400",
+  "profile": "视频分镜",
+  "title": "信中鱼鳞",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6659,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6203,
+    "chapter_chars_mean": 1034,
+    "chapter_chars_median": 1045,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 30.5,
+    "dialogue_chars_pct": 18.8,
+    "dialogue_para_pct": 52.6,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 46.9,
+    "turn_under20_pct": 96.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.5,
+    "attr_adv_pct": 5.4,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁钳与冰台的对峙",
+      "chars": 658,
+      "score": 96.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "鱼鳞擦过脸颊",
+      "chars": 1416,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "信纸压冰台",
+      "chars": 1402,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "铁钳砸冰台",
+      "chars": 931,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铁钳划破冰面",
+      "chars": 1079,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铁钳碾碎冰面",
+      "chars": 1167,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "4": [
+      "[observe] 章节过短 852 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《铁钳与冰台的对峙》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "[observe] 标题与《铁钳划破冰面》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 144.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:57:03"
+}

@@ -1,0 +1,126 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-144",
+  "profile": "视频分镜",
+  "title": "当票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6730,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6021,
+    "chapter_chars_mean": 1004,
+    "chapter_chars_median": 1068,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 44.7,
+    "dialogue_chars_pct": 28.7,
+    "dialogue_para_pct": 62.4,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 36.4,
+    "turn_under20_pct": 99.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 48.8,
+    "attr_adv_pct": 5.2,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 6.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "纸条的摩挲声",
+      "chars": 618,
+      "score": 36.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "纸条的摩挲声",
+      "chars": 1004,
+      "score": 86.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙串的摇晃声",
+      "chars": 1304,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铁皮盒里的铅笔画",
+      "chars": 1138,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "时刻表的摩挲声",
+      "chars": 1298,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "纸条的摩挲声",
+      "chars": 1362,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 5.6 低于目标 35.0",
+      "dialogue_run_mean 17 高于目标 4.0",
+      "[observe] 章节过短 568 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 16.0 低于目标 35.0",
+      "dialogue_run_mean 10.5 高于目标 4.0",
+      "[observe] 标题重复：「纸条的摩挲声」已存在"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "4": [
+      "narration_para_pct 91.1 高于目标 90.0",
+      "[observe] 章节过短 842 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "[observe] 标题与《纸条的摩挲声》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 23.4 低于目标 35.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「纸条的摩挲声」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:05:05"
+}

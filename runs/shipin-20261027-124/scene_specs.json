@@ -1,0 +1,217 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李建国",
+        "银色的五角硬币"
+      ],
+      "driver": "李建国弯腰捡起硬币",
+      "entry_state": "硬币躺在座椅上",
+      "outcome": "硬币被李建国握在右手掌心",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李建国",
+        "银色的五角硬币"
+      ],
+      "driver": "李建国将硬币放回座椅",
+      "entry_state": "硬币在李建国掌心",
+      "outcome": "硬币回到座椅上",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "李建国",
+        "纸条"
+      ],
+      "driver": "李建国从椅子上拿起纸条",
+      "entry_state": "纸条在李建国手中",
+      "outcome": "纸条被李建国展开",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "李建国",
+        "纸条"
+      ],
+      "driver": "李建国用左手捏皱纸条",
+      "entry_state": "纸条被捏皱",
+      "outcome": "纸条在李建国手中被揉成团",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "李建国"
+      ],
+      "driver": "李建国将纸条丢进垃圾桶",
+      "entry_state": "纸条在垃圾桶内",
+      "outcome": "纸条被丢进垃圾桶",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "驾校办公室",
+      "present": [
+        "李建国",
+        "红色的钥匙"
+      ],
+      "driver": "李建国从抽屉取出红色钥匙",
+      "entry_state": "红色钥匙在李建国手中",
+      "outcome": "红色钥匙被放入掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "驾校办公室",
+      "present": [
+        "李建国",
+        "红色的钥匙"
+      ],
+      "driver": "李建国将钥匙贴近灯光检查",
+      "entry_state": "红色钥匙在李建国掌心",
+      "outcome": "钥匙表面出现细微划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "驾校办公室",
+      "present": [
+        "李建国",
+        "红色的钥匙"
+      ],
+      "driver": "李建国将钥匙插入储物柜锁孔",
+      "entry_state": "钥匙表面有划痕",
+      "outcome": "钥匙成功开启储物柜",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "林晓芸",
+        "银色的五角硬币"
+      ],
+      "driver": "林晓芸将硬币放入副驾驶座缝隙",
+      "entry_state": "硬币在副驾驶座缝隙",
+      "outcome": "硬币被藏进副驾驶座缝隙",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "林晓芸",
+        "银色的五角硬币"
+      ],
+      "driver": "林晓芸用黑色手套擦去硬币上的指纹",
+      "entry_state": "硬币被藏进副驾驶座缝隙",
+      "outcome": "硬币表面无指纹痕迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "林晓芸",
+        "银色的五角硬币"
+      ],
+      "driver": "林晓芸将硬币塞进连帽衫口袋",
+      "entry_state": "硬币表面无指纹痕迹",
+      "outcome": "硬币消失在连帽衫口袋",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "驾校办公室",
+      "present": [
+        "李建国",
+        "铁盒"
+      ],
+      "driver": "李建国打开储物柜，取出铁盒",
+      "entry_state": "铁盒被取出储物柜",
+      "outcome": "铁盒出现在李建国手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "驾校办公室",
+      "present": [
+        "李建国",
+        "铁盒"
+      ],
+      "driver": "李建国打开铁盒，硬币哗啦啦掉落",
+      "entry_state": "铁盒被打开",
+      "outcome": "铁盒内硬币散落",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "驾校办公室",
+      "present": [
+        "李建国",
+        "铁盒"
+      ],
+      "driver": "李建国将铁盒放回储物柜，锁上柜门",
+      "entry_state": "铁盒内硬币散落",
+      "outcome": "铁盒被重新放回储物柜",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "李建国",
+        "林晓芸"
+      ],
+      "driver": "李建国将硬币放回副驾驶座",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币回到副驾驶座",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "李建国",
+        "林晓芸"
+      ],
+      "driver": "林晓芸将新硬币藏入连帽衫口袋",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币消失，林晓芸藏起新硬币",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "李建国",
+        "林晓芸"
+      ],
+      "driver": "李建国弯腰捡起地上的硬币",
+      "entry_state": "硬币消失",
+      "outcome": "硬币被李建国捡起",
+      "target_chars": 527
+    }
+  ]
+}

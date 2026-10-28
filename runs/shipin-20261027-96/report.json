@@ -1,0 +1,106 @@
+{
+  "consistency": "1. 苏婉晴在第一章和第四章均被描述为“用指甲反复刮擦硬币”，但未说明该硬币是否为第一章中“在练车场留下”的同一枚硬币，存在物件未交代的矛盾。\n\n2. 第五章提到苏婉晴“翻看驾驶证本”，但前文从未提及她是否已取得驾驶证，也未说明驾驶证本的来源，存在人物行为与前文设定不符的矛盾。\n\n3. 第六章提到苏婉晴“迟到”，但前文从未提及她有迟到的行为或记录，与陈志远“调整计时器”这一行为逻辑不一致，存在时间线错乱的矛盾。",
+  "slug": "shipin-20261027-96",
+  "profile": "视频分镜",
+  "title": "硬币的刮擦",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6033,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5626,
+    "chapter_chars_mean": 938,
+    "chapter_chars_median": 986,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 26.3,
+    "dialogue_chars_pct": 14.0,
+    "dialogue_para_pct": 33.9,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 66.1,
+    "turn_under20_pct": 94.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币的刮擦",
+      "chars": 464,
+      "score": 21.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙与引擎的对峙",
+      "chars": 1078,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "撕碎登记簿",
+      "chars": 1049,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "硬币的刻痕",
+      "chars": 1016,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "驾驶证本的折痕",
+      "chars": 1297,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "计时器的归零",
+      "chars": 1123,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 427 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 标题与《硬币的刮擦》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 124.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:45:20"
+}

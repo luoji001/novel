@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-369",
+  "profile": "视频分镜",
+  "title": "雨靴的归属",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6927,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6434,
+    "chapter_chars_mean": 1072,
+    "chapter_chars_median": 1156,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 33,
+    "dialogue_chars_pct": 28.7,
+    "dialogue_para_pct": 65.1,
+    "interiority_para_pct": 2.2,
+    "narration_para_pct": 32.8,
+    "turn_under20_pct": 96.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 45.6,
+    "attr_adv_pct": 2.3,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 6.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "雨靴与铁皮桶对峙",
+      "chars": 652,
+      "score": 38.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铁皮桶坠落瞬间",
+      "chars": 1249,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "电费单上的争执",
+      "chars": 1359,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "伞骨的较量",
+      "chars": 1352,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "报纸掀开真相",
+      "chars": 1082,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "雨靴的归属",
+      "chars": 1227,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 590 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 4.7 低于目标 35.0",
+      "dialogue_run_mean 20.5 高于目标 4.0"
+    ],
+    "4": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "5": [
+      "单条套路句式超限：「张德昌的」×4"
+    ],
+    "6": [
+      "单条套路句式超限：「张德昌的」×3",
+      "interiority_para_pct 6.9 高于目标 6.0",
+      "narration_para_pct 24.1 低于目标 35.0",
+      "dialogue_run_mean 6.7 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 152.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:07:23"
+}

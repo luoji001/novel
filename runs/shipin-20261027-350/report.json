@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-350",
+  "profile": "视频分镜",
+  "title": "药瓶的温度",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5933,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5416,
+    "chapter_chars_mean": 903,
+    "chapter_chars_median": 958,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 33.8,
+    "dialogue_chars_pct": 21.1,
+    "dialogue_para_pct": 47.2,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 52.4,
+    "turn_under20_pct": 95.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 59.7,
+    "attr_adv_pct": 27.6,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "输液架的吱呀声",
+      "chars": 648,
+      "score": 98.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "药瓶与手腕的纠缠",
+      "chars": 1196,
+      "score": 87.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "药瓶与手腕的纠缠",
+      "chars": 1073,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "耳钉与病历纸摩擦",
+      "chars": 909,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "胸牌的十字架闪烁",
+      "chars": 1044,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "药瓶与手腕的纠缠",
+      "chars": 1057,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「林小满的」×4"
+    ],
+    "2": [
+      "单条套路句式超限：「林小满的」×5"
+    ],
+    "3": [
+      "单条套路句式超限：「林小满的」×3",
+      "[observe] 标题重复：「药瓶与手腕的纠缠」已存在"
+    ],
+    "4": [
+      "[observe] 章节过短 837 < 870（本章目标 1582 字的 55%）",
+      "[observe] attr_adv_pct 100.0 > 18.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「林小满的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「林小满的」×5",
+      "narration_para_pct 28.6 低于目标 35.0",
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「药瓶与手腕的纠缠」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 130.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:38:43"
+}

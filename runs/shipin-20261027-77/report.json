@@ -1,0 +1,110 @@
+{
+  "consistency": "1. 第一章称李国强“主张：用力拽住皮箱把手，试图将箱子拉出柜台”，而第二章称“李国强为父亲遗留的皮箱滞纳金与王秀兰争执，最终同意取回箱子”，前后主张不一致。\n\n2. 第三章称“李国强为取回父亲留下的旧皮箱，与寄存处的王秀兰发生争执，最终用仅有的钱换取了箱子”，而第四章称“李国强与王秀兰因皮箱纠纷对峙，揭开彼此过往伤痕，最终强行带走皮箱引发玻璃破裂”，前后对箱子的处理方式不一致。\n\n3. 第五章称“陈志远旁观并最终劝解”，而第四章称“李国强与王秀兰因皮箱纠纷对峙，揭开彼此过往伤痕，最终强行带走皮箱引发玻璃破裂”，未提及陈志远劝解情节，前后不一致。\n\n4. 第二章称“李国强为父亲遗留的皮箱滞纳金与王秀兰争执，最终同意取回箱子，却在撕毁寄存单时发现对方手背的旧伤”，而第四章称“李国强与王秀兰因皮箱纠纷对峙，揭开彼此过往伤痕”，未明确说明旧伤是否为关键情节，前后不一致。\n\n5. 第六章称“李国强为找回父亲遗留的皮箱与寄存处发生冲突，最终发现箱子背后隐藏的秘密”，而第一章称“李国强为取回寄存三年的皮箱与王秀兰争执”，未提及“隐藏的秘密”这一情节，前后不一致。",
+  "slug": "shipin-20261027-77",
+  "profile": "视频分镜",
+  "title": "皮箱",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6350,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5884,
+    "chapter_chars_mean": 981,
+    "chapter_chars_median": 998,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 29.8,
+    "dialogue_chars_pct": 22.9,
+    "dialogue_para_pct": 54.8,
+    "interiority_para_pct": 0.3,
+    "narration_para_pct": 44.9,
+    "turn_under20_pct": 95.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "算盘珠子的碰撞声",
+      "chars": 693,
+      "score": 97.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "红印章碎裂瞬间",
+      "chars": 1374,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "摩挲便签纸的瞬间",
+      "chars": 955,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "玻璃裂纹蔓延时刻",
+      "chars": 927,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "皮箱把手的断裂",
+      "chars": 1194,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "皮箱坠落瞬间",
+      "chars": 1201,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「李国强的」×4"
+    ],
+    "3": [
+      "[observe] 章节过短 847 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "单条套路句式超限：「王秀兰的」×3",
+      "narration_para_pct 30.8 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:15:50"
+}

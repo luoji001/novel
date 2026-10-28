@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-162",
+  "profile": "视频分镜",
+  "title": "信绳",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5873,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5253,
+    "chapter_chars_mean": 876,
+    "chapter_chars_median": 866,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 40.2,
+    "dialogue_chars_pct": 21.0,
+    "dialogue_para_pct": 42.5,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 57.5,
+    "turn_under20_pct": 97.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "争信",
+      "chars": 695,
+      "score": 95.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "撕碎的账单一角",
+      "chars": 1213,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "撕秤杆",
+      "chars": 913,
+      "score": 38.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "红布袋的提绳",
+      "chars": 1257,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲账本边沿",
+      "chars": 797,
+      "score": 22.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "信封坠入鱼筐",
+      "chars": 992,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「陈德发的」×6",
+      "narration_para_pct 34.2 低于目标 35.0",
+      "[observe] 章内自我复读 1 句（如「老张低头看着账单，眼神空洞…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「陈德发的」×3",
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 章节过短 842 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「老张愣了一下，随即摇头…」）"
+    ],
+    "5": [
+      "narration_para_pct 92.4 高于目标 90.0",
+      "[observe] 章节过短 597 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 153.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:34:06"
+}

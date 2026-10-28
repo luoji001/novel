@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-207",
+  "profile": "视频分镜",
+  "title": "胶片的归宿",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6308,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5922,
+    "chapter_chars_mean": 987,
+    "chapter_chars_median": 1096,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 24,
+    "dialogue_chars_pct": 14.6,
+    "dialogue_para_pct": 40.5,
+    "interiority_para_pct": 4.0,
+    "narration_para_pct": 55.5,
+    "turn_under20_pct": 91.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "触摸胶片边缘",
+      "chars": 721,
+      "score": 40.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "抚摸胶片标签",
+      "chars": 1142,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙转动的瞬间",
+      "chars": 894,
+      "score": 19.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "触摸电影票根边缘",
+      "chars": 1190,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "触摸胶片标签",
+      "chars": 1177,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "触摸胶片标签",
+      "chars": 1178,
+      "score": 34.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 96.7 高于目标 90.0"
+    ],
+    "2": [
+      "interiority_para_pct 8.0 高于目标 6.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 2.1 低于目标 5.0",
+      "[observe] 章节过短 845 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "narration_para_pct 31.6 低于目标 35.0",
+      "[observe] 标题与《抚摸胶片标签》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "interiority_para_pct 8.0 高于目标 6.0",
+      "[observe] 章内自我复读 1 句（如「这是父亲留下的东西，我不能让它消失…」）",
+      "[observe] 标题重复：「触摸胶片标签」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 130.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:49:10"
+}

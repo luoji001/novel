@@ -1,0 +1,106 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-63",
+  "profile": "视频分镜",
+  "title": "铁柜钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6042,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5669,
+    "chapter_chars_mean": 945,
+    "chapter_chars_median": 1070,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 24,
+    "dialogue_chars_pct": 17.4,
+    "dialogue_para_pct": 44.7,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 54.5,
+    "turn_under20_pct": 88.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁柜震动",
+      "chars": 494,
+      "score": 37.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙断裂时刻",
+      "chars": 629,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙与铜锈",
+      "chars": 1118,
+      "score": 53.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "刮玻璃的指缝",
+      "chars": 1144,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "扫帚横门",
+      "chars": 1399,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "泛黄的寄存单",
+      "chars": 1252,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 438 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 571 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:53:50"
+}

@@ -1,0 +1,226 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "一楼前台",
+      "present": [
+        "林夏",
+        "铜色钥匙"
+      ],
+      "driver": "林夏将铜色钥匙按在钥匙板上",
+      "entry_state": "铜色钥匙被固定在钥匙板上",
+      "outcome": "铜色钥匙被固定在钥匙板上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "一楼前台",
+      "present": [
+        "林夏",
+        "铜色钥匙"
+      ],
+      "driver": "林夏用左手捏住铜色钥匙尾端",
+      "entry_state": "铜色钥匙被捏住尾端",
+      "outcome": "铜色钥匙被捏住尾端",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "一楼厨房",
+      "present": [
+        "林夏",
+        "保险柜"
+      ],
+      "driver": "林夏将钥匙插入保险柜锁孔",
+      "entry_state": "保险柜静止在桌角",
+      "outcome": "保险柜锁孔开始发出细微摩擦声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼厨房",
+      "present": [
+        "林夏",
+        "保险柜"
+      ],
+      "driver": "林夏转动钥匙直到听到咔嗒声",
+      "entry_state": "保险柜锁孔发出细微摩擦声",
+      "outcome": "保险柜锁芯弹开，露出内部空间",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼厨房",
+      "present": [
+        "林夏",
+        "保险柜"
+      ],
+      "driver": "林夏伸手探入保险柜取出一个铁盒",
+      "entry_state": "保险柜锁芯弹开，露出内部空间",
+      "outcome": "保险柜盖子关闭，铁盒被林夏握在手中",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "一楼前台",
+      "present": [
+        "老周",
+        "林夏",
+        "铜色钥匙"
+      ],
+      "driver": "老周将钥匙贴在门框上敲击",
+      "entry_state": "钥匙贴在门框上",
+      "outcome": "钥匙掉落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼前台",
+      "present": [
+        "林夏",
+        "铜色钥匙"
+      ],
+      "driver": "林夏弯腰捡起钥匙并握紧",
+      "entry_state": "钥匙在地面",
+      "outcome": "钥匙被林夏握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼前台",
+      "present": [
+        "林夏",
+        "老周",
+        "铜色钥匙"
+      ],
+      "driver": "老周伸手夺钥匙，钥匙滑向林夏手中",
+      "entry_state": "钥匙在林夏手中",
+      "outcome": "钥匙滑入林夏掌心",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "一楼前台",
+      "present": [
+        "陈老板",
+        "登记簿",
+        "房卡"
+      ],
+      "driver": "陈老板用房卡插进登记簿的凹槽",
+      "entry_state": "登记簿平放在桌面上",
+      "outcome": "登记簿被房卡顶起一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼前台",
+      "present": [
+        "陈老板",
+        "登记簿",
+        "房卡"
+      ],
+      "driver": "陈老板抽出登记簿翻到中间页",
+      "entry_state": "登记簿被房卡顶起一角",
+      "outcome": "登记簿中间页被抽出，露出空白页",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼前台",
+      "present": [
+        "陈老板",
+        "登记簿",
+        "房卡"
+      ],
+      "driver": "陈老板将登记簿合上并放回桌面",
+      "entry_state": "登记簿中间页被抽出，露出空白页",
+      "outcome": "登记簿重新合上，放在桌面中央",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "一楼厨房",
+      "present": [
+        "老周",
+        "铁皮保险柜"
+      ],
+      "driver": "老周将钥匙贴在门框上敲击",
+      "entry_state": "钥匙在老周手中",
+      "outcome": "钥匙掉落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼厨房",
+      "present": [
+        "老周",
+        "铁皮保险柜"
+      ],
+      "driver": "老周用脚尖将钥匙拨回手中",
+      "entry_state": "钥匙在地面",
+      "outcome": "钥匙回到老周手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼厨房",
+      "present": [
+        "老周",
+        "铁皮保险柜"
+      ],
+      "driver": "老周将钥匙按在旧伤疤上摩挲",
+      "entry_state": "钥匙在老周手中",
+      "outcome": "钥匙从老周手中滑落",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "一楼前台",
+      "present": [
+        "林夏",
+        "老周",
+        "保险柜"
+      ],
+      "driver": "林夏将钥匙插入保险柜锁孔",
+      "entry_state": "保险柜静止在前台桌上",
+      "outcome": "保险柜锁孔被钥匙抵住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "一楼前台",
+      "present": [
+        "林夏",
+        "老周",
+        "保险柜"
+      ],
+      "driver": "老周夺过钥匙砸向门框",
+      "entry_state": "保险柜锁孔被钥匙抵住",
+      "outcome": "钥匙从锁孔弹出，掉落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "一楼前台",
+      "present": [
+        "林夏",
+        "老周",
+        "保险柜"
+      ],
+      "driver": "林夏将保险柜推至墙角",
+      "entry_state": "钥匙掉落在地",
+      "outcome": "保险柜被推至墙角，钥匙仍在地面",
+      "target_chars": 527
+    }
+  ]
+}

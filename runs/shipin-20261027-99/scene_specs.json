@@ -1,0 +1,216 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "候车厅",
+      "present": [
+        "李芳"
+      ],
+      "driver": "李芳用手指戳蛇皮袋开口处",
+      "entry_state": "蛇皮袋静止在长椅边缘",
+      "outcome": "蛇皮袋被拉开半寸",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "候车厅",
+      "present": [
+        "李芳"
+      ],
+      "driver": "李芳将蛇皮袋拽至自己面前",
+      "entry_state": "蛇皮袋被拉开半寸",
+      "outcome": "蛇皮袋完全脱离长椅",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "售票窗口",
+      "present": [
+        "赵强",
+        "登记本"
+      ],
+      "driver": "赵强用右手捏住登记本边缘",
+      "entry_state": "登记本平放在窗口台面",
+      "outcome": "登记本被赵强单手托起半寸",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票窗口",
+      "present": [
+        "赵强",
+        "登记本"
+      ],
+      "driver": "赵强用左手按住登记本页码",
+      "entry_state": "登记本被托起半寸",
+      "outcome": "登记本第17页被按出褶皱",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票窗口",
+      "present": [
+        "赵强",
+        "登记本"
+      ],
+      "driver": "赵强用右手翻动登记本页面",
+      "entry_state": "第17页被按出褶皱",
+      "outcome": "登记本第17页被翻到背面",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "站务办公室",
+      "present": [
+        "赵强"
+      ],
+      "driver": "赵强将钥匙插进锁孔，转动半圈",
+      "entry_state": "钥匙插进锁孔，未完全转动",
+      "outcome": "钥匙卡在锁孔中，无法继续转动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "站务办公室",
+      "present": [
+        "赵强"
+      ],
+      "driver": "赵强用右手捏住钥匙尾端，用力拉扯",
+      "entry_state": "钥匙卡在锁孔中，无法继续转动",
+      "outcome": "钥匙从锁孔中脱落，掉落在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "站务办公室",
+      "present": [
+        "赵强"
+      ],
+      "driver": "赵强弯腰捡起钥匙，握在掌心",
+      "entry_state": "钥匙掉落在地，未被拾起",
+      "outcome": "钥匙被赵强握在手中，准备离开",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "候车厅",
+      "present": [
+        "陈主任",
+        "李芳",
+        "赵强"
+      ],
+      "driver": "陈主任举起手电筒，光束扫过蛇皮袋",
+      "entry_state": "手电筒在陈主任手中，光束照向蛇皮袋",
+      "outcome": "手电筒光束照亮了蛇皮袋的开口处",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "候车厅",
+      "present": [
+        "陈主任",
+        "李芳",
+        "赵强"
+      ],
+      "driver": "陈主任将手电筒递给李芳，光束转向地面",
+      "entry_state": "手电筒在李芳手中，光束照向地面",
+      "outcome": "手电筒光束从蛇皮袋转移到地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "候车厅",
+      "present": [
+        "陈主任",
+        "李芳",
+        "赵强"
+      ],
+      "driver": "赵强抢走手电筒，光束熄灭在地面",
+      "entry_state": "手电筒在赵强手中，光束熄灭",
+      "outcome": "手电筒光束消失，地面一片黑暗",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "候车厅",
+      "present": [
+        "李芳",
+        "旧报纸"
+      ],
+      "driver": "李芳用左手攥住报纸一角，展开查看",
+      "entry_state": "旧报纸平铺在李芳左掌心",
+      "outcome": "旧报纸被展开，露出报纸边缘的日期",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "候车厅",
+      "present": [
+        "李芳",
+        "旧报纸"
+      ],
+      "driver": "李芳用右手捏住报纸右上角，翻到背面",
+      "entry_state": "旧报纸正面朝上，边缘露出日期",
+      "outcome": "旧报纸背面朝上，露出模糊的铅字",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "候车厅",
+      "present": [
+        "李芳",
+        "旧报纸"
+      ],
+      "driver": "李芳将报纸对折，塞进工装裤口袋",
+      "entry_state": "旧报纸背面朝上，铅字模糊",
+      "outcome": "旧报纸被对折后收入李芳左裤袋",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "候车厅",
+      "present": [
+        "赵强",
+        "李芳"
+      ],
+      "driver": "赵强用膝盖顶住蛇皮袋，脚印印在地砖上",
+      "entry_state": "地砖上有一枚脚印",
+      "outcome": "地砖上留下赵强的脚印",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "候车厅",
+      "present": [
+        "赵强",
+        "李芳"
+      ],
+      "driver": "李芳用脚尖勾住蛇皮袋，脚印覆盖赵强的痕迹",
+      "entry_state": "地砖上有一枚脚印",
+      "outcome": "地砖上留下李芳的脚印",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "候车厅",
+      "present": [
+        "赵强",
+        "李芳"
+      ],
+      "driver": "赵强踩住蛇皮袋，脚印与李芳的重叠",
+      "entry_state": "地砖上留下李芳的脚印",
+      "outcome": "地砖上留下两人的脚印重叠",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "江边渡口码头",
+      "present": [
+        "老周",
+        "小林"
+      ],
+      "driver": "老周攥着泛黄的旧船票，死死按在胸前",
+      "entry_state": "老周攥着泛黄的旧船票，死死按在胸前",
+      "outcome": "小林的手指已经划破了船票边缘",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "江边渡口码头",
+      "present": [
+        "老周",
+        "小林"
+      ],
+      "driver": "小林猛地撕开船票，纸屑飘落在石板路上",
+      "entry_state": "小林的手指已经划破了船票边缘",
+      "outcome": "老周一把抢回船票，纸张边缘已破损",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "售票亭",
+      "present": [
+        "老周",
+        "陈师傅"
+      ],
+      "driver": "老周从左胸口袋掏出铜钥匙",
+      "entry_state": "铜钥匙在老周手中",
+      "outcome": "铜钥匙被老周握在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票亭",
+      "present": [
+        "老周",
+        "陈师傅"
+      ],
+      "driver": "陈师傅用竹竿敲击地面示意安静",
+      "entry_state": "铜钥匙被老周握在掌心",
+      "outcome": "铜钥匙仍被老周握在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票亭",
+      "present": [
+        "老周"
+      ],
+      "driver": "老周将铜钥匙插进钥匙孔",
+      "entry_state": "铜钥匙被老周握在掌心",
+      "outcome": "铜钥匙被插入钥匙孔",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "码头仓库",
+      "present": [
+        "陈师傅",
+        "黑色皮质公文包"
+      ],
+      "driver": "陈师傅从腰间取下黑色皮质公文包",
+      "entry_state": "黑色皮质公文包在陈师傅腰间",
+      "outcome": "黑色皮质公文包被拿到手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "码头仓库",
+      "present": [
+        "陈师傅",
+        "黑色皮质公文包"
+      ],
+      "driver": "陈师傅将公文包放在地上打开",
+      "entry_state": "黑色皮质公文包在陈师傅手中",
+      "outcome": "黑色皮质公文包被放在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "码头仓库",
+      "present": [
+        "陈师傅",
+        "黑色皮质公文包"
+      ],
+      "driver": "陈师傅抽出一叠船票递给年轻乘客",
+      "entry_state": "黑色皮质公文包在地上打开",
+      "outcome": "黑色皮质公文包被重新收起",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "售票亭",
+      "present": [
+        "老周",
+        "小林",
+        "泛黄的旧船票"
+      ],
+      "driver": "老周用布满老茧的手攥住船票边缘",
+      "entry_state": "老周攥住船票，小林试图撕开",
+      "outcome": "船票被小林撕开一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票亭",
+      "present": [
+        "老周",
+        "小林",
+        "泛黄的旧船票"
+      ],
+      "driver": "小林用指甲划过船票边缘",
+      "entry_state": "船票被撕开一角",
+      "outcome": "船票出现裂痕，老周紧握不放",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票亭",
+      "present": [
+        "老周",
+        "小林",
+        "泛黄的旧船票"
+      ],
+      "driver": "老周将船票按在胸口，手指用力压住裂痕",
+      "entry_state": "船票出现裂痕",
+      "outcome": "船票被老周压住裂痕，小林无法撕开",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "渡轮甲板",
+      "present": [
+        "小林",
+        "老周"
+      ],
+      "driver": "小林的手腕机械表开始轻微震动",
+      "entry_state": "机械表开始震动",
+      "outcome": "机械表震动引起老周注意",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "渡轮甲板",
+      "present": [
+        "小林",
+        "老周"
+      ],
+      "driver": "老周伸手触碰小林的机械表",
+      "entry_state": "机械表震动持续",
+      "outcome": "老周的手指碰到机械表表面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "渡轮甲板",
+      "present": [
+        "小林",
+        "老周"
+      ],
+      "driver": "小林将机械表按进掌心停止震动",
+      "entry_state": "老周的手指接触表壳",
+      "outcome": "机械表停止震动，表壳出现划痕",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "江边渡口码头",
+      "present": [
+        "老周",
+        "泛黄的旧船票"
+      ],
+      "driver": "老周将船票捏皱并压入衣袋",
+      "entry_state": "船票在老周手中",
+      "outcome": "船票被老周收进左胸口袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "江边渡口码头",
+      "present": [
+        "老周",
+        "泛黄的旧船票"
+      ],
+      "driver": "老周从口袋取出船票并展开平铺在桌面",
+      "entry_state": "船票在老周口袋",
+      "outcome": "船票被老周摊开在桌面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "江边渡口码头",
+      "present": [
+        "老周",
+        "泛黄的旧船票"
+      ],
+      "driver": "老周将船票缓缓投入江中",
+      "entry_state": "船票在桌面",
+      "outcome": "船票消失在江水中",
+      "target_chars": 527
+    }
+  ]
+}

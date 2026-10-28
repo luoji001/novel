@@ -1,0 +1,106 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-242",
+  "profile": "视频分镜",
+  "title": "红痕",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7129,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6536,
+    "chapter_chars_mean": 1089,
+    "chapter_chars_median": 1169,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 38.2,
+    "dialogue_chars_pct": 19.1,
+    "dialogue_para_pct": 42.6,
+    "interiority_para_pct": 0.9,
+    "narration_para_pct": 56.5,
+    "turn_under20_pct": 99.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 59.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙与纸条",
+      "chars": 728,
+      "score": 94.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "红薯滚落满地",
+      "chars": 1122,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "纸条上的红痕",
+      "chars": 1298,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "钥匙与纸条",
+      "chars": 1225,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "玻璃裂痕延伸",
+      "chars": 1466,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "铜铃铛的低鸣",
+      "chars": 1284,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 6 句（如「烤红薯的甜香混着潮湿空气涌进鼻腔，陈默忽然抬眼，…」）"
+    ],
+    "4": [
+      "[observe] 标题重复：「钥匙与纸条」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 152.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:45:31"
+}

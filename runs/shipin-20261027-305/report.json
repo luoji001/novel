@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-305",
+  "profile": "视频分镜",
+  "title": "胶片上的标签",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5465,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5100,
+    "chapter_chars_mean": 850,
+    "chapter_chars_median": 800,
+    "chapter_chars_cv": 0.42,
+    "paragraphs_mean": 23,
+    "dialogue_chars_pct": 16.7,
+    "dialogue_para_pct": 47.0,
+    "interiority_para_pct": 1.9,
+    "narration_para_pct": 51.2,
+    "turn_under20_pct": 98.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 71.7,
+    "attr_adv_pct": 2.3,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "剪刀与胶片",
+      "chars": 378,
+      "score": 37.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙踢门声",
+      "chars": 943,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "茶壶嘴上的票根",
+      "chars": 753,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "胶片缓缓转动",
+      "chars": 1190,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "钥匙卡锁孔",
+      "chars": 762,
+      "score": 19.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "胶片边缘的指纹",
+      "chars": 1433,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 347 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 26.7 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「阿婆，今天的茶还跟昨天一样苦…」）",
+      "[observe] 章节过短 708 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "interiority_para_pct 6.7 高于目标 6.0",
+      "narration_para_pct 20.0 低于目标 35.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 97.1 高于目标 90.0",
+      "[observe] 章节过短 681 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:25:20"
+}

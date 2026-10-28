@@ -1,0 +1,115 @@
+{
+  "consistency": "1. 第二章提到李国强决定帮助小林并承诺明天买新练习本，但第五章提到小林承认抄袭，暗示李国强可能已不再信任他，与第二章的“帮助”立场矛盾。\n\n2. 第四章提到小林交出自己熬夜完成的作业，但第六章又说小林承认抄袭，前后立场矛盾。\n\n3. 第五章提到两人在深夜教室中重新开始练习，但第六章提到的是“即将熄灭的应急灯下发生争执”，暗示时间线存在矛盾，且第五章未提及应急灯熄灭的情节。\n\n4. 第三章提到陈美玲在深夜与李国强和小林对峙，但第五章提到两人在深夜教室中重新开始练习，未提及陈美玲在场，人物出场不一致。",
+  "slug": "shipin-20261027-272",
+  "profile": "视频分镜",
+  "title": "灯下对决",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6352,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5966,
+    "chapter_chars_mean": 994,
+    "chapter_chars_median": 1056,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 25,
+    "dialogue_chars_pct": 20.4,
+    "dialogue_para_pct": 54.8,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 44.6,
+    "turn_under20_pct": 97.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 44.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "灯光争夺战",
+      "chars": 607,
+      "score": 38.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "灯光争夺战",
+      "chars": 1079,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙与红绳",
+      "chars": 1156,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "手指与纸页",
+      "chars": 1231,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铅笔划破寂静",
+      "chars": 901,
+      "score": 20.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "灯光下的较量",
+      "chars": 1372,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 554 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 标题重复：「灯光争夺战」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强的」×4"
+    ],
+    "5": [
+      "[observe] 章节过短 827 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "narration_para_pct 29.2 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:32:56"
+}

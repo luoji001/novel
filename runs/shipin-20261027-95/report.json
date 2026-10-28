@@ -1,0 +1,115 @@
+{
+  "consistency": "1. 第一章和第六章均出现“摩挲胶片边缘”，但未说明是否为同一场景或同一人物行为，存在重复但未明确关联，可能造成混淆。  \n2. 第二章提到“钥匙插进锁孔”，而第五章出现“钥匙落入锁孔”，表述不一致，可能暗示不同动作或不同钥匙。  \n3. 第三章提到“用螺丝钉固定放映机的支架”，而第五章提到“争夺放映机钥匙”，未说明钥匙与放映机支架之间的关系，逻辑衔接不清晰。  \n4. 第四章提到“胶片出现人为裂痕”，但未提及任何人物对此事的反应或调查，与后续情节衔接不紧密。  \n5. 第五章提到“妥协但承诺放完最后一场”，但第六章明确提到“最后一盘胶片”，未说明为何“最后一场”与“最后一盘胶片”存在差异，逻辑不一致。",
+  "slug": "shipin-20261027-95",
+  "profile": "视频分镜",
+  "title": "胶片",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6673,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6288,
+    "chapter_chars_mean": 1048,
+    "chapter_chars_median": 1030,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 24.8,
+    "dialogue_chars_pct": 20.4,
+    "dialogue_para_pct": 52.2,
+    "interiority_para_pct": 1.8,
+    "narration_para_pct": 46.0,
+    "turn_under20_pct": 96.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.3,
+    "attr_adv_pct": 3.6,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "摩挲胶片边缘",
+      "chars": 603,
+      "score": 17.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙插进锁孔",
+      "chars": 1023,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "拧螺丝",
+      "chars": 1450,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "摩挲胶片边缘",
+      "chars": 1149,
+      "score": 59.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙落入锁孔",
+      "chars": 996,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "摩挲胶片边缘",
+      "chars": 1446,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 569 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 标题重复：「摩挲胶片边缘」已存在"
+    ],
+    "5": [
+      "命中套话收尾句",
+      "[observe] 标题与《钥匙插进锁孔》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 29.7 低于目标 35.0",
+      "attr_adv_pct 16.7 高于目标 10.0",
+      "[observe] 标题重复：「摩挲胶片边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:43:54"
+}

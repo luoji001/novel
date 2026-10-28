@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第二章和第五章、第六章均出现“钥匙转动的刹那”，但未明确说明是谁在转动钥匙，导致人物行为模糊。  \n2. 第四章提到“沾有周晓芸工牌的车牌”，但前文未提及周晓芸工牌与车牌有任何关联，属突兀出现。  \n3. 第三章提到“沈志远潜入便利店监控室”，但前文未明确说明沈志远与便利店的关系或进入方式，属情节突兀。  \n4. 第五章和第六章均出现“钥匙转动的刹那”，但未说明是否为同一事件，存在重复描述但未明确关联。  \n5. 第四章提到“通讯中断和监控画面异常”，但前文未提及监控系统有此类故障的伏笔，属情节突兀。",
+  "slug": "shipin-20261027-205",
+  "profile": "视频分镜",
+  "title": "红光",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5733,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5222,
+    "chapter_chars_mean": 870,
+    "chapter_chars_median": 946,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 31.7,
+    "dialogue_chars_pct": 18.5,
+    "dialogue_para_pct": 45.8,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 53.7,
+    "turn_under20_pct": 97.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "指纹擦拭监控屏幕",
+      "chars": 437,
+      "score": 22.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙转动的刹那",
+      "chars": 908,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "剪刀挑开门锁的瞬间",
+      "chars": 1094,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "车牌上的泥浆痕迹",
+      "chars": 926,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙转动的刹那",
+      "chars": 1175,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙转动的刹那",
+      "chars": 1187,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 94.1 高于目标 90.0",
+      "[observe] 章节过短 322 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 855 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章节过短 836 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "[observe] 标题重复：「钥匙转动的刹那」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「钥匙转动的刹那」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 121.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:45:58"
+}

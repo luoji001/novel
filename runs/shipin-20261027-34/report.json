@@ -1,0 +1,115 @@
+{
+  "consistency": "1. 第一章和第六章均出现《应急灯的颤动》标题，但内容和情节不一致，存在重复标题导致的混淆。  \n2. 第三章提到陈秀兰在午休前离开教室，但第六章提到李国强在教室等待王小雨，暗示陈秀兰可能仍在场，时间线不一致。  \n3. 第五章提到王小雨手腕上的红绳和书包上的“王”字logo，但前文未提及她有书包或红绳，物件出现无铺垫。  \n4. 第二章和第四章均提到王小雨偷吃薯片，但第二章描述她因想看窗外天色与李国强冲突，第四章却说两人因偷吃薯片发生争执，动机不一致。  \n5. 第六章提到王小雨因迷路迟到，但第一章已说明她因迟到和带零食与李国强发生争执，迟到原因前后不一致。",
+  "slug": "shipin-20261027-34",
+  "profile": "视频分镜",
+  "title": "灯下话",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6224,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5861,
+    "chapter_chars_mean": 977,
+    "chapter_chars_median": 1006,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 22.7,
+    "dialogue_chars_pct": 17.9,
+    "dialogue_para_pct": 52.2,
+    "interiority_para_pct": 1.6,
+    "narration_para_pct": 46.2,
+    "turn_under20_pct": 92.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 8.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯的颤动",
+      "chars": 1082,
+      "score": 95.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "薯片袋的闪光",
+      "chars": 1051,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "作业本上的涂鸦",
+      "chars": 1079,
+      "score": 52.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "应急灯的裂痕",
+      "chars": 1400,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "红绳系着书包",
+      "chars": 672,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "应急灯的颤动",
+      "chars": 934,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "dialogue_chars_pct 4.5 低于目标 5.0"
+    ],
+    "4": [
+      "单条套路句式超限：「王小雨的」×4",
+      "narration_para_pct 32.4 低于目标 35.0",
+      "[observe] 标题与《应急灯的颤动》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 章节过短 608 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 标题重复：「应急灯的颤动」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 132.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:07:51"
+}

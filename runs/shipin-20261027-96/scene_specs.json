@@ -1,0 +1,218 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "苏婉晴",
+        "1元硬币"
+      ],
+      "driver": "苏婉晴将硬币放在副驾驶座上",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币静止在副驾驶座上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "苏婉晴",
+        "1元硬币"
+      ],
+      "driver": "苏婉晴用指甲刮擦硬币边缘",
+      "entry_state": "硬币静止在副驾驶座上",
+      "outcome": "硬币边缘出现刮痕",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "教练办公室",
+      "present": [
+        "林浩然",
+        "教练车钥匙"
+      ],
+      "driver": "林浩然将钥匙插入点火孔",
+      "entry_state": "钥匙静止在点火孔上方",
+      "outcome": "钥匙插入点火孔",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练办公室",
+      "present": [
+        "林浩然",
+        "教练车钥匙"
+      ],
+      "driver": "林浩然转动钥匙三次后松手",
+      "entry_state": "钥匙在点火孔内转动",
+      "outcome": "钥匙从点火孔弹出",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练办公室",
+      "present": [
+        "林浩然",
+        "教练车钥匙"
+      ],
+      "driver": "林浩然将钥匙放回钥匙盒",
+      "entry_state": "钥匙在点火孔弹出",
+      "outcome": "钥匙回到钥匙盒内",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "驾校办公室",
+      "present": [
+        "陈志远",
+        "登记簿"
+      ],
+      "driver": "陈志远用钢笔尖挑起登记簿边缘",
+      "entry_state": "登记簿平放在办公桌上",
+      "outcome": "登记簿被钢笔尖挑起一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "驾校办公室",
+      "present": [
+        "陈志远",
+        "登记簿"
+      ],
+      "driver": "陈志远用左手捏住登记簿右下角撕下一页",
+      "entry_state": "登记簿被挑起一角",
+      "outcome": "登记簿第一页被撕下并丢进废纸篓",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "驾校办公室",
+      "present": [
+        "陈志远",
+        "登记簿"
+      ],
+      "driver": "陈志远将登记簿合上并推回抽屉",
+      "entry_state": "登记簿第一页被撕下",
+      "outcome": "登记簿被合上并放回抽屉",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "苏婉晴",
+        "1元硬币"
+      ],
+      "driver": "苏婉晴用指甲刮擦硬币边缘",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币边缘出现细小划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "苏婉晴",
+        "1元硬币"
+      ],
+      "driver": "苏婉晴将硬币放入掌心反复摩挲",
+      "entry_state": "硬币边缘有划痕",
+      "outcome": "硬币从副驾驶座移至苏婉晴掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "苏婉晴",
+        "1元硬币"
+      ],
+      "driver": "苏婉晴将硬币抛向空中再接住",
+      "entry_state": "硬币在苏婉晴掌心",
+      "outcome": "硬币落地后滚至教练车前",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "学员宿舍",
+      "present": [
+        "苏婉晴",
+        "学员驾驶证本"
+      ],
+      "driver": "苏婉晴抽出驾驶证本，翻开第37页",
+      "entry_state": "驾驶证本在苏婉晴手中",
+      "outcome": "驾驶证本第37页的练习记录被翻到",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员宿舍",
+      "present": [
+        "苏婉晴",
+        "学员驾驶证本"
+      ],
+      "driver": "苏婉晴用指甲划过本子边缘，留下浅痕",
+      "entry_state": "驾驶证本第37页被翻到",
+      "outcome": "驾驶证本第37页边缘有浅浅划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员宿舍",
+      "present": [
+        "苏婉晴",
+        "学员驾驶证本"
+      ],
+      "driver": "苏婉晴将驾驶证本合上，塞回书包夹层",
+      "entry_state": "驾驶证本第37页边缘有浅痕",
+      "outcome": "驾驶证本被收进书包夹层",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "陈志远",
+        "练车场计时器"
+      ],
+      "driver": "陈志远将计时器从墙上取下",
+      "entry_state": "计时器挂在墙上",
+      "outcome": "计时器被陈志远拿到手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "陈志远",
+        "练车场计时器"
+      ],
+      "driver": "陈志远用拇指按下计时器归零键",
+      "entry_state": "计时器在陈志远手中",
+      "outcome": "计时器屏幕归零",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "陈志远",
+        "练车场计时器"
+      ],
+      "driver": "陈志远将计时器放回墙上挂架",
+      "entry_state": "计时器屏幕归零",
+      "outcome": "计时器重新挂在墙上",
+      "target_chars": 527
+    }
+  ]
+}

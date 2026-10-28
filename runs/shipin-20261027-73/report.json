@@ -1,0 +1,119 @@
+{
+  "consistency": "1. 第二章提到“银行人员林志远到夜市核查陈阿婆的收款码”，但第一章已说明陈阿婆的二维码被银行工作人员替换，暗示林志远可能是替换者，但未明确说明其身份是否为真正的银行工作人员。\n\n2. 第三章提到“苏婉儿在小卖部识破林志远的身份”，但前文未提及林志远有任何可疑行为或身份暴露的线索，导致识破显得突兀。\n\n3. 第四章提到“银行工作人员林志远发现陈阿婆使用的二维码是假的”，但前文并未明确说明林志远是否有权限或能力判断二维码真假，逻辑上存在漏洞。\n\n4. 第五章提到“银行工作人员试图收回陈阿婆的收款码”，但前文未说明银行工作人员是否有权直接收回收款码，缺乏依据。\n\n5. 第六章提到“陈阿婆与神秘男子围绕假二维码展开对峙”，但前文未提及该神秘男子的身份或出现背景，导致人物关系突兀。",
+  "slug": "shipin-20261027-73",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7006,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6541,
+    "chapter_chars_mean": 1090,
+    "chapter_chars_median": 1142,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 30.3,
+    "dialogue_chars_pct": 26.9,
+    "dialogue_para_pct": 58.2,
+    "interiority_para_pct": 2.3,
+    "narration_para_pct": 39.5,
+    "turn_under20_pct": 89.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.7,
+    "attr_adv_pct": 3.1,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码边缘的颤抖",
+      "chars": 878,
+      "score": 38.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "扫码枪与炒锅边缘",
+      "chars": 1184,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "矿泉水瓶上的水渍",
+      "chars": 1011,
+      "score": 96.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "二维码贴纸的争夺",
+      "chars": 1271,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "炒锅磕地的回响",
+      "chars": 1355,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "二维码贴纸的争夺",
+      "chars": 1301,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 1 句（如「阿姨，您这边的二维码被替换了…」）"
+    ],
+    "2": [
+      "narration_para_pct 24.0 低于目标 35.0",
+      "dialogue_run_mean 4.8 高于目标 4.0",
+      "[observe] 章内自我复读 4 句（如「那你们最好现在就把扫码枪还给我…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈阿婆的」×4"
+    ],
+    "5": [
+      "narration_para_pct 28.9 低于目标 35.0"
+    ],
+    "6": [
+      "narration_para_pct 30.0 低于目标 35.0",
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "[observe] 标题重复：「二维码贴纸的争夺」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:09:25"
+}

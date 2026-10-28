@@ -1,0 +1,113 @@
+{
+  "consistency": "1. 第一章提到李建军捡到装有钞票和硬币的蛇皮袋，第三章提到蛇皮袋中装有车票和硬币，第六章提到蛇皮袋装有妻子遗物，但未明确说明硬币是否属于遗物，导致遗物与硬币的归属关系模糊。\n\n2. 第二章提到王德贵与李建军因一块裂开的怀表产生冲突，第五章提到王德贵拿出刻有妻子名字的怀表和身份证，但未说明该怀表是否与第二章提到的裂开怀表为同一枚，存在物品来源不明的问题。\n\n3. 第四章提到陈秀兰阻止两人争夺装有钱的箱子，而其他章节均提到争夺的是蛇皮袋，存在“箱子”与“蛇皮袋”不一致的矛盾。",
+  "slug": "shipin-20261027-351",
+  "profile": "视频分镜",
+  "title": "硬币的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6160,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5710,
+    "chapter_chars_mean": 952,
+    "chapter_chars_median": 978,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 28,
+    "dialogue_chars_pct": 14.4,
+    "dialogue_para_pct": 42.9,
+    "interiority_para_pct": 2.4,
+    "narration_para_pct": 54.7,
+    "turn_under20_pct": 98.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扯断铁丝的瞬间",
+      "chars": 768,
+      "score": 94.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "裂表与蛇皮袋",
+      "chars": 973,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "拽铁丝的瞬间",
+      "chars": 1153,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "扫帚划破尘埃",
+      "chars": 852,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "怀表的刻痕",
+      "chars": 1303,
+      "score": 34.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "撕扯雨衣的瞬间",
+      "chars": 1105,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 31.6 低于目标 35.0"
+    ],
+    "3": [
+      "[observe] 标题与《扯断铁丝的瞬间》近似 0.77 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章节过短 760 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "interiority_para_pct 7.5 高于目标 6.0",
+      "[observe] 章内自我复读 5 句（如「王德贵忽然蹲下来，从裤袋抽出枚铜制怀表，表面有裂…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 140.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:40:25"
+}

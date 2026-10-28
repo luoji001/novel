@@ -1,0 +1,212 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "胶片盒"
+      ],
+      "driver": "老周撕下标签纸贴在放映机玻璃上",
+      "entry_state": "标签纸被贴在放映机玻璃上",
+      "outcome": "标签纸固定在放映机玻璃上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "胶片盒"
+      ],
+      "driver": "老周将胶片盒放回原位",
+      "entry_state": "胶片盒回到原位",
+      "outcome": "胶片盒回到原位",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长"
+      ],
+      "driver": "陈镇长用左手按住电话听筒",
+      "entry_state": "陈镇长右手按着通话键",
+      "outcome": "电话听筒贴着陈镇长左耳",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长"
+      ],
+      "driver": "陈镇长将电话听筒移向办公桌边缘",
+      "entry_state": "电话听筒贴着陈镇长左耳",
+      "outcome": "电话听筒滑向办公桌右侧",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长"
+      ],
+      "driver": "陈镇长用右手捏起电话听筒砸向桌面",
+      "entry_state": "电话听筒滑向办公桌右侧",
+      "outcome": "电话听筒裂开，碎片散落在桌面",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "电影院门口的台阶",
+      "present": [
+        "小林"
+      ],
+      "driver": "小林将登记簿合上，夹进制服口袋",
+      "entry_state": "登记簿合上，小林站在台阶中央",
+      "outcome": "登记簿收起，小林开始走向铁柜",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院门口的台阶",
+      "present": [
+        "小林"
+      ],
+      "driver": "小林用右手将胶片盒推入铁柜，金属碰撞声响起",
+      "entry_state": "胶片盒被推入铁柜，铁柜门未关",
+      "outcome": "胶片盒进入铁柜，小林转身面对台阶",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院门口的台阶",
+      "present": [
+        "小林"
+      ],
+      "driver": "小林用左手扶住台阶，将铁柜门拉紧",
+      "entry_state": "铁柜门半开，小林手扶台阶",
+      "outcome": "铁柜门完全关闭，小林站在台阶上",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "铜钥匙",
+        "化学药水"
+      ],
+      "driver": "老周左手握着铜钥匙，右手指尖沾着药水",
+      "entry_state": "铜钥匙在老周左手，药水在右手",
+      "outcome": "铜钥匙留在老周手中，药水未干",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "铜钥匙",
+        "化学药水"
+      ],
+      "driver": "老周用钥匙转动锁孔，钥匙发出刺耳声响",
+      "entry_state": "钥匙在锁孔转动，发出声响",
+      "outcome": "钥匙卡在锁孔，无法取出",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "铜钥匙",
+        "化学药水"
+      ],
+      "driver": "老周用右手捏住钥匙，用力拔出，钥匙断成两截",
+      "entry_state": "钥匙断成两截，老周手中只剩半截",
+      "outcome": "钥匙断成两截，老周手中只剩半截",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "胶片盒"
+      ],
+      "driver": "老周用左手捏起标签纸，贴在放映机玻璃上",
+      "entry_state": "胶片盒上的标签纸被撕下",
+      "outcome": "标签纸贴在放映机玻璃上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "胶片盒"
+      ],
+      "driver": "老周用右手捏住标签纸边缘，向胶片盒方向拉",
+      "entry_state": "标签纸贴在放映机玻璃上",
+      "outcome": "标签纸从玻璃上被撕下，掉进胶片盒",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "胶片盒"
+      ],
+      "driver": "老周用左手将标签纸从胶片盒中抽出，捏成团",
+      "entry_state": "标签纸掉进胶片盒",
+      "outcome": "标签纸被捏成团，放入老周口袋",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长"
+      ],
+      "driver": "陈镇长用左手按住电话听筒",
+      "entry_state": "电话听筒贴着办公桌边缘",
+      "outcome": "电话听筒被陈镇长左手按住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长"
+      ],
+      "driver": "陈镇长用右手按下通话键",
+      "entry_state": "电话听筒被按住",
+      "outcome": "通话键被按下，电话开始响",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长"
+      ],
+      "driver": "陈镇长用左手拿起电话听筒",
+      "entry_state": "通话键被按下",
+      "outcome": "电话听筒被陈镇长拿起",
+      "target_chars": 527
+    }
+  ]
+}

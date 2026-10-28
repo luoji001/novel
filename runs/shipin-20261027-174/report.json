@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第六章提到“陈阿婆带来她未送出的试卷”，但前文从未提及陈阿婆有试卷或与试卷有关的任何情节。  \n2. 第五章提到“李国强在山崖边等待妹妹”，但第六章又提到“王小雨为妹妹借应急灯”，导致“妹妹”身份不一致，前后矛盾。  \n3. 第六章提到“小女孩送来答卷”，但前文从未提及有“小女孩”这一人物。  \n4. 第三章提到“李国强最终妥协并答应继续讲解试卷”，但第五章提到“李国强将应急灯投入黑暗，放弃最后的希望”，暗示他已放弃讲解试卷，与第三章矛盾。  \n5. 第四章提到“王小雨决定带着李老师的考卷前往山崖救烧退的妹妹”，但第五章提到“李国强在山崖边等待妹妹”，导致“妹妹”身份不一致。",
+  "slug": "shipin-20261027-174",
+  "profile": "视频分镜",
+  "title": "灯影",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6807,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6448,
+    "chapter_chars_mean": 1075,
+    "chapter_chars_median": 1139,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 23.2,
+    "dialogue_chars_pct": 17.0,
+    "dialogue_para_pct": 50.2,
+    "interiority_para_pct": 2.0,
+    "narration_para_pct": 47.8,
+    "turn_under20_pct": 97.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 12.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯的微光",
+      "chars": 697,
+      "score": 94.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "应急灯坠地",
+      "chars": 1215,
+      "score": 43.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "踩灯而立",
+      "chars": 1063,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "抱灯寻光",
+      "chars": 1282,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "抱灯迎雪",
+      "chars": 1348,
+      "score": 59.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "抱灯迎雪",
+      "chars": 1196,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「李国强站在」×3",
+      "interiority_para_pct 11.1 高于目标 6.0"
+    ],
+    "3": [
+      "narration_para_pct 16.7 低于目标 35.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "[observe] 章内自我复读 1 句（如「姐姐已经三天没吃过饭了…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 4.9 低于目标 5.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强的」×3",
+      "[observe] 标题重复：「抱灯迎雪」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:53:08"
+}

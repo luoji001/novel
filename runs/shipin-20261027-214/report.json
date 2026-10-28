@@ -1,0 +1,108 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-214",
+  "profile": "视频分镜",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6340,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5875,
+    "chapter_chars_mean": 979,
+    "chapter_chars_median": 948,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 29.5,
+    "dialogue_chars_pct": 21.4,
+    "dialogue_para_pct": 52.7,
+    "interiority_para_pct": 3.4,
+    "narration_para_pct": 43.9,
+    "turn_under20_pct": 96.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钥匙晃荡的清晨",
+      "chars": 822,
+      "score": 18.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "触摸手机屏幕",
+      "chars": 969,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "触摸金属扶手",
+      "chars": 982,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "铜钥匙与旧信封",
+      "chars": 1379,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "银镯子映出旧照片",
+      "chars": 1153,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "木箱上的凹陷",
+      "chars": 1029,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 16.0 高于目标 6.0",
+      "narration_para_pct 24.0 低于目标 35.0",
+      "[observe] 章内自我复读 10 句（如「那是十八年前的一天，有人留下这个箱子，里面就有这…」）"
+    ],
+    "2": [
+      "narration_para_pct 30.0 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:00:18"
+}

@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-44",
+  "profile": "视频分镜",
+  "title": "铜推子的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6522,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6114,
+    "chapter_chars_mean": 1019,
+    "chapter_chars_median": 1056,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 25,
+    "dialogue_chars_pct": 21.2,
+    "dialogue_para_pct": 47.6,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 51.3,
+    "turn_under20_pct": 92.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 76.6,
+    "attr_adv_pct": 6.1,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "推子上的凹痕",
+      "chars": 696,
+      "score": 48.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "摔碎镜子的瞬间",
+      "chars": 1115,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "铜质推子的温度",
+      "chars": 1209,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "铜质推子滑落",
+      "chars": 1270,
+      "score": 57.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜质推子的震颤",
+      "chars": 1121,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲推子边缘",
+      "chars": 1105,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 1.5 低于目标 5.0",
+      "narration_para_pct 92.9 高于目标 90.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「你该不会是在找谁吧？…」）",
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "4": [
+      "[observe] 标题与《铜质推子的温度》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 标题与《铜质推子的温度》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 132.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:23:22"
+}

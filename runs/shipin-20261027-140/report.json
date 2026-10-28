@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-140",
+  "profile": "视频分镜",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6913,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6463,
+    "chapter_chars_mean": 1077,
+    "chapter_chars_median": 1176,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 29.2,
+    "dialogue_chars_pct": 21.7,
+    "dialogue_para_pct": 61.0,
+    "interiority_para_pct": 2.3,
+    "narration_para_pct": 36.7,
+    "turn_under20_pct": 98.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 58.2,
+    "attr_adv_pct": 18.2,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "碰触药瓶的指尖",
+      "chars": 478,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "药瓶与病历本的对峙",
+      "chars": 1426,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "棉球拂过的药瓶",
+      "chars": 1345,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "药瓶与诊断书的对峙",
+      "chars": 1110,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "药瓶滑向托盘边缘",
+      "chars": 1376,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "药瓶坠落瞬间",
+      "chars": 1172,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李秀兰的」×3",
+      "[observe] 章节过短 447 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「周玉兰的」×3、「李秀兰的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「李秀兰的」×3",
+      "narration_para_pct 16.7 低于目标 35.0",
+      "dialogue_run_mean 4.8 高于目标 4.0",
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）"
+    ],
+    "4": [
+      "[observe] 标题与《药瓶与病历本的对峙》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「李秀兰站在」×3、「李秀兰的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「李秀兰站在」×3、「周玉兰的」×3",
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:58:38"
+}

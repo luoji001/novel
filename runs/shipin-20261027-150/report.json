@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-150",
+  "profile": "视频分镜",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6542,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6164,
+    "chapter_chars_mean": 1027,
+    "chapter_chars_median": 1126,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 21.8,
+    "dialogue_chars_pct": 22.4,
+    "dialogue_para_pct": 61.7,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 38.3,
+    "turn_under20_pct": 94.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.2,
+    "attr_adv_pct": 4.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 3.4,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙上的凹痕",
+      "chars": 519,
+      "score": 39.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "钥匙与铁盒对话",
+      "chars": 1330,
+      "score": 34.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙与便签纸较量",
+      "chars": 1189,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "登记本边缘的褶皱",
+      "chars": 946,
+      "score": 54.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "钥匙与铁盒较量",
+      "chars": 1347,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙落进铁盒",
+      "chars": 1205,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 2 句（如「还是得找老张确认一下…」）",
+      "[observe] 章节过短 483 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 15.4 低于目标 35.0",
+      "dialogue_run_mean 7.3 高于目标 4.0",
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ],
+    "5": [
+      "[observe] 标题与《钥匙与铁盒对话》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题与《钥匙与铁盒对话》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 131.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:14:46"
+}

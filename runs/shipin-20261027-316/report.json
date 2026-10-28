@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-316",
+  "profile": "视频分镜",
+  "title": "信袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6526,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6084,
+    "chapter_chars_mean": 1014,
+    "chapter_chars_median": 1104,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 29.3,
+    "dialogue_chars_pct": 19.1,
+    "dialogue_para_pct": 51.4,
+    "interiority_para_pct": 2.1,
+    "narration_para_pct": 46.6,
+    "turn_under20_pct": 96.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 37.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "信封与红围巾",
+      "chars": 690,
+      "score": 94.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "信封与红围巾",
+      "chars": 1173,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 3,
+      "title": "信封与红围巾",
+      "chars": 1250,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "信封与红围巾",
+      "chars": 1170,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "信封与红围巾",
+      "chars": 1199,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "信封与红围巾",
+      "chars": 1038,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「赵阿姨的」×4",
+      "情节与已写章节重复 0.81 ≥ 0.62（撞上「老李与赵阿姨争夺一封可能涉及失踪孩子的信件，两人在冰台边…」）",
+      "[observe] 章内自我复读 4 句（如「照片上的男孩笑得灿烂，背后写着“赵建国”三个字…」）",
+      "[observe] 标题重复：「信封与红围巾」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「赵阿姨的」×6",
+      "[observe] 标题重复：「信封与红围巾」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「赵阿姨的」×3",
+      "narration_para_pct 25.9 低于目标 35.0",
+      "[observe] 标题重复：「信封与红围巾」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「赵阿姨的」×4",
+      "[observe] 标题重复：「信封与红围巾」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「信封与红围巾」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 140.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:45:34"
+}

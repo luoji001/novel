@@ -1,0 +1,130 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-10",
+  "profile": "视频分镜",
+  "title": "锁孔深处的光",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6413,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5826,
+    "chapter_chars_mean": 971,
+    "chapter_chars_median": 1052,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 35.8,
+    "dialogue_chars_pct": 27.5,
+    "dialogue_para_pct": 59.4,
+    "interiority_para_pct": 2.9,
+    "narration_para_pct": 37.7,
+    "turn_under20_pct": 92.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 54.5,
+    "attr_adv_pct": 23.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 3.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙脱手而出",
+      "chars": 560,
+      "score": 36.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "登记表飘落桌面",
+      "chars": 1236,
+      "score": 88.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙轻触锁孔",
+      "chars": 837,
+      "score": 32.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "怀表磕桌声响",
+      "chars": 1013,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "房卡对光细看",
+      "chars": 1521,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "木牌坠地回响",
+      "chars": 1240,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章内自我复读 3 句（如「钥匙已经插入锁孔三分之二的位置，金属发出细微摩擦…」）",
+      "[observe] 章节过短 489 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「林晓阳的」×5",
+      "interiority_para_pct 8.7 高于目标 6.0",
+      "narration_para_pct 34.8 低于目标 35.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 96.9 高于目标 90.0",
+      "[observe] 章节过短 638 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「你总是在偷看别人东西…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈国强的」×7",
+      "dialogue_chars_pct 46.4 高于目标 45.0",
+      "narration_para_pct 22.7 低于目标 35.0",
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "6": [
+      "dialogue_chars_pct 45.4 高于目标 45.0",
+      "narration_para_pct 5.3 低于目标 35.0",
+      "dialogue_run_mean 12 高于目标 4.0",
+      "[observe] 章内自我复读 1 句（如「周雨桐拿起钢笔，在登记簿上画了个圈…」）",
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 131.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:31:45"
+}

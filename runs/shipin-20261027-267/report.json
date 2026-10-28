@@ -1,0 +1,117 @@
+{
+  "consistency": "1. 第二章与第三章标题重复，内容描述重复，存在标题与内容不一致的问题。  \n2. 第五章称王大山与李小小是母子，第六章称他们是母女，人物关系前后矛盾。  \n3. 第四章提到“身份证真假问题”，但未交代王大山与李小花的身份关系，导致身份谜团缺乏铺垫。  \n4. 第五章与第六章均称王大山与李小花争夺装有母亲遗物的蛇皮袋，但第五章称“母子”，第六章称“母女”，前后矛盾。  \n5. 第六章称“母女”，但前文未明确交代两人关系，导致人物关系突兀。",
+  "slug": "shipin-20261027-267",
+  "profile": "视频分镜",
+  "title": "蛇皮袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6329,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5806,
+    "chapter_chars_mean": 968,
+    "chapter_chars_median": 992,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 35.5,
+    "dialogue_chars_pct": 23.3,
+    "dialogue_para_pct": 47.7,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 51.8,
+    "turn_under20_pct": 95.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "蛇皮袋的争夺",
+      "chars": 647,
+      "score": 38.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "蛇皮袋在光柱中晃荡",
+      "chars": 1025,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "蛇皮袋在光柱中晃荡",
+      "chars": 1355,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "指纹与机油痕",
+      "chars": 1136,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "照片里的微笑",
+      "chars": 939,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "蛇皮袋裂口渗尘",
+      "chars": 1221,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「王大山的」×3",
+      "[observe] 章节过短 589 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 2 句（如「你们都是正经人，别闹了…」）"
+    ],
+    "3": [
+      "[observe] 标题重复：「蛇皮袋在光柱中晃荡」已存在"
+    ],
+    "5": [
+      "[observe] 章节过短 849 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "单条套路句式超限：「李小花的」×3",
+      "情节与已写章节重复 0.68 ≥ 0.62（撞上「李小花与王大山争夺装有母亲遗物的蛇皮袋，最终发现彼此竟是…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:24:59"
+}

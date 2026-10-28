@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-30",
+  "profile": "视频分镜",
+  "title": "镜痕",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6078,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5649,
+    "chapter_chars_mean": 942,
+    "chapter_chars_median": 966,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 28.5,
+    "dialogue_chars_pct": 26.9,
+    "dialogue_para_pct": 48.5,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 51.2,
+    "turn_under20_pct": 92.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 55.4,
+    "attr_adv_pct": 2.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "推子与镜子",
+      "chars": 745,
+      "score": 95.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "镜子与账本",
+      "chars": 937,
+      "score": 56.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "搪瓷缸与旧照片",
+      "chars": 1179,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "红布条与裂镜",
+      "chars": 991,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "镜子与裂痕",
+      "chars": 1089,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "镜子与裂痕",
+      "chars": 1131,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "attr_adv_pct 14.3 高于目标 10.0"
+    ],
+    "5": [
+      "[observe] 标题与《镜子与账本》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题重复：「镜子与裂痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:02:52"
+}

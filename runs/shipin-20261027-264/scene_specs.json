@@ -1,0 +1,218 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "李建国",
+        "教练车",
+        "硬币"
+      ],
+      "driver": "李建国伸手去捡起副驾驶座上的硬币",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被李建国握在右手掌心",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "李建国",
+        "教练车",
+        "硬币"
+      ],
+      "driver": "李建国将硬币放回副驾驶座",
+      "entry_state": "硬币在李建国掌心",
+      "outcome": "硬币回到副驾驶座上",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "学员休息室",
+      "present": [
+        "林小雨",
+        "木桌"
+      ],
+      "driver": "林小雨伸手触碰木桌边缘",
+      "entry_state": "木桌静止在原位",
+      "outcome": "木桌边缘留下一道浅痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员休息室",
+      "present": [
+        "林小雨",
+        "木桌"
+      ],
+      "driver": "林小雨用红绳缠绕木桌一角",
+      "entry_state": "木桌边缘有浅痕",
+      "outcome": "木桌一角被红绳缠绕固定",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员休息室",
+      "present": [
+        "林小雨",
+        "木桌"
+      ],
+      "driver": "林小雨将木桌推至墙角",
+      "entry_state": "木桌一角被红绳缠绕",
+      "outcome": "木桌被推至墙角，与原位相距半米",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "陈志远",
+        "红色警示牌"
+      ],
+      "driver": "陈志远弯腰捡起警示牌，贴在胸口",
+      "entry_state": "红色警示牌在陈志远手中",
+      "outcome": "红色警示牌被陈志远贴在胸口",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "陈志远",
+        "红色警示牌"
+      ],
+      "driver": "陈志远将警示牌放回原位，手指划过边缘",
+      "entry_state": "红色警示牌在陈志远手中",
+      "outcome": "红色警示牌回到原位，边缘有轻微划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "陈志远",
+        "红色警示牌"
+      ],
+      "driver": "陈志远突然将警示牌砸向地面，金属碰撞声响起",
+      "entry_state": "红色警示牌在陈志远手中",
+      "outcome": "红色警示牌掉在地上，表面出现凹痕",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "教练室",
+      "present": [
+        "李建国",
+        "记账本"
+      ],
+      "driver": "李建国翻开记账本，手指划过第37页",
+      "entry_state": "记账本平放在桌上",
+      "outcome": "记账本第37页被手指划出一道浅痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练室",
+      "present": [
+        "李建国",
+        "记账本"
+      ],
+      "driver": "李建国将记账本合上，夹进公文包夹层",
+      "entry_state": "记账本第37页有浅痕",
+      "outcome": "记账本被放入公文包夹层，纸张边缘微卷",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练室",
+      "present": [
+        "李建国",
+        "记账本"
+      ],
+      "driver": "李建国抽出记账本，撕下第37页塞进抽屉",
+      "entry_state": "记账本被放入公文包夹层",
+      "outcome": "记账本第37页消失，抽屉露出半截撕裂的纸张",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "学员休息室",
+      "present": [
+        "林小雨",
+        "红绳"
+      ],
+      "driver": "林小雨用右手捏住红绳末端",
+      "entry_state": "红绳垂在木桌边缘",
+      "outcome": "红绳被提起离地三寸",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员休息室",
+      "present": [
+        "林小雨",
+        "红绳"
+      ],
+      "driver": "林小雨用拇指摩挲红绳表面刻痕",
+      "entry_state": "红绳被提起离地三寸",
+      "outcome": "红绳表面出现一道新刻痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员休息室",
+      "present": [
+        "林小雨",
+        "红绳"
+      ],
+      "driver": "林小雨将红绳绕在左手腕上",
+      "entry_state": "红绳表面出现一道新刻痕",
+      "outcome": "红绳固定在林小雨手腕",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "李建国",
+        "教练车"
+      ],
+      "driver": "李建国伸手触碰副驾驶座边缘",
+      "entry_state": "副驾驶座保持原状",
+      "outcome": "副驾驶座边缘沾有未知指纹",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "李建国"
+      ],
+      "driver": "李建国用纸巾擦拭副驾驶座边缘",
+      "entry_state": "副驾驶座边缘沾有未知指纹",
+      "outcome": "副驾驶座边缘残留微量纸屑",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "李建国"
+      ],
+      "driver": "李建国将副驾驶座移向车门",
+      "entry_state": "副驾驶座边缘残留微量纸屑",
+      "outcome": "副驾驶座位置改变，边缘未再接触地面",
+      "target_chars": 527
+    }
+  ]
+}

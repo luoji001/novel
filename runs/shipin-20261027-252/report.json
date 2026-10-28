@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-252",
+  "profile": "视频分镜",
+  "title": "药水瓶的标签",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6129,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5652,
+    "chapter_chars_mean": 942,
+    "chapter_chars_median": 958,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 32,
+    "dialogue_chars_pct": 18.3,
+    "dialogue_para_pct": 44.1,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 54.5,
+    "turn_under20_pct": 95.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 41.8,
+    "attr_adv_pct": 5.1,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "碰倒药水瓶",
+      "chars": 734,
+      "score": 94.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "登记本的折痕",
+      "chars": 1118,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "摩挲药水瓶标签",
+      "chars": 747,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "摩挲输液椅边缘",
+      "chars": 1310,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "摩挲红袖章边缘",
+      "chars": 957,
+      "score": 21.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "摩挲标签纸边缘",
+      "chars": 1257,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "[observe] 章节过短 690 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "单条套路句式超限：「陈素芬的」×3、「李秀兰的」×3"
+    ],
+    "5": [
+      "[observe] 章节过短 862 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 125.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:01:05"
+}

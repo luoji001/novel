@@ -1,0 +1,210 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李小红"
+      ],
+      "driver": "李小红伸手去够输液架上的药瓶",
+      "entry_state": "输液架静止在原位",
+      "outcome": "输液架上的药瓶被李小红的手指轻轻碰触",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李小红"
+      ],
+      "driver": "李小红用左手攥紧病历本，右手紧贴输液架",
+      "entry_state": "输液架被碰触",
+      "outcome": "输液架因李小红的触碰微微晃动",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "王护士",
+        "李小红"
+      ],
+      "driver": "王护士用注射器抵住李小红手腕",
+      "entry_state": "李小红伸手去抢输液架上的药瓶",
+      "outcome": "注射器尖端抵住李小红手腕皮肤",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "王护士",
+        "李小红"
+      ],
+      "driver": "李小红试图掰开注射器，针尖微微偏移",
+      "entry_state": "注射器尖端抵住李小红手腕皮肤",
+      "outcome": "注射器被李小红轻微晃动，针筒略有倾斜",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "王护士",
+        "李小红"
+      ],
+      "driver": "王护士将注射器收回，右手松开",
+      "entry_state": "注射器被李小红轻微晃动，针筒略有倾斜",
+      "outcome": "注射器回到王护士手中，针筒保持原状",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "陈药师"
+      ],
+      "driver": "陈药师左手举起药瓶，右手扶住输液架",
+      "entry_state": "药瓶在陈药师手中",
+      "outcome": "药瓶被陈药师稳稳托在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "陈药师"
+      ],
+      "driver": "陈药师将药瓶递给李小红，右手松开输液架",
+      "entry_state": "药瓶在陈药师手中",
+      "outcome": "药瓶从陈药师手中移交给李小红",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "药房",
+      "present": [
+        "陈药师",
+        "李小红"
+      ],
+      "driver": "陈药师用右手抓住李小红手腕，药瓶滚落至地面",
+      "entry_state": "药瓶在李小红手中",
+      "outcome": "药瓶从李小红手中掉落",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "李小红"
+      ],
+      "driver": "李小红坐上输液椅，左手攥着病历本",
+      "entry_state": "输液椅空着",
+      "outcome": "输液椅被李小红占据",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "李小红"
+      ],
+      "driver": "李小红将输液椅向右挪动半步",
+      "entry_state": "输液椅被李小红占据",
+      "outcome": "输液椅位置改变",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "李小红"
+      ],
+      "driver": "李小红用右腕红绳缠住输液椅扶手",
+      "entry_state": "输液椅位置改变",
+      "outcome": "输液椅被红绳缠绕",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "王护士",
+        "李小红"
+      ],
+      "driver": "王护士将注射器尖端抵住李小红手腕",
+      "entry_state": "注射器尖端抵住李小红手腕",
+      "outcome": "注射器尖端抵住李小红手腕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "王护士",
+        "李小红"
+      ],
+      "driver": "李小红试图抽回手，注射器滑向掌心",
+      "entry_state": "注射器尖端抵住李小红手腕",
+      "outcome": "注射器滑向李小红掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "王护士",
+        "李小红"
+      ],
+      "driver": "王护士松手，注射器掉落在地",
+      "entry_state": "注射器滑向李小红掌心",
+      "outcome": "注射器掉落在地",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "陈药师"
+      ],
+      "driver": "陈药师左手举起药瓶，右手扶住输液架",
+      "entry_state": "药瓶在陈药师手中",
+      "outcome": "药瓶被陈药师握在左手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "陈药师",
+        "王护士"
+      ],
+      "driver": "陈药师将药瓶递给王护士，右手松开输液架",
+      "entry_state": "药瓶在陈药师手中",
+      "outcome": "药瓶被陈药师递给王护士",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "药房",
+      "present": [
+        "陈药师",
+        "王护士"
+      ],
+      "driver": "王护士接过药瓶，右手握紧，左手扶住输液架",
+      "entry_state": "药瓶在陈药师手中",
+      "outcome": "药瓶被王护士握在右手中",
+      "target_chars": 527
+    }
+  ]
+}

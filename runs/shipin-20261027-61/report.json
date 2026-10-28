@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-61",
+  "profile": "视频分镜",
+  "title": "雨靴悬空",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7156,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6719,
+    "chapter_chars_mean": 1120,
+    "chapter_chars_median": 1166,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 28.7,
+    "dialogue_chars_pct": 36.1,
+    "dialogue_para_pct": 78.6,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 21.4,
+    "turn_under20_pct": 90.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.4,
+    "attr_adv_pct": 5.5,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 7.1,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁钩与电梯故障",
+      "chars": 684,
+      "score": 55.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铁钩敲击电梯按钮",
+      "chars": 1257,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "晾衣绳悬空",
+      "chars": 1411,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "螺丝与雨靴的对峙",
+      "chars": 1385,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "晾衣绳悬空",
+      "chars": 1193,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "晾衣绳上的雨靴",
+      "chars": 1220,
+      "score": 85.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 12.5 低于目标 35.0",
+      "dialogue_run_mean 7 高于目标 4.0"
+    ],
+    "3": [
+      "narration_para_pct 28.6 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「她伸手抓起雨靴，转身朝楼梯口走去，晾衣绳在身后晃…」）"
+    ],
+    "4": [
+      "narration_para_pct 22.2 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "5": [
+      "narration_para_pct 26.5 低于目标 35.0",
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「晾衣绳悬空」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 46.7 高于目标 45.0",
+      "narration_para_pct 8.0 低于目标 35.0",
+      "dialogue_run_mean 23 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:50:50"
+}

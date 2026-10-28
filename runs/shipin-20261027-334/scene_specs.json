@@ -1,0 +1,217 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "一枚1元硬币"
+      ],
+      "driver": "王强弯腰捡起副驾驶座上的硬币",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被王强放入掌心",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "一枚1元硬币"
+      ],
+      "driver": "王强将硬币贴在记账本边缘",
+      "entry_state": "硬币在王强掌心",
+      "outcome": "硬币被放置在记账本边缘",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "王强",
+        "记账本"
+      ],
+      "driver": "王强打开抽屉，将硬币放入其中",
+      "entry_state": "记账本在办公桌上，未被触碰",
+      "outcome": "记账本留在桌上，硬币被放入抽屉",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "王强",
+        "记账本"
+      ],
+      "driver": "王强翻到某一页，用手指摩挲纸张",
+      "entry_state": "硬币在抽屉中，记账本在桌上",
+      "outcome": "记账本被翻开，纸张有轻微褶皱",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "王强",
+        "记账本"
+      ],
+      "driver": "王强抽出一张纸，将记账本合上",
+      "entry_state": "记账本被翻开，纸张有褶皱",
+      "outcome": "记账本被合上，纸张平整，硬币仍在抽屉",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "练车场监控室",
+      "present": [
+        "陈志",
+        "监控摄像头"
+      ],
+      "driver": "陈志拿起红色钥匙扣插进控制台",
+      "entry_state": "监控摄像头静止在控制台上",
+      "outcome": "监控摄像头开始缓慢旋转",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场监控室",
+      "present": [
+        "陈志",
+        "监控摄像头"
+      ],
+      "driver": "陈志伸手按住摄像头侧面的按钮",
+      "entry_state": "监控摄像头旋转停止",
+      "outcome": "监控摄像头屏幕亮起，显示教练车副驾驶座",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场监控室",
+      "present": [
+        "陈志",
+        "监控摄像头"
+      ],
+      "driver": "陈志将摄像头从控制台取下放在桌上",
+      "entry_state": "监控摄像头屏幕亮着，显示教练车副驾驶座",
+      "outcome": "监控摄像头被陈志移动到桌边，屏幕继续显示",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "林雪"
+      ],
+      "driver": "林雪的钥匙串垂在胸前晃动",
+      "entry_state": "钥匙串挂在林雪脖子上",
+      "outcome": "钥匙串从林雪脖子滑落至地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "林雪"
+      ],
+      "driver": "王强弯腰捡起钥匙串",
+      "entry_state": "钥匙串在地面",
+      "outcome": "钥匙串被王强握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场停车场",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强将钥匙串抛向林雪",
+      "entry_state": "钥匙串在王强手中",
+      "outcome": "钥匙串落在林雪脚边",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "停车牌"
+      ],
+      "driver": "王强弯腰捡起地上的停车牌",
+      "entry_state": "停车牌躺在地上",
+      "outcome": "停车牌被王强捡起并握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "停车牌"
+      ],
+      "driver": "王强用手指摩挲停车牌上的日期刻痕",
+      "entry_state": "停车牌被王强握在手中",
+      "outcome": "停车牌上的日期刻痕被王强触摸过",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "停车牌"
+      ],
+      "driver": "王强将停车牌放回原位并转身离开",
+      "entry_state": "停车牌被王强触摸过",
+      "outcome": "停车牌回到原位，王强离开",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "一枚1元硬币"
+      ],
+      "driver": "王强将硬币放在副驾驶座上",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被王强放回原位",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "一枚1元硬币"
+      ],
+      "driver": "王强捡起硬币并握在手中",
+      "entry_state": "硬币被放回原位",
+      "outcome": "硬币被王强握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场停车场",
+      "present": [
+        "王强",
+        "一枚1元硬币"
+      ],
+      "driver": "王强将硬币丢进垃圾桶",
+      "entry_state": "硬币被握在手中",
+      "outcome": "硬币被丢进垃圾桶",
+      "target_chars": 527
+    }
+  ]
+}

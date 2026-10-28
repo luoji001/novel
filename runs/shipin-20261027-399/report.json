@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-399",
+  "profile": "视频分镜",
+  "title": "皮箱的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6707,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6200,
+    "chapter_chars_mean": 1033,
+    "chapter_chars_median": 1184,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 30.2,
+    "dialogue_chars_pct": 21.9,
+    "dialogue_para_pct": 51.8,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 47.5,
+    "turn_under20_pct": 92.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.1,
+    "attr_adv_pct": 10.4,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "柜门缓缓开启",
+      "chars": 424,
+      "score": 18.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "登记本掉落瞬间",
+      "chars": 1308,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙转动瞬间",
+      "chars": 1029,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "警示牌撕开贴纸",
+      "chars": 1220,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "箱子的重量",
+      "chars": 1333,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "钥匙入锁孔的一瞬",
+      "chars": 1387,
+      "score": 21.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 382 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 31.0 低于目标 35.0"
+    ],
+    "3": [
+      "单条套路句式超限：「周振华站在」×3"
+    ],
+    "4": [
+      "narration_para_pct 30.8 低于目标 35.0"
+    ],
+    "5": [
+      "单条套路句式超限：「周振华站在」×3",
+      "narration_para_pct 25.8 低于目标 35.0"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:55:19"
+}

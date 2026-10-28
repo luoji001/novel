@@ -1,0 +1,219 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强将应急灯放在讲台上",
+      "entry_state": "应急灯在讲台上",
+      "outcome": "应急灯在讲台上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强用手指敲击应急灯的开关",
+      "entry_state": "应急灯在讲台上",
+      "outcome": "应急灯的灯光微微闪烁",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "薯片",
+        "书包"
+      ],
+      "driver": "王小雨将半包薯片塞进书包夹层",
+      "entry_state": "零食包装袋在书包夹层",
+      "outcome": "零食包装袋被压扁并塞入书包",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "零食包装袋"
+      ],
+      "driver": "王小雨用手指捏住包装袋边缘撕开",
+      "entry_state": "零食包装袋在书包夹层",
+      "outcome": "零食包装袋被撕开一角露出薯片",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "王小雨",
+        "零食包装袋"
+      ],
+      "driver": "王小雨将撕开的包装袋抛向空中再接住",
+      "entry_state": "零食包装袋被撕开一角",
+      "outcome": "零食包装袋被王小雨抛起又接住",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "校长办公室",
+      "present": [
+        "陈秀兰",
+        "作业本"
+      ],
+      "driver": "陈秀兰用钢笔在作业本上画了个叉",
+      "entry_state": "作业本躺在办公桌上",
+      "outcome": "作业本被钢笔划出一道痕迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "校长办公室",
+      "present": [
+        "陈秀兰",
+        "作业本"
+      ],
+      "driver": "陈秀兰把作业本翻到背面继续批改",
+      "entry_state": "作业本被划出一道痕迹",
+      "outcome": "作业本背面出现新的批注",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "校长办公室",
+      "present": [
+        "陈秀兰",
+        "作业本"
+      ],
+      "driver": "陈秀兰把作业本收进抽屉，合上抽屉",
+      "entry_state": "作业本背面出现新的批注",
+      "outcome": "作业本被收进抽屉",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "李国强握着应急灯站在窗边",
+      "entry_state": "应急灯在李国强手中",
+      "outcome": "应急灯从李国强手中滑落至地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "王小雨踮脚去够应急灯",
+      "entry_state": "应急灯在地面",
+      "outcome": "应急灯被王小雨捡起并握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小雨"
+      ],
+      "driver": "李国强抢夺应急灯并摔向墙角",
+      "entry_state": "应急灯在王小雨手中",
+      "outcome": "应急灯摔落在墙角，灯罩破裂",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "村口杂货店",
+      "present": [
+        "王小雨",
+        "旧书包"
+      ],
+      "driver": "王小雨把空书包放在台阶上",
+      "entry_state": "旧书包放在台阶上",
+      "outcome": "旧书包被放在台阶上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "村口杂货店",
+      "present": [
+        "王小雨",
+        "旧书包"
+      ],
+      "driver": "王小雨用脚踢了踢旧书包",
+      "entry_state": "旧书包被放在台阶上",
+      "outcome": "旧书包被踢到路中央",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "村口杂货店",
+      "present": [
+        "王小雨",
+        "旧书包"
+      ],
+      "driver": "王小雨把旧书包抱到货架前",
+      "entry_state": "旧书包被踢到路中央",
+      "outcome": "旧书包被抱到货架前",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强将应急灯挪到窗边，灯光照亮了半边墙",
+      "entry_state": "应急灯在窗边，灯光稳定",
+      "outcome": "应急灯在窗边，灯光稳定",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强用手指敲击应急灯开关，灯光忽明忽暗",
+      "entry_state": "应急灯在窗边，灯光稳定",
+      "outcome": "应急灯在李国强手中，灯光忽明忽暗",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "应急灯"
+      ],
+      "driver": "李国强将应急灯放回原位，灯光熄灭",
+      "entry_state": "应急灯在李国强手中，灯光忽明忽暗",
+      "outcome": "应急灯在原位，灯光熄灭",
+      "target_chars": 527
+    }
+  ]
+}

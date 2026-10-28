@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-230",
+  "profile": "视频分镜",
+  "title": "灯绳",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7609,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 7156,
+    "chapter_chars_mean": 1193,
+    "chapter_chars_median": 1178,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 29.2,
+    "dialogue_chars_pct": 20.9,
+    "dialogue_para_pct": 60.1,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 38.6,
+    "turn_under20_pct": 97.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 30.5,
+    "attr_adv_pct": 15.2,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯的摇晃",
+      "chars": 731,
+      "score": 97.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铅笔划破试卷的痕迹",
+      "chars": 1173,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "钥匙插进锁孔",
+      "chars": 1316,
+      "score": 95.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "红绳勒腕",
+      "chars": 1205,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "应急灯的摇晃",
+      "chars": 1903,
+      "score": 23.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "试卷边缘的颤抖",
+      "chars": 1275,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "5": [
+      "单条套路句式超限：「王小满的」×7、「王小满点」×3",
+      "narration_para_pct 24.3 低于目标 35.0",
+      "[observe] attr_adv_pct 28.6 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「应急灯的摇晃」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「王小满的」×3、「李国强的」×3",
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:26:04"
+}

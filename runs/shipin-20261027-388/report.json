@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-388",
+  "profile": "视频分镜",
+  "title": "凹痕",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5657,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5344,
+    "chapter_chars_mean": 891,
+    "chapter_chars_median": 1017,
+    "chapter_chars_cv": 0.45,
+    "paragraphs_mean": 18.2,
+    "dialogue_chars_pct": 15.6,
+    "dialogue_para_pct": 48.7,
+    "interiority_para_pct": 4.5,
+    "narration_para_pct": 46.8,
+    "turn_under20_pct": 95.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.0,
+    "attr_adv_pct": 10.6,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙凹槽的指纹",
+      "chars": 414,
+      "score": 23.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "贝壳滚落的瞬间",
+      "chars": 1362,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "贝壳滚落的瞬间",
+      "chars": 1282,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙划过纸页痕迹",
+      "chars": 1132,
+      "score": 7.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手镯上的纹路",
+      "chars": 1012,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "桶壁泛光的痕迹",
+      "chars": 449,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 379 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 34.6 低于目标 35.0"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「贝壳滚落的瞬间」已存在"
+    ],
+    "4": [
+      "dialogue_chars_pct 4.0 低于目标 5.0",
+      "interiority_para_pct 14.3 高于目标 6.0"
+    ],
+    "5": [
+      "dialogue_run_mean 5 高于目标 4.0"
+    ],
+    "6": [
+      "[observe] 章节过短 412 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 125.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:37:53"
+}

@@ -1,0 +1,106 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-194",
+  "profile": "视频分镜",
+  "title": "硬币密码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6175,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5678,
+    "chapter_chars_mean": 946,
+    "chapter_chars_median": 1028,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 34.7,
+    "dialogue_chars_pct": 21.5,
+    "dialogue_para_pct": 46.8,
+    "interiority_para_pct": 3.0,
+    "narration_para_pct": 50.2,
+    "turn_under20_pct": 96.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 54.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币与账本的沉默",
+      "chars": 483,
+      "score": 22.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "硬币沿窗框下滑",
+      "chars": 1128,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "钥匙环上的红丝带",
+      "chars": 1137,
+      "score": 95.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "硬币与钥匙的对峙",
+      "chars": 1057,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "硬币边缘的凹陷",
+      "chars": 1094,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "红丝带缠绕硬币",
+      "chars": 1270,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 435 < 597（本章目标 1087 字的 55%）"
+    ],
+    "6": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 119.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:24:26"
+}

@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-338",
+  "profile": "视频分镜",
+  "title": "裂镜",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6174,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5738,
+    "chapter_chars_mean": 956,
+    "chapter_chars_median": 1012,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 29.5,
+    "dialogue_chars_pct": 30.1,
+    "dialogue_para_pct": 50.3,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 49.0,
+    "turn_under20_pct": 81.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 57.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "剪刀划破晨雾",
+      "chars": 536,
+      "score": 38.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "修镜子",
+      "chars": 1397,
+      "score": 95.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "剪刀插入裂缝",
+      "chars": 1124,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "剪刀擦亮晨光",
+      "chars": 1050,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "修补镜子",
+      "chars": 936,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "修镜子",
+      "chars": 1125,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 478 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 34.6 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 章节过短 838 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《修镜子》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题重复：「修镜子」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:19:56"
+}

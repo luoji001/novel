@@ -1,0 +1,101 @@
+# 悬疑 / 推理
+#
+# ⚠ 下面 [targets] 的数字是**未经标定的起点**，不是实测值。
+# bianlun.toml 的数字来自《天幕红尘》51 章的单章分布（p3 定硬线），这个档位没有
+# 对应的参照语料。所以硬线全部放得很松，只抓真塌缩。
+# 正确做法是 `--gate observe` 跑 2~3 部，从 logs/quality.jsonl 取各指标的单章 p3，
+# 再回来改这里。详见 README「闸门模式：第一次必须用 observe」。
+name = "悬疑推理"
+prose_model_hint = "信息的给予与扣留是叙事手段本身，不要把该藏的写明"
+prose_system_extra = """\
+这是悬疑小说。该藏的信息要真的藏住——不要用叙述去解释人物没说出口的动机，\
+让读者从他做的事里自己推。环境与物件的细节要写实，因为它们可能是线索。"""
+
+# 交付形态：单篇连续弧，不是分章连载。
+# 实测依据（profiles-sft/xuanyi/BASELINE.md，福尔摩斯 58 篇独立短篇的单篇分布）：
+#   chars   p10=10,016  p50=13,579  p90=19,775
+# 一个经典推理短篇是一条连续弧，没有「第N章」。
+# 但闸门机器依赖章标题（chapter_blocks 切块去重、title_checks 查撞车），
+# 所以内部仍按「幕」分段生成，只在 compile_book 落地时去掉章号、改用段间分隔。
+[form]
+kind = "single_arc"
+unit_label = "幕"
+section_sep = "※"
+
+[meta]
+# 13600 ≈ 实测 p50。原来写的 20000/10章 是照抄长篇骨架，形式上不对。
+target_total_chars = 13600
+chapters = 5                 # 幕：委托 → 现场 → 各自推理 → 揭破 → 收束
+scenes_per_chapter = 4
+
+
+[rhythm]
+# 五幕的相对权重。揭破那一幕最长（推理要讲完），委托与收束最短。
+short = 1800
+normal = 3000
+long = 3600
+open_scale = "short"
+close_scale = "short"
+
+[scene]
+driver_name = "信息"
+driver_desc = "这一场揭示了哪条信息、同时又扣住了哪条"
+driver_rule = """· 每一场的 driver 必须写成「揭示 X，但仍扣住 Y」的形式，
+  并且必须围绕「{obj}」展开。{want} 场要推进 {want} 条**不同的**信息，
+  不是同一条信息反复暗示。
+· 不准把结局要用的关键线索留到最后一章才首次出现——公平性要求它在前文露过面，
+  哪怕当时读者看不出它的意义。"""
+axis_name = "核心谜题"
+axis_desc = "核心谜题：表面上发生了什么、实际上发生了什么，两者的差距在哪"
+stance_desc = "他知道什么、隐瞒什么、以为自己知道什么"
+premise_rule = """· 核心谜题必须有一个具体的、可指认的错位（时间对不上、物件不该在那里、
+  某人说了不该知道的事），不准是「一个神秘的往事」这类空壳。
+· ending_direction 要写明真相是什么，以及它靠哪个物件被揭破。
+"""
+cast_rule = """· A 是追查的人，B 是知情但不说的人。两人都要有不说的理由。
+· 至少一个人的 stance 必须包含「他以为自己知道，其实弄错了」。
+"""
+outline_rule = "· 每章至少让一条既有信息改变含义——不能只是堆新信息。\n"
+dedup_threshold = 0.60      # 线索的措辞天然比论题更接近，阈值放宽免得刷屏
+min_speakers = 1            # 允许侦探独自勘查的章节
+require_object = true
+
+[gates]
+min_ratio = 0.55
+sim_threshold = 0.90
+theme_max = 0.70            # 悬疑全篇咬同一个谜题，主题重合天然高
+title_sim_max = 0.60
+plot_sim_max = 0.62
+tpl_per_kilo = 16.0
+tpl_single_max = 2
+sent_dup_min_len = 10
+sent_dup_max = 2
+sent_self_dup_max = 0
+degrade_after = 3
+
+# 审讯/对质场是对话密集的，勘查场几乎没有对话 —— 区间必须很宽
+[targets.dialogue_chars_pct]
+lo = 20.0
+hi = 58.0
+hard = 6.0
+
+# 推理本身就是心理活动，不能按论辩体的 6% 去卡
+[targets.interiority_para_pct]
+lo = 0.0
+hi = 20.0
+hard = 32.0
+
+# 现场、物件、环境的描写是悬疑的主要载体
+[targets.narration_para_pct]
+lo = 20.0
+hi = 70.0
+
+[targets.attr_adv_pct]
+lo = 0.0
+hi = 10.0
+hard = 20.0
+
+[targets.dialogue_run_mean]
+lo = 1.5
+hi = 10.0
+hard = 0.8

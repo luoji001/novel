@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-76",
+  "profile": "视频分镜",
+  "title": "灯下笔记",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5976,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5661,
+    "chapter_chars_mean": 944,
+    "chapter_chars_median": 936,
+    "chapter_chars_cv": 0.27,
+    "paragraphs_mean": 18.3,
+    "dialogue_chars_pct": 14.5,
+    "dialogue_para_pct": 45.8,
+    "interiority_para_pct": 0.9,
+    "narration_para_pct": 53.3,
+    "turn_under20_pct": 97.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 47.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯亮起时",
+      "chars": 679,
+      "score": 94.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铅笔划过试卷",
+      "chars": 792,
+      "score": 22.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "灯与试卷的较量",
+      "chars": 1273,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铁皮桶的回声",
+      "chars": 812,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铅笔与试卷的对峙",
+      "chars": 1239,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铅笔描摹星光",
+      "chars": 1175,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 1 句（如「他刚开口就被一阵急促的脚步声打断…」）",
+      "[observe] 章节过短 754 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「李国强的」×3"
+    ],
+    "4": [
+      "[observe] 章内自我复读 5 句（如「赵桂花踮起脚尖，双手扶着门框，身体微微前倾，像棵…」）",
+      "[observe] 章节过短 752 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "单条套路句式超限：「”小林低」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 132.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:14:06"
+}

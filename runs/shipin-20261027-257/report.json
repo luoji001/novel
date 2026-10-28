@@ -1,0 +1,111 @@
+{
+  "consistency": "1. 第一章提到“李阿姨”，但后续章节中未再出现“李阿姨”这一称呼，仅出现“周建国”“林小满”“陈桂花”等人物，存在人物称呼不一致的问题。\n\n2. 第五章提到“张大爷”，但前文未出现“张大爷”这一人物，属于人物出场不一致。\n\n3. 第六章提到“鞋底刻有彼此名字”，但前文未提及任何关于鞋底刻字的伏笔或铺垫，属于物件交代缺失。\n\n4. 第四章提到“房产归属真相”，但前文未明确提及房产归属问题，属于情节铺垫不足。\n\n5. 第三章提到“周建国为保护自己的房产证”，但前文未提及“房产证”这一物件，属于物件出现无铺垫。",
+  "slug": "shipin-20261027-257",
+  "profile": "视频分镜",
+  "title": "雨靴的裂痕",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6500,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6063,
+    "chapter_chars_mean": 1010,
+    "chapter_chars_median": 1104,
+    "chapter_chars_cv": 0.28,
+    "paragraphs_mean": 28.7,
+    "dialogue_chars_pct": 20.2,
+    "dialogue_para_pct": 52.1,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 47.2,
+    "turn_under20_pct": 96.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 25.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "花生袋的重量",
+      "chars": 478,
+      "score": 23.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "铁锹与门框的较量",
+      "chars": 1166,
+      "score": 96.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "踩靴之争",
+      "chars": 1285,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "猫爪与铁锹",
+      "chars": 1168,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "花生落地的瞬间",
+      "chars": 1186,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手电筒照见刻痕",
+      "chars": 1211,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 444 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 29.6 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 2 句（如「林小满低头看着地板上散落的花生粒，它们静静躺在那…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:09:17"
+}

@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-265",
+  "profile": "视频分镜",
+  "title": "公文包",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6841,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6384,
+    "chapter_chars_mean": 1064,
+    "chapter_chars_median": 1112,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 29.8,
+    "dialogue_chars_pct": 20.7,
+    "dialogue_para_pct": 49.2,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 50.8,
+    "turn_under20_pct": 89.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "撬开车门的雪铲",
+      "chars": 761,
+      "score": 95.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "佛珠与雪铲的较量",
+      "chars": 1143,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "雪铲与佛珠对峙",
+      "chars": 1354,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "佛珠拂过雪铲",
+      "chars": 1089,
+      "score": 89.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与雪铲的较量",
+      "chars": 1234,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "雪铲与公文包的纠缠",
+      "chars": 1254,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「张海生的」×3"
+    ],
+    "3": [
+      "单条套路句式超限：「李志远的」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「李志远的」×4"
+    ],
+    "5": [
+      "单条套路句式超限：「张海生的」×3、「李志远的」×3",
+      "[observe] 标题与《佛珠与雪铲的较量》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:21:44"
+}

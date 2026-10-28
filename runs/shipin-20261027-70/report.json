@@ -1,0 +1,120 @@
+{
+  "consistency": "1. 第二章与第三章均出现“药瓶与硬币碰撞”，内容重复，存在重复描述问题。  \n2. 第三章提到“女子”查看张翠花病情，但未明确该女子是否为李秀兰，导致人物身份不清晰。  \n3. 第五章提到“李秀兰试图带走她留下的药”，但前文未明确“她”指代谁，导致指代不明。  \n4. 第六章提到“李秀兰试图取父亲留下的药瓶”，但前文未提及李秀兰的父亲与张翠花的关系，导致人物关系不清晰。  \n5. 第三章提到“赵志远将张翠花的遗药交给李秀兰”，但前文未提及张翠花已去世，导致情节逻辑不连贯。  \n6. 第五章提到“李秀兰与周慧敏发生冲突”，但前文未明确两人是否有过冲突，导致情节突兀。  \n7. 第六章提到“李秀兰在输液椅前哭诉父亲临终遗愿”，但前文未提及父亲临终遗愿的具体内容，导致情节不完整。",
+  "slug": "shipin-20261027-70",
+  "profile": "视频分镜",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5823,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5354,
+    "chapter_chars_mean": 892,
+    "chapter_chars_median": 899,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 31.2,
+    "dialogue_chars_pct": 25.4,
+    "dialogue_para_pct": 55.6,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 43.3,
+    "turn_under20_pct": 95.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 60.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶摇晃",
+      "chars": 597,
+      "score": 38.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "药瓶与硬币碰撞",
+      "chars": 1134,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "银镯子刻名",
+      "chars": 987,
+      "score": 93.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "药瓶与硬币碰撞",
+      "chars": 959,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "药瓶与泪痕",
+      "chars": 1224,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "药瓶与泪痕碰撞",
+      "chars": 916,
+      "score": 35.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 551 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "情节与已写章节重复 0.76 ≥ 0.62（撞上「李秀兰坚持要取张翠花的药，与护士周慧敏发生争执，最终在病…」）",
+      "narration_para_pct 29.3 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「药瓶与硬币碰撞」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「李秀兰的」×4",
+      "[observe] 章内自我复读 1 句（如「她猛地收回手，眼神凌厉…」）"
+    ],
+    "6": [
+      "单条套路句式超限：「李秀兰站在」×3",
+      "narration_para_pct 23.8 低于目标 35.0",
+      "[observe] 章节过短 859 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《药瓶与泪痕》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:04:32"
+}

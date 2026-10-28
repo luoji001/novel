@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-175",
+  "profile": "视频分镜",
+  "title": "蓝钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6654,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6074,
+    "chapter_chars_mean": 1012,
+    "chapter_chars_median": 1004,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 36.8,
+    "dialogue_chars_pct": 33.1,
+    "dialogue_para_pct": 62.6,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 36.9,
+    "turn_under20_pct": 86.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 3.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "箱角的细小凹陷",
+      "chars": 740,
+      "score": 93.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "指纹触碰箱角",
+      "chars": 1072,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙与便签的对峙",
+      "chars": 1103,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "指纹触碰箱角",
+      "chars": 1498,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "手电筒的光",
+      "chars": 1132,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "敲箱寻父",
+      "chars": 1103,
+      "score": 87.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李建国的」×3",
+      "narration_para_pct 15.0 低于目标 35.0",
+      "dialogue_run_mean 5.7 高于目标 4.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「那你为什么现在才来？…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "单条套路句式超限：「李建国站在」×3",
+      "[observe] 标题重复：「指纹触碰箱角」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国的」×3",
+      "narration_para_pct 12.0 低于目标 35.0",
+      "dialogue_run_mean 7.3 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:54:38"
+}

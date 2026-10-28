@@ -1,0 +1,119 @@
+{
+  "consistency": "1. 第二章提到“林小满与陈阿婆因二维码被换发生争执”，但第三章提到“林小满现身揭露真相”，暗示林小满在第三章才出现，与第二章的争执矛盾。\n\n2. 第五章提到“陈阿婆发现自己的二维码被周志远替换”，但第四章已提到“陈阿婆发现二维码被周志远替换”，重复且无新信息，逻辑上不一致。\n\n3. 第六章提到“三人因账本问题爆发冲突”，但前文未提及账本相关内容，属于无故引入新元素，与前文情节脱节。",
+  "slug": "shipin-20261027-283",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6829,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6438,
+    "chapter_chars_mean": 1073,
+    "chapter_chars_median": 1090,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 24,
+    "dialogue_chars_pct": 28.7,
+    "dialogue_para_pct": 68.9,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 31.1,
+    "turn_under20_pct": 89.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 3.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码在暮色中闪烁",
+      "chars": 758,
+      "score": 94.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "二维码贴纸被踢飞",
+      "chars": 1364,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "竹夹子夹住二维码",
+      "chars": 1028,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "竹夹与二维码对峙",
+      "chars": 1385,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "竹夹子撕裂二维码",
+      "chars": 1007,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "二维码贴纸被扯开",
+      "chars": 1281,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 24.0 低于目标 35.0",
+      "dialogue_run_mean 6.3 高于目标 4.0"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "4": [
+      "单条套路句式超限：「周志远的」×3、「陈阿婆的」×3",
+      "[observe] 标题与《竹夹子夹住二维码》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 标题与《竹夹子夹住二维码》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "情节与已写章节重复 0.63 ≥ 0.62（撞上「陈阿婆发现二维码被周志远替换，林小满揭发其与之前被盗二维…」）",
+      "narration_para_pct 20.0 低于目标 35.0",
+      "[observe] 标题与《二维码贴纸被踢飞》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 155.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:50:21"
+}

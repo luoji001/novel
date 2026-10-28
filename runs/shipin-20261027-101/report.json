@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-101",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5849,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5421,
+    "chapter_chars_mean": 904,
+    "chapter_chars_median": 905,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 22.5,
+    "dialogue_para_pct": 55.7,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 44.3,
+    "turn_under20_pct": 91.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "贴纸边缘的颤动",
+      "chars": 388,
+      "score": 22.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铁皮锅的重逢",
+      "chars": 1072,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "塑料袋裂开的瞬间",
+      "chars": 876,
+      "score": 38.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "粉条触地的刹那",
+      "chars": 1338,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "二维码贴纸的争夺",
+      "chars": 1370,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "二维码贴纸的争夺",
+      "chars": 799,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 347 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 34.6 低于目标 35.0"
+    ],
+    "3": [
+      "[observe] 章节过短 804 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 3 句（如「你要是怕麻烦，可以去隔壁王婶那借个板凳…」）"
+    ],
+    "5": [
+      "单条套路句式超限：「李阿婆的」×3",
+      "[observe] 章内自我复读 4 句（如「因为我看到了你每天做些什么…」）"
+    ],
+    "6": [
+      "[observe] 章节过短 749 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「二维码贴纸的争夺」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 133.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:53:03"
+}

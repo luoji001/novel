@@ -1,0 +1,112 @@
+{
+  "consistency": "1. 第二章与第三章同名《触碰应急灯》，但内容不一致，存在标题重复问题。  \n2. 第二章提到王强“为参加比赛偷偷触碰教室应急灯”，第三章却说“陈秀兰劝说王强放弃参赛机会”，前后矛盾。  \n3. 第四章提到王强“在陈秀兰劝说下决定放弃”，但第五章又说“因家庭压力仍坚持要去镇上借钱”，立场无理由翻转。  \n4. 第六章提到王强“带着灯离开”，但第五章提到“王强完成作业的故事”中未提及灯被带走，物件未交代清楚。  \n5. 第三章提到“王强放弃参赛机会”，但第四章又说“因家庭压力仍坚持要去镇上借钱”，立场矛盾。",
+  "slug": "shipin-20261027-356",
+  "profile": "视频分镜",
+  "title": "灯芯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6512,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6135,
+    "chapter_chars_mean": 1022,
+    "chapter_chars_median": 1012,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 24.2,
+    "dialogue_chars_pct": 22.2,
+    "dialogue_para_pct": 58.6,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 41.4,
+    "turn_under20_pct": 92.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 73.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "灯罩上的霜花",
+      "chars": 814,
+      "score": 96.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "触碰应急灯",
+      "chars": 1129,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "触碰应急灯",
+      "chars": 1032,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "铅笔盒滚落",
+      "chars": 1121,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "触摸保温杯刻度",
+      "chars": 1006,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "触碰应急灯",
+      "chars": 1404,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "narration_para_pct 32.0 低于目标 35.0",
+      "[observe] 章内自我复读 5 句（如「我爸爸说过，只要有机会就要抓住…」）",
+      "[observe] 标题重复：「触碰应急灯」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「”王强低」×3",
+      "narration_para_pct 34.6 低于目标 35.0"
+    ],
+    "6": [
+      "[observe] 标题重复：「触碰应急灯」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:46:59"
+}

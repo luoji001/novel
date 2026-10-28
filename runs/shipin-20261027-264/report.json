@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-264",
+  "profile": "视频分镜",
+  "title": "硬币密码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5820,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5397,
+    "chapter_chars_mean": 900,
+    "chapter_chars_median": 976,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 27.3,
+    "dialogue_chars_pct": 16.4,
+    "dialogue_para_pct": 36.6,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 62.4,
+    "turn_under20_pct": 90.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 54.3,
+    "attr_adv_pct": 3.2,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "擦座椅遇见硬币",
+      "chars": 588,
+      "score": 36.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "触碰硬币的瞬间",
+      "chars": 1141,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "擦拭警示牌的瞬间",
+      "chars": 1097,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "记账本上的折痕",
+      "chars": 1200,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "绕红绳的时刻",
+      "chars": 964,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "擦拭座椅边缘",
+      "chars": 824,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 3.1 低于目标 5.0",
+      "narration_para_pct 93.5 高于目标 90.0",
+      "[observe] 章节过短 511 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李建国的」×4",
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "6": [
+      "[observe] 章节过短 740 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 118.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:20:05"
+}

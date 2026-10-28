@@ -1,0 +1,217 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "李海",
+        "蓝色皮箱"
+      ],
+      "driver": "李海拽着蓝色皮箱的拉杆向寄存处移动",
+      "entry_state": "蓝色皮箱在李海手中，正被拖向寄存处门口",
+      "outcome": "蓝色皮箱的拉杆被李海拽出一道划痕",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "李海",
+        "蓝色皮箱"
+      ],
+      "driver": "李海将蓝色皮箱重重摔在地上",
+      "entry_state": "蓝色皮箱在地上，拉杆有划痕",
+      "outcome": "蓝色皮箱的箱盖被李海踢开",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "寄存处办公室",
+      "present": [
+        "老周",
+        "保温杯",
+        "办公桌"
+      ],
+      "driver": "老周用保温杯敲击办公桌边缘",
+      "entry_state": "保温杯在老周手中",
+      "outcome": "保温杯开始发出规律敲击声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "寄存处办公室",
+      "present": [
+        "老周",
+        "保温杯",
+        "李海"
+      ],
+      "driver": "老周将保温杯递给李海",
+      "entry_state": "保温杯在老周手中",
+      "outcome": "保温杯转移到李海手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "寄存处办公室",
+      "present": [
+        "李海",
+        "保温杯",
+        "老周"
+      ],
+      "driver": "李海用保温杯砸向办公桌",
+      "entry_state": "保温杯在李海手中",
+      "outcome": "保温杯裂开一道缝隙",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "便利店",
+      "present": [
+        "陈雪",
+        "李海"
+      ],
+      "driver": "陈雪将热饮纸袋递给李海",
+      "entry_state": "热饮在李海手中",
+      "outcome": "热饮纸袋被李海接过",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店",
+      "present": [
+        "陈雪",
+        "李海"
+      ],
+      "driver": "李海将热饮纸袋放在货架上",
+      "entry_state": "热饮在李海手中",
+      "outcome": "热饮纸袋被放置在货架上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店",
+      "present": [
+        "陈雪",
+        "李海"
+      ],
+      "driver": "陈雪将热饮纸袋从货架拿回手中",
+      "entry_state": "热饮在货架上",
+      "outcome": "热饮纸袋回到陈雪手中",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "寄存处办公室",
+      "present": [
+        "李海",
+        "老周"
+      ],
+      "driver": "李海翻开登记簿，手指划过自己名字",
+      "entry_state": "登记簿平放在办公桌上",
+      "outcome": "登记簿被李海抽出，翻到中间页",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "寄存处办公室",
+      "present": [
+        "李海"
+      ],
+      "driver": "李海用收据比对登记簿，发现名字被划掉",
+      "entry_state": "登记簿被抽出，页面中间有划痕",
+      "outcome": "登记簿被李海合上，收在左手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "寄存处办公室",
+      "present": [
+        "李海"
+      ],
+      "driver": "李海将登记簿塞回抽屉，起身走向门口",
+      "entry_state": "登记簿被收在李海手中",
+      "outcome": "登记簿回到抽屉，李海离开办公室",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "李海",
+        "老周"
+      ],
+      "driver": "李海撕碎寄存凭证的一角",
+      "entry_state": "寄存凭证在李海手中，部分撕裂",
+      "outcome": "寄存凭证碎片散落在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "李海"
+      ],
+      "driver": "李海将撕碎的凭证塞进裤袋",
+      "entry_state": "寄存凭证碎片在李海裤袋中",
+      "outcome": "李海裤袋鼓起一角，暗示凭证存在",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "第三候车厅",
+      "present": [
+        "李海"
+      ],
+      "driver": "李海用便利店收据覆盖住撕碎的凭证",
+      "entry_state": "寄存凭证被收据遮盖，无法辨认",
+      "outcome": "李海左手紧握收据，遮住凭证痕迹",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "寄存处门口",
+      "present": [
+        "李海",
+        "蓝色皮箱"
+      ],
+      "driver": "李海拽着蓝色皮箱拉杆向门口拖动",
+      "entry_state": "蓝色皮箱停在寄存处门口",
+      "outcome": "蓝色皮箱开始向门口滑动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "寄存处门口",
+      "present": [
+        "李海",
+        "蓝色皮箱"
+      ],
+      "driver": "蓝色皮箱在地面划出一道痕迹",
+      "entry_state": "蓝色皮箱滑动中",
+      "outcome": "蓝色皮箱停在距离门口两步的位置",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "寄存处门口",
+      "present": [
+        "李海",
+        "蓝色皮箱"
+      ],
+      "driver": "李海单手扶住蓝色皮箱防止其倒下",
+      "entry_state": "蓝色皮箱停在门口两步处",
+      "outcome": "蓝色皮箱稳定地停在门口",
+      "target_chars": 527
+    }
+  ]
+}

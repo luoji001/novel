@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-179",
+  "profile": "视频分镜",
+  "title": "胶片上的标签",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6622,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6243,
+    "chapter_chars_mean": 1040,
+    "chapter_chars_median": 1056,
+    "chapter_chars_cv": 0.08,
+    "paragraphs_mean": 23.5,
+    "dialogue_chars_pct": 15.7,
+    "dialogue_para_pct": 41.0,
+    "interiority_para_pct": 8.4,
+    "narration_para_pct": 50.6,
+    "turn_under20_pct": 92.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "胶片盒滑入瞬间",
+      "chars": 945,
+      "score": 96.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "公文包轻颤时刻",
+      "chars": 1122,
+      "score": 7.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "塞报纸的手势",
+      "chars": 1119,
+      "score": 94.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "红袖章的最后一次抚摸",
+      "chars": 1189,
+      "score": 0.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "电影票的折痕",
+      "chars": 1095,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "关闭窗棂的刹那",
+      "chars": 1146,
+      "score": 55.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 4.3 低于目标 5.0"
+    ],
+    "2": [
+      "interiority_para_pct 14.3 高于目标 6.0"
+    ],
+    "3": [
+      "narration_para_pct 34.5 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] interiority_para_pct 18.2 > 15.0（结构塌缩）"
+    ],
+    "5": [
+      "narration_para_pct 22.7 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:01:05"
+}

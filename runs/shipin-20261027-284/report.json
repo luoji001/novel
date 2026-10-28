@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-284",
+  "profile": "视频分镜",
+  "title": "铜钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7007,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6531,
+    "chapter_chars_mean": 1088,
+    "chapter_chars_median": 1148,
+    "chapter_chars_cv": 0.16,
+    "paragraphs_mean": 31.8,
+    "dialogue_chars_pct": 26.6,
+    "dialogue_para_pct": 62.9,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 36.4,
+    "turn_under20_pct": 97.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 53.2,
+    "attr_adv_pct": 7.5,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "船票上的铅笔字",
+      "chars": 851,
+      "score": 38.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "钥匙上的名字",
+      "chars": 1359,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙转动的瞬间",
+      "chars": 1046,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙划破晨雾",
+      "chars": 1267,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "手链滑入衣袖",
+      "chars": 1190,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "船票滑落的瞬间",
+      "chars": 1288,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 28.0 低于目标 35.0",
+      "dialogue_run_mean 4.5 高于目标 4.0",
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）"
+    ],
+    "2": [
+      "narration_para_pct 28.0 低于目标 35.0",
+      "dialogue_run_mean 4.5 高于目标 4.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「你是不是有什么事瞒着我？…」）"
+    ],
+    "5": [
+      "narration_para_pct 34.8 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:52:01"
+}

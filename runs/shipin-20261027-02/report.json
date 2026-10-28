@@ -1,0 +1,121 @@
+{
+  "consistency": "1. 第一章提到“老周与小李争夺祖传理发推子”，但第二章提到“争夺师祖留下的铜质推子和账本”，导致“祖传”与“师祖留下”表述不一致，可能指代不清。\n\n2. 第五章提到“老周将祖传铜质推子交给徒弟小李”，但第六章又说“老周将珍藏多年的铜质推子交给徒弟小李”，“祖传”与“珍藏多年”表述不一致，可能指代不清。\n\n3. 第二章提到“账本归属问题引发激烈冲突”，但第三章、第四章未提及账本归属问题，导致线索断裂，未交代清楚。\n\n4. 第五章提到“被陈老板揭穿推子真正主人”，但前文未提及推子有“真正主人”这一设定，属于无中生有。",
+  "slug": "shipin-20261027-02",
+  "profile": "视频分镜",
+  "title": "铜推",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6329,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5898,
+    "chapter_chars_mean": 983,
+    "chapter_chars_median": 1104,
+    "chapter_chars_cv": 0.38,
+    "paragraphs_mean": 28.3,
+    "dialogue_chars_pct": 19.6,
+    "dialogue_para_pct": 53.4,
+    "interiority_para_pct": 2.5,
+    "narration_para_pct": 44.1,
+    "turn_under20_pct": 94.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 54.4,
+    "attr_adv_pct": 2.5,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜质推子坠地",
+      "chars": 552,
+      "score": 38.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜质推子争夺战",
+      "chars": 630,
+      "score": 23.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "铜质推子争夺战",
+      "chars": 1329,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铜质推子争夺战",
+      "chars": 1304,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜质推子坠地",
+      "chars": 1066,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "推子贴胸",
+      "chars": 1442,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 492 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 565 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《铜质推子坠地》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "情节与已写章节重复 0.63 ≥ 0.62（撞上「老周与小李争夺师祖留下的铜质推子和账本，最终在陈老板调解…」）",
+      "[observe] 标题重复：「铜质推子争夺战」已存在"
+    ],
+    "4": [
+      "[observe] 标题重复：「铜质推子争夺战」已存在"
+    ],
+    "5": [
+      "[observe] 标题重复：「铜质推子坠地」已存在"
+    ],
+    "6": [
+      "interiority_para_pct 6.7 高于目标 6.0",
+      "narration_para_pct 26.7 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 158.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:18:26"
+}

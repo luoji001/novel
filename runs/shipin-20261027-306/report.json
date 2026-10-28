@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-306",
+  "profile": "视频分镜",
+  "title": "硬币的痕迹",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5547,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5182,
+    "chapter_chars_mean": 864,
+    "chapter_chars_median": 874,
+    "chapter_chars_cv": 0.34,
+    "paragraphs_mean": 22.8,
+    "dialogue_chars_pct": 14.7,
+    "dialogue_para_pct": 42.5,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 56.0,
+    "turn_under20_pct": 91.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 74.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币滑落掌纹",
+      "chars": 408,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "玻璃板上的刻痕",
+      "chars": 914,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "粉笔划过玻璃",
+      "chars": 1317,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "硬币落入掌心",
+      "chars": 939,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "纸条上的字迹",
+      "chars": 884,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "擦玻璃的手势",
+      "chars": 1079,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 358 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 2 句（如「突然，她的手指停顿了一下，目光落在玻璃板一角的一…」）",
+      "[observe] 章节过短 863 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "4": [
+      "[observe] 标题与《硬币滑落掌纹》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 章节过短 830 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国的」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:26:47"
+}

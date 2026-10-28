@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-26",
+  "profile": "视频分镜",
+  "title": "硬币",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6411,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5944,
+    "chapter_chars_mean": 991,
+    "chapter_chars_median": 1075,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 30.8,
+    "dialogue_chars_pct": 17.9,
+    "dialogue_para_pct": 46.9,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 51.7,
+    "turn_under20_pct": 96.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 54.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币与耳钉对望",
+      "chars": 629,
+      "score": 38.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "硬币与耳钉对望",
+      "chars": 1188,
+      "score": 94.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "红笔圈出的数字",
+      "chars": 1145,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "硬币与计时器对望",
+      "chars": 1184,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "数字与耳钉对望",
+      "chars": 1183,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "硬币与胎记对望",
+      "chars": 1076,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 552 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 标题重复：「硬币与耳钉对望」已存在"
+    ],
+    "3": [
+      "命中套话收尾句"
+    ],
+    "4": [
+      "[observe] 标题与《硬币与耳钉对望》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「林小满的」×4",
+      "narration_para_pct 17.4 低于目标 35.0",
+      "[observe] 章内自我复读 4 句（如「陈志强皱起眉头：“你是不是太在意这些数字了…」）",
+      "[observe] 标题与《硬币与耳钉对望》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题与《硬币与耳钉对望》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:56:49"
+}

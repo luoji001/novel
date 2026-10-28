@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-184",
+  "profile": "视频分镜",
+  "title": "铜质推子",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6002,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5563,
+    "chapter_chars_mean": 927,
+    "chapter_chars_median": 977,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 28.5,
+    "dialogue_chars_pct": 19.8,
+    "dialogue_para_pct": 44.8,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 55.2,
+    "turn_under20_pct": 94.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 55.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜质推子的年轮",
+      "chars": 561,
+      "score": 38.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "推子与磨刀石对峙",
+      "chars": 1012,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "推子与账本对峙",
+      "chars": 1249,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "推子与红绳对峙",
+      "chars": 1103,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜质推子的温度",
+      "chars": 1067,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "推子与铁盒对峙",
+      "chars": 1004,
+      "score": 38.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 520 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "[observe] 标题与《推子与磨刀石对峙》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 标题与《推子与账本对峙》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 章内自我复读 5 句（如「他顿了一下，望向墙上挂着的老照片，“你爸还在用呢…」）",
+      "[observe] 标题与《铜质推子的年轮》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "dialogue_chars_pct 1.2 低于目标 5.0",
+      "narration_para_pct 97.7 高于目标 90.0",
+      "[observe] 标题与《推子与红绳对峙》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 130.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:09:10"
+}

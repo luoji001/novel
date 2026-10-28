@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-200",
+  "profile": "视频分镜",
+  "title": "旧船票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6308,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5877,
+    "chapter_chars_mean": 980,
+    "chapter_chars_median": 1008,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 26.2,
+    "dialogue_chars_pct": 24.5,
+    "dialogue_para_pct": 57.1,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 42.1,
+    "turn_under20_pct": 94.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜钥匙的温度",
+      "chars": 723,
+      "score": 97.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "铜钥匙的重量",
+      "chars": 1333,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "船票与吊坠的对峙",
+      "chars": 1211,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铜钥匙坠入尘埃",
+      "chars": 1056,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "铜铃与雨丝",
+      "chars": 1084,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铜铃轻触栏杆",
+      "chars": 895,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 32.1 低于目标 35.0",
+      "[observe] 标题与《铜钥匙的温度》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "narration_para_pct 28.0 低于目标 35.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 3.2 低于目标 5.0"
+    ],
+    "6": [
+      "[observe] 章节过短 796 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 188.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:35:44"
+}

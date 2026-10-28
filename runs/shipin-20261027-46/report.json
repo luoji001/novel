@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-46",
+  "profile": "视频分镜",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7007,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6575,
+    "chapter_chars_mean": 1096,
+    "chapter_chars_median": 1106,
+    "chapter_chars_cv": 0.17,
+    "paragraphs_mean": 29.3,
+    "dialogue_chars_pct": 20.5,
+    "dialogue_para_pct": 54.6,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 44.0,
+    "turn_under20_pct": 95.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜铃摇响",
+      "chars": 814,
+      "score": 96.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "纸币与打字机",
+      "chars": 1382,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "铜铃坠地",
+      "chars": 1150,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "铜铃摇响",
+      "chars": 1153,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜铃摇响",
+      "chars": 1204,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铜铃坠地",
+      "chars": 1298,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 28.6 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「铜铃摇响」已存在"
+    ],
+    "5": [
+      "[observe] 标题重复：「铜铃摇响」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「铜铃坠地」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:26:39"
+}

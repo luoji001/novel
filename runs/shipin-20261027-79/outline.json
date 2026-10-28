@@ -1,0 +1,69 @@
+[
+  {
+    "no": 1,
+    "title": "监控屏幕亮起",
+    "beat": "晚上十点，便利店：小林看着监控屏幕，发现黑色轿车出现在画面边缘",
+    "target_chars": 1087,
+    "scale": "short",
+    "must_object": "监控屏幕",
+    "speakers": [
+      "小林"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "咖啡杯倾斜",
+    "beat": "晚上十一点，收银台：小林用咖啡杯挡住屏幕，试图让顾客进入画面",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "咖啡杯",
+    "speakers": [
+      "小林"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "手环擦过屏幕",
+    "beat": "凌晨一点，停车场：陈默的手环擦过屏幕边缘，试图占据画面中心",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "黑色皮质手环",
+    "speakers": [
+      "陈默"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "记账本翻页",
+    "beat": "凌晨两点，监控室：小林用记账本遮挡屏幕，试图让顾客进入画面",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "记账本",
+    "speakers": [
+      "小林"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "墨镜滑落",
+    "beat": "凌晨三点，便利店：陈默的墨镜滑落，露出眼睛，盯着屏幕",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "墨镜",
+    "speakers": [
+      "陈默"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "钥匙串掉落",
+    "beat": "凌晨四点，便利店：周慧打开保险柜，钥匙串掉落，被小林捡起",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "钥匙串",
+    "speakers": [
+      "周慧",
+      "小林"
+    ]
+  }
+]

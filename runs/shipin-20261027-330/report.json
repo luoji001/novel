@@ -1,0 +1,108 @@
+{
+  "consistency": "1. 第二章提到“小张与父亲在市场门口争夺一封母亲遗留的信”，但第一章和第三章均提到“冰台”作为争夺地点，与“市场门口”不符，地点不一致。\n\n2. 第五章提到“小张在整理账本时发现异常数字”，但前文未提及小张与账本有任何关联，出现无预警的物件（账本）。\n\n3. 第六章提到“信却神秘消失”，但前文未提及信是否曾被藏匿或消失，情节突兀，无铺垫。\n\n4. 第四章提到“老张在鱼摊冰台上发现母亲遗留的信件”，但第一章和第三章均提到“争夺信件”发生在“冰台”，而第四章却称“发现信件”，与前文争夺行为矛盾。\n\n5. 第二章提到“小张与父亲在市场门口争夺”，但第三章提到“老张与小张因争夺信件发生激烈冲突”，人物称呼不一致（“小张”与“儿子”），可能指同一人，但称呼不统一。",
+  "slug": "shipin-20261027-330",
+  "profile": "视频分镜",
+  "title": "冰台裂痕",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6259,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5836,
+    "chapter_chars_mean": 973,
+    "chapter_chars_median": 1061,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 18.9,
+    "dialogue_para_pct": 52.8,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 46.4,
+    "turn_under20_pct": 96.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 26.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "冰台裂痕",
+      "chars": 658,
+      "score": 55.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "刀尖触冰",
+      "chars": 1193,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "刀刃碰冰台",
+      "chars": 1446,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "信封触冰",
+      "chars": 1045,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "扯下最后一页",
+      "chars": 666,
+      "score": 14.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "解绳见信",
+      "chars": 1245,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "4": [
+      "narration_para_pct 19.0 低于目标 35.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 590 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:07:45"
+}

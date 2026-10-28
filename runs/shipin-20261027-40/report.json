@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-40",
+  "profile": "视频分镜",
+  "title": "硬币记",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6423,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5896,
+    "chapter_chars_mean": 983,
+    "chapter_chars_median": 1037,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 35.3,
+    "dialogue_chars_pct": 15.0,
+    "dialogue_para_pct": 38.8,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 60.2,
+    "turn_under20_pct": 96.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙与耳钉的对视",
+      "chars": 478,
+      "score": 38.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "计时器裂痕",
+      "chars": 1134,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "硬币与登记簿的对视",
+      "chars": 1272,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "钥匙与硬币的对视",
+      "chars": 1127,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "硬币与纸角的触碰",
+      "chars": 1337,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "硬币与方向盘的触碰",
+      "chars": 1069,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 418 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 标题与《钥匙与耳钉的对视》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题与《硬币与纸角的触碰》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:17:03"
+}

@@ -1,0 +1,215 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "教练车副驾驶座的座椅",
+      "present": [
+        "李建国"
+      ],
+      "driver": "李建国伸手触碰副驾驶座的座椅",
+      "entry_state": "座椅保持原位",
+      "outcome": "硬币从座椅缝隙滑落至地面",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教练车副驾驶座的座椅",
+      "present": [
+        "李建国"
+      ],
+      "driver": "李建国弯腰捡起硬币，座椅被压陷",
+      "entry_state": "硬币滑落至地面",
+      "outcome": "座椅因压力凹陷",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "学员休息室",
+      "present": [
+        "林小满",
+        "木制椅子"
+      ],
+      "driver": "林小满用脚尖轻点木椅扶手，椅子微微晃动",
+      "entry_state": "椅子静止在原位",
+      "outcome": "椅子开始轻微晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员休息室",
+      "present": [
+        "林小满",
+        "木制椅子"
+      ],
+      "driver": "林小满将椅子向后推了半步，脚尖仍触地",
+      "entry_state": "椅子轻微晃动",
+      "outcome": "椅子后移半步，脚尖仍贴地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员休息室",
+      "present": [
+        "林小满",
+        "木制椅子"
+      ],
+      "driver": "林小满单脚踩住椅子扶手，身体前倾",
+      "entry_state": "椅子后移半步",
+      "outcome": "椅子被踩住扶手，林小满身体前倾",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强",
+        "记账本"
+      ],
+      "driver": "陈志强用钢笔敲打记账本封面",
+      "entry_state": "记账本平放在办公桌上",
+      "outcome": "记账本被钢笔敲出凹痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强",
+        "记账本"
+      ],
+      "driver": "陈志强将记账本翻到第37页",
+      "entry_state": "记账本有凹痕",
+      "outcome": "记账本第37页被钢笔划出折痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "陈志强",
+        "记账本"
+      ],
+      "driver": "陈志强用左手按住记账本，右手撕下第37页",
+      "entry_state": "记账本第37页有折痕",
+      "outcome": "记账本第37页被撕下，露出空白页",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李建国",
+        "硬币"
+      ],
+      "driver": "李建国伸手去抓副驾驶座上的硬币",
+      "entry_state": "硬币静止在副驾驶座上",
+      "outcome": "硬币被李建国的右手指尖触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李建国",
+        "硬币"
+      ],
+      "driver": "李建国将硬币按在座椅扶手上",
+      "entry_state": "硬币被触碰",
+      "outcome": "硬币贴着座椅扶手滑动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李建国",
+        "硬币"
+      ],
+      "driver": "李建国用左手抓住硬币并握紧",
+      "entry_state": "硬币滑动",
+      "outcome": "硬币被李建国握在掌心",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "学员休息室",
+      "present": [
+        "林小满",
+        "木制椅子"
+      ],
+      "driver": "林小满用钥匙串敲击椅子扶手",
+      "entry_state": "椅子扶手有轻微震动",
+      "outcome": "椅子扶手留下两道浅痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员休息室",
+      "present": [
+        "林小满",
+        "木制椅子"
+      ],
+      "driver": "林小满将椅子向后推了半步",
+      "entry_state": "椅子后移半步",
+      "outcome": "椅子底部与地面摩擦发出细碎声响",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员休息室",
+      "present": [
+        "林小满",
+        "木制椅子"
+      ],
+      "driver": "林小满用钥匙串缠绕椅子靠背",
+      "entry_state": "椅子靠背有缠绕痕迹",
+      "outcome": "钥匙串与椅子靠背产生持续摩擦声",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李建国",
+        "硬币"
+      ],
+      "driver": "李建国伸手去抓副驾驶座上的硬币",
+      "entry_state": "硬币在副驾驶座上静止",
+      "outcome": "硬币被李建国握在右手掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李建国",
+        "硬币"
+      ],
+      "driver": "李建国将硬币放回座椅扶手处",
+      "entry_state": "硬币在李建国掌心",
+      "outcome": "硬币回到副驾驶座扶手处",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练车副驾驶座",
+      "present": [
+        "李建国"
+      ],
+      "driver": "李建国将硬币塞进裤袋",
+      "entry_state": "硬币在副驾驶座扶手处",
+      "outcome": "硬币消失在李建国裤袋里",
+      "target_chars": 527
+    }
+  ]
+}

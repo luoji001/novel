@@ -1,0 +1,123 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-114",
+  "profile": "视频分镜",
+  "title": "推子",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6780,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6298,
+    "chapter_chars_mean": 1050,
+    "chapter_chars_median": 1094,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 32,
+    "dialogue_chars_pct": 19.3,
+    "dialogue_para_pct": 50.3,
+    "interiority_para_pct": 1.1,
+    "narration_para_pct": 48.6,
+    "turn_under20_pct": 93.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "推子与保温桶相撞",
+      "chars": 627,
+      "score": 17.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "推子撞向镜子",
+      "chars": 1242,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "推子与保温桶对峙",
+      "chars": 1314,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "推子抵住记账本",
+      "chars": 1386,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "推子夺回保温桶",
+      "chars": 1117,
+      "score": 54.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "推子抵住保温桶",
+      "chars": 1088,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 2.3 低于目标 5.0",
+      "narration_para_pct 92.0 高于目标 90.0",
+      "[observe] 章节过短 561 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 30.8 低于目标 35.0"
+    ],
+    "3": [
+      "[observe] 标题与《推子与保温桶相撞》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「“老周你」×4",
+      "narration_para_pct 29.0 低于目标 35.0",
+      "[observe] 章内自我复读 2 句（如「他忽然笑了，笑得很轻，“老周，你想留在这儿，其实…」）"
+    ],
+    "5": [
+      "[observe] 标题与《推子与保温桶对峙》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 1 句（如「小林不甘示弱地反驳道…」）",
+      "[observe] 标题与《推子夺回保温桶》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:13:26"
+}

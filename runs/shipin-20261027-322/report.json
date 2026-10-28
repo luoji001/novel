@@ -1,0 +1,121 @@
+{
+  "consistency": "1. 第二章提到“张伟的处方药”，但第三章提到“误认丈夫姓名”，而第五章明确指出“李红竟是张伟妻子”，前后未明确说明张伟是否为李红丈夫，存在人物关系不一致。\n\n2. 第五章提到“李红竟是张伟妻子”，但第六章提到“领取丈夫张伟的药物”，未明确说明李红与张伟是否为夫妻关系，存在人物关系不一致。\n\n3. 第三章提到“误认丈夫姓名”，但第五章明确指出“李红竟是张伟妻子”，前后未说明李红是否曾误认张伟为丈夫，存在信息不一致。\n\n4. 第四章提到“红围巾暴露身份”，但第五章提到“李红竟是张伟妻子”，未说明红围巾与身份暴露之间的具体关联，存在物件与情节不一致。\n\n5. 第六章提到“领取丈夫张伟的药物”，但第五章提到“李红竟是张伟妻子”，未说明李红是否已知张伟为丈夫，存在人物立场与身份不一致。",
+  "slug": "shipin-20261027-322",
+  "profile": "视频分镜",
+  "title": "药瓶风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6357,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5842,
+    "chapter_chars_mean": 974,
+    "chapter_chars_median": 960,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 33.7,
+    "dialogue_chars_pct": 25.6,
+    "dialogue_para_pct": 53.8,
+    "interiority_para_pct": 1.4,
+    "narration_para_pct": 44.7,
+    "turn_under20_pct": 95.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶坠地回音",
+      "chars": 672,
+      "score": 38.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "药瓶坠地回音",
+      "chars": 1405,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "病历本坠地回音",
+      "chars": 1217,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "红围巾的重量",
+      "chars": 1014,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "耳钉坠地回音",
+      "chars": 1111,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "十字架裂痕处的泪",
+      "chars": 932,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 596 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「陈雪梅的」×4",
+      "情节与已写章节重复 0.64 ≥ 0.62（撞上「李红为女儿争夺处方药与护士陈雪梅发生冲突，最终在争执中被…」）",
+      "[observe] 标题重复：「药瓶坠地回音」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「李红站在」×4、「陈雪梅的」×3",
+      "narration_para_pct 28.6 低于目标 35.0",
+      "[observe] 章内自我复读 1 句（如「我丈夫叫张伟……你认错人了…」）",
+      "[observe] 标题与《药瓶坠地回音》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「陈雪梅的」×3",
+      "[observe] 标题与《药瓶坠地回音》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 章节过短 858 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 142.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:55:02"
+}

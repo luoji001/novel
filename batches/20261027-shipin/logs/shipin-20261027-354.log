@@ -1,0 +1,38 @@
+开始：shipin-20261027-354（档位 视频分镜／分章连载，6 章 / 9000 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-354
+  · init  [0 场定稿]
+Traceback (most recent call last):
+  File "/home/liang/.venvs/novel-agent/bin/novel-agent", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/liang/novel-agent/batches/20261027-shipin/src/src/novel_agent/cli.py", line 449, in main
+    rc = a.func(a)
+         ^^^^^^^^^
+  File "/home/liang/novel-agent/batches/20261027-shipin/src/src/novel_agent/cli.py", line 142, in cmd_new
+    return _run(app, a.slug, payload)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/novel-agent/batches/20261027-shipin/src/src/novel_agent/cli.py", line 56, in _run
+    for chunk in app.stream(payload, cfg, durability="sync",
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/pregel/main.py", line 3058, in stream
+    for _ in runner.tick(
+             ^^^^^^^^^^^^
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/pregel/_runner.py", line 208, in tick
+    run_with_retry(
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/pregel/_retry.py", line 617, in run_with_retry
+    return task.proc.invoke(task.input, config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/_internal/_runnable.py", line 707, in invoke
+    input = context.run(step.invoke, input, config, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/.venvs/novel-agent/lib/python3.12/site-packages/langgraph/_internal/_runnable.py", line 447, in invoke
+    ret = self.func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/novel-agent/batches/20261027-shipin/src/src/novel_agent/nodes/plan.py", line 164, in premise
+    data, tele = llm.call_structured(
+                 ^^^^^^^^^^^^^^^^^^^^
+  File "/home/liang/novel-agent/batches/20261027-shipin/src/src/novel_agent/llm.py", line 428, in call_structured
+    raise ValueError(f"[{tag}] 没拿到结构化输出，原始内容前 200 字："
+ValueError: [premise] 没拿到结构化输出，原始内容前 200 字：<tool_call>
+{"name": "submit_premise", "arguments": {"logline": "老周在江边轮渡的售票亭里，为了那张写着十年前日期的手写船票，和年轻乘客起了冲突。", "setting": "2013年夏天，长江边的第三渡口，售票亭位于一座老旧的水泥桥墩上，周围是斑驳的墙壁和锈迹斑斑的铁架。全篇发生在售票亭、渡口码头和江边小卖部三个地点之间。", "
+During task with name 'premise' and id 'ec019327-402b-b2c6-5064-da6224d46d4f'

@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第二章提到林小雨带着父亲留下的旧船票来找老周，第六章却说她带着父亲留下的假船票来找老周，前后不一致。  \n2. 第四章提到林小雨带着铅笔来到售票亭，但前文未提及她有铅笔，也未交代铅笔来源。  \n3. 第五章提到老周归还铜铃，但前文未提及铜铃的存在或归属。  \n4. 第六章提到林小雨试图见老周最后一面，但前文未交代老周与林小雨的关系或老周的死亡或离开。  \n5. 第三章提到陈师傅在废弃船舱中发现刻痕与神秘动静，但前文未提及船舱废弃或刻痕的存在。  \n6. 第六章提到黑猫与等待的往事，但前文未提及黑猫或相关往事的伏笔。",
+  "slug": "shipin-20261027-130",
+  "profile": "视频分镜",
+  "title": "铜铃",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6399,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5886,
+    "chapter_chars_mean": 981,
+    "chapter_chars_median": 1104,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 31.2,
+    "dialogue_chars_pct": 19.8,
+    "dialogue_para_pct": 47.6,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 51.2,
+    "turn_under20_pct": 95.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 51.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "记号笔划破票箱",
+      "chars": 530,
+      "score": 38.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "记号笔划破票箱",
+      "chars": 1262,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "铁钩推开锈蚀船门",
+      "chars": 792,
+      "score": 20.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铅笔敲击桌面",
+      "chars": 1361,
+      "score": 90.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜铃坠地声",
+      "chars": 1224,
+      "score": 45.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "锈痕中的铜铃声",
+      "chars": 1224,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 473 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 20.8 低于目标 35.0",
+      "[observe] 标题重复：「记号笔划破票箱」已存在"
+    ],
+    "3": [
+      "[observe] 章节过短 732 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "单条套路句式超限：「林小雨的」×4"
+    ],
+    "6": [
+      "narration_para_pct 34.3 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:42:42"
+}

@@ -1,0 +1,216 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强伸手触碰副驾驶座上的硬币",
+      "entry_state": "王强站在教练车前",
+      "outcome": "硬币从副驾驶座滑落至地面",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "王强"
+      ],
+      "driver": "王强弯腰捡起硬币并放入口袋",
+      "entry_state": "硬币在地面",
+      "outcome": "硬币消失在王强的口袋里",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "林雪",
+        "手机"
+      ],
+      "driver": "林雪举起手机，镜头对准副驾驶座",
+      "entry_state": "手机屏幕亮着，林雪站在等候区",
+      "outcome": "手机屏幕的光映在硬币上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "林雪",
+        "手机"
+      ],
+      "driver": "林雪调整手机角度，光斑移向硬币边缘",
+      "entry_state": "手机屏幕的光映在硬币上",
+      "outcome": "手机屏幕的光偏移，硬币边缘泛白",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "林雪",
+        "手机"
+      ],
+      "driver": "林雪将手机放进口袋，屏幕熄灭",
+      "entry_state": "手机屏幕的光偏移，硬币边缘泛白",
+      "outcome": "手机屏幕熄灭，林雪低头看手表",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "教练办公室",
+      "present": [
+        "王强",
+        "钥匙"
+      ],
+      "driver": "王强将钥匙放在桌角，手指摩挲金属表面",
+      "entry_state": "钥匙静止在桌角",
+      "outcome": "钥匙被王强握在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练办公室",
+      "present": [
+        "王强",
+        "钥匙"
+      ],
+      "driver": "王强把钥匙放回口袋，金属发出轻响",
+      "entry_state": "钥匙在王强掌心",
+      "outcome": "钥匙回到王强口袋里",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教练办公室",
+      "present": [
+        "王强",
+        "钥匙"
+      ],
+      "driver": "王强取出钥匙，对着光检查齿纹",
+      "entry_state": "钥匙在王强口袋里",
+      "outcome": "钥匙被王强握在手中",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "学员等候区",
+      "present": [
+        "陈志",
+        "学员身份证"
+      ],
+      "driver": "陈志将身份证按在桌面上",
+      "entry_state": "身份证平铺在桌面",
+      "outcome": "身份证边缘翘起一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员等候区",
+      "present": [
+        "陈志",
+        "学员身份证"
+      ],
+      "driver": "陈志用拇指压住身份证一角",
+      "entry_state": "身份证边缘翘起一角",
+      "outcome": "身份证被压平但仍有折痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员等候区",
+      "present": [
+        "陈志",
+        "学员身份证"
+      ],
+      "driver": "陈志抽出身份证塞进文件夹",
+      "entry_state": "身份证被压平但仍有折痕",
+      "outcome": "身份证完全平整地躺在文件夹内",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "王强",
+        "计时器"
+      ],
+      "driver": "王强伸手触碰计时器表面",
+      "entry_state": "计时器静止在操作台上",
+      "outcome": "计时器屏幕亮起，显示06:30",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "王强",
+        "计时器"
+      ],
+      "driver": "王强用拇指擦掉计时器上的水渍",
+      "entry_state": "计时器屏幕显示06:30",
+      "outcome": "计时器表面变得干燥清晰",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "王强",
+        "计时器"
+      ],
+      "driver": "王强将计时器塞进裤袋",
+      "entry_state": "计时器表面干燥清晰",
+      "outcome": "计时器消失在王强的裤袋中",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "王强",
+        "林雪"
+      ],
+      "driver": "王强伸手去抓副驾驶座上的硬币",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被王强指尖触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "王强",
+        "林雪"
+      ],
+      "driver": "林雪用手机镜头对准副驾驶座",
+      "entry_state": "硬币被王强指尖触碰",
+      "outcome": "硬币在副驾驶座上保持原位",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "王强",
+        "林雪"
+      ],
+      "driver": "林雪将手机镜头移向王强手背",
+      "entry_state": "硬币在副驾驶座上保持原位",
+      "outcome": "硬币在副驾驶座上保持原位",
+      "target_chars": 527
+    }
+  ]
+}

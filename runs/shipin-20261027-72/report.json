@@ -1,0 +1,115 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-72",
+  "profile": "视频分镜",
+  "title": "裂镜",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6621,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6147,
+    "chapter_chars_mean": 1024,
+    "chapter_chars_median": 1054,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 32.3,
+    "dialogue_chars_pct": 32.6,
+    "dialogue_para_pct": 61.3,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 38.7,
+    "turn_under20_pct": 89.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 64.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "修镜",
+      "chars": 519,
+      "score": 38.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "撕布条",
+      "chars": 974,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "削账本",
+      "chars": 1073,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "抚镜之手",
+      "chars": 1453,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "调频与盐包",
+      "chars": 1176,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "削镜",
+      "chars": 1420,
+      "score": 36.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 479 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 34.8 低于目标 35.0"
+    ],
+    "3": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 4 句（如「收音机的电流声变得稳定了一些，她伸手摸了摸自己的…」）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 3 句（如「你想带出去也好，留在这儿也罢，但别让它再碎一次…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:07:43"
+}

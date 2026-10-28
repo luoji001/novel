@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第二章与第六章均提到“二维码贴纸的争夺”，但第六章明确指出“揭开女儿死亡的真相”，而第二章仅提到“揭开陈阿婆女儿留下的秘密”，未明确提及女儿死亡。\n\n2. 第五章提到“周子安将一包烟交给陈阿婆，揭开她与已故女儿的联系”，但前文（如第一章、第二章）未提及陈阿婆女儿已故，也未提及烟与女儿的联系。\n\n3. 第四章提到“陈阿婆将女儿留下的二维码贴纸投入垃圾桶”，但第六章又提到“陈阿婆为争夺女儿留下的二维码贴纸与周子安对峙”，前后矛盾，未说明二维码贴纸是否已被丢弃。\n\n4. 第三章提到“陈阿婆离开，留下未解决的矛盾”，但第四章又提到“陈阿婆在雨夜独自处理最后一批粉条”，未说明她是否已离开，存在时间线不一致。",
+  "slug": "shipin-20261027-367",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6936,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6492,
+    "chapter_chars_mean": 1082,
+    "chapter_chars_median": 1108,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 28.7,
+    "dialogue_chars_pct": 19.0,
+    "dialogue_para_pct": 52.5,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 46.3,
+    "turn_under20_pct": 99.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 61.9,
+    "attr_adv_pct": 2.4,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "红绳缠二维码",
+      "chars": 774,
+      "score": 95.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "二维码贴纸的争夺",
+      "chars": 1421,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "二维码贴纸的争夺",
+      "chars": 1002,
+      "score": 55.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "二维码贴纸的争夺",
+      "chars": 1341,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "烟盒与红绳的对峙",
+      "chars": 1151,
+      "score": 59.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "二维码贴纸的争夺",
+      "chars": 1241,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「陈阿婆的」×6",
+      "narration_para_pct 26.7 低于目标 35.0"
+    ],
+    "3": [
+      "[observe] 标题重复：「二维码贴纸的争夺」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「陈阿婆的」×5",
+      "attr_adv_pct 12.5 高于目标 10.0",
+      "[observe] 标题重复：「二维码贴纸的争夺」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「陈阿婆的」×3",
+      "[observe] 标题重复：「二维码贴纸的争夺」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 147.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:04:07"
+}

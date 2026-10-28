@@ -1,0 +1,135 @@
+开始：shipin-20261027-398（档位 视频分镜／分章连载，6 章 / 9000 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-398
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 教室里的灯光（short，1087字）下午三点，教室：李国强将应急灯插在讲台插座上，打开开关，灯光照亮了数学试卷上的题
+     2. 书包里的秘密（normal，1582字）下午四点，教室：王小明把小说塞进旧书包，用铅笔压住书页，悄悄翻开一页
+     3. 灯光的争夺（normal，1582字）下午四点十五分，教室：李国强按住应急灯开关，阻止王小明靠近，两人争抢灯光
+     4. 校长办公室的谈话（normal，1582字）下午五点，校长办公室：陈秀兰用扫帚敲击门框，示意两人安静，随后带他们到办公室谈话
+     5. 小卖部的交易（normal，1582字）下午六点，村口的小卖部：王小明用旧书包里的零钱买了一瓶矿泉水
+     6. 教室的沉默（normal，1582字）晚上七点，教室：李国强关掉应急灯，独自坐在讲台前，看着数学试卷上的空白处
+
+  继续：novel-agent approve shipin-20261027-398 --accept
+  打回：novel-agent approve shipin-20261027-398 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shipin-20261027-398
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-398
+  · approve_outline
+  · plan_scenes  [+6 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第1章第2场「王小明伸手去抢应急灯，灯罩轻微晃动」与第3章第2场「王小明伸手抢夺应急灯，灯罩轻微晃动」画面重合 0.94
+    - 第2章第2场「王小明用铅笔压住小说一页」与第2章第3场「王小明悄悄翻开小说一页」画面重合 0.61（同一章内）
+    第1章 2 场：李国强将应急灯插在讲台插座上 | 王小明伸手去抢应急灯，灯罩轻微晃
+    第2章 3 场：王小明将小说塞入书包夹层 | 王小明用铅笔压住小说一页 | 王小明悄悄翻开小说一页
+    第3章 3 场：李国强左手按住应急灯开关，阻止王 | 王小明伸手抢夺应急灯，灯罩轻微晃 | 李国强将应急灯摔向墙角，灯罩裂痕
+    第4章 3 场：陈秀兰将旧书包放在桌上，拉开抽屉 | 王小明把旧书包塞进怀里，拉链发出 | 李国强夺过旧书包，摔在椅子上
+    第5章 3 场：王小明从书包掏出零钱，放在收银台 | 王小明把铅笔放在柜台，换回矿泉水 | 王小明从口袋摸出铅笔，插进矿泉水
+    第6章 3 场：李国强将数学试卷摊开在讲台上 | 李国强用左手按住试卷边缘，盯着空 | 李国强将数学试卷收进抽屉，合上抽
+
+  继续：novel-agent approve shipin-20261027-398 --accept
+  打回：novel-agent approve shipin-20261027-398 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shipin-20261027-398
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-398
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['6']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/shipin-20261027-398/report.md
+
+  继续：novel-agent approve shipin-20261027-398 --accept
+  打回：novel-agent approve shipin-20261027-398 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shipin-20261027-398
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-398
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/shipin-20261027-398
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shipin-20261027-398

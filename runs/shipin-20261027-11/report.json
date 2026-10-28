@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-11",
+  "profile": "视频分镜",
+  "title": "放映机的镜头盖",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6457,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6020,
+    "chapter_chars_mean": 1003,
+    "chapter_chars_median": 1048,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 28.3,
+    "dialogue_chars_pct": 21.8,
+    "dialogue_para_pct": 44.2,
+    "interiority_para_pct": 1.8,
+    "narration_para_pct": 53.9,
+    "turn_under20_pct": 93.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 43.3,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "放映机的镜头盖",
+      "chars": 666,
+      "score": 93.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "金属扣刻痕",
+      "chars": 1148,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "擦拭玻璃窗的水痕",
+      "chars": 1246,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "手指抚过胶片边缘",
+      "chars": 1249,
+      "score": 89.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "抚摸电影票边缘",
+      "chars": 1066,
+      "score": 48.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "胶片缓缓进入镜头",
+      "chars": 1076,
+      "score": 35.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章内自我复读 6 句（如「他低头看向手中的公文包，黑色皮革在阳光下泛出暗哑…」）"
+    ],
+    "3": [
+      "narration_para_pct 34.1 低于目标 35.0"
+    ],
+    "6": [
+      "[observe] 章内自我复读 4 句（如「放映机发出轻微的咔哒声，胶片继续向前移动，在黑暗…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 130.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:33:20"
+}

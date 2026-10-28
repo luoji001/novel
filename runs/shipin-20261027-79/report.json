@@ -1,0 +1,118 @@
+{
+  "consistency": "1. 陈默在第二章《咖啡杯映出脸庞》中被提及为“黑色轿车司机”，但该章内容主要围绕小林观察神秘黑影，未提及陈默，存在人物出场与情节不符的问题。\n\n2. 第三章《手环刻痕浮现》中提到陈默通过手腕手环干扰镜头，但第一章《手压屏幕边缘》中陈默被描述为“黑色轿车司机”，而第二章《咖啡杯映出脸庞》中陈默尚未出现，存在人物出场顺序与情节发展不一致的问题。\n\n3. 第五章《手压屏幕边缘》中陈默被描述为“伪装成顾客接近便利店监控”，但第四章《手压屏幕边缘》中陈默已被描述为“与小林对峙”，存在人物身份与行为逻辑矛盾的问题。\n\n4. 第六章《钥匙串摩挲桌面》中提到“一串神秘钥匙”，但前文未提及钥匙的存在或相关线索，属于物件出现无前兆的问题。",
+  "slug": "shipin-20261027-79",
+  "profile": "视频分镜",
+  "title": "墨镜滑落",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6344,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5913,
+    "chapter_chars_mean": 986,
+    "chapter_chars_median": 974,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 23.8,
+    "dialogue_para_pct": 52.9,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 47.1,
+    "turn_under20_pct": 90.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 42.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "手压屏幕边缘",
+      "chars": 591,
+      "score": 15.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "咖啡杯映出脸庞",
+      "chars": 982,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "手环刻痕浮现",
+      "chars": 877,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "手压屏幕边缘",
+      "chars": 1642,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "手压屏幕边缘",
+      "chars": 1155,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "钥匙串摩挲桌面",
+      "chars": 1091,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 1.5 低于目标 5.0",
+      "narration_para_pct 95.8 高于目标 90.0",
+      "[observe] 章节过短 529 < 597（本章目标 1087 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 2 句（如「小林盯着屏幕里不断跳动的画面，忽然注意到某个规律…」）",
+      "[observe] 章节过短 817 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "命中套话收尾句",
+      "[observe] 标题重复：「手压屏幕边缘」已存在"
+    ],
+    "5": [
+      "narration_para_pct 31.8 低于目标 35.0",
+      "dialogue_run_mean 5 高于目标 4.0",
+      "[observe] 标题重复：「手压屏幕边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 125.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:18:50"
+}

@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-248",
+  "profile": "视频分镜",
+  "title": "红绳",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5738,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5163,
+    "chapter_chars_mean": 860,
+    "chapter_chars_median": 962,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 35.5,
+    "dialogue_chars_pct": 26.8,
+    "dialogue_para_pct": 56.9,
+    "interiority_para_pct": 1.6,
+    "narration_para_pct": 41.6,
+    "turn_under20_pct": 94.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙板上的划痕",
+      "chars": 502,
+      "score": 37.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙扣的对峙",
+      "chars": 1098,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙板上的裂痕",
+      "chars": 1117,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "墨汁晕染的疑问",
+      "chars": 800,
+      "score": 21.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙板上的红绳",
+      "chars": 1231,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "印章的温度",
+      "chars": 984,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 455 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 32.4 低于目标 35.0"
+    ],
+    "3": [
+      "[observe] 标题与《钥匙板上的划痕》近似 0.86 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "[observe] 章节过短 595 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "narration_para_pct 27.3 低于目标 35.0",
+      "[observe] 标题与《钥匙板上的划痕》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "dialogue_chars_pct 47.2 高于目标 45.0",
+      "narration_para_pct 22.2 低于目标 35.0",
+      "[observe] 章内自我复读 3 句（如「刚才你说过，我就是因为它才找到你这里的…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 121.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:54:51"
+}

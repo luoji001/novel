@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-294",
+  "profile": "视频分镜",
+  "title": "药瓶上的名字",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6372,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5911,
+    "chapter_chars_mean": 985,
+    "chapter_chars_median": 1024,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 30.5,
+    "dialogue_chars_pct": 24.1,
+    "dialogue_para_pct": 57.5,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 42.5,
+    "turn_under20_pct": 97.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 50.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.7,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "登记本掉落的瞬间",
+      "chars": 733,
+      "score": 94.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "红袖章贴胸口",
+      "chars": 1143,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "胸牌上的刻字",
+      "chars": 1273,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "药瓶跌落的瞬间",
+      "chars": 1162,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "药瓶坠地的瞬间",
+      "chars": 985,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "药瓶跌落的瞬间",
+      "chars": 1070,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李秀兰的」×3"
+    ],
+    "2": [
+      "单条套路句式超限：「李秀兰的」×4"
+    ],
+    "3": [
+      "单条套路句式超限：「输液室」×5、「周玉兰的」×4、「李秀兰站在」×3"
+    ],
+    "5": [
+      "单条套路句式超限：「李秀兰的」×4",
+      "narration_para_pct 25.0 低于目标 35.0",
+      "dialogue_run_mean 6 高于目标 4.0",
+      "[observe] 标题与《药瓶跌落的瞬间》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 标题重复：「药瓶跌落的瞬间」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:07:40"
+}

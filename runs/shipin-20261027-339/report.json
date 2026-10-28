@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-339",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5976,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5556,
+    "chapter_chars_mean": 926,
+    "chapter_chars_median": 1024,
+    "chapter_chars_cv": 0.43,
+    "paragraphs_mean": 26.7,
+    "dialogue_chars_pct": 21.1,
+    "dialogue_para_pct": 54.8,
+    "interiority_para_pct": 1.8,
+    "narration_para_pct": 43.4,
+    "turn_under20_pct": 96.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 16.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码的银质耳环",
+      "chars": 250,
+      "score": 22.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "绿色塑料袋的反光",
+      "chars": 866,
+      "score": 39.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "二维码的银质耳环",
+      "chars": 1265,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "二维码的竹夹子",
+      "chars": 1233,
+      "score": 89.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "手机屏保的黑影",
+      "chars": 975,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "二维码的银质耳环",
+      "chars": 1381,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 214 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 792 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "narration_para_pct 30.0 低于目标 35.0",
+      "[observe] 标题重复：「二维码的银质耳环」已存在"
+    ],
+    "4": [
+      "单条套路句式超限：「周志远的」×3",
+      "narration_para_pct 28.1 低于目标 35.0",
+      "dialogue_run_mean 4.4 高于目标 4.0"
+    ],
+    "6": [
+      "单条套路句式超限：「陈阿婆的」×3",
+      "[observe] 标题重复：「二维码的银质耳环」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 124.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:21:28"
+}

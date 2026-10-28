@@ -1,0 +1,220 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强"
+      ],
+      "driver": "陈阿强用抹布擦拭炒粉锅的边缘",
+      "entry_state": "炒粉锅静止在案板上",
+      "outcome": "炒粉锅表面泛起油光",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强"
+      ],
+      "driver": "陈阿强将炒粉锅翻转，露出锅底的划痕",
+      "entry_state": "炒粉锅表面泛起油光",
+      "outcome": "炒粉锅被陈阿强握在手中",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "收款二维码"
+      ],
+      "driver": "陈阿强用炒粉锅铲敲击桌面，检查二维码",
+      "entry_state": "陈阿强在摊位上检查二维码",
+      "outcome": "二维码被替换，陈阿强发现异常",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "收款二维码"
+      ],
+      "driver": "陈阿强用左手抓住二维码边缘，试图拉回原位置",
+      "entry_state": "二维码被替换，陈阿强发现异常",
+      "outcome": "二维码仍被替换，陈阿强确认被他人动过",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "收款二维码"
+      ],
+      "driver": "陈阿强用右手指向遮阳棚，示意二维码位置",
+      "entry_state": "二维码仍被替换，陈阿强确认被他人动过",
+      "outcome": "陈阿强确认二维码被替换，准备进一步行动",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "巷口路灯下",
+      "present": [
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "周志远将铝制饭盒按在遮阳棚上",
+      "entry_state": "遮阳棚被铝制饭盒压住一角",
+      "outcome": "遮阳棚边缘出现一道划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "陈阿强用炒粉锅铲撬开饭盒",
+      "entry_state": "遮阳棚边缘有划痕",
+      "outcome": "遮阳棚被掀翻一角，露出二维码",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "周志远拽住遮阳棚布料往巷口拖",
+      "entry_state": "遮阳棚被掀翻一角",
+      "outcome": "遮阳棚布料撕裂，露出内衬",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "陈阿强用炒粉锅铲敲击桌面",
+      "entry_state": "炒粉锅铲在陈阿强手中",
+      "outcome": "炒粉锅铲掉落地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "周志远夺过炒粉锅，锅身倾斜",
+      "entry_state": "炒粉锅在周志远手中",
+      "outcome": "炒粉锅倾斜倒地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "陈阿强捡起炒粉锅，锅柄断裂",
+      "entry_state": "炒粉锅在陈阿强手中",
+      "outcome": "炒粉锅柄断裂",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "小卖部门口",
+      "present": [
+        "林小梅",
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "林小梅举起塑料凳挡在摊位前",
+      "entry_state": "塑料凳横在摊位前",
+      "outcome": "塑料凳横在摊位前",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "小卖部门口",
+      "present": [
+        "林小梅",
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "周志远用脚踢翻塑料凳，凳子倒地",
+      "entry_state": "塑料凳横在摊位前",
+      "outcome": "塑料凳倒地在地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "小卖部门口",
+      "present": [
+        "林小梅",
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "林小梅抓起塑料凳砸向周志远",
+      "entry_state": "塑料凳倒地在地面",
+      "outcome": "塑料凳被林小梅抓起并砸向周志远",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "周志远",
+        "林小梅"
+      ],
+      "driver": "周志远用铝制饭盒挡住二维码",
+      "entry_state": "二维码被遮挡",
+      "outcome": "二维码被铝制饭盒遮挡",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "周志远"
+      ],
+      "driver": "陈阿强用炒粉锅砸向周志远",
+      "entry_state": "二维码被遮挡",
+      "outcome": "周志远手中的铝制饭盒掉落地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "夜市摊位",
+      "present": [
+        "陈阿强",
+        "林小梅"
+      ],
+      "driver": "林小梅用塑料凳撑住遮阳棚",
+      "entry_state": "铝制饭盒在地上",
+      "outcome": "遮阳棚被撑住",
+      "target_chars": 527
+    }
+  ]
+}

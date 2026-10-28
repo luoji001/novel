@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-166",
+  "profile": "视频分镜",
+  "title": "硬币的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7162,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6581,
+    "chapter_chars_mean": 1097,
+    "chapter_chars_median": 1200,
+    "chapter_chars_cv": 0.47,
+    "paragraphs_mean": 36,
+    "dialogue_chars_pct": 11.4,
+    "dialogue_para_pct": 36.7,
+    "interiority_para_pct": 6.3,
+    "narration_para_pct": 56.9,
+    "turn_under20_pct": 98.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.3,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "金属反光闪过",
+      "chars": 278,
+      "score": 23.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "保温杯里的名字",
+      "chars": 1904,
+      "score": 24.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "硬币落进掌心",
+      "chars": 1240,
+      "score": 35.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "保温杯底部的纸条",
+      "chars": 1326,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙别在工装外套上",
+      "chars": 1074,
+      "score": 85.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "硬币与保温杯的对峙",
+      "chars": 1334,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 4.1 低于目标 5.0",
+      "[observe] 章节过短 244 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "interiority_para_pct 12.8 高于目标 6.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 3.7 低于目标 5.0",
+      "[observe] 章内自我复读 2 句（如「他知道，今天的训练肯定比平时更辛苦一些…」）"
+    ],
+    "4": [
+      "interiority_para_pct 6.2 高于目标 6.0"
+    ],
+    "5": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0"
+    ],
+    "6": [
+      "interiority_para_pct 6.2 高于目标 6.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:40:13"
+}

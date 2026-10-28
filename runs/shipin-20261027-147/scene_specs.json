@@ -1,0 +1,217 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "老周",
+        "蓝色皮箱"
+      ],
+      "driver": "老周用肩膀顶住铁门，蓝色皮箱滑落脚边",
+      "entry_state": "蓝色皮箱在铁门脚边",
+      "outcome": "蓝色皮箱滑到铁门脚边",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "老周",
+        "蓝色皮箱"
+      ],
+      "driver": "老周弯腰捡起蓝色皮箱，用力撞向铁门",
+      "entry_state": "蓝色皮箱在老周手中",
+      "outcome": "蓝色皮箱被老周撞向铁门",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "寄存处",
+      "present": [
+        "陈志强",
+        "登记簿"
+      ],
+      "driver": "陈志强用钥匙串敲击登记簿封面",
+      "entry_state": "登记簿平放在桌上",
+      "outcome": "登记簿被钥匙串敲出凹痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "寄存处",
+      "present": [
+        "陈志强",
+        "登记簿"
+      ],
+      "driver": "陈志强将登记簿翻到第一页并按住",
+      "entry_state": "登记簿有凹痕",
+      "outcome": "登记簿第一页被按出折痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "寄存处",
+      "present": [
+        "陈志强",
+        "登记簿"
+      ],
+      "driver": "陈志强把登记簿塞进抽屉并锁上",
+      "entry_state": "登记簿第一页被按出折痕",
+      "outcome": "登记簿被锁进抽屉",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "林雪",
+        "广播"
+      ],
+      "driver": "林雪举起红色话筒，播报晚点信息",
+      "entry_state": "广播静止在墙角支架上",
+      "outcome": "话筒被林雪拿起，开始播报",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "第三候车厅",
+      "present": [
+        "林雪",
+        "广播"
+      ],
+      "driver": "林雪将话筒放回支架，调整音量",
+      "entry_state": "话筒正在播报",
+      "outcome": "话筒回到支架，声音变小",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "第三候车厅",
+      "present": [
+        "林雪",
+        "广播"
+      ],
+      "driver": "林雪弯腰捡起掉落的话筒，重新举起",
+      "entry_state": "话筒声音变小",
+      "outcome": "话筒被重新举起，播报恢复",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "寄存处",
+      "present": [
+        "老周",
+        "陈志强"
+      ],
+      "driver": "老周将皱巴巴的火车票捏在掌心",
+      "entry_state": "火车票在老周手中",
+      "outcome": "火车票保持皱巴巴的状态",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "寄存处",
+      "present": [
+        "老周",
+        "陈志强"
+      ],
+      "driver": "老周用指甲划破火车票一角",
+      "entry_state": "火车票在老周手中",
+      "outcome": "火车票一角被划破",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "寄存处",
+      "present": [
+        "老周"
+      ],
+      "driver": "老周将撕碎的火车票扔进垃圾桶",
+      "entry_state": "火车票一角被划破",
+      "outcome": "火车票被彻底撕碎并丢入垃圾桶",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "寄存处",
+      "present": [
+        "陈志强",
+        "工牌"
+      ],
+      "driver": "陈志强将工牌贴在登记簿上",
+      "entry_state": "工牌贴在登记簿上",
+      "outcome": "工牌被固定在登记簿上方",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "寄存处",
+      "present": [
+        "陈志强",
+        "工牌"
+      ],
+      "driver": "陈志强用钥匙串敲打工牌边缘",
+      "entry_state": "工牌被固定在登记簿上方",
+      "outcome": "工牌边缘出现细微裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "寄存处",
+      "present": [
+        "陈志强",
+        "工牌"
+      ],
+      "driver": "陈志强将工牌塞进登记簿夹层",
+      "entry_state": "工牌边缘出现细微裂痕",
+      "outcome": "工牌被夹在登记簿内页",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "第三候车厅",
+      "present": [
+        "老周",
+        "蓝色皮箱"
+      ],
+      "driver": "老周用肩膀顶住铁门，蓝色皮箱滑向地面",
+      "entry_state": "蓝色皮箱在地面，老周紧贴铁门",
+      "outcome": "蓝色皮箱被推至角落，铁门轻微晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "寄存处",
+      "present": [
+        "老周",
+        "蓝色皮箱"
+      ],
+      "driver": "老周弯腰捡起蓝色皮箱，箱盖出现划痕",
+      "entry_state": "蓝色皮箱在地面，老周紧贴铁门",
+      "outcome": "蓝色皮箱被老周抱起，箱盖有明显划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "第三候车厅",
+      "present": [
+        "老周",
+        "蓝色皮箱"
+      ],
+      "driver": "老周猛力推搡铁门，蓝色皮箱撞上墙角",
+      "entry_state": "蓝色皮箱被抱起，箱盖有明显划痕",
+      "outcome": "蓝色皮箱撞上墙角，铁门发出巨响",
+      "target_chars": 527
+    }
+  ]
+}

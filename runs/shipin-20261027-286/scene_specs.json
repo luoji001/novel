@@ -1,0 +1,216 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "李国强将应急灯放在讲台上",
+      "entry_state": "应急灯在讲台上",
+      "outcome": "应急灯被放置在讲台上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "王小满伸手去抢应急灯",
+      "entry_state": "应急灯在讲台上",
+      "outcome": "应急灯被王小满夺走",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "王小满",
+        "李国强"
+      ],
+      "driver": "王小满从书包掏出蓝色试卷",
+      "entry_state": "王小满从书包掏出蓝色试卷",
+      "outcome": "试卷平放在桌面上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "王小满",
+        "李国强"
+      ],
+      "driver": "王小满用铅笔在试卷上划出一道线",
+      "entry_state": "试卷平放在桌面上",
+      "outcome": "试卷上出现一道铅笔划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "王小满",
+        "李国强"
+      ],
+      "driver": "王小满将试卷折成一角塞进衣兜",
+      "entry_state": "试卷上出现一道铅笔划痕",
+      "outcome": "试卷被塞进王小满衣兜",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "教室门口",
+      "present": [
+        "陈秀兰",
+        "李国强"
+      ],
+      "driver": "陈秀兰将保温杯放在地上",
+      "entry_state": "保温杯在地面",
+      "outcome": "保温杯静止在地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室门口",
+      "present": [
+        "陈秀兰",
+        "李国强"
+      ],
+      "driver": "李国强弯腰捡起保温杯",
+      "entry_state": "保温杯在地面",
+      "outcome": "保温杯被李国强握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室门口",
+      "present": [
+        "陈秀兰",
+        "李国强"
+      ],
+      "driver": "陈秀兰用手指触摸保温杯壁",
+      "entry_state": "保温杯在李国强手中",
+      "outcome": "保温杯被陈秀兰触碰",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "王小满将铅笔盒放在课桌上",
+      "entry_state": "铅笔盒在王小满手中",
+      "outcome": "铅笔盒被放置在课桌上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "王小满"
+      ],
+      "driver": "王小满打开铅笔盒取出橡皮",
+      "entry_state": "铅笔盒在课桌上",
+      "outcome": "铅笔盒被打开并取出橡皮",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "王小满"
+      ],
+      "driver": "王小满用橡皮擦掉试卷上的错误答案",
+      "entry_state": "铅笔盒被打开并取出橡皮",
+      "outcome": "试卷上的错误答案被擦掉",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "李国强将旧书包放在讲台旁",
+      "entry_state": "旧书包在讲台旁",
+      "outcome": "旧书包被放置在讲台旁边",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "王小满用脚尖顶住书包拉链",
+      "entry_state": "旧书包在讲台旁",
+      "outcome": "旧书包的拉链被顶住无法打开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "李国强单手拉开书包拉链",
+      "entry_state": "旧书包的拉链被顶住无法打开",
+      "outcome": "旧书包的拉链被拉开，露出课本和文具",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "王小满将应急灯抱在胸前抵住门框",
+      "entry_state": "应急灯在王小满怀里，门框被脚尖抵住",
+      "outcome": "应急灯被王小满抱在胸前，门框被脚尖抵住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "李国强伸手去抢应急灯，灯罩轻微晃动",
+      "entry_state": "应急灯在王小满怀里，门框被脚尖抵住",
+      "outcome": "应急灯灯罩轻微晃动，李国强伸手去抢",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "教室",
+      "present": [
+        "李国强",
+        "王小满"
+      ],
+      "driver": "王小满松手，应急灯掉在地上摔碎",
+      "entry_state": "应急灯灯罩轻微晃动，李国强伸手去抢",
+      "outcome": "应急灯掉在地上摔碎，王小满松手",
+      "target_chars": 527
+    }
+  ]
+}

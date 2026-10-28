@@ -1,0 +1,110 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-12",
+  "profile": "视频分镜",
+  "title": "硬币的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6377,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5957,
+    "chapter_chars_mean": 993,
+    "chapter_chars_median": 939,
+    "chapter_chars_cv": 0.2,
+    "paragraphs_mean": 27.3,
+    "dialogue_chars_pct": 18.6,
+    "dialogue_para_pct": 49.7,
+    "interiority_para_pct": 1.7,
+    "narration_para_pct": 48.6,
+    "turn_under20_pct": 98.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币在风中飘荡",
+      "chars": 843,
+      "score": 93.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "硬币与手机的对望",
+      "chars": 1319,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "手机的倒影",
+      "chars": 990,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "硬币与露水的触碰",
+      "chars": 1322,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "红绳的重量",
+      "chars": 1016,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手机的微光",
+      "chars": 881,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "narration_para_pct 30.8 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 章内自我复读 1 句（如「他说着，用手轻轻拨弄了一下红绳，让它随着手臂的动…」）"
+    ],
+    "6": [
+      "[observe] 章节过短 832 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《手机的倒影》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:34:54"
+}

@@ -1,0 +1,113 @@
+{
+  "consistency": "1. 第一章称“李阿婆”张贴二维码，但后续章节均称“林阿婆”，人名不一致。  \n2. 第二章称“周建平”试图抢走二维码贴纸，但第一章称“陌生男子”，未明确其姓名。  \n3. 第三章称“李阿婆”与“周建平”对峙，但第一章称“李阿婆”与“陌生男子”争执，第二章称“周建平”与“李阿婆”争执，人名不一致。  \n4. 第五章称“夜市管理员”与“李阿婆”争执，但第四章称“李阿婆”与“周建平”争执，人物立场无明确关联。  \n5. 第六章称“周建平”与“李阿婆”冲突，但第一章称“李阿婆”与“陌生男子”争执，第二章称“周建平”与“李阿婆”争执，人名不一致。  \n6. 第二章称“蓝色塑料秤脱手”，但第六章称“塑料秤脱手”，未明确是否为同一秤。  \n7. 第三章称“二维码贴纸被重新粘好”，但第五章称“二维码贴纸与塑料秤较量”，未交代贴纸是否被撕下或粘好。  \n8. 第五章称“二维码贴纸与塑料秤较量”，但第六章称“塑料秤脱手”，未交代是否与二维码有关。  \n9. 第三章称“监控下对峙”，但未提及监控是否在前文有铺垫或安装。  \n10. 第五章称“夜市管理员”发现“李阿婆”坚持使用旧二维码，但未交代二维码是否被调包或更换。",
+  "slug": "shipin-20261027-381",
+  "profile": "视频分镜",
+  "title": "秤砣",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6680,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6196,
+    "chapter_chars_mean": 1033,
+    "chapter_chars_median": 1014,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 30.2,
+    "dialogue_chars_pct": 16.7,
+    "dialogue_para_pct": 41.2,
+    "interiority_para_pct": 1.8,
+    "narration_para_pct": 57.0,
+    "turn_under20_pct": 92.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.5,
+    "attr_adv_pct": 3.3,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码贴纸被撕下",
+      "chars": 866,
+      "score": 40.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "蓝色塑料秤脱手瞬间",
+      "chars": 1030,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "二维码贴纸被重新粘好",
+      "chars": 1007,
+      "score": 88.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "二维码贴纸与塑料秤较量",
+      "chars": 1149,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "二维码贴纸与塑料秤较量",
+      "chars": 1180,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "塑料秤脱手瞬间",
+      "chars": 1442,
+      "score": 88.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ],
+    "3": [
+      "[observe] 标题与《二维码贴纸被撕下》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 24.0 低于目标 35.0",
+      "[observe] 标题重复：「二维码贴纸与塑料秤较量」已存在"
+    ],
+    "6": [
+      "[observe] 标题与《蓝色塑料秤脱手瞬间》近似 0.88 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 141.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:26:28"
+}

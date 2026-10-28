@@ -1,0 +1,103 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-401",
+  "profile": "视频分镜",
+  "title": "银链",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6588,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6136,
+    "chapter_chars_mean": 1023,
+    "chapter_chars_median": 1042,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 30,
+    "dialogue_chars_pct": 17.9,
+    "dialogue_para_pct": 45.0,
+    "interiority_para_pct": 2.9,
+    "narration_para_pct": 52.1,
+    "turn_under20_pct": 97.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.0,
+    "attr_adv_pct": 4.4,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "打不开的啤酒罐",
+      "chars": 652,
+      "score": 93.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "回车键的余震",
+      "chars": 1027,
+      "score": 38.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "啤酒罐的倒影",
+      "chars": 1047,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "钥匙的锁住",
+      "chars": 1383,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "皮夹的暗红痕迹",
+      "chars": 1163,
+      "score": 89.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙撬开啤酒罐",
+      "chars": 1310,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 132.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:58:35"
+}

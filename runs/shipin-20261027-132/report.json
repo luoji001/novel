@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-132",
+  "profile": "视频分镜",
+  "title": "灯罩",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5747,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5324,
+    "chapter_chars_mean": 887,
+    "chapter_chars_median": 892,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 26,
+    "dialogue_chars_pct": 10.9,
+    "dialogue_para_pct": 32.3,
+    "interiority_para_pct": 1.6,
+    "narration_para_pct": 66.1,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 100.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "黑板擦落回地面",
+      "chars": 538,
+      "score": 22.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铅笔戳开关",
+      "chars": 858,
+      "score": 21.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "竹竿卡落叶",
+      "chars": 728,
+      "score": 19.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "试卷卷成筒状",
+      "chars": 1179,
+      "score": 58.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "铅笔戳开关",
+      "chars": 1320,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "电线绕树干",
+      "chars": 1118,
+      "score": 17.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 487 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 797 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章节过短 687 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "单条套路句式超限：「李国强的」×3",
+      "narration_para_pct 31.0 低于目标 35.0",
+      "[observe] 标题重复：「铅笔戳开关」已存在"
+    ],
+    "6": [
+      "dialogue_chars_pct 0.5 低于目标 5.0",
+      "narration_para_pct 93.6 高于目标 90.0",
+      "[observe] 章内自我复读 7 句（如「抬头看了眼天色，又低头看了看手里没缠完的电线…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:45:49"
+}

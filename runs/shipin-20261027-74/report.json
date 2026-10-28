@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-74",
+  "profile": "视频分镜",
+  "title": "硬币的重量",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6250,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5818,
+    "chapter_chars_mean": 970,
+    "chapter_chars_median": 963,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 26.3,
+    "dialogue_chars_pct": 17.1,
+    "dialogue_para_pct": 56.4,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 43.6,
+    "turn_under20_pct": 98.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 64.2,
+    "attr_adv_pct": 3.3,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "纸片的边缘",
+      "chars": 584,
+      "score": 21.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 2,
+      "title": "手机的光",
+      "chars": 918,
+      "score": 53.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "铁锹的余温",
+      "chars": 1095,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "硬币的温度",
+      "chars": 849,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "木炭的余温",
+      "chars": 1297,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "纸片的边缘",
+      "chars": 1501,
+      "score": 95.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 4.6 低于目标 5.0",
+      "narration_para_pct 90.9 高于目标 90.0",
+      "[observe] 章内自我复读 2 句（如「纸面上，“2013年6月15日”几个字清晰可见，…」）",
+      "[observe] 章节过短 518 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "dialogue_chars_pct 3.9 低于目标 5.0",
+      "narration_para_pct 0.0 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 章节过短 758 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "[observe] 标题与《铁锹的余温》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "narration_para_pct 34.4 低于目标 35.0",
+      "[observe] 标题重复：「纸片的边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 131.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:10:57"
+}

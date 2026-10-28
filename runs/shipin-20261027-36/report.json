@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-36",
+  "profile": "视频分镜",
+  "title": "冰台",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6313,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5870,
+    "chapter_chars_mean": 978,
+    "chapter_chars_median": 1024,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 29.7,
+    "dialogue_chars_pct": 21.3,
+    "dialogue_para_pct": 57.3,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 42.1,
+    "turn_under20_pct": 95.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁钳与信纸",
+      "chars": 470,
+      "score": 37.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "信纸与冰台",
+      "chars": 1409,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "铁钳与鱼鳞堆",
+      "chars": 1238,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "铁钳与陶罐",
+      "chars": 1001,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铜铃惊飞麻雀",
+      "chars": 1036,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "皮尺与红围巾",
+      "chars": 1153,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 425 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 20.0 低于目标 35.0",
+      "dialogue_run_mean 5.1 高于目标 4.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「他知道这信关系着整条街的生意，可现在却成了两个人…」）"
+    ],
+    "4": [
+      "[observe] 标题与《铁钳与信纸》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 章内自我复读 1 句（如「吵什么呢？都给我让开…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 141.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:11:09"
+}

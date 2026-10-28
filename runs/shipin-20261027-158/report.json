@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-158",
+  "profile": "视频分镜",
+  "title": "船票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5888,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5475,
+    "chapter_chars_mean": 912,
+    "chapter_chars_median": 1016,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 25.8,
+    "dialogue_chars_pct": 27.7,
+    "dialogue_para_pct": 58.7,
+    "interiority_para_pct": 1.3,
+    "narration_para_pct": 40.0,
+    "turn_under20_pct": 89.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 17.1,
+    "attr_adv_pct": 6.5,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "船票贴在玻璃上",
+      "chars": 532,
+      "score": 37.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "抚摸铁皮钱箱",
+      "chars": 1127,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "船票与红绳交织",
+      "chars": 1193,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙与硬币",
+      "chars": 1041,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "触摸船票的指尖",
+      "chars": 707,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙落入硬币罐",
+      "chars": 1282,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 479 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "3": [
+      "narration_para_pct 17.4 低于目标 35.0",
+      "dialogue_run_mean 9.5 高于目标 4.0"
+    ],
+    "5": [
+      "[observe] 章节过短 630 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "[observe] 标题与《钥匙与硬币》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:27:18"
+}

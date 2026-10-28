@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-374",
+  "profile": "视频分镜",
+  "title": "黄铜钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5473,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5129,
+    "chapter_chars_mean": 855,
+    "chapter_chars_median": 918,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 20.7,
+    "dialogue_chars_pct": 26.4,
+    "dialogue_para_pct": 61.4,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 37.8,
+    "turn_under20_pct": 82.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 3.2,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙滑落瞬间",
+      "chars": 480,
+      "score": 22.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙与纸条的对峙",
+      "chars": 1021,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "房卡与无名房间",
+      "chars": 1045,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "钥匙与刻痕对望",
+      "chars": 783,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "手机撞向钥匙板",
+      "chars": 931,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙凹槽的秘密",
+      "chars": 1207,
+      "score": 85.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 434 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 15.0 低于目标 35.0",
+      "dialogue_run_mean 5.7 高于目标 4.0"
+    ],
+    "4": [
+      "[observe] 章节过短 730 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "narration_para_pct 19.2 低于目标 35.0",
+      "dialogue_run_mean 7 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 118.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:15:18"
+}

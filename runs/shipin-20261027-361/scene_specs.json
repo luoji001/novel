@@ -1,0 +1,222 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "电影院放映室",
+      "present": [
+        "老李",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老李用袖口擦去旋钮上的灰尘",
+      "entry_state": "旋钮干净但未被触碰",
+      "outcome": "旋钮表面泛着微光",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室",
+      "present": [
+        "老李",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老李将胶片推入放映机槽口",
+      "entry_state": "旋钮微光映着胶片边缘",
+      "outcome": "胶片开始缓缓转动",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "电影院门口",
+      "present": [
+        "镇长",
+        "老李"
+      ],
+      "driver": "镇长用公文包金属扣敲击玻璃门",
+      "entry_state": "公文包在镇长手中",
+      "outcome": "玻璃门发出沉闷响声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院门口",
+      "present": [
+        "镇长",
+        "老李"
+      ],
+      "driver": "镇长将公文包放在地上",
+      "entry_state": "公文包在镇长手中",
+      "outcome": "公文包掉落在水泥地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院门口",
+      "present": [
+        "镇长",
+        "老李"
+      ],
+      "driver": "镇长捡起公文包并用力摔向墙角",
+      "entry_state": "公文包在水泥地上",
+      "outcome": "公文包撞在墙角并裂开",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "小卖部",
+      "present": [
+        "苏婉",
+        "老李"
+      ],
+      "driver": "苏婉用花生油在玻璃窗画圈，花生罐放在柜台",
+      "entry_state": "花生罐在柜台，苏婉用油画圈",
+      "outcome": "花生罐被老李接过，苏婉收回手指",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "小卖部",
+      "present": [
+        "老李"
+      ],
+      "driver": "老李打开花生罐，花生粒洒出半罐",
+      "entry_state": "花生罐在老李手中，花生粒洒出",
+      "outcome": "花生罐被老李放回柜台，花生粒散落桌面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "小卖部",
+      "present": [
+        "苏婉",
+        "老李"
+      ],
+      "driver": "苏婉用手指捡起花生粒，放进空罐",
+      "entry_state": "花生粒散落桌面，花生罐空着",
+      "outcome": "花生罐被苏婉递给老李，罐口封上油纸",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "电影院休息区",
+      "present": [
+        "老李",
+        "镇长"
+      ],
+      "driver": "老李从口袋掏出一张泛黄的电影票",
+      "entry_state": "电影票在老李手中",
+      "outcome": "电影票被老李摊开在桌上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院休息区",
+      "present": [
+        "老李",
+        "镇长"
+      ],
+      "driver": "镇长伸手接过电影票，指尖划过票根",
+      "entry_state": "电影票在镇长手中",
+      "outcome": "电影票被镇长轻轻压在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院休息区",
+      "present": [
+        "老李",
+        "镇长"
+      ],
+      "driver": "老李突然将电影票捏皱，塞回口袋",
+      "entry_state": "电影票在镇长掌心",
+      "outcome": "电影票被老李藏入衣袋",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "镇长",
+        "老李"
+      ],
+      "driver": "镇长用公文包敲击玻璃门",
+      "entry_state": "玻璃门完好无损",
+      "outcome": "玻璃门出现一道裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "镇长",
+        "老李"
+      ],
+      "driver": "老李将胶片贴在玻璃门上",
+      "entry_state": "玻璃门有裂痕",
+      "outcome": "胶片贴在玻璃门上，门框轻微晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "镇长",
+        "老李"
+      ],
+      "driver": "镇长用力推开玻璃门",
+      "entry_state": "胶片贴在玻璃门上，门框轻微晃动",
+      "outcome": "玻璃门被撞开，门框变形",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "电影院放映室",
+      "present": [
+        "老李",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老李用布满老茧的手反复擦拭铜质旋钮",
+      "entry_state": "老李擦拭铜质旋钮",
+      "outcome": "铜质旋钮表面泛起一层光亮",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室",
+      "present": [
+        "老李",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老李将铜质旋钮轻轻放在桌角",
+      "entry_state": "铜质旋钮表面泛起一层光亮",
+      "outcome": "铜质旋钮被移至桌角",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院放映室",
+      "present": [
+        "老李",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老李重新拿起铜质旋钮开始擦拭",
+      "entry_state": "铜质旋钮被移至桌角",
+      "outcome": "铜质旋钮再次被擦拭得发亮",
+      "target_chars": 527
+    }
+  ]
+}

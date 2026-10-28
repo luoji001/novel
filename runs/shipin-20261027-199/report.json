@@ -1,0 +1,118 @@
+{
+  "consistency": "1. 第二章提到周志远“悄悄替林小满换了二维码”，但第三章提到陈阿婆发现二维码被替换，而第六章又说陈阿婆发现男人换掉了她炒粉锅上的二维码，前后对“换二维码”的主体不一致（周志远 vs 男人）。\n\n2. 第五章提到陈阿婆“识破他是林小满派来的志愿者”，但第六章又说“男人”换掉了二维码，而前文并未明确“男人”是否为林小满派来的志愿者，导致人物身份前后不一致。\n\n3. 第四章提到林小满“发现二维码被更换”，但第六章又说陈阿婆“发现男人换掉了她炒粉锅上的二维码”，导致“二维码被更换”的主体不一致（林小满 vs 陈阿婆）。\n\n4. 第六章提到“男人”换掉了二维码，但前文并未明确“男人”是谁，导致人物身份不明。",
+  "slug": "shipin-20261027-199",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6191,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5820,
+    "chapter_chars_mean": 970,
+    "chapter_chars_median": 1067,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 24.3,
+    "dialogue_chars_pct": 22.6,
+    "dialogue_para_pct": 55.1,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 44.9,
+    "turn_under20_pct": 92.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 49.7,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码贴纸",
+      "chars": 569,
+      "score": 38.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "扫码记录",
+      "chars": 843,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "二维码贴纸",
+      "chars": 1325,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "称粉",
+      "chars": 1194,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "抢二维码",
+      "chars": 1062,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "贴错二维码",
+      "chars": 1192,
+      "score": 35.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 524 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 763 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「傍晚八点，炒粉摊位的灯光亮起…」）",
+      "[observe] 标题重复：「二维码贴纸」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「周志远的」×3",
+      "[observe] 标题与《二维码贴纸》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "[observe] 章内自我复读 4 句（如「她低头看着手中那张皱巴巴的二维码贴纸，边缘已经发…」）",
+      "[observe] 标题与《抢二维码》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 153.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:33:21"
+}

@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-197",
+  "profile": "视频分镜",
+  "title": "蛇皮袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7217,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6755,
+    "chapter_chars_mean": 1126,
+    "chapter_chars_median": 1134,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 31,
+    "dialogue_chars_pct": 28.8,
+    "dialogue_para_pct": 62.8,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 36.5,
+    "turn_under20_pct": 92.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 11
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "身份证在掌心",
+      "chars": 938,
+      "score": 95.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "身份证在窗台",
+      "chars": 1276,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "铁丝撬开蛇皮袋",
+      "chars": 1342,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "车票在窗台",
+      "chars": 1109,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "车票在掌心",
+      "chars": 1421,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "铁丝缠绕蛇皮袋",
+      "chars": 1125,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「王翠兰点」×3",
+      "narration_para_pct 27.6 低于目标 35.0",
+      "[observe] 标题与《身份证在掌心》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "narration_para_pct 21.9 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0",
+      "[observe] 章内自我复读 2 句（如「这袋子是他丢下的，我知道他在等什么…」）"
+    ],
+    "4": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李建国点了点头」×3",
+      "[observe] 标题与《车票在窗台》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「王翠兰的」×3、「李建国的」×3",
+      "[observe] 标题与《铁丝撬开蛇皮袋》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 139.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:29:31"
+}

@@ -1,0 +1,114 @@
+{
+  "consistency": "1. 第二章与第四章均提到“硬币卡缝”，但第四章提到“硬币”是李浩藏起的，而第六章提到张建国在教练车中发现一枚硬币，未说明该硬币是否为李浩藏起的那枚，存在来源不明的矛盾。\n\n2. 第三章提到陈晓梅处理李浩未带身份证和拖欠费用的问题，但第一章已提到李浩未带身份证被张建国训斥，且第五章提到李浩因计时器问题与张建国争执，未提及拖欠费用问题，前后信息不一致。\n\n3. 第五章提到李浩“默默放下硬币”，但第四章提到张建国接受硬币作为和解，第六章提到张建国将硬币放入计时器透明盒，硬币去向不明，前后未交代清楚。",
+  "slug": "shipin-20261027-376",
+  "profile": "视频分镜",
+  "title": "硬币归处",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6188,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5685,
+    "chapter_chars_mean": 948,
+    "chapter_chars_median": 978,
+    "chapter_chars_cv": 0.15,
+    "paragraphs_mean": 34.5,
+    "dialogue_chars_pct": 18.3,
+    "dialogue_para_pct": 40.1,
+    "interiority_para_pct": 2.7,
+    "narration_para_pct": 57.1,
+    "turn_under20_pct": 99.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 38.3,
+    "attr_adv_pct": 2.8,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙的震颤",
+      "chars": 834,
+      "score": 95.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "硬币卡缝",
+      "chars": 1200,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "硬币卡缝",
+      "chars": 878,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "钥匙的震颤",
+      "chars": 1182,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "硬币与计时器的对峙",
+      "chars": 1048,
+      "score": 50.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "硬币与钥匙的碰撞",
+      "chars": 1040,
+      "score": 89.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "单条套路句式超限：「”李浩低」×3",
+      "[observe] 章节过短 810 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「硬币卡缝」已存在"
+    ],
+    "4": [
+      "[observe] 标题重复：「钥匙的震颤」已存在"
+    ],
+    "5": [
+      "interiority_para_pct 10.5 高于目标 6.0"
+    ],
+    "6": [
+      "attr_adv_pct 16.7 高于目标 10.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 127.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:18:23"
+}

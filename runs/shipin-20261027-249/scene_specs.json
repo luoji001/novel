@@ -1,0 +1,224 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "放映机"
+      ],
+      "driver": "老周将钥匙插入放映机侧面的锁孔",
+      "entry_state": "放映机静止在老周手中",
+      "outcome": "放映机外壳上的锈迹被擦拭得发亮",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "放映机"
+      ],
+      "driver": "老周启动开关，胶片开始缓缓转动",
+      "entry_state": "放映机外壳发亮",
+      "outcome": "胶片边缘泛出微弱的银光",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "空旷的售票厅"
+      ],
+      "driver": "镇长的公文包从肩上滑落至地面",
+      "entry_state": "公文包在地面",
+      "outcome": "公文包躺在地面，未被触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "空旷的售票厅"
+      ],
+      "driver": "镇长弯腰捡起公文包，拍掉灰尘",
+      "entry_state": "公文包在地面",
+      "outcome": "公文包被镇长捡起并拍掉灰尘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "空旷的售票厅"
+      ],
+      "driver": "镇长将公文包砸向放映机",
+      "entry_state": "公文包被镇长捡起并拍掉灰尘",
+      "outcome": "公文包砸向放映机，发出响声",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "后院仓库",
+      "present": [
+        "小林",
+        "旧票根",
+        "抽屉"
+      ],
+      "driver": "小林弯腰捡起地上的一张旧票根",
+      "entry_state": "旧票根躺在地上",
+      "outcome": "旧票根被小林捡起",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "后院仓库",
+      "present": [
+        "小林",
+        "旧票根",
+        "抽屉"
+      ],
+      "driver": "小林将旧票根轻轻放入抽屉最底层",
+      "entry_state": "旧票根被小林捡起",
+      "outcome": "旧票根进入抽屉",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "后院仓库",
+      "present": [
+        "小林",
+        "旧票根",
+        "抽屉"
+      ],
+      "driver": "小林用力关上抽屉，旧票根被压在底部",
+      "entry_state": "旧票根进入抽屉",
+      "outcome": "旧票根被压在抽屉底部",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老周抽出胶片，对着灯光仔细端详",
+      "entry_state": "胶片在老周手中",
+      "outcome": "胶片被老周从抽屉取出",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老周用指甲轻轻刮掉胶片边缘的灰尘",
+      "entry_state": "胶片在老周手中",
+      "outcome": "胶片表面被擦出细微划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老周将胶片贴在放映机镜头前，缓缓推进",
+      "entry_state": "胶片表面有划痕",
+      "outcome": "胶片被老周放入放映机",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周",
+        "小林"
+      ],
+      "driver": "镇长将公文包放在放映机旁的木桌上",
+      "entry_state": "公文包在木桌上",
+      "outcome": "公文包在木桌上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周",
+        "小林"
+      ],
+      "driver": "镇长抽出一张图纸，公文包开口处露出一角",
+      "entry_state": "公文包在木桌上",
+      "outcome": "公文包开口处露出一角",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票厅",
+      "present": [
+        "镇长",
+        "老周",
+        "小林"
+      ],
+      "driver": "镇长用力一扯，公文包拉链滑开，图纸散落一地",
+      "entry_state": "公文包开口处露出一角",
+      "outcome": "公文包拉链滑开，图纸散落一地",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "放映机"
+      ],
+      "driver": "老周将放映机电源插头拔下",
+      "entry_state": "放映机停止运转",
+      "outcome": "放映机停止运转",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "放映机"
+      ],
+      "driver": "老周用布擦拭放映机镜头",
+      "entry_state": "放映机停止运转",
+      "outcome": "放映机镜头被擦拭干净",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老周",
+        "放映机"
+      ],
+      "driver": "老周按下放映机关闭键",
+      "entry_state": "放映机镜头被擦拭干净",
+      "outcome": "放映机彻底关闭",
+      "target_chars": 527
+    }
+  ]
+}

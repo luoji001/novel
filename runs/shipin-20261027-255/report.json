@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-255",
+  "profile": "视频分镜",
+  "title": "二维码风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7000,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6590,
+    "chapter_chars_mean": 1098,
+    "chapter_chars_median": 1160,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 26.7,
+    "dialogue_chars_pct": 24.3,
+    "dialogue_para_pct": 63.4,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 35.9,
+    "turn_under20_pct": 92.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 13.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "炒粉锅磕桌沿",
+      "chars": 611,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "二维码被替换",
+      "chars": 1151,
+      "score": 97.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "炒粉锅砸饭盒",
+      "chars": 1296,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "炒粉锅撞饭盒",
+      "chars": 1158,
+      "score": 91.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "炒粉锅撞饭盒",
+      "chars": 1295,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "铜钥匙悬红绳",
+      "chars": 1483,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 563 < 597（本章目标 1087 字的 55%）"
+    ],
+    "4": [
+      "[observe] 标题与《炒粉锅砸饭盒》近似 0.83 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "narration_para_pct 31.0 低于目标 35.0",
+      "[observe] 标题重复：「炒粉锅撞饭盒」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「陈阿强站在」×3、「陈阿强的」×3",
+      "narration_para_pct 18.8 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 144.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T16:05:59"
+}

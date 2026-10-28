@@ -1,0 +1,70 @@
+[
+  {
+    "no": 1,
+    "title": "便利店钥匙",
+    "beat": "晚上10点，便利店：小林用便利店钥匙打开监控室门，查看监控屏幕上的黑色轿车",
+    "target_chars": 1087,
+    "scale": "short",
+    "must_object": "便利店钥匙",
+    "speakers": [
+      "小林"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "油枪",
+    "beat": "晚上10点，加油区：陈浩将油枪插入油箱，快速驶离加油区",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "油枪",
+    "speakers": [
+      "陈浩"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "对讲机",
+    "beat": "晚上10点，监控室：老张用对讲机呼叫巡逻车，阻止小林查看监控屏幕",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "对讲机",
+    "speakers": [
+      "老张"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "监控屏幕",
+    "beat": "晚上10点，监控室：小林在监控屏幕上看到黑色轿车，与老张发生争执",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "监控屏幕",
+    "speakers": [
+      "小林",
+      "老张"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "便利店收银机",
+    "beat": "晚上10点，便利店：小林在便利店收银机上输入密码，查看监控录像",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "便利店收银机",
+    "speakers": [
+      "小林"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "油箱",
+    "beat": "凌晨3点，加油区：小林在油箱旁发现黑色轿车的油量异常，与老张再次争执",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "油箱",
+    "speakers": [
+      "小林",
+      "老张"
+    ]
+  }
+]

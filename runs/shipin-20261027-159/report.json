@@ -1,0 +1,117 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-159",
+  "profile": "视频分镜",
+  "title": "雨靴的归属",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6596,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6230,
+    "chapter_chars_mean": 1038,
+    "chapter_chars_median": 1066,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 22.3,
+    "dialogue_chars_pct": 19.8,
+    "dialogue_para_pct": 57.1,
+    "interiority_para_pct": 2.6,
+    "narration_para_pct": 40.3,
+    "turn_under20_pct": 94.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 53.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "扫帚敲击垃圾桶",
+      "chars": 780,
+      "score": 95.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "靴子与按钮的争执",
+      "chars": 1222,
+      "score": 94.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙与雨靴的对峙",
+      "chars": 1324,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "纸条与维修记录",
+      "chars": 1028,
+      "score": 37.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "触摸靴底的裂痕",
+      "chars": 851,
+      "score": 22.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "拾靴如拾旧时光",
+      "chars": 1385,
+      "score": 95.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 27.8 低于目标 35.0",
+      "dialogue_run_mean 4.3 高于目标 4.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 2 句（如「上周有人报修，说电梯常停在七楼…」）"
+    ],
+    "4": [
+      "[observe] 章内自我复读 2 句（如「他翻了几页，语气带着几分无奈，“上周还特意跑来交…」）"
+    ],
+    "5": [
+      "[observe] 章节过短 798 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "interiority_para_pct 6.2 高于目标 6.0",
+      "narration_para_pct 21.9 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:28:51"
+}

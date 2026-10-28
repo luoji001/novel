@@ -1,0 +1,224 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "一盘贴着手写标签的胶片"
+      ],
+      "driver": "老周将胶片放入放映机槽口",
+      "entry_state": "胶片被放入放映机槽口",
+      "outcome": "胶片开始缓缓转动",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "一盘贴着手写标签的胶片"
+      ],
+      "driver": "老周用手指轻轻擦去胶片上的灰尘",
+      "entry_state": "胶片开始缓缓转动",
+      "outcome": "胶片表面的标签变得清晰可见",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "赵国强",
+        "铜制钥匙"
+      ],
+      "driver": "赵国强举起铜制钥匙对准门锁",
+      "entry_state": "钥匙在赵国强手中",
+      "outcome": "钥匙被插入门锁",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室门口",
+      "present": [
+        "赵国强",
+        "铜制钥匙"
+      ],
+      "driver": "赵国强用钥匙转动门锁发出咔嗒声",
+      "entry_state": "钥匙在门锁中",
+      "outcome": "门锁开始松动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院放映室",
+      "present": [
+        "赵国强",
+        "铜制钥匙"
+      ],
+      "driver": "赵国强将钥匙插回口袋，推门进入",
+      "entry_state": "钥匙在赵国强口袋",
+      "outcome": "赵国强走进放映室",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "老茶馆",
+      "present": [
+        "陈阿婆",
+        "茶壶",
+        "泛黄的电影票根"
+      ],
+      "driver": "陈阿婆将票根夹进茶壶的铜壶嘴",
+      "entry_state": "票根被夹进茶壶嘴",
+      "outcome": "票根被夹进茶壶嘴",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "老茶馆",
+      "present": [
+        "陈阿婆",
+        "茶壶",
+        "泛黄的电影票根"
+      ],
+      "driver": "陈阿婆用手指摩挲票根边缘的裂痕",
+      "entry_state": "票根被夹进茶壶嘴",
+      "outcome": "票根边缘出现裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "老茶馆",
+      "present": [
+        "陈阿婆",
+        "茶壶",
+        "泛黄的电影票根"
+      ],
+      "driver": "陈阿婆将票根放入茶馆柜台的玻璃匣",
+      "entry_state": "票根边缘出现裂痕",
+      "outcome": "票根被放入玻璃匣",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "放映机",
+        "幕布"
+      ],
+      "driver": "老周将放映机推到幕布前",
+      "entry_state": "放映机停在幕布前",
+      "outcome": "放映机开始发出微弱的嗡鸣声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "放映机",
+        "胶片盒"
+      ],
+      "driver": "老周抽出胶片盒插入放映机",
+      "entry_state": "放映机发出嗡鸣声",
+      "outcome": "胶片盒被卡入放映机槽位",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "放映机",
+        "幕布"
+      ],
+      "driver": "老周按下启动键，胶片开始缓缓移动",
+      "entry_state": "胶片被卡入放映机槽位",
+      "outcome": "胶片开始在幕布上投射出模糊的影像",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "赵国强",
+        "镇长的钥匙"
+      ],
+      "driver": "赵国强从公文包取出铜钥匙",
+      "entry_state": "钥匙在赵国强手中",
+      "outcome": "钥匙被放入锁孔",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "赵国强",
+        "镇长的钥匙"
+      ],
+      "driver": "钥匙转动发出刺耳的金属摩擦声",
+      "entry_state": "钥匙在锁孔中",
+      "outcome": "钥匙卡在锁孔里动弹不得",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "赵国强",
+        "镇长的钥匙"
+      ],
+      "driver": "赵国强用拇指用力压住钥匙柄",
+      "entry_state": "钥匙卡在锁孔里",
+      "outcome": "钥匙被完全插入锁孔",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "一盘贴着手写标签的胶片"
+      ],
+      "driver": "老周将胶片插进放映机槽口",
+      "entry_state": "胶片被插入放映机",
+      "outcome": "胶片开始缓缓转动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "一盘贴着手写标签的胶片"
+      ],
+      "driver": "老周用手指轻触胶片边缘",
+      "entry_state": "胶片在放映机中转动",
+      "outcome": "胶片边缘出现细微裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "一盘贴着手写标签的胶片"
+      ],
+      "driver": "老周将胶片从放映机中取出",
+      "entry_state": "胶片边缘有裂痕",
+      "outcome": "胶片被老周握在手中",
+      "target_chars": 527
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "consistency": "1. 第二章提到李小满三年后回到老周处取行李，但第三章提到李小满为找回逾期未取的箱子与老周争执，暗示箱子可能已逾期，但未明确说明是否为同一箱子，存在时间线不清晰的问题。\n\n2. 第三章提到寄存单上的名字和日期与李小满不符，但第四章提到李小满找回父亲遗失的箱子，暗示箱子是父亲的，而寄存单不符可能涉及他人，但未明确说明箱子是否为同一箱子，存在前后逻辑不一致。\n\n3. 第五章提到钥匙是父亲最后一次取箱时留下的，但第六章提到李小满最终成功取出箱子，但未明确说明钥匙是否为父亲留下的，存在信息不连贯。",
+  "slug": "shipin-20261027-21",
+  "profile": "视频分镜",
+  "title": "铜钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5749,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5390,
+    "chapter_chars_mean": 898,
+    "chapter_chars_median": 942,
+    "chapter_chars_cv": 0.33,
+    "paragraphs_mean": 22,
+    "dialogue_chars_pct": 20.1,
+    "dialogue_para_pct": 51.0,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 49.0,
+    "turn_under20_pct": 93.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 51.4,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "皮箱撞向报警器",
+      "chars": 375,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "皮箱撞向报警器",
+      "chars": 1262,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "撕碎的寄存单",
+      "chars": 1057,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙与刻痕",
+      "chars": 944,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "钥匙转动的瞬间",
+      "chars": 953,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙与刻痕",
+      "chars": 1152,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 344 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「2015年12月15日…」）",
+      "[observe] 标题重复：「皮箱撞向报警器」已存在"
+    ],
+    "3": [
+      "单条套路句式超限：「李小满的」×4",
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李小满的」×5",
+      "[observe] 标题重复：「钥匙与刻痕」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 132.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:49:05"
+}

@@ -1,0 +1,116 @@
+{
+  "consistency": "1. 第二章与第三章标题重复，内容描述重复，存在章节编号混乱问题。  \n2. 第四章与第六章均提到“保温杯倒出热水”，但未说明保温杯是否为同一物件，存在前后不一致。  \n3. 第五章提到“车上有神秘红点”，但前文未提及车辆外观或任何与红点相关的描写，属于未交代物件。  \n4. 第六章提到“钥匙与弟弟的关联”，但前文未提及陈志远有弟弟，人物关系突兀。  \n5. 第五章提到“刘建国在寒冷的深夜停车场阻止周晓芸与张伟冲突”，但前文未提及张伟与周晓芸在停车场冲突，人物出场突兀。  \n6. 第一章与第二章均提到“李强和张伟在雪夜争夺一辆车”，但第二章又提到“深夜高速服务区”，与第一章“雪夜”地点不一致，存在时间地点不统一。  \n7. 第三章提到“陈志远出现调解”，但前文未提及陈志远是谁，人物出场突兀。  \n8. 第四章提到“周晓芸与陈志远争夺车钥匙”，但前文未提及周晓芸与陈志远的关系，人物关系突兀。  \n9. 第六章提到“陈志远阻止周晓芸开走他的车”，但前文未提及陈志远是车主，人物身份突兀。  \n10. 第五章提到“刘建国手机被摔碎”，但前文未提及刘建国是否携带手机，人物行为突兀。",
+  "slug": "shipin-20261027-391",
+  "profile": "视频分镜",
+  "title": "钥匙风波",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6535,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6102,
+    "chapter_chars_mean": 1017,
+    "chapter_chars_median": 1044,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 28.2,
+    "dialogue_chars_pct": 22.3,
+    "dialogue_para_pct": 57.4,
+    "interiority_para_pct": 1.3,
+    "narration_para_pct": 41.3,
+    "turn_under20_pct": 99.1,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 32.5,
+    "attr_adv_pct": 10.8,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "碎冰砸向肩头",
+      "chars": 702,
+      "score": 96.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钥匙争夺雪地间",
+      "chars": 1284,
+      "score": 88.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "钥匙争夺雪地间",
+      "chars": 1029,
+      "score": 37.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "保温杯倒出热水",
+      "chars": 1061,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "手机摔裂雪地上",
+      "chars": 1153,
+      "score": 35.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "保温杯倒出热水",
+      "chars": 1300,
+      "score": 37.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "narration_para_pct 15.2 低于目标 35.0",
+      "attr_adv_pct 13.3 高于目标 10.0",
+      "dialogue_run_mean 7.6 高于目标 4.0"
+    ],
+    "3": [
+      "[observe] attr_adv_pct 20.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「钥匙争夺雪地间」已存在"
+    ],
+    "5": [
+      "[observe] 章内自我复读 3 句（如「张伟冷笑一声，抬手摸了摸胸前的红点…」）"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「保温杯倒出热水」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:42:44"
+}

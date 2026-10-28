@@ -1,0 +1,124 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-121",
+  "profile": "视频分镜",
+  "title": "锁屏",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6383,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5823,
+    "chapter_chars_mean": 970,
+    "chapter_chars_median": 932,
+    "chapter_chars_cv": 0.44,
+    "paragraphs_mean": 32.8,
+    "dialogue_chars_pct": 9.8,
+    "dialogue_para_pct": 30.6,
+    "interiority_para_pct": 3.7,
+    "narration_para_pct": 65.7,
+    "turn_under20_pct": 94.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 28.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2.5,
+    "dialogue_run_mean": 1.2,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "监控屏上的黑影",
+      "chars": 431,
+      "score": 35.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "指纹与裂痕",
+      "chars": 782,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙里的异物",
+      "chars": 1234,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙缝进轮胎纹路",
+      "chars": 1450,
+      "score": 87.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "钥匙缝进轮胎纹路",
+      "chars": 1565,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "数字消失的瞬间",
+      "chars": 915,
+      "score": 34.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 4.1 低于目标 5.0",
+      "interiority_para_pct 8.3 高于目标 6.0",
+      "[observe] 章节过短 392 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 721 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「小林站在」×3"
+    ],
+    "4": [
+      "单条套路句式超限：「小林站在」×3",
+      "interiority_para_pct 7.4 高于目标 6.0"
+    ],
+    "5": [
+      "单条套路句式超限：「小林站在」×3",
+      "[observe] 标题重复：「钥匙缝进轮胎纹路」已存在"
+    ],
+    "6": [
+      "narration_para_pct 94.4 高于目标 90.0",
+      "[observe] 章内自我复读 10 句（如「翻开其中一页，上面写着“12月1日…」）",
+      "[observe] 章节过短 705 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 129.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:24:55"
+}

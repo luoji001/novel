@@ -1,0 +1,135 @@
+开始：shipin-20261027-85（档位 视频分镜／分章连载，6 章 / 9000 字，闸门 observe，并发 2）
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-85
+  · init  [0 场定稿]
+  · premise  [+1 调用]
+  · cast  [+1 调用]
+  · outline  [+1 调用]
+  · outline_lint
+
+⏸ 停在卡点：大纲确认
+  大纲：
+     1. 扫帚杆敲击地面（short，1087字）晚上八点四十分，县城东街汽车站候车厅：李建军握着扫帚杆，站在座位旁，朝王德贵大声
+     2. 热水瓶敲击柜台（normal，1582字）晚上九点零五分，县城东街汽车站小卖部：陈美兰举起热水瓶，敲击柜台，警告李建军和王
+     3. 旧皮包被打开（normal，1582字）晚上九点二十分，县城东街汽车站候车厅：王德贵打开旧皮包，取出一张泛黄的汽车票，递
+     4. 红绳缠绕手腕（normal，1582字）晚上九点三十五分，县城东街汽车站候车厅：王德贵将红绳缠绕在手腕上，表示对蛇皮袋的
+     5. 手电筒照出蛇皮袋（normal，1582字）晚上九点四十五分，县城东街汽车站候车厅：李建军用手电筒照射蛇皮袋，发现里面有一张
+     6. 蛇皮袋被丢进垃圾桶（normal，1582字）晚上十点零五分，县城东街汽车站候车厅：李建军将蛇皮袋丢进垃圾桶，转身离开。
+
+  继续：novel-agent approve shipin-20261027-85 --accept
+  打回：novel-agent approve shipin-20261027-85 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shipin-20261027-85
+    自动放行卡点 #1
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-85
+  · approve_outline
+  · plan_scenes  [+6 调用]
+  · plans_lint
+
+⏸ 停在卡点：分场细纲确认
+  体检发现：
+    - 第5章第1场「李建军举起手电筒照向蛇皮袋」与第5章第2场「李建军将手电筒贴在蛇皮袋上移动」画面重合 0.64（同一章内）
+    - 第6章第2场「李建军将蛇皮袋推向垃圾桶边缘，准备丢弃」与第6章第3场「李建军将蛇皮袋丢进垃圾桶，转身离开」画面重合 0.61（同一章内）
+    第1章 2 场：李建军举起扫帚杆，敲击地面发出响 | 王德贵抢过扫帚杆，砸向李建军的膝
+    第2章 3 场：陈美兰举起热水瓶，敲击柜台边缘 | 王德贵伸手抢夺热水瓶，陈美兰后退 | 李建军夺过热水瓶，往地上一摔，热
+    第3章 3 场：王德贵将旧皮包从左肩移到右手中 | 王德贵用右手撕开旧皮包拉链 | 王德贵将泛黄的汽车票递给李建军
+    第4章 3 场：王德贵右手攥紧蛇皮袋，红绳从指缝 | 王德贵弯腰捡起红绳，缠绕在左手腕 | 王德贵将红绳绕过手腕，末端系在蛇
+    第5章 3 场：李建军举起手电筒照向蛇皮袋 | 李建军将手电筒贴在蛇皮袋上移动 | 李建军把手电筒放回口袋，蹲下查看
+    第6章 3 场：李建军弯腰捡起蛇皮袋，贴近地面观 | 李建军将蛇皮袋推向垃圾桶边缘，准 | 李建军将蛇皮袋丢进垃圾桶，转身离
+
+  继续：novel-agent approve shipin-20261027-85 --accept
+  打回：novel-agent approve shipin-20261027-85 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shipin-20261027-85
+    自动放行卡点 #2
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-85
+  · approve_scenes
+  · write_chapter_start  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['1']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['2']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['3']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['4']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['5']]
+  · next_chapter  [0 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [1 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [2 场定稿]
+  · write_scene_candidate  [+1 调用]
+  · write_scene_candidate  [+1 调用]
+  · pick_best_scene  [3 场定稿]
+  · assemble  [+2 调用]
+  · validate
+  · commit_chapter  [落盘 ['6']]
+  · compile_book  [+1 调用]
+  · consistency_pass  [+1 调用]
+  · book_report
+
+⏸ 停在卡点：终稿确认
+  报告：/home/liang/novel-agent/runs/shipin-20261027-85/report.md
+
+  继续：novel-agent approve shipin-20261027-85 --accept
+  打回：novel-agent approve shipin-20261027-85 --revise "你的意见"
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shipin-20261027-85
+    自动放行卡点 #3
+  ◉ Langfuse 追踪已开：http://localhost:3000  session=shipin-20261027-85
+  · approve_final
+  · export
+
+✓ 跑完了。产出在 /home/liang/novel-agent/runs/shipin-20261027-85
+  ◉ 追踪：http://localhost:3000/project/novel-agent/sessions/shipin-20261027-85

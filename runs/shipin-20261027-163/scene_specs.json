@@ -1,0 +1,217 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "便利店后巷",
+      "present": [
+        "小林",
+        "便利店收银机的钥匙"
+      ],
+      "driver": "小林将钥匙插进铁门锁孔转动",
+      "entry_state": "铁门未锁，钥匙在小林手中",
+      "outcome": "铁门锁上，钥匙留在锁孔内",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "监控室",
+      "present": [
+        "小林",
+        "监控录像带"
+      ],
+      "driver": "小林抽出录像带检查后重新插入",
+      "entry_state": "钥匙留在锁孔内",
+      "outcome": "录像带位置未变，钥匙从锁孔取出",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "监控录像带"
+      ],
+      "driver": "小林低头检查监控录像带是否被移动",
+      "entry_state": "监控录像带位置正常",
+      "outcome": "监控录像带位置正常",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "储物柜钥匙"
+      ],
+      "driver": "小林拿起储物柜钥匙仔细查看",
+      "entry_state": "监控录像带位置正常",
+      "outcome": "储物柜钥匙在小林手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店监控室",
+      "present": [
+        "小林"
+      ],
+      "driver": "小林将储物柜钥匙放回抽屉",
+      "entry_state": "储物柜钥匙在小林手中",
+      "outcome": "储物柜钥匙回到抽屉",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "便利店后巷",
+      "present": [
+        "铁门",
+        "小林"
+      ],
+      "driver": "小林用手指摸了摸铁门上的撬痕",
+      "entry_state": "铁门被撬开，露出里面的储物柜",
+      "outcome": "铁门处于被破坏状态，储物柜开启",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店后巷",
+      "present": [
+        "铁门",
+        "小林"
+      ],
+      "driver": "小林用脚尖踢了踢储物柜的门板",
+      "entry_state": "储物柜开启，内部空无一物",
+      "outcome": "储物柜被打开，监控录像带不见踪影",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店后巷",
+      "present": [
+        "铁门",
+        "小林"
+      ],
+      "driver": "小林将铁门的锁芯拧到一半位置",
+      "entry_state": "储物柜空空如也，铁门部分损坏",
+      "outcome": "铁门被部分破坏，小林尝试阻止进一步破坏",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "便利店停车场",
+      "present": [
+        "黑色轿车",
+        "小林"
+      ],
+      "driver": "小林蹲在轿车后方，举起手机拍照",
+      "entry_state": "小林蹲在轿车后方",
+      "outcome": "手机屏幕亮起，照亮了轿车的车牌",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店停车场",
+      "present": [
+        "黑色轿车",
+        "小林"
+      ],
+      "driver": "小林起身走向轿车，手指划过车窗玻璃",
+      "entry_state": "手机屏幕亮起，照亮了轿车的车牌",
+      "outcome": "车窗玻璃留下一道浅浅的划痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店停车场",
+      "present": [
+        "黑色轿车",
+        "小林"
+      ],
+      "driver": "小林后退两步，举起钥匙对准轿车锁孔",
+      "entry_state": "车窗玻璃留下一道浅浅的划痕",
+      "outcome": "钥匙插入锁孔，轿车的车门发出轻微的咔嗒声",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "便利店门口",
+      "present": [
+        "小林",
+        "张瑞"
+      ],
+      "driver": "张瑞将老式铜钥匙插进铁门锁孔",
+      "entry_state": "铁门锁孔插着铜钥匙",
+      "outcome": "铁门锁孔插着铜钥匙",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店门口",
+      "present": [
+        "小林",
+        "张瑞"
+      ],
+      "driver": "小林把深蓝色制服袖子卷到手肘",
+      "entry_state": "铁门锁孔插着铜钥匙",
+      "outcome": "小林袖子卷到手肘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店门口",
+      "present": [
+        "小林",
+        "张瑞"
+      ],
+      "driver": "张瑞突然把铜钥匙丢进垃圾桶",
+      "entry_state": "小林袖子卷到手肘",
+      "outcome": "铜钥匙掉进垃圾桶",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "便利店后巷",
+      "present": [
+        "小林",
+        "铁门"
+      ],
+      "driver": "小林用钥匙插入铁门锁孔转动",
+      "entry_state": "铁门未锁",
+      "outcome": "铁门锁上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店后巷",
+      "present": [
+        "小林",
+        "铁门"
+      ],
+      "driver": "小林用脚踢了踢铁门确认是否锁死",
+      "entry_state": "铁门锁上",
+      "outcome": "铁门锁死",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店后巷",
+      "present": [
+        "小林",
+        "铁门"
+      ],
+      "driver": "小林用工具撬开铁门缝隙观察内部",
+      "entry_state": "铁门锁死",
+      "outcome": "铁门被撬开",
+      "target_chars": 527
+    }
+  ]
+}

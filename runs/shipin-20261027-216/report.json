@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-216",
+  "profile": "视频分镜",
+  "title": "应急灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7451,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6990,
+    "chapter_chars_mean": 1165,
+    "chapter_chars_median": 1222,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 30.2,
+    "dialogue_chars_pct": 25.1,
+    "dialogue_para_pct": 58.7,
+    "interiority_para_pct": 1.5,
+    "narration_para_pct": 39.8,
+    "turn_under20_pct": 94.3,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 34.3,
+    "attr_adv_pct": 12.7,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.2,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯坠落",
+      "chars": 636,
+      "score": 38.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "应急灯闪烁",
+      "chars": 1323,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钢笔轻点纸面",
+      "chars": 1429,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "蓝色手背的伤痕",
+      "chars": 1565,
+      "score": 35.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "应急灯与笔记本",
+      "chars": 1198,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "蓝色纹身浮现",
+      "chars": 1294,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 585 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章内自我复读 6 句（如「李国强望着他消失的身影，轻轻叹了口气，目光落在墙…」）",
+      "[observe] 标题与《应急灯坠落》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "3": [
+      "单条套路句式超限：「王小明的」×4",
+      "narration_para_pct 34.5 低于目标 35.0"
+    ],
+    "4": [
+      "单条套路句式超限：「李国强站在」×3、「王小明的」×3、「李国强的」×3",
+      "interiority_para_pct 7.3 高于目标 6.0",
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「李国强的」×3",
+      "narration_para_pct 21.7 低于目标 35.0",
+      "dialogue_run_mean 4.5 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 144.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:03:41"
+}

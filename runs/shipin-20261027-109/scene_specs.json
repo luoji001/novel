@@ -1,0 +1,213 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "电影院放映室",
+      "present": [
+        "老周"
+      ],
+      "driver": "老周将胶片盒放在放映机旁",
+      "entry_state": "胶片盒在放映机旁",
+      "outcome": "胶片盒被放置在放映机旁",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室",
+      "present": [
+        "老周"
+      ],
+      "driver": "老周用布满老茧的手紧紧攥住胶片盒",
+      "entry_state": "胶片盒在老周手中",
+      "outcome": "胶片盒被老周攥住",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长",
+        "红色公文包"
+      ],
+      "driver": "陈镇长将公文包放在桌上，拉开拉链",
+      "entry_state": "公文包躺在桌上，拉链拉开",
+      "outcome": "公文包内文件散落，露出泛黄的电影票根",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长",
+        "红色公文包",
+        "助理"
+      ],
+      "driver": "助理接过公文包，将文件整理进抽屉",
+      "entry_state": "文件被整理进抽屉，公文包被收起",
+      "outcome": "公文包被收进抽屉，文件归位",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长"
+      ],
+      "driver": "陈镇长拿起公文包，用力摔向墙角",
+      "entry_state": "公文包被摔向墙角，拉链损坏",
+      "outcome": "公文包摔裂，文件散落一地",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "老邮局",
+      "present": [
+        "小林",
+        "老周"
+      ],
+      "driver": "小林将一叠电影票根推给老周",
+      "entry_state": "电影票根在老周手中",
+      "outcome": "老周接过电影票根并展开",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "老邮局",
+      "present": [
+        "老周"
+      ],
+      "driver": "老周用拇指摩挲票根上的齿孔",
+      "entry_state": "电影票根在老周手中",
+      "outcome": "票根被轻轻展开并露出边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "老邮局",
+      "present": [
+        "老周"
+      ],
+      "driver": "老周将票根夹进旧笔记本的第13页",
+      "entry_state": "票根被展开并露出边缘",
+      "outcome": "票根被夹入笔记本并固定",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "老式放映机"
+      ],
+      "driver": "老周将胶片盒插入放映机槽口",
+      "entry_state": "胶片盒被插入放映机槽口",
+      "outcome": "放映机槽口卡住胶片盒",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "老式放映机"
+      ],
+      "driver": "老周用右手掰动放映机侧面的开关",
+      "entry_state": "胶片盒卡在放映机槽口",
+      "outcome": "放映机发出轻微咔嗒声",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "老式放映机"
+      ],
+      "driver": "老周伸手拔出胶片盒，放映机开始运转",
+      "entry_state": "放映机发出轻微咔嗒声",
+      "outcome": "胶片开始缓缓运转",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长",
+        "银质耳环"
+      ],
+      "driver": "陈镇长整理领带时，耳环滑落至桌面",
+      "entry_state": "银质耳环在桌面",
+      "outcome": "银质耳环躺在桌面中央",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长",
+        "银质耳环"
+      ],
+      "driver": "陈镇长弯腰拾起耳环，放入西装内袋",
+      "entry_state": "银质耳环在桌面",
+      "outcome": "银质耳环被放入西装内袋",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "陈镇长"
+      ],
+      "driver": "陈镇长起身时，耳环从内袋滑出掉在地上",
+      "entry_state": "银质耳环在西装内袋",
+      "outcome": "银质耳环掉落在地面",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "胶片盒"
+      ],
+      "driver": "老周将胶片盒推至放映机正前方",
+      "entry_state": "胶片盒位于放映机正前方",
+      "outcome": "胶片盒被老周握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "胶片盒"
+      ],
+      "driver": "老周用布满老茧的手指反复摩挲胶片盒边缘",
+      "entry_state": "胶片盒被老周握在手中",
+      "outcome": "胶片盒表面留下几道指纹痕迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院放映室",
+      "present": [
+        "老周",
+        "胶片盒"
+      ],
+      "driver": "老周将胶片盒缓缓推入放映机插槽",
+      "entry_state": "胶片盒表面留下几道指纹痕迹",
+      "outcome": "胶片盒完全进入放映机插槽",
+      "target_chars": 527
+    }
+  ]
+}

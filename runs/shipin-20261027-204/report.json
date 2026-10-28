@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-204",
+  "profile": "视频分镜",
+  "title": "冰台上的信",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6481,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6067,
+    "chapter_chars_mean": 1011,
+    "chapter_chars_median": 967,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 26.3,
+    "dialogue_chars_pct": 20.3,
+    "dialogue_para_pct": 56.3,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 43.3,
+    "turn_under20_pct": 94.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 27.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "塑料秤敲击冰台",
+      "chars": 795,
+      "score": 94.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "鱼鳞铺就的迷宫",
+      "chars": 839,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "塑料秤敲击冰台",
+      "chars": 1517,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铁皮箱与冰台对峙",
+      "chars": 1219,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "摩挲信封的指尖",
+      "chars": 1333,
+      "score": 88.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "拾起鱼鳞看字迹",
+      "chars": 772,
+      "score": 36.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "[observe] 章节过短 782 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「王阿婆的」×9",
+      "[observe] 标题重复：「塑料秤敲击冰台」已存在"
+    ],
+    "5": [
+      "narration_para_pct 32.1 低于目标 35.0",
+      "dialogue_run_mean 4.8 高于目标 4.0"
+    ],
+    "6": [
+      "[observe] 章节过短 693 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 161.3,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:44:27"
+}

@@ -1,0 +1,220 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "理发店",
+      "present": [
+        "老周",
+        "铜质推子"
+      ],
+      "driver": "老周将铜质推子用布包着塞进储物柜",
+      "entry_state": "铜质推子在老周手中",
+      "outcome": "铜质推子被布包裹后放入储物柜",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "理发店",
+      "present": [
+        "老周",
+        "铜质推子"
+      ],
+      "driver": "老周从储物柜中取出铜质推子",
+      "entry_state": "铜质推子在储物柜内",
+      "outcome": "铜质推子被老周重新取出",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "理发店储物柜前",
+      "present": [
+        "小林",
+        "储物柜"
+      ],
+      "driver": "小林拽动储物柜门把手，柜门微微晃动",
+      "entry_state": "储物柜静止在原位",
+      "outcome": "储物柜门开始松动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "理发店储物柜前",
+      "present": [
+        "小林",
+        "储物柜"
+      ],
+      "driver": "小林用钥匙插入锁孔，试图打开柜门",
+      "entry_state": "储物柜门松动但未开启",
+      "outcome": "储物柜锁孔被钥匙抵住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "理发店储物柜前",
+      "present": [
+        "小林",
+        "储物柜"
+      ],
+      "driver": "小林用力一拉，储物柜门被拽出半截",
+      "entry_state": "储物柜锁孔被钥匙抵住",
+      "outcome": "储物柜门脱离柜体，露出内部空间",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "理发店",
+      "present": [
+        "陈会计",
+        "账本"
+      ],
+      "driver": "陈会计用账本挡住储物柜锁孔",
+      "entry_state": "账本平放在柜门上",
+      "outcome": "账本压住锁孔，柜门无法打开",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "理发店",
+      "present": [
+        "陈会计",
+        "账本"
+      ],
+      "driver": "陈会计将账本翻到背面，按住柜门",
+      "entry_state": "账本压住锁孔",
+      "outcome": "账本背面朝外，柜门仍被堵住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "理发店",
+      "present": [
+        "陈会计",
+        "账本"
+      ],
+      "driver": "陈会计把账本塞进柜缝，手背擦过锁孔",
+      "entry_state": "账本背面朝外",
+      "outcome": "账本卡在柜缝，锁孔露出一角",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "理发店",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周用布包着铜质推子往储物柜里塞",
+      "entry_state": "镜子立在理发椅旁，表面蒙着薄灰",
+      "outcome": "镜子被老周拿起，擦去表面灰尘",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "理发店",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周用手指抹掉镜面水渍",
+      "entry_state": "镜子被老周擦净，映出他沾着发蜡的手",
+      "outcome": "镜子被老周放回原位，镜面泛着微光",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "理发店",
+      "present": [
+        "老周",
+        "镜子"
+      ],
+      "driver": "老周用布裹住镜子边缘，往储物柜方向挪动",
+      "entry_state": "镜子被老周用布裹住边缘，表面有轻微划痕",
+      "outcome": "镜子被老周放入储物柜，柜门闭合",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "理发区",
+      "present": [
+        "小林",
+        "剪刀",
+        "顾客"
+      ],
+      "driver": "小林用剪刀修剪顾客后颈头发",
+      "entry_state": "剪刀在小林手中，沾着发蜡",
+      "outcome": "剪刀从顾客发梢滑落至地面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "理发区",
+      "present": [
+        "小林",
+        "剪刀"
+      ],
+      "driver": "小林弯腰捡起剪刀擦去发蜡",
+      "entry_state": "剪刀在地面，沾着发蜡",
+      "outcome": "剪刀被小林握在右手，发蜡残留",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "理发区",
+      "present": [
+        "小林",
+        "剪刀"
+      ],
+      "driver": "小林将剪刀插进工具架缝隙",
+      "entry_state": "剪刀在小林手中，发蜡残留",
+      "outcome": "剪刀插进工具架，刀刃朝外",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "理发店",
+      "present": [
+        "陈会计",
+        "账本",
+        "储物柜"
+      ],
+      "driver": "陈会计用账本挡住储物柜锁孔",
+      "entry_state": "陈会计用账本挡住储物柜锁孔",
+      "outcome": "锁孔被账本遮住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "理发店",
+      "present": [
+        "陈会计",
+        "账本"
+      ],
+      "driver": "陈会计将账本翻到某一页挡住锁孔",
+      "entry_state": "锁孔被账本遮住",
+      "outcome": "锁孔被账本遮住且账本翻到某一页",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "理发店",
+      "present": [
+        "陈会计",
+        "账本"
+      ],
+      "driver": "陈会计将账本抽回并露出锁孔",
+      "entry_state": "锁孔被账本遮住且账本翻到某一页",
+      "outcome": "锁孔重新暴露",
+      "target_chars": 527
+    }
+  ]
+}

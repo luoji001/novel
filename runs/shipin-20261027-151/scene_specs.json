@@ -1,0 +1,221 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老张将胶片放入放映机槽口",
+      "entry_state": "胶片在放映机槽口等待启动",
+      "outcome": "胶片被固定在放映机中",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老张按下放映机启动键",
+      "entry_state": "胶片开始在放映机中运转",
+      "outcome": "胶片开始在屏幕上投射画面",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "镇长办公室",
+      "present": [
+        "周镇长",
+        "铜制钥匙"
+      ],
+      "driver": "周镇长将钥匙插入锁孔，转动三圈",
+      "entry_state": "钥匙插进锁孔",
+      "outcome": "锁孔发出一声轻微的咔嗒声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "镇长办公室",
+      "present": [
+        "周镇长",
+        "铜制钥匙"
+      ],
+      "driver": "周镇长用钥匙撬开锁芯，金属片弹出",
+      "entry_state": "钥匙插进锁孔",
+      "outcome": "锁芯被撬开，钥匙尖端有明显刮痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "镇长办公室",
+      "present": [
+        "周镇长",
+        "铜制钥匙"
+      ],
+      "driver": "周镇长将钥匙丢进抽屉，金属碰撞声响起",
+      "entry_state": "钥匙被撬开",
+      "outcome": "钥匙躺在抽屉底部，钥匙环断裂",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "陈师傅",
+        "老张的旧笔记本"
+      ],
+      "driver": "陈师傅用放大镜贴近笔记本边缘",
+      "entry_state": "陈师傅用放大镜贴近笔记本边缘",
+      "outcome": "笔记本第37页的折痕被放大镜压平",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "陈师傅",
+        "老张的旧笔记本"
+      ],
+      "driver": "陈师傅用黑色皮手套擦掉笔记本上的灰尘",
+      "entry_state": "笔记本第37页的折痕被放大镜压平",
+      "outcome": "笔记本表面的灰尘被黑色皮手套擦净",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "陈师傅",
+        "老张的旧笔记本"
+      ],
+      "driver": "陈师傅将笔记本夹进工具箱最底层",
+      "entry_state": "笔记本表面的灰尘被黑色皮手套擦净",
+      "outcome": "笔记本被夹进工具箱最底层",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老张将胶片插入放映机槽口",
+      "entry_state": "胶片被插入放映机槽口",
+      "outcome": "胶片开始缓缓转动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老张的银色耳钉在灯光下反射出微光",
+      "entry_state": "胶片开始缓缓转动",
+      "outcome": "银色耳钉反射出微光",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机",
+        "胶片"
+      ],
+      "driver": "老张用手指轻轻触碰银色耳钉",
+      "entry_state": "银色耳钉反射出微光",
+      "outcome": "银色耳钉被老张握在手中",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "电影院大厅",
+      "present": [
+        "老张",
+        "观众"
+      ],
+      "driver": "观众坐在座椅上，座椅扶手有冰霜",
+      "entry_state": "座椅保持原状",
+      "outcome": "座椅扶手结冰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "电影院大厅",
+      "present": [
+        "老张",
+        "观众"
+      ],
+      "driver": "观众挪动座椅，座椅滑向墙角",
+      "entry_state": "座椅扶手结冰",
+      "outcome": "座椅滑向墙角",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "电影院大厅",
+      "present": [
+        "老张",
+        "观众"
+      ],
+      "driver": "观众扶正座椅，座椅恢复原位",
+      "entry_state": "座椅滑向墙角",
+      "outcome": "座椅恢复原位",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老张将胶片插入放映机槽口",
+      "entry_state": "胶片在放映机槽口",
+      "outcome": "胶片开始缓慢转动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "胶片在放映机中完全展开",
+      "entry_state": "胶片在放映机中完全展开",
+      "outcome": "胶片画面开始在幕布上显现",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "贴着手写标签的胶片"
+      ],
+      "driver": "老张伸手触碰幕布上的最后一帧画面",
+      "entry_state": "胶片画面开始在幕布上显现",
+      "outcome": "胶片停止转动，画面消失",
+      "target_chars": 527
+    }
+  ]
+}

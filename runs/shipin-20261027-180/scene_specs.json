@@ -1,0 +1,210 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "李建国",
+        "教练车"
+      ],
+      "driver": "李建国伸手摸到副驾驶座上的硬币",
+      "entry_state": "李建国站在教练车旁",
+      "outcome": "硬币从副驾驶座滑到李建国掌心",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "教练车内部",
+      "present": [
+        "李建国"
+      ],
+      "driver": "李建国将硬币放进口袋",
+      "entry_state": "硬币在李建国掌心",
+      "outcome": "硬币消失在李建国的口袋里",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "学员宿舍",
+      "present": [
+        "林小满",
+        "学员的身份证"
+      ],
+      "driver": "林小满将身份证放在手机镜头前",
+      "entry_state": "身份证平放在桌面",
+      "outcome": "身份证被手机镜头框住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员宿舍",
+      "present": [
+        "林小满",
+        "学员的身份证"
+      ],
+      "driver": "林小满用手指捏起身份证一角",
+      "entry_state": "身份证被手机镜头框住",
+      "outcome": "身份证被捏起一角并轻微抖动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员宿舍",
+      "present": [
+        "林小满",
+        "学员的身份证"
+      ],
+      "driver": "林小满将身份证塞进连帽衫口袋",
+      "entry_state": "身份证被捏起一角并轻微抖动",
+      "outcome": "身份证完全消失在口袋里",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "陈志远"
+      ],
+      "driver": "陈志远将计时器贴在胸口，数字从120开始跳动",
+      "entry_state": "计时器在陈志远胸口，数字显示120",
+      "outcome": "计时器开始正常计时，数字逐渐增加",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场",
+      "present": [
+        "陈志远"
+      ],
+      "driver": "陈志远用左手按住计时器，右手拿起薄荷糖",
+      "entry_state": "计时器在陈志远左手，数字显示121",
+      "outcome": "计时器被陈志远按住，数字停止跳动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "陈志远"
+      ],
+      "driver": "陈志远将计时器放回原位，数字停留在121",
+      "entry_state": "计时器在原位，数字显示121",
+      "outcome": "计时器回到原位，数字停留在121",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "停车场",
+      "present": [
+        "李建国",
+        "教练车钥匙"
+      ],
+      "driver": "李建国将钥匙插进锁孔又拔出",
+      "entry_state": "钥匙在李建国手中",
+      "outcome": "钥匙留在锁孔里",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "停车场",
+      "present": [
+        "李建国",
+        "教练车钥匙"
+      ],
+      "driver": "李建国用拇指摩挲钥匙齿纹",
+      "entry_state": "钥匙留在锁孔里",
+      "outcome": "钥匙被李建国握在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "停车场",
+      "present": [
+        "李建国",
+        "教练车钥匙"
+      ],
+      "driver": "李建国将钥匙抛向空中接住",
+      "entry_state": "钥匙被李建国握在掌心",
+      "outcome": "钥匙在李建国手中",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "学员宿舍",
+      "present": [
+        "陈志远"
+      ],
+      "driver": "陈志远把手机贴在耳边，糖纸掉在地上",
+      "entry_state": "手机在陈志远耳边，糖纸在地",
+      "outcome": "手机从耳边移开，糖纸在地",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "学员宿舍",
+      "present": [
+        "陈志远"
+      ],
+      "driver": "陈志远用脚碾碎糖纸，手机滑向床沿",
+      "entry_state": "手机在床沿，糖纸被碾碎",
+      "outcome": "手机滑落床沿，糖纸碎屑散开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "学员宿舍",
+      "present": [
+        "陈志远"
+      ],
+      "driver": "陈志远弯腰捡起手机，屏幕显示身份证照片",
+      "entry_state": "手机滑落床沿，糖纸碎屑散开",
+      "outcome": "手机被捡起，屏幕显示身份证照片",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场",
+      "present": [
+        "李建国",
+        "教练车"
+      ],
+      "driver": "李建国伸手摸向副驾驶座的空位",
+      "entry_state": "副驾驶座空无一物",
+      "outcome": "教练车门被推开，露出空荡的副驾驶座",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "教练车内部",
+      "present": [
+        "李建国",
+        "硬币"
+      ],
+      "driver": "李建国用拇指摩挲硬币边缘，硬币滚落至脚边",
+      "entry_state": "硬币在脚边滚动",
+      "outcome": "硬币从脚边滑入座椅缝隙",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场",
+      "present": [
+        "李建国"
+      ],
+      "driver": "李建国弯腰拾起硬币，硬币从指缝掉落",
+      "entry_state": "硬币从指缝掉落",
+      "outcome": "硬币消失在地缝中，李建国转身离开",
+      "target_chars": 527
+    }
+  ]
+}

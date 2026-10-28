@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-353",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6718,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6069,
+    "chapter_chars_mean": 1012,
+    "chapter_chars_median": 1030,
+    "chapter_chars_cv": 0.19,
+    "paragraphs_mean": 40.3,
+    "dialogue_chars_pct": 28.3,
+    "dialogue_para_pct": 60.0,
+    "interiority_para_pct": 0.5,
+    "narration_para_pct": 39.5,
+    "turn_under20_pct": 88.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 4.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 3.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码贴纸风波",
+      "chars": 985,
+      "score": 96.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "捏皱的香烟包装",
+      "chars": 1150,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "二维码贴纸风波",
+      "chars": 1114,
+      "score": 90.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "二维码贴纸风波",
+      "chars": 950,
+      "score": 23.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "二维码贴纸风波",
+      "chars": 1070,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "贴纸压不住菜刀",
+      "chars": 1443,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 21.9 低于目标 35.0",
+      "dialogue_run_mean 6 高于目标 4.0"
+    ],
+    "2": [
+      "单条套路句式超限：「陈阿婆的」×4",
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "3": [
+      "narration_para_pct 21.1 低于目标 35.0",
+      "[observe] 标题重复：「二维码贴纸风波」已存在"
+    ],
+    "4": [
+      "narration_para_pct 93.7 高于目标 90.0",
+      "[observe] 章节过短 725 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题重复：「二维码贴纸风波」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「陈阿婆的」×3",
+      "narration_para_pct 32.1 低于目标 35.0",
+      "[observe] 标题重复：「二维码贴纸风波」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:43:44"
+}

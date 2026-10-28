@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-201",
+  "profile": "视频分镜",
+  "title": "雨靴与电梯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6179,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5737,
+    "chapter_chars_mean": 956,
+    "chapter_chars_median": 1020,
+    "chapter_chars_cv": 0.18,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 26.5,
+    "dialogue_para_pct": 58.1,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 40.9,
+    "turn_under20_pct": 90.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 40.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "伞骨折痕",
+      "chars": 750,
+      "score": 94.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "黑色橡胶的低语",
+      "chars": 1197,
+      "score": 37.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "雨靴坠落时刻",
+      "chars": 858,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "徽章嵌入凹槽",
+      "chars": 1053,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "钥匙撞击声响起",
+      "chars": 1112,
+      "score": 91.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "雨靴与钥匙碰撞",
+      "chars": 1203,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "narration_para_pct 25.9 低于目标 35.0"
+    ],
+    "2": [
+      "[observe] 章内自我复读 1 句（如「周志远迅速上前按下紧急制动按钮，同时抬手拦住即将…」）"
+    ],
+    "3": [
+      "narration_para_pct 23.8 低于目标 35.0",
+      "[observe] 章节过短 802 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "narration_para_pct 22.6 低于目标 35.0",
+      "dialogue_run_mean 5 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 53,
+    "calls_counted": 53,
+    "llm_seconds": 194.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:38:10"
+}

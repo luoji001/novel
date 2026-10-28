@@ -1,0 +1,224 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老张",
+        "冰台"
+      ],
+      "driver": "老张左手按住冰台边缘，试图拉信",
+      "entry_state": "冰台静止，信压在冰台上",
+      "outcome": "冰台边缘被按压变形",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老张",
+        "冰台"
+      ],
+      "driver": "老张右手扶住冰台，左臂肌肉绷紧",
+      "entry_state": "冰台边缘变形，信未移动",
+      "outcome": "冰台表面出现凹痕",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "市场门口",
+      "present": [
+        "小张",
+        "水果刀"
+      ],
+      "driver": "小张右手握刀贴近冰台边缘",
+      "entry_state": "刀贴着冰台边缘",
+      "outcome": "刀尖触到冰台表面",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "市场门口",
+      "present": [
+        "小张",
+        "水果刀"
+      ],
+      "driver": "小张左手扶住刀柄，刀斜向冰台中央",
+      "entry_state": "刀尖触到冰台表面",
+      "outcome": "刀身倾斜，刀刃离冰台约三指宽",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "市场门口",
+      "present": [
+        "小张",
+        "水果刀"
+      ],
+      "driver": "小张右臂肌肉绷紧，刀刃抵住冰台边缘",
+      "entry_state": "刀身倾斜，刀刃离冰台约三指宽",
+      "outcome": "刀刃与冰台边缘接触",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "市场门口",
+      "present": [
+        "陈师傅",
+        "老张",
+        "小张"
+      ],
+      "driver": "陈师傅右手举起警示牌，敲击地面三下",
+      "entry_state": "警示牌平放在地面，未被触碰",
+      "outcome": "警示牌被陈师傅抬起，悬在半空",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "市场门口",
+      "present": [
+        "陈师傅",
+        "老张",
+        "小张"
+      ],
+      "driver": "陈师傅左手接过警示牌，右手按住牌面",
+      "entry_state": "警示牌悬在半空，未被触碰",
+      "outcome": "警示牌被陈师傅左手握住，右手按住牌面",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "市场门口",
+      "present": [
+        "陈师傅",
+        "老张",
+        "小张"
+      ],
+      "driver": "陈师傅将警示牌贴在地面，转身离开",
+      "entry_state": "警示牌被陈师傅左手握住，右手按住牌面",
+      "outcome": "警示牌被陈师傅贴在地面，陈师傅转身离开",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老张",
+        "信"
+      ],
+      "driver": "老张左手按住冰台边缘，信被拉向自己",
+      "entry_state": "信在冰台上，未被触碰",
+      "outcome": "信开始向老张方向移动",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老张",
+        "信"
+      ],
+      "driver": "老张右手抓住信角，信脱离冰台",
+      "entry_state": "信向老张方向移动",
+      "outcome": "信脱离冰台，被老张抓住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "老张",
+        "信"
+      ],
+      "driver": "老张将信压在左手下，信被完全控制",
+      "entry_state": "信被老张抓住",
+      "outcome": "信被老张完全控制",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "出租屋",
+      "present": [
+        "小张",
+        "账本"
+      ],
+      "driver": "小张用左手翻开账本第37页",
+      "entry_state": "账本平放在桌面上",
+      "outcome": "账本第37页被掀开，露出泛黄的纸张",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "出租屋",
+      "present": [
+        "小张",
+        "账本"
+      ],
+      "driver": "小张用右手将账本夹进夹子",
+      "entry_state": "账本第37页被掀开",
+      "outcome": "账本被夹住，第37页不再外露",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "出租屋",
+      "present": [
+        "小张",
+        "账本"
+      ],
+      "driver": "小张用左手撕下账本最后一页",
+      "entry_state": "账本被夹住",
+      "outcome": "账本最后一页被撕下，露出空白的纸页",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "鱼摊",
+      "present": [
+        "老张",
+        "冰台",
+        "红绳"
+      ],
+      "driver": "老张左手按住冰台边缘，红绳垂在脚边",
+      "entry_state": "红绳垂在脚边",
+      "outcome": "红绳从脚边滑向冰台边缘",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "鱼摊",
+      "present": [
+        "老张",
+        "冰台",
+        "红绳"
+      ],
+      "driver": "老张右手抓住红绳，将其拽向自己",
+      "entry_state": "红绳滑向冰台边缘",
+      "outcome": "红绳被老张拽到左手边",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "鱼摊",
+      "present": [
+        "老张",
+        "冰台",
+        "红绳"
+      ],
+      "driver": "老张用脚尖挑起红绳，甩向空中",
+      "entry_state": "红绳被拽到左手边",
+      "outcome": "红绳在空中划出弧线",
+      "target_chars": 527
+    }
+  ]
+}

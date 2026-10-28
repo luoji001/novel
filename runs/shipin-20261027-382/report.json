@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-382",
+  "profile": "视频分镜",
+  "title": "船票",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6640,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6244,
+    "chapter_chars_mean": 1041,
+    "chapter_chars_median": 1050,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 24.5,
+    "dialogue_chars_pct": 30.0,
+    "dialogue_para_pct": 70.0,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 29.3,
+    "turn_under20_pct": 86.8,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.4,
+    "attr_adv_pct": 20.2,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 4.2,
+    "turn_len_median": 12
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币上的永安二字",
+      "chars": 718,
+      "score": 39.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "手指抚过船票边缘",
+      "chars": 1089,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "陶碗碎裂的瞬间",
+      "chars": 1142,
+      "score": 34.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 4,
+      "title": "船票上的永安二字",
+      "chars": 1137,
+      "score": 87.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铜壶壶嘴对准陶碗",
+      "chars": 854,
+      "score": 36.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "手指抚过船票边缘",
+      "chars": 1694,
+      "score": 88.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 100.0 > 18.0（结构塌缩）"
+    ],
+    "3": [
+      "narration_para_pct 12.5 低于目标 35.0",
+      "dialogue_run_mean 7 高于目标 4.0",
+      "[observe] 章内自我复读 4 句（如「可这是骗人的吧？我查了，那个航线早在十五年前就停…」）"
+    ],
+    "4": [
+      "narration_para_pct 21.7 低于目标 35.0",
+      "dialogue_run_mean 6 高于目标 4.0",
+      "[observe] 标题与《硬币上的永安二字》近似 0.75 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "[observe] 章节过短 790 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "narration_para_pct 17.1 低于目标 35.0",
+      "dialogue_run_mean 7 高于目标 4.0",
+      "[observe] 标题重复：「手指抚过船票边缘」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:28:08"
+}

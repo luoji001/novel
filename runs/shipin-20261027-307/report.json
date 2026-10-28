@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-307",
+  "profile": "视频分镜",
+  "title": "行李箱",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7039,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6558,
+    "chapter_chars_mean": 1093,
+    "chapter_chars_median": 1084,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 31.8,
+    "dialogue_chars_pct": 24.6,
+    "dialogue_para_pct": 51.8,
+    "interiority_para_pct": 2.4,
+    "narration_para_pct": 45.8,
+    "turn_under20_pct": 92.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 44.0,
+    "attr_adv_pct": 2.2,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "黑色行李箱的重量",
+      "chars": 777,
+      "score": 96.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "红色保温杯的温度",
+      "chars": 1430,
+      "score": 94.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "充电器与保温杯",
+      "chars": 1491,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "驾驶证的重量",
+      "chars": 1007,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "行李箱坠入雪堆",
+      "chars": 1310,
+      "score": 93.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "行李箱坠入雪堆",
+      "chars": 1018,
+      "score": 93.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 47.5 高于目标 45.0",
+      "narration_para_pct 14.3 低于目标 35.0",
+      "dialogue_run_mean 6 高于目标 4.0"
+    ],
+    "5": [
+      "narration_para_pct 31.4 低于目标 35.0"
+    ],
+    "6": [
+      "[observe] 标题重复：「行李箱坠入雪堆」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:28:20"
+}

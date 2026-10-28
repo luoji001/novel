@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-244",
+  "profile": "视频分镜",
+  "title": "红灯",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6188,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5732,
+    "chapter_chars_mean": 955,
+    "chapter_chars_median": 997,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 28.3,
+    "dialogue_chars_pct": 26.1,
+    "dialogue_para_pct": 56.0,
+    "interiority_para_pct": 1.0,
+    "narration_para_pct": 43.0,
+    "turn_under20_pct": 91.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 24.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯的红光",
+      "chars": 456,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铅笔的痕迹",
+      "chars": 1051,
+      "score": 36.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "保温杯的刻痕",
+      "chars": 1125,
+      "score": 94.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "书包的裂痕",
+      "chars": 994,
+      "score": 92.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "铅笔的断口",
+      "chars": 1138,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "应急灯的摇晃",
+      "chars": 1418,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 414 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「”王小明低」×3",
+      "[observe] 章内自我复读 2 句（如「王小明抬起头，眼中满是委屈与慌乱…」）"
+    ],
+    "3": [
+      "narration_para_pct 34.6 低于目标 35.0"
+    ],
+    "5": [
+      "单条套路句式超限：「王小明的」×4",
+      "[observe] 标题与《铅笔的痕迹》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "命中套话收尾句",
+      "单条套路句式超限：「王小明的」×3",
+      "[observe] 标题与《应急灯的红光》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:48:36"
+}

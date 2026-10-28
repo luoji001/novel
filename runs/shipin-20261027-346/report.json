@@ -1,0 +1,119 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-346",
+  "profile": "视频分镜",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5677,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5255,
+    "chapter_chars_mean": 876,
+    "chapter_chars_median": 877,
+    "chapter_chars_cv": 0.21,
+    "paragraphs_mean": 24.2,
+    "dialogue_chars_pct": 7.5,
+    "dialogue_para_pct": 27.8,
+    "interiority_para_pct": 4.0,
+    "narration_para_pct": 68.2,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 1.3,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜锈痕迹的摩挲",
+      "chars": 643,
+      "score": 39.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钥匙卡入铁门缝隙",
+      "chars": 900,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "钥匙敲击箱体",
+      "chars": 958,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙摩挲铜锈痕迹",
+      "chars": 1133,
+      "score": 8.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "水滴入裂痕",
+      "chars": 911,
+      "score": 17.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 6,
+      "title": "擦拭眼镜的荧光纹",
+      "chars": 1126,
+      "score": 58.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 592 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 章节过短 844 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「他说着往身后退了一步，靴底碾碎地上干枯的海藻…」）"
+    ],
+    "4": [
+      "interiority_para_pct 13.0 高于目标 6.0",
+      "[observe] 章内自我复读 1 句（如「林婉清站起身，连衣裙随着动作飘动，露出小腿上淡褐…」）"
+    ],
+    "5": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 97.9 高于目标 90.0",
+      "[observe] 章内自我复读 2 句（如「水面泛起涟漪，映出窗外飘落的一片银杏叶…」）",
+      "[observe] 章节过短 766 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 123.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:32:27"
+}

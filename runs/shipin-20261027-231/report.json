@@ -1,0 +1,113 @@
+{
+  "consistency": "1. 第二章提到“李小满为取父亲遗留的箱子与老张发生冲突”，但第一章已提到“李小满为取三年前寄存的箱子与老张激烈争执”，且第三章再次提到“李小满为取父亲遗留的钥匙箱与老张对峙”，存在重复表述，但未明确指出“父亲遗留的箱子”与“三年前寄存的箱子”是否为同一物品，存在模糊性。\n\n2. 第四章提到“陈晓峰在便利店发现一袋陌生钥匙”，但第五章提到“李小满为取父亲遗留的箱子闯入寄存处”，未说明钥匙与箱子之间的关联，导致钥匙与箱子的联系未被明确交代。\n\n3. 第五章提到“李小满为取父亲遗留的箱子闯入寄存处”，但第六章提到“李小满带着父亲留下的箱子和照片找到老张”，未说明箱子是否为“父亲遗留的箱子”，存在前后不一致。",
+  "slug": "shipin-20261027-231",
+  "profile": "视频分镜",
+  "title": "黑箱",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6123,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5715,
+    "chapter_chars_mean": 952,
+    "chapter_chars_median": 930,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 26.3,
+    "dialogue_chars_pct": 24.4,
+    "dialogue_para_pct": 58.4,
+    "interiority_para_pct": 2.6,
+    "narration_para_pct": 39.0,
+    "turn_under20_pct": 91.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 53.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙坠入锁孔",
+      "chars": 709,
+      "score": 95.5,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "登记本被脚顶开",
+      "chars": 947,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "钥匙触到锁孔",
+      "chars": 859,
+      "score": 36.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙藏进纸袋",
+      "chars": 1179,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "钥匙触到锁孔",
+      "chars": 1058,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "黑色皮箱的重量",
+      "chars": 1365,
+      "score": 94.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "3": [
+      "[observe] 章节过短 807 < 870（本章目标 1582 字的 55%）",
+      "[observe] 标题与《钥匙坠入锁孔》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "5": [
+      "单条套路句式超限：「李小满的」×4",
+      "narration_para_pct 33.3 低于目标 35.0",
+      "[observe] 标题重复：「钥匙触到锁孔」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「李小满的」×5",
+      "narration_para_pct 20.9 低于目标 35.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 141.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:27:45"
+}

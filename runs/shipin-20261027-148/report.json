@@ -1,0 +1,112 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-148",
+  "profile": "视频分镜",
+  "title": "冰台上的胎记",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6013,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5594,
+    "chapter_chars_mean": 932,
+    "chapter_chars_median": 996,
+    "chapter_chars_cv": 0.23,
+    "paragraphs_mean": 27,
+    "dialogue_chars_pct": 17.7,
+    "dialogue_para_pct": 52.1,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 47.9,
+    "turn_under20_pct": 94.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 36.1,
+    "attr_adv_pct": 2.5,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "鱼秤上的水珠",
+      "chars": 591,
+      "score": 15.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "信与胎记的对峙",
+      "chars": 1243,
+      "score": 93.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "鱼尾撞破塑料袋",
+      "chars": 926,
+      "score": 91.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "鱼秤砸进塑料袋",
+      "chars": 1108,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "冰台上的鱼鳞",
+      "chars": 1022,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "信与铜镯的对峙",
+      "chars": 1117,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 529 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "6": [
+      "narration_para_pct 20.8 低于目标 35.0",
+      "[observe] 标题与《信与胎记的对峙》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:11:42"
+}

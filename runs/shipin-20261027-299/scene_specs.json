@@ -1,0 +1,218 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "三楼楼梯间",
+      "present": [
+        "李素芬",
+        "张国强"
+      ],
+      "driver": "李素芬将黑色雨靴放在台阶中央",
+      "entry_state": "黑色雨靴位于台阶中央",
+      "outcome": "黑色雨靴被放置在台阶中央",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "三楼楼梯间",
+      "present": [
+        "李素芬",
+        "张国强"
+      ],
+      "driver": "张国强伸手去捡黑色雨靴",
+      "entry_state": "黑色雨靴位于台阶中央",
+      "outcome": "黑色雨靴被张国强伸手触碰",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "物业办公室",
+      "present": [
+        "张国强",
+        "李素芬"
+      ],
+      "driver": "张国强用钥匙串敲打门框",
+      "entry_state": "张国强站在办公桌前",
+      "outcome": "张国强将泛黄的纸条递给李素芬",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "物业办公室",
+      "present": [
+        "李素芬"
+      ],
+      "driver": "李素芬接过纸条，手指抚过字迹",
+      "entry_state": "李素芬接过纸条",
+      "outcome": "纸条留在李素芬手中，未被撕毁",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "物业办公室",
+      "present": [
+        "李素芬"
+      ],
+      "driver": "李素芬将纸条折成一角塞进口袋",
+      "entry_state": "纸条在李素芬手中",
+      "outcome": "纸条被李素芬收起，不再出现在眼前",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "三楼楼梯间",
+      "present": [
+        "李素芬",
+        "张国强"
+      ],
+      "driver": "李素芬蹲下，捡起黑色雨靴检查鞋带",
+      "entry_state": "李素芬蹲下检查鞋带",
+      "outcome": "黑色雨靴被李素芬捡起并检查",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "三楼楼梯间",
+      "present": [
+        "李素芬",
+        "张国强"
+      ],
+      "driver": "张国强伸手夺回雨靴，鞋带滑落",
+      "entry_state": "黑色雨靴被李素芬捡起并检查",
+      "outcome": "黑色雨靴从李素芬手中滑落",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "三楼楼梯间",
+      "present": [
+        "李素芬",
+        "张国强"
+      ],
+      "driver": "李素芬抓住鞋带，将雨靴系紧",
+      "entry_state": "黑色雨靴从李素芬手中滑落",
+      "outcome": "黑色雨靴被李素芬系紧并握在手中",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "物业办公室",
+      "present": [
+        "张国强",
+        "生锈的钥匙"
+      ],
+      "driver": "张国强将钥匙挂在门后铁钩上",
+      "entry_state": "钥匙挂在门后铁钩上",
+      "outcome": "钥匙挂在门后铁钩上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "物业办公室",
+      "present": [
+        "张国强",
+        "生锈的钥匙"
+      ],
+      "driver": "张国强用钥匙敲击门框发出声响",
+      "entry_state": "钥匙挂在门后铁钩上",
+      "outcome": "钥匙在张国强手中晃动",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "楼梯间门口",
+      "present": [
+        "李素芬",
+        "张国强",
+        "生锈的钥匙"
+      ],
+      "driver": "李素芬伸手接住钥匙并握紧",
+      "entry_state": "钥匙在张国强手中晃动",
+      "outcome": "钥匙被李素芬握在手中",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "三楼楼梯间",
+      "present": [
+        "李素芬",
+        "黑色雨靴"
+      ],
+      "driver": "李素芬将雨靴放在台阶中央",
+      "entry_state": "雨靴在台阶中央",
+      "outcome": "雨靴留在台阶上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "三楼楼梯间",
+      "present": [
+        "李素芬",
+        "黑色雨靴"
+      ],
+      "driver": "李素芬转身离开，雨靴未动",
+      "entry_state": "雨靴留在台阶上",
+      "outcome": "李素芬离开，雨靴仍在台阶上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "三楼楼梯间",
+      "present": [
+        "张国强",
+        "黑色雨靴"
+      ],
+      "driver": "张国强捡起雨靴，放至桌上",
+      "entry_state": "雨靴留在台阶上",
+      "outcome": "雨靴被张国强放在桌上",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "物业办公室",
+      "present": [
+        "张国强",
+        "生锈的钥匙"
+      ],
+      "driver": "张国强用钥匙串敲打门框",
+      "entry_state": "钥匙挂在门后",
+      "outcome": "钥匙从门后移到张国强手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "物业办公室",
+      "present": [
+        "张国强",
+        "生锈的钥匙"
+      ],
+      "driver": "张国强将钥匙插进钥匙串",
+      "entry_state": "钥匙在张国强手中",
+      "outcome": "钥匙串上的钥匙被重新排列",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "物业办公室",
+      "present": [
+        "张国强",
+        "李素芬",
+        "生锈的钥匙"
+      ],
+      "driver": "李素芬伸手接住钥匙",
+      "entry_state": "钥匙在张国强手中",
+      "outcome": "钥匙从张国强手中转移到李素芬手中",
+      "target_chars": 527
+    }
+  ]
+}

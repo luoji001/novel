@@ -1,0 +1,222 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "停车场",
+      "present": [
+        "李岩",
+        "黑色皮箱"
+      ],
+      "driver": "李岩举起手机，屏幕光照射皮箱拉链",
+      "entry_state": "手机在李岩手中，屏幕亮着",
+      "outcome": "手机屏幕光照射在皮箱拉链上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "停车场",
+      "present": [
+        "李岩",
+        "黑色皮箱"
+      ],
+      "driver": "李岩将手机放回口袋，双手扶住皮箱",
+      "entry_state": "手机在李岩口袋，屏幕熄灭",
+      "outcome": "手机回到李岩口袋，双手扶住皮箱",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "便利店",
+      "present": [
+        "店员",
+        "热饮杯",
+        "监控摄像头"
+      ],
+      "driver": "店员用热饮杯遮住监控摄像头",
+      "entry_state": "监控摄像头被热饮杯遮住",
+      "outcome": "热饮杯挡住摄像头，店员递出热饮",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店",
+      "present": [
+        "店员",
+        "热饮",
+        "李岩"
+      ],
+      "driver": "店员将热饮杯递给李岩",
+      "entry_state": "热饮杯在李岩手中",
+      "outcome": "李岩接过热饮，热饮杯离开店员手",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店",
+      "present": [
+        "李岩",
+        "热饮"
+      ],
+      "driver": "李岩用热饮杯挡住皮箱",
+      "entry_state": "热饮杯在李岩手中",
+      "outcome": "热饮杯挡住皮箱，李岩转身离开",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "停车场角落",
+      "present": [
+        "张磊",
+        "黑色皮箱"
+      ],
+      "driver": "张磊用登山杖顶住皮箱侧面",
+      "entry_state": "张磊用登山杖顶住皮箱侧面",
+      "outcome": "登山杖尖端抵住皮箱锁扣",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "停车场角落",
+      "present": [
+        "张磊",
+        "黑色皮箱",
+        "登山杖"
+      ],
+      "driver": "张磊用登山杖撬动锁扣",
+      "entry_state": "登山杖尖端抵住皮箱锁扣",
+      "outcome": "登山杖开始弯曲，锁扣发出金属摩擦声",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "停车场角落",
+      "present": [
+        "张磊",
+        "黑色皮箱",
+        "登山杖"
+      ],
+      "driver": "张磊将登山杖横放压住皮箱",
+      "entry_state": "登山杖开始弯曲，锁扣发出金属摩擦声",
+      "outcome": "登山杖完全变形，皮箱锁扣被撬开",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "停车场角落",
+      "present": [
+        "李岩",
+        "黑色皮箱"
+      ],
+      "driver": "李岩用手机屏幕照向皮箱拉链",
+      "entry_state": "皮箱静止在地面",
+      "outcome": "皮箱拉链反射出微弱的光斑",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "停车场角落",
+      "present": [
+        "李岩",
+        "黑色皮箱"
+      ],
+      "driver": "李岩用左手扶住皮箱防止其滑动",
+      "entry_state": "皮箱拉链反射出光斑",
+      "outcome": "皮箱边缘轻微倾斜",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "停车场角落",
+      "present": [
+        "李岩",
+        "黑色皮箱"
+      ],
+      "driver": "李岩用右手按住皮箱试图拉开",
+      "entry_state": "皮箱边缘轻微倾斜",
+      "outcome": "皮箱开始缓慢向地面倾斜",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "停车场角落",
+      "present": [
+        "张磊",
+        "皮箱"
+      ],
+      "driver": "张磊用登山杖顶住皮箱锁扣",
+      "entry_state": "皮箱静止在地面",
+      "outcome": "皮箱锁扣被顶起半寸",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "停车场角落",
+      "present": [
+        "张磊",
+        "皮箱"
+      ],
+      "driver": "张磊用登山杖撬动皮箱底部",
+      "entry_state": "皮箱锁扣被顶起半寸",
+      "outcome": "皮箱底部出现裂痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "停车场角落",
+      "present": [
+        "张磊",
+        "皮箱"
+      ],
+      "driver": "张磊将皮箱扛到肩上",
+      "entry_state": "皮箱底部出现裂痕",
+      "outcome": "皮箱被扛离地面",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "停车场角落",
+      "present": [
+        "李岩",
+        "黑色皮箱"
+      ],
+      "driver": "李岩用手机光照射皮箱拉链",
+      "entry_state": "皮箱静止在地面",
+      "outcome": "皮箱拉链反射出微弱的光",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "停车场角落",
+      "present": [
+        "李岩",
+        "黑色皮箱"
+      ],
+      "driver": "李岩用右手翻开皮箱夹层",
+      "entry_state": "皮箱拉链被照亮",
+      "outcome": "皮箱夹层露出一张证件",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "停车场角落",
+      "present": [
+        "李岩",
+        "黑色皮箱"
+      ],
+      "driver": "李岩将钥匙插入锁扣转动",
+      "entry_state": "皮箱夹层露出证件",
+      "outcome": "皮箱锁扣发出咔哒一声响",
+      "target_chars": 527
+    }
+  ]
+}

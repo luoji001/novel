@@ -1,0 +1,221 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "胶片盒"
+      ],
+      "driver": "老张用布满老茧的手打开胶片盒",
+      "entry_state": "胶片盒被打开",
+      "outcome": "胶片盒盖弹开，露出一盘贴标签的胶片",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "胶片"
+      ],
+      "driver": "老张右手食指摩挲标签上的字迹",
+      "entry_state": "胶片被取出",
+      "outcome": "胶片被取出，标签上的字迹被手指擦亮",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "电影海报",
+        "售票窗口"
+      ],
+      "driver": "周镇长拎着公文包走近售票窗口",
+      "entry_state": "公文包在周镇长手中",
+      "outcome": "公文包靠近售票窗口",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "公文包",
+        "售票窗口"
+      ],
+      "driver": "周镇长用公文包轻敲售票窗口玻璃",
+      "entry_state": "公文包靠近售票窗口",
+      "outcome": "公文包与售票窗口发生接触",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "公文包",
+        "售票窗口"
+      ],
+      "driver": "周镇长将公文包放在售票窗口台面",
+      "entry_state": "公文包与售票窗口发生接触",
+      "outcome": "公文包被放置在售票窗口台面上",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "观众席",
+      "present": [
+        "小林"
+      ],
+      "driver": "小林将电影票展开，露出泛黄的票根",
+      "entry_state": "电影票平铺在掌心",
+      "outcome": "电影票被小林握在右手，左手指尖轻抚票根",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "观众席",
+      "present": [
+        "小林"
+      ],
+      "driver": "小林将电影票贴在胸口，用毛线手套包裹",
+      "entry_state": "电影票被握在右手",
+      "outcome": "电影票被毛线手套完全覆盖，只剩边缘露出",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "观众席",
+      "present": [
+        "小林"
+      ],
+      "driver": "小林将电影票塞进帆布包夹层，拉上拉链",
+      "entry_state": "电影票被毛线手套覆盖",
+      "outcome": "电影票消失在帆布包内，拉链闭合",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机",
+        "红布条"
+      ],
+      "driver": "老张将钥匙插进放映机锁孔",
+      "entry_state": "钥匙插进锁孔",
+      "outcome": "钥匙被插入放映机锁孔",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "红布条",
+        "放映机"
+      ],
+      "driver": "老张用钥匙转动，打开放映机盖板",
+      "entry_state": "钥匙被插入放映机锁孔",
+      "outcome": "放映机盖板被打开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "放映室",
+      "present": [
+        "老张",
+        "放映机",
+        "红布条"
+      ],
+      "driver": "老张将钥匙递给小林，钥匙掉在地上",
+      "entry_state": "放映机盖板被打开",
+      "outcome": "钥匙掉落在地上",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "老张"
+      ],
+      "driver": "周镇长用公文包夹住放映机外壳",
+      "entry_state": "公文包夹住放映机外壳",
+      "outcome": "公文包与放映机金属外壳紧密接触",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "老张"
+      ],
+      "driver": "周镇长将公文包推向老张胸口",
+      "entry_state": "公文包与放映机金属外壳紧密接触",
+      "outcome": "公文包抵住老张胸口",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "售票厅",
+      "present": [
+        "周镇长",
+        "老张"
+      ],
+      "driver": "周镇长用公文包砸向老张头部",
+      "entry_state": "公文包抵住老张胸口",
+      "outcome": "公文包砸向老张头部",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "观众席",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "小林举起电影票遮住老张眼睛",
+      "entry_state": "电影票在小林手中",
+      "outcome": "电影票被小林举到老张眼前",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "观众席",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "小林用食指轻抚票面边缘",
+      "entry_state": "电影票被小林举到老张眼前",
+      "outcome": "电影票边缘被小林手指摩挲出褶皱",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "观众席",
+      "present": [
+        "小林",
+        "老张"
+      ],
+      "driver": "小林将电影票贴在老张胸口",
+      "entry_state": "电影票边缘被小林手指摩挲出褶皱",
+      "outcome": "电影票贴在老张胸口",
+      "target_chars": 527
+    }
+  ]
+}

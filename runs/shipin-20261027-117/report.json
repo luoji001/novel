@@ -1,0 +1,119 @@
+{
+  "consistency": "1. 人物名称不一致：第一章提到“李阿姨”，但后续章节中出现“张大爷”与“李阿姨”争夺铁皮箱，而第二章提到“周建国”与“李阿姨”对峙，但“周建国”与“张大爷”可能是同一人，但未明确说明，存在人物称呼不一致的问题。\n\n2. 人物主张不一致：第一章提到“陈秀兰”主张用保温杯敲击铁皮箱，但后续章节中并未再提及“陈秀兰”，而是出现“李阿姨”与“张大爷”争夺铁皮箱，导致人物主张与实际出现的人物不一致。\n\n3. 时间线错乱：多章标题为《敲响铁皮箱》，但内容却涉及不同人物和情节，导致章节内容混乱，无法明确时间顺序。\n\n4. 人物立场无理由翻转：李阿姨在多章中与张大爷争夺铁皮箱，但未说明其立场变化的原因，缺乏合理动机。\n\n5. 前面埋的物件后面未交代：铁皮箱的来历、归属、箱内物品等关键信息在前文提及，但后文未进一步交代，导致情节不完整。",
+  "slug": "shipin-20261027-117",
+  "profile": "视频分镜",
+  "title": "铁皮箱",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6617,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6198,
+    "chapter_chars_mean": 1033,
+    "chapter_chars_median": 1087,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 27.5,
+    "dialogue_chars_pct": 26.1,
+    "dialogue_para_pct": 59.6,
+    "interiority_para_pct": 2.1,
+    "narration_para_pct": 38.3,
+    "turn_under20_pct": 93.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "敲响铁皮箱",
+      "chars": 685,
+      "score": 92.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "钥匙与铁皮箱对峙",
+      "chars": 1007,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "房产证贴箱面",
+      "chars": 1332,
+      "score": 35.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "敲响铁皮箱",
+      "chars": 1113,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "敲响铁皮箱",
+      "chars": 1218,
+      "score": 89.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "敲响铁皮箱",
+      "chars": 1256,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "interiority_para_pct 6.7 高于目标 6.0",
+      "narration_para_pct 20.0 低于目标 35.0",
+      "dialogue_run_mean 5.5 高于目标 4.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 7 句（如「他低声重复了一遍，像是在对自己说话，又像是在提醒…」）"
+    ],
+    "4": [
+      "[observe] 标题重复：「敲响铁皮箱」已存在"
+    ],
+    "5": [
+      "narration_para_pct 25.9 低于目标 35.0",
+      "[observe] 标题重复：「敲响铁皮箱」已存在"
+    ],
+    "6": [
+      "narration_para_pct 34.4 低于目标 35.0",
+      "[observe] 标题重复：「敲响铁皮箱」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 136.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:18:27"
+}

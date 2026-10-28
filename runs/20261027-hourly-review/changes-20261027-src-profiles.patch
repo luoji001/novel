@@ -1,0 +1,399 @@
+diff -ruN '--exclude=__pycache__' src/novel_agent/cli.py /mnt/c/code/novel-agent/src/novel_agent/cli.py
+--- src/novel_agent/cli.py	2026-10-23 08:31:18.668288200 +0800
++++ /mnt/c/code/novel-agent/src/novel_agent/cli.py	2026-10-27 15:30:49.499535000 +0800
+@@ -214,19 +214,15 @@
+     def score_of(c: dict):
+         return scores.get((c.get("chapter"), c.get("scene"), c.get("variant")))
+ 
+-    rows = [c for c in calls if not a.tag or c.get("tag", "").startswith(a.tag)]
+-    if a.failed:
+-        rows = [c for c in rows if not c.get("ok", True)]
+-    if a.bad:
+-        rows = [c for c in rows if score_of(c) is not None]
+-        rows.sort(key=lambda c: score_of(c))
+-        rows = rows[:a.bad]
+-
++    # 序号一律是**这条调用在 calls.jsonl 里的位置**，不随过滤/排序变。
++    # 原先 `--show` 取的是过滤后列表的下标，而 `--bad` 列表底下提示的是不带过滤的
++    # `--show <#>` —— 照着提示敲，`--bad` 里的 #0 打开的是 premise 那条调用
++    #（2026-10-27 复盘 shipin-20261027-226 时踩到）。
+     if a.show is not None:
+-        if not (0 <= a.show < len(rows)):
+-            print(f"序号超范围：0..{len(rows) - 1}")
++        if not (0 <= a.show < len(calls)):
++            print(f"序号超范围：0..{len(calls) - 1}")
+             return
+-        c = rows[a.show]
++        c = calls[a.show]
+         sc = score_of(c)
+         print(f"=== #{a.show}  {c['tag']}  {c['model']}  {c['sec']}s"
+               + (f"  分={sc}" if sc is not None else "")
+@@ -241,13 +237,22 @@
+                   f"{json.dumps(c['structured'], ensure_ascii=False, indent=2)}")
+         return
+ 
++    rows = [(i, c) for i, c in enumerate(calls)
++            if not a.tag or c.get("tag", "").startswith(a.tag)]
++    if a.failed:
++        rows = [(i, c) for i, c in rows if not c.get("ok", True)]
++    if a.bad:
++        rows = [(i, c) for i, c in rows if score_of(c) is not None]
++        rows.sort(key=lambda ic: score_of(ic[1]))
++        rows = rows[:a.bad]
++
+     total_sec = sum(c.get("sec", 0) for c in calls)
+     bad_count = sum(1 for c in calls if not c.get("ok", True))
+     print(f"{a.slug}：{len(calls)} 次调用，累计 {total_sec:.1f} 秒"
+           + (f"，{bad_count} 次失败" if bad_count else ""))
+     print(f"\n{'#':>4} {'tag':<22}{'model':<12}{'温度':>5}{'入tok':>7}{'出字':>7}"
+           f"{'秒':>7}{'分':>7}    （出字带 * = 结构化载荷）")
+-    for i, c in enumerate(rows):
++    for i, c in rows:
+         sc = score_of(c)
+         flag = "" if c.get("ok", True) else " ✗"
+         # 结构化调用走 tool_calls，content 是空的，载荷在 structured 里 ——
+diff -ruN '--exclude=__pycache__' src/novel_agent/config.py /mnt/c/code/novel-agent/src/novel_agent/config.py
+--- src/novel_agent/config.py	2026-10-23 08:29:46.539454300 +0800
++++ /mnt/c/code/novel-agent/src/novel_agent/config.py	2026-10-27 10:36:03.086804900 +0800
+@@ -220,6 +220,7 @@
+ #   | xuanyi    |  13052 |       0.86 | ⚠ 跑在 echo 修复之前，被复读抬高  |
+ #   | xiaoyuan  |  10132 |       0.92 | ⚠ 同上                            |
+ #   | aiyuce    |   9136 |   **1.10** | echo 修复之后的干净测量           |
++#   | shipin    |   1632 |   **0.56** | 2026-10-27，干净测量；一段一镜压短 |
+ #
+ # 非虚构档位写得比指令更长（没有对白换行、段落密实），于是 0.82 的补偿变成了
+ # **放大**：271 篇目标 9000 字的文章实际均 12199 字（1.36×），271/271 全部超一万。
+diff -ruN '--exclude=__pycache__' src/novel_agent/llm.py /mnt/c/code/novel-agent/src/novel_agent/llm.py
+--- src/novel_agent/llm.py	2026-10-22 09:07:13.127273100 +0800
++++ /mnt/c/code/novel-agent/src/novel_agent/llm.py	2026-10-27 19:30:37.201511800 +0800
+@@ -374,7 +374,7 @@
+ def call_structured(prompt: str, s: Sampling, schema: dict, fn_name: str, *,
+                     model: str | None = None, system: str | None = None,
+                     tag: str = "", run: str | None = None,
+-                    role: str = "struct") -> tuple[dict, dict]:
++                    role: str = "struct", retries: int = 1) -> tuple[dict, dict]:
+     """结构化调用。用**强制指定函数**的 tool_choice，不依赖模型自主选择。
+ 
+     已实测（2026-10-18，qwen3-8b + hermes parser）：嵌套 array-of-objects 的
+@@ -425,6 +425,17 @@
+         # 把原始输出完整留下来，才能判断到底是 max_tokens 不够还是模型跑偏。
+         _log_call(run, _record(run, tag, model, s, system, prompt, raw, in_est,
+                                sec, usage=usage, error="no_structured_output"))
++        # 原样重采一次（**不升温** —— 结构化调用升温是上游踩过的死循环，见 struct_sampling）。
++        # 实测（2026-10-27）：shipin「手写船票」种子的 premise 28 次里 2 次在 concrete_objects
++        # 里把半角 " 写成全角 ”、后面的数组元素也用 “” 包，JSON 断掉，接着吐满 900 token 空白；
++        # 两次都是整部作废（-32、-354）。温度 0.45 下重采是独立样本，同种子 26/28 能过。
++        # 系统性的失败（max_tokens 真不够）只多花一次调用，然后照旧抛出。
++        if retries > 0:
++            data, tele = call_structured(prompt, s, schema, fn_name, model=model,
++                                         system=system, tag=tag, run=run, role=role,
++                                         retries=retries - 1)
++            tele["retried"] = True
++            return data, tele
+         raise ValueError(f"[{tag}] 没拿到结构化输出，原始内容前 200 字："
+                          f"{raw[:200]}")
+     tele["fallback"] = "json_loose"
+diff -ruN '--exclude=__pycache__' src/novel_agent/nodes/plan.py /mnt/c/code/novel-agent/src/novel_agent/nodes/plan.py
+--- src/novel_agent/nodes/plan.py	2026-10-21 08:44:27.086521400 +0800
++++ /mnt/c/code/novel-agent/src/novel_agent/nodes/plan.py	2026-10-27 19:31:21.781223600 +0800
+@@ -141,8 +141,13 @@
+     }
+ 
+ 
++def _calls(tele: dict) -> int:
++    # call_structured 在拿不到结构化输出时会原样重采一次（tele["retried"]），那是两次真调用
++    return 2 if tele.get("retried") else 1
++
++
+ def _spend(tele: dict) -> dict:
+-    return {"telemetry": [tele], "calls_used": 1}
++    return {"telemetry": [tele], "calls_used": _calls(tele)}
+ 
+ 
+ def _prof(state: dict) -> Profile:
+@@ -200,6 +205,13 @@
+     p = _prof(state)
+     n = cfg["chapters"]
+     notes = (state.get("approvals", {}).get("outline", {}) or {}).get("notes", "")
++    # 立意里的 ending_direction **只给大纲**。它是 premise 的必填字段、七个档位的
++    # premise_rule 都专门规定了它写什么（shipin 的最后一个镜头、xuanyi 的真相和揭破它的物件…），
++    # 但 render_anchor 不带它，原先整条链路**没有任何一处读它**。实测（2026-10-27）：
++    # 末章 beat 是全书最像结局的那一章，shipin 307 部里只有 20%（6 章，随机 ≈17%）、
++    # shuangwen 148 部里 9%（10 章，随机 10%）—— 结局等于没定。
++    # 不进 anchor：那样每一场正文 prompt 都会看到结局，前几章会提前往结局写。
++    ending = ((state.get("premise") or {}).get("ending_direction") or "").strip()
+ 
+     prompt = (
+         f"{render_anchor(state['premise'], state.get('characters'), axis_name=p.lang.axis_name)}\n\n"
+@@ -210,6 +222,7 @@
+         "· 禁止出现「困境初现」「挣扎与抉择」「转折与希望」这类套路章名。\n"
+         "· must_object 必须是前面设定里的具体物件之一。\n"
+         + (p.lang.outline_rule or "")
++        + (f"· 最后一章要落到立意定下的结局上：{ending}\n" if ending else "")
+         + (f"\n【上一轮的修改意见，必须照改】\n{notes}\n" if notes else "")
+         + "调用 submit_outline 提交。")
+ 
+@@ -350,7 +363,8 @@
+         } for i, s in enumerate(raw)]
+         teles.append(tele)
+ 
+-    return {"scene_specs": specs, "telemetry": teles, "calls_used": len(teles)}
++    return {"scene_specs": specs, "telemetry": teles,
++            "calls_used": sum(_calls(t) for t in teles)}
+ 
+ 
+ def plans_lint(state: dict) -> dict:
+diff -ruN '--exclude=__pycache__' src/novel_agent/nodes/write.py /mnt/c/code/novel-agent/src/novel_agent/nodes/write.py
+--- src/novel_agent/nodes/write.py	2026-10-23 08:29:57.643332100 +0800
++++ /mnt/c/code/novel-agent/src/novel_agent/nodes/write.py	2026-10-27 11:32:55.655338000 +0800
+@@ -29,6 +29,7 @@
+ )
+ from ..quality.checks import score_text
+ from ..quality.rules import (
++    copied_units,
+     normalize_prose,
+     strip_echoed_blocks,
+     strip_echoed_prefix,
+@@ -172,7 +173,11 @@
+     text, echoed = strip_echoed_prefix(text, drafted)
+     text, echoed_blk = strip_echoed_blocks(text, drafted)
+     echoed += echoed_blk
++    # 整段剥不掉的句级副本只计数，交给 pick_best_scene 选掉（见 rules.copied_units）
++    copied = copied_units(text, drafted, prof.gates.sent_dup_min_len)
+     score, detail = score_text(text, drafted, targets=prof.targets)
++    if copied:
++        detail["copied_sents"] = copied
+     if echoed:
+         detail["echoed_chars"] = echoed
+         # 罚分按 echo 占**原始输出**的比例。全语料回放 8891 个场次，检出 1368 个
+@@ -184,7 +189,8 @@
+             score = round(score * (1.0 - echoed / raw), 1) if raw else None
+     return {
+         "candidates": [{"idx": idx, "text": text, "sampling": f"v{variant}",
+-                        "score": score, "detail": detail, "echoed": echoed}],
++                        "score": score, "detail": detail, "echoed": echoed,
++                        "copied": copied}],
+         "telemetry": [tele],
+         "calls_used": 1,
+     }
+@@ -199,8 +205,16 @@
+     cands = state.get("candidates") or []
+     if not cands:
+         return {"candidates": Overwrite([])}
+-    # 选分最高的；分数为 None（文本太短算不出指标）的排最后
++    # 选分最高的；分数为 None（文本太短算不出指标）的排最后。
++    #
++    # 「没抄前几场的句子」排在分数**前面**，不是折进分数里：拼章之后哪怕一句
++    # 副本也是一条「章内自我复读」硬发现（`sent_self_dup_max = 0`），整章分被
++    # 压到 HARD_SCORE_CAP 的比例 —— 按比例罚几分翻不动 93 对 58 这种差距。
++    # 回放（2026-10-27，按 rounds.jsonl 的候选分重选）：带自我复读的章
++    # shipin 60 → 15 / 516、shuangwen 64 → 11 / 1480；代价是选中场次均分
++    # 77.98 → 77.01。两路都抄时退回按分数选，那种由章级闸门兜底。
+     best = max(cands, key=lambda c: (c["score"] is not None,
++                                     not c.get("copied"),
+                                      c["score"] or 0, len(c["text"])))
+     drafted = list(state.get("scenes_draft") or []) + [best["text"]]
+     return {
+@@ -213,10 +227,12 @@
+                          # echoed 必须落进流水：它是判断「衔接窗口收得够不够」
+                          # 的唯一依据，而这件事只有跑一批才看得出来。
+                          "echoed": best.get("echoed") or 0,
++                         "copied": best.get("copied") or 0,
+                          "candidates": [{"sampling": c["sampling"],
+                                          "score": c["score"],
+                                          "chars": len(c["text"]),
+-                                         "echoed": c.get("echoed") or 0}
++                                         "echoed": c.get("echoed") or 0,
++                                         "copied": c.get("copied") or 0}
+                                         for c in cands]}],
+     }
+ 
+diff -ruN '--exclude=__pycache__' src/novel_agent/quality/metrics.py /mnt/c/code/novel-agent/src/novel_agent/quality/metrics.py
+--- src/novel_agent/quality/metrics.py	2026-10-18 18:22:53.692010900 +0800
++++ /mnt/c/code/novel-agent/src/novel_agent/quality/metrics.py	2026-10-27 13:32:42.670616500 +0800
+@@ -30,6 +30,13 @@
+ ATTR_SAY_AFTER = re.compile(r"[”」]\s*[一-龥]{2,4}说")
+ # 情绪副词归属：「冷冷地说」「无奈地问」
+ ATTR_ADV = re.compile(r"[一-龥]{1,4}地(说|问|道)")
++# 副词归属的**硬线**至少要堆到这么多处才判（不到就只出软警告）。
++# 「堆」是这条硬线的本义，而占比在小分母上没有意义：shipin 对白短、归属少，
++# 单章归属数中位 **2**。2026-10-27 那批 957 章里 49 章被判「attr_adv_pct > 18（结构塌缩）」
++# 整章压到 40%，其中 40 章全章只有**一处**「X地说」—— 3 处归属里一句「轻声地说」就是 33.3%。
++# 回放（同各档位自己的 targets）：shipin 49 → 1、shuangwen-20261023 230 → 197，
++# 去掉的全是 1~2 处的；真堆起来的照拦。
++ATTR_ADV_MIN_HARD = 3
+ 
+ # 心理活动标记。这批词是判定「段落在写想法而不是写事」的依据
+ INNER = re.compile(r"(想|觉得|心里|心中|明白|意识到|琢磨|纳闷|纠结|仿佛|似乎|回想)")
+@@ -166,7 +173,8 @@
+     if attr:
+         say = len(ATTR_SAY.findall(body)) + len(ATTR_SAY_AFTER.findall(body))
+         m["attr_say_pct"] = round(100 * say / attr, 1)
+-        m["attr_adv_pct"] = round(100 * len(ATTR_ADV.findall(body)) / attr, 1)
++        m["attr_adv_n"] = len(ATTR_ADV.findall(body))
++        m["attr_adv_pct"] = round(100 * m["attr_adv_n"] / attr, 1)
+ 
+     sc, sl = count_scenes(paras)
+     m["scenes"] = sc
+@@ -222,6 +230,11 @@
+         # short 档位是结构标点章，允许整章没有对话 —— 密度类指标降为软警告
+         if scale == "short" and key in DENSITY_KEYS:
+             hard_line = None
++        # 副词归属没堆起来（见 ATTR_ADV_MIN_HARD）只出软警告。缺 attr_adv_n 的
++        # 旧明细按原口径判，不悄悄放宽
++        if (key == "attr_adv_pct"
++                and m.get("attr_adv_n", ATTR_ADV_MIN_HARD) < ATTR_ADV_MIN_HARD):
++            hard_line = None
+         # 硬线方向：对话占比和 run 是「低于则拦」，心理活动和副词是「高于则拦」
+         if hard_line is not None:
+             if key in ("dialogue_chars_pct", "dialogue_run_mean"):
+diff -ruN '--exclude=__pycache__' src/novel_agent/quality/rules.py /mnt/c/code/novel-agent/src/novel_agent/quality/rules.py
+--- src/novel_agent/quality/rules.py	2026-10-21 08:45:32.792139500 +0800
++++ /mnt/c/code/novel-agent/src/novel_agent/quality/rules.py	2026-10-27 14:32:28.576679000 +0800
+@@ -387,6 +387,30 @@
+     return "\n\n".join(keep).strip(), echoed
+ 
+ 
++def copied_units(text: str, prior: list[str], min_len: int) -> int:
++    """剥完 echo 之后，候选里还有几句（句子或台词）在本章前几场里逐字出现过。
++
++    **只计数、不剥。** 两个 strip 都按整段比对，模型把衔接窗口里的句子换个
++    归属词、拆段或并段再写一遍就漏过去了（`shipin-20261027-07` 第 4 章：
++    「“你爸当年寄存的时候……”老周叹气」→「……”他叹气」）。句级剥会把
++    「他说」这类归属留成断句，所以这一层交给 `pick_best_scene` 去**选**。
++
++    口径与章级硬闸门 `sentence_duplicate_reasons` 一致（同一个 `_dup_units`、
++    同一个 `min_len`）：这里数到的每一句，拼章之后都会变成一条「章内自我复读」。
++    """
++    if not prior:
++        return 0
++    # 句子、台词两个列表分开比 —— 闸门就是分开数的，同一句台词会在两边各记一次
++    seen_s: set[str] = set()
++    seen_d: set[str] = set()
++    for t in prior:
++        s, d = _dup_units(t, min_len)
++        seen_s.update(s)
++        seen_d.update(d)
++    s, d = _dup_units(text, min_len)
++    return len(set(s) & seen_s) + len(set(d) & seen_d)
++
++
+ def sentence_duplicate_reasons(chapter: str, existing_text: str, g: Gates) -> list[str]:
+     """句级重复检查。整句逐字复制是复读坍缩的早期信号 —— 整章相似度 0.90 太粗，
+     只抄 2~3 句时抓不住，需要句级兜底。"""
+@@ -419,6 +443,15 @@
+ 
+ 
+ # ---------- 句式骨架模板 ----------
++# 骨架里去掉占位符（含 n-gram 截断留下的半个「A›」「‹」）和标点之后剩下的字。
++_PLACEHOLDER = re.compile(r"‹[A-Z]*›?|^[A-Z]*›")
++_TPL_PUNCT = re.compile(r"[“”「」‘’，,。！？!?…：:；;\s]")
++
++
++def _literal_len(pattern: str) -> int:
++    return len(_TPL_PUNCT.sub("", _PLACEHOLDER.sub("", pattern or "")))
++
++
+ def expand_blacklist(raw: dict, cast: dict[str, str] | None = None) -> dict:
+     """把黑名单里的 ‹A›/‹B›/‹ORG›/‹LOC› 回代成本书人名，并过滤不可用骨架。
+ 
+@@ -437,14 +470,25 @@
+         return (len(p) >= min_len and "‹" not in p and "›" not in p
+                 and not BARE_ATTR_RE.match(p))
+ 
++    # **骨架本身至少要有两个字**，人名不算。黑名单是从 book-01 的 210 章挖 4~12 字
++    # n-gram、人名换成占位符得来的，于是混进了「‹A›的」「‹A›点」「‹B›在」「‹A›和‹B›」
++    # 这种只有人名 + 一个字的条目（主角名每章都出现，df 自然高），以及对白骨架里
++    # 光秃秃的「‹LOC›」「‹ORG›」。回代之后长度够 4，`usable` 拦不住：
++    # 2026-10-27 shipin 的「单条套路句式超限」里 147 条是「李春生的」这种「人名+的」。
++    # 不只是报告噪音 —— check.py 把软警告里的套路句塞进 bans，一旦走重写
++    #（defect / enforce），prompt 里就是「这些套路句式本轮禁用：「李春生的」」。
+     tpl = []
+     for key in ("sentence_templates", "opening_templates"):
+         for it in raw.get(key) or []:
++            if _literal_len(it.get("pattern") or "") < 2:
++                continue
+             p = expand(it.get("pattern") or "")
+             if usable(p, 4):
+                 tpl.append({"pattern": p, "df": it.get("df", 0)})
+     dlg = []
+     for it in raw.get("dialogue_templates") or []:
++        if _literal_len(it.get("pattern") or "") < 2:
++            continue
+         p = expand(it.get("pattern") or "")
+         if usable(p, 3):
+             dlg.append({"pattern": p, "df": it.get("df", 0)})
+diff -ruN profiles/shipin.toml /mnt/c/code/novel-agent/profiles/shipin.toml
+--- profiles/shipin.toml	2026-10-27 09:13:09.052671700 +0800
++++ /mnt/c/code/novel-agent/profiles/shipin.toml	2026-10-27 14:42:21.327619600 +0800
+@@ -56,6 +56,18 @@
+ chapters = 6
+ scenes_per_chapter = 3
+ 
++# 产出率覆盖缺省的 0.82。实测（2026-10-27，20261027-shipin 批次前 47 部 /
++# 1632 个候选，echo 修复之后的干净测量，按 rounds.jsonl × scene_specs.json 重算
++# 「实际写出 ÷ 实际要求」）：**0.56**（首章 0.41、其余 0.58）。
++# 和 aiyuce 方向相反：「一段一镜、不超过三句、对白不超过二十字」把每段压得很短，
++# 同一句「约 N 字」在这个档位上只写出一半多。
++# 用 0.82 补偿的后果：场景只到目标的 ~68%，首章只到 ~50%，
++# 282 章里 53 章（19%）撞「章节过短」，其中 33 章是首章 —— 头号封顶原因。
++# 改之前做过受控对照（同 6 个真实场景 prompt，只换「约 N 字」）：
++# 要求从 /0.82 提到 /0.56 后 6/6 变长，均 286 → 421 字，两边都没有 echo 被剥。
++# ⚠ 待下一批验证：这一改会不会让跨场复读（章内自我复读，现 31/282）变多。
++length_yield = 0.56
++
+ [rhythm]
+ # 算出来的章长：首章 1087 字（2 场 × 543），其余 1582 字（3 场 × 527）。
+ # 单场落在 500 出头 —— README echo 表里那个 400~599 的桶，但那张表是窗口写死 400 字
+@@ -90,7 +102,20 @@
+ axis_name = "可见冲突"
+ axis_desc = """可见冲突：两个人各想要什么，冲突落在哪样看得见的东西或哪个地方上
+ （谁拿着它、谁想要它、谁守着那个地方）"""
+-stance_desc = "他想拿到或守住什么；他会用哪个动作去拿、去守"
++# stance **不写动作**（2026-10-27 改）。旧版「他会用哪个动作去拿、去守」的后果：
++# 每个人的 stance 变成一个固定动作（「用左手抢夺冰台上的信封」），而 render_anchor
++# 把它以「主张：…」放进大纲 prompt —— 8B 直接把各人的 stance 拼成各章 beat。
++# 实测 20261027-shipin 123 部：738 条 beat 里 269 条（36%）含某人 stance 的逐字片段，
++# 49 部（40%）被 outline_lint 判「两章要做的事几乎是同一件」，批次自动放行照样开写。
++# 最极端的 -120（均分 92.3，本批最高之一）6 章全是「清晨五点，鱼摊前」抢信封 / 踢冰台。
++# 对照 shuangwen-20261023（stance 是立场不是动作）：1480 条里 11 条（0.7%）。
++# 改前受控对照（同 10 个 premise，跑真实 cast → outline 节点）：
++#   旧写法       stance 片段进 beat 15/60，有近重复章的 6 章大纲 3/10
++#   「要什么+为什么」 0/60、2/10，但 14/28 个 stance 落成「父亲/女儿的遗物」—— 新塌缩，
++#                      而且过去的事在这个档位拍不出来
++#   只写「要什么」   3/60、3/10，stance 退化成一个物件名，谁要谁守的信息没了
++#   **「要什么+拿不到会失去什么」** 0/60、0/10，家人/往事动机 3/28 —— 采用这一版
++stance_desc = "他要拿到或守住的是哪样东西、哪个地方，拿不到他会失去什么"
+ premise_rule = """· 这篇要改编成视频，立意必须**拍得出来**：冲突落在看得见的人、东西和地点上，
+   不靠旁白或内心独白就能讲清楚。
+ · logline 写明：谁、在哪个地方、为了哪样东西、和谁起了冲突。
+@@ -106,7 +131,8 @@
+ cast_rule = """· 人越少越好：A、B 两个，确有必要再加一个 C。人少，视频里的角色才容易前后一致。
+ · 每个人的 concrete 除了他手上有什么，还要写一个**全篇不变的外观标识**：
+   衣着的颜色与款式、一样从不离身的随身物、或者一处一眼认得出的特征。各人不要重样。
+-· stance 写成他会做的动作，不写性格形容词。
++· stance 写他要拿到或守住的那样东西、那个地方，和拿不到他会失去什么。
++  不写性格形容词，也不写动作 —— 用什么动作去拿、去守，留给各章去安排。
+ · ORG 填机构名，LOC 填全篇最主要的那个地点，要具体到能搭出来的景。
+ """
+ outline_rule = """· 每章是一场连续的戏：只发生在**一个地点、一段不间断的时间**里。
+@@ -126,7 +152,18 @@
+ # driver 都是「某人对某物做了什么」的动作句，人名和物件名在各场反复出现，
+ # 措辞天然比 default 的「推进点」接近。同 xuanyi 放到 0.60。
+ dedup_threshold = 0.60
+-min_speakers = 1            # 允许单人场：一个人守着、找着、等着，在视频里是常见的戏
++# **2，不是 1**（2026-10-27 改）。原先设 1 是想允许「一个人守着、找着、等着」的单人场，
++# 实测后果是可见冲突根本不上画面：20261027-shipin 197 部的大纲里 1182 章有 738 章
++#（62%）speakers ≤ 1，140 部（71%）有 ≥3 章是单人章 —— 大纲按人分章，一人一章演
++# 自己的 stance，正文里就是一个人对着空屋子说话（-193 第 2 章，镇长在自己办公室里
++# 「砸向放映机」）。shuangwen（min_speakers=2）同口径 0 章。
++# 这个数经 plan._outline_schema 进 speakers 字段的描述（「至少 N 个」），是字段级绑定。
++# 改前受控对照（同 10 个 premise、同一份人物卡，只换这一个数，跑真实 outline 节点）：
++#   单人章 33/60 → **5/60**；近重复章、不同时段数、stance 片段进 beat 都不变。
++# 对照组里把同样的要求写成 outline_rule 的一句话：单人章只降到 36%，近重复反而略升 ——
++# 字段级要求落地、正文级要求打折，和生产线的结论一致。
++# 单人的镜头仍然可以有：plans_lint 对**场**只要求 ≥1 人在场（max(1, min_speakers-1)）。
++min_speakers = 2
+ require_object = true       # 物件是画面里的锚点，也是镜头之间的连续性
+ 
+ [gates]

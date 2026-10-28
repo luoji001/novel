@@ -1,0 +1,118 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-208",
+  "profile": "视频分镜",
+  "title": "硬币失踪记",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6616,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6253,
+    "chapter_chars_mean": 1042,
+    "chapter_chars_median": 1120,
+    "chapter_chars_cv": 0.26,
+    "paragraphs_mean": 22.3,
+    "dialogue_chars_pct": 18.1,
+    "dialogue_para_pct": 55.9,
+    "interiority_para_pct": 6.0,
+    "narration_para_pct": 38.1,
+    "turn_under20_pct": 89.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 52.9,
+    "attr_adv_pct": 12.3,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "硬币的震颤",
+      "chars": 608,
+      "score": 37.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "水壶的碰撞声",
+      "chars": 1442,
+      "score": 88.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "身份证的磨损痕迹",
+      "chars": 981,
+      "score": 0.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙与木板的缝隙",
+      "chars": 1203,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "水壶的裂痕",
+      "chars": 1228,
+      "score": 34.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 5
+    },
+    {
+      "no": 6,
+      "title": "硬币与身份证的对峙",
+      "chars": 1148,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 561 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「沈青梧的」×4",
+      "interiority_para_pct 8.3 高于目标 6.0",
+      "narration_para_pct 30.6 低于目标 35.0"
+    ],
+    "3": [
+      "[observe] interiority_para_pct 16.7 > 15.0（结构塌缩）"
+    ],
+    "5": [
+      "单条套路句式超限：「沈青梧的」×3",
+      "narration_para_pct 8.3 低于目标 35.0",
+      "dialogue_run_mean 10.5 高于目标 4.0",
+      "[observe] 章内自我复读 3 句（如「你知道吗？每个人都会在这里找到属于自己的答案…」）",
+      "[observe] attr_adv_pct 50.0 > 18.0（结构塌缩）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 143.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:50:51"
+}

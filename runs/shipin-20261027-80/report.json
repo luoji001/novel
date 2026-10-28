@@ -1,0 +1,114 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-80",
+  "profile": "视频分镜",
+  "title": "钥匙圈",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5936,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5545,
+    "chapter_chars_mean": 924,
+    "chapter_chars_median": 946,
+    "chapter_chars_cv": 0.31,
+    "paragraphs_mean": 24.5,
+    "dialogue_chars_pct": 21.3,
+    "dialogue_para_pct": 54.6,
+    "interiority_para_pct": 1.7,
+    "narration_para_pct": 43.7,
+    "turn_under20_pct": 93.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 23.3,
+    "attr_adv_pct": 4.4,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.1,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙板上的刮痕",
+      "chars": 787,
+      "score": 38.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "藏匿盐焗鸡包装袋",
+      "chars": 845,
+      "score": 37.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "钥匙盒的触感",
+      "chars": 1286,
+      "score": 93.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "钥匙圈在掌心发烫",
+      "chars": 610,
+      "score": 35.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙盒的触感",
+      "chars": 1181,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "钥匙圈的凹陷",
+      "chars": 1221,
+      "score": 59.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）"
+    ],
+    "2": [
+      "narration_para_pct 34.5 低于目标 35.0",
+      "[observe] 章节过短 769 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章节过短 530 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "narration_para_pct 27.3 低于目标 35.0",
+      "[observe] 标题重复：「钥匙盒的触感」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 135.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T11:20:25"
+}

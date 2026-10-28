@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-28",
+  "profile": "视频分镜",
+  "title": "药瓶的归属",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6153,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5725,
+    "chapter_chars_mean": 954,
+    "chapter_chars_median": 1035,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 28.2,
+    "dialogue_chars_pct": 24.3,
+    "dialogue_para_pct": 59.3,
+    "interiority_para_pct": 1.2,
+    "narration_para_pct": 39.5,
+    "turn_under20_pct": 83.6,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.2,
+    "attr_adv_pct": 19.3,
+    "scenes_per_chapter": 1.3,
+    "dialogue_run_mean": 2.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶的归属",
+      "chars": 472,
+      "score": 22.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 2,
+      "title": "病历本摔落的回音",
+      "chars": 1258,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "红袖章的缝线",
+      "chars": 1052,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "体温计的倒影",
+      "chars": 959,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "注射器的较量",
+      "chars": 1174,
+      "score": 90.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 6,
+      "title": "药瓶的归属",
+      "chars": 1232,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 411 < 597（本章目标 1087 字的 55%）",
+      "[observe] attr_adv_pct 100.0 > 18.0（结构塌缩）"
+    ],
+    "2": [
+      "narration_para_pct 15.0 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "3": [
+      "narration_para_pct 30.8 低于目标 35.0"
+    ],
+    "5": [
+      "单条套路句式超限：「李娟站在」×4",
+      "情节与已写章节重复 0.63 ≥ 0.62（撞上「李娟为争夺儿子的药物与护士长陈雪梅对峙，最终得知孩子在I…」）",
+      "dialogue_run_mean 4.8 高于目标 4.0"
+    ],
+    "6": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「药瓶的归属」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 130.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:59:47"
+}

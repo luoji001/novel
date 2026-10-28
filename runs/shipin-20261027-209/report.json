@@ -1,0 +1,113 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-209",
+  "profile": "视频分镜",
+  "title": "铁钳声",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6486,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6090,
+    "chapter_chars_mean": 1015,
+    "chapter_chars_median": 1030,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 26,
+    "dialogue_chars_pct": 16.3,
+    "dialogue_para_pct": 45.2,
+    "interiority_para_pct": 1.8,
+    "narration_para_pct": 53.0,
+    "turn_under20_pct": 92.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 39.1,
+    "attr_adv_pct": 2.9,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "保温杯倾斜",
+      "chars": 734,
+      "score": 94.8,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "钥匙划过地面",
+      "chars": 1289,
+      "score": 37.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "行李箱锁眼",
+      "chars": 983,
+      "score": 93.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 4,
+      "title": "金属线坠地",
+      "chars": 1225,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "铁钳抵锁",
+      "chars": 904,
+      "score": 36.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "保温杯倾斜",
+      "chars": 1345,
+      "score": 89.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "[observe] 章内自我复读 2 句（如「那个行李箱还在停车场…」）"
+    ],
+    "4": [
+      "narration_para_pct 34.2 低于目标 35.0"
+    ],
+    "5": [
+      "[observe] 章节过短 828 < 870（本章目标 1582 字的 55%）"
+    ],
+    "6": [
+      "[observe] 标题重复：「保温杯倾斜」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 126.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:52:22"
+}

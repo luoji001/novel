@@ -1,0 +1,113 @@
+{
+  "consistency": "1. 第二章提到陈志远将李阿婆的钱收走并带走铁皮饼干盒，但第四章提到李阿婆回忆铁皮饼干盒里的钱，暗示该饼干盒仍由李阿婆持有，与第二章矛盾。\n\n2. 第五章提到陈志远在监控下回忆往事，发现李阿婆未收钱，但第二章已提到陈志远收走李阿婆的钱，时间线存在矛盾。\n\n3. 第三章提到林小满发现李阿婆仍使用多年前的旧秤，但未提及该秤的来源或李阿婆为何仍使用旧秤，前后缺乏交代。\n\n4. 第四章提到李阿婆回忆儿子遗物铜钥匙和铁皮饼干盒里的钱，但第二章提到陈志远带走铁皮饼干盒，暗示该物品已被他人带走，与李阿婆回忆矛盾。",
+  "slug": "shipin-20261027-59",
+  "profile": "视频分镜",
+  "title": "二维码",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6234,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5818,
+    "chapter_chars_mean": 970,
+    "chapter_chars_median": 1036,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 26.5,
+    "dialogue_chars_pct": 21.5,
+    "dialogue_para_pct": 52.5,
+    "interiority_para_pct": 0.8,
+    "narration_para_pct": 46.7,
+    "turn_under20_pct": 95.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 35.8,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "二维码边缘的颤抖",
+      "chars": 690,
+      "score": 98.3,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "二维码边缘的颤抖",
+      "chars": 1218,
+      "score": 90.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "红绳与塑料秤",
+      "chars": 1110,
+      "score": 94.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "二维码边缘的颤抖",
+      "chars": 1129,
+      "score": 92.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "红袖章下的疤痕",
+      "chars": 1246,
+      "score": 92.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "红绳末端的纸币",
+      "chars": 835,
+      "score": 21.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「陈志远的」×3、「李阿婆的」×3",
+      "[observe] 标题重复：「二维码边缘的颤抖」已存在"
+    ],
+    "3": [
+      "narration_para_pct 32.0 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 标题重复：「二维码边缘的颤抖」已存在"
+    ],
+    "6": [
+      "[observe] 章节过短 792 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.5,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T10:47:35"
+}

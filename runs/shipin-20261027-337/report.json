@@ -1,0 +1,121 @@
+{
+  "consistency": "1. 第二章提到“装有过期药品的蛇皮袋”，第五章提到“发现是药”，但未说明为何“过期药品”与“药”存在矛盾，可能指代不清。  \n2. 第三章提到“装有旧皮箱的蛇皮袋”，第四章提到“争夺一本账本”，但未说明账本与蛇皮袋的关系，前后逻辑不连贯。  \n3. 第四章提到“在垃圾桶中找到一张带有字迹的照片”，但未交代该照片为何出现在垃圾桶，也未与后续情节关联。  \n4. 第五章提到“因收音机的异常声响引发新的疑问”，但未交代收音机为何出现在冲突场景中，前后无铺垫。  \n5. 第六章提到“争夺一袋神秘物品”，但未说明该物品与前文蛇皮袋的关联，情节突兀。",
+  "slug": "shipin-20261027-337",
+  "profile": "视频分镜",
+  "title": "蛇皮袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7238,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6711,
+    "chapter_chars_mean": 1118,
+    "chapter_chars_median": 1205,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 35.7,
+    "dialogue_chars_pct": 19.6,
+    "dialogue_para_pct": 56.1,
+    "interiority_para_pct": 2.3,
+    "narration_para_pct": 41.6,
+    "turn_under20_pct": 96.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 15.6,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 2.4,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁钳夹蛇皮袋",
+      "chars": 646,
+      "score": 38.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铁钳与铜纽扣对峙",
+      "chars": 1364,
+      "score": 91.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "铁钳与旧皮箱对峙",
+      "chars": 1343,
+      "score": 91.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 4,
+      "title": "铁钳夹住笔记本",
+      "chars": 1268,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "铁钳夹住红色瓶子",
+      "chars": 1343,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "铁钳夹住红绸布",
+      "chars": 1268,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 570 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「李建国的」×3",
+      "情节与已写章节重复 0.76 ≥ 0.62（撞上「王小满与李建国争夺装有危险品的蛇皮袋，两人激烈争执并发生…」）"
+    ],
+    "3": [
+      "单条套路句式超限：「王小满的」×4",
+      "interiority_para_pct 6.5 高于目标 6.0",
+      "narration_para_pct 25.8 低于目标 35.0",
+      "[observe] 标题与《铁钳与铜纽扣对峙》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "narration_para_pct 25.0 低于目标 35.0",
+      "dialogue_run_mean 4.6 高于目标 4.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李建国的」×3",
+      "[observe] 标题与《铁钳夹住红色瓶子》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 147.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T18:18:27"
+}

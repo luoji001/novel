@@ -1,0 +1,221 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "西湖区练车场停车场",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "陈志强将硬币放在副驾驶座上",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被陈志强放在副驾驶座上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "西湖区练车场停车场",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "林婉如伸手去拿硬币",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被林婉如伸手去拿",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "练车场教练室",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "陈志强将记账本翻到第37页",
+      "entry_state": "记账本在陈志强手中",
+      "outcome": "记账本第37页露出半截铅笔痕迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场教练室",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "林婉如用练习本挡住记账本",
+      "entry_state": "记账本被练习本遮挡",
+      "outcome": "记账本边缘露出纸张撕裂的痕迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场教练室",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "陈志强用钥匙尖挑起记账本一角",
+      "entry_state": "记账本被钥匙挑起",
+      "outcome": "记账本从陈志强手中滑落至地面",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "练车场驾驶室",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "林婉如的脚压住刹车踏板",
+      "entry_state": "刹车踏板被林婉如的脚踩住",
+      "outcome": "刹车踏板被林婉如的脚牢牢控制",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场驾驶室",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "陈志强伸手去抢刹车踏板",
+      "entry_state": "刹车踏板被林婉如的脚踩住",
+      "outcome": "刹车踏板被陈志强的右手抓住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场驾驶室",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "林婉如用脚尖顶开陈志强的手",
+      "entry_state": "刹车踏板被陈志强的右手抓住",
+      "outcome": "刹车踏板被林婉如的脚尖顶开",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "练车场休息区",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "林婉如将计时器按在膝盖上",
+      "entry_state": "计时器在林婉如膝盖上",
+      "outcome": "计时器开始倒数",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场休息区",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "陈志强把计时器按在方向盘上",
+      "entry_state": "计时器在方向盘上",
+      "outcome": "计时器停止倒数",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场休息区",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "林婉如用脚踩住计时器",
+      "entry_state": "计时器被踩住",
+      "outcome": "计时器掉在地上",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场走廊",
+      "present": [
+        "周浩然",
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "周浩然将红色围巾绕在镜头前",
+      "entry_state": "周浩然用手机录像",
+      "outcome": "红色围巾遮住镜头",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场走廊",
+      "present": [
+        "周浩然",
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "林婉如将红色围巾扯到自己手中",
+      "entry_state": "红色围巾遮住镜头",
+      "outcome": "红色围巾被林婉如拽到手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场走廊",
+      "present": [
+        "周浩然",
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "周浩然将红色围巾抛向空中",
+      "entry_state": "红色围巾在林婉如手中",
+      "outcome": "红色围巾被抛向空中",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场停车场",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "陈志强弯腰捡起硬币，硬币滚落至地面",
+      "entry_state": "硬币在陈志强手中",
+      "outcome": "硬币掉落在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场停车场",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "林婉如伸手触碰硬币，硬币滑向陈志强脚边",
+      "entry_state": "硬币在地面上",
+      "outcome": "硬币靠近陈志强脚边",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场停车场",
+      "present": [
+        "陈志强",
+        "林婉如"
+      ],
+      "driver": "陈志强弯腰拾起硬币，硬币完整地回到他掌心",
+      "entry_state": "硬币靠近陈志强脚边",
+      "outcome": "硬币回到陈志强手中",
+      "target_chars": 527
+    }
+  ]
+}

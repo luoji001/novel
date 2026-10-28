@@ -1,0 +1,210 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "小区门口",
+      "present": [
+        "陈秀兰"
+      ],
+      "driver": "陈秀兰拎着塑料桶站在楼道口",
+      "entry_state": "陈秀兰拎着塑料桶站在楼道口",
+      "outcome": "塑料桶在陈秀兰手中，桶内水未溢出",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "小区门口",
+      "present": [
+        "陈秀兰"
+      ],
+      "driver": "陈秀兰将塑料桶举过头顶",
+      "entry_state": "塑料桶在陈秀兰手中，桶内水未溢出",
+      "outcome": "塑料桶在陈秀兰头顶，桶内水未溢出",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "物业办公室",
+      "present": [
+        "物业管理员"
+      ],
+      "driver": "物业管理员展开纸条核对住户信息",
+      "entry_state": "纸条平铺在桌上，未被触碰",
+      "outcome": "纸条被展开，露出上面的号码",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "物业办公室",
+      "present": [
+        "物业管理员"
+      ],
+      "driver": "物业管理员用手指划过纸条上的号码",
+      "entry_state": "纸条被展开，露出上面的号码",
+      "outcome": "纸条上的号码被手指划过，留下痕迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "物业办公室",
+      "present": [
+        "物业管理员"
+      ],
+      "driver": "物业管理员将纸条塞入抽屉，锁上抽屉",
+      "entry_state": "纸条上的号码被手指划过，留下痕迹",
+      "outcome": "纸条被放入抽屉，抽屉被锁上",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "小区门口",
+      "present": [
+        "周建国",
+        "红色钥匙"
+      ],
+      "driver": "周建国用红色钥匙插入铁门锁孔",
+      "entry_state": "铁门未锁",
+      "outcome": "铁门锁上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "小区门口",
+      "present": [
+        "周建国",
+        "红色钥匙"
+      ],
+      "driver": "周建国将红色钥匙挂回帆布包上",
+      "entry_state": "铁门锁上",
+      "outcome": "红色钥匙离开锁孔",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "小区门口",
+      "present": [
+        "周建国",
+        "红色钥匙"
+      ],
+      "driver": "周建国把红色钥匙丢进垃圾桶",
+      "entry_state": "红色钥匙离开锁孔",
+      "outcome": "红色钥匙消失",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "张叔"
+      ],
+      "driver": "陈秀兰用塑料桶泼水，雨靴在她脚上",
+      "entry_state": "陈秀兰用塑料桶泼水，雨靴在她脚上",
+      "outcome": "张叔后退，雨靴仍留在陈秀兰脚上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "张叔"
+      ],
+      "driver": "张叔夺过雨靴，将其扔向墙角",
+      "entry_state": "张叔夺过雨靴，将其扔向墙角",
+      "outcome": "雨靴躺在墙角，陈秀兰站在原地",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "楼道",
+      "present": [
+        "陈秀兰",
+        "张叔"
+      ],
+      "driver": "陈秀兰捡起雨靴，用力踩在脚下",
+      "entry_state": "雨靴躺在墙角，陈秀兰站在原地",
+      "outcome": "雨靴被踩扁，陈秀兰低头看着它",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "小区门口",
+      "present": [
+        "陈秀兰",
+        "周建国"
+      ],
+      "driver": "陈秀兰拎着塑料桶站在雨靴前",
+      "entry_state": "陈秀兰拎着塑料桶站在雨靴前",
+      "outcome": "塑料桶被周建国伸手触碰",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "小区门口",
+      "present": [
+        "陈秀兰",
+        "周建国"
+      ],
+      "driver": "周建国用钥匙打开铁门露出雨靴",
+      "entry_state": "塑料桶被周建国伸手触碰",
+      "outcome": "塑料桶被陈秀兰提起并倾斜",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "小区门口",
+      "present": [
+        "陈秀兰",
+        "周建国"
+      ],
+      "driver": "陈秀兰将塑料桶对准周建国泼水",
+      "entry_state": "塑料桶被陈秀兰提起并倾斜",
+      "outcome": "塑料桶中的水洒出，桶身倾斜",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "物业办公室",
+      "present": [
+        "物业管理员"
+      ],
+      "driver": "物业管理员举起纸条对准铁门上的水痕",
+      "entry_state": "铁门上有水痕",
+      "outcome": "纸条被举到铁门上方",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "物业办公室",
+      "present": [
+        "物业管理员"
+      ],
+      "driver": "物业管理员用纸条擦掉铁门上的水痕",
+      "entry_state": "纸条被举到铁门上方",
+      "outcome": "纸条沾湿了铁门上的水痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "物业办公室",
+      "present": [
+        "物业管理员"
+      ],
+      "driver": "物业管理员把纸条塞进抽屉，锁上抽屉",
+      "entry_state": "纸条沾湿了铁门上的水痕",
+      "outcome": "纸条被收进抽屉",
+      "target_chars": 527
+    }
+  ]
+}

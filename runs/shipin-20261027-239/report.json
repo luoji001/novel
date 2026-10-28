@@ -1,0 +1,113 @@
+{
+  "consistency": "1. 第二章提到“争夺装有丈夫遗物的蛇皮袋”，但第一章和第六章仅提到“争夺蛇皮袋”，未提及“丈夫遗物”，前后信息不一致。\n\n2. 第三章提到“将钥匙交给李建国”，但第四章提到“争夺装有钥匙串的蛇皮袋”，钥匙串与钥匙是否为同一物品未明确，存在逻辑模糊。\n\n3. 第五章提到“争夺一张旧车票”，但前文从未提及车票的存在，属于突然引入新物件，未有铺垫。\n\n4. 第四章提到“因停电陷入僵局”，但第三章未提及停电，情节跳跃无铺垫。",
+  "slug": "shipin-20261027-239",
+  "profile": "视频分镜",
+  "title": "蛇皮袋",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6664,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6223,
+    "chapter_chars_mean": 1037,
+    "chapter_chars_median": 1058,
+    "chapter_chars_cv": 0.13,
+    "paragraphs_mean": 28.8,
+    "dialogue_chars_pct": 18.0,
+    "dialogue_para_pct": 52.3,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 47.2,
+    "turn_under20_pct": 99.2,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.3,
+    "attr_adv_pct": 4.2,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 1.9,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁钳夹住蛇皮袋",
+      "chars": 843,
+      "score": 96.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铁钳夹住扫帚杆",
+      "chars": 1141,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 3,
+      "title": "钥匙串碰响窗台",
+      "chars": 1177,
+      "score": 37.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙串碰响窗台",
+      "chars": 1134,
+      "score": 36.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "报纸上的终点站",
+      "chars": 1093,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "铁钳坠地生鸣",
+      "chars": 1270,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "单条套路句式超限：「李建国的」×3"
+    ],
+    "3": [
+      "[observe] 章内自我复读 1 句（如「你们两个，给我进去说清楚…」）"
+    ],
+    "4": [
+      "[observe] attr_adv_pct 25.0 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「钥匙串碰响窗台」已存在"
+    ],
+    "5": [
+      "单条套路句式超限：「王翠兰的」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 153.0,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:40:22"
+}

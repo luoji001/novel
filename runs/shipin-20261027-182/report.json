@@ -1,0 +1,116 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-182",
+  "profile": "视频分镜",
+  "title": "药瓶",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7278,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6802,
+    "chapter_chars_mean": 1134,
+    "chapter_chars_median": 1190,
+    "chapter_chars_cv": 0.22,
+    "paragraphs_mean": 32.2,
+    "dialogue_chars_pct": 26.4,
+    "dialogue_para_pct": 61.1,
+    "interiority_para_pct": 0.4,
+    "narration_para_pct": 38.6,
+    "turn_under20_pct": 95.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 53.0,
+    "attr_adv_pct": 2.0,
+    "scenes_per_chapter": 1.7,
+    "dialogue_run_mean": 2.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "药瓶上的水渍",
+      "chars": 710,
+      "score": 97.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "登记本的折痕",
+      "chars": 1309,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "擦拭药瓶的双手",
+      "chars": 1217,
+      "score": 37.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "攥紧药瓶的手",
+      "chars": 1460,
+      "score": 87.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 4
+    },
+    {
+      "no": 5,
+      "title": "耳钉入袋",
+      "chars": 1200,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "攥紧药瓶的手",
+      "chars": 1376,
+      "score": 90.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "attr_adv_pct 11.1 高于目标 10.0"
+    ],
+    "3": [
+      "[observe] 章内自我复读 2 句（如「不能随便扔，得等家属来签字…」）"
+    ],
+    "4": [
+      "单条套路句式超限：「张晓梅的」×4、「周雪梅点」×3",
+      "narration_para_pct 21.4 低于目标 35.0",
+      "dialogue_run_mean 6.6 高于目标 4.0",
+      "[observe] 标题与《擦拭药瓶的双手》近似 0.62 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "6": [
+      "单条套路句式超限：「张晓梅的」×3",
+      "[observe] 标题重复：「攥紧药瓶的手」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:05:55"
+}

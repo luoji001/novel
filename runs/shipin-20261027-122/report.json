@@ -1,0 +1,111 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-122",
+  "profile": "视频分镜",
+  "title": "铜钥",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6025,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5684,
+    "chapter_chars_mean": 947,
+    "chapter_chars_median": 962,
+    "chapter_chars_cv": 0.25,
+    "paragraphs_mean": 20.3,
+    "dialogue_chars_pct": 14.7,
+    "dialogue_para_pct": 46.4,
+    "interiority_para_pct": 1.8,
+    "narration_para_pct": 51.8,
+    "turn_under20_pct": 92.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 21.9,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.8,
+    "dialogue_run_mean": 2.3,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙板发出咔嗒声",
+      "chars": 765,
+      "score": 96.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "摩挲铁盒边缘",
+      "chars": 1296,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 3,
+      "title": "铁盒侧面裂痕",
+      "chars": 865,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙与登记本相遇",
+      "chars": 736,
+      "score": 22.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与便签纸重合",
+      "chars": 1186,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "推开锈蚀的房门",
+      "chars": 1171,
+      "score": 88.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「沈怀舟的」×3",
+      "narration_para_pct 15.4 低于目标 35.0",
+      "dialogue_run_mean 5.5 高于目标 4.0"
+    ],
+    "3": [
+      "[observe] 章节过短 807 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "[observe] 章节过短 690 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 124.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:26:30"
+}

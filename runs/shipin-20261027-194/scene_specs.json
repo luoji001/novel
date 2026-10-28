@@ -1,0 +1,216 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "银色硬币"
+      ],
+      "driver": "张伟低头查看账本，硬币静静躺在副驾驶座上",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币出现在副驾驶座上",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "银色硬币"
+      ],
+      "driver": "张伟伸手捡起硬币，指尖触到冰冷金属",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币被张伟捡起",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "便利店收银台",
+      "present": [
+        "林婉如",
+        "银色硬币"
+      ],
+      "driver": "林婉如将银色硬币放在窗台边缘",
+      "entry_state": "银色硬币在窗台边缘",
+      "outcome": "银色硬币滑向窗台中央",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店收银台",
+      "present": [
+        "林婉如",
+        "银色硬币"
+      ],
+      "driver": "林婉如弯腰捡起滑落的银色硬币",
+      "entry_state": "银色硬币在窗台中央",
+      "outcome": "银色硬币回到林婉如手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店收银台",
+      "present": [
+        "林婉如",
+        "银色硬币"
+      ],
+      "driver": "林婉如将银色硬币投入收银机抽屉",
+      "entry_state": "银色硬币在林婉如手中",
+      "outcome": "银色硬币消失在抽屉深处",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "账本"
+      ],
+      "driver": "张伟翻开账本，核对学费金额",
+      "entry_state": "账本摊开在桌上，张伟盯着数字",
+      "outcome": "账本上的金额比实际少了一千五",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "账本"
+      ],
+      "driver": "张伟用铅笔在账本上划掉错误数字",
+      "entry_state": "账本被铅笔划过，数字被修改",
+      "outcome": "账本上的金额被张伟重新记录",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "账本"
+      ],
+      "driver": "张伟将账本锁进抽屉，转身离开",
+      "entry_state": "账本被锁进抽屉，张伟走向门口",
+      "outcome": "账本被锁入抽屉，张伟离开办公室",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "便利店收银台",
+      "present": [
+        "周子航",
+        "便利店收银台"
+      ],
+      "driver": "周子航用左手擦拭收银台玻璃上的水雾",
+      "entry_state": "收银台玻璃蒙着薄雾",
+      "outcome": "玻璃变得清晰可见",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店收银台",
+      "present": [
+        "周子航",
+        "便利店收银台"
+      ],
+      "driver": "周子航将一串钥匙挂到收银台边的挂钩上",
+      "entry_state": "收银台边无任何挂件",
+      "outcome": "挂钩上挂着一串钥匙",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店收银台",
+      "present": [
+        "周子航",
+        "便利店收银台"
+      ],
+      "driver": "周子航用右手拿起收银台上的硬币放在掌心",
+      "entry_state": "收银台边挂着钥匙",
+      "outcome": "硬币被周子航握在手中",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "银色硬币"
+      ],
+      "driver": "张伟捡起硬币，对着阳光观察表面",
+      "entry_state": "硬币躺在副驾驶座上",
+      "outcome": "硬币被张伟握在掌心",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "张伟"
+      ],
+      "driver": "张伟将硬币放回原位，手指划过边缘刻痕",
+      "entry_state": "硬币在张伟掌心",
+      "outcome": "硬币回到副驾驶座上",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "张伟"
+      ],
+      "driver": "张伟拿起硬币，用力捏碎了它",
+      "entry_state": "硬币在副驾驶座上",
+      "outcome": "硬币碎裂在副驾驶座上",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "账本"
+      ],
+      "driver": "张伟将账本合上，推到桌角",
+      "entry_state": "账本在张伟手中",
+      "outcome": "账本被推到桌角",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "账本"
+      ],
+      "driver": "张伟用手指翻开账本第18页",
+      "entry_state": "账本在桌角",
+      "outcome": "账本第18页被翻开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "练车场办公室",
+      "present": [
+        "张伟",
+        "账本"
+      ],
+      "driver": "张伟用力撕下账本第18页",
+      "entry_state": "账本第18页被翻开",
+      "outcome": "账本第18页被撕下",
+      "target_chars": 527
+    }
+  ]
+}

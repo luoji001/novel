@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-375",
+  "profile": "视频分镜",
+  "title": "胶片",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6745,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6252,
+    "chapter_chars_mean": 1042,
+    "chapter_chars_median": 1198,
+    "chapter_chars_cv": 0.35,
+    "paragraphs_mean": 32.5,
+    "dialogue_chars_pct": 27.2,
+    "dialogue_para_pct": 59.7,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 40.3,
+    "turn_under20_pct": 95.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 64.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.7,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙上的凹槽",
+      "chars": 358,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "钉在门框的票根",
+      "chars": 1321,
+      "score": 93.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "胶片缠绕怀表链",
+      "chars": 1318,
+      "score": 94.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "胶片缓缓展开",
+      "chars": 1286,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "胶片落在公文包里",
+      "chars": 1350,
+      "score": 90.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙轻触银幕",
+      "chars": 1106,
+      "score": 92.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 318 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 34.4 低于目标 35.0"
+    ],
+    "3": [
+      "单条套路句式超限：「陈镇长点」×3"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 134.6,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T19:16:56"
+}

@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-198",
+  "profile": "视频分镜",
+  "title": "裂镜",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6919,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6487,
+    "chapter_chars_mean": 1081,
+    "chapter_chars_median": 1123,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 28.3,
+    "dialogue_chars_pct": 23.9,
+    "dialogue_para_pct": 52.5,
+    "interiority_para_pct": 2.2,
+    "narration_para_pct": 45.3,
+    "turn_under20_pct": 92.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 48.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铜质推子的震颤",
+      "chars": 627,
+      "score": 38.2,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "铜质推子的震颤",
+      "chars": 1189,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "触摸裂痕的掌心",
+      "chars": 1625,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "镜子的裂痕",
+      "chars": 977,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "争夺铜推子",
+      "chars": 1201,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "传递铜推子的掌心",
+      "chars": 1294,
+      "score": 88.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 572 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 标题重复：「铜质推子的震颤」已存在"
+    ],
+    "3": [
+      "[observe] 章内自我复读 3 句（如「他说，声音有些发颤，“这把推子，是我师父教我的…」）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 174.9,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T14:31:29"
+}

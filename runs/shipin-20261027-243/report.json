@@ -1,0 +1,120 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-243",
+  "profile": "视频分镜",
+  "title": "雨靴",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7187,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6644,
+    "chapter_chars_mean": 1107,
+    "chapter_chars_median": 1227,
+    "chapter_chars_cv": 0.3,
+    "paragraphs_mean": 37.8,
+    "dialogue_chars_pct": 26.3,
+    "dialogue_para_pct": 58.0,
+    "interiority_para_pct": 0.6,
+    "narration_para_pct": 41.3,
+    "turn_under20_pct": 95.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 51.6,
+    "attr_adv_pct": 2.7,
+    "scenes_per_chapter": 2.2,
+    "dialogue_run_mean": 2.6,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙的归属",
+      "chars": 544,
+      "score": 37.9,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "塑料袋的归宿",
+      "chars": 1425,
+      "score": 95.5,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "雨靴的归属",
+      "chars": 1144,
+      "score": 92.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "旧皮鞋的归属",
+      "chars": 1244,
+      "score": 92.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "交接旧皮鞋",
+      "chars": 1401,
+      "score": 91.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙与红绳的对话",
+      "chars": 1423,
+      "score": 93.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 485 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 33.3 低于目标 35.0"
+    ],
+    "3": [
+      "单条套路句式超限：「李秀兰站在」×3、「点了点头」×3",
+      "[observe] 标题与《钥匙的归属》近似 0.60 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "narration_para_pct 30.3 低于目标 35.0",
+      "attr_adv_pct 14.3 高于目标 10.0",
+      "dialogue_run_mean 4.6 高于目标 4.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李秀兰站在」×3、「李秀兰的」×3",
+      "narration_para_pct 31.2 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 128.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T15:47:01"
+}

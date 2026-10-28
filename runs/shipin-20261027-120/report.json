@@ -1,0 +1,109 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-120",
+  "profile": "视频分镜",
+  "title": "冰台",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 7057,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6641,
+    "chapter_chars_mean": 1107,
+    "chapter_chars_median": 1143,
+    "chapter_chars_cv": 0.24,
+    "paragraphs_mean": 27.3,
+    "dialogue_chars_pct": 10.9,
+    "dialogue_para_pct": 44.4,
+    "interiority_para_pct": 1.6,
+    "narration_para_pct": 54.0,
+    "turn_under20_pct": 98.9,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1,
+    "dialogue_run_mean": 1.5,
+    "turn_len_median": 7
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "信封在冰台飘荡",
+      "chars": 692,
+      "score": 95.0,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 2,
+      "title": "鱼鳞碰触水面",
+      "chars": 1518,
+      "score": 93.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "铜铃坠地",
+      "chars": 1106,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "信封与秤杆对峙",
+      "chars": 1268,
+      "score": 90.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 5,
+      "title": "信封坠入水桶",
+      "chars": 1161,
+      "score": 92.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "鱼骨夺信",
+      "chars": 1306,
+      "score": 90.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "2": [
+      "单条套路句式超限：「李大山的」×3"
+    ],
+    "3": [
+      "dialogue_chars_pct 4.6 低于目标 5.0"
+    ],
+    "6": [
+      "单条套路句式超限：「李大山的」×4"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 159.4,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:23:24"
+}

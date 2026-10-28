@@ -1,0 +1,122 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-06",
+  "profile": "视频分镜",
+  "title": "灯影",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6529,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 6167,
+    "chapter_chars_mean": 1028,
+    "chapter_chars_median": 1173,
+    "chapter_chars_cv": 0.39,
+    "paragraphs_mean": 22.7,
+    "dialogue_chars_pct": 18.2,
+    "dialogue_para_pct": 54.0,
+    "interiority_para_pct": 3.2,
+    "narration_para_pct": 42.8,
+    "turn_under20_pct": 96.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 18.1,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "应急灯微调位置",
+      "chars": 362,
+      "score": 23.4,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "铅笔断在霜花中",
+      "chars": 1419,
+      "score": 92.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "铜铃静止",
+      "chars": 1355,
+      "score": 84.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "保温杯凝霜",
+      "chars": 1387,
+      "score": 91.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 5,
+      "title": "试卷边缘摩挲",
+      "chars": 1109,
+      "score": 89.4,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "应急灯闪烁红光",
+      "chars": 891,
+      "score": 36.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 4.3 低于目标 5.0",
+      "interiority_para_pct 8.3 高于目标 6.0",
+      "[observe] 章节过短 323 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 31.2 低于目标 35.0"
+    ],
+    "3": [
+      "interiority_para_pct 9.5 高于目标 6.0"
+    ],
+    "4": [
+      "narration_para_pct 24.1 低于目标 35.0",
+      "dialogue_run_mean 4.2 高于目标 4.0"
+    ],
+    "5": [
+      "单条套路句式超限：「王小雨的」×3"
+    ],
+    "6": [
+      "单条套路句式超限：「李国强站在」×3",
+      "[observe] 章节过短 842 < 870（本章目标 1582 字的 55%）"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 138.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T09:24:50"
+}

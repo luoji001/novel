@@ -1,0 +1,69 @@
+[
+  {
+    "no": 1,
+    "title": "应急灯亮起",
+    "beat": "清晨六点，教室：李国强按下应急灯开关，红色指示灯亮起",
+    "target_chars": 1087,
+    "scale": "short",
+    "must_object": "应急灯",
+    "speakers": [
+      "李国强"
+    ]
+  },
+  {
+    "no": 2,
+    "title": "铅笔敲打桌面",
+    "beat": "上午九点，教室：王小雨用铅笔敲打桌面，引起李国强注意",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "铅笔",
+    "speakers": [
+      "王小雨"
+    ]
+  },
+  {
+    "no": 3,
+    "title": "铜铃摇晃",
+    "beat": "中午十二点，教室：王小雨的书包铜铃摇晃，李国强注意到",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "书包",
+    "speakers": [
+      "王小雨",
+      "李国强"
+    ]
+  },
+  {
+    "no": 4,
+    "title": "保温杯敲击",
+    "beat": "下午三点，校长办公室：陈秀兰用保温杯敲击桌面，打断争吵",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "保温杯",
+    "speakers": [
+      "陈秀兰"
+    ]
+  },
+  {
+    "no": 5,
+    "title": "试卷递出",
+    "beat": "傍晚五点，教室：王小雨将试卷递给李国强，请求帮助",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "试卷",
+    "speakers": [
+      "王小雨"
+    ]
+  },
+  {
+    "no": 6,
+    "title": "灯光熄灭",
+    "beat": "夜晚八点，教室：应急灯熄灭，李国强独自留在教室",
+    "target_chars": 1582,
+    "scale": "normal",
+    "must_object": "应急灯",
+    "speakers": [
+      "李国强"
+    ]
+  }
+]

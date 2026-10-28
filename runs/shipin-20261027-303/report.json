@@ -1,0 +1,124 @@
+{
+  "consistency": "1. 第一章与第五章、第六章均出现“钥匙串在锁孔发烫”的标题，但内容和情节不一致，存在重复标题导致的混淆。  \n2. 第六章提到陈志远在监控室打开蓝色收纳箱，但第三章明确指出陈志远在储物间打开蓝色收纳箱，地点不一致。  \n3. 第六章提到陈志远与小林争夺录像带，但第五章提到小林藏起磁带，未提及录像带，前后不一致。  \n4. 第三章提到监控画面出现异常，但未说明异常原因，与后续情节无直接关联，未交代清楚。  \n5. 第六章提到陈志远在监控室打开蓝色收纳箱，但第一章提到小林用钥匙打开监控室大门，未说明监控室是否与储物间相连，逻辑不清晰。",
+  "slug": "shipin-20261027-303",
+  "profile": "视频分镜",
+  "title": "钥匙",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5890,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5505,
+    "chapter_chars_mean": 918,
+    "chapter_chars_median": 978,
+    "chapter_chars_cv": 0.37,
+    "paragraphs_mean": 22.5,
+    "dialogue_chars_pct": 6.0,
+    "dialogue_para_pct": 21.8,
+    "interiority_para_pct": 0.0,
+    "narration_para_pct": 78.2,
+    "turn_under20_pct": 100.0,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 64.5,
+    "attr_adv_pct": 10.6,
+    "scenes_per_chapter": 2.8,
+    "dialogue_run_mean": 2.5,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙串在锁孔发烫",
+      "chars": 334,
+      "score": 21.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "撬开蓝色塑料箱",
+      "chars": 1046,
+      "score": 51.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "蓝色塑料箱震动",
+      "chars": 1041,
+      "score": 48.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "钥匙串与碎玻璃",
+      "chars": 988,
+      "score": 89.6,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙串在锁孔发烫",
+      "chars": 1075,
+      "score": 92.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 6,
+      "title": "钥匙串在锁孔发烫",
+      "chars": 1400,
+      "score": 22.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0",
+      "[observe] 章节过短 294 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "dialogue_chars_pct 0.0 低于目标 5.0",
+      "narration_para_pct 100.0 高于目标 90.0"
+    ],
+    "3": [
+      "dialogue_chars_pct 4.0 低于目标 5.0",
+      "[observe] 标题与《撬开蓝色塑料箱》近似 0.71 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "dialogue_run_mean 5 高于目标 4.0"
+    ],
+    "5": [
+      "[observe] 标题重复：「钥匙串在锁孔发烫」已存在"
+    ],
+    "6": [
+      "单条套路句式超限：「陈志远的」×3",
+      "[observe] attr_adv_pct 33.3 > 18.0（结构塌缩）",
+      "[observe] 标题重复：「钥匙串在锁孔发烫」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 131.7,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:22:17"
+}

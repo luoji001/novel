@@ -1,0 +1,112 @@
+{
+  "consistency": "1. 李建国主张每天清晨6点坐在副驾驶座上，但第三章中陈志强在清晨6点在学员宿舍醒来，与李建国的作息时间存在时间线错乱。  \n2. 林小雨主张每天清晨6点出现在练车场门口，但第三章中她与李建国相遇时，陈志强也出现在现场，时间线存在重叠但未明确说明三人是否同时出现。  \n3. 陈志强主张每天清晨6点在学员宿舍醒来，但第五章中他发现水壶底部暗痕并注意到楼下教练车副驾的硬币，暗示他可能在非清晨6点的时间段出现，与主张不符。  \n4. 第三章中陈志强在枕头下摸到硬币，但第四章中李建国在练车场发现硬币，未说明硬币如何从陈志强枕头下转移到李建国的教练车副驾驶座。  \n5. 第五章中陈志强发现水壶底部暗痕，但未提及该水壶是否与李建国或林小雨有关，前后缺乏关联。  \n6. 第六章中李建国在教练车副驾驶座发现硬币，但第四章中已提到李建国与林小雨共同揭开钥匙的秘密，未说明硬币是否与钥匙有关，逻辑不连贯。",
+  "slug": "shipin-20261027-320",
+  "profile": "视频分镜",
+  "title": "硬币",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6219,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5740,
+    "chapter_chars_mean": 957,
+    "chapter_chars_median": 1066,
+    "chapter_chars_cv": 0.36,
+    "paragraphs_mean": 31.7,
+    "dialogue_chars_pct": 12.7,
+    "dialogue_para_pct": 30.1,
+    "interiority_para_pct": 0.9,
+    "narration_para_pct": 69.0,
+    "turn_under20_pct": 96.5,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 19.2,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 2,
+    "dialogue_run_mean": 1.4,
+    "turn_len_median": 9
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "副驾驶座的硬币",
+      "chars": 455,
+      "score": 37.1,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "副驾驶座的硬币",
+      "chars": 1401,
+      "score": 91.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "挂钟消失的早晨",
+      "chars": 784,
+      "score": 37.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙沉入箱子",
+      "chars": 1292,
+      "score": 95.0,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "壶底暗痕",
+      "chars": 1074,
+      "score": 91.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    },
+    {
+      "no": 6,
+      "title": "钥匙与硬币对峙",
+      "chars": 1207,
+      "score": 89.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 0
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 404 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "[observe] 标题重复：「副驾驶座的硬币」已存在"
+    ],
+    "3": [
+      "[observe] 章节过短 699 < 870（本章目标 1582 字的 55%）"
+    ],
+    "4": [
+      "单条套路句式超限：「李建国站在」×4"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 124.8,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T17:51:39"
+}

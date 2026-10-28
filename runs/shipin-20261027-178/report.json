@@ -1,0 +1,121 @@
+{
+  "consistency": "未发现",
+  "slug": "shipin-20261027-178",
+  "profile": "视频分镜",
+  "title": "红布条",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 5790,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5426,
+    "chapter_chars_mean": 904,
+    "chapter_chars_median": 978,
+    "chapter_chars_cv": 0.29,
+    "paragraphs_mean": 22.2,
+    "dialogue_chars_pct": 21.5,
+    "dialogue_para_pct": 55.6,
+    "interiority_para_pct": 0.7,
+    "narration_para_pct": 43.7,
+    "turn_under20_pct": 91.4,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 66.0,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.5,
+    "dialogue_run_mean": 1.8,
+    "turn_len_median": 10
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "钥匙板上的细碎声响",
+      "chars": 520,
+      "score": 35.7,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 2,
+      "title": "钥匙上的细小刻痕",
+      "chars": 1154,
+      "score": 91.8,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 3,
+      "title": "红布条系树干",
+      "chars": 1226,
+      "score": 93.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 4,
+      "title": "钥匙与木牌对峙",
+      "chars": 800,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 5,
+      "title": "钥匙与疤痕的对望",
+      "chars": 1117,
+      "score": 90.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "红布条系树干",
+      "chars": 967,
+      "score": 88.1,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "dialogue_chars_pct 1.7 低于目标 5.0",
+      "narration_para_pct 95.0 高于目标 90.0",
+      "[observe] 章节过短 463 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "单条套路句式超限：「林晓晴的」×4、「周德昌的」×3"
+    ],
+    "3": [
+      "narration_para_pct 31.8 低于目标 35.0"
+    ],
+    "4": [
+      "[observe] 章节过短 737 < 870（本章目标 1582 字的 55%）"
+    ],
+    "5": [
+      "单条套路句式超限：「周德昌的」×5、「林晓晴的」×3",
+      "narration_para_pct 28.6 低于目标 35.0"
+    ],
+    "6": [
+      "[observe] 标题重复：「红布条系树干」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 137.2,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T13:59:36"
+}

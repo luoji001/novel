@@ -1,0 +1,123 @@
+{
+  "consistency": "1. 第二章标题为《豆腐与铁钳相触》，但内容中未提及豆腐与铁钳的互动，与标题不符。  \n2. 第三章与第四章标题相同，均为《铁钳夹住信角》，但内容描述不同，存在标题重复但内容不一致的问题。  \n3. 第五章标题为《铁钳夹住鱼尾》，但内容中并未提及鱼尾，与标题不符。  \n4. 第六章提到“在回忆往事后将信归还”，但前文未提及信的来源或为何被争夺，导致情节逻辑不完整。  \n5. 第三章提到李婶将信投入排水口，第四章陈老板调解争执，但未说明信是否被找回或处理，前后不一致。  \n6. 第五章提到“争夺一封信和一条鱼”，但前文未提及鱼与信的关联，导致情节突兀。",
+  "slug": "shipin-20261027-134",
+  "profile": "视频分镜",
+  "title": "信落",
+  "gate_mode": "observe",
+  "chapters": 6,
+  "total_chars": 6360,
+  "book_metrics": {
+    "chapters": 6,
+    "total_chars": 5913,
+    "chapter_chars_mean": 986,
+    "chapter_chars_median": 1012,
+    "chapter_chars_cv": 0.32,
+    "paragraphs_mean": 29.7,
+    "dialogue_chars_pct": 20.9,
+    "dialogue_para_pct": 59.7,
+    "interiority_para_pct": 0.3,
+    "narration_para_pct": 40.0,
+    "turn_under20_pct": 96.7,
+    "turn_over200_pct": 0.0,
+    "attr_say_pct": 33.5,
+    "attr_adv_pct": 0.0,
+    "scenes_per_chapter": 1.2,
+    "dialogue_run_mean": 2.0,
+    "turn_len_median": 8
+  },
+  "per_chapter": [
+    {
+      "no": 1,
+      "title": "铁钳夹住鱼尾",
+      "chars": 521,
+      "score": 37.6,
+      "scale": "short",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    },
+    {
+      "no": 2,
+      "title": "豆腐与铁钳相触",
+      "chars": 872,
+      "score": 36.9,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 3,
+      "title": "铁钳夹住信角",
+      "chars": 1348,
+      "score": 94.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 4,
+      "title": "铁钳夹住信角",
+      "chars": 1390,
+      "score": 36.3,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 3
+    },
+    {
+      "no": 5,
+      "title": "铁钳夹住鱼尾",
+      "chars": 1036,
+      "score": 92.7,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 2
+    },
+    {
+      "no": 6,
+      "title": "铁钳夹住信角",
+      "chars": 1187,
+      "score": 90.2,
+      "scale": "normal",
+      "attempts": 0,
+      "degraded": false,
+      "debt_count": 1
+    }
+  ],
+  "quality_debt": {
+    "1": [
+      "[observe] 章节过短 459 < 597（本章目标 1087 字的 55%）"
+    ],
+    "2": [
+      "narration_para_pct 25.0 低于目标 35.0",
+      "[observe] 章节过短 833 < 870（本章目标 1582 字的 55%）"
+    ],
+    "3": [
+      "单条套路句式超限：「老张站在」×3",
+      "[observe] 标题与《铁钳夹住鱼尾》近似 0.67 ≥ 0.6（换个角度，别只换一个词）"
+    ],
+    "4": [
+      "单条套路句式超限：「老张站在」×3",
+      "[observe] 章内自我复读 2 句（如「你们俩要是再这样闹下去，我怕是要请警察来了…」）",
+      "[observe] 标题重复：「铁钳夹住信角」已存在"
+    ],
+    "5": [
+      "narration_para_pct 27.8 低于目标 35.0",
+      "[observe] 标题重复：「铁钳夹住鱼尾」已存在"
+    ],
+    "6": [
+      "[observe] 标题重复：「铁钳夹住信角」已存在"
+    ]
+  },
+  "cost": {
+    "llm_calls": 57,
+    "calls_counted": 57,
+    "llm_seconds": 145.1,
+    "concurrency": 2
+  },
+  "halted": "",
+  "generated_at": "2026-10-27T12:49:01"
+}

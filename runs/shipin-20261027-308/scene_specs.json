@@ -1,0 +1,222 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "张伟",
+        "输液椅"
+      ],
+      "driver": "张伟伸手触碰输液椅扶手",
+      "entry_state": "输液椅空着",
+      "outcome": "输液椅扶手被张伟手指擦过",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "张伟",
+        "输液椅"
+      ],
+      "driver": "张伟将输液椅推到药瓶前",
+      "entry_state": "输液椅扶手被擦过",
+      "outcome": "输液椅移至药瓶前",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "护士站",
+      "present": [
+        "周晓芸",
+        "登记本"
+      ],
+      "driver": "周晓芸左手按住登记本，阻止张伟靠近药瓶",
+      "entry_state": "登记本平放在护士站桌上",
+      "outcome": "登记本被周晓芸左手按住，无法翻页",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "护士站",
+      "present": [
+        "周晓芸",
+        "登记本"
+      ],
+      "driver": "周晓芸用右手将登记本推回桌面，左手仍按住",
+      "entry_state": "登记本被按住无法翻页",
+      "outcome": "登记本回到桌面，但被按住无法翻页",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "护士站",
+      "present": [
+        "周晓芸",
+        "登记本"
+      ],
+      "driver": "周晓芸将登记本合上，用左手按住封面",
+      "entry_state": "登记本被按住无法翻页",
+      "outcome": "登记本合上并被按住，无法再被翻动",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "药房",
+      "present": [
+        "林雪梅",
+        "药架"
+      ],
+      "driver": "林雪梅用手指敲击药架侧面",
+      "entry_state": "药架静止在原位",
+      "outcome": "药架发出清脆的响声",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "药房",
+      "present": [
+        "林雪梅",
+        "药架"
+      ],
+      "driver": "林雪梅将药架向护士站方向推了半步",
+      "entry_state": "药架发出清脆的响声",
+      "outcome": "药架移至靠近护士站的位置",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "药房",
+      "present": [
+        "林雪梅",
+        "药架"
+      ],
+      "driver": "林雪梅用左手扶住药架边缘，右手敲击顶部",
+      "entry_state": "药架移至靠近护士站的位置",
+      "outcome": "药架被固定在护士站附近",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "陈志远",
+        "药瓶"
+      ],
+      "driver": "陈志远伸手抓住药瓶瓶身",
+      "entry_state": "药瓶静止在药架上",
+      "outcome": "药瓶被陈志远握在手中",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "陈志远",
+        "药瓶"
+      ],
+      "driver": "陈志远将药瓶贴近胸口",
+      "entry_state": "药瓶被陈志远握在手中",
+      "outcome": "药瓶紧贴陈志远胸口",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "陈志远",
+        "药瓶"
+      ],
+      "driver": "陈志远试图将药瓶塞进外套口袋",
+      "entry_state": "药瓶紧贴陈志远胸口",
+      "outcome": "药瓶被陈志远塞进外套口袋",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "监控摄像头",
+        "药瓶",
+        "张伟",
+        "护士长"
+      ],
+      "driver": "监控摄像头从天花板垂下，镜头对准药瓶",
+      "entry_state": "监控摄像头静止在天花板上",
+      "outcome": "监控摄像头镜头转向药瓶",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "监控摄像头",
+        "张伟",
+        "护士长"
+      ],
+      "driver": "张伟伸手去抓药瓶，监控摄像头被护士长推到墙边",
+      "entry_state": "监控摄像头镜头对准药瓶",
+      "outcome": "监控摄像头被推到墙边",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "监控摄像头",
+        "张伟",
+        "护士长"
+      ],
+      "driver": "护士长用登记本挡住监控摄像头，镜头转向张伟",
+      "entry_state": "监控摄像头被推到墙边",
+      "outcome": "监控摄像头被登记本遮挡",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "输液室",
+      "present": [
+        "张伟",
+        "输液椅"
+      ],
+      "driver": "张伟坐下，输液椅扶手轻微下陷",
+      "entry_state": "输液椅空着",
+      "outcome": "输液椅被张伟坐下",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "输液室",
+      "present": [
+        "张伟",
+        "输液椅"
+      ],
+      "driver": "张伟伸手触碰输液椅扶手，指尖留下浅痕",
+      "entry_state": "输液椅被张伟坐下",
+      "outcome": "输液椅扶手有浅痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "输液室",
+      "present": [
+        "张伟",
+        "输液椅"
+      ],
+      "driver": "张伟将输液椅推到墙边，椅背贴住墙面",
+      "entry_state": "输液椅扶手有浅痕",
+      "outcome": "输液椅靠墙",
+      "target_chars": 527
+    }
+  ]
+}

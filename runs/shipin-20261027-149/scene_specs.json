@@ -1,0 +1,212 @@
+{
+  "1": [
+    {
+      "idx": 1,
+      "place": "便利店监控室",
+      "present": [
+        "监控屏幕",
+        "小林"
+      ],
+      "driver": "小林左手按住红色警报按钮",
+      "entry_state": "监控屏幕正常显示",
+      "outcome": "监控屏幕右下角出现红色警告标志",
+      "target_chars": 543
+    },
+    {
+      "idx": 2,
+      "place": "便利店监控室",
+      "present": [
+        "监控屏幕",
+        "小林"
+      ],
+      "driver": "小林右手拿起工牌遮住屏幕一角",
+      "entry_state": "监控屏幕右下角有红色警告标志",
+      "outcome": "监控屏幕被小林工牌部分遮挡",
+      "target_chars": 543
+    }
+  ],
+  "2": [
+    {
+      "idx": 1,
+      "place": "停车场",
+      "present": [
+        "黑色轿车",
+        "陈浩"
+      ],
+      "driver": "陈浩用脚尖顶开轿车后备箱盖",
+      "entry_state": "轿车后备箱盖被顶开",
+      "outcome": "后备箱盖半开，露出内部轮廓",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "停车场",
+      "present": [
+        "黑色轿车",
+        "陈浩"
+      ],
+      "driver": "陈浩用机械表割断轿车车锁",
+      "entry_state": "轿车后备箱盖半开",
+      "outcome": "车锁被切断，轿车车门可被打开",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "停车场",
+      "present": [
+        "黑色轿车",
+        "陈浩"
+      ],
+      "driver": "陈浩将轿车钥匙插入启动孔",
+      "entry_state": "轿车车锁被切断",
+      "outcome": "轿车钥匙插入启动孔，准备发动",
+      "target_chars": 527
+    }
+  ],
+  "3": [
+    {
+      "idx": 1,
+      "place": "便利店储物柜",
+      "present": [
+        "便利店经理"
+      ],
+      "driver": "便利店经理伸手摸了摸储物柜把手",
+      "entry_state": "储物柜未开启",
+      "outcome": "储物柜把手被按出凹痕",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店储物柜",
+      "present": [
+        "便利店经理"
+      ],
+      "driver": "便利店经理用钥匙插入锁孔转动",
+      "entry_state": "储物柜把手被按出凹痕",
+      "outcome": "储物柜锁芯发出轻微咔嗒声",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店储物柜",
+      "present": [
+        "便利店经理"
+      ],
+      "driver": "便利店经理将备用电池从储物柜取出放入口袋",
+      "entry_state": "储物柜锁芯发出轻微咔嗒声",
+      "outcome": "备用电池从储物柜中消失",
+      "target_chars": 527
+    }
+  ],
+  "4": [
+    {
+      "idx": 1,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "红色警报按钮"
+      ],
+      "driver": "小林左手按住红色警报按钮",
+      "entry_state": "红色警报按钮处于未触发状态",
+      "outcome": "红色警报按钮被小林按住",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "红色警报按钮"
+      ],
+      "driver": "小林将红色警报按钮向右滑动",
+      "entry_state": "红色警报按钮被按住",
+      "outcome": "红色警报按钮滑动至半触发状态",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店监控室",
+      "present": [
+        "小林",
+        "红色警报按钮"
+      ],
+      "driver": "小林用左手完全按下红色警报按钮",
+      "entry_state": "红色警报按钮滑动至半触发状态",
+      "outcome": "红色警报按钮被完全按下",
+      "target_chars": 527
+    }
+  ],
+  "5": [
+    {
+      "idx": 1,
+      "place": "便利店停车场",
+      "present": [
+        "陈浩",
+        "黑色轿车钥匙"
+      ],
+      "driver": "陈浩用螺丝刀撬开储物柜铁皮",
+      "entry_state": "储物柜铁皮被撬开",
+      "outcome": "黑色轿车钥匙掉落在地上",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店停车场",
+      "present": [
+        "陈浩",
+        "黑色轿车钥匙"
+      ],
+      "driver": "陈浩弯腰捡起钥匙并擦去锈迹",
+      "entry_state": "黑色轿车钥匙掉落在地上",
+      "outcome": "黑色轿车钥匙被擦去锈迹",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店停车场",
+      "present": [
+        "陈浩",
+        "黑色轿车钥匙"
+      ],
+      "driver": "陈浩将钥匙插入储物柜锁孔尝试开启",
+      "entry_state": "黑色轿车钥匙被擦去锈迹",
+      "outcome": "黑色轿车钥匙卡在锁孔中",
+      "target_chars": 527
+    }
+  ],
+  "6": [
+    {
+      "idx": 1,
+      "place": "便利店收银机旁",
+      "present": [
+        "便利店经理"
+      ],
+      "driver": "便利店经理将钥匙插入收银机锁孔",
+      "entry_state": "收银机锁孔未被触碰",
+      "outcome": "收银机锁孔被钥匙插入",
+      "target_chars": 527
+    },
+    {
+      "idx": 2,
+      "place": "便利店收银机旁",
+      "present": [
+        "便利店经理"
+      ],
+      "driver": "便利店经理用左手扶住收银机边缘",
+      "entry_state": "收银机锁孔被钥匙插入",
+      "outcome": "收银机边缘被手扶住",
+      "target_chars": 527
+    },
+    {
+      "idx": 3,
+      "place": "便利店收银机旁",
+      "present": [
+        "便利店经理"
+      ],
+      "driver": "便利店经理将收银机钥匙放回口袋",
+      "entry_state": "收银机边缘被手扶住",
+      "outcome": "收银机钥匙回到便利店经理口袋",
+      "target_chars": 527
+    }
+  ]
+}
